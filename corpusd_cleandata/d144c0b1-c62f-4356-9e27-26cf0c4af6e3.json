@@ -1,0 +1,543 @@
+{
+    "id": "d144c0b1-c62f-4356-9e27-26cf0c4af6e3",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 2020 inm. All Rights Reserved.",
+    "geoOrigin": "Dublin, Ireland",
+    "sourceType": "Newspaper",
+    "source": "Irish Independent (Ireland)",
+    "corpus_document_id": "91780476669987272864",
+    "description": "The figure equated to more than one death per minute and means the country now has the world\u2019 s third highest death toll. For the second straight night, the health ministry delayed the release of Thursday\u2019 s data until 10 pm local time, after Brazil\u2019 s widely watched evening news programme ended. The country has reported more than 34,000 deaths from the virus so far,...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "parent": "LR/eur",
+            "relevance_score": "7",
+            "description": "Northern Europe",
+            "code": "LB/neur#7#49#70",
+            "level": 1
+        },
+        {
+            "parent": "LR/eur",
+            "relevance_score": "7",
+            "description": "Southern Europe",
+            "code": "LB/seur#7#49#70",
+            "level": 1
+        },
+        {
+            "parent": "LB/neur",
+            "relevance_score": "7",
+            "description": "United Kingdom",
+            "code": "LC/gb#7#70#49",
+            "level": 2
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Business and Commerce",
+            "code": "IS/biz#5#50#58",
+            "level": 0
+        },
+        {
+            "parent": "IS/impact.ops",
+            "relevance_score": "5",
+            "description": "New Products",
+            "code": "IS/biz.newprod#5#50#58",
+            "level": 2
+        },
+        {
+            "parent": "IS/biz",
+            "relevance_score": "5",
+            "description": "Product Research and Development",
+            "code": "IS/biz.pdev#5#50#58",
+            "level": 1
+        },
+        {
+            "parent": "IS/biz.newprod",
+            "relevance_score": "5",
+            "description": "Delayed Product Launch",
+            "code": "IS/biz.prodelay#5#58#50",
+            "level": 3
+        }
+    ],
+    "text": "The figure equated to more than one death per minute and means the country now\nhas the world's third highest death toll.\n\nFor the second straight night, the health ministry delayed the release of\nThursday's data until 10pm local time, after Brazil's widely watched evening\nnews programme ended.\n\nThursday was the third straight day with a new daily high for Brazil's\ncoronavirus deaths.\n\n![]()\n\nThe country has reported more than 34,000 deaths from the virus so far,\nmeaning it has surpassed the amount in Italy and trails only the UK and US.\n\nExperts consider the tally a significant undercount due to insufficient\ntesting.\n\n![](https://www.independent.ie/world-\nnews/0a82d/39261919.ece/AUTOCROP/w1240h700/ipanews_420b08a1-11cc-47ed-940f-cd77104336ce_1)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "The country has reported more than 34,000 deaths from the virus so far, meaning it has surpassed the amount in <location idsrc=\"xmltag.org\" value=\"LC/it\">Italy",
+            "UK"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/ie..dublin",
+    "language": "English",
+    "filename": "202006042140INM_____NEWS____39261921.XML",
+    "providerName": "Independent News and Media",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Brazil",
+                "relevance": 0.891134,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Italy",
+                "relevance": 0.415996,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "US",
+                "relevance": 0.409498,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "UK",
+                "relevance": 0.3555,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The figure"
+                },
+                "sentence": "The figure equated to more than one death per minute and means the country now",
+                "object": {
+                    "text": "the country"
+                },
+                "action": {
+                    "verb": {
+                        "text": "mean",
+                        "tense": "present"
+                    },
+                    "text": "means",
+                    "normalized": "mean"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the health ministry"
+                },
+                "sentence": " For the second straight night, the health ministry delayed the release of",
+                "object": {
+                    "text": "the release of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "delay",
+                        "tense": "past"
+                    },
+                    "text": "delayed",
+                    "normalized": "delay"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The country"
+                },
+                "sentence": " The country has reported more than 34,000 deaths from the virus so far,",
+                "object": {
+                    "text": "reported more than 34,000 deaths from the virus so far"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The country"
+                },
+                "sentence": " The country has reported more than 34,000 deaths from the virus so far,",
+                "object": {
+                    "text": "more than 34,000 deaths from the virus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "past"
+                    },
+                    "text": "has reported",
+                    "normalized": "have report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " meaning it has surpassed the amount in Italy and trails only the UK and US.",
+                "object": {
+                    "text": "surpassed the amount in Italy and trails only the UK and US"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " meaning it has surpassed the amount in Italy and trails only the UK and US.",
+                "object": {
+                    "text": "the amount in Italy and trails only the UK and US"
+                },
+                "action": {
+                    "verb": {
+                        "text": "surpass",
+                        "tense": "past"
+                    },
+                    "text": "has surpassed",
+                    "normalized": "have surpass"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " meaning it has surpassed the amount in Italy and trails only the UK and US.",
+                "object": {
+                    "text": "only the UK and US"
+                },
+                "action": {
+                    "verb": {
+                        "text": "trail",
+                        "tense": "present"
+                    },
+                    "text": "trails",
+                    "normalized": "trail"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Experts"
+                },
+                "sentence": " Experts consider the tally a significant undercount due to insufficient",
+                "object": {
+                    "text": "the tally a significant undercount due to insufficient"
+                },
+                "action": {
+                    "verb": {
+                        "text": "consider",
+                        "tense": "present"
+                    },
+                    "text": "consider",
+                    "normalized": "consider"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.822648,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.811896,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.587532,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "The figure equated to more than one death per minute and means the country now has the world's third highest death toll.",
+                "score": 0.468621,
+                "arguments": [
+                    {
+                        "text": "country",
+                        "location": [
+                            67,
+                            74
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Italy",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "world",
+                        "location": [
+                            87,
+                            92
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "world",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Area"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Thursday's data",
+                "relevance": 0.800822,
+                "count": 1
+            },
+            {
+                "text": "0a82d",
+                "relevance": 0.771625,
+                "count": 1
+            },
+            {
+                "text": "second straight night",
+                "relevance": 0.686229,
+                "count": 1
+            },
+            {
+                "text": "world's third highest death toll",
+                "relevance": 0.685861,
+                "count": 1
+            },
+            {
+                "text": "420b08a1",
+                "relevance": 0.624978,
+                "count": 1
+            },
+            {
+                "text": "local time",
+                "relevance": 0.608451,
+                "count": 1
+            },
+            {
+                "text": "health ministry",
+                "relevance": 0.598319,
+                "count": 1
+            },
+            {
+                "text": "third straight day",
+                "relevance": 0.576652,
+                "count": 1
+            },
+            {
+                "text": "news",
+                "relevance": 0.570773,
+                "count": 1
+            },
+            {
+                "text": "figure",
+                "relevance": 0.560969,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.542904,
+                "count": 2
+            },
+            {
+                "text": "Experts",
+                "relevance": 0.540963,
+                "count": 1
+            },
+            {
+                "text": "death",
+                "relevance": 0.539428,
+                "count": 1
+            },
+            {
+                "text": "minute",
+                "relevance": 0.529529,
+                "count": 1
+            },
+            {
+                "text": "amount",
+                "relevance": 0.519715,
+                "count": 1
+            },
+            {
+                "text": "Italy",
+                "relevance": 0.515365,
+                "count": 1
+            },
+            {
+                "text": "11cc-47ed",
+                "relevance": 0.514226,
+                "count": 1
+            },
+            {
+                "text": "trails",
+                "relevance": 0.512674,
+                "count": 1
+            },
+            {
+                "text": "Brazil",
+                "relevance": 0.512674,
+                "count": 2
+            },
+            {
+                "text": "deaths",
+                "relevance": 0.509876,
+                "count": 1
+            },
+            {
+                "text": "US",
+                "relevance": 0.508622,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.508622,
+                "count": 1
+            },
+            {
+                "text": "release",
+                "relevance": 0.508622,
+                "count": 1
+            },
+            {
+                "text": "coronavirus deaths",
+                "relevance": 0.503636,
+                "count": 1
+            },
+            {
+                "text": "significant undercount",
+                "relevance": 0.496771,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.456014,
+                "count": 1
+            },
+            {
+                "text": "39261919.ece",
+                "relevance": 0.453935,
+                "count": 1
+            },
+            {
+                "text": "AUTOCROP",
+                "relevance": 0.451954,
+                "count": 1
+            },
+            {
+                "text": "ipanews",
+                "relevance": 0.446292,
+                "count": 1
+            },
+            {
+                "text": "tally",
+                "relevance": 0.431318,
+                "count": 1
+            },
+            {
+                "text": "940f",
+                "relevance": 0.425624,
+                "count": 1
+            },
+            {
+                "text": "UK",
+                "relevance": 0.425624,
+                "count": 1
+            },
+            {
+                "text": "77104336ce",
+                "relevance": 0.423833,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "82cb163d8efd8d02463897257b6f8f31e408cc39",
+        "filename": "202006042140INM_____NEWS____39261921.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-04T21:40:00-04:00",
+    "title": "Brazil death toll hits new high for third straight day",
+    "html": "<p>The figure equated to more than one death per minute and means the country now has the world&#8217;s third highest death toll.</p>\n                                <p>For the second straight night, the health ministry delayed the release of Thursday&#8217;s data until <chron>10pm</chron> local time, after Brazil&#8217;s widely watched evening news programme ended.</p>\n                                <p>Thursday was the third straight day with a new daily high for Brazil&#8217;s coronavirus deaths.</p>\n                                <p /><div class=\"relative\">\n      <img src=\"\" />\n        </div>\n<p>                    </p>\n                                <p>The country has reported more than 34,000 deaths from the virus so far, meaning it has surpassed the amount in <location idsrc=\"xmltag.org\" value=\"LC/it\">Italy</location> and trails only the <location idsrc=\"xmltag.org\" value=\"LC/gb\">UK</location> and US.</p>\n                                <p>Experts consider the tally a significant undercount due to insufficient testing.</p>\n    <div>\n\n\n\n\n    </div><img src=\"https://www.independent.ie/world-news/0a82d/39261919.ece/AUTOCROP/w1240h700/ipanews_420b08a1-11cc-47ed-940f-cd77104336ce_1\" />",
+    "geoFocus": [
+        [
+            "GC/ie",
+            "Ireland"
+        ],
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

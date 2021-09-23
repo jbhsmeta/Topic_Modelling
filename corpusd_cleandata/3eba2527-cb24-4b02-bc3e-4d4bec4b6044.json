@@ -1,0 +1,284 @@
+{
+    "id": "3eba2527-cb24-4b02-bc3e-4d4bec4b6044",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "76483582508205322392",
+    "description": "Animal husbandry zoology, tile work more info: Location: GERMANY BidDate: 6/ 9/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: University of Hamburg Tendering Authority Address: 20146 Hamburg Hamburg Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Animal husbandry zoology, tile work more info : Location : GERMANY BidDate :\n6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority :\nUniversity of Hamburg Tendering Authority Address : 20146 Hamburg Hamburg\nFinancier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_56939_176212775_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "University of Hamburg Tendering Authority",
+                "relevance": 0.935159,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hamburg Hamburg",
+                "relevance": 0.752868,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.691861,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.450433,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.369582,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.825479,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Animal husbandry zoology, tile work more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : University of Hamburg Tendering Authority Address : 20146 Hamburg Hamburg Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.534126,
+                "arguments": [
+                    {
+                        "text": "6/9/2020 Tender",
+                        "location": [
+                            77,
+                            92
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/9/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority",
+                        "location": [
+                            111,
+                            152
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Animal husbandry zoology, tile work more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : University of Hamburg Tendering Authority Address : 20146 Hamburg Hamburg Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.497113,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            229,
+                            238
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "University of Hamburg Tendering Authority Address : 20146 Hamburg Hamburg",
+                        "location": [
+                            155,
+                            228
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "University of Hamburg Tendering Authority Address : 20146 Hamburg Hamburg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.928521,
+                "count": 1
+            },
+            {
+                "text": "Animal husbandry zoology",
+                "relevance": 0.920577,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.664642,
+                "count": 1
+            },
+            {
+                "text": "University of Hamburg Tendering Authority Address",
+                "relevance": 0.631982,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.563059,
+                "count": 1
+            },
+            {
+                "text": "tile work",
+                "relevance": 0.553744,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.543865,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.540193,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.53913,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.538166,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.536207,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.511856,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "10f566df170fe013a5d58655116a30dab3119897",
+        "filename": "202006050210ALBA____ME_NA_NE_56939_176212775_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Animal husbandry zoology, tile work [TenderNews.com - Tenders (India)]",
+    "html": "<p>Animal husbandry zoology, tile work more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/9/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : <org>University of Hamburg\nTendering Authority Address</org> : 20146 Hamburg Hamburg\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

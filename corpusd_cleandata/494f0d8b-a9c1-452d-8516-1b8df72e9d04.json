@@ -1,0 +1,896 @@
+{
+    "id": "494f0d8b-a9c1-452d-8516-1b8df72e9d04",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020, North Port Sun",
+    "geoOrigin": "North Port, Florida",
+    "sourceType": "Newspaper",
+    "source": "North Port Sun (FL)",
+    "corpus_document_id": "69972276392417871321",
+    "description": "I was happy to see that we have our first testing site open but was disappointed by some of the requirements that were in the article. Number one was that it was it was only for \"those who believe they currently have the virus.\" The next thing is that many elderly residents do not have transportation and would need to ask a friend or Charlotte County Transit to drive...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Editor:\n\nI was happy to see that we have our first testing site open but was\ndisappointed by some of the requirements that were in the article. Number one\nwas that it was it was only for \"those who believe they currently have the\nvirus.\" Later in the article it pointed out that \"A significant portion of\nindividuals with coronavirus lack symptoms.\"\n\nPeople who are carriers or asymptomatic can spread the virus to others. The\nonly way to know if an individual is asymptomatic is to test people without\nsymptoms also. Why don't we just test everyone who wishes to be tested so we\ncan identify all positive individuals?\n\nIn our surrounding counties tests are performed on anyone that wishes to be\ntested without appointments and it seems to be going quite well.\n\nThe next thing is that many elderly residents do not have transportation and\nwould need to ask a friend or Charlotte County Transit to drive them to the\nCharlotte Sports Park. Is that a function of Charlotte County Transit?\n\nI noted that appointments must be made by computer and many of our older\ncitizens do not have computers. Where do they go? Maybe to the library?\n\nI think it is great to have a testing site but I believe it needs some\nadjustments.\n\nRichard Holt\n\nPort Charlotte",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Charlotte Sports Park"
+        ],
+        "person": [
+            "Richard Holt"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.fl.norort",
+    "language": "English",
+    "filename": "202005300000NEWSBANKNEWSPPRS9DD9C8D35524FF8FFFE67E83AD51345.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Charlotte County Transit",
+                "relevance": 0.880518,
+                "type": "Facility"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.716116,
+                    "label": "negative"
+                },
+                "text": "asymptomatic",
+                "relevance": 0.655598,
+                "type": "HealthCondition"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.513295,
+                    "label": "positive"
+                },
+                "text": "Port Charlotte",
+                "relevance": 0.558487,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Port Charlotte, Islay",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Port_Charlotte,_Islay"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.66262,
+                    "label": "positive"
+                },
+                "text": "Charlotte Sports Park",
+                "relevance": 0.541882,
+                "type": "Facility",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "SportsFacility"
+                    ],
+                    "name": "Charlotte Sports Park",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Charlotte_Sports_Park"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Richard Holt",
+                "relevance": 0.370958,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Politician"
+                    ],
+                    "name": "Richard Holt",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Richard_Holt"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.456686,
+                    "label": "positive"
+                },
+                "text": "Editor",
+                "relevance": 0.324931,
+                "type": "JobTitle"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I was happy to see that we have our first testing site open but was",
+                "object": {
+                    "text": "that we have our first testing site open but was"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "past"
+                    },
+                    "text": "to see",
+                    "normalized": "to see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " was that it was it was only for \"those who believe they currently have the",
+                "object": {
+                    "text": "only for \"those who believe they currently have the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "those"
+                },
+                "sentence": " was that it was it was only for \"those who believe they currently have the",
+                "object": {
+                    "text": "they currently have the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "believe",
+                        "tense": "present"
+                    },
+                    "text": "believe",
+                    "normalized": "believe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " was that it was it was only for \"those who believe they currently have the",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " virus.\" Later in the article it pointed out that \"A significant portion of",
+                "object": {
+                    "text": "the article"
+                },
+                "action": {
+                    "verb": {
+                        "text": "point",
+                        "tense": "past"
+                    },
+                    "text": "pointed",
+                    "normalized": "point"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an individual"
+                },
+                "sentence": " only way to know if an individual is asymptomatic is to test people without",
+                "object": {
+                    "text": "asymptomatic"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " Why don't we just test everyone who wishes to be tested so we",
+                "object": {
+                    "text": "to be tested so we"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "do",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "everyone"
+                },
+                "sentence": " Why don't we just test everyone who wishes to be tested so we",
+                "object": {
+                    "text": "to be tested"
+                },
+                "action": {
+                    "verb": {
+                        "text": "wish",
+                        "tense": "present"
+                    },
+                    "text": "wishes",
+                    "normalized": "wish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "everyone"
+                },
+                "sentence": " Why don't we just test everyone who wishes to be tested so we",
+                "object": {
+                    "text": "tested"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "tests"
+                },
+                "sentence": " In our surrounding counties tests are performed on anyone that wishes to be",
+                "object": {
+                    "text": "performed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "tests"
+                },
+                "sentence": " In our surrounding counties tests are performed on anyone that wishes to be",
+                "action": {
+                    "verb": {
+                        "text": "perform",
+                        "tense": "past"
+                    },
+                    "text": "are performed",
+                    "normalized": "be perform"
+                }
+            },
+            {
+                "subject": {
+                    "text": "anyone"
+                },
+                "sentence": " In our surrounding counties tests are performed on anyone that wishes to be",
+                "object": {
+                    "text": "to be"
+                },
+                "action": {
+                    "verb": {
+                        "text": "wish",
+                        "tense": "present"
+                    },
+                    "text": "wishes",
+                    "normalized": "wish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "many elderly residents"
+                },
+                "sentence": " The next thing is that many elderly residents do not have transportation and",
+                "object": {
+                    "text": "transportation"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "to drive them to the"
+                },
+                "sentence": " would need to ask a friend or Charlotte County Transit to drive them to the",
+                "object": {
+                    "text": "a friend or Charlotte County Transit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "ask",
+                        "tense": "future"
+                    },
+                    "text": "would need to ask",
+                    "normalized": "would need to ask"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a friend or Charlotte County Transit"
+                },
+                "sentence": " would need to ask a friend or Charlotte County Transit to drive them to the",
+                "object": {
+                    "text": "them"
+                },
+                "action": {
+                    "verb": {
+                        "text": "drive",
+                        "tense": "future"
+                    },
+                    "text": "to drive",
+                    "normalized": "to drive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I noted that appointments must be made by computer and many of our older",
+                "object": {
+                    "text": "that appointments must be made by computer and many of our older"
+                },
+                "action": {
+                    "verb": {
+                        "text": "note",
+                        "tense": "past"
+                    },
+                    "text": "noted",
+                    "normalized": "note"
+                }
+            },
+            {
+                "subject": {
+                    "text": "appointments"
+                },
+                "sentence": " I noted that appointments must be made by computer and many of our older",
+                "object": {
+                    "text": "made by computer and many of our older"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by computer and many of our older"
+                },
+                "sentence": " I noted that appointments must be made by computer and many of our older",
+                "object": {
+                    "text": "appointments"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "future"
+                    },
+                    "text": "must be made",
+                    "normalized": "must be make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "citizens"
+                },
+                "sentence": " citizens do not have computers.",
+                "object": {
+                    "text": "computers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I think it is great to have a testing site but I believe it needs some",
+                "object": {
+                    "text": "it is great to have a testing site"
+                },
+                "action": {
+                    "verb": {
+                        "text": "think",
+                        "tense": "present"
+                    },
+                    "text": "think",
+                    "normalized": "think"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I think it is great to have a testing site but I believe it needs some",
+                "object": {
+                    "text": "it needs some"
+                },
+                "action": {
+                    "verb": {
+                        "text": "believe",
+                        "tense": "present"
+                    },
+                    "text": "believe",
+                    "normalized": "believe"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.878368,
+                "label": "/health and fitness/disease"
+            },
+            {
+                "score": 0.755633,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.75228,
+                "label": "/health and fitness/disease/epidemic"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "People who are carriers or asymptomatic can spread the virus to others.",
+                "score": 0.254593,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            358,
+                            361
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "carriers",
+                        "location": [
+                            366,
+                            374
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "carriers"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "In our surrounding counties tests are performed on anyone that wishes to be tested without appointments and it seems to be going quite well.",
+                "score": 0.4864,
+                "arguments": [
+                    {
+                        "text": "our",
+                        "location": [
+                            623,
+                            626
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "them"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "counties",
+                        "location": [
+                            639,
+                            647
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "counties"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "The next thing is that many elderly residents do not have transportation and would need to ask a friend or Charlotte County Transit to drive them to the Charlotte Sports Park.",
+                "score": 0.676736,
+                "arguments": [
+                    {
+                        "text": "residents",
+                        "location": [
+                            798,
+                            807
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "residents"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "elderly",
+                        "location": [
+                            790,
+                            797
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "elderly"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The next thing is that many elderly residents do not have transportation and would need to ask a friend or Charlotte County Transit to drive them to the Charlotte Sports Park.",
+                "score": 0.995101,
+                "arguments": [
+                    {
+                        "text": "Transit",
+                        "location": [
+                            886,
+                            893
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Transit"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Charlotte County",
+                        "location": [
+                            869,
+                            885
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Charlotte County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Is that a function of Charlotte County Transit?",
+                "score": 0.998107,
+                "arguments": [
+                    {
+                        "text": "Transit",
+                        "location": [
+                            977,
+                            984
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Transit"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Charlotte County",
+                        "location": [
+                            960,
+                            976
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Charlotte County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The next thing is that many elderly residents do not have transportation and would need to ask a friend or Charlotte County Transit to drive them to the Charlotte Sports Park.",
+                "score": 0.403706,
+                "arguments": [
+                    {
+                        "text": "them",
+                        "location": [
+                            903,
+                            907
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "them"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Charlotte Sports Park",
+                        "location": [
+                            915,
+                            936
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Charlotte Sports Park",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "I noted that appointments must be made by computer and many of our older citizens do not have computers.",
+                "score": 0.990309,
+                "arguments": [
+                    {
+                        "text": "I",
+                        "location": [
+                            987,
+                            988
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "I"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "noted",
+                        "location": [
+                            989,
+                            994
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "noted"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "next thing",
+                "relevance": 0.795463,
+                "count": 1
+            },
+            {
+                "text": "test people",
+                "relevance": 0.695617,
+                "count": 1
+            },
+            {
+                "text": "first testing site",
+                "relevance": 0.628837,
+                "count": 1
+            },
+            {
+                "text": "elderly residents",
+                "relevance": 0.611765,
+                "count": 1
+            },
+            {
+                "text": "Charlotte County Transit",
+                "relevance": 0.605196,
+                "count": 1
+            },
+            {
+                "text": "counties tests",
+                "relevance": 0.603296,
+                "count": 1
+            },
+            {
+                "text": "significant portion",
+                "relevance": 0.572573,
+                "count": 1
+            },
+            {
+                "text": "positive individuals",
+                "relevance": 0.568042,
+                "count": 1
+            },
+            {
+                "text": "individuals",
+                "relevance": 0.552523,
+                "count": 1
+            },
+            {
+                "text": "People",
+                "relevance": 0.542085,
+                "count": 1
+            },
+            {
+                "text": "function of Charlotte County Transit",
+                "relevance": 0.535687,
+                "count": 1
+            },
+            {
+                "text": "Charlotte Sports Park",
+                "relevance": 0.534318,
+                "count": 1
+            },
+            {
+                "text": "article",
+                "relevance": 0.530362,
+                "count": 2
+            },
+            {
+                "text": "appointments",
+                "relevance": 0.530265,
+                "count": 2
+            },
+            {
+                "text": "coronavirus lack symptoms",
+                "relevance": 0.529982,
+                "count": 1
+            },
+            {
+                "text": "carriers",
+                "relevance": 0.523816,
+                "count": 1
+            },
+            {
+                "text": "requirements",
+                "relevance": 0.521892,
+                "count": 1
+            },
+            {
+                "text": "friend",
+                "relevance": 0.519487,
+                "count": 1
+            },
+            {
+                "text": "testing site",
+                "relevance": 0.516867,
+                "count": 1
+            },
+            {
+                "text": "computer",
+                "relevance": 0.513705,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.510892,
+                "count": 2
+            },
+            {
+                "text": "others",
+                "relevance": 0.508984,
+                "count": 1
+            },
+            {
+                "text": "adjustments",
+                "relevance": 0.508984,
+                "count": 1
+            },
+            {
+                "text": "library",
+                "relevance": 0.508984,
+                "count": 1
+            },
+            {
+                "text": "transportation",
+                "relevance": 0.508984,
+                "count": 1
+            },
+            {
+                "text": "Editor",
+                "relevance": 0.508984,
+                "count": 1
+            },
+            {
+                "text": "Number",
+                "relevance": 0.508984,
+                "count": 1
+            },
+            {
+                "text": "computers",
+                "relevance": 0.506854,
+                "count": 1
+            },
+            {
+                "text": "symptoms",
+                "relevance": 0.504492,
+                "count": 1
+            },
+            {
+                "text": "individual",
+                "relevance": 0.446619,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "e18fe9cd781b78d86d9bf2e96cdab3c26dd279d5",
+        "filename": "202005300000NEWSBANKNEWSPPRS9DD9C8D35524FF8FFFE67E83AD51345.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-30T00:00:00-04:00",
+    "title": "LETTER: Testing in Charlotte needs some upgrades",
+    "html": "<p>Editor:</p>\n<p>I was happy to see that we have our first testing site open but was disappointed by some of the requirements that were in the article. Number one was that it was it was only for \"those who believe they currently have the virus.\" Later in the article it pointed out that \"A significant portion of individuals with coronavirus lack symptoms.\"</p>\n\n<p>People who are carriers or asymptomatic can spread the virus to others. The only way to know if an individual is asymptomatic is to test people without symptoms also. Why don't we just test everyone who wishes to be tested so we can identify all positive individuals?</p>\n\n<p>In our surrounding counties tests are performed on anyone that wishes to be tested without appointments and it seems to be going quite well.</p>\n\n<p>The next thing is that many elderly residents do not have transportation and would need to ask a friend or Charlotte County Transit to drive them to the <location>Charlotte Sports Park</location>. Is that a function of Charlotte County Transit?</p>\n\n<p>I noted that appointments must be made by computer and many of our older citizens do not have computers. Where do they go? Maybe to the library?</p>\n\n<p>I think it is great to have a testing site but I believe it needs some adjustments.</p>\n\n<p><person>Richard Holt</person></p>\n\n<p>Port Charlotte</p>",
+    "geoFocus": [
+        [
+            "GU/us.fl.norort",
+            "North Port"
+        ]
+    ]
+}

@@ -1,0 +1,307 @@
+{
+    "id": "4af04224-1d28-466e-93fb-636736fbb425",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "90044018685703672279",
+    "description": "Procurement of a double cabin with a rear tipper, 3.5 tons more info: Location: GERMANY BidDate: 6/ 15/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: City of Oldenburg Tendering Authority Address: 26123 Oldenburg Lower Saxony Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Procurement of a double cabin with a rear tipper, 3.5 tons more info :\nLocation : GERMANY BidDate : 6/15/2020 Tender Country : GERMANY Tender Type :\nTenders Tendering Authority : City of Oldenburg (Oldb) Tendering Authority\nAddress : 26123 Oldenburg Lower Saxony Financier : Self Funded Tearn Money :\nNot Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_30096_176211529_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Oldenburg Lower Saxony Financier",
+                "relevance": 0.887048,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.300384,
+                    "label": "positive"
+                },
+                "text": "Oldenburg",
+                "relevance": 0.480315,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GermanUrbanDistrict",
+                        "City"
+                    ],
+                    "name": "Oldenburg",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Oldenburg"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.372781,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.461557,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "East Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/East_Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "3.5 tons",
+                "relevance": 0.461557,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.961137,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Procurement of a double cabin with a rear tipper, 3.5 tons more info : Location : GERMANY BidDate : 6/15/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Oldenburg (Oldb) Tendering Authority Address : 26123 Oldenburg Lower Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.615312,
+                "arguments": [
+                    {
+                        "text": "6/15/2020 Tender",
+                        "location": [
+                            100,
+                            116
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/15/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type :\nTenders Tendering Authority : City of Oldenburg",
+                        "location": [
+                            135,
+                            196
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type :\nTenders Tendering Authority : City of Oldenburg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Procurement of a double cabin with a rear tipper, 3.5 tons more info : Location : GERMANY BidDate : 6/15/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Oldenburg (Oldb) Tendering Authority Address : 26123 Oldenburg Lower Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.49606,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            263,
+                            272
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Oldenburg Lower Saxony",
+                        "location": [
+                            240,
+                            262
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Oldenburg Lower Saxony"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.918958,
+                "count": 1
+            },
+            {
+                "text": "Procurement of a double cabin",
+                "relevance": 0.80182,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.793875,
+                "count": 1
+            },
+            {
+                "text": "City of Oldenburg",
+                "relevance": 0.710186,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.643268,
+                "count": 1
+            },
+            {
+                "text": "Oldenburg Lower Saxony Financier",
+                "relevance": 0.628175,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.587468,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.566538,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.557252,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.551974,
+                "count": 1
+            },
+            {
+                "text": "tons",
+                "relevance": 0.52576,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.517531,
+                "count": 1
+            },
+            {
+                "text": "rear tipper",
+                "relevance": 0.453095,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.452474,
+                "count": 1
+            },
+            {
+                "text": "Oldb",
+                "relevance": 0.266218,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "9e8690aa55410193aa61dfc227b7ce07c5b8b71e",
+        "filename": "202006050210ALBA____ME_NA_NE_30096_176211529_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Procurement of a double cabin with a rear tipper, 3.5 tons [TenderNews.com - Tenders (India)]",
+    "html": "<p>Procurement of a double cabin with a rear tipper, 3.5 tons more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/15/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : City of Oldenburg (Oldb)\nTendering Authority Address : 26123 Oldenburg Lower Saxony\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

@@ -1,0 +1,1562 @@
+{
+    "id": "ba01cf09-bf80-42c9-801b-85678e13a9cf",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c) 2020 HT Digital streams Ltd",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "Newspaper",
+    "source": "Mint (New Delhi)",
+    "corpus_document_id": "58928090232650242314",
+    "description": "The coronavirus pandemic in India touched another new peak. The total number of coronavirus cases in India stood at 226,770. The deadly novel coronavirus claimed 6,348 lives so far. Delhi saw an explosion of coronavirus cases in this week.",
+    "serviceName": "Mint",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Southern Asia",
+            "code": "LB/sas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Southern Europe",
+            "code": "LB/seur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sas",
+            "relevance_score": "9",
+            "description": "India",
+            "code": "LC/in#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#99#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "New Delhi, June 5 \\-- The coronavirus pandemic in India touched another new\npeak. The states witnessed the biggest jump in COVID-19 count with 9,851 new\ncases in last 24 hours. The fatalities from COVID-19 infection increased to\n273 on Thursday - the highest number of deaths in a single day.\n\nThe total number of coronavirus cases in India stood at 226,770. The deadly\nnovel coronavirus claimed 6,348 lives so far.\n\nMaharashtra continued to add the most number of coronavirus cases in a day.\nThe state confirmed 2,933 coronavirus cases on Thursday. Mumbai, India's\nfinancial hub, registered 1,439 cases in last 24 hours. The fatalities from\nthe coronavirus infection in Maharashtra were on a steady rise. The state\nconfirmed 123 deaths on Friday, the highest single-day toll so far.\n\nDelhi saw an explosion of coronavirus cases in this week. The capital recorded\n1,359 fresh cases in last 24 hours. With this, the total number of coronavirus\ncases in Delhi crossed 25,000-mark.\n\nUnion health minister Harsh Vardhan on Thursday advised the Delhi government\nto ramp up testing, surveillance, contact tracing and stringent containment\nand perimeter control. \"As all districts of union territory of Delhi are now\naffected by COVID-19, the rising cases, high positivity rates and low testing\nlevels in many districts are worrisome,\" he said.\n\nIndia now has the seventh highest number of cases in the world after the\nUnited States, Brazil, Russia, United Kingdom, Spain and Italy. However, the\nhealth ministry earlier said that India's vast population should be taken into\naccount while discussing COVID-19 cases.\n\nIndian Council of Medical Research scientist Nivedita Gupta \"We are very far\naway from the peak. Our preventive measures to curtail the disease are very\neffective and we are better positioned in comparison with other countries.\"\nPublished by HT Digital Content Services with permission from MINT. For any\nquery with respect to this article or any other content requirement, please\ncontact Editor at\n[contentservices@htlive.com](mailto:contentservices@htlive.com)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Indian Council of Medical Research"
+        ],
+        "location": [
+            "New Delhi",
+            "India",
+            "Maharashtra",
+            "Mumbai, India's",
+            "Delhi",
+            "the United States",
+            "Brazil",
+            "Russia",
+            "United Kingdom",
+            "Spain",
+            "Italy",
+            "India's"
+        ],
+        "person": [
+            "Harsh Vardhan",
+            "Nivedita Gupta"
+        ],
+        "companies": [
+            "Indian Council of Medical Research"
+        ]
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050420HIND____MINT_____N-43197414_810.7.XML",
+    "providerName": "HT Media",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "coronavirus",
+                "relevance": 0.833739,
+                "type": "Person"
+            },
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": -0.108306,
+                    "label": "negative"
+                },
+                "text": "New Delhi",
+                "relevance": 0.780539,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "City"
+                    ],
+                    "name": "New Delhi",
+                    "dbpedia_resource": "http://dbpedia.org/resource/New_Delhi"
+                }
+            },
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "India",
+                "relevance": 0.730136,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "HumanLanguage",
+                        "Region",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "India",
+                    "dbpedia_resource": "http://dbpedia.org/resource/India"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Maharashtra",
+                "relevance": 0.412124,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.516463,
+                    "label": "positive"
+                },
+                "text": "Delhi government",
+                "relevance": 0.372622,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.516463,
+                    "label": "positive"
+                },
+                "text": "Harsh Vardhan",
+                "relevance": 0.331646,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Harsh Vardhan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Harsh_Vardhan"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mumbai",
+                "relevance": 0.290836,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "IndianCity",
+                        "MilitaryPost",
+                        "City"
+                    ],
+                    "name": "Mumbai",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Mumbai"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Indian Council of Medical Research",
+                "relevance": 0.274518,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Company"
+                    ],
+                    "name": "Indian Council of Medical Research",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Indian_Council_of_Medical_Research"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Editor",
+                "relevance": 0.25595,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Nivedita Gupta",
+                "relevance": 0.253585,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "United States",
+                "relevance": 0.238644,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "scientist",
+                "relevance": 0.228748,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Spain",
+                "relevance": 0.209716,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ],
+                    "name": "Kingdom of Spain (Napoleonic)",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Kingdom_of_Spain_(Napoleonic)"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "United Kingdom",
+                "relevance": 0.197394,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Italy",
+                "relevance": 0.196758,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Brazil",
+                "relevance": 0.191677,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Russia",
+                "relevance": 0.190524,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "24 hours",
+                "relevance": 0.190524,
+                "type": "Quantity"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "contentservices@htlive.com",
+                "relevance": 0.190524,
+                "type": "EmailAddress"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "New Delhi, June 5 \\-- The coronavirus pandemic in India"
+                },
+                "sentence": "New Delhi, June 5 \\-- The coronavirus pandemic in India touched another new",
+                "object": {
+                    "text": "another new"
+                },
+                "action": {
+                    "verb": {
+                        "text": "touch",
+                        "tense": "past"
+                    },
+                    "text": "touched",
+                    "normalized": "touch"
+                }
+            },
+            {
+                "subject": {
+                    "text": "peak. The states"
+                },
+                "sentence": " peak. The states witnessed the biggest jump in COVID-19 count with 9,851 new",
+                "object": {
+                    "text": "the biggest jump in COVID-19 count"
+                },
+                "action": {
+                    "verb": {
+                        "text": "witness",
+                        "tense": "past"
+                    },
+                    "text": "witnessed",
+                    "normalized": "witness"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The total number of coronavirus cases in India"
+                },
+                "sentence": " The total number of coronavirus cases in India stood at 226,770.",
+                "object": {
+                    "text": "at 226,770"
+                },
+                "action": {
+                    "verb": {
+                        "text": "stand",
+                        "tense": "past"
+                    },
+                    "text": "stood",
+                    "normalized": "stand"
+                }
+            },
+            {
+                "subject": {
+                    "text": "novel coronavirus"
+                },
+                "sentence": " novel coronavirus claimed 6,348 lives so far.",
+                "object": {
+                    "text": "6,348 lives"
+                },
+                "action": {
+                    "verb": {
+                        "text": "claim",
+                        "tense": "past"
+                    },
+                    "text": "claimed",
+                    "normalized": "claim"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Maharashtra"
+                },
+                "sentence": " Maharashtra continued to add the most number of coronavirus cases in a day.",
+                "object": {
+                    "text": "the most number of coronavirus cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "add",
+                        "tense": "future"
+                    },
+                    "text": "continued to add",
+                    "normalized": "continue to add"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The state"
+                },
+                "sentence": " The state confirmed 2,933 coronavirus cases on Thursday.",
+                "object": {
+                    "text": "2,933 coronavirus cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "confirm",
+                        "tense": "past"
+                    },
+                    "text": "confirmed",
+                    "normalized": "confirm"
+                }
+            },
+            {
+                "subject": {
+                    "text": "1,439 cases"
+                },
+                "sentence": " financial hub, registered 1,439 cases in last 24 hours.",
+                "action": {
+                    "verb": {
+                        "text": "register",
+                        "tense": "past"
+                    },
+                    "text": "registered",
+                    "normalized": "register"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Delhi"
+                },
+                "sentence": " Delhi saw an explosion of coronavirus cases in this week.",
+                "object": {
+                    "text": "an explosion of coronavirus cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "past"
+                    },
+                    "text": "saw",
+                    "normalized": "see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cases in Delhi"
+                },
+                "sentence": " cases in Delhi crossed 25,000-mark.",
+                "object": {
+                    "text": "25,000-mark"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cross",
+                        "tense": "past"
+                    },
+                    "text": "crossed",
+                    "normalized": "cross"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Union health minister Harsh Vardhan on Thursday"
+                },
+                "sentence": " Union health minister Harsh Vardhan on Thursday advised the Delhi government",
+                "object": {
+                    "text": "the Delhi government"
+                },
+                "action": {
+                    "verb": {
+                        "text": "advise",
+                        "tense": "past"
+                    },
+                    "text": "advised",
+                    "normalized": "advise"
+                }
+            },
+            {
+                "subject": {
+                    "text": "As all districts of union territory of Delhi"
+                },
+                "sentence": " \"As all districts of union territory of Delhi are now",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "levels in many districts"
+                },
+                "sentence": " levels in many districts are worrisome,\" he said.",
+                "object": {
+                    "text": "worrisome"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " levels in many districts are worrisome,\" he said.",
+                "object": {
+                    "text": "levels in many districts are worrisome"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "India"
+                },
+                "sentence": " India now has the seventh highest number of cases in the world after the",
+                "object": {
+                    "text": "the seventh highest number of cases in the world"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "health ministry"
+                },
+                "sentence": " health ministry earlier said that India's vast population should be taken into",
+                "object": {
+                    "text": "that India's vast population should be taken into"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " Indian Council of Medical Research scientist Nivedita Gupta \"We are very far",
+                "object": {
+                    "text": "very far"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Our preventive measures"
+                },
+                "sentence": " Our preventive measures to curtail the disease are very",
+                "object": {
+                    "text": "the disease"
+                },
+                "action": {
+                    "verb": {
+                        "text": "curtail",
+                        "tense": "future"
+                    },
+                    "text": "to curtail",
+                    "normalized": "to curtail"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " effective and we are better positioned in comparison with other countries.\"",
+                "object": {
+                    "text": "better positioned in comparison with other countries"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " effective and we are better positioned in comparison with other countries.\"",
+                "object": {
+                    "text": "in comparison with other countries"
+                },
+                "action": {
+                    "verb": {
+                        "text": "position",
+                        "tense": "past"
+                    },
+                    "text": "positioned",
+                    "normalized": "position"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.789613,
+                "label": "/health and fitness/disease"
+            },
+            {
+                "score": 0.78143,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.702037,
+                "label": "/health and fitness/disease/cold and flu"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "New Delhi, June 5 \\-- The coronavirus pandemic in India touched another new peak.",
+                "score": 0.574061,
+                "arguments": [
+                    {
+                        "text": "New Delhi",
+                        "location": [
+                            0,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "New Delhi"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "India",
+                        "location": [
+                            50,
+                            55
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "India",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"As all districts of union territory of Delhi are now affected by COVID-19, the rising cases, high positivity rates and low testing levels in many districts are worrisome,\" he said.",
+                "score": 0.912352,
+                "arguments": [
+                    {
+                        "text": "territory",
+                        "location": [
+                            1183,
+                            1192
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "territory"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Delhi",
+                        "location": [
+                            1196,
+                            1201
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "New Delhi"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"As all districts of union territory of Delhi are now affected by COVID-19, the rising cases, high positivity rates and low testing levels in many districts are worrisome,\" he said.",
+                "score": 0.969059,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            1329,
+                            1331
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Harsh Vardhan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            1332,
+                            1336
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "However, the health ministry earlier said that India's vast population should be taken into account while discussing COVID-19 cases.",
+                "score": 0.978111,
+                "arguments": [
+                    {
+                        "text": "earlier",
+                        "location": [
+                            1505,
+                            1512
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "earlier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            1513,
+                            1517
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "However, the health ministry earlier said that India's vast population should be taken into account while discussing COVID-19 cases.",
+                "score": 0.797344,
+                "arguments": [
+                    {
+                        "text": "population",
+                        "location": [
+                            1536,
+                            1546
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "population"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "India",
+                        "location": [
+                            1523,
+                            1528
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "India",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Indian Council of Medical Research scientist Nivedita Gupta \"We are very far away from the peak.",
+                "score": 0.578288,
+                "arguments": [
+                    {
+                        "text": "scientist",
+                        "location": [
+                            1645,
+                            1654
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Nivedita Gupta"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Council of Medical Research",
+                        "location": [
+                            1617,
+                            1644
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Council of Medical Research"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Indian Council of Medical Research scientist Nivedita Gupta \"We are very far away from the peak.",
+                "score": 0.709595,
+                "arguments": [
+                    {
+                        "text": "Nivedita Gupta",
+                        "location": [
+                            1655,
+                            1669
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Nivedita Gupta"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "We",
+                        "location": [
+                            1671,
+                            1673
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "we"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\" Published by HT Digital Content Services with permission from MINT.",
+                "score": 0.341246,
+                "arguments": [
+                    {
+                        "text": "HT Digital Content Services",
+                        "location": [
+                            1852,
+                            1879
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "HT Digital Content Services",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "MINT",
+                        "location": [
+                            1901,
+                            1905
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "MINT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The fatalities from COVID-19 infection increased to 273 on Thursday - the highest number of deaths in a single day.",
+                "score": 0.778815,
+                "arguments": [
+                    {
+                        "text": "fatalities",
+                        "location": [
+                            181,
+                            191
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "fatalities"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "infection",
+                        "location": [
+                            206,
+                            215
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "infection"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The fatalities from the coronavirus infection in Maharashtra were on a steady rise.",
+                "score": 0.864631,
+                "arguments": [
+                    {
+                        "text": "fatalities",
+                        "location": [
+                            626,
+                            636
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "fatalities"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "infection",
+                        "location": [
+                            658,
+                            667
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "infection"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Mumbai, India's financial hub, registered 1,439 cases in last 24 hours.",
+                "score": 0.946227,
+                "arguments": [
+                    {
+                        "text": "Mumbai",
+                        "location": [
+                            550,
+                            556
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mumbai"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "India",
+                        "location": [
+                            558,
+                            563
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "India",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "The capital recorded 1,359 fresh cases in last 24 hours.",
+                "score": 0.496836,
+                "arguments": [
+                    {
+                        "text": "1,359",
+                        "location": [
+                            864,
+                            869
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "1,359"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "capital",
+                        "location": [
+                            847,
+                            854
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "New Delhi"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "With this, the total number of coronavirus cases in Delhi crossed 25,000-mark.",
+                "score": 0.420065,
+                "arguments": [
+                    {
+                        "text": ",000-mark",
+                        "location": [
+                            968,
+                            977
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": ",000-mark"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Delhi",
+                        "location": [
+                            952,
+                            957
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "New Delhi"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Union health minister Harsh Vardhan on Thursday advised the Delhi government to ramp up testing, surveillance, contact tracing and stringent containment and perimeter control.",
+                "score": 0.753103,
+                "arguments": [
+                    {
+                        "text": "health minister",
+                        "location": [
+                            986,
+                            1001
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Harsh Vardhan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Union",
+                        "location": [
+                            980,
+                            985
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Union"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Union health minister Harsh Vardhan on Thursday advised the Delhi government to ramp up testing, surveillance, contact tracing and stringent containment and perimeter control.",
+                "score": 0.934404,
+                "arguments": [
+                    {
+                        "text": "Harsh Vardhan",
+                        "location": [
+                            1002,
+                            1015
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Harsh Vardhan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "advised",
+                        "location": [
+                            1028,
+                            1035
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "advised"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Union health minister Harsh Vardhan on Thursday advised the Delhi government to ramp up testing, surveillance, contact tracing and stringent containment and perimeter control.",
+                "score": 0.91636,
+                "arguments": [
+                    {
+                        "text": "Thursday",
+                        "location": [
+                            1019,
+                            1027
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Thursday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "advised",
+                        "location": [
+                            1028,
+                            1035
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "advised"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Union health minister Harsh Vardhan on Thursday advised the Delhi government to ramp up testing, surveillance, contact tracing and stringent containment and perimeter control.",
+                "score": 0.620379,
+                "arguments": [
+                    {
+                        "text": "Delhi government",
+                        "location": [
+                            1040,
+                            1056
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Delhi government"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "advised",
+                        "location": [
+                            1028,
+                            1035
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "advised"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "United States",
+                "relevance": 0.969929,
+                "count": 1
+            },
+            {
+                "text": "United Kingdom",
+                "relevance": 0.847802,
+                "count": 1
+            },
+            {
+                "text": "Union health minister Harsh Vardhan",
+                "relevance": 0.69105,
+                "count": 1
+            },
+            {
+                "text": "districts of union territory of Delhi",
+                "relevance": 0.687778,
+                "count": 1
+            },
+            {
+                "text": "New Delhi",
+                "relevance": 0.609399,
+                "count": 1
+            },
+            {
+                "text": "states",
+                "relevance": 0.609021,
+                "count": 1
+            },
+            {
+                "text": "total number of coronavirus cases",
+                "relevance": 0.599194,
+                "count": 1
+            },
+            {
+                "text": "health ministry",
+                "relevance": 0.57507,
+                "count": 1
+            },
+            {
+                "text": "highest number of deaths",
+                "relevance": 0.570134,
+                "count": 1
+            },
+            {
+                "text": "preventive measures",
+                "relevance": 0.564484,
+                "count": 1
+            },
+            {
+                "text": "state",
+                "relevance": 0.555174,
+                "count": 2
+            },
+            {
+                "text": "Brazil",
+                "relevance": 0.553537,
+                "count": 1
+            },
+            {
+                "text": "Russia",
+                "relevance": 0.542337,
+                "count": 1
+            },
+            {
+                "text": "COVID-19 count",
+                "relevance": 0.541113,
+                "count": 1
+            },
+            {
+                "text": "total number",
+                "relevance": 0.535133,
+                "count": 1
+            },
+            {
+                "text": "COVID-19 infection",
+                "relevance": 0.529566,
+                "count": 1
+            },
+            {
+                "text": "number of coronavirus cases",
+                "relevance": 0.527062,
+                "count": 1
+            },
+            {
+                "text": "steady rise",
+                "relevance": 0.526475,
+                "count": 1
+            },
+            {
+                "text": "India",
+                "relevance": 0.523492,
+                "count": 4
+            },
+            {
+                "text": "districts",
+                "relevance": 0.522942,
+                "count": 1
+            },
+            {
+                "text": "Maharashtra",
+                "relevance": 0.519675,
+                "count": 2
+            },
+            {
+                "text": "Delhi",
+                "relevance": 0.515077,
+                "count": 2
+            },
+            {
+                "text": "financial hub",
+                "relevance": 0.514548,
+                "count": 1
+            },
+            {
+                "text": "HT Digital Content Services",
+                "relevance": 0.512795,
+                "count": 1
+            },
+            {
+                "text": "account",
+                "relevance": 0.511262,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.510928,
+                "count": 1
+            },
+            {
+                "text": "fatalities",
+                "relevance": 0.510484,
+                "count": 2
+            },
+            {
+                "text": "surveillance",
+                "relevance": 0.508526,
+                "count": 1
+            },
+            {
+                "text": "biggest jump",
+                "relevance": 0.508116,
+                "count": 1
+            },
+            {
+                "text": "respect",
+                "relevance": 0.507963,
+                "count": 1
+            },
+            {
+                "text": "capital",
+                "relevance": 0.506238,
+                "count": 1
+            },
+            {
+                "text": "cases",
+                "relevance": 0.50565,
+                "count": 1
+            },
+            {
+                "text": "article",
+                "relevance": 0.505588,
+                "count": 1
+            },
+            {
+                "text": "Mumbai",
+                "relevance": 0.505037,
+                "count": 1
+            },
+            {
+                "text": "comparison",
+                "relevance": 0.504771,
+                "count": 1
+            },
+            {
+                "text": "deaths",
+                "relevance": 0.504476,
+                "count": 1
+            },
+            {
+                "text": "permission",
+                "relevance": 0.504089,
+                "count": 1
+            },
+            {
+                "text": "Spain",
+                "relevance": 0.504089,
+                "count": 1
+            },
+            {
+                "text": "hours",
+                "relevance": 0.503372,
+                "count": 3
+            },
+            {
+                "text": "disease",
+                "relevance": 0.503372,
+                "count": 1
+            },
+            {
+                "text": "lives",
+                "relevance": 0.503372,
+                "count": 1
+            },
+            {
+                "text": "MINT",
+                "relevance": 0.503372,
+                "count": 1
+            },
+            {
+                "text": "countries",
+                "relevance": 0.503372,
+                "count": 1
+            },
+            {
+                "text": "week",
+                "relevance": 0.503372,
+                "count": 1
+            },
+            {
+                "text": "peak",
+                "relevance": 0.503372,
+                "count": 1
+            },
+            {
+                "text": "Italy",
+                "relevance": 0.503372,
+                "count": 1
+            },
+            {
+                "text": "world",
+                "relevance": 0.503372,
+                "count": 1
+            },
+            {
+                "text": "day",
+                "relevance": 0.502044,
+                "count": 1
+            },
+            {
+                "text": "high positivity rates",
+                "relevance": 0.501021,
+                "count": 1
+            },
+            {
+                "text": "coronavirus cases",
+                "relevance": 0.499342,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "84e0cf17a3097d94aeb015da6ad3d79d7fda409c",
+        "filename": "202006050420HIND____MINT_____N-43197414_810.7.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:20:00-04:00",
+    "title": "Coronavirus update: India sees deadliest 24 hours with highest deaths, 9,851 new cases [Mint (New Delhi)]",
+    "html": "<block>\n<p><location idsrc=\"xmltag.org\" value=\"LU/in..newdel\">New Delhi</location>, <chron>June 5</chron> -- The coronavirus pandemic in <location idsrc=\"xmltag.org\" value=\"LC/in\">India</location> touched another new peak. The states witnessed the biggest jump in COVID-19 count with 9,851 new cases in last 24 hours. The fatalities from COVID-19 infection increased to 273 on Thursday - the highest number of deaths in a single day.</p>\n<p>The total number of coronavirus cases in <location idsrc=\"xmltag.org\" value=\"LC/in\">India</location> stood at 226,770. The deadly novel coronavirus claimed 6,348 lives so far.</p>\n<p><location idsrc=\"xmltag.org\" value=\"LS/in.mh\">Maharashtra</location> continued to add the most number of coronavirus cases in a day. The state confirmed 2,933 coronavirus cases on Thursday. <location idsrc=\"xmltag.org\" value=\"LU/in..bombay\">Mumbai, India's</location> financial hub, registered 1,439 cases in last 24 hours. The fatalities from the coronavirus infection in <location idsrc=\"xmltag.org\" value=\"LS/in.mh\">Maharashtra</location> were on a steady rise. The state confirmed 123 deaths on Friday, the highest single-day toll so far.</p>\n<p><location idsrc=\"xmltag.org\" value=\"LU/in..delhi\">Delhi</location> saw an explosion of coronavirus cases in this week. The capital recorded 1,359 fresh cases in last 24 hours. With this, the total number of coronavirus cases in <location idsrc=\"xmltag.org\" value=\"LU/in..delhi\">Delhi</location> crossed 25,000-mark.</p>\n<p>Union health minister <person>Harsh Vardhan</person> on Thursday advised the <location idsrc=\"xmltag.org\" value=\"LU/in..delhi\">Delhi</location> government to ramp up testing, surveillance, contact tracing and stringent containment and perimeter control. \"As all districts of union territory of <location idsrc=\"xmltag.org\" value=\"LU/in..delhi\">Delhi</location> are now affected by COVID-19, the rising cases, high positivity rates and low testing levels in many districts are worrisome,\" he said.</p>\n<p><location idsrc=\"xmltag.org\" value=\"LC/in\">India</location> now has the seventh highest number of cases in the world after <location idsrc=\"xmltag.org\" value=\"LC/us\">the United States</location>, <location idsrc=\"xmltag.org\" value=\"LC/br\">Brazil</location>, <location idsrc=\"xmltag.org\" value=\"LC/ru\">Russia</location>, <location idsrc=\"xmltag.org\" value=\"LC/gb\">United Kingdom</location>, <location idsrc=\"xmltag.org\" value=\"LC/es\">Spain</location> and <location idsrc=\"xmltag.org\" value=\"LC/it\">Italy</location>. However, the health ministry earlier said that <location idsrc=\"xmltag.org\" value=\"LC/in\">India's</location> vast population should be taken into account while discussing COVID-19 cases.</p>\n<p><org>Indian Council of Medical Research</org> scientist <person>Nivedita Gupta</person> \"We are very far away from the peak. Our preventive measures to curtail the disease are very effective and we are better positioned in comparison with other countries.\" Published by HT Digital Content Services with permission from MINT. For any query with respect to this article or any other content requirement, please contact Editor at <a href=\"mailto:contentservices@htlive.com\">contentservices@htlive.com</a></p>\n</block>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

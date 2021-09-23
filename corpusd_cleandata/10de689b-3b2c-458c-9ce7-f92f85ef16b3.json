@@ -1,0 +1,182 @@
+{
+    "id": "10de689b-3b2c-458c-9ce7-f92f85ef16b3",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "73415090511906725460",
+    "description": "Handgun owners are at substantially heightened risk of suicide in the years after buying their first gun, a large new study finds.",
+    "serviceName": "Health Pharma News",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "Handgun owners are at substantially heightened risk of suicide in the years\nafter buying their first gun, a large new study finds. (Source: WebMD Health)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "WebMD Health"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "WebMD Health"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050127AMSPIDERHEPHNEWS_MEDWRM04_CCE0C1CB27390251A31D88A80731FE5D_129.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Handgun owners"
+                },
+                "sentence": "Handgun owners are at substantially heightened risk of suicide in the years",
+                "object": {
+                    "text": "at substantially heightened risk of suicide in the years"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a large new study"
+                },
+                "sentence": " after buying their first gun, a large new study finds.",
+                "object": {
+                    "text": "their first gun"
+                },
+                "action": {
+                    "verb": {
+                        "text": "buy",
+                        "tense": "present"
+                    },
+                    "text": "buying",
+                    "normalized": "buy"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a large new study"
+                },
+                "sentence": " after buying their first gun, a large new study finds.",
+                "action": {
+                    "verb": {
+                        "text": "find",
+                        "tense": "present"
+                    },
+                    "text": "finds",
+                    "normalized": "find"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.95442,
+                "label": "/health and fitness/men's health"
+            },
+            {
+                "score": 0.792471,
+                "label": "/education/homework and study tips"
+            },
+            {
+                "score": 0.66181,
+                "label": "/society/crime/personal offense/homicide"
+            }
+        ],
+        "relations": [
+            {
+                "type": "ownerOf",
+                "sentence": "Handgun owners are at substantially heightened risk of suicide in the years after buying their first gun, a large new study finds.",
+                "score": 0.531568,
+                "arguments": [
+                    {
+                        "text": "their",
+                        "location": [
+                            89,
+                            94
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "owners"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "gun",
+                        "location": [
+                            101,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Weapon",
+                                "text": "gun"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Handgun owners",
+                "relevance": 0.93881,
+                "count": 1
+            },
+            {
+                "text": "first gun",
+                "relevance": 0.782325,
+                "count": 1
+            },
+            {
+                "text": "Source",
+                "relevance": 0.613413,
+                "count": 1
+            },
+            {
+                "text": "large new study finds",
+                "relevance": 0.596189,
+                "count": 1
+            },
+            {
+                "text": "risk of suicide",
+                "relevance": 0.404037,
+                "count": 1
+            },
+            {
+                "text": "WebMD Health",
+                "relevance": 0.369826,
+                "count": 1
+            },
+            {
+                "text": "years",
+                "relevance": 0.132135,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "c6d7efc9affff28b464478b4e7f2d822b327ed67",
+        "filename": "202006050127AMSPIDERHEPHNEWS_MEDWRM04_CCE0C1CB27390251A31D88A80731FE5D_129.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Webmd Health Corp.|extractor|DUNS:602670742;NECOID:690778972;ACORN:0679778972;UDUNS:079485369;UACORN:2757653846|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T01:27:00-04:00",
+    "title": "When a Handgun Is in the Home, Suicide Risk Rises [MedWorm News]",
+    "html": "<p>Handgun owners are at substantially heightened risk of suicide in the years after buying their first gun, a large new study finds. (Source: <org idsrc=\"xmltag.org\" value=\"ACORN:0679778972\">WebMD Health</org>)</p>",
+    "geoFocus": []
+}

@@ -1,0 +1,669 @@
+{
+    "id": "05259d89-21a1-4aea-a1e0-2a103c0c98e2",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Huntsville, Alabama",
+    "sourceType": "Broadcast Transcript",
+    "source": "WHNT-TV (Huntsville, AL)",
+    "corpus_document_id": "10123336119918819011",
+    "description": "DECATUR, Ala. Demonstrators gathered in Decatur Sunday for a peaceful protest outside the Morgan County Courthouse. Crowds joined together at 2 p.m. to call for justice following the death of George Floyd, a man who died in police custody in Minneapolis. Demonstrators marched down Lee Street to the old Lucky's parking lot along 6th Street to continue to chant,...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "DECATUR, Ala. \u0096 Demonstrators gathered in Decatur Sunday for a peaceful\nprotest outside the Morgan County Courthouse.\n\nCrowds joined together at 2 p.m. to call for justice following the death of\nGeorge Floyd, a man who died in police custody in Minneapolis.\n\nDemonstrators marched down Lee Street to the old Lucky's parking lot along 6th\nStreet to continue to chant, pray and speak about the importance of peacefully\nprotesting police brutality and racisim.\n\nProtests have erupted across the country since Floyd's death.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "DECATUR, Ala.",
+            "Decatur",
+            "Morgan County Courthouse",
+            "Minneapolis",
+            "Lee Street",
+            "6th Street"
+        ],
+        "person": [
+            "George Floyd"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.al.hunlle",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRS9C2BAB54029056D60DC0CABAB4913F2.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.758569,
+                    "label": "negative"
+                },
+                "text": "George Floyd",
+                "relevance": 0.889135,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "FootballPlayer"
+                    ],
+                    "name": "George Floyd",
+                    "dbpedia_resource": "http://dbpedia.org/resource/George_Floyd"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "DECATUR",
+                "relevance": 0.700032,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Decatur, Alabama",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Decatur,_Alabama"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Morgan County Courthouse",
+                "relevance": 0.680134,
+                "type": "Facility",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Morgan County Courthouse (West Virginia)",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Morgan_County_Courthouse_(West_Virginia)"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.546848,
+                    "label": "negative"
+                },
+                "text": "Minneapolis",
+                "relevance": 0.321534,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ala.",
+                "relevance": 0.268972,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Alabama",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Alabama"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "DECATUR, Ala. \u0096 Demonstrators"
+                },
+                "sentence": "DECATUR, Ala. \u0096 Demonstrators gathered in Decatur Sunday for a peaceful",
+                "action": {
+                    "verb": {
+                        "text": "gather",
+                        "tense": "past"
+                    },
+                    "text": "gathered",
+                    "normalized": "gather"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Crowds"
+                },
+                "sentence": " Crowds joined together at 2 p.m. to call for justice following the death of",
+                "action": {
+                    "verb": {
+                        "text": "join",
+                        "tense": "past"
+                    },
+                    "text": "joined",
+                    "normalized": "join"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Crowds"
+                },
+                "sentence": " Crowds joined together at 2 p.m. to call for justice following the death of",
+                "object": {
+                    "text": "for justice"
+                },
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "future"
+                    },
+                    "text": "to call",
+                    "normalized": "to call"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a man"
+                },
+                "sentence": " George Floyd, a man who died in police custody in Minneapolis.",
+                "action": {
+                    "verb": {
+                        "text": "die",
+                        "tense": "past"
+                    },
+                    "text": "died",
+                    "normalized": "die"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Demonstrators"
+                },
+                "sentence": " Demonstrators marched down Lee Street to the old Lucky's parking lot along 6th",
+                "object": {
+                    "text": "Lee Street"
+                },
+                "action": {
+                    "verb": {
+                        "text": "march",
+                        "tense": "past"
+                    },
+                    "text": "marched",
+                    "normalized": "march"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Street"
+                },
+                "sentence": " Street to continue to chant, pray and speak about the importance of peacefully",
+                "object": {
+                    "text": "about the importance of peacefully"
+                },
+                "action": {
+                    "verb": {
+                        "text": "speak",
+                        "tense": "present"
+                    },
+                    "text": "speak",
+                    "normalized": "speak"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Protests"
+                },
+                "sentence": " Protests have erupted across the country since Floyd's death.",
+                "object": {
+                    "text": "erupted across the country since Floyd's death"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Protests"
+                },
+                "sentence": " Protests have erupted across the country since Floyd's death.",
+                "action": {
+                    "verb": {
+                        "text": "erupt",
+                        "tense": "past"
+                    },
+                    "text": "have erupted",
+                    "normalized": "have erupt"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.898281,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.782369,
+                "label": "/law, govt and politics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "DECATUR, Ala. \u0096 Demonstrators gathered in Decatur Sunday for a peaceful protest outside the Morgan County Courthouse.",
+                "score": 0.982408,
+                "arguments": [
+                    {
+                        "text": "DECATUR",
+                        "location": [
+                            0,
+                            7
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "DECATUR"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Ala.",
+                        "location": [
+                            9,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Ala."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "DECATUR, Ala. \u0096 Demonstrators gathered in Decatur Sunday for a peaceful protest outside the Morgan County Courthouse.",
+                "score": 0.724804,
+                "arguments": [
+                    {
+                        "text": "\u0096 Demonstrators",
+                        "location": [
+                            14,
+                            29
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "\u0096 Demonstrators"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Ala.",
+                        "location": [
+                            9,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Ala."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "DECATUR, Ala. \u0096 Demonstrators gathered in Decatur Sunday for a peaceful protest outside the Morgan County Courthouse.",
+                "score": 0.571354,
+                "arguments": [
+                    {
+                        "text": "Morgan County",
+                        "location": [
+                            92,
+                            105
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Morgan County"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Courthouse",
+                        "location": [
+                            106,
+                            116
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Courthouse"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Crowds joined together at 2 p.m. to call for justice following the death of George Floyd, a man who died in police custody in Minneapolis.",
+                "score": 0.268351,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            211,
+                            214
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Floyd"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Minneapolis",
+                        "location": [
+                            245,
+                            256
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Minneapolis"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Crowds joined together at 2 p.m. to call for justice following the death of George Floyd, a man who died in police custody in Minneapolis.",
+                "score": 0.381593,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            215,
+                            218
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Floyd"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "police custody",
+                        "location": [
+                            227,
+                            241
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police custody"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Crowds joined together at 2 p.m. to call for justice following the death of George Floyd, a man who died in police custody in Minneapolis.",
+                "score": 0.49155,
+                "arguments": [
+                    {
+                        "text": "police custody",
+                        "location": [
+                            227,
+                            241
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police custody"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Minneapolis",
+                        "location": [
+                            245,
+                            256
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Minneapolis"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Demonstrators marched down Lee Street to the old Lucky's parking lot along 6th Street to continue to chant, pray and speak about the importance of peacefully protesting police brutality and racisim.",
+                "score": 0.522058,
+                "arguments": [
+                    {
+                        "text": "Lee Street",
+                        "location": [
+                            286,
+                            296
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Lee Street"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "parking lot",
+                        "location": [
+                            316,
+                            327
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "parking lot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Demonstrators marched down Lee Street to the old Lucky's parking lot along 6th Street to continue to chant, pray and speak about the importance of peacefully protesting police brutality and racisim.",
+                "score": 0.828728,
+                "arguments": [
+                    {
+                        "text": "parking lot",
+                        "location": [
+                            316,
+                            327
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "parking lot"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "6th\nStreet",
+                        "location": [
+                            334,
+                            344
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "6th\nStreet"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Lee Street",
+                "relevance": 0.828944,
+                "count": 1
+            },
+            {
+                "text": "George Floyd",
+                "relevance": 0.700834,
+                "count": 1
+            },
+            {
+                "text": "Demonstrators",
+                "relevance": 0.654205,
+                "count": 2
+            },
+            {
+                "text": "police custody",
+                "relevance": 0.652887,
+                "count": 1
+            },
+            {
+                "text": "old Lucky's parking lot",
+                "relevance": 0.617807,
+                "count": 1
+            },
+            {
+                "text": "Protests",
+                "relevance": 0.608109,
+                "count": 1
+            },
+            {
+                "text": "police brutality",
+                "relevance": 0.595522,
+                "count": 1
+            },
+            {
+                "text": "Crowds",
+                "relevance": 0.561904,
+                "count": 1
+            },
+            {
+                "text": "Morgan County Courthouse",
+                "relevance": 0.553824,
+                "count": 1
+            },
+            {
+                "text": "DECATUR",
+                "relevance": 0.532529,
+                "count": 1
+            },
+            {
+                "text": "man",
+                "relevance": 0.53225,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.524974,
+                "count": 1
+            },
+            {
+                "text": "justice",
+                "relevance": 0.518823,
+                "count": 1
+            },
+            {
+                "text": "importance",
+                "relevance": 0.514036,
+                "count": 1
+            },
+            {
+                "text": "Minneapolis",
+                "relevance": 0.514036,
+                "count": 1
+            },
+            {
+                "text": "death",
+                "relevance": 0.514036,
+                "count": 1
+            },
+            {
+                "text": "Ala",
+                "relevance": 0.514036,
+                "count": 1
+            },
+            {
+                "text": "Decatur Sunday",
+                "relevance": 0.500005,
+                "count": 1
+            },
+            {
+                "text": "Floyd's death",
+                "relevance": 0.498928,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "ff6081e86180e75912cf3b1e3f19b821363c9f39",
+        "filename": "202005310000NEWSBANKNEWSPPRS9C2BAB54029056D60DC0CABAB4913F2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "Demonstrators in Decatur call for justice after death of George Floyd",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.al.dectur\">DECATUR, Ala.</location> &#150; Demonstrators gathered in <location idsrc=\"xmltag.org\" value=\"LU/us.al.dectur\">Decatur</location> Sunday for a peaceful protest outside the <location>Morgan County Courthouse</location>.</p>\n<p>Crowds joined together at <chron>2 p.m.</chron> to call for justice following the death of <person>George Floyd</person>, a man who died in police custody in <location idsrc=\"xmltag.org\" value=\"LU/us.mn.minnea\">Minneapolis</location>.</p>\n\n<p>Demonstrators marched down <location>Lee Street</location> to the old Lucky's parking lot along <location>6th Street</location> to continue to chant, pray and speak about the importance of peacefully protesting police brutality and racisim.</p>\n\n<p>Protests have erupted across the country since Floyd's death.</p>",
+    "geoFocus": [
+        [
+            "GU/us.al.hunlle",
+            "Huntsville"
+        ]
+    ]
+}

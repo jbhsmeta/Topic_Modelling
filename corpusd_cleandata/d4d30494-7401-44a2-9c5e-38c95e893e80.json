@@ -1,0 +1,726 @@
+{
+    "id": "d4d30494-7401-44a2-9c5e-38c95e893e80",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Milwaukee, Wisconsin",
+    "sourceType": "Broadcast Transcript",
+    "source": "WITI-TV (Milwaukee, WI)",
+    "corpus_document_id": "24004866120692087322",
+    "description": "MILWAUKEE- Milwaukee police are asking for the public's help in their search for a missing 15- year-old girl. Police say Lazaria Young was last seen near Fond du Lac Avenue and Hoyt Place around 4 p.m. on Wednesday, May 27. Anyone with any information on Young's whereabouts is urged to contact Milwaukee police at 414-935-7272..",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "MILWAUKEE \\- Milwaukee police are asking for the public's help in their search\nfor a missing 15-year-old girl.\n\nPolice say Lazaria Young was last seen near Fond du Lac Avenue and Hoyt Place\naround 4 p.m. on Wednesday, May 27.\n\nYoung is described as a female, African American, about 5'3\" tall, 140 pounds,\nwith black hair and brown eyes. Her clothing description is unknown.\n\nAnyone with any information on Young's whereabouts is urged to contact\nMilwaukee police at 414-935-7272.\n\n43.086742 -87.974029",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#9#50#94",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "9",
+            "description": "Government Services",
+            "code": "II/gov.govserve#9#50#94",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "9",
+            "description": "Police Services",
+            "code": "II/gov.police#9#94#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "9",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#9#50#94",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "African American"
+        ],
+        "location": [
+            "MILWAUKEE",
+            "Milwaukee",
+            "Lac Avenue",
+            "Hoyt Place"
+        ],
+        "person": [
+            "Lazaria Young"
+        ],
+        "companies": [
+            "African American"
+        ]
+    },
+    "geoOrigin_code": "RU/us.wi.milkee",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS83B3851538F653B438C8434A31771A9.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "MILWAUKEE",
+                "relevance": 0.870097,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0.458057,
+                    "label": "positive"
+                },
+                "text": "Lazaria Young",
+                "relevance": 0.798978,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hoyt Place",
+                "relevance": 0.419423,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "140 pounds",
+                "relevance": 0.419423,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "15-year",
+                "relevance": 0.419423,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "3",
+                "relevance": 0.419423,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "MILWAUKEE \\- Milwaukee police"
+                },
+                "sentence": "MILWAUKEE \\- Milwaukee police are asking for the public's help in their search",
+                "object": {
+                    "text": "for the public's help"
+                },
+                "action": {
+                    "verb": {
+                        "text": "ask",
+                        "tense": "present"
+                    },
+                    "text": "are asking",
+                    "normalized": "be ask"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police say Lazaria Young was last seen near Fond du Lac Avenue and Hoyt Place",
+                "object": {
+                    "text": "Lazaria Young was last seen near Fond du Lac Avenue and Hoyt Place"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "say",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Lazaria Young"
+                },
+                "sentence": " Police say Lazaria Young was last seen near Fond du Lac Avenue and Hoyt Place",
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "past"
+                    },
+                    "text": "seen",
+                    "normalized": "see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Young"
+                },
+                "sentence": " Young is described as a female, African American, about 5'3\" tall, 140 pounds,",
+                "object": {
+                    "text": "as a female, African American, about 5'3\" tall, 140 pounds,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "describe",
+                        "tense": "past"
+                    },
+                    "text": "is described",
+                    "normalized": "be describe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Her clothing description"
+                },
+                "sentence": " Her clothing description is unknown.",
+                "object": {
+                    "text": "unknown"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Anyone with any information on Young's whereabouts"
+                },
+                "sentence": " Anyone with any information on Young's whereabouts is urged to contact",
+                "object": {
+                    "text": "urged to contact"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.768086,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.743677,
+                "label": "/law, govt and politics/law enforcement"
+            },
+            {
+                "score": 0.697772,
+                "label": "/society/crime/personal offense/homicide"
+            }
+        ],
+        "relations": [
+            {
+                "type": "basedIn",
+                "sentence": "MILWAUKEE \\- Milwaukee police are asking for the public's help in their search for a missing 15-year-old girl.",
+                "score": 0.878438,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            23,
+                            29
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "MILWAUKEE",
+                        "location": [
+                            0,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "MILWAUKEE"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "MILWAUKEE \\- Milwaukee police are asking for the public's help in their search for a missing 15-year-old girl.",
+                "score": 0.99202,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            23,
+                            29
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Milwaukee",
+                        "location": [
+                            13,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Milwaukee"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Anyone with any information on Young's whereabouts is urged to contact Milwaukee police at 414-935-7272.",
+                "score": 0.997087,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            457,
+                            463
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Milwaukee",
+                        "location": [
+                            447,
+                            456
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Milwaukee"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "MILWAUKEE \\- Milwaukee police are asking for the public's help in their search for a missing 15-year-old girl.",
+                "score": 0.852327,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            23,
+                            29
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "asking",
+                        "location": [
+                            34,
+                            40
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "asking"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "MILWAUKEE \\- Milwaukee police are asking for the public's help in their search for a missing 15-year-old girl.",
+                "score": 0.990357,
+                "arguments": [
+                    {
+                        "text": "girl",
+                        "location": [
+                            105,
+                            109
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "girl"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "15-year-old",
+                        "location": [
+                            93,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "15-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police say Lazaria Young was last seen near Fond du Lac Avenue and Hoyt Place around 4 p.m. on Wednesday, May 27.",
+                "score": 0.980719,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            112,
+                            118
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            119,
+                            122
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "urged"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Police say Lazaria Young was last seen near Fond du Lac Avenue and Hoyt Place around 4 p.m. on Wednesday, May 27.",
+                "score": 0.756295,
+                "arguments": [
+                    {
+                        "text": "Lazaria Young",
+                        "location": [
+                            123,
+                            136
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Lazaria Young"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Fond du Lac Avenue",
+                        "location": [
+                            156,
+                            174
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Fond du Lac Avenue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Anyone with any information on Young's whereabouts is urged to contact Milwaukee police at 414-935-7272.",
+                "score": 0.671964,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            457,
+                            463
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "urged",
+                        "location": [
+                            430,
+                            435
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "urged"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Anyone with any information on Young's whereabouts is urged to contact Milwaukee police at 414-935-7272.",
+                "score": 0.554149,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            457,
+                            463
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "414-935-7272",
+                        "location": [
+                            467,
+                            479
+                        ],
+                        "entities": [
+                            {
+                                "type": "Phone",
+                                "text": "414-935-7272"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Milwaukee police",
+                "relevance": 0.998605,
+                "count": 2
+            },
+            {
+                "text": "MILWAUKEE",
+                "relevance": 0.94648,
+                "count": 1
+            },
+            {
+                "text": "Lazaria Young",
+                "relevance": 0.684321,
+                "count": 1
+            },
+            {
+                "text": "black hair",
+                "relevance": 0.655143,
+                "count": 1
+            },
+            {
+                "text": "brown eyes",
+                "relevance": 0.567454,
+                "count": 1
+            },
+            {
+                "text": "Police",
+                "relevance": 0.549024,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.533968,
+                "count": 1
+            },
+            {
+                "text": "pounds",
+                "relevance": 0.508342,
+                "count": 1
+            },
+            {
+                "text": "search",
+                "relevance": 0.508342,
+                "count": 1
+            },
+            {
+                "text": "missing 15-year-old girl",
+                "relevance": 0.456041,
+                "count": 1
+            },
+            {
+                "text": "Fond du Lac Avenue",
+                "relevance": 0.447789,
+                "count": 1
+            },
+            {
+                "text": "Young's whereabouts",
+                "relevance": 0.420365,
+                "count": 1
+            },
+            {
+                "text": "clothing description",
+                "relevance": 0.407809,
+                "count": 1
+            },
+            {
+                "text": "public's help",
+                "relevance": 0.364683,
+                "count": 1
+            },
+            {
+                "text": "Hoyt Place",
+                "relevance": 0.351872,
+                "count": 1
+            },
+            {
+                "text": "Young",
+                "relevance": 0.325852,
+                "count": 1
+            },
+            {
+                "text": "female",
+                "relevance": 0.310726,
+                "count": 1
+            },
+            {
+                "text": "Wednesday",
+                "relevance": 0.307606,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.301598,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "4b98cc5888f0038ed9ba4adda5dd01ed38080d68",
+        "filename": "202006010000NEWSBANKNEWSPPRS83B3851538F653B438C8434A31771A9.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Milwaukee police ask for public's help in search for missing 15-year-old girl",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.wi.milkee\">MILWAUKEE</location> - <location idsrc=\"xmltag.org\" value=\"LU/us.wi.milkee\">Milwaukee</location> police are asking for the public's help in their search for a missing 15-year-old girl.</p>\n<p>Police say <person>Lazaria Young</person> was last seen near Fond du <location>Lac Avenue</location> and <location>Hoyt Place</location> around <chron>4 p.m.</chron> on <chron>Wednesday, May 27</chron>.</p>\n\n<p>Young is described as a female, <org>African American</org>, about 5'3\" tall, 140 pounds, with black hair and brown eyes. Her clothing description is unknown.</p>\n\n<p>Anyone with any information on Young's whereabouts is urged to contact <location idsrc=\"xmltag.org\" value=\"LU/us.wi.milkee\">Milwaukee</location> police at 414-935-7272.</p>\n\n<p>43.086742 -87.974029</p>",
+    "geoFocus": [
+        [
+            "GU/us.wi.milkee",
+            "Milwaukee"
+        ]
+    ]
+}

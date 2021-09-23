@@ -1,0 +1,302 @@
+{
+    "id": "5e1c1635-9f6a-4cfc-9296-225c78f41d27",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "90862835137986440342",
+    "description": "Delivery and leasing of 6 vehicles more info: Location: GERMANY BidDate: 6/ 18/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Thuringia Clinics Georgius Agricola GmbH Tendering Authority Address: 07318 Saalfeld Thuringia Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Delivery and leasing of 6 vehicles more info : Location : GERMANY BidDate :\n6/18/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority :\nThuringia Clinics Georgius Agricola GmbH Tendering Authority Address : 07318\nSaalfeld Thuringia Financier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_49750_176210537_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Thuringia Clinics Georgius Agricola GmbH",
+                "relevance": 0.905295,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.77075,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Saalfeld Thuringia Financier",
+                "relevance": 0.745117,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.450433,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.399272,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.741837,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.63553,
+                "label": "/automotive and vehicles"
+            },
+            {
+                "score": 0.622529,
+                "label": "/automotive and vehicles/cars/hybrid"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Delivery and leasing of 6 vehicles more info : Location : GERMANY BidDate : 6/18/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Thuringia Clinics Georgius Agricola GmbH Tendering Authority Address : 07318 Saalfeld Thuringia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.660303,
+                "arguments": [
+                    {
+                        "text": "6/18/2020 Tender",
+                        "location": [
+                            76,
+                            92
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/18/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority :\nThuringia Clinics Georgius Agricola GmbH Tendering Authority Address :",
+                        "location": [
+                            111,
+                            225
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority :\nThuringia Clinics Georgius Agricola GmbH Tendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Delivery and leasing of 6 vehicles more info : Location : GERMANY BidDate : 6/18/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Thuringia Clinics Georgius Agricola GmbH Tendering Authority Address : 07318 Saalfeld Thuringia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.489404,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            251,
+                            260
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Saalfeld Thuringia",
+                        "location": [
+                            232,
+                            250
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Saalfeld Thuringia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Saalfeld Thuringia Financier",
+                "relevance": 0.957652,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.914361,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.690016,
+                "count": 1
+            },
+            {
+                "text": "Delivery",
+                "relevance": 0.624354,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.602024,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.565233,
+                "count": 1
+            },
+            {
+                "text": "vehicles",
+                "relevance": 0.55743,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.552239,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.53957,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.534484,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.532657,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.522902,
+                "count": 1
+            },
+            {
+                "text": "Thuringia Clinics Georgius Agricola GmbH Tendering Authority Address",
+                "relevance": 0.36053,
+                "count": 1
+            },
+            {
+                "text": "leasing",
+                "relevance": 0.325462,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "279379156c51cf9fd07d2edcb88cae014e3c5cdf",
+        "filename": "202006050210ALBA____ME_NA_NE_49750_176210537_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Delivery and leasing of 6 vehicles [TenderNews.com - Tenders (India)]",
+    "html": "<p>Delivery and leasing of 6 vehicles more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/18/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Thuringia Clinics Georgius Agricola GmbH\nTendering Authority Address : 07318 Saalfeld Thuringia\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

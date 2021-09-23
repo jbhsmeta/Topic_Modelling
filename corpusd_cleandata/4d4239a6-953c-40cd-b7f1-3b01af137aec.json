@@ -1,0 +1,363 @@
+{
+    "id": "4d4239a6-953c-40cd-b7f1-3b01af137aec",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "41080883706622475463",
+    "description": "British MP Tanmanjeet Singh Dhesi once again sought independent inquiry into the involvement of the Thatcher government in Operation Bluestar.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "JALANDHAR: British MP Tanmanjeet Singh Dhesi once again sought independent\ninquiry into the involvement of the Thatcher government in\n\nOperation Bluestar\n\n. He raised the issue in the British parliament on Thursday during the 36th\nanniversary of the Army action on Darbar Sahib in .",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Darbar Sahib"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050352AMSPIDERNEWS_____MDJGXMUH_13C9CB0D916E50DBD85E993F6730D9D5_1.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tanmanjeet Singh Dhesi",
+                "relevance": 0.846161,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "British parliament",
+                "relevance": 0.761194,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalBody",
+                        "Legislature"
+                    ],
+                    "name": "Parliament of the United Kingdom",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Parliament_of_the_United_Kingdom"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "JALANDHAR",
+                "relevance": 0.700168,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Jalandhar",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Jalandhar"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Thatcher government",
+                "relevance": 0.699128,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Darbar Sahib",
+                "relevance": 0.545703,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Army",
+                "relevance": 0.374783,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "British MP Tanmanjeet Singh Dhesi"
+                },
+                "sentence": "JALANDHAR: British MP Tanmanjeet Singh Dhesi once again sought independent",
+                "action": {
+                    "verb": {
+                        "text": "seek",
+                        "tense": "past"
+                    },
+                    "text": "sought",
+                    "normalized": "seek"
+                }
+            },
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " . He raised the issue in the British parliament on Thursday during the 36th",
+                "object": {
+                    "text": "the issue"
+                },
+                "action": {
+                    "verb": {
+                        "text": "raise",
+                        "tense": "past"
+                    },
+                    "text": "raised",
+                    "normalized": "raise"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.672317,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.642696,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.608123,
+                "label": "/science/medicine"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "He raised the issue in the British parliament on Thursday during the 36th anniversary of the Army action on Darbar Sahib in .",
+                "score": 0.969482,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            157,
+                            159
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Singh Dhesi"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "raised",
+                        "location": [
+                            160,
+                            166
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "raised"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "He raised the issue in the British parliament on Thursday during the 36th anniversary of the Army action on Darbar Sahib in .",
+                "score": 0.563081,
+                "arguments": [
+                    {
+                        "text": "parliament",
+                        "location": [
+                            192,
+                            202
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "parliament",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "raised",
+                        "location": [
+                            160,
+                            166
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "raised"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "He raised the issue in the British parliament on Thursday during the 36th anniversary of the Army action on Darbar Sahib in .",
+                "score": 0.956495,
+                "arguments": [
+                    {
+                        "text": "Thursday",
+                        "location": [
+                            206,
+                            214
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Thursday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "raised",
+                        "location": [
+                            160,
+                            166
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "raised"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "He raised the issue in the British parliament on Thursday during the 36th anniversary of the Army action on Darbar Sahib in .",
+                "score": 0.743982,
+                "arguments": [
+                    {
+                        "text": "parliament",
+                        "location": [
+                            192,
+                            202
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "parliament",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "British",
+                        "location": [
+                            184,
+                            191
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "British",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "British MP Tanmanjeet Singh Dhesi",
+                "relevance": 0.900901,
+                "count": 1
+            },
+            {
+                "text": "British parliament",
+                "relevance": 0.819403,
+                "count": 1
+            },
+            {
+                "text": "Darbar Sahib",
+                "relevance": 0.714153,
+                "count": 1
+            },
+            {
+                "text": "JALANDHAR",
+                "relevance": 0.622481,
+                "count": 1
+            },
+            {
+                "text": "issue",
+                "relevance": 0.589304,
+                "count": 1
+            },
+            {
+                "text": "Army action",
+                "relevance": 0.585351,
+                "count": 1
+            },
+            {
+                "text": "involvement of the Thatcher government",
+                "relevance": 0.548009,
+                "count": 1
+            },
+            {
+                "text": "Operation Bluestar",
+                "relevance": 0.497948,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.251223,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "d2c59a71c49e0c41a5481395465ee81a1e3c5f50",
+        "filename": "202006050352AMSPIDERNEWS_____MDJGXMUH_13C9CB0D916E50DBD85E993F6730D9D5_1.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:52:00-04:00",
+    "title": "Operation Bluestar: Dhesi for probe into UK role [Times of India, The (English)]",
+    "html": "<p>JALANDHAR: British MP Tanmanjeet Singh Dhesi once again sought independent inquiry into the involvement of the Thatcher government in</p>\n\n<p>         Operation Bluestar</p>\n\n<p>         . He raised the issue in the British parliament on Thursday during the 36th anniversary of the Army action on <person>Darbar Sahib</person> in .</p>",
+    "geoFocus": []
+}

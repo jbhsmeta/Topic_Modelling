@@ -1,0 +1,477 @@
+{
+    "id": "eca972c4-643d-474b-aefc-0583a4a04a32",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright The Gazette Newspaper Group Jun 4-Jun 10, 2020",
+    "geoOrigin": "Fort Lauderdale, Florida",
+    "sourceType": "Newspaper",
+    "source": "Westside Gazette",
+    "corpus_document_id": "18464230216988984015",
+    "description": "1.8 million cases, 104,358 deaths. 56,163 cases, 10,190 hospitalizations, 2,451 deaths. 6,954 cases, 1,501 hospitalizations, 313 deaths.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Life and Society",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#82#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "USA\n\n1.8 million cases, 104,358 deaths\n\nFlorida\n\n56,163 cases, 10,190 hospitalizations, 2,451 deaths\n\n6,954 cases, 1,501 hospitalizations, 313 deaths\n\nBroward\n\nImportant to Know\n\nRemain vigilant, Coronavirus has not disappeared. - Many of us are returning\nto work and some of our normal pre-pandemic activities. While it is important\nthat we restart economic activities and engage in recreational pursuits, it is\nequally important to remain vigilant about our health and to maintain social\ndistancing and hygiene practices. Be aware that certain activities and\nsettings are greater risk factors for infection with coronavirus:\n\nCrowded areas - Any setting in which there is a large gathering of people pose\na greater risk for transmission of coronavirus. This is because people are in\ncloser proximity to each other and may more easily transmit coronavirus if\nthey are infected. Many people who are infected show no symptoms and so they\nmay be out and about with others. Always try to maintain at least 6 feet of\ndistance from others, and if possible, avoid going into crowded areas.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "USA",
+            "Florida",
+            "Broward"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.fl.ftlaud",
+    "language": "English",
+    "filename": "202006040000PROQUESTNEWPAPER_2411768860.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Coronavirus",
+                "relevance": 0.851835,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "USA",
+                "relevance": 0.21406,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Florida",
+                "relevance": 0.210839,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Florida",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Florida"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Broward",
+                "relevance": 0.204538,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "6 feet",
+                "relevance": 0.204537,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " While it is important",
+                "object": {
+                    "text": "important"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " that we restart economic activities and engage in recreational pursuits, it is",
+                "object": {
+                    "text": "economic activities"
+                },
+                "action": {
+                    "verb": {
+                        "text": "restart",
+                        "tense": "present"
+                    },
+                    "text": "restart",
+                    "normalized": "restart"
+                }
+            },
+            {
+                "subject": {
+                    "text": "settings"
+                },
+                "sentence": " settings are greater risk factors for infection with coronavirus:",
+                "object": {
+                    "text": "greater risk factors for infection"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Crowded areas"
+                },
+                "sentence": " Crowded areas - Any setting in which there is a large gathering of people pose",
+                "object": {
+                    "text": "a large gathering of people pose"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " they are infected.",
+                "object": {
+                    "text": "infected"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Many people"
+                },
+                "sentence": " Many people who are infected show no symptoms and so they",
+                "object": {
+                    "text": "infected show no symptoms"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "show"
+                },
+                "sentence": " Many people who are infected show no symptoms and so they",
+                "object": {
+                    "text": "no symptoms"
+                },
+                "action": {
+                    "verb": {
+                        "text": "infect",
+                        "tense": "past"
+                    },
+                    "text": "are infected",
+                    "normalized": "be infect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "to maintain at least 6 feet of"
+                },
+                "sentence": " Always try to maintain at least 6 feet of",
+                "action": {
+                    "verb": {
+                        "text": "try",
+                        "tense": "present"
+                    },
+                    "text": "try",
+                    "normalized": "try"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.89887,
+                "label": "/health and fitness/disease"
+            },
+            {
+                "score": 0.852073,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.790553,
+                "label": "/health and fitness/disease/cold and flu"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "closer proximity",
+                "relevance": 0.78791,
+                "count": 1
+            },
+            {
+                "text": "greater risk factors",
+                "relevance": 0.668166,
+                "count": 1
+            },
+            {
+                "text": "large gathering of people pose",
+                "relevance": 0.632244,
+                "count": 1
+            },
+            {
+                "text": "economic activities",
+                "relevance": 0.630479,
+                "count": 1
+            },
+            {
+                "text": "greater risk",
+                "relevance": 0.617323,
+                "count": 1
+            },
+            {
+                "text": "crowded areas",
+                "relevance": 0.614292,
+                "count": 1
+            },
+            {
+                "text": "settings",
+                "relevance": 0.580708,
+                "count": 1
+            },
+            {
+                "text": "distance",
+                "relevance": 0.577696,
+                "count": 1
+            },
+            {
+                "text": "areas",
+                "relevance": 0.562431,
+                "count": 1
+            },
+            {
+                "text": "pandemic activities",
+                "relevance": 0.553775,
+                "count": 1
+            },
+            {
+                "text": "others",
+                "relevance": 0.553322,
+                "count": 2
+            },
+            {
+                "text": "cases",
+                "relevance": 0.530509,
+                "count": 3
+            },
+            {
+                "text": "hygiene practices",
+                "relevance": 0.524508,
+                "count": 1
+            },
+            {
+                "text": "health",
+                "relevance": 0.517185,
+                "count": 1
+            },
+            {
+                "text": "hospitalizations",
+                "relevance": 0.515447,
+                "count": 2
+            },
+            {
+                "text": "recreational pursuits",
+                "relevance": 0.514768,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.514006,
+                "count": 2
+            },
+            {
+                "text": "infection",
+                "relevance": 0.512496,
+                "count": 1
+            },
+            {
+                "text": "feet",
+                "relevance": 0.511529,
+                "count": 1
+            },
+            {
+                "text": "deaths",
+                "relevance": 0.511529,
+                "count": 2
+            },
+            {
+                "text": "symptoms",
+                "relevance": 0.511529,
+                "count": 1
+            },
+            {
+                "text": "social",
+                "relevance": 0.511529,
+                "count": 1
+            },
+            {
+                "text": "activities",
+                "relevance": 0.507252,
+                "count": 1
+            },
+            {
+                "text": "transmission of coronavirus",
+                "relevance": 0.491341,
+                "count": 1
+            },
+            {
+                "text": "setting",
+                "relevance": 0.464922,
+                "count": 1
+            },
+            {
+                "text": "Coronavirus",
+                "relevance": 0.439255,
+                "count": 3
+            },
+            {
+                "text": "show",
+                "relevance": 0.43845,
+                "count": 1
+            },
+            {
+                "text": "USA",
+                "relevance": 0.436038,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "5b545ea8c28fab0b036d48fe7cc561d88cfb385f",
+        "filename": "202006040000PROQUESTNEWPAPER_2411768860.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-04T00:00:00-04:00",
+    "title": "Coronavirus Report: June 1, 2020",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LC/us\">USA</location></p>\n<p>1.8 million cases, 104,358 deaths</p>\n<p><location idsrc=\"xmltag.org\" value=\"LS/us.fl\">Florida</location></p>\n<p>56,163 cases, 10,190 hospitalizations, 2,451 deaths</p>\n<p>6,954 cases, 1,501 hospitalizations, 313 deaths</p>\n<p><location idsrc=\"xmltag.org\" value=\"LU/us.fl.broard\">Broward</location></p>\n<p>Important to Know</p>\n<p>Remain vigilant, Coronavirus has not disappeared. - Many of us are returning to work and some of our normal pre-pandemic activities. While it is important that we restart economic activities and engage in recreational pursuits, it is equally important to remain vigilant about our health and to maintain social distancing and hygiene practices. Be aware that certain activities and settings are greater risk factors for infection with coronavirus:</p>\n<p>Crowded areas - Any setting in which there is a large gathering of people pose a greater risk for transmission of coronavirus. This is because people are in closer proximity to each other and may more easily transmit coronavirus if they are infected. Many people who are infected show no symptoms and so they may be out and about with others. Always try to maintain at least 6 feet of distance from others, and if possible, avoid going into crowded areas.</p>",
+    "geoFocus": [
+        [
+            "GS/us.fl",
+            "Florida"
+        ]
+    ]
+}

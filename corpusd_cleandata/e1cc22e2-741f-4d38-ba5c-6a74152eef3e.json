@@ -1,0 +1,911 @@
+{
+    "id": "e1cc22e2-741f-4d38-ba5c-6a74152eef3e",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, Reporter, The (Lansdale, PA) - a Journal Register Company Property, All Rights Reserved.",
+    "geoOrigin": "Lansdale, Pennsylvania",
+    "sourceType": "Newspaper",
+    "source": "Reporter, The (Lansdale, PA)",
+    "corpus_document_id": "9523020448627006317",
+    "description": "The state Department of Health on Monday warned participants in the Special Supplemental Nutrition Program for Women, Infants and Children of potential scams. Officials advised those in the WIC program should not disclose personal information without verifying the caller's identity. WIC clinics perform eligibility determinations, but staff will never...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Health and Wellness",
+            "code": "IS/haw#7#63#78",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.wellness",
+            "relevance_score": "7",
+            "description": "Diet and Nutrition",
+            "code": "IS/haw.nutri#7#78#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "7",
+            "description": "Wellness",
+            "code": "IS/haw.wellness#7#50#78",
+            "level": 1
+        }
+    ],
+    "text": "The state Department of Health on Monday warned participants in the Special\nSupplemental Nutrition Program for Women, Infants and Children of potential\nscams.\n\nOfficials advised those in the WIC program should not disclose personal\ninformation without verifying the caller's identity.\n\nWIC clinics perform eligibility determinations, but staff will never call\nparticipants to request bank account information to deposit funds directly\ninto their accounts, officials said.\n\n\"We want participants to be alert, but know their information is protected and\ntheir benefits will continue to be distributed through secure means,\" said Dr.\nRachel Levine, health secretary. \"Please be aware of potential scammers\nlooking to steal personal information and report their number so more\nPennsylvanians do not have this experience.\"\n\nParticipants should contact their local WIC office if they have questions\nabout a request for information.\n\nPotential scams should be reported to local police or to the state attorney\ngeneral through an online form, calling 800-441-2555 or emailing\n[scams@attorneygeneral.gov](mailto:scams@attorneygeneral.gov).",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Department of Health",
+            "Special Supplemental Nutrition Program for Women, Infants and Children"
+        ],
+        "location": [],
+        "person": [
+            "Rachel Levine"
+        ],
+        "companies": [
+            "Special Supplemental Nutrition Program for Women, Infants and Children",
+            "Department of Health"
+        ]
+    },
+    "geoOrigin_code": "RU/us.pa.lanale",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS4477FE11892F11E6D63425B49EBD05D.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "WIC",
+                "relevance": 0.828351,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Department of Health",
+                "relevance": 0.355715,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "United States Department of Health and Human Services",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States_Department_of_Health_and_Human_Services"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rachel Levine",
+                "relevance": 0.333768,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.428617,
+                    "label": "positive"
+                },
+                "text": "secretary",
+                "relevance": 0.255197,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.75916,
+                    "label": "negative"
+                },
+                "text": "attorney",
+                "relevance": 0.248682,
+                "type": "JobTitle"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "scams@attorneygeneral.gov",
+                "relevance": 0.248682,
+                "type": "EmailAddress"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The state Department of Health on Monday"
+                },
+                "sentence": "The state Department of Health on Monday warned participants in the Special",
+                "object": {
+                    "text": "participants"
+                },
+                "action": {
+                    "verb": {
+                        "text": "warn",
+                        "tense": "past"
+                    },
+                    "text": "warned",
+                    "normalized": "warn"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Officials"
+                },
+                "sentence": " Officials advised those in the WIC program should not disclose personal",
+                "object": {
+                    "text": "those"
+                },
+                "action": {
+                    "verb": {
+                        "text": "advise",
+                        "tense": "past"
+                    },
+                    "text": "advised",
+                    "normalized": "advise"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Officials advised those in the WIC program"
+                },
+                "sentence": " Officials advised those in the WIC program should not disclose personal",
+                "object": {
+                    "text": "personal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "disclose",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "disclose",
+                    "normalized": "disclose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "WIC clinics"
+                },
+                "sentence": " WIC clinics perform eligibility determinations, but staff will never call",
+                "object": {
+                    "text": "eligibility determinations"
+                },
+                "action": {
+                    "verb": {
+                        "text": "perform",
+                        "tense": "present"
+                    },
+                    "text": "perform",
+                    "normalized": "perform"
+                }
+            },
+            {
+                "subject": {
+                    "text": "staff"
+                },
+                "sentence": " WIC clinics perform eligibility determinations, but staff will never call",
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "future"
+                    },
+                    "text": "call",
+                    "normalized": "call"
+                }
+            },
+            {
+                "subject": {
+                    "text": "participants"
+                },
+                "sentence": " participants to request bank account information to deposit funds directly",
+                "object": {
+                    "text": "bank account information to deposit funds"
+                },
+                "action": {
+                    "verb": {
+                        "text": "request",
+                        "tense": "future"
+                    },
+                    "text": "to request",
+                    "normalized": "to request"
+                }
+            },
+            {
+                "subject": {
+                    "text": "participants"
+                },
+                "sentence": " participants to request bank account information to deposit funds directly",
+                "object": {
+                    "text": "funds"
+                },
+                "action": {
+                    "verb": {
+                        "text": "deposit",
+                        "tense": "future"
+                    },
+                    "text": "to deposit",
+                    "normalized": "to deposit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "officials"
+                },
+                "sentence": " into their accounts, officials said.",
+                "object": {
+                    "text": "into their accounts"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We want participants to be alert, but know their information is protected and",
+                "object": {
+                    "text": "participants to be alert"
+                },
+                "action": {
+                    "verb": {
+                        "text": "want",
+                        "tense": "present"
+                    },
+                    "text": "want",
+                    "normalized": "want"
+                }
+            },
+            {
+                "subject": {
+                    "text": "participants"
+                },
+                "sentence": " \"We want participants to be alert, but know their information is protected and",
+                "object": {
+                    "text": "their information is protected"
+                },
+                "action": {
+                    "verb": {
+                        "text": "know",
+                        "tense": "present"
+                    },
+                    "text": "know",
+                    "normalized": "know"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Pennsylvanians"
+                },
+                "sentence": " Pennsylvanians do not have this experience.\"",
+                "object": {
+                    "text": "not have this experience"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "do",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Pennsylvanians"
+                },
+                "sentence": " Pennsylvanians do not have this experience.\"",
+                "object": {
+                    "text": "this experience"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Participants"
+                },
+                "sentence": " Participants should contact their local WIC office if they have questions",
+                "object": {
+                    "text": "their local WIC office"
+                },
+                "action": {
+                    "verb": {
+                        "text": "contact",
+                        "tense": "future"
+                    },
+                    "text": "should contact",
+                    "normalized": "should contact"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " Participants should contact their local WIC office if they have questions",
+                "object": {
+                    "text": "questions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Potential scams"
+                },
+                "sentence": " Potential scams should be reported to local police or to the state attorney",
+                "object": {
+                    "text": "reported to local police or to the state attorney"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Potential scams"
+                },
+                "sentence": " Potential scams should be reported to local police or to the state attorney",
+                "object": {
+                    "text": "to local police or to the state attorney"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "future"
+                    },
+                    "text": "should be reported",
+                    "normalized": "should be report"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.77953,
+                "label": "/health and fitness/nutrition"
+            },
+            {
+                "score": 0.76704,
+                "label": "/society/welfare/healthcare"
+            },
+            {
+                "score": 0.694118,
+                "label": "/law, govt and politics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "The state Department of Health on Monday warned participants in the Special Supplemental Nutrition Program for Women, Infants and Children of potential scams.",
+                "score": 0.98308,
+                "arguments": [
+                    {
+                        "text": "Department of Health",
+                        "location": [
+                            10,
+                            30
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Department of Health",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "state",
+                        "location": [
+                            4,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "WIC clinics"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The state Department of Health on Monday warned participants in the Special Supplemental Nutrition Program for Women, Infants and Children of potential scams.",
+                "score": 0.9572,
+                "arguments": [
+                    {
+                        "text": "Monday",
+                        "location": [
+                            34,
+                            40
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Monday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "warned",
+                        "location": [
+                            41,
+                            47
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "warned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "The state Department of Health on Monday warned participants in the Special Supplemental Nutrition Program for Women, Infants and Children of potential scams.",
+                "score": 0.658709,
+                "arguments": [
+                    {
+                        "text": "participants",
+                        "location": [
+                            48,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "participants"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "warned",
+                        "location": [
+                            41,
+                            47
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "warned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Officials advised those in the WIC program should not disclose personal information without verifying the caller's identity.",
+                "score": 0.9812,
+                "arguments": [
+                    {
+                        "text": "Officials",
+                        "location": [
+                            160,
+                            169
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officials"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "advised",
+                        "location": [
+                            170,
+                            177
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "advised"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "WIC clinics perform eligibility determinations, but staff will never call participants to request bank account information to deposit funds directly into their accounts, officials said.",
+                "score": 0.65505,
+                "arguments": [
+                    {
+                        "text": "participants",
+                        "location": [
+                            360,
+                            372
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "participants"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "request",
+                        "location": [
+                            376,
+                            383
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "request"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "WIC clinics perform eligibility determinations, but staff will never call participants to request bank account information to deposit funds directly into their accounts, officials said.",
+                "score": 0.992693,
+                "arguments": [
+                    {
+                        "text": "officials",
+                        "location": [
+                            456,
+                            465
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officials"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            466,
+                            470
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "warned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"We want participants to be alert, but know their information is protected and their benefits will continue to be distributed through secure means,\" said Dr. Rachel Levine, health secretary.",
+                "score": 0.924793,
+                "arguments": [
+                    {
+                        "text": "Dr.",
+                        "location": [
+                            627,
+                            630
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Rachel Levine"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            622,
+                            626
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "warned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Participants should contact their local WIC office if they have questions about a request for information.",
+                "score": 0.881636,
+                "arguments": [
+                    {
+                        "text": "they",
+                        "location": [
+                            873,
+                            877
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "participants"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "questions",
+                        "location": [
+                            883,
+                            892
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "questions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Potential scams should be reported to local police or to the state attorney general through an online form, calling 800-441-2555 or emailing [scams@attorneygeneral.gov](mailto:scams@attorneygeneral.gov).",
+                "score": 0.920275,
+                "arguments": [
+                    {
+                        "text": "attorney\ngeneral",
+                        "location": [
+                            994,
+                            1010
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "attorney\ngeneral"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "state",
+                        "location": [
+                            988,
+                            993
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "WIC clinics"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "state Department of Health",
+                "relevance": 0.826172,
+                "count": 1
+            },
+            {
+                "text": "bank account information",
+                "relevance": 0.704097,
+                "count": 1
+            },
+            {
+                "text": "Supplemental Nutrition Program",
+                "relevance": 0.697752,
+                "count": 1
+            },
+            {
+                "text": "potential scammers",
+                "relevance": 0.684046,
+                "count": 1
+            },
+            {
+                "text": "state attorney",
+                "relevance": 0.676529,
+                "count": 1
+            },
+            {
+                "text": "local police",
+                "relevance": 0.64719,
+                "count": 1
+            },
+            {
+                "text": "WIC program",
+                "relevance": 0.641243,
+                "count": 1
+            },
+            {
+                "text": "Potential scams",
+                "relevance": 0.638116,
+                "count": 1
+            },
+            {
+                "text": "local WIC office",
+                "relevance": 0.618261,
+                "count": 1
+            },
+            {
+                "text": "participants",
+                "relevance": 0.611207,
+                "count": 4
+            },
+            {
+                "text": "personal information",
+                "relevance": 0.596831,
+                "count": 1
+            },
+            {
+                "text": "WIC clinics",
+                "relevance": 0.545241,
+                "count": 1
+            },
+            {
+                "text": "Officials",
+                "relevance": 0.542322,
+                "count": 2
+            },
+            {
+                "text": "request",
+                "relevance": 0.536226,
+                "count": 1
+            },
+            {
+                "text": "benefits",
+                "relevance": 0.53057,
+                "count": 1
+            },
+            {
+                "text": "accounts",
+                "relevance": 0.524072,
+                "count": 1
+            },
+            {
+                "text": "Women",
+                "relevance": 0.523303,
+                "count": 1
+            },
+            {
+                "text": "Infants",
+                "relevance": 0.519223,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.516205,
+                "count": 2
+            },
+            {
+                "text": "Children",
+                "relevance": 0.515857,
+                "count": 1
+            },
+            {
+                "text": "health secretary",
+                "relevance": 0.512451,
+                "count": 1
+            },
+            {
+                "text": "Pennsylvanians",
+                "relevance": 0.510195,
+                "count": 1
+            },
+            {
+                "text": "number",
+                "relevance": 0.507257,
+                "count": 1
+            },
+            {
+                "text": "staff",
+                "relevance": 0.506867,
+                "count": 1
+            },
+            {
+                "text": "questions",
+                "relevance": 0.505985,
+                "count": 1
+            },
+            {
+                "text": "funds",
+                "relevance": 0.505985,
+                "count": 1
+            },
+            {
+                "text": "experience",
+                "relevance": 0.505985,
+                "count": 1
+            },
+            {
+                "text": "online form",
+                "relevance": 0.471959,
+                "count": 1
+            },
+            {
+                "text": "eligibility determinations",
+                "relevance": 0.466565,
+                "count": 1
+            },
+            {
+                "text": "secure means",
+                "relevance": 0.466249,
+                "count": 1
+            },
+            {
+                "text": "caller's identity",
+                "relevance": 0.449945,
+                "count": 1
+            },
+            {
+                "text": "Monday",
+                "relevance": 0.433593,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.408126,
+                "count": 1
+            },
+            {
+                "text": "emailing",
+                "relevance": 0.408126,
+                "count": 1
+            },
+            {
+                "text": "Special",
+                "relevance": 0.408126,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "37f4d3642e605383cc8378e25c5cc4594a52944d",
+        "filename": "202006010000NEWSBANKNEWSPPRS4477FE11892F11E6D63425B49EBD05D.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Pennsylvania Health Department issues scam warning for food-benefits program",
+    "html": "<p>The state <org>Department of Health</org> on Monday warned participants in the <org>Special Supplemental Nutrition Program for Women, Infants and Children</org> of potential scams.</p>\n<p>Officials advised those in the WIC program should not disclose personal information without verifying the caller's identity.</p>\n\n<p>WIC clinics perform eligibility determinations, but staff will never call participants to request bank account information to deposit funds directly into their accounts, officials said.</p>\n\n<p>\"We want participants to be alert, but know their information is protected and their benefits will continue to be distributed through secure means,\" said Dr. <person>Rachel Levine</person>, health secretary. \"Please be aware of potential scammers looking to steal personal information and report their number so more Pennsylvanians do not have this experience.\"</p>\n\n<p>Participants should contact their local WIC office if they have questions about a request for information.</p>\n\n<p>Potential scams should be reported to local police or to the state attorney general through an online form, calling 800-441-2555 or emailing <a href=\"mailto:scams@attorneygeneral.gov\">scams@attorneygeneral.gov</a>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.pa.lanale",
+            "Lansdale"
+        ]
+    ]
+}

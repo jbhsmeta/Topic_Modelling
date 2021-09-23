@@ -1,0 +1,625 @@
+{
+    "id": "6e331d7b-61b9-459b-a16a-147275dbd1c8",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright, 2020, The Sun Chronicle.  All Rights Reserved.",
+    "geoOrigin": "Attleboro, Massachusetts",
+    "sourceType": "Newspaper",
+    "source": "Sun Chronicle, The (Attleboro, MA)",
+    "corpus_document_id": "72035615286058978620",
+    "description": "North Main 3 is a lovely, 1- year-old, dilute tortoiseshell. She would love to go to a home with other young cats. She warms up to other cats immediately but will be a little shy around humans at first.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#5#50#58",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.socissue",
+            "relevance_score": "5",
+            "description": "Child Welfare",
+            "code": "IS/lifesoc.childwel#5#50#58",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc.childwel",
+            "relevance_score": "5",
+            "description": "Foster Care",
+            "code": "IS/lifesoc.hm#5#58#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "5",
+            "description": "Social Issues",
+            "code": "IS/lifesoc.socissue#5#50#58",
+            "level": 1
+        }
+    ],
+    "text": "North Main 3 is a lovely, 1-year-old, dilute tortoiseshell. She would love to\ngo to a home with other young cats. She warms up to other cats immediately but\nwill be a little shy around humans at first. North Main 3 is a professional\noffice assistant. She loves to help on office calls and has even set up Zoom\nmeetings for her foster mom by accident! If you have an office with a cat\ntower near a sunny window she will be your best office buddy for life.\n\nThis cat is currently in a foster home so if you would like to meet her please\nfill out an adoption application. They can be found at\n[www.angelcathaven.com](http://www.angelcathaven.com) and can be filled out\nonline, faxed to 617-488-2239 or emailed to\n[cats@angelcathaven.com](mailto:cats@angelcathaven.com).\n\nA special note: given the current social restrictions we are under due to\ncoronavirus, the adoption process will be a longer one than usual to ensure\nthe health and safety of everyone involved.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ma.attoro",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS997E4BCF82EECBCBE03137F4BFACDF9.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "coronavirus",
+                "relevance": 0.94214,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "cats@angelcathaven.com",
+                "relevance": 0.94214,
+                "type": "EmailAddress"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "1-year",
+                "relevance": 0.94214,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "North Main 3"
+                },
+                "sentence": "North Main 3 is a lovely, 1-year-old, dilute tortoiseshell.",
+                "object": {
+                    "text": "a lovely, 1-year-old, dilute tortoiseshell"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "She"
+                },
+                "sentence": " She warms up to other cats immediately but",
+                "object": {
+                    "text": "up to other cats"
+                },
+                "action": {
+                    "verb": {
+                        "text": "warm",
+                        "tense": "present"
+                    },
+                    "text": "warms",
+                    "normalized": "warm"
+                }
+            },
+            {
+                "subject": {
+                    "text": "North Main 3"
+                },
+                "sentence": " North Main 3 is a professional",
+                "object": {
+                    "text": "a professional"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "She"
+                },
+                "sentence": " She loves to help on office calls and has even set up Zoom",
+                "object": {
+                    "text": "to help on office calls"
+                },
+                "action": {
+                    "verb": {
+                        "text": "love",
+                        "tense": "present"
+                    },
+                    "text": "loves",
+                    "normalized": "love"
+                }
+            },
+            {
+                "subject": {
+                    "text": "She"
+                },
+                "sentence": " She loves to help on office calls and has even set up Zoom",
+                "object": {
+                    "text": "on office calls"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "loves to help",
+                    "normalized": "love to help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "She"
+                },
+                "sentence": " She loves to help on office calls and has even set up Zoom",
+                "object": {
+                    "text": "even set up Zoom"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " If you have an office with a cat",
+                "object": {
+                    "text": "an office"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": " tower near a sunny window she will be your best office buddy for life.",
+                "object": {
+                    "text": "your best office buddy"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "will be",
+                    "normalized": "will be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This cat"
+                },
+                "sentence": " This cat is currently in a foster home so if you would like to meet her please",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " This cat is currently in a foster home so if you would like to meet her please",
+                "object": {
+                    "text": "to meet her please"
+                },
+                "action": {
+                    "verb": {
+                        "text": "like",
+                        "tense": "future"
+                    },
+                    "text": "like",
+                    "normalized": "like"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " This cat is currently in a foster home so if you would like to meet her please",
+                "object": {
+                    "text": "her"
+                },
+                "action": {
+                    "verb": {
+                        "text": "meet",
+                        "tense": "future"
+                    },
+                    "text": "would like to meet",
+                    "normalized": "would like to meet"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " A special note: given the current social restrictions we are under due to",
+                "object": {
+                    "text": "the current social restrictions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.999996,
+                "label": "/pets/cats"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "She would love to go to a home with other young cats.",
+                "score": 0.359648,
+                "arguments": [
+                    {
+                        "text": "She",
+                        "location": [
+                            60,
+                            63
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "your"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "home",
+                        "location": [
+                            86,
+                            90
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "foster home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "This cat is currently in a foster home so if you would like to meet her please fill out an adoption application.",
+                "score": 0.383377,
+                "arguments": [
+                    {
+                        "text": "you",
+                        "location": [
+                            501,
+                            504
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "your"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "foster home",
+                        "location": [
+                            483,
+                            494
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "foster home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "She loves to help on office calls and has even set up Zoom meetings for her foster mom by accident!",
+                "score": 0.510096,
+                "arguments": [
+                    {
+                        "text": "Zoom",
+                        "location": [
+                            305,
+                            309
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Zoom",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meetings",
+                        "location": [
+                            310,
+                            318
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meetings"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "She loves to help on office calls and has even set up Zoom meetings for her foster mom by accident!",
+                "score": 0.772209,
+                "arguments": [
+                    {
+                        "text": "mom",
+                        "location": [
+                            334,
+                            337
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "mom"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meetings",
+                        "location": [
+                            310,
+                            318
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meetings"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "parentOf",
+                "sentence": "She loves to help on office calls and has even set up Zoom meetings for her foster mom by accident!",
+                "score": 0.316817,
+                "arguments": [
+                    {
+                        "text": "her",
+                        "location": [
+                            323,
+                            326
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "your"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "mom",
+                        "location": [
+                            334,
+                            337
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "mom"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "North Main",
+                "relevance": 0.849919,
+                "count": 2
+            },
+            {
+                "text": "special note",
+                "relevance": 0.792456,
+                "count": 1
+            },
+            {
+                "text": "sunny window",
+                "relevance": 0.635325,
+                "count": 1
+            },
+            {
+                "text": "office calls",
+                "relevance": 0.620908,
+                "count": 1
+            },
+            {
+                "text": "adoption application",
+                "relevance": 0.609177,
+                "count": 1
+            },
+            {
+                "text": "young cats",
+                "relevance": 0.58701,
+                "count": 1
+            },
+            {
+                "text": "little shy",
+                "relevance": 0.572665,
+                "count": 1
+            },
+            {
+                "text": "foster mom",
+                "relevance": 0.569928,
+                "count": 1
+            },
+            {
+                "text": "adoption process",
+                "relevance": 0.565161,
+                "count": 1
+            },
+            {
+                "text": "best office buddy",
+                "relevance": 0.545052,
+                "count": 1
+            },
+            {
+                "text": "health",
+                "relevance": 0.532253,
+                "count": 1
+            },
+            {
+                "text": "1-year-old",
+                "relevance": 0.531112,
+                "count": 1
+            },
+            {
+                "text": "home",
+                "relevance": 0.527581,
+                "count": 1
+            },
+            {
+                "text": "office",
+                "relevance": 0.521556,
+                "count": 1
+            },
+            {
+                "text": "cats",
+                "relevance": 0.518113,
+                "count": 1
+            },
+            {
+                "text": "safety",
+                "relevance": 0.517451,
+                "count": 1
+            },
+            {
+                "text": "life",
+                "relevance": 0.512249,
+                "count": 1
+            },
+            {
+                "text": "accident",
+                "relevance": 0.512249,
+                "count": 1
+            },
+            {
+                "text": "humans",
+                "relevance": 0.512249,
+                "count": 1
+            },
+            {
+                "text": "cat",
+                "relevance": 0.512078,
+                "count": 1
+            },
+            {
+                "text": "dilute tortoiseshell",
+                "relevance": 0.485891,
+                "count": 1
+            },
+            {
+                "text": "social restrictions",
+                "relevance": 0.485891,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.442131,
+                "count": 1
+            },
+            {
+                "text": "current",
+                "relevance": 0.408661,
+                "count": 1
+            },
+            {
+                "text": "foster",
+                "relevance": 0.406988,
+                "count": 1
+            },
+            {
+                "text": "usual",
+                "relevance": 0.405613,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.403105,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "b6f0ab6542c5d2b01c10a30cefacbe47f218e214",
+        "filename": "202006010000NEWSBANKNEWSPPRS997E4BCF82EECBCBE03137F4BFACDF9.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "NORTH MAIN 3",
+    "html": "<p>North Main 3 is a lovely, 1-year-old, dilute tortoiseshell. She would love to go to a home with other young cats. She warms up to other cats immediately but will be a little shy around humans at first. North Main 3 is a professional office assistant. She loves to help on office calls and has even set up Zoom meetings for her foster mom by accident! If you have an office with a cat tower near a sunny window she will be your best office buddy for life.</p>\n<p>This cat is currently in a foster home so if you would like to meet her please fill out an adoption application. They can be found at <a href=\"http://www.angelcathaven.com\">www.angelcathaven.com</a> and can be filled out online, faxed to 617-488-2239 or emailed to <a href=\"mailto:cats@angelcathaven.com\">cats@angelcathaven.com</a>.</p>\n\n<p>A special note: given the current social restrictions we are under due to coronavirus, the adoption process will be a longer one than usual to ensure the health and safety of everyone involved.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ma.attoro",
+            "Attleboro"
+        ]
+    ]
+}

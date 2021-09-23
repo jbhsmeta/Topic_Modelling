@@ -1,0 +1,733 @@
+{
+    "id": "53b90e2b-eba4-46e9-b34c-e5374d4a8f5e",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 1998-2020 WCBD, Nexstar Broadcasting, Inc. All rights reserved.",
+    "geoOrigin": "Charleston, South Carolina",
+    "sourceType": "Broadcast Transcript",
+    "source": "NBC - 2 WCBD (Charleston, SC)",
+    "corpus_document_id": "17959920430672416548",
+    "description": "ISLE OF PALMS, S.C. Wild Dunes Resort on the Isle of Palms is expected to lay off 297 employees on June 15, according to a layoff notification report issued by scworks.org. The downsizing comes on the heels of the COVID-19 pandemic, which dealt a serious blow to the hospitality and tourism industry. In early April, Kiawah Island Golf Resort laid off 1,090 employees.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Business and Commerce",
+            "code": "IS/biz#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/biz.layoffs",
+            "relevance_score": "9",
+            "description": "Corporate Layoffs",
+            "code": "IS/biz.corpcuts#9#99#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/biz",
+            "relevance_score": "9",
+            "description": "Business Events",
+            "code": "IS/biz.events#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.laboremp",
+            "relevance_score": "9",
+            "description": "Layoffs",
+            "code": "IS/biz.layoffs#9#99#99",
+            "level": 2
+        }
+    ],
+    "text": "ISLE OF PALMS, S.C. (WCBD) \u0096 Wild Dunes Resort on the Isle of Palms is\nexpected to lay off 297 employees on June 15, according to a layoff\nnotification report issued by [scworks.org](http://scworks.org).\n\nThe downsizing comes on the heels of the COVID-19 pandemic, which dealt a\nserious blow to the hospitality and tourism industry.\n\nWild Dunes, which is currently constructing an additional hotel on site, is\nthe second large resort in the Lowcountry to be impacted. In early April,\nKiawah Island Golf Resort laid off 1,090 employees.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Travel and Hospitality",
+            "code": "II/hosp#8#70#85",
+            "level": 0
+        },
+        {
+            "parent": "II/hosp",
+            "relevance_score": "8",
+            "description": "Travel Accommodations",
+            "code": "II/hosp.lodging#8#50#82",
+            "level": 1
+        },
+        {
+            "parent": "II/hosp.lodging",
+            "relevance_score": "8",
+            "description": "Vacation Resorts",
+            "code": "II/hosp.resort#8#82#50",
+            "level": 2
+        },
+        {
+            "parent": "II/hosp.travel",
+            "relevance_score": "8",
+            "description": "Tourism",
+            "code": "II/hosp.tourism#8#85#50",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "ISLE OF PALMS, S.C.",
+            "Wild Dunes Resort",
+            "Isle of Palms",
+            "Kiawah Island Golf Resort"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.sc.chlstn",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSE6D67F768D04796B7EC34E6CA84A105.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Isle of Palms",
+                "relevance": 0.912565,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kiawah Island Golf Resort",
+                "relevance": 0.861493,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.472637,
+                    "label": "positive"
+                },
+                "text": "Wild Dunes",
+                "relevance": 0.706118,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Lowcountry",
+                "relevance": 0.398146,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "S.C.",
+                "relevance": 0.278265,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "297 employees"
+                },
+                "sentence": " expected to lay off 297 employees on June 15, according to a layoff",
+                "action": {
+                    "verb": {
+                        "text": "lie",
+                        "tense": "future"
+                    },
+                    "text": "expected to lay",
+                    "normalized": "expect to lie"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by [scworks.org](http://scworks.org)"
+                },
+                "sentence": " notification report issued by [scworks.org](http://scworks.org).",
+                "object": {
+                    "text": "notification report"
+                },
+                "action": {
+                    "verb": {
+                        "text": "issue",
+                        "tense": "past"
+                    },
+                    "text": "issued",
+                    "normalized": "issue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The downsizing"
+                },
+                "sentence": " The downsizing comes on the heels of the COVID-19 pandemic, which dealt a",
+                "action": {
+                    "verb": {
+                        "text": "come",
+                        "tense": "present"
+                    },
+                    "text": "comes",
+                    "normalized": "come"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the COVID-19 pandemic"
+                },
+                "sentence": " The downsizing comes on the heels of the COVID-19 pandemic, which dealt a",
+                "object": {
+                    "text": "a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "deal",
+                        "tense": "past"
+                    },
+                    "text": "dealt",
+                    "normalized": "deal"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Wild Dunes"
+                },
+                "sentence": " Wild Dunes, which is currently constructing an additional hotel on site, is",
+                "object": {
+                    "text": "currently constructing an additional hotel on site"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Wild Dunes"
+                },
+                "sentence": " Wild Dunes, which is currently constructing an additional hotel on site, is",
+                "object": {
+                    "text": "an additional hotel"
+                },
+                "action": {
+                    "verb": {
+                        "text": "construct",
+                        "tense": "present"
+                    },
+                    "text": "constructing",
+                    "normalized": "construct"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Kiawah Island Golf Resort"
+                },
+                "sentence": " Kiawah Island Golf Resort laid off 1,090 employees.",
+                "object": {
+                    "text": "off 1,090 employees"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lay",
+                        "tense": "past"
+                    },
+                    "text": "laid",
+                    "normalized": "lay"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.641886,
+                "label": "/business and industrial/hospitality industry"
+            },
+            {
+                "score": 0.636057,
+                "label": "/travel/hotels"
+            },
+            {
+                "score": 0.543655,
+                "label": "/business and industrial/business operations/business plans"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "ISLE OF PALMS, S.C. (WCBD) \u0096 Wild Dunes Resort on the Isle of Palms is expected to lay off 297 employees on June 15, according to a layoff notification report issued by [scworks.org](http://scworks.org).",
+                "score": 0.943745,
+                "arguments": [
+                    {
+                        "text": "ISLE OF PALMS",
+                        "location": [
+                            0,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "ISLE OF PALMS"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "S.C.",
+                        "location": [
+                            15,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "S.C."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "ISLE OF PALMS, S.C. (WCBD) \u0096 Wild Dunes Resort on the Isle of Palms is expected to lay off 297 employees on June 15, according to a layoff notification report issued by [scworks.org](http://scworks.org).",
+                "score": 0.494456,
+                "arguments": [
+                    {
+                        "text": "Wild Dunes Resort",
+                        "location": [
+                            29,
+                            46
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Wild Dunes Resort",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Isle of Palms",
+                        "location": [
+                            54,
+                            67
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "ISLE OF PALMS"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "ISLE OF PALMS, S.C. (WCBD) \u0096 Wild Dunes Resort on the Isle of Palms is expected to lay off 297 employees on June 15, according to a layoff notification report issued by [scworks.org](http://scworks.org).",
+                "score": 0.727485,
+                "arguments": [
+                    {
+                        "text": "Wild Dunes Resort",
+                        "location": [
+                            29,
+                            46
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Wild Dunes Resort",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "lay off",
+                        "location": [
+                            83,
+                            90
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPersonnel",
+                                "text": "lay off"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "ISLE OF PALMS, S.C. (WCBD) \u0096 Wild Dunes Resort on the Isle of Palms is expected to lay off 297 employees on June 15, according to a layoff notification report issued by [scworks.org](http://scworks.org).",
+                "score": 0.652003,
+                "arguments": [
+                    {
+                        "text": "employees",
+                        "location": [
+                            95,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "employees"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Wild Dunes Resort",
+                        "location": [
+                            29,
+                            46
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Wild Dunes Resort",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "ISLE OF PALMS, S.C. (WCBD) \u0096 Wild Dunes Resort on the Isle of Palms is expected to lay off 297 employees on June 15, according to a layoff notification report issued by [scworks.org](http://scworks.org).",
+                "score": 0.945034,
+                "arguments": [
+                    {
+                        "text": "employees",
+                        "location": [
+                            95,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "employees"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "lay off",
+                        "location": [
+                            83,
+                            90
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPersonnel",
+                                "text": "lay off"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "ISLE OF PALMS, S.C. (WCBD) \u0096 Wild Dunes Resort on the Isle of Palms is expected to lay off 297 employees on June 15, according to a layoff notification report issued by [scworks.org](http://scworks.org).",
+                "score": 0.887091,
+                "arguments": [
+                    {
+                        "text": "June 15",
+                        "location": [
+                            108,
+                            115
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "June 15"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "lay off",
+                        "location": [
+                            83,
+                            90
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPersonnel",
+                                "text": "lay off"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "In early April, Kiawah Island Golf Resort laid off 1,090 employees.",
+                "score": 0.918613,
+                "arguments": [
+                    {
+                        "text": "Golf Resort",
+                        "location": [
+                            498,
+                            509
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Golf Resort"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Kiawah Island",
+                        "location": [
+                            484,
+                            497
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Kiawah Island"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "In early April, Kiawah Island Golf Resort laid off 1,090 employees.",
+                "score": 0.709133,
+                "arguments": [
+                    {
+                        "text": "1,090",
+                        "location": [
+                            519,
+                            524
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "1,090"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Kiawah Island",
+                        "location": [
+                            484,
+                            497
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Kiawah Island"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "In early April, Kiawah Island Golf Resort laid off 1,090 employees.",
+                "score": 0.266185,
+                "arguments": [
+                    {
+                        "text": "employees",
+                        "location": [
+                            525,
+                            534
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "employees"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Golf Resort",
+                        "location": [
+                            498,
+                            509
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Golf Resort"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "ISLE OF PALMS",
+                "relevance": 0.922017,
+                "count": 2
+            },
+            {
+                "text": "Wild Dunes Resort",
+                "relevance": 0.904012,
+                "count": 1
+            },
+            {
+                "text": "Kiawah Island Golf Resort",
+                "relevance": 0.699503,
+                "count": 1
+            },
+            {
+                "text": "Wild Dunes",
+                "relevance": 0.631827,
+                "count": 1
+            },
+            {
+                "text": "early April",
+                "relevance": 0.619167,
+                "count": 1
+            },
+            {
+                "text": "second large resort",
+                "relevance": 0.607116,
+                "count": 1
+            },
+            {
+                "text": "tourism industry",
+                "relevance": 0.58982,
+                "count": 1
+            },
+            {
+                "text": "serious blow",
+                "relevance": 0.564495,
+                "count": 1
+            },
+            {
+                "text": "employees",
+                "relevance": 0.521788,
+                "count": 2
+            },
+            {
+                "text": "hospitality",
+                "relevance": 0.517973,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.516982,
+                "count": 1
+            },
+            {
+                "text": "Lowcountry",
+                "relevance": 0.514007,
+                "count": 1
+            },
+            {
+                "text": "site",
+                "relevance": 0.511553,
+                "count": 1
+            },
+            {
+                "text": "heels of the COVID-19",
+                "relevance": 0.434015,
+                "count": 1
+            },
+            {
+                "text": "additional hotel",
+                "relevance": 0.406643,
+                "count": 1
+            },
+            {
+                "text": "S.C.",
+                "relevance": 0.383906,
+                "count": 1
+            },
+            {
+                "text": "WCBD",
+                "relevance": 0.370874,
+                "count": 1
+            },
+            {
+                "text": "downsizing",
+                "relevance": 0.354759,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "f0e4cd16608cd9632fce1ce7bacd567fdb98a5f1",
+        "filename": "202006050000NEWSBANKNEWSPPRSE6D67F768D04796B7EC34E6CA84A105.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Wild Dunes to lay off nearly 300 employees in June",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.sc.isllms\">ISLE OF PALMS, S.C.</location> (WCBD) &#150; <location>Wild Dunes Resort</location> on the <location idsrc=\"xmltag.org\" value=\"LU/us.sc.isllms\">Isle of Palms</location> is expected to lay off 297 employees on <chron>June 15</chron>, according to a layoff notification report issued by <a href=\"http://scworks.org\">scworks.org</a>.</p>\n<p>The downsizing comes on the heels of the COVID-19 pandemic, which dealt a serious blow to the hospitality and tourism industry.</p>\n\n<p>Wild Dunes, which is currently constructing an additional hotel on site, is the second large resort in the Lowcountry to be impacted. In early April, <location>Kiawah Island Golf Resort</location> laid off 1,090 employees.</p>",
+    "geoFocus": [
+        [
+            "GU/us.sc.chlstn",
+            "Charleston"
+        ]
+    ]
+}

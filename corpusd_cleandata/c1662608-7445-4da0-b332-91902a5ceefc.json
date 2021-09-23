@@ -1,0 +1,441 @@
+{
+    "id": "c1662608-7445-4da0-b332-91902a5ceefc",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2000 - 2020 Al Bawaba. All Rights Reserved. Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "Dubai, United Arab Emirates",
+    "sourceType": "General Newswire",
+    "source": "Tenders Monitor Africa-Asia",
+    "corpus_document_id": "24871373036135484991",
+    "description": "Description: Tenders are invited for Upgrading the Scientific Conference Room of Hai Phong City Police Bid Security Amount: 20,000,000 VND Duration of Contract: 40 Day.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "South-Eastern Asia",
+            "code": "LB/seas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/seas",
+            "relevance_score": "9",
+            "description": "Vietnam",
+            "code": "LC/vn#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "6",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#6#66#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "6",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#6#50#66",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Structured Content",
+            "code": "IS/spec#6#50#66",
+            "level": 0
+        }
+    ],
+    "text": "Company : HAI PHONG CITY POLICE\n\nAddress : 02253842298 - 0913528128\n\nCountry : Vietnam\n\nLocation : Vietnam\n\nTender_No : 20200614490-00\n\nValue : VND 1722679200\n\nDead line : 2020-06-12\n\nLocal International : International\n\nFunding Agency : No\n\nDescription : Tenders are invited for Upgrading the Scientific Conference Room\nof Hai Phong City Police Bid Security Amount: 20,000,000 VND Duration of\nContract: 40 Day [Disclaimer: The above text is machine translated. For\naccurate information kindly refer the original document.]\n\nDocument : [\nhttp://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20739900.html](http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20739900.html)",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "7",
+            "description": "Government Services",
+            "code": "II/gov.govserve#7#50#75",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "7",
+            "description": "Police Services",
+            "code": "II/gov.police#7#75#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "7",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#7#50#75",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "HAI PHONG",
+            "Vietnam",
+            "Scientific Conference Room",
+            "Hai Phong"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/ae..dubai",
+    "language": "English",
+    "filename": "202006050058ALBA____ME_NA_NE_46487_176206897_138.930.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hai Phong City",
+                "relevance": 0.929376,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.458686,
+                    "label": "positive"
+                },
+                "text": "Vietnam",
+                "relevance": 0.646404,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Vietnam",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Vietnam"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "40 Day",
+                "relevance": 0.646404,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Tenders"
+                },
+                "sentence": " Description : Tenders are invited for Upgrading the Scientific Conference Room",
+                "object": {
+                    "text": "for Upgrading the Scientific Conference Room"
+                },
+                "action": {
+                    "verb": {
+                        "text": "invite",
+                        "tense": "past"
+                    },
+                    "text": "are invited",
+                    "normalized": "be invite"
+                }
+            },
+            {
+                "subject": {
+                    "text": "accurate information"
+                },
+                "sentence": " accurate information kindly refer the original document.]",
+                "object": {
+                    "text": "the original document"
+                },
+                "action": {
+                    "verb": {
+                        "text": "refer",
+                        "tense": "present"
+                    },
+                    "text": "refer",
+                    "normalized": "refer"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.583847,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.571345,
+                "label": "/education/special education"
+            },
+            {
+                "score": 0.560396,
+                "label": "/business and industrial/agriculture and forestry"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Company : HAI PHONG CITY POLICE",
+                "score": 0.296999,
+                "arguments": [
+                    {
+                        "text": "HAI PHONG CITY",
+                        "location": [
+                            10,
+                            24
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "HAI PHONG CITY"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Company",
+                        "location": [
+                            0,
+                            7
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "International"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "Company : HAI PHONG CITY POLICE",
+                "score": 0.712148,
+                "arguments": [
+                    {
+                        "text": "HAI PHONG CITY",
+                        "location": [
+                            10,
+                            24
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "HAI PHONG CITY"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "POLICE",
+                        "location": [
+                            25,
+                            31
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "POLICE"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Country : Vietnam",
+                "score": 0.149385,
+                "arguments": [
+                    {
+                        "text": "Country",
+                        "location": [
+                            69,
+                            76
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Country"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Vietnam",
+                        "location": [
+                            79,
+                            86
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Vietnam",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "accurate information",
+                "relevance": 0.839398,
+                "count": 1
+            },
+            {
+                "text": "original document",
+                "relevance": 0.635847,
+                "count": 1
+            },
+            {
+                "text": "Company",
+                "relevance": 0.616986,
+                "count": 1
+            },
+            {
+                "text": "above text",
+                "relevance": 0.602377,
+                "count": 1
+            },
+            {
+                "text": "Local International",
+                "relevance": 0.598935,
+                "count": 1
+            },
+            {
+                "text": "Contract",
+                "relevance": 0.594258,
+                "count": 1
+            },
+            {
+                "text": "Description",
+                "relevance": 0.594258,
+                "count": 1
+            },
+            {
+                "text": "Scientific Conference Room",
+                "relevance": 0.588837,
+                "count": 1
+            },
+            {
+                "text": "Dead line",
+                "relevance": 0.584613,
+                "count": 1
+            },
+            {
+                "text": "Day",
+                "relevance": 0.553828,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.553828,
+                "count": 1
+            },
+            {
+                "text": "Disclaimer",
+                "relevance": 0.540476,
+                "count": 1
+            },
+            {
+                "text": "Country",
+                "relevance": 0.525247,
+                "count": 1
+            },
+            {
+                "text": "machine",
+                "relevance": 0.521487,
+                "count": 1
+            },
+            {
+                "text": "Value",
+                "relevance": 0.521374,
+                "count": 1
+            },
+            {
+                "text": "Agency",
+                "relevance": 0.517725,
+                "count": 1
+            },
+            {
+                "text": "Document",
+                "relevance": 0.508865,
+                "count": 1
+            },
+            {
+                "text": "VND Duration",
+                "relevance": 0.502664,
+                "count": 1
+            },
+            {
+                "text": "Hai Phong City Police Bid Security Amount",
+                "relevance": 0.493231,
+                "count": 1
+            },
+            {
+                "text": "VND",
+                "relevance": 0.421146,
+                "count": 1
+            },
+            {
+                "text": "International",
+                "relevance": 0.412271,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "3e83583f98b94e0b29f8f4e08ba4d781c99c24c1",
+        "filename": "202006050058ALBA____ME_NA_NE_46487_176206897_138.930.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:58:00-04:00",
+    "title": "Upgrading the Scientific Conference Room of Hai Phong City Police",
+    "html": "<p>Company : <location idsrc=\"xmltag.org\" value=\"DEFAULT_FIRST\">HAI PHONG</location> CITY POLICE</p>\n<p>Address : 02253842298 - 0913528128</p>\n<p>Country : <location idsrc=\"xmltag.org\" value=\"LC/vn\">Vietnam</location></p>\n<p>Location : <location idsrc=\"xmltag.org\" value=\"LC/vn\">Vietnam</location></p>\n<p>Tender_No : 20200614490-00</p>\n<p>Value : <money>VND 1722679200</money></p>\n<p>Dead line : 2020-06-12</p>\n<p>Local International : International</p>\n<p>Funding Agency : No</p>\n<p>Description : Tenders are invited for Upgrading the <location>Scientific Conference Room</location> of <location idsrc=\"xmltag.org\" value=\"DEFAULT_FIRST\">Hai Phong</location> City Police Bid Security Amount: <money>20,000,000 VND</money> Duration of Contract: 40 Day [Disclaimer: The above text is machine translated. For accurate information kindly refer the original document.]</p>\n<p>Document : <a href=\"http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20739900.html\"> http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20739900.html</a></p>",
+    "geoFocus": [
+        [
+            "GR/afr",
+            "Africa"
+        ],
+        [
+            "GR/as",
+            "Asia"
+        ]
+    ]
+}

@@ -1,0 +1,832 @@
+{
+    "id": "35dbb18a-230c-48e5-921e-82e1d1527184",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "68212013060623702316",
+    "description": "The Roosters star was a late scratching in his side\u2019 s 59-0 win over Brisbane after becoming the first player to be ruled out since the competition's resumption.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/oc",
+            "relevance_score": "9",
+            "description": "Australia and New Zealand",
+            "code": "LB/anz#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/anz",
+            "relevance_score": "9",
+            "description": "Australia",
+            "code": "LC/au#9#50#90",
+            "level": 2
+        },
+        {
+            "code": "LR/anz#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Oceania",
+            "code": "LR/oc#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#78#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "star James Tedesco has been cleared of coronavirus after his test for COVID-19\ncame back negative.James Tedesco has been cleared of\ncoronavirus.Credit:Tedesco was a late scratching in his side's 59-0 win over\nBrisbane on Thursday night after becoming the first player to be ruled out of\na match since the resumption of the competition. The Dally M medallist failed\na temperature check under the code's biosecurity rules and was immediately\nsent for a coronavirus test. The result came back negative on\nFriday.LoadingThe premiers didn't miss their star player at Suncorp Stadium,\nhanding the Broncos the biggest defeat in the game's history. Brett Morris\nfilled in capably at fullback, in a result that heaps pressure on Brisbane\ncoach Anthony Seibold.Canterbury are sweating on the results of a COVID-19\ntest for Terry Lamb after he was captured on camera breaching social-\ndistancing rules by shaking hands with several players, including star\nplaymaker Kieran Foran, on Thursday.The cancelled a planned media session and\nhave been told not to train until the result is known. The club is facing the\nprospect of a fine for a breach of biosecurity protocols.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Brisbane",
+            "Suncorp Stadium"
+        ],
+        "person": [
+            "James Tedesco",
+            "Brett Morris",
+            "Anthony Seibold",
+            "Terry Lamb",
+            "Kieran Foran"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050225AMSPIDERNEWS_____WATODY01_1A046D59CDC3C43A01A5E86E851DD3E7_31.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": -0.340075,
+                    "label": "negative"
+                },
+                "text": "James Tedesco",
+                "relevance": 0.877333,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "James Tedesco",
+                    "dbpedia_resource": "http://dbpedia.org/resource/James_Tedesco"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Brisbane",
+                "relevance": 0.506918,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Brisbane",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Brisbane"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Suncorp Stadium",
+                "relevance": 0.437304,
+                "type": "Facility",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "CricketStadium",
+                        "Stadium",
+                        "Building",
+                        "SportsFacility"
+                    ],
+                    "name": "Lang Park",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Lang_Park"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.345776,
+                    "label": "positive"
+                },
+                "text": "Kieran Foran",
+                "relevance": 0.41955,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Kieran Foran",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Kieran_Foran"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Terry Lamb",
+                "relevance": 0.377067,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "ChivalricOrderMember",
+                        "RugbyPlayer"
+                    ],
+                    "name": "Terry Lamb",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Terry_Lamb"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.676972,
+                    "label": "positive"
+                },
+                "text": "Brett Morris",
+                "relevance": 0.373379,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "RugbyPlayer"
+                    ],
+                    "name": "Brett Morris",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Brett_Morris"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.423782,
+                    "label": "negative"
+                },
+                "text": "coach Anthony Seibold.Canterbury",
+                "relevance": 0.353442,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Broncos",
+                "relevance": 0.345557,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "C.D. Broncos",
+                    "dbpedia_resource": "http://dbpedia.org/resource/C.D._Broncos"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "star James Tedesco"
+                },
+                "sentence": "star James Tedesco has been cleared of coronavirus after his test for COVID-19",
+                "object": {
+                    "text": "been cleared of coronavirus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "star James Tedesco"
+                },
+                "sentence": "star James Tedesco has been cleared of coronavirus after his test for COVID-19",
+                "object": {
+                    "text": "cleared of coronavirus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "star James Tedesco"
+                },
+                "sentence": "star James Tedesco has been cleared of coronavirus after his test for COVID-19",
+                "object": {
+                    "text": "of coronavirus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "clear",
+                        "tense": "past"
+                    },
+                    "text": "has been cleared",
+                    "normalized": "have be clear"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Tedesco"
+                },
+                "sentence": " coronavirus.Credit:Tedesco was a late scratching in his side's 59-0 win over",
+                "object": {
+                    "text": "a late scratching in his side's 59-0 win over"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a temperature check under the code"
+                },
+                "sentence": " a temperature check under the code's biosecurity rules and was immediately",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Friday.LoadingThe premiers"
+                },
+                "sentence": " Friday.LoadingThe premiers didn't miss their star player at Suncorp Stadium,",
+                "object": {
+                    "text": "miss"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "did",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Friday.LoadingThe premiers"
+                },
+                "sentence": " Friday.LoadingThe premiers didn't miss their star player at Suncorp Stadium,",
+                "object": {
+                    "text": "their star player"
+                },
+                "action": {
+                    "verb": {
+                        "text": "miss",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "miss",
+                    "normalized": "miss"
+                }
+            },
+            {
+                "subject": {
+                    "text": "pressure"
+                },
+                "sentence": " filled in capably at fullback, in a result that heaps pressure on Brisbane",
+                "object": {
+                    "text": "on Brisbane"
+                },
+                "action": {
+                    "verb": {
+                        "text": "heap",
+                        "tense": "present"
+                    },
+                    "text": "heaps",
+                    "normalized": "heap"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Anthony Seibold.Canterbury"
+                },
+                "sentence": " coach Anthony Seibold.Canterbury are sweating on the results of a COVID-19",
+                "object": {
+                    "text": "sweating on the results of a COVID-19"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " test for Terry Lamb after he was captured on camera breaching social-",
+                "object": {
+                    "text": "captured on camera breaching social-"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "star"
+                },
+                "sentence": " distancing rules by shaking hands with several players, including star",
+                "object": {
+                    "text": "several players"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "until the result is known"
+                },
+                "sentence": " have been told not to train until the result is known.",
+                "object": {
+                    "text": "to train"
+                },
+                "action": {
+                    "verb": {
+                        "text": "tell",
+                        "tense": "past"
+                    },
+                    "text": "have been told",
+                    "normalized": "have be tell"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the result"
+                },
+                "sentence": " have been told not to train until the result is known.",
+                "object": {
+                    "text": "known"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The club"
+                },
+                "sentence": " The club is facing the",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "face",
+                        "tense": "present"
+                    },
+                    "text": "is facing",
+                    "normalized": "be face"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.751215,
+                "label": "/sports/rugby"
+            },
+            {
+                "score": 0.641301,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.62171,
+                "label": "/health and fitness/disease/cold and flu"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "The result came back negative on Friday.LoadingThe premiers didn't miss their star player at Suncorp Stadium, handing the Broncos the biggest defeat in the game's history.",
+                "score": 0.889138,
+                "arguments": [
+                    {
+                        "text": "player",
+                        "location": [
+                            552,
+                            558
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "James Tedesco"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Suncorp Stadium",
+                        "location": [
+                            562,
+                            577
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Suncorp Stadium"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Brett Morris filled in capably at fullback, in a result that heaps pressure on Brisbane coach Anthony Seibold.Canterbury are sweating on the results of a COVID-19 test for Terry Lamb after he was captured on camera breaching social- distancing rules by shaking hands with several players, including star playmaker Kieran Foran, on Thursday.The cancelled a planned media session and have been told not to train until the result is known.",
+                "score": 0.753431,
+                "arguments": [
+                    {
+                        "text": "coach",
+                        "location": [
+                            729,
+                            734
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Anthony Seibold.Canterbury"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Brisbane",
+                        "location": [
+                            720,
+                            728
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Brisbane"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Brett Morris filled in capably at fullback, in a result that heaps pressure on Brisbane coach Anthony Seibold.Canterbury are sweating on the results of a COVID-19 test for Terry Lamb after he was captured on camera breaching social- distancing rules by shaking hands with several players, including star playmaker Kieran Foran, on Thursday.The cancelled a planned media session and have been told not to train until the result is known.",
+                "score": 0.74795,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            830,
+                            832
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "James Tedesco"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "captured",
+                        "location": [
+                            837,
+                            845
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCustody",
+                                "text": "captured"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Brett Morris filled in capably at fullback, in a result that heaps pressure on Brisbane coach Anthony Seibold.Canterbury are sweating on the results of a COVID-19 test for Terry Lamb after he was captured on camera breaching social- distancing rules by shaking hands with several players, including star playmaker Kieran Foran, on Thursday.The cancelled a planned media session and have been told not to train until the result is known.",
+                "score": 0.525917,
+                "arguments": [
+                    {
+                        "text": "Thursday.The",
+                        "location": [
+                            972,
+                            984
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Thursday.The"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "told",
+                        "location": [
+                            1033,
+                            1037
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "told"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "star player",
+                "relevance": 0.701251,
+                "count": 1
+            },
+            {
+                "text": "Friday.LoadingThe premiers",
+                "relevance": 0.64941,
+                "count": 1
+            },
+            {
+                "text": "Thursday night",
+                "relevance": 0.640182,
+                "count": 1
+            },
+            {
+                "text": "code's biosecurity rules",
+                "relevance": 0.623957,
+                "count": 1
+            },
+            {
+                "text": "James Tedesco",
+                "relevance": 0.62229,
+                "count": 1
+            },
+            {
+                "text": "temperature check",
+                "relevance": 0.605196,
+                "count": 1
+            },
+            {
+                "text": "biggest defeat",
+                "relevance": 0.580417,
+                "count": 1
+            },
+            {
+                "text": "Anthony Seibold.Canterbury",
+                "relevance": 0.577854,
+                "count": 1
+            },
+            {
+                "text": "Dally M medallist",
+                "relevance": 0.567199,
+                "count": 1
+            },
+            {
+                "text": "Terry Lamb",
+                "relevance": 0.557117,
+                "count": 1
+            },
+            {
+                "text": "Suncorp Stadium",
+                "relevance": 0.553103,
+                "count": 1
+            },
+            {
+                "text": "first player",
+                "relevance": 0.549394,
+                "count": 1
+            },
+            {
+                "text": "hands",
+                "relevance": 0.544544,
+                "count": 1
+            },
+            {
+                "text": "Brisbane",
+                "relevance": 0.539911,
+                "count": 2
+            },
+            {
+                "text": "negative.James Tedesco",
+                "relevance": 0.537063,
+                "count": 1
+            },
+            {
+                "text": "test",
+                "relevance": 0.536697,
+                "count": 1
+            },
+            {
+                "text": "coronavirus test",
+                "relevance": 0.532303,
+                "count": 1
+            },
+            {
+                "text": "fullback",
+                "relevance": 0.529532,
+                "count": 1
+            },
+            {
+                "text": "prospect",
+                "relevance": 0.521205,
+                "count": 1
+            },
+            {
+                "text": "Broncos",
+                "relevance": 0.518229,
+                "count": 1
+            },
+            {
+                "text": "results",
+                "relevance": 0.518126,
+                "count": 1
+            },
+            {
+                "text": "match",
+                "relevance": 0.517874,
+                "count": 1
+            },
+            {
+                "text": "rules",
+                "relevance": 0.517818,
+                "count": 1
+            },
+            {
+                "text": "pressure",
+                "relevance": 0.51528,
+                "count": 1
+            },
+            {
+                "text": "club",
+                "relevance": 0.512546,
+                "count": 1
+            },
+            {
+                "text": "late scratching",
+                "relevance": 0.511222,
+                "count": 1
+            },
+            {
+                "text": "Tedesco",
+                "relevance": 0.510557,
+                "count": 1
+            },
+            {
+                "text": "camera",
+                "relevance": 0.509825,
+                "count": 1
+            },
+            {
+                "text": "side",
+                "relevance": 0.508224,
+                "count": 1
+            },
+            {
+                "text": "players",
+                "relevance": 0.506956,
+                "count": 1
+            },
+            {
+                "text": "planned media session",
+                "relevance": 0.503092,
+                "count": 1
+            },
+            {
+                "text": "breach of biosecurity protocols",
+                "relevance": 0.502122,
+                "count": 1
+            },
+            {
+                "text": "Brett Morris",
+                "relevance": 0.501426,
+                "count": 1
+            },
+            {
+                "text": "resumption of the competition",
+                "relevance": 0.489147,
+                "count": 1
+            },
+            {
+                "text": "result",
+                "relevance": 0.484511,
+                "count": 3
+            },
+            {
+                "text": "game's history",
+                "relevance": 0.483413,
+                "count": 1
+            },
+            {
+                "text": "coronavirus.Credit",
+                "relevance": 0.452427,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.448209,
+                "count": 1
+            },
+            {
+                "text": "Thursday.The",
+                "relevance": 0.444987,
+                "count": 1
+            },
+            {
+                "text": "win",
+                "relevance": 0.437219,
+                "count": 1
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.437219,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "70340f812098e783b6e098e09be4abed088966ea",
+        "filename": "202006050225AMSPIDERNEWS_____WATODY01_1A046D59CDC3C43A01A5E86E851DD3E7_31.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:25:00-04:00",
+    "title": "Tedesco cleared of coronavirus as Bulldogs sweat on Lamb result [WAtoday (Australia)]",
+    "html": "<p>star <person>James Tedesco</person> has been cleared of coronavirus after his test for COVID-19 came back negative.<person>James Tedesco</person> has been cleared of coronavirus.Credit:Tedesco was a late scratching in his side&#8217;s 59-0 win over <location idsrc=\"xmltag.org\" value=\"LU/au..brisbn\">Brisbane</location> on Thursday night after becoming the first player to be ruled out of a match since the resumption of the competition. The Dally M medallist failed a temperature check under the code&#8217;s biosecurity rules and was immediately sent for a coronavirus test. The result came back negative on Friday.LoadingThe premiers didn&#8217;t miss their star player at <location>Suncorp Stadium</location>, handing the Broncos the biggest defeat in the game&#8217;s history. <person>Brett Morris</person> filled in capably at fullback, in a result that heaps pressure on Brisbane coach <person>Anthony Seibold</person>.Canterbury are sweating on the results of a COVID-19 test for <person>Terry Lamb</person> after he was captured on camera breaching social-distancing rules by shaking hands with several players, including star playmaker <person>Kieran Foran</person>, on Thursday.The  cancelled a planned media session and have been told not to train until the result is known. The club is facing the prospect of a fine for a breach of biosecurity protocols.</p>",
+    "geoFocus": []
+}

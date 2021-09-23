@@ -1,0 +1,945 @@
+{
+    "id": "0d05fac4-f5fa-4f65-808a-dbc854fbe28a",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright, 2020, The St. Augustine Record, All Rights Reserved.",
+    "geoOrigin": "Saint Augustine, Florida",
+    "sourceType": "Newspaper",
+    "source": "St. Augustine Record, The (FL)",
+    "corpus_document_id": "472377577643904130",
+    "description": "Thank you for Sheldon Gardner's article on Page A6 of today's Record: \"Coronavirus not detected in city wastewater samples.\" I had read the City was planning to do this, and am very glad to see they are carrying through. We have been fortunate to have low numbers so far in St. Augustine and St.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#82#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "Thank you for Sheldon Gardner's article on Page A6 of today's Record:\n\"Coronavirus not detected in city wastewater samples.\" I had read the City was\nplanning to do this, and am very glad to see they are carrying through. This\noffers us a baseline and if this is being done correctly, and is continued, it\ncan be an important contribution to keeping us virus free by predicting\nhotspots.\n\nThis, together with testing (where is it??) and contact tracing (do we have\nANY?! or any prospects of contact tracing -- hiring, training tracers?) are\ncrucial factors in helping to address our coronavirus pandemic. Please keep\nthe info on this coming -- and why relegate it to the last page of the the\nfirst section? Seems to me, this should be Page 1, above the fold.\n\nWe have been fortunate to have low numbers so far in St. Augustine and St.\nJohns County, but things may change, especially if we have lots of summer\nvisitors -- I also read your article about all the money allocated to\nadvertising to attract tourists this summer. It seems to me our first priority\nis taking care to keep current residents healthy and alive. This means social\ndistancing, wearing masks, having testing readily available and taking\nadvantage of it, doing contact tracing -- oh wait. Am I repeating myself? I'm\nfrustrated with the poor attitude on the part of our leaders; I hope you get\nthe message, I wish everyone would get the message.\n\nThis really is a matter of life and death, and we need to see action taken by\nour leaders at all levels of government to help us with this.\n\nKathleen Jordan, St. Augustine",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Sheldon Gardner's",
+            "St. Augustine",
+            "Kathleen Jordan"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.fl.saiine",
+    "language": "English",
+    "filename": "202005300000NEWSBANKNEWSPPRSF411FCB3EB3D1CCF3AB110254FF223F.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "St. Augustine",
+                "relevance": 0.882952,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.629878,
+                    "label": "positive"
+                },
+                "text": "Sheldon Gardner",
+                "relevance": 0.762963,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Sheldon Gardner",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Sheldon_Gardner"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kathleen Jordan",
+                "relevance": 0.60192,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Johns County",
+                "relevance": 0.584494,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": "Thank you for Sheldon Gardner's article on Page A6 of today's Record:",
+                "object": {
+                    "text": "for Sheldon Gardner's article on Page A6 of today's Record"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Thank",
+                        "tense": "present"
+                    },
+                    "text": "Thank",
+                    "normalized": "Thank"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I had read the City was",
+                "object": {
+                    "text": "read the City"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I had read the City was",
+                "object": {
+                    "text": "the City"
+                },
+                "action": {
+                    "verb": {
+                        "text": "read",
+                        "tense": "past"
+                    },
+                    "text": "had read",
+                    "normalized": "have read"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a baseline"
+                },
+                "sentence": " offers us a baseline and if this is being done correctly, and is continued, it",
+                "object": {
+                    "text": "us"
+                },
+                "action": {
+                    "verb": {
+                        "text": "offer",
+                        "tense": "present"
+                    },
+                    "text": "offers",
+                    "normalized": "offer"
+                }
+            },
+            {
+                "subject": {
+                    "text": "us virus"
+                },
+                "sentence": " can be an important contribution to keeping us virus free by predicting",
+                "object": {
+                    "text": "free"
+                },
+                "action": {
+                    "verb": {
+                        "text": "keep",
+                        "tense": "future"
+                    },
+                    "text": "keeping",
+                    "normalized": "keep"
+                }
+            },
+            {
+                "subject": {
+                    "text": "ANY?! or any prospects"
+                },
+                "sentence": " ANY?! or any prospects of contact tracing -- hiring, training tracers?) are",
+                "object": {
+                    "text": "tracers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hire",
+                        "tense": "present"
+                    },
+                    "text": "hiring",
+                    "normalized": "hire"
+                }
+            },
+            {
+                "subject": {
+                    "text": "crucial factors"
+                },
+                "sentence": " crucial factors in helping to address our coronavirus pandemic.",
+                "object": {
+                    "text": "to address our coronavirus pandemic"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "present"
+                    },
+                    "text": "helping",
+                    "normalized": "help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "crucial factors"
+                },
+                "sentence": " crucial factors in helping to address our coronavirus pandemic.",
+                "object": {
+                    "text": "our coronavirus pandemic"
+                },
+                "action": {
+                    "verb": {
+                        "text": "address",
+                        "tense": "future"
+                    },
+                    "text": "helping to address",
+                    "normalized": "help to address"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " the info on this coming -- and why relegate it to the last page of the the",
+                "object": {
+                    "text": "to the last page of the the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "relegate",
+                        "tense": "present"
+                    },
+                    "text": "relegate",
+                    "normalized": "relegate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this"
+                },
+                "sentence": " Seems to me, this should be Page 1, above the fold.",
+                "object": {
+                    "text": "Page 1, above the fold"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "should be",
+                    "normalized": "should be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " We have been fortunate to have low numbers so far in St. Augustine and St.",
+                "object": {
+                    "text": "fortunate to have low numbers so far in St. Augustine and St"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "have been",
+                    "normalized": "have be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " We have been fortunate to have low numbers so far in St. Augustine and St.",
+                "object": {
+                    "text": "low numbers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "future"
+                    },
+                    "text": "to have",
+                    "normalized": "to have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " Johns County, but things may change, especially if we have lots of summer",
+                "object": {
+                    "text": "lots of summer"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "tourists"
+                },
+                "sentence": " advertising to attract tourists this summer.",
+                "action": {
+                    "verb": {
+                        "text": "attract",
+                        "tense": "future"
+                    },
+                    "text": "to attract",
+                    "normalized": "to attract"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This"
+                },
+                "sentence": " This means social",
+                "object": {
+                    "text": "social"
+                },
+                "action": {
+                    "verb": {
+                        "text": "mean",
+                        "tense": "present"
+                    },
+                    "text": "means",
+                    "normalized": "mean"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " Am I repeating myself?",
+                "object": {
+                    "text": "myself"
+                },
+                "action": {
+                    "verb": {
+                        "text": "repeat",
+                        "tense": "present"
+                    },
+                    "text": "repeating",
+                    "normalized": "repeat"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " frustrated with the poor attitude on the part of our leaders; I hope you get",
+                "object": {
+                    "text": "you get"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hope",
+                        "tense": "present"
+                    },
+                    "text": "hope",
+                    "normalized": "hope"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " the message, I wish everyone would get the message.",
+                "object": {
+                    "text": "everyone would get the message"
+                },
+                "action": {
+                    "verb": {
+                        "text": "wish",
+                        "tense": "present"
+                    },
+                    "text": "wish",
+                    "normalized": "wish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This"
+                },
+                "sentence": " This really is a matter of life and death, and we need to see action taken by",
+                "object": {
+                    "text": "a matter of life and death"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " This really is a matter of life and death, and we need to see action taken by",
+                "object": {
+                    "text": "to see action taken by"
+                },
+                "action": {
+                    "verb": {
+                        "text": "need",
+                        "tense": "present"
+                    },
+                    "text": "need",
+                    "normalized": "need"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " This really is a matter of life and death, and we need to see action taken by",
+                "object": {
+                    "text": "action taken by"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "future"
+                    },
+                    "text": "need to see",
+                    "normalized": "need to see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "our leaders"
+                },
+                "sentence": " our leaders at all levels of government to help us with this.",
+                "object": {
+                    "text": "us"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "to help",
+                    "normalized": "to help"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.746926,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.737015,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.554649,
+                "label": "/family and parenting/children"
+            }
+        ],
+        "relations": [
+            {
+                "type": "bornOn",
+                "sentence": "Thank you for Sheldon Gardner's article on Page A6 of today's Record: \"Coronavirus not detected in city wastewater samples.",
+                "score": 0.412958,
+                "arguments": [
+                    {
+                        "text": "Page A6",
+                        "location": [
+                            43,
+                            50
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Page A6"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "today",
+                        "location": [
+                            54,
+                            59
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "today"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\" I had read the City was planning to do this, and am very glad to see they are carrying through.",
+                "score": 0.437845,
+                "arguments": [
+                    {
+                        "text": "I",
+                        "location": [
+                            125,
+                            126
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "you"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "City",
+                        "location": [
+                            140,
+                            144
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "City"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "We have been fortunate to have low numbers so far in St. Augustine and St. Johns County, but things may change, especially if we have lots of summer visitors -- I also read your article about all the money allocated to advertising to attract tourists this summer.",
+                "score": 0.534976,
+                "arguments": [
+                    {
+                        "text": "St. Augustine",
+                        "location": [
+                            812,
+                            825
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "St. Augustine"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "St.\nJohns County",
+                        "location": [
+                            830,
+                            846
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "St.\nJohns County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "I'm frustrated with the poor attitude on the part of our leaders; I hope you get the message, I wish everyone would get the message.",
+                "score": 0.468999,
+                "arguments": [
+                    {
+                        "text": "leaders",
+                        "location": [
+                            1337,
+                            1344
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "leaders"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "our",
+                        "location": [
+                            1333,
+                            1336
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "our"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "This really is a matter of life and death, and we need to see action taken by our leaders at all levels of government to help us with this.",
+                "score": 0.474961,
+                "arguments": [
+                    {
+                        "text": "leaders",
+                        "location": [
+                            1496,
+                            1503
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "leaders"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "our",
+                        "location": [
+                            1492,
+                            1495
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "our"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Kathleen Jordan, St. Augustine",
+                "score": 0.952545,
+                "arguments": [
+                    {
+                        "text": "Kathleen Jordan",
+                        "location": [
+                            1555,
+                            1570
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Kathleen Jordan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "St. Augustine",
+                        "location": [
+                            1572,
+                            1585
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "St. Augustine"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "matter of life",
+                "relevance": 0.686396,
+                "count": 1
+            },
+            {
+                "text": "important contribution",
+                "relevance": 0.65416,
+                "count": 1
+            },
+            {
+                "text": "crucial factors",
+                "relevance": 0.634322,
+                "count": 1
+            },
+            {
+                "text": "poor attitude",
+                "relevance": 0.612045,
+                "count": 1
+            },
+            {
+                "text": "contact tracing",
+                "relevance": 0.605518,
+                "count": 2
+            },
+            {
+                "text": "part of our leaders",
+                "relevance": 0.602004,
+                "count": 1
+            },
+            {
+                "text": "Sheldon Gardner's article",
+                "relevance": 0.581215,
+                "count": 1
+            },
+            {
+                "text": "prospects of contact tracing",
+                "relevance": 0.575129,
+                "count": 1
+            },
+            {
+                "text": "current residents",
+                "relevance": 0.570328,
+                "count": 1
+            },
+            {
+                "text": "St. Augustine",
+                "relevance": 0.554434,
+                "count": 2
+            },
+            {
+                "text": "Page A6 of today",
+                "relevance": 0.535059,
+                "count": 1
+            },
+            {
+                "text": "message",
+                "relevance": 0.532119,
+                "count": 2
+            },
+            {
+                "text": "Kathleen Jordan",
+                "relevance": 0.526531,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.525035,
+                "count": 1
+            },
+            {
+                "text": "levels of government",
+                "relevance": 0.522858,
+                "count": 1
+            },
+            {
+                "text": "first section",
+                "relevance": 0.52189,
+                "count": 1
+            },
+            {
+                "text": "death",
+                "relevance": 0.521858,
+                "count": 1
+            },
+            {
+                "text": "care",
+                "relevance": 0.516844,
+                "count": 1
+            },
+            {
+                "text": "low numbers",
+                "relevance": 0.514151,
+                "count": 1
+            },
+            {
+                "text": "leaders",
+                "relevance": 0.513633,
+                "count": 1
+            },
+            {
+                "text": "city wastewater samples",
+                "relevance": 0.513522,
+                "count": 1
+            },
+            {
+                "text": "things",
+                "relevance": 0.512838,
+                "count": 1
+            },
+            {
+                "text": "masks",
+                "relevance": 0.512594,
+                "count": 1
+            },
+            {
+                "text": "action",
+                "relevance": 0.512415,
+                "count": 1
+            },
+            {
+                "text": "baseline",
+                "relevance": 0.511863,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.509008,
+                "count": 1
+            },
+            {
+                "text": "article",
+                "relevance": 0.507804,
+                "count": 1
+            },
+            {
+                "text": "money",
+                "relevance": 0.50743,
+                "count": 1
+            },
+            {
+                "text": "tourists",
+                "relevance": 0.506872,
+                "count": 1
+            },
+            {
+                "text": "lots",
+                "relevance": 0.506872,
+                "count": 1
+            },
+            {
+                "text": "summer",
+                "relevance": 0.506128,
+                "count": 1
+            },
+            {
+                "text": "hotspots",
+                "relevance": 0.506128,
+                "count": 1
+            },
+            {
+                "text": "Record",
+                "relevance": 0.506128,
+                "count": 1
+            },
+            {
+                "text": "City",
+                "relevance": 0.504768,
+                "count": 1
+            },
+            {
+                "text": "Page",
+                "relevance": 0.504509,
+                "count": 1
+            },
+            {
+                "text": "last page",
+                "relevance": 0.495909,
+                "count": 1
+            },
+            {
+                "text": "training tracers",
+                "relevance": 0.493916,
+                "count": 1
+            },
+            {
+                "text": "first priority",
+                "relevance": 0.492167,
+                "count": 1
+            },
+            {
+                "text": "Coronavirus",
+                "relevance": 0.469739,
+                "count": 2
+            },
+            {
+                "text": "fortunate",
+                "relevance": 0.461331,
+                "count": 1
+            },
+            {
+                "text": "coming",
+                "relevance": 0.459393,
+                "count": 1
+            },
+            {
+                "text": "hiring",
+                "relevance": 0.454892,
+                "count": 1
+            },
+            {
+                "text": "testing",
+                "relevance": 0.454892,
+                "count": 2
+            },
+            {
+                "text": "fold",
+                "relevance": 0.452036,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "04a9f3b423126d8f8331cad37e9e09e8a6cdf4fe",
+        "filename": "202005300000NEWSBANKNEWSPPRSF411FCB3EB3D1CCF3AB110254FF223F.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-30T00:00:00-04:00",
+    "title": "LETTER TO THE EDITOR | More action needed to defeat COVID-19",
+    "html": "<p>Thank you for <person>Sheldon Gardner's</person> article on Page A6 of today's Record: \"Coronavirus not detected in city wastewater samples.\" I had read the City was planning to do this, and am very glad to see they are carrying through. This offers us a baseline and if this is being done correctly, and is continued, it can be an important contribution to keeping us virus free by predicting hotspots.</p>\n<p>This, together with testing (where is it??) and contact tracing (do we have ANY?! or any prospects of contact tracing &#8212; hiring, training tracers?) are crucial factors in helping to address our coronavirus pandemic. Please keep the info on this coming &#8212; and why relegate it to the last page of the the first section? Seems to me, this should be Page 1, above the fold.</p>\n\n<p>We have been fortunate to have low numbers so far in <person>St. Augustine</person> and St. Johns County, but things may change, especially if we have lots of summer visitors &#8212; I also read your article about all the money allocated to advertising to attract tourists this summer. It seems to me our first priority is taking care to keep current residents healthy and alive. This means social distancing, wearing masks, having testing readily available and taking advantage of it, doing contact tracing &#8212; oh wait. Am I repeating myself? I'm frustrated with the poor attitude on the part of our leaders; I hope you get the message, I wish everyone would get the message.</p>\n\n<p>This really is a matter of life and death, and we need to see action taken by our leaders at all levels of government to help us with this.</p>\n\n<p><person>Kathleen Jordan</person>, <person>St. Augustine</person></p>",
+    "geoFocus": [
+        [
+            "GU/us.fl.saiine",
+            "Saint Augustine"
+        ]
+    ]
+}

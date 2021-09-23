@@ -1,0 +1,249 @@
+{
+    "id": "c5015dc0-7875-4aa6-a917-7d7d8bad6f4d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020 Salisbury Post, All Rights Reserved.",
+    "geoOrigin": "Salisbury, North Carolina",
+    "sourceType": "Newspaper",
+    "source": "Salisbury Post (NC)",
+    "corpus_document_id": "36240502561450183340",
+    "description": "About 40 members of activist group Salisbury Indivisible gathered on an Innes Street bridge near downtown Tuesday afternoon with signs naming black Americans who have been killed in police custody recently.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#5#50#58",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.cluborgs",
+            "relevance_score": "5",
+            "description": "Activist Groups",
+            "code": "IS/lifesoc.activgrp#5#58#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "5",
+            "description": "Clubs and Associations",
+            "code": "IS/lifesoc.cluborgs#5#50#58",
+            "level": 1
+        }
+    ],
+    "text": "About 40 members of activist group Salisbury Indivisible gathered on an Innes\nStreet bridge near downtown Tuesday afternoon with signs naming black\nAmericans who have been killed in police custody recently.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Innes Street"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.nc.salsby",
+    "language": "English",
+    "filename": "202006040000NEWSBANKNEWSPPRSF1D56E5606CFBA3016204697C99C7E5.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Street bridge",
+                "relevance": 0.836042,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Innes",
+                "relevance": 0.799555,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Americans"
+                },
+                "sentence": " Americans who have been killed in police custody recently.",
+                "action": {
+                    "verb": {
+                        "text": "kill",
+                        "tense": "past"
+                    },
+                    "text": "have been killed",
+                    "normalized": "have be kill"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.67799,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.64899,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.585181,
+                "label": "/education/teaching and classroom resources/school supplies"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "About 40 members of activist group Salisbury Indivisible gathered on an Innes Street bridge near downtown Tuesday afternoon with signs naming black Americans who have been killed in police custody recently.",
+                "score": 0.431796,
+                "arguments": [
+                    {
+                        "text": "Salisbury Indivisible",
+                        "location": [
+                            35,
+                            56
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Salisbury Indivisible"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "bridge",
+                        "location": [
+                            85,
+                            91
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "bridge"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "About 40 members of activist group Salisbury Indivisible gathered on an Innes Street bridge near downtown Tuesday afternoon with signs naming black Americans who have been killed in police custody recently.",
+                "score": 0.450068,
+                "arguments": [
+                    {
+                        "text": "Innes\nStreet",
+                        "location": [
+                            72,
+                            84
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Innes\nStreet"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "bridge",
+                        "location": [
+                            85,
+                            91
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "bridge"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "About 40 members of activist group Salisbury Indivisible gathered on an Innes Street bridge near downtown Tuesday afternoon with signs naming black Americans who have been killed in police custody recently.",
+                "score": 0.751462,
+                "arguments": [
+                    {
+                        "text": "bridge",
+                        "location": [
+                            85,
+                            91
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "bridge"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "downtown",
+                        "location": [
+                            97,
+                            105
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "downtown"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "members of activist group Salisbury Indivisible",
+                "relevance": 0.933691,
+                "count": 1
+            },
+            {
+                "text": "police custody",
+                "relevance": 0.755718,
+                "count": 1
+            },
+            {
+                "text": "downtown Tuesday afternoon",
+                "relevance": 0.606002,
+                "count": 1
+            },
+            {
+                "text": "signs",
+                "relevance": 0.550849,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "1e4db6d75780fb20d0d350aff8728b909b2dd269",
+        "filename": "202006040000NEWSBANKNEWSPPRSF1D56E5606CFBA3016204697C99C7E5.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-04T00:00:00-04:00",
+    "title": "Photos: Salisbury Indivisible protest downtown",
+    "html": "<p>About 40 members of activist group Salisbury Indivisible gathered on an <location>Innes Street</location> bridge near downtown Tuesday afternoon with signs naming black Americans who have been killed in police custody recently.</p>",
+    "geoFocus": [
+        [
+            "GU/us.nc.rowan",
+            "Rowan County"
+        ],
+        [
+            "GU/us.nc.salsby",
+            "Salisbury"
+        ]
+    ]
+}

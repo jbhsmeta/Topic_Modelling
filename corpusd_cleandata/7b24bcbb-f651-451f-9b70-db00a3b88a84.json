@@ -1,0 +1,518 @@
+{
+    "id": "7b24bcbb-f651-451f-9b70-db00a3b88a84",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright, 2020, The Times Argus",
+    "geoOrigin": "Barre, Vermont",
+    "sourceType": "Newspaper",
+    "source": "Times Argus, The (Barre-Montpelier VT)",
+    "corpus_document_id": "68849278360397277033",
+    "description": "Edna Tofani PLAINFIELD- Edna Tofani died Wednesday, June 4, 2020, at Central Vermont Medical Center in Berlin. A full obituary will be published at a later date. Arrangements are by Hooker Whitcomb Funeral Home in Barre.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LS/de#9#50#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Edna Tofani PLAINFIELD - Edna Tofani died Wednesday, June 4, 2020, at Central\nVermont Medical Center in Berlin. A full obituary will be published at a later\ndate. Arrangements are by Hooker Whitcomb Funeral Home in Barre.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Central Vermont Medical Center",
+            "Hooker Whitcomb Funeral Home"
+        ],
+        "location": [
+            "Berlin"
+        ],
+        "person": [
+            "Edna Tofani"
+        ],
+        "companies": [
+            "Central Vermont Medical Center",
+            "Hooker Whitcomb Funeral Home"
+        ]
+    },
+    "geoOrigin_code": "RU/us.vt.barre",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSE344033599D2A3EF607BB57E1F7B5BB.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.262843,
+                    "label": "positive"
+                },
+                "text": "Edna Tofani PLAINFIELD",
+                "relevance": 0.969978,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.513753,
+                    "label": "negative"
+                },
+                "text": "Hooker Whitcomb Funeral Home",
+                "relevance": 0.813482,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.323379,
+                    "label": "negative"
+                },
+                "text": "Edna Tofani",
+                "relevance": 0.704878,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Vermont Medical Center",
+                "relevance": 0.499704,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.513753,
+                    "label": "negative"
+                },
+                "text": "Barre",
+                "relevance": 0.359506,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Berlin",
+                "relevance": 0.324467,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Edna Tofani PLAINFIELD - Edna Tofani"
+                },
+                "sentence": "Edna Tofani PLAINFIELD - Edna Tofani died Wednesday, June 4, 2020, at Central",
+                "action": {
+                    "verb": {
+                        "text": "die",
+                        "tense": "past"
+                    },
+                    "text": "died",
+                    "normalized": "die"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A full obituary"
+                },
+                "sentence": " A full obituary will be published at a later",
+                "object": {
+                    "text": "published"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A full obituary"
+                },
+                "sentence": " A full obituary will be published at a later",
+                "action": {
+                    "verb": {
+                        "text": "publish",
+                        "tense": "future"
+                    },
+                    "text": "will be published",
+                    "normalized": "will be publish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "date. Arrangements"
+                },
+                "sentence": " date. Arrangements are by Hooker Whitcomb Funeral Home in Barre.",
+                "object": {
+                    "text": "by Hooker Whitcomb Funeral Home in Barre"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.607384,
+                "label": "/science/geology"
+            },
+            {
+                "score": 0.57091,
+                "label": "/science/weather"
+            },
+            {
+                "score": 0.529331,
+                "label": "/law, govt and politics/government"
+            }
+        ],
+        "relations": [
+            {
+                "type": "diedOn",
+                "sentence": "Edna Tofani PLAINFIELD - Edna Tofani died Wednesday, June 4, 2020, at Central Vermont Medical Center in Berlin.",
+                "score": 0.73485,
+                "arguments": [
+                    {
+                        "text": "Edna Tofani PLAINFIELD - Edna Tofani",
+                        "location": [
+                            0,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Edna Tofani PLAINFIELD - Edna Tofani"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Wednesday",
+                        "location": [
+                            42,
+                            51
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Wednesday"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Edna Tofani PLAINFIELD - Edna Tofani died Wednesday, June 4, 2020, at Central Vermont Medical Center in Berlin.",
+                "score": 0.359081,
+                "arguments": [
+                    {
+                        "text": "Edna Tofani PLAINFIELD - Edna Tofani",
+                        "location": [
+                            0,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Edna Tofani PLAINFIELD - Edna Tofani"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Central\nVermont Medical Center",
+                        "location": [
+                            70,
+                            100
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Central\nVermont Medical Center"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "Edna Tofani PLAINFIELD - Edna Tofani died Wednesday, June 4, 2020, at Central Vermont Medical Center in Berlin.",
+                "score": 0.742134,
+                "arguments": [
+                    {
+                        "text": "Central\nVermont Medical Center",
+                        "location": [
+                            70,
+                            100
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Central\nVermont Medical Center"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Berlin",
+                        "location": [
+                            104,
+                            110
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Berlin"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Arrangements are by Hooker Whitcomb Funeral Home in Barre.",
+                "score": 0.641894,
+                "arguments": [
+                    {
+                        "text": "Hooker Whitcomb",
+                        "location": [
+                            183,
+                            198
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Hooker Whitcomb"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Funeral",
+                        "location": [
+                            199,
+                            206
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "Funeral"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Arrangements are by Hooker Whitcomb Funeral Home in Barre.",
+                "score": 0.322428,
+                "arguments": [
+                    {
+                        "text": "Hooker Whitcomb",
+                        "location": [
+                            183,
+                            198
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Hooker Whitcomb"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Home",
+                        "location": [
+                            207,
+                            211
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Arrangements are by Hooker Whitcomb Funeral Home in Barre.",
+                "score": 0.441903,
+                "arguments": [
+                    {
+                        "text": "Funeral",
+                        "location": [
+                            199,
+                            206
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "Funeral"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Home",
+                        "location": [
+                            207,
+                            211
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Arrangements are by Hooker Whitcomb Funeral Home in Barre.",
+                "score": 0.962205,
+                "arguments": [
+                    {
+                        "text": "Home",
+                        "location": [
+                            207,
+                            211
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Home"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Barre",
+                        "location": [
+                            215,
+                            220
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Barre"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Edna Tofani PLAINFIELD",
+                "relevance": 0.999736,
+                "count": 1
+            },
+            {
+                "text": "Edna Tofani",
+                "relevance": 0.94459,
+                "count": 1
+            },
+            {
+                "text": "Arrangements",
+                "relevance": 0.596299,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.524812,
+                "count": 1
+            },
+            {
+                "text": "Barre",
+                "relevance": 0.520469,
+                "count": 1
+            },
+            {
+                "text": "date",
+                "relevance": 0.520469,
+                "count": 1
+            },
+            {
+                "text": "Berlin",
+                "relevance": 0.520469,
+                "count": 1
+            },
+            {
+                "text": "Hooker Whitcomb Funeral Home",
+                "relevance": 0.429519,
+                "count": 1
+            },
+            {
+                "text": "full obituary",
+                "relevance": 0.351663,
+                "count": 1
+            },
+            {
+                "text": "Wednesday",
+                "relevance": 0.152025,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "9be66cd603445f86c4895d39d9b19a103568c3b6",
+        "filename": "202006050000NEWSBANKNEWSPPRSE344033599D2A3EF607BB57E1F7B5BB.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Central Vermont Medical Center Inc.|extractor|DUNS:069912442;NECOID:5290317;ACORN:3663083446;UDUNS:060525151;UACORN:3849813622|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Edna Tofani",
+    "html": "<p>Edna Tofani PLAINFIELD - <person>Edna Tofani</person> died <chron>Wednesday, June 4, 2020</chron>, at <org idsrc=\"xmltag.org\" value=\"ACORN:3663083446\">Central Vermont Medical Center</org> in <location idsrc=\"xmltag.org\" value=\"LU/de..berlin\">Berlin</location>. A full obituary will be published at a later date. Arrangements are by <org>Hooker Whitcomb Funeral Home</org> in Barre.</p>",
+    "geoFocus": [
+        [
+            "GU/us.vt.barre",
+            "Barre"
+        ]
+    ]
+}

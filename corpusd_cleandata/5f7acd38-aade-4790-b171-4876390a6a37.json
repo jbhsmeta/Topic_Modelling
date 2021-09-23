@@ -1,0 +1,410 @@
+{
+    "id": "5f7acd38-aade-4790-b171-4876390a6a37",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Norfolk, Virginia",
+    "sourceType": "Broadcast Transcript",
+    "source": "WTKR-TV (Norfolk, VA)",
+    "corpus_document_id": "38306124629609535026",
+    "description": "HAMPTON ROADS, Va.- Designer Kristie Prince Hale shares a fun and hilarious game to play with the kids while stuck at home. For the month of June, 50 Floor is offering 60% off materials including hardwood, carpet, laminate, vinyl and tile. Plus, mention Coast Live for an additional $100 off.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Finance",
+            "code": "IS/fin#6#50#66",
+            "level": 0
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "6",
+            "description": "Investments",
+            "code": "IS/fin.invest#6#50#66",
+            "level": 1
+        },
+        {
+            "parent": "IS/fin.invest",
+            "relevance_score": "6",
+            "description": "Stocks",
+            "code": "IS/fin.stocks#6#66#50",
+            "level": 2
+        }
+    ],
+    "text": "HAMPTON ROADS, Va. \\- Designer Kristie Prince Hale shares a fun and hilarious\ngame to play with the kids while stuck at home.\n\nFor the month of June, 50 Floor is offering 60% off materials including\nhardwood, carpet, laminate, vinyl and tile. Plus, mention Coast Live for an\nadditional $100 off. Watch for details.\n\nPresented by 50 Floor\n\nFree In-Home Consultation & Estimate\n\n1-877-50FLOOR | [www.50Floor.com](http://www.50Floor.com)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "HAMPTON ROADS, Va."
+        ],
+        "person": [
+            "Kristie Prince Hale"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.va.norflk",
+    "language": "English",
+    "filename": "202006080000NEWSBANKNEWSPPRSF4C7E31E22D5C4AFA3692A787037024.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.868682,
+                    "label": "positive"
+                },
+                "text": "Kristie Prince Hale",
+                "relevance": 0.875395,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.652604,
+                    "label": "positive"
+                },
+                "text": "HAMPTON ROADS",
+                "relevance": 0.63479,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.868682,
+                    "label": "positive"
+                },
+                "text": "Va.",
+                "relevance": 0.308049,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$100",
+                "relevance": 0.308049,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "60%",
+                "relevance": 0.308049,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "with the kids"
+                },
+                "sentence": " game to play with the kids while stuck at home.",
+                "action": {
+                    "verb": {
+                        "text": "play",
+                        "tense": "future"
+                    },
+                    "text": "to play",
+                    "normalized": "to play"
+                }
+            },
+            {
+                "subject": {
+                    "text": "50 Floor"
+                },
+                "sentence": " For the month of June, 50 Floor is offering 60% off materials including",
+                "object": {
+                    "text": "offering 60%"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "50 Floor"
+                },
+                "sentence": " For the month of June, 50 Floor is offering 60% off materials including",
+                "action": {
+                    "verb": {
+                        "text": "offer",
+                        "tense": "present"
+                    },
+                    "text": "is offering",
+                    "normalized": "be offer"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.610368,
+                "label": "/art and entertainment/visual art and design/design"
+            },
+            {
+                "score": 0.60099,
+                "label": "/family and parenting"
+            },
+            {
+                "score": 0.560829,
+                "label": "/automotive and vehicles/cars/coupe"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "HAMPTON ROADS, Va. \\- Designer Kristie Prince Hale shares a fun and hilarious game to play with the kids while stuck at home.",
+                "score": 0.975784,
+                "arguments": [
+                    {
+                        "text": "HAMPTON ROADS",
+                        "location": [
+                            0,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "HAMPTON ROADS"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Va.",
+                        "location": [
+                            15,
+                            18
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Va."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "HAMPTON ROADS, Va. \\- Designer Kristie Prince Hale shares a fun and hilarious game to play with the kids while stuck at home.",
+                "score": 0.600286,
+                "arguments": [
+                    {
+                        "text": "kids",
+                        "location": [
+                            100,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "kids"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "home",
+                        "location": [
+                            120,
+                            124
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "For the month of June, 50 Floor is offering 60% off materials including hardwood, carpet, laminate, vinyl and tile.",
+                "score": 0.713655,
+                "arguments": [
+                    {
+                        "text": "June",
+                        "location": [
+                            144,
+                            148
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "June"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "offering",
+                        "location": [
+                            162,
+                            170
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventBusiness",
+                                "text": "offering"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Designer Kristie Prince Hale",
+                "relevance": 0.911586,
+                "count": 1
+            },
+            {
+                "text": "month of June",
+                "relevance": 0.819077,
+                "count": 1
+            },
+            {
+                "text": "HAMPTON ROADS",
+                "relevance": 0.782841,
+                "count": 1
+            },
+            {
+                "text": "mention Coast Live",
+                "relevance": 0.681929,
+                "count": 1
+            },
+            {
+                "text": "hardwood",
+                "relevance": 0.586875,
+                "count": 1
+            },
+            {
+                "text": "carpet",
+                "relevance": 0.547299,
+                "count": 1
+            },
+            {
+                "text": "Floor",
+                "relevance": 0.540278,
+                "count": 3
+            },
+            {
+                "text": "home",
+                "relevance": 0.539046,
+                "count": 1
+            },
+            {
+                "text": "kids",
+                "relevance": 0.535931,
+                "count": 1
+            },
+            {
+                "text": "laminate",
+                "relevance": 0.533242,
+                "count": 1
+            },
+            {
+                "text": "vinyl",
+                "relevance": 0.525918,
+                "count": 1
+            },
+            {
+                "text": "materials",
+                "relevance": 0.525918,
+                "count": 1
+            },
+            {
+                "text": "Estimate",
+                "relevance": 0.521382,
+                "count": 1
+            },
+            {
+                "text": "details",
+                "relevance": 0.521382,
+                "count": 1
+            },
+            {
+                "text": "tile",
+                "relevance": 0.521382,
+                "count": 1
+            },
+            {
+                "text": "Home Consultation",
+                "relevance": 0.521263,
+                "count": 1
+            },
+            {
+                "text": "Va",
+                "relevance": 0.376699,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "15e2e8c6d885776bc31e6c6b84939d4601e8a835",
+        "filename": "202006080000NEWSBANKNEWSPPRSF4C7E31E22D5C4AFA3692A787037024.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-08T00:00:00-04:00",
+    "title": "Fun for the whole family and a way to update your home on Coast Live",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.va.hmtnrd\">HAMPTON ROADS, Va.</location> - Designer <person>Kristie Prince Hale</person> shares a fun and hilarious game to play with the kids while stuck at home.</p>\n<p>For the month of June, 50 Floor is offering 60% off materials including hardwood, carpet, laminate, vinyl and tile. Plus, mention Coast Live for an additional <money>$100</money> off. Watch for details.</p>\n\n<p>Presented by 50 Floor</p>\n\n<p>Free In-Home Consultation &amp; Estimate</p>\n\n<p>1-877-50FLOOR | <a href=\"http://www.50Floor.com\">www.50Floor.com</a></p>",
+    "geoFocus": [
+        [
+            "GU/us.va.norflk",
+            "Norfolk"
+        ]
+    ]
+}

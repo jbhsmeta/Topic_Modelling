@@ -1,0 +1,227 @@
+{
+    "id": "f82dc87e-3e49-477e-864d-cd85406a9ca5",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "8378548495878459817",
+    "description": "More than 4,400 people have died from coronavirus-related illness in California, and nearly 2,500 have died in Los Angeles County.",
+    "serviceName": "Health Pharma News",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "More than 4,400 people have died from coronavirus-related illness in\nCalifornia, and nearly 2,500 have died in Los Angeles County. (Source: L.A.\nTimes \\- Health)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "California",
+            "Los Angeles County"
+        ],
+        "person": [
+            "L.A. Times"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050126AMSPIDERHEPHNEWS_MEDWRM04_C6ADB4CE32FD6C1BA68F88091424A19C_67.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Los Angeles County.",
+                "relevance": 0.837336,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.396771,
+                    "label": "positive"
+                },
+                "text": "L.A",
+                "relevance": 0.784037,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "OlympicBiddingCity",
+                        "OlympicHostCity",
+                        "PlaceWithNeighborhoods",
+                        "FilmScreeningVenue",
+                        "City"
+                    ],
+                    "name": "Los Angeles",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Los_Angeles"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "California",
+                "relevance": 0.524568,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "Appellation",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "WineRegion",
+                        "StateOrCounty"
+                    ],
+                    "name": "California",
+                    "dbpedia_resource": "http://dbpedia.org/resource/California"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "More than 4,400 people"
+                },
+                "sentence": "More than 4,400 people have died from coronavirus-related illness in",
+                "object": {
+                    "text": "from coronavirus-related illness in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "die",
+                        "tense": "past"
+                    },
+                    "text": "have died",
+                    "normalized": "have die"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.982443,
+                "label": "/health and fitness/men's health"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "More than 4,400 people have died from coronavirus-related illness in California, and nearly 2,500 have died in Los Angeles County.",
+                "score": 0.541819,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            16,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "California",
+                        "location": [
+                            69,
+                            79
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "California"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Los Angeles County",
+                "relevance": 0.790087,
+                "count": 1
+            },
+            {
+                "text": "coronavirus-related illness",
+                "relevance": 0.778911,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.648893,
+                "count": 1
+            },
+            {
+                "text": "Source",
+                "relevance": 0.60127,
+                "count": 1
+            },
+            {
+                "text": "Health",
+                "relevance": 0.555281,
+                "count": 1
+            },
+            {
+                "text": "California",
+                "relevance": 0.391207,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "4ed1f08f651b220541e7e555226d6c07c51c1b47",
+        "filename": "202006050126AMSPIDERHEPHNEWS_MEDWRM04_C6ADB4CE32FD6C1BA68F88091424A19C_67.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T01:26:00-04:00",
+    "title": "California coronavirus cases surpass 120,000; protests, closed testing sites worry health officials [MedWorm News]",
+    "html": "<p>More than 4,400 people have died from coronavirus-related illness in <location idsrc=\"xmltag.org\" value=\"LS/us.ca\">California</location>, and nearly 2,500 have died in <location idsrc=\"xmltag.org\" value=\"LU/us.ca.losang\">Los Angeles County</location>. (Source: <person>L.A. Times</person> - Health)</p>",
+    "geoFocus": []
+}

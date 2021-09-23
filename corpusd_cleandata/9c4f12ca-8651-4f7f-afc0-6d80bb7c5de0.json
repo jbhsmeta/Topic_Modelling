@@ -1,0 +1,459 @@
+{
+    "id": "9c4f12ca-8651-4f7f-afc0-6d80bb7c5de0",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright 2020 Gale, Cengage Learning.  All rights reserved.",
+    "geoOrigin": "London, England, United Kingdom",
+    "sourceType": "Newspaper Abstract",
+    "source": "Wall Street Journal Europe (Abstracts)",
+    "corpus_document_id": "14257146225655427472",
+    "description": "On the heels of Hertz Global Holdings Inc.' s bankruptcy filing, Advantage Rent a Car is seeking chapter 11 bankruptcy protection. The Orlando, FL- based car-rental company, owned by private-equity firm Advantage Holdco Inc., disclosed more than $500 million in debt in its filing. Advantage was battered by travel restrictions imposed to contain the COVID-19...",
+    "serviceName": "Gale All",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Business and Commerce",
+            "code": "IS/biz#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/impact",
+            "relevance_score": "9",
+            "description": "Bankruptcy and Insolvency",
+            "code": "IS/biz.bankrupt#9#99#75",
+            "level": 1
+        },
+        {
+            "parent": "IS/biz",
+            "relevance_score": "9",
+            "description": "Business Events",
+            "code": "IS/biz.events#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#94",
+            "level": 0
+        }
+    ],
+    "text": "On the heels of Hertz Global Holdings Inc.'s bankruptcy filing, Advantage Rent\na Car is seeking chapter 11 bankruptcy protection. The Orlando, FL-based car-\nrental company, owned by private-equity firm Advantage Holdco Inc., disclosed\nmore than $500 million in debt in its filing. Advantage was battered by travel\nrestrictions imposed to contain the COVID-19 pandemic.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Travel and Hospitality",
+            "code": "II/hosp#8#50#81",
+            "level": 0
+        },
+        {
+            "parent": "II/hosp",
+            "relevance_score": "8",
+            "description": "Travel",
+            "code": "II/hosp.travel#8#50#81",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Motor Vehicles and Parts",
+            "code": "II/motor#8#50#81",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Services",
+            "code": "II/service#8#50#81",
+            "level": 0
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Hertz Global Holdings Inc.'s"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "Hertz Global Holdings Inc.'s"
+        ]
+    },
+    "geoOrigin_code": "RU/gb.eng.london",
+    "language": "English",
+    "filename": "202006040000GALE____PUB_ALL_626234952.XML",
+    "providerName": "Gale Group",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.418883,
+                    "label": "positive"
+                },
+                "text": "Advantage Rent",
+                "relevance": 0.95524,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Advantage Holdco Inc.",
+                "relevance": 0.828721,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.428779,
+                    "label": "negative"
+                },
+                "text": "Hertz Global Holdings Inc.",
+                "relevance": 0.786546,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Orlando",
+                "relevance": 0.411651,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PlaceWithNeighborhoods",
+                        "City"
+                    ],
+                    "name": "Orlando, Florida",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Orlando,_Florida"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$500 million",
+                "relevance": 0.251758,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "a Car"
+                },
+                "sentence": " a Car is seeking chapter 11 bankruptcy protection.",
+                "object": {
+                    "text": "seeking chapter 11 bankruptcy protection"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a Car"
+                },
+                "sentence": " a Car is seeking chapter 11 bankruptcy protection.",
+                "object": {
+                    "text": "chapter 11 bankruptcy protection"
+                },
+                "action": {
+                    "verb": {
+                        "text": "seek",
+                        "tense": "present"
+                    },
+                    "text": "is seeking",
+                    "normalized": "be seek"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by private-equity firm Advantage Holdco Inc."
+                },
+                "sentence": " rental company, owned by private-equity firm Advantage Holdco Inc., disclosed",
+                "object": {
+                    "text": "rental company"
+                },
+                "action": {
+                    "verb": {
+                        "text": "own",
+                        "tense": "past"
+                    },
+                    "text": "owned",
+                    "normalized": "own"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Advantage"
+                },
+                "sentence": " Advantage was battered by travel",
+                "object": {
+                    "text": "battered by travel"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Advantage"
+                },
+                "sentence": " Advantage was battered by travel",
+                "object": {
+                    "text": "by travel"
+                },
+                "action": {
+                    "verb": {
+                        "text": "batter",
+                        "tense": "past"
+                    },
+                    "text": "was battered",
+                    "normalized": "be batter"
+                }
+            },
+            {
+                "subject": {
+                    "text": "restrictions"
+                },
+                "sentence": " restrictions imposed to contain the COVID-19 pandemic.",
+                "object": {
+                    "text": "the COVID-19 pandemic"
+                },
+                "action": {
+                    "verb": {
+                        "text": "contain",
+                        "tense": "future"
+                    },
+                    "text": "imposed to contain",
+                    "normalized": "impose to contain"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.989488,
+                "label": "/automotive and vehicles/vehicle rental"
+            },
+            {
+                "score": 0.971803,
+                "label": "/business and industrial/company/bankruptcy"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "On the heels of Hertz Global Holdings Inc.'s bankruptcy filing, Advantage Rent a Car is seeking chapter 11 bankruptcy protection.",
+                "score": 0.73868,
+                "arguments": [
+                    {
+                        "text": "Hertz Global Holdings Inc.",
+                        "location": [
+                            16,
+                            42
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Hertz Global Holdings Inc.",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "bankruptcy filing",
+                        "location": [
+                            45,
+                            62
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventBusiness",
+                                "text": "bankruptcy filing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "On the heels of Hertz Global Holdings Inc.'s bankruptcy filing, Advantage Rent a Car is seeking chapter 11 bankruptcy protection.",
+                "score": 0.353889,
+                "arguments": [
+                    {
+                        "text": "Advantage Rent",
+                        "location": [
+                            64,
+                            78
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Advantage Rent",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "bankruptcy filing",
+                        "location": [
+                            45,
+                            62
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventBusiness",
+                                "text": "bankruptcy filing"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "rental company",
+                "relevance": 0.903014,
+                "count": 1
+            },
+            {
+                "text": "heels of Hertz Global Holdings Inc.",
+                "relevance": 0.876098,
+                "count": 1
+            },
+            {
+                "text": "bankruptcy filing",
+                "relevance": 0.719892,
+                "count": 1
+            },
+            {
+                "text": "Advantage Rent",
+                "relevance": 0.656408,
+                "count": 1
+            },
+            {
+                "text": "bankruptcy protection",
+                "relevance": 0.6273,
+                "count": 1
+            },
+            {
+                "text": "Orlando",
+                "relevance": 0.599214,
+                "count": 1
+            },
+            {
+                "text": "Car",
+                "relevance": 0.569757,
+                "count": 2
+            },
+            {
+                "text": "chapter",
+                "relevance": 0.526609,
+                "count": 1
+            },
+            {
+                "text": "debt",
+                "relevance": 0.522359,
+                "count": 1
+            },
+            {
+                "text": "Advantage",
+                "relevance": 0.521962,
+                "count": 1
+            },
+            {
+                "text": "private-equity firm Advantage Holdco Inc.",
+                "relevance": 0.395966,
+                "count": 1
+            },
+            {
+                "text": "FL",
+                "relevance": 0.376745,
+                "count": 1
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.346991,
+                "count": 1
+            },
+            {
+                "text": "filing",
+                "relevance": 0.340171,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "d9f78f58ac9e08406da86f75351837c4c81ffd5f",
+        "filename": "202006040000GALE____PUB_ALL_626234952.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NYSE|HRI|CUSIP:42704L104;ISIN:US42704L1044|Hertz Global Holdings Inc.|extractor|DUNS:614886062;NECOID:5238566;ACORN:2546236596|SIGNIFICANT||||XNYS|REFERENCE",
+    "publicationTime": "2020-06-04T00:00:00-04:00",
+    "title": "Rental-Car Company Advantage Files for Bankruptcy: Private equity-owned Advantage follows rival Hertz in chapter 11.",
+    "html": "<p>On the heels of <org idsrc=\"xmltag.org\" value=\"NYSE:HTZ\">Hertz Global Holdings Inc.'s</org> bankruptcy filing,\nAdvantage Rent a Car is seeking chapter 11 bankruptcy protection. The\n<location idsrc=\"xmltag.org\" value=\"LU/us.fl.orlndo\">Orlando, FL</location>-based car-rental company, owned by private-equity firm\n<org>Advantage Holdco Inc.</org>, disclosed more than <money>$500 million</money> in debt in its\nfiling. Advantage was battered by travel restrictions imposed to contain\nthe COVID-19 pandemic.</p>",
+    "geoFocus": [
+        [
+            "GR/eur",
+            "Europe"
+        ]
+    ]
+}

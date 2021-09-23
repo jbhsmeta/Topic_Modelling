@@ -1,0 +1,433 @@
+{
+    "id": "397c0796-68c4-4b52-ac93-5674532c7d55",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Greensboro, North Carolina",
+    "sourceType": "Broadcast Transcript",
+    "source": "WGHP-TV (Greensboro, NC)",
+    "corpus_document_id": "60734746814763957348",
+    "description": "Millions of students across the country are graduating from high school and college. And Sunday is a great time to celebrate because it's National Graduation Tassel Day, which is a day to celebrate the accomplishments of every graduate. Traditionally, high school and undergraduate students start with their tassels on the right and move their tassels to the...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#6#50#64",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.edu",
+            "relevance_score": "6",
+            "description": "Academic Levels",
+            "code": "IS/lifesoc.edlevels#6#50#64",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "6",
+            "description": "Education",
+            "code": "IS/lifesoc.edu#6#50#64",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.edlevels",
+            "relevance_score": "6",
+            "description": "College and University",
+            "code": "IS/lifesoc.higher#6#64#50",
+            "level": 3
+        }
+    ],
+    "text": "Millions of students across the country are graduating from high school and\ncollege.\n\nAnd Sunday is a great time to celebrate because it's National Graduation\nTassel Day, which is a day to celebrate the accomplishments of every graduate.\n\nTraditionally, high school and undergraduate students start with their tassels\non the right and move their tassels to the left when they graduate.\n\nHowever, most, if not all, graduation ceremonies are not taking place this\nyear because of the coronavirus pandemic.\n\nBut that's not a reason graduates, families and friends can't honor and\ncelebrate their achievements.\n\nAnd one great way to do that is to hop on social media and a photo of your\ngraduates with their tassels using the hashtag #graduationtasselday.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.nc.grnsbo",
+    "language": "English",
+    "filename": "202005170000NEWSBANKNEWSPPRSDCC5D445628B77CA45D6475F3A6ABA9.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "#graduationtasselday",
+                "relevance": 0.872648,
+                "type": "Hashtag"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " And Sunday is a great time to celebrate because it's National Graduation",
+                "object": {
+                    "text": "National Graduation"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Tassel Day"
+                },
+                "sentence": " Tassel Day, which is a day to celebrate the accomplishments of every graduate.",
+                "object": {
+                    "text": "a day"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "not all, graduation ceremonies"
+                },
+                "sentence": " However, most, if not all, graduation ceremonies are not taking place this",
+                "object": {
+                    "text": "place"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "taking",
+                    "normalized": "take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "one"
+                },
+                "sentence": " And one great way to do that is to hop on social media and a photo of your",
+                "object": {
+                    "text": "that is to hop on social media and a photo of your"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "future"
+                    },
+                    "text": "to do",
+                    "normalized": "to do"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.727723,
+                "label": "/education/alumni and reunions"
+            },
+            {
+                "score": 0.72512,
+                "label": "/education/high school"
+            },
+            {
+                "score": 0.646389,
+                "label": "/health and fitness/disease/cold and flu"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "Millions of students across the country are graduating from high school and college.",
+                "score": 0.606338,
+                "arguments": [
+                    {
+                        "text": "students",
+                        "location": [
+                            12,
+                            20
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "country",
+                        "location": [
+                            32,
+                            39
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "country",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Millions of students across the country are graduating from high school and college.",
+                "score": 0.620921,
+                "arguments": [
+                    {
+                        "text": "college",
+                        "location": [
+                            76,
+                            83
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "college"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "graduating",
+                        "location": [
+                            44,
+                            54
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventEducation",
+                                "text": "graduating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "educatedAt",
+                "sentence": "Traditionally, high school and undergraduate students start with their tassels on the right and move their tassels to the left when they graduate.",
+                "score": 0.521812,
+                "arguments": [
+                    {
+                        "text": "students",
+                        "location": [
+                            284,
+                            292
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "high school",
+                        "location": [
+                            254,
+                            265
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "high school",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Educational"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "And one great way to do that is to hop on social media and a photo of your graduates with their tassels using the hashtag #graduationtasselday.",
+                "score": 0.345598,
+                "arguments": [
+                    {
+                        "text": "your",
+                        "location": [
+                            678,
+                            682
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "your"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "graduates",
+                        "location": [
+                            683,
+                            692
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "graduates"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "great time",
+                "relevance": 0.882271,
+                "count": 1
+            },
+            {
+                "text": "high school",
+                "relevance": 0.867496,
+                "count": 2
+            },
+            {
+                "text": "undergraduate students",
+                "relevance": 0.757872,
+                "count": 1
+            },
+            {
+                "text": "accomplishments of every graduate",
+                "relevance": 0.741883,
+                "count": 1
+            },
+            {
+                "text": "great way",
+                "relevance": 0.679478,
+                "count": 1
+            },
+            {
+                "text": "graduation ceremonies",
+                "relevance": 0.658963,
+                "count": 1
+            },
+            {
+                "text": "social media",
+                "relevance": 0.613813,
+                "count": 1
+            },
+            {
+                "text": "tassels",
+                "relevance": 0.579198,
+                "count": 3
+            },
+            {
+                "text": "students",
+                "relevance": 0.57528,
+                "count": 1
+            },
+            {
+                "text": "reason graduates",
+                "relevance": 0.575104,
+                "count": 1
+            },
+            {
+                "text": "day",
+                "relevance": 0.558115,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.543061,
+                "count": 1
+            },
+            {
+                "text": "graduate",
+                "relevance": 0.53843,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.532007,
+                "count": 1
+            },
+            {
+                "text": "families",
+                "relevance": 0.518909,
+                "count": 1
+            },
+            {
+                "text": "friends",
+                "relevance": 0.514737,
+                "count": 1
+            },
+            {
+                "text": "place",
+                "relevance": 0.512155,
+                "count": 1
+            },
+            {
+                "text": "photo",
+                "relevance": 0.512155,
+                "count": 1
+            },
+            {
+                "text": "achievements",
+                "relevance": 0.512155,
+                "count": 1
+            },
+            {
+                "text": "college",
+                "relevance": 0.512155,
+                "count": 1
+            },
+            {
+                "text": "Sunday",
+                "relevance": 0.484042,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.388186,
+                "count": 1
+            },
+            {
+                "text": "graduationtasselday",
+                "relevance": 0.383289,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "4f0f0162b19575b91c85502644d87e3066463612",
+        "filename": "202005170000NEWSBANKNEWSPPRSDCC5D445628B77CA45D6475F3A6ABA9.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-17T00:00:00-04:00",
+    "title": "Today is National Graduation Tassel Day",
+    "html": "<p>Millions of students across the country are graduating from high school and college.</p>\n<p>And Sunday is a great time to celebrate because it's National Graduation Tassel Day, which is a day to celebrate the accomplishments of every graduate.</p>\n\n<p>Traditionally, high school and undergraduate students start with their tassels on the right and move their tassels to the left when they graduate.</p>\n\n<p>However, most, if not all, graduation ceremonies are not taking place this year because of the coronavirus pandemic.</p>\n\n<p>But that's not a reason graduates, families and friends can't honor and celebrate their achievements.</p>\n\n<p>And one great way to do that is to hop on social media and a photo of your graduates with their tassels using the hashtag #graduationtasselday.</p>",
+    "geoFocus": [
+        [
+            "GU/us.nc.grnsbo",
+            "Greensboro"
+        ]
+    ]
+}

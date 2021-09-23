@@ -1,0 +1,1042 @@
+{
+    "id": "2b2225ee-75fc-48ae-8887-efb563c33bbc",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Hometown News, All rights reserved.",
+    "geoOrigin": "Fort Pierce, Florida",
+    "sourceType": "Newspaper",
+    "source": "Hometown News: Deltona, Orange City, Debary (FL)",
+    "corpus_document_id": "80846665573131722662",
+    "description": "Volusia County Sheriff's deputies are investigating a drive-by shooting early May 26 in which several shots were fired, injuring a homeless man in the 1000 block of South Clara Avenue in the Spring Hill area of DeLand. He was transported to Halifax Health Medical Center for medical treatment for injuries not considered life-threatening.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Health and Wellness",
+            "code": "IS/haw#7#50#72",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "7",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#7#50#72",
+            "level": 1
+        },
+        {
+            "parent": "IS/haw.disease",
+            "relevance_score": "7",
+            "description": "Injuries",
+            "code": "IS/haw.injury#7#72#50",
+            "level": 2
+        }
+    ],
+    "text": "Volusia County Sheriff's deputies are investigating a drive-by shooting early\nMay 26 in which several shots were fired, injuring a homeless man in the 1000\nblock of South Clara Avenue in the Spring Hill area of DeLand.\n\nThe 60-year-old victim sustained two gunshot wounds to one lower leg. He was\ntransported to Halifax Health Medical Center for medical treatment for\ninjuries not considered life-threatening.\n\nIn addition to gunshots injuring the male victim, detectives discovered two\nnearby homes and vehicles also were struck during the incident.\n\nAnyone with information about this shooting is urged to call the Criminal\nInvestigations Division at (386) 717-0741 regarding VSO case #20-9689. Or to\nremain anonymous, call Crime Stoppers of Northeast Florida at 1-888-277-8477\n(TIPS) or via online at: [NEFCrimestoppers.com](http://NEFCrimestoppers.com)\nand you could receive a reward.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Healthcare",
+            "code": "II/hcare#7#50#70",
+            "level": 0
+        },
+        {
+            "parent": "II/hcare",
+            "relevance_score": "7",
+            "description": "Healthcare Facilities",
+            "code": "II/hcare.facility#7#50#70",
+            "level": 1
+        },
+        {
+            "parent": "II/hcare.facility",
+            "relevance_score": "7",
+            "description": "Hospitals",
+            "code": "II/hcare.hospital#7#70#50",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Halifax Health Medical Center",
+            "Crime Stoppers"
+        ],
+        "location": [
+            "Volusia County",
+            "South Clara Avenue",
+            "Spring Hill",
+            "DeLand",
+            "Northeast Florida"
+        ],
+        "person": [],
+        "companies": [
+            "Halifax Health Medical Center",
+            "Crime Stoppers"
+        ]
+    },
+    "geoOrigin_code": "RU/us.fl.forrce",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSC3FEE1B3ADF833B491B6762CC1B35B3.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.568306,
+                    "label": "positive"
+                },
+                "text": "Halifax Health Medical Center",
+                "relevance": 0.823432,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.778682,
+                    "label": "negative"
+                },
+                "text": "Volusia County",
+                "relevance": 0.795098,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Volusia County, Florida",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Volusia_County,_Florida"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.365973,
+                    "label": "negative"
+                },
+                "text": "DeLand",
+                "relevance": 0.663209,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "DeLand, Florida",
+                    "dbpedia_resource": "http://dbpedia.org/resource/DeLand,_Florida"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.365973,
+                    "label": "negative"
+                },
+                "text": "Spring Hill",
+                "relevance": 0.653751,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Northeast Florida",
+                "relevance": 0.632675,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Investigations Division",
+                "relevance": 0.628961,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "60-year",
+                "relevance": 0.628961,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Volusia County Sheriff's deputies"
+                },
+                "sentence": "Volusia County Sheriff's deputies are investigating a drive-by shooting early",
+                "object": {
+                    "text": "investigating a drive-by shooting early"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Volusia County Sheriff's deputies"
+                },
+                "sentence": "Volusia County Sheriff's deputies are investigating a drive-by shooting early",
+                "object": {
+                    "text": "a drive-by shooting early"
+                },
+                "action": {
+                    "verb": {
+                        "text": "investigate",
+                        "tense": "present"
+                    },
+                    "text": "are investigating",
+                    "normalized": "be investigate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "several shots"
+                },
+                "sentence": " May 26 in which several shots were fired, injuring a homeless man in the 1000",
+                "object": {
+                    "text": "fired"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "several shots"
+                },
+                "sentence": " May 26 in which several shots were fired, injuring a homeless man in the 1000",
+                "object": {
+                    "text": "a homeless man"
+                },
+                "action": {
+                    "verb": {
+                        "text": "injure",
+                        "tense": "past"
+                    },
+                    "text": "injuring",
+                    "normalized": "injure"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The 60-year-old victim"
+                },
+                "sentence": " The 60-year-old victim sustained two gunshot wounds to one lower leg.",
+                "object": {
+                    "text": "two gunshot wounds"
+                },
+                "action": {
+                    "verb": {
+                        "text": "sustain",
+                        "tense": "past"
+                    },
+                    "text": "sustained",
+                    "normalized": "sustain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "injuries"
+                },
+                "sentence": " injuries not considered life-threatening.",
+                "object": {
+                    "text": "life-threatening"
+                },
+                "action": {
+                    "verb": {
+                        "text": "consider",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "considered",
+                    "normalized": "consider"
+                }
+            },
+            {
+                "subject": {
+                    "text": "gunshots"
+                },
+                "sentence": " In addition to gunshots injuring the male victim, detectives discovered two",
+                "object": {
+                    "text": "the male victim"
+                },
+                "action": {
+                    "verb": {
+                        "text": "injure",
+                        "tense": "present"
+                    },
+                    "text": "injuring",
+                    "normalized": "injure"
+                }
+            },
+            {
+                "subject": {
+                    "text": "nearby homes and vehicles"
+                },
+                "sentence": " nearby homes and vehicles also were struck during the incident.",
+                "object": {
+                    "text": "struck"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "nearby homes and vehicles"
+                },
+                "sentence": " nearby homes and vehicles also were struck during the incident.",
+                "action": {
+                    "verb": {
+                        "text": "strike",
+                        "tense": "past"
+                    },
+                    "text": "were struck",
+                    "normalized": "be strike"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Anyone with information about this shooting"
+                },
+                "sentence": " Anyone with information about this shooting is urged to call the Criminal",
+                "object": {
+                    "text": "urged to call the Criminal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Anyone with information about this shooting"
+                },
+                "sentence": " Anyone with information about this shooting is urged to call the Criminal",
+                "object": {
+                    "text": "to call the Criminal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "urge",
+                        "tense": "past"
+                    },
+                    "text": "urged",
+                    "normalized": "urge"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Anyone"
+                },
+                "sentence": " Anyone with information about this shooting is urged to call the Criminal",
+                "object": {
+                    "text": "the Criminal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "future"
+                    },
+                    "text": "is urged to call",
+                    "normalized": "be urge to call"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Investigations Division at (386) 717-0741"
+                },
+                "sentence": " Investigations Division at (386) 717-0741 regarding VSO case #20-9689.",
+                "object": {
+                    "text": "VSO case #20-9689"
+                },
+                "action": {
+                    "verb": {
+                        "text": "regard",
+                        "tense": "present"
+                    },
+                    "text": "regarding",
+                    "normalized": "regard"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " and you could receive a reward.",
+                "object": {
+                    "text": "a reward"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "future"
+                    },
+                    "text": "could receive",
+                    "normalized": "could receive"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.803356,
+                "label": "/law, govt and politics/law enforcement"
+            },
+            {
+                "score": 0.765137,
+                "label": "/society/crime/personal offense/homicide"
+            },
+            {
+                "score": 0.709204,
+                "label": "/sports/hunting and shooting"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Volusia County Sheriff's deputies are investigating a drive-by shooting early May 26 in which several shots were fired, injuring a homeless man in the 1000 block of South Clara Avenue in the Spring Hill area of DeLand.",
+                "score": 0.64953,
+                "arguments": [
+                    {
+                        "text": "Sheriff",
+                        "location": [
+                            15,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Sheriff"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Volusia County",
+                        "location": [
+                            0,
+                            14
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Volusia County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Anyone with information about this shooting is urged to call the Criminal Investigations Division at (386) 717-0741 regarding VSO case #20-9689.",
+                "score": 0.56153,
+                "arguments": [
+                    {
+                        "text": "Anyone",
+                        "location": [
+                            552,
+                            558
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Anyone"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "urged",
+                        "location": [
+                            599,
+                            604
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "urged"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Anyone with information about this shooting is urged to call the Criminal Investigations Division at (386) 717-0741 regarding VSO case #20-9689.",
+                "score": 0.714266,
+                "arguments": [
+                    {
+                        "text": "call",
+                        "location": [
+                            608,
+                            612
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "call"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "urged",
+                        "location": [
+                            599,
+                            604
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "urged"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Anyone with information about this shooting is urged to call the Criminal Investigations Division at (386) 717-0741 regarding VSO case #20-9689.",
+                "score": 0.622785,
+                "arguments": [
+                    {
+                        "text": "Criminal\nInvestigations Division",
+                        "location": [
+                            617,
+                            649
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Criminal\nInvestigations Division"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "call",
+                        "location": [
+                            608,
+                            612
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "call"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Or to remain anonymous, call Crime Stoppers of Northeast Florida at 1-888-277-8477 (TIPS) or via online at: [NEFCrimestoppers.com](http://NEFCrimestoppers.com) and you could receive a reward.",
+                "score": 0.917622,
+                "arguments": [
+                    {
+                        "text": "Northeast",
+                        "location": [
+                            744,
+                            753
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "Northeast"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Florida",
+                        "location": [
+                            754,
+                            761
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Florida"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Volusia County Sheriff's deputies are investigating a drive-by shooting early May 26 in which several shots were fired, injuring a homeless man in the 1000 block of South Clara Avenue in the Spring Hill area of DeLand.",
+                "score": 0.836983,
+                "arguments": [
+                    {
+                        "text": "deputies",
+                        "location": [
+                            25,
+                            33
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "deputies"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Volusia County",
+                        "location": [
+                            0,
+                            14
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Volusia County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "Volusia County Sheriff's deputies are investigating a drive-by shooting early May 26 in which several shots were fired, injuring a homeless man in the 1000 block of South Clara Avenue in the Spring Hill area of DeLand.",
+                "score": 0.802945,
+                "arguments": [
+                    {
+                        "text": "Sheriff",
+                        "location": [
+                            15,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Sheriff"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "deputies",
+                        "location": [
+                            25,
+                            33
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "deputies"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Volusia County Sheriff's deputies are investigating a drive-by shooting early May 26 in which several shots were fired, injuring a homeless man in the 1000 block of South Clara Avenue in the Spring Hill area of DeLand.",
+                "score": 0.501868,
+                "arguments": [
+                    {
+                        "text": "Sheriff",
+                        "location": [
+                            15,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Sheriff"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "investigating",
+                        "location": [
+                            38,
+                            51
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "investigating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Volusia County Sheriff's deputies are investigating a drive-by shooting early May 26 in which several shots were fired, injuring a homeless man in the 1000 block of South Clara Avenue in the Spring Hill area of DeLand.",
+                "score": 0.930301,
+                "arguments": [
+                    {
+                        "text": "deputies",
+                        "location": [
+                            25,
+                            33
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "deputies"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "investigating",
+                        "location": [
+                            38,
+                            51
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "investigating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Volusia County Sheriff's deputies are investigating a drive-by shooting early May 26 in which several shots were fired, injuring a homeless man in the 1000 block of South Clara Avenue in the Spring Hill area of DeLand.",
+                "score": 0.800288,
+                "arguments": [
+                    {
+                        "text": "May 26",
+                        "location": [
+                            78,
+                            84
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "May 26"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "investigating",
+                        "location": [
+                            38,
+                            51
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "investigating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Volusia County Sheriff's deputies are investigating a drive-by shooting early May 26 in which several shots were fired, injuring a homeless man in the 1000 block of South Clara Avenue in the Spring Hill area of DeLand.",
+                "score": 0.790816,
+                "arguments": [
+                    {
+                        "text": "area",
+                        "location": [
+                            203,
+                            207
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "area"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Spring Hill",
+                        "location": [
+                            191,
+                            202
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Spring Hill"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Volusia County Sheriff's deputies are investigating a drive-by shooting early May 26 in which several shots were fired, injuring a homeless man in the 1000 block of South Clara Avenue in the Spring Hill area of DeLand.",
+                "score": 0.842009,
+                "arguments": [
+                    {
+                        "text": "area",
+                        "location": [
+                            203,
+                            207
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "area"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "DeLand",
+                        "location": [
+                            211,
+                            217
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "DeLand"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The 60-year-old victim sustained two gunshot wounds to one lower leg.",
+                "score": 0.980284,
+                "arguments": [
+                    {
+                        "text": "victim",
+                        "location": [
+                            236,
+                            242
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "victim"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "60-year-old",
+                        "location": [
+                            224,
+                            235
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "60-year-old"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "block of South Clara Avenue",
+                "relevance": 0.759081,
+                "count": 1
+            },
+            {
+                "text": "60-year-old victim",
+                "relevance": 0.733491,
+                "count": 1
+            },
+            {
+                "text": "Volusia County Sheriff's deputies",
+                "relevance": 0.728254,
+                "count": 1
+            },
+            {
+                "text": "gunshot wounds",
+                "relevance": 0.68099,
+                "count": 1
+            },
+            {
+                "text": "Halifax Health Medical Center",
+                "relevance": 0.608515,
+                "count": 1
+            },
+            {
+                "text": "medical treatment",
+                "relevance": 0.570092,
+                "count": 1
+            },
+            {
+                "text": "Crime Stoppers of Northeast Florida",
+                "relevance": 0.543656,
+                "count": 1
+            },
+            {
+                "text": "Spring Hill area of DeLand",
+                "relevance": 0.543656,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.543257,
+                "count": 1
+            },
+            {
+                "text": "homes",
+                "relevance": 0.533934,
+                "count": 1
+            },
+            {
+                "text": "injuries",
+                "relevance": 0.533934,
+                "count": 1
+            },
+            {
+                "text": "male victim",
+                "relevance": 0.531279,
+                "count": 1
+            },
+            {
+                "text": "addition",
+                "relevance": 0.530372,
+                "count": 1
+            },
+            {
+                "text": "shots",
+                "relevance": 0.524335,
+                "count": 1
+            },
+            {
+                "text": "vehicles",
+                "relevance": 0.518362,
+                "count": 1
+            },
+            {
+                "text": "gunshots",
+                "relevance": 0.517454,
+                "count": 1
+            },
+            {
+                "text": "detectives",
+                "relevance": 0.512178,
+                "count": 1
+            },
+            {
+                "text": "reward",
+                "relevance": 0.510044,
+                "count": 1
+            },
+            {
+                "text": "TIPS",
+                "relevance": 0.510044,
+                "count": 1
+            },
+            {
+                "text": "incident",
+                "relevance": 0.510044,
+                "count": 1
+            },
+            {
+                "text": "life-threatening",
+                "relevance": 0.485131,
+                "count": 1
+            },
+            {
+                "text": "VSO case",
+                "relevance": 0.482358,
+                "count": 1
+            },
+            {
+                "text": "lower leg",
+                "relevance": 0.482358,
+                "count": 1
+            },
+            {
+                "text": "homeless man",
+                "relevance": 0.482358,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.461156,
+                "count": 1
+            },
+            {
+                "text": "shooting",
+                "relevance": 0.427369,
+                "count": 1
+            },
+            {
+                "text": "drive",
+                "relevance": 0.416383,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "60d9446e8f72e35789e6b602f216cdfd283e9274",
+        "filename": "202006050000NEWSBANKNEWSPPRSC3FEE1B3ADF833B491B6762CC1B35B3.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "(888) 277-TIPS Wanted",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.fl.volsia\">Volusia County</location> Sheriff's deputies are investigating a drive-by shooting early <chron>May 26</chron> in which several shots were fired, injuring a homeless man in the 1000 block of <location>South Clara Avenue</location> in the <location idsrc=\"xmltag.org\" value=\"LU/us.fl.sprill\">Spring Hill</location> area of <location idsrc=\"xmltag.org\" value=\"LU/us.fl.deland\">DeLand</location>.</p>\n<p>The 60-year-old victim sustained two gunshot wounds to one lower leg. He was transported to <org>Halifax Health Medical Center</org> for medical treatment for injuries not considered life-threatening.</p>\n\n<p>In addition to gunshots injuring the male victim, detectives discovered two nearby homes and vehicles also were struck during the incident.</p>\n\n<p>Anyone with information about this shooting is urged to call the Criminal Investigations Division at (386) 717-0741 regarding VSO case #20-9689. Or to remain anonymous, call <org>Crime Stoppers</org> of <location idsrc=\"xmltag.org\" value=\"LS/us.fl\">Northeast Florida</location> at 1-888-277-8477 (TIPS) or via online at: <a href=\"http://NEFCrimestoppers.com\">NEFCrimestoppers.com</a> and you could receive a reward.</p>",
+    "geoFocus": [
+        [
+            "GU/us.fl.delona",
+            "Deltona"
+        ]
+    ]
+}

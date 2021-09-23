@@ -1,0 +1,885 @@
+{
+    "id": "d48ecbf2-b9ee-4ffe-9a99-32fa430ea864",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright Shillito Market Intelligence Ltd. Jun 5, 2020",
+    "geoOrigin": "England, United Kingdom",
+    "sourceType": "Newspaper",
+    "source": "Banking Newslink (UK)",
+    "corpus_document_id": "16361196598318104968",
+    "description": "The Financial Ombudsman Service received over 270,000 new complaints about financial businesses in the 2019/ 20 financial year, new figures published this week show. PPI remained the most complained about product, with over 122,000 complaints about PPI received by the service. Mamta Rodrigues, finance expert and Divisional President at Teleperformance,...",
+    "serviceName": "Trade Publications",
+    "locationCode": [],
+    "sourceClass": "Banks and Banking",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Finance",
+            "code": "IS/fin#9#90#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "9",
+            "description": "Business Finance and Financing",
+            "code": "IS/fin.biz#9#99#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Business and Commerce",
+            "code": "IS/biz#7#75#50",
+            "level": 0
+        }
+    ],
+    "text": "The Financial Ombudsman Service received over 270,000 new complaints about\nfinancial businesses in the 2019/20 financial year, new figures published this\nweek show.\n\nPPI remained the most complained about product, with over 122,000 complaints\nabout PPI received by the service.\n\nMamta Rodrigues, finance expert and Divisional President at Teleperformance,\ncomments \"Banks have an opportunity to support their customers by creating\nsolutions for the troubled economic times. Better known as workout specialists\nor remediation managers, these individuals can work with customers to find\nbetter payment solutions and alternatives which drive results for the bank\nwhilst also appeasing the immediate strains from credit card, mortgage and\nloan bills.\n\nNew payment solutions are \"worked out\" as the customer comes first and\nproviding an extended payment scheme results in higher repayment overall. This\nhas the benefit of reducing collection costs and increasing much needed\nrevenues while increasing customer loyalty. At TP, we have had these solutions\nin our portfolio as leaders in BFSI and given the environment today, have\nrefreshed these capabilities to support our clients globally.\n\nPrior to COVID-19, everyone from the sandwich generation (Gen X) to Gen Z were\nshifting to digital payments. Now, post COVID-19 contactless payments and non-\ncash payments are the expectation and overnight, have become mainstream across\nall generations. Digital solutions from paying at the point of sale to\necommerce payments have become a norm. In addition, customers now have a\npropensity to leverage digital interactions via various digital channels. At\nTP, we have seen a significant demand on our digital solutions to not only\naugment the in-person interactions but also to support reducing costs at the\nbanks whilst still supporting the customers via our AI and chat capabilities.\"",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Financial Ombudsman Service",
+            "<p><org idsrc=\"xmltag.org\" value=\"Korea:062970\">PPI",
+            "PPI"
+        ],
+        "location": [],
+        "person": [
+            "<p><person>Mamta Rodrigues"
+        ],
+        "companies": [
+            "<p><org idsrc=\"xmltag.org\" value=\"Korea:062970\">PPI",
+            "Financial Ombudsman Service",
+            "PPI"
+        ]
+    },
+    "geoOrigin_code": "RS/gb.eng",
+    "language": "English",
+    "filename": "202006050000PROQUESTTRADEPUB_2409495786.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Financial Ombudsman Service",
+                "relevance": 0.792416,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.405827,
+                    "label": "positive"
+                },
+                "text": "Mamta Rodrigues",
+                "relevance": 0.521845,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Teleperformance",
+                "relevance": 0.425987,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Teleperformance",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Teleperformance"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.380109,
+                    "label": "positive"
+                },
+                "text": "BFSI",
+                "relevance": 0.400967,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "President",
+                "relevance": 0.384685,
+                "type": "JobTitle"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "by the service"
+                },
+                "sentence": " about PPI received by the service.",
+                "object": {
+                    "text": "PPI"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "past"
+                    },
+                    "text": "received",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "comments \"Banks"
+                },
+                "sentence": " comments \"Banks have an opportunity to support their customers by creating",
+                "object": {
+                    "text": "an opportunity to support their customers by creating"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Banks"
+                },
+                "sentence": " comments \"Banks have an opportunity to support their customers by creating",
+                "object": {
+                    "text": "their customers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "support",
+                        "tense": "future"
+                    },
+                    "text": "to support",
+                    "normalized": "to support"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Better"
+                },
+                "sentence": " Better known as workout specialists",
+                "object": {
+                    "text": "as workout specialists"
+                },
+                "action": {
+                    "verb": {
+                        "text": "know",
+                        "tense": "past"
+                    },
+                    "text": "known",
+                    "normalized": "know"
+                }
+            },
+            {
+                "subject": {
+                    "text": "these individuals"
+                },
+                "sentence": " or remediation managers, these individuals can work with customers to find",
+                "object": {
+                    "text": "customers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "find",
+                        "tense": "future"
+                    },
+                    "text": "to find",
+                    "normalized": "to find"
+                }
+            },
+            {
+                "subject": {
+                    "text": "better payment solutions and alternatives"
+                },
+                "sentence": " better payment solutions and alternatives which drive results for the bank",
+                "object": {
+                    "text": "results"
+                },
+                "action": {
+                    "verb": {
+                        "text": "drive",
+                        "tense": "present"
+                    },
+                    "text": "drive",
+                    "normalized": "drive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "New payment solutions"
+                },
+                "sentence": " New payment solutions are \"worked out\" as the customer comes first and",
+                "action": {
+                    "verb": {
+                        "text": "work",
+                        "tense": "past"
+                    },
+                    "text": "worked",
+                    "normalized": "work"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the customer"
+                },
+                "sentence": " New payment solutions are \"worked out\" as the customer comes first and",
+                "action": {
+                    "verb": {
+                        "text": "come",
+                        "tense": "present"
+                    },
+                    "text": "comes",
+                    "normalized": "come"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " At TP, we have had these solutions",
+                "object": {
+                    "text": "these solutions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "have had",
+                    "normalized": "have have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the environment"
+                },
+                "sentence": " in our portfolio as leaders in BFSI and given the environment today, have",
+                "action": {
+                    "verb": {
+                        "text": "give",
+                        "tense": "past"
+                    },
+                    "text": "given",
+                    "normalized": "give"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cash payments"
+                },
+                "sentence": " cash payments are the expectation and overnight, have become mainstream across",
+                "object": {
+                    "text": "the expectation and overnight"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Digital solutions"
+                },
+                "sentence": " Digital solutions from paying at the point of sale to",
+                "action": {
+                    "verb": {
+                        "text": "pay",
+                        "tense": "present"
+                    },
+                    "text": "paying",
+                    "normalized": "pay"
+                }
+            },
+            {
+                "subject": {
+                    "text": "ecommerce payments"
+                },
+                "sentence": " ecommerce payments have become a norm.",
+                "object": {
+                    "text": "a norm"
+                },
+                "action": {
+                    "verb": {
+                        "text": "become",
+                        "tense": "past"
+                    },
+                    "text": "have become",
+                    "normalized": "have become"
+                }
+            },
+            {
+                "subject": {
+                    "text": "customers"
+                },
+                "sentence": " In addition, customers now have a",
+                "object": {
+                    "text": "a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " TP, we have seen a significant demand on our digital solutions to not only",
+                "object": {
+                    "text": "seen a significant demand on our digital solutions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " TP, we have seen a significant demand on our digital solutions to not only",
+                "object": {
+                    "text": "a significant demand on our digital solutions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "past"
+                    },
+                    "text": "have seen",
+                    "normalized": "have see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "banks"
+                },
+                "sentence": " banks whilst still supporting the customers via our AI and chat capabilities.\"",
+                "object": {
+                    "text": "the customers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "support",
+                        "tense": "present"
+                    },
+                    "text": "supporting",
+                    "normalized": "support"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.947622,
+                "label": "/finance/financial news"
+            },
+            {
+                "score": 0.845591,
+                "label": "/business and industrial/business software"
+            },
+            {
+                "score": 0.840266,
+                "label": "/finance/bank"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Mamta Rodrigues, finance expert and Divisional President at Teleperformance, comments \"Banks have an opportunity to support their customers by creating solutions for the troubled economic times.",
+                "score": 0.82196,
+                "arguments": [
+                    {
+                        "text": "Divisional President",
+                        "location": [
+                            315,
+                            335
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mamta Rodrigues"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Teleperformance",
+                        "location": [
+                            339,
+                            354
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Teleperformance"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Mamta Rodrigues, finance expert and Divisional President at Teleperformance, comments \"Banks have an opportunity to support their customers by creating solutions for the troubled economic times.",
+                "score": 0.747407,
+                "arguments": [
+                    {
+                        "text": "customers",
+                        "location": [
+                            409,
+                            418
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "customers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "their",
+                        "location": [
+                            403,
+                            408
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "their"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "At TP, we have had these solutions in our portfolio as leaders in BFSI and given the environment today, have refreshed these capabilities to support our clients globally.",
+                "score": 0.355639,
+                "arguments": [
+                    {
+                        "text": "leaders",
+                        "location": [
+                            1069,
+                            1076
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "leaders"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "BFSI",
+                        "location": [
+                            1080,
+                            1084
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "BFSI"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "At TP, we have had these solutions in our portfolio as leaders in BFSI and given the environment today, have refreshed these capabilities to support our clients globally.",
+                "score": 0.716546,
+                "arguments": [
+                    {
+                        "text": "clients",
+                        "location": [
+                            1167,
+                            1174
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "clients"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "our",
+                        "location": [
+                            1163,
+                            1166
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "their"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Prior to COVID-19, everyone from the sandwich generation (Gen X) to Gen Z were shifting to digital payments.",
+                "score": 0.657034,
+                "arguments": [
+                    {
+                        "text": "everyone",
+                        "location": [
+                            1205,
+                            1213
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "everyone"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "generation",
+                        "location": [
+                            1232,
+                            1242
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "generation"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Prior to COVID-19, everyone from the sandwich generation (Gen X) to Gen Z were shifting to digital payments.",
+                "score": 0.616828,
+                "arguments": [
+                    {
+                        "text": "Gen Z",
+                        "location": [
+                            1254,
+                            1259
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Gen Z"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "everyone",
+                        "location": [
+                            1205,
+                            1213
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "everyone"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Financial Ombudsman Service",
+                "relevance": 0.954041,
+                "count": 1
+            },
+            {
+                "text": "financial businesses",
+                "relevance": 0.882198,
+                "count": 1
+            },
+            {
+                "text": "financial year",
+                "relevance": 0.751429,
+                "count": 1
+            },
+            {
+                "text": "better payment solutions",
+                "relevance": 0.63466,
+                "count": 1
+            },
+            {
+                "text": "Mamta Rodrigues",
+                "relevance": 0.584382,
+                "count": 1
+            },
+            {
+                "text": "digital payments",
+                "relevance": 0.577461,
+                "count": 1
+            },
+            {
+                "text": "cash payments",
+                "relevance": 0.569663,
+                "count": 1
+            },
+            {
+                "text": "remediation managers",
+                "relevance": 0.552047,
+                "count": 1
+            },
+            {
+                "text": "credit card",
+                "relevance": 0.545853,
+                "count": 1
+            },
+            {
+                "text": "New payment solutions",
+                "relevance": 0.540493,
+                "count": 1
+            },
+            {
+                "text": "economic times",
+                "relevance": 0.539176,
+                "count": 1
+            },
+            {
+                "text": "solutions",
+                "relevance": 0.53522,
+                "count": 2
+            },
+            {
+                "text": "extended payment scheme results",
+                "relevance": 0.531026,
+                "count": 1
+            },
+            {
+                "text": "portfolio",
+                "relevance": 0.526555,
+                "count": 1
+            },
+            {
+                "text": "propensity",
+                "relevance": 0.522129,
+                "count": 1
+            },
+            {
+                "text": "PPI",
+                "relevance": 0.52181,
+                "count": 2
+            },
+            {
+                "text": "digital interactions",
+                "relevance": 0.519523,
+                "count": 1
+            },
+            {
+                "text": "customers",
+                "relevance": 0.516438,
+                "count": 4
+            },
+            {
+                "text": "new complaints",
+                "relevance": 0.516436,
+                "count": 1
+            },
+            {
+                "text": "Banks",
+                "relevance": 0.516205,
+                "count": 2
+            },
+            {
+                "text": "immediate strains",
+                "relevance": 0.515244,
+                "count": 1
+            },
+            {
+                "text": "leaders",
+                "relevance": 0.515059,
+                "count": 1
+            },
+            {
+                "text": "significant demand",
+                "relevance": 0.514517,
+                "count": 1
+            },
+            {
+                "text": "benefit",
+                "relevance": 0.512617,
+                "count": 1
+            },
+            {
+                "text": "Digital solutions",
+                "relevance": 0.512578,
+                "count": 2
+            },
+            {
+                "text": "comments",
+                "relevance": 0.512512,
+                "count": 1
+            },
+            {
+                "text": "alternatives",
+                "relevance": 0.510461,
+                "count": 1
+            },
+            {
+                "text": "results",
+                "relevance": 0.50985,
+                "count": 1
+            },
+            {
+                "text": "revenues",
+                "relevance": 0.508382,
+                "count": 1
+            },
+            {
+                "text": "bank",
+                "relevance": 0.508105,
+                "count": 1
+            },
+            {
+                "text": "opportunity",
+                "relevance": 0.508079,
+                "count": 1
+            },
+            {
+                "text": "individuals",
+                "relevance": 0.508056,
+                "count": 1
+            },
+            {
+                "text": "capabilities",
+                "relevance": 0.507599,
+                "count": 1
+            },
+            {
+                "text": "sandwich generation",
+                "relevance": 0.507558,
+                "count": 1
+            },
+            {
+                "text": "AI",
+                "relevance": 0.507417,
+                "count": 1
+            },
+            {
+                "text": "expectation",
+                "relevance": 0.507078,
+                "count": 1
+            },
+            {
+                "text": "addition",
+                "relevance": 0.506884,
+                "count": 1
+            },
+            {
+                "text": "finance expert",
+                "relevance": 0.505973,
+                "count": 1
+            },
+            {
+                "text": "customer",
+                "relevance": 0.505481,
+                "count": 1
+            },
+            {
+                "text": "product",
+                "relevance": 0.505338,
+                "count": 1
+            },
+            {
+                "text": "mortgage",
+                "relevance": 0.504826,
+                "count": 1
+            },
+            {
+                "text": "norm",
+                "relevance": 0.504826,
+                "count": 1
+            },
+            {
+                "text": "clients",
+                "relevance": 0.504826,
+                "count": 1
+            },
+            {
+                "text": "generations",
+                "relevance": 0.504643,
+                "count": 1
+            },
+            {
+                "text": "service",
+                "relevance": 0.504425,
+                "count": 1
+            },
+            {
+                "text": "person interactions",
+                "relevance": 0.503803,
+                "count": 1
+            },
+            {
+                "text": "costs",
+                "relevance": 0.503609,
+                "count": 1
+            },
+            {
+                "text": "complaints",
+                "relevance": 0.502413,
+                "count": 1
+            },
+            {
+                "text": "Gen X",
+                "relevance": 0.493807,
+                "count": 1
+            },
+            {
+                "text": "various digital channels",
+                "relevance": 0.493601,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Twice a week",
+    "extracted_metadata": {
+        "sha1": "11f45c36ea535b6a4e54d3e8d3565dc3e2c2360c",
+        "filename": "202006050000PROQUESTTRADEPUB_2409495786.json",
+        "file_type": "json"
+    },
+    "companyRecord": "Korea|062970|ISIN:KR7062970009|PPI. Inc|extractor|NECOID:8412985;ACORN:5011412985|SIGNIFICANT||||XKRX|REFERENCE",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Financial Ombudsman Service received over 270,000 new complaints about UK financial businesses in the 2019/20 financial year",
+    "html": "<p>The <org idsrc=\"xmltag.org\" value=\"ACORN:3345336579\">Financial Ombudsman Service</org> received over 270,000 new complaints about financial businesses in the 2019/20 financial year, new figures published this week show.</p><p><org idsrc=\"xmltag.org\" value=\"Korea:062970\">PPI</org> remained the most complained about product, with over 122,000 complaints about <org idsrc=\"xmltag.org\" value=\"Korea:062970\">PPI</org> received by the service.</p><p><person>Mamta Rodrigues</person>, finance expert and Divisional President at Teleperformance, comments &#8220;Banks have an opportunity to support their customers by creating solutions for the troubled economic times. Better known as workout specialists or remediation managers, these individuals can work with customers to find better payment solutions and alternatives which drive results for the bank whilst also appeasing the immediate strains from credit card, mortgage and loan bills.</p><p>New payment solutions are &#8220;worked out&#8221; as the customer comes first and providing an extended payment scheme results in higher repayment overall. This has the benefit of reducing collection costs and increasing much needed revenues while increasing customer loyalty. At TP, we have had these solutions in our portfolio as leaders in BFSI and given the environment today, have refreshed these capabilities to support our clients globally.</p><p>Prior to COVID&#8211;19, everyone from the sandwich generation (Gen X) to Gen Z were shifting to digital payments. Now, post COVID&#8211;19 contactless payments and non-cash payments are the expectation and overnight, have become mainstream across all generations. Digital solutions from paying at the point of sale to ecommerce payments have become a norm. In addition, customers now have a propensity to leverage digital interactions via various digital channels. At TP, we have seen a significant demand on our digital solutions to not only augment the in-person interactions but also to support reducing costs at the banks whilst still supporting the customers via our AI and chat capabilities.&#8221;</p><p />",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

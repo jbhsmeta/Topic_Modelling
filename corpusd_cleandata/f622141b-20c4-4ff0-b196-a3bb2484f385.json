@@ -1,0 +1,1243 @@
+{
+    "id": "f622141b-20c4-4ff0-b196-a3bb2484f385",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, The Dispatch-Argus, All Rights Reserved.",
+    "geoOrigin": "Moline, Illinois",
+    "sourceType": "Newspaper",
+    "source": "Dispatch-Argus, The (Moline, IL)",
+    "corpus_document_id": "30927038230079380275",
+    "description": "CAMBRIDGE- A Geneseo man entered a negotiated plea to Class 1 felony conspiracy to commit murder Monday in Henry County Circuit Court. Justin R. Sexton, 25, was incriminated in a plot to do away with his family members last October so that he and a woman from Alabama whom he met online could have the house to themselves. He was ordered to have no contact with Shannon...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Crime",
+            "code": "IS/lifesoc.crime#9#99#97",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.crime",
+            "relevance_score": "9",
+            "description": "Homicide",
+            "code": "IS/lifesoc.homicide#9#97#50",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "CAMBRIDGE - A Geneseo man entered a negotiated plea to Class 1 felony\nconspiracy to commit murder Monday in Henry County Circuit Court.\n\nJustin R. Sexton, 25, was incriminated in a plot to do away with his family\nmembers last October so that he and a woman from Alabama whom he met online\ncould have the house to themselves. Separate acts with a 10-pound dumbell and\nsleeping pills in coffee creamer were alleged. According to Geneseo's Deputy\nPolice Chief Gene Karzin, the victims' injuries were minor.\n\nAccording to the plea agreement, two Class X felony counts of attempted murder\nand one other Class 1 felony count of conspiracy to commit murder were\ndismissed.\n\nSexton will serve 48 months probation and pay a $500 fine. He was also\nsentenced to 180 days in jail with credit for 227 days served. He was ordered\nto have no contact with Shannon Jones, 38, the Alabama woman. Her next\npretrial hearing is June 11.\n\nJudge Gregory Chickris accepted the plea agreement.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Henry County Circuit Court"
+        ],
+        "location": [
+            "Alabama"
+        ],
+        "person": [
+            "Justin R. Sexton",
+            "Gene Karzin",
+            "Shannon Jones",
+            "Gregory Chickris"
+        ],
+        "companies": [
+            "Henry County Circuit Court"
+        ]
+    },
+    "geoOrigin_code": "RU/us.il.moline",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS8BF046FB5F8F6A610BF1F28C6E765D3.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.865027,
+                    "label": "negative"
+                },
+                "text": "conspiracy to commit murder",
+                "relevance": 0.807747,
+                "type": "Crime"
+            },
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": -0.691114,
+                    "label": "negative"
+                },
+                "text": "Justin R. Sexton",
+                "relevance": 0.673947,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alabama",
+                "relevance": 0.367324,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Alabama",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Alabama"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.838249,
+                    "label": "negative"
+                },
+                "text": "Henry County Circuit Court",
+                "relevance": 0.360698,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.372825,
+                    "label": "negative"
+                },
+                "text": "sleeping pills",
+                "relevance": 0.328712,
+                "type": "Drug"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.819424,
+                    "label": "negative"
+                },
+                "text": "Judge Gregory Chickris",
+                "relevance": 0.313959,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Chief Gene Karzin",
+                "relevance": 0.308467,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.312969,
+                    "label": "negative"
+                },
+                "text": "Shannon Jones",
+                "relevance": 0.284252,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Politician"
+                    ],
+                    "name": "Shannon Jones",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Shannon_Jones"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "CAMBRIDGE",
+                "relevance": 0.281486,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "48 months",
+                "relevance": 0.232946,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "10-pound",
+                "relevance": 0.232946,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "180 days",
+                "relevance": 0.232946,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "227 days",
+                "relevance": 0.232946,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$500",
+                "relevance": 0.232946,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A Geneseo man"
+                },
+                "sentence": "CAMBRIDGE - A Geneseo man entered a negotiated plea to Class 1 felony",
+                "object": {
+                    "text": "a negotiated plea to Class 1 felony"
+                },
+                "action": {
+                    "verb": {
+                        "text": "enter",
+                        "tense": "past"
+                    },
+                    "text": "entered",
+                    "normalized": "enter"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Justin R. Sexton, 25,"
+                },
+                "sentence": " Justin R. Sexton, 25, was incriminated in a plot to do away with his family",
+                "object": {
+                    "text": "incriminated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " members last October so that he and a woman from Alabama whom he met online",
+                "object": {
+                    "text": "online"
+                },
+                "action": {
+                    "verb": {
+                        "text": "meet",
+                        "tense": "past"
+                    },
+                    "text": "met",
+                    "normalized": "meet"
+                }
+            },
+            {
+                "subject": {
+                    "text": "sleeping pills in coffee creamer"
+                },
+                "sentence": " sleeping pills in coffee creamer were alleged.",
+                "object": {
+                    "text": "alleged"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the victims' injuries"
+                },
+                "sentence": " Police Chief Gene Karzin, the victims' injuries were minor.",
+                "object": {
+                    "text": "minor"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "one other Class 1 felony"
+                },
+                "sentence": " and one other Class 1 felony count of conspiracy to commit murder were",
+                "object": {
+                    "text": "murder"
+                },
+                "action": {
+                    "verb": {
+                        "text": "commit",
+                        "tense": "future"
+                    },
+                    "text": "to commit",
+                    "normalized": "to commit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Sexton"
+                },
+                "sentence": " Sexton will serve 48 months probation and pay a $500 fine.",
+                "object": {
+                    "text": "a $500 fine"
+                },
+                "action": {
+                    "verb": {
+                        "text": "pay",
+                        "tense": "present"
+                    },
+                    "text": "pay",
+                    "normalized": "pay"
+                }
+            },
+            {
+                "subject": {
+                    "text": "pretrial hearing"
+                },
+                "sentence": " pretrial hearing is June 11.",
+                "object": {
+                    "text": "June 11"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Judge Gregory Chickris"
+                },
+                "sentence": " Judge Gregory Chickris accepted the plea agreement.",
+                "object": {
+                    "text": "the plea agreement"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accept",
+                        "tense": "past"
+                    },
+                    "text": "accepted",
+                    "normalized": "accept"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.770015,
+                "label": "/society/crime/personal offense/homicide"
+            },
+            {
+                "score": 0.675418,
+                "label": "/society/crime/property crime/bribery"
+            },
+            {
+                "score": 0.669646,
+                "label": "/law, govt and politics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "CAMBRIDGE - A Geneseo man entered a negotiated plea to Class 1 felony conspiracy to commit murder Monday in Henry County Circuit Court.",
+                "score": 0.522102,
+                "arguments": [
+                    {
+                        "text": "CAMBRIDGE",
+                        "location": [
+                            0,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "CAMBRIDGE"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Geneseo",
+                        "location": [
+                            14,
+                            21
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Geneseo"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "Justin R. Sexton, 25, was incriminated in a plot to do away with his family members last October so that he and a woman from Alabama whom he met online could have the house to themselves.",
+                "score": 0.906408,
+                "arguments": [
+                    {
+                        "text": "whom",
+                        "location": [
+                            270,
+                            274
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "woman"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "met",
+                        "location": [
+                            278,
+                            281
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "met"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Justin R. Sexton, 25, was incriminated in a plot to do away with his family members last October so that he and a woman from Alabama whom he met online could have the house to themselves.",
+                "score": 0.473678,
+                "arguments": [
+                    {
+                        "text": "whom",
+                        "location": [
+                            270,
+                            274
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "woman"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "house",
+                        "location": [
+                            304,
+                            309
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "house"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "Justin R. Sexton, 25, was incriminated in a plot to do away with his family members last October so that he and a woman from Alabama whom he met online could have the house to themselves.",
+                "score": 0.90592,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            275,
+                            277
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Justin R. Sexton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "met",
+                        "location": [
+                            278,
+                            281
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "met"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "According to Geneseo's Deputy Police Chief Gene Karzin, the victims' injuries were minor.",
+                "score": 0.409828,
+                "arguments": [
+                    {
+                        "text": "Deputy\nPolice Chief",
+                        "location": [
+                            437,
+                            456
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Gene Karzin"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Geneseo",
+                        "location": [
+                            427,
+                            434
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Geneseo"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "He was also sentenced to 180 days in jail with credit for 227 days served.",
+                "score": 0.722523,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            726,
+                            728
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Justin R. Sexton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "sentenced",
+                        "location": [
+                            738,
+                            747
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "sentenced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "He was also sentenced to 180 days in jail with credit for 227 days served.",
+                "score": 0.617801,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            726,
+                            728
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Justin R. Sexton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "jail",
+                        "location": [
+                            763,
+                            767
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "jail"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "He was ordered to have no contact with Shannon Jones, 38, the Alabama woman.",
+                "score": 0.906751,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            801,
+                            803
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Justin R. Sexton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ordered",
+                        "location": [
+                            808,
+                            815
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "ordered"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "He was ordered to have no contact with Shannon Jones, 38, the Alabama woman.",
+                "score": 0.956666,
+                "arguments": [
+                    {
+                        "text": "Shannon Jones",
+                        "location": [
+                            840,
+                            853
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Shannon Jones"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "38",
+                        "location": [
+                            855,
+                            857
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "38"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Judge Gregory Chickris accepted the plea agreement.",
+                "score": 0.577866,
+                "arguments": [
+                    {
+                        "text": "Gregory Chickris",
+                        "location": [
+                            923,
+                            939
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Gregory Chickris"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "plea agreement",
+                        "location": [
+                            953,
+                            967
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "plea agreement"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "CAMBRIDGE - A Geneseo man entered a negotiated plea to Class 1 felony conspiracy to commit murder Monday in Henry County Circuit Court.",
+                "score": 0.948104,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            22,
+                            25
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Justin R. Sexton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Geneseo",
+                        "location": [
+                            14,
+                            21
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Geneseo"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "CAMBRIDGE - A Geneseo man entered a negotiated plea to Class 1 felony conspiracy to commit murder Monday in Henry County Circuit Court.",
+                "score": 0.746627,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            22,
+                            25
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Justin R. Sexton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "murder",
+                        "location": [
+                            91,
+                            97
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "murder"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "CAMBRIDGE - A Geneseo man entered a negotiated plea to Class 1 felony conspiracy to commit murder Monday in Henry County Circuit Court.",
+                "score": 0.729973,
+                "arguments": [
+                    {
+                        "text": "Monday",
+                        "location": [
+                            98,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Monday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "murder",
+                        "location": [
+                            91,
+                            97
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "murder"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "CAMBRIDGE - A Geneseo man entered a negotiated plea to Class 1 felony conspiracy to commit murder Monday in Henry County Circuit Court.",
+                "score": 0.732831,
+                "arguments": [
+                    {
+                        "text": "Circuit Court",
+                        "location": [
+                            121,
+                            134
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Circuit Court",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Henry County",
+                        "location": [
+                            108,
+                            120
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Henry County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Justin R. Sexton, 25, was incriminated in a plot to do away with his family members last October so that he and a woman from Alabama whom he met online could have the house to themselves.",
+                "score": 0.992518,
+                "arguments": [
+                    {
+                        "text": "Justin R. Sexton",
+                        "location": [
+                            137,
+                            153
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Justin R. Sexton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "25",
+                        "location": [
+                            155,
+                            157
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "25"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "relative",
+                "sentence": "Justin R. Sexton, 25, was incriminated in a plot to do away with his family members last October so that he and a woman from Alabama whom he met online could have the house to themselves.",
+                "score": 0.331702,
+                "arguments": [
+                    {
+                        "text": "his",
+                        "location": [
+                            202,
+                            205
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Justin R. Sexton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "family",
+                        "location": [
+                            206,
+                            212
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "family"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Justin R. Sexton, 25, was incriminated in a plot to do away with his family members last October so that he and a woman from Alabama whom he met online could have the house to themselves.",
+                "score": 0.895678,
+                "arguments": [
+                    {
+                        "text": "members",
+                        "location": [
+                            213,
+                            220
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "victims"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "family",
+                        "location": [
+                            206,
+                            212
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "family"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Justin R. Sexton, 25, was incriminated in a plot to do away with his family members last October so that he and a woman from Alabama whom he met online could have the house to themselves.",
+                "score": 0.793146,
+                "arguments": [
+                    {
+                        "text": "woman",
+                        "location": [
+                            251,
+                            256
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "woman"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Alabama",
+                        "location": [
+                            262,
+                            269
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alabama"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "He was ordered to have no contact with Shannon Jones, 38, the Alabama woman.",
+                "score": 0.953259,
+                "arguments": [
+                    {
+                        "text": "woman",
+                        "location": [
+                            871,
+                            876
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "woman"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Alabama",
+                        "location": [
+                            863,
+                            870
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alabama"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Justin R. Sexton",
+                "relevance": 0.756167,
+                "count": 1
+            },
+            {
+                "text": "Class X felony counts",
+                "relevance": 0.683635,
+                "count": 1
+            },
+            {
+                "text": "Judge Gregory Chickris",
+                "relevance": 0.680193,
+                "count": 1
+            },
+            {
+                "text": "plea agreement",
+                "relevance": 0.628063,
+                "count": 2
+            },
+            {
+                "text": "Geneseo man",
+                "relevance": 0.62607,
+                "count": 1
+            },
+            {
+                "text": "months probation",
+                "relevance": 0.596939,
+                "count": 1
+            },
+            {
+                "text": "negotiated plea",
+                "relevance": 0.590902,
+                "count": 1
+            },
+            {
+                "text": "felony count of conspiracy",
+                "relevance": 0.581047,
+                "count": 1
+            },
+            {
+                "text": "murder Monday",
+                "relevance": 0.552261,
+                "count": 1
+            },
+            {
+                "text": "CAMBRIDGE",
+                "relevance": 0.543206,
+                "count": 1
+            },
+            {
+                "text": "days",
+                "relevance": 0.537119,
+                "count": 2
+            },
+            {
+                "text": "Henry County Circuit Court",
+                "relevance": 0.529557,
+                "count": 1
+            },
+            {
+                "text": "last October",
+                "relevance": 0.523761,
+                "count": 1
+            },
+            {
+                "text": "jail",
+                "relevance": 0.523446,
+                "count": 1
+            },
+            {
+                "text": "contact",
+                "relevance": 0.519678,
+                "count": 1
+            },
+            {
+                "text": "Class",
+                "relevance": 0.518459,
+                "count": 1
+            },
+            {
+                "text": "credit",
+                "relevance": 0.518275,
+                "count": 1
+            },
+            {
+                "text": "pills",
+                "relevance": 0.518196,
+                "count": 1
+            },
+            {
+                "text": "Geneseo",
+                "relevance": 0.517435,
+                "count": 1
+            },
+            {
+                "text": "Sexton",
+                "relevance": 0.517319,
+                "count": 1
+            },
+            {
+                "text": "plot",
+                "relevance": 0.512067,
+                "count": 1
+            },
+            {
+                "text": "Alabama",
+                "relevance": 0.511307,
+                "count": 1
+            },
+            {
+                "text": "woman",
+                "relevance": 0.511154,
+                "count": 1
+            },
+            {
+                "text": "murder",
+                "relevance": 0.510512,
+                "count": 2
+            },
+            {
+                "text": "house",
+                "relevance": 0.508209,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.508209,
+                "count": 1
+            },
+            {
+                "text": "Shannon Jones",
+                "relevance": 0.502461,
+                "count": 1
+            },
+            {
+                "text": "coffee creamer",
+                "relevance": 0.495859,
+                "count": 1
+            },
+            {
+                "text": "victims' injuries",
+                "relevance": 0.493108,
+                "count": 1
+            },
+            {
+                "text": "10-pound dumbell",
+                "relevance": 0.481675,
+                "count": 1
+            },
+            {
+                "text": "Alabama woman",
+                "relevance": 0.454722,
+                "count": 1
+            },
+            {
+                "text": "Separate",
+                "relevance": 0.44291,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "dcee0c8291337610d6cb75d7a0699d5c626f5caa",
+        "filename": "202006010000NEWSBANKNEWSPPRS8BF046FB5F8F6A610BF1F28C6E765D3.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Geneseo man pleads guilty to conspiracy to commit murder",
+    "html": "<p>CAMBRIDGE - A Geneseo man entered a negotiated plea to Class 1 felony conspiracy to commit murder Monday in <org>Henry County Circuit Court</org>.</p>\n<p><person>Justin R. Sexton</person>, 25, was incriminated in a plot to do away with his family members last October so that he and a woman from <location idsrc=\"xmltag.org\" value=\"LS/us.al\">Alabama</location> whom he met online could have the house to themselves. Separate acts with a 10-pound dumbell and sleeping pills in coffee creamer were alleged. According to Geneseo's Deputy Police Chief <person>Gene Karzin</person>, the victims' injuries were minor.</p>\n\n<p>According to the plea agreement, two Class X felony counts of attempted murder and one other Class 1 felony count of conspiracy to commit murder were dismissed.</p>\n\n<p>Sexton will serve 48 months probation and pay a <money>$500</money> fine. He was also sentenced to 180 days in jail with credit for 227 days served. He was ordered to have no contact with <person>Shannon Jones</person>, 38, the <location idsrc=\"xmltag.org\" value=\"LS/us.al\">Alabama</location> woman. Her next pretrial hearing is <chron>June 11</chron>.</p>\n\n<p>Judge <person>Gregory Chickris</person> accepted the plea agreement.</p>",
+    "geoFocus": [
+        [
+            "GU/us.il.moline",
+            "Moline"
+        ]
+    ]
+}

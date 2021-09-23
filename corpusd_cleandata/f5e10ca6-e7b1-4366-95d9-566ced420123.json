@@ -1,0 +1,397 @@
+{
+    "id": "f5e10ca6-e7b1-4366-95d9-566ced420123",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "48839500582495128664",
+    "description": "The president withdrew the U.S. from the Iran nuclear agreement in 2018 and has urged other signatories to do the same, but said Thursday he still wants to make a new deal.",
+    "serviceName": "News Service",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Southern Asia",
+            "code": "LB/sas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sas",
+            "relevance_score": "9",
+            "description": "Iran",
+            "code": "LC/ir#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#90#49",
+            "level": 2
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "The president withdrew the U.S. from the Iran nuclear agreement in 2018 and\nhas urged other signatories to do the same, but said Thursday he still wants\nto make a new deal.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "U.S.",
+            "Iran"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050431AMSPIDERNEWSSERV_NEWSWK03_3FF46291CF3878201646F35DF05AA604_2.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "president",
+                "relevance": 0.912968,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Iran",
+                "relevance": 0.911617,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ],
+                    "name": "Iran",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Iran"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.349647,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The president"
+                },
+                "sentence": "The president withdrew the U.S. from the Iran nuclear agreement in 2018 and",
+                "object": {
+                    "text": "the U.S."
+                },
+                "action": {
+                    "verb": {
+                        "text": "withdraw",
+                        "tense": "past"
+                    },
+                    "text": "withdrew",
+                    "normalized": "withdraw"
+                }
+            },
+            {
+                "subject": {
+                    "text": "other signatories"
+                },
+                "sentence": " has urged other signatories to do the same, but said Thursday he still wants",
+                "object": {
+                    "text": "to do the same"
+                },
+                "action": {
+                    "verb": {
+                        "text": "urge",
+                        "tense": "past"
+                    },
+                    "text": "has urged",
+                    "normalized": "have urge"
+                }
+            },
+            {
+                "subject": {
+                    "text": "other signatories"
+                },
+                "sentence": " has urged other signatories to do the same, but said Thursday he still wants",
+                "object": {
+                    "text": "the same"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "future"
+                    },
+                    "text": "to do",
+                    "normalized": "to do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "other signatories"
+                },
+                "sentence": " has urged other signatories to do the same, but said Thursday he still wants",
+                "object": {
+                    "text": "Thursday he still wants"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Thursday he"
+                },
+                "sentence": " has urged other signatories to do the same, but said Thursday he still wants",
+                "action": {
+                    "verb": {
+                        "text": "want",
+                        "tense": "present"
+                    },
+                    "text": "wants",
+                    "normalized": "want"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.968874,
+                "label": "/business and industrial/energy/nuclear power"
+            },
+            {
+                "score": 0.854172,
+                "label": "/business and industrial/energy/nuclear power/nuclear accident"
+            },
+            {
+                "score": 0.807246,
+                "label": "/law, govt and politics/government/heads of state"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "The president withdrew the U.S. from the Iran nuclear agreement in 2018 and has urged other signatories to do the same, but said Thursday he still wants to make a new deal.",
+                "score": 0.46098,
+                "arguments": [
+                    {
+                        "text": "president",
+                        "location": [
+                            4,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "president"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "U.S.",
+                        "location": [
+                            27,
+                            31
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "U.S.",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The president withdrew the U.S. from the Iran nuclear agreement in 2018 and has urged other signatories to do the same, but said Thursday he still wants to make a new deal.",
+                "score": 0.597307,
+                "arguments": [
+                    {
+                        "text": "president",
+                        "location": [
+                            4,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "president"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "urged",
+                        "location": [
+                            80,
+                            85
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "urged"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The president withdrew the U.S. from the Iran nuclear agreement in 2018 and has urged other signatories to do the same, but said Thursday he still wants to make a new deal.",
+                "score": 0.718251,
+                "arguments": [
+                    {
+                        "text": "president",
+                        "location": [
+                            4,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "president"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            124,
+                            128
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The president withdrew the U.S. from the Iran nuclear agreement in 2018 and has urged other signatories to do the same, but said Thursday he still wants to make a new deal.",
+                "score": 0.982959,
+                "arguments": [
+                    {
+                        "text": "Thursday",
+                        "location": [
+                            129,
+                            137
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Thursday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            124,
+                            128
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "president",
+                "relevance": 0.681204,
+                "count": 1
+            },
+            {
+                "text": "new deal",
+                "relevance": 0.676968,
+                "count": 1
+            },
+            {
+                "text": "nuclear agreement",
+                "relevance": 0.64679,
+                "count": 1
+            },
+            {
+                "text": "signatories",
+                "relevance": 0.600717,
+                "count": 1
+            },
+            {
+                "text": "U.S.",
+                "relevance": 0.414019,
+                "count": 1
+            },
+            {
+                "text": "Iran",
+                "relevance": 0.398,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.388198,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "92f30868fbd1de6ee15cca4ee8d05b2dffbac80a",
+        "filename": "202006050431AMSPIDERNEWSSERV_NEWSWK03_3FF46291CF3878201646F35DF05AA604_2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:31:00-04:00",
+    "title": "Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020 Election as Michael White Returns Home [Newsweek]",
+    "html": "<p>The president withdrew the <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> from the <location idsrc=\"xmltag.org\" value=\"LC/ir\">Iran</location> nuclear agreement in 2018 and has urged other signatories to do the same, but said Thursday he still wants to make a new deal.</p>",
+    "geoFocus": []
+}

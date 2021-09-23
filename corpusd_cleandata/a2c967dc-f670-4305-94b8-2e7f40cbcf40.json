@@ -1,0 +1,1146 @@
+{
+    "id": "a2c967dc-f670-4305-94b8-2e7f40cbcf40",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "58924466011790588288",
+    "description": "A 42- year-old man was hit in the chest and taken to the University of Chicago Medical Center, where he was pronounced dead, police said.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Crime",
+            "code": "IS/lifesoc.crime#9#99#50",
+            "level": 1
+        }
+    ],
+    "text": "One man was fatally shot and another was wounded June 4, 2020, in the 3200\nblock of East 91st Street.Sun-Times file photoOne man was shot to death and\nanother was wounded Thursday in South .They were on the sidewalk at 9:37 p.m.\nin the 3200 block of East 91st Street when someone fired shots, according to\npolice.A 42-year-old man was hit in the chest and taken to the University of\nMedical Center, where he was pronounced dead, police said. The Cook County\nmedical examiner's office has not released details about the death.The other\nman, 55, was hit in the back and taken to the same hospital in fair condition,\npolice said.No one is in custody as Area Two detectives investigate.Read more\noncrime, and track the city'shomicidesNext Up In",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Times"
+        ],
+        "location": [
+            "East 91st Street",
+            "Cook County"
+        ],
+        "person": [],
+        "companies": [
+            "Times"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050348AMSPIDERNEWS_____CHCGST12_AA291D1B47820F70990110B9BEC4DE9C_2.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Medical Center",
+                "relevance": 0.668011,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Cook County",
+                "relevance": 0.652199,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "oncrime",
+                "relevance": 0.54839,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.483419,
+                    "label": "negative"
+                },
+                "text": "University of",
+                "relevance": 0.530183,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "CollegeUniversity"
+                    ],
+                    "name": "University of Saint Mary of the Lake",
+                    "dbpedia_resource": "http://dbpedia.org/resource/University_of_Saint_Mary_of_the_Lake"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "42-year",
+                "relevance": 0.530183,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "One man"
+                },
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200",
+                "object": {
+                    "text": "fatally shot"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "shot and another"
+                },
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200",
+                "object": {
+                    "text": "wounded June 4, 2020, in the 3200"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "another"
+                },
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200",
+                "action": {
+                    "verb": {
+                        "text": "wound",
+                        "tense": "past"
+                    },
+                    "text": "was wounded",
+                    "normalized": "be wound"
+                }
+            },
+            {
+                "subject": {
+                    "text": "another"
+                },
+                "sentence": " another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m.",
+                "object": {
+                    "text": "wounded"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "another"
+                },
+                "sentence": " another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m.",
+                "action": {
+                    "verb": {
+                        "text": "wound",
+                        "tense": "past"
+                    },
+                    "text": "was wounded",
+                    "normalized": "be wound"
+                }
+            },
+            {
+                "subject": {
+                    "text": "someone"
+                },
+                "sentence": " in the 3200 block of East 91st Street when someone fired shots, according to",
+                "object": {
+                    "text": "shots"
+                },
+                "action": {
+                    "verb": {
+                        "text": "fire",
+                        "tense": "past"
+                    },
+                    "text": "fired",
+                    "normalized": "fire"
+                }
+            },
+            {
+                "subject": {
+                    "text": "police.A 42-year-old man"
+                },
+                "sentence": " police.A 42-year-old man was hit in the chest and taken to the University of",
+                "action": {
+                    "verb": {
+                        "text": "hit",
+                        "tense": "past"
+                    },
+                    "text": "was hit",
+                    "normalized": "be hit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " Medical Center, where he was pronounced dead, police said.",
+                "object": {
+                    "text": "pronounced dead"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "police"
+                },
+                "sentence": " Medical Center, where he was pronounced dead, police said.",
+                "object": {
+                    "text": "Medical Center, where he was pronounced dead"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "medical examiner's office"
+                },
+                "sentence": " medical examiner's office has not released details about the death.The other",
+                "object": {
+                    "text": "not released details about the death.The other"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "medical examiner's office"
+                },
+                "sentence": " medical examiner's office has not released details about the death.The other",
+                "object": {
+                    "text": "details"
+                },
+                "action": {
+                    "verb": {
+                        "text": "release",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "released",
+                    "normalized": "release"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Two detectives"
+                },
+                "sentence": " police said.No one is in custody as Area Two detectives investigate.Read more",
+                "object": {
+                    "text": "more"
+                },
+                "action": {
+                    "verb": {
+                        "text": "investigate.Read",
+                        "tense": "present"
+                    },
+                    "text": "investigate.Read",
+                    "normalized": "investigate.Read"
+                }
+            },
+            {
+                "subject": {
+                    "text": "oncrime"
+                },
+                "sentence": " oncrime, and track the city'shomicidesNext Up In",
+                "object": {
+                    "text": "the city'shomicidesNext Up In"
+                },
+                "action": {
+                    "verb": {
+                        "text": "track",
+                        "tense": "present"
+                    },
+                    "text": "track",
+                    "normalized": "track"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.888549,
+                "label": "/society/crime/personal offense/homicide"
+            },
+            {
+                "score": 0.792463,
+                "label": "/society/crime/personal offense/assault"
+            },
+            {
+                "score": 0.766959,
+                "label": "/law, govt and politics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.805316,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            4,
+                            7
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "man"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "shot",
+                        "location": [
+                            20,
+                            24
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "shot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.518711,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            125,
+                            128
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "man"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "shot",
+                        "location": [
+                            133,
+                            137
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "shot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.953381,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            429,
+                            435
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            436,
+                            440
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The other man, 55, was hit in the back and taken to the same hospital in fair condition, police said.",
+                "score": 0.969169,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            614,
+                            620
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            621,
+                            625
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The Cook County medical examiner's office has not released details about the death.",
+                "score": 0.97901,
+                "arguments": [
+                    {
+                        "text": "office",
+                        "location": [
+                            477,
+                            483
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "office",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Cook County",
+                        "location": [
+                            446,
+                            457
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Cook County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "The Cook County medical examiner's office has not released details about the death.",
+                "score": 0.905426,
+                "arguments": [
+                    {
+                        "text": "medical examiner",
+                        "location": [
+                            458,
+                            474
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "medical examiner"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "office",
+                        "location": [
+                            477,
+                            483
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "office",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The other man, 55, was hit in the back and taken to the same hospital in fair condition, police said.",
+                "score": 0.962789,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            535,
+                            538
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "man"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "55",
+                        "location": [
+                            540,
+                            542
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "55"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The other man, 55, was hit in the back and taken to the same hospital in fair condition, police said.",
+                "score": 0.486374,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            535,
+                            538
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "man"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hospital",
+                        "location": [
+                            586,
+                            594
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospital",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "No one is in custody as Area Two detectives investigate.",
+                "score": 0.978474,
+                "arguments": [
+                    {
+                        "text": "detectives",
+                        "location": [
+                            659,
+                            669
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "detectives"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "investigate",
+                        "location": [
+                            670,
+                            681
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "investigate"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.756519,
+                "arguments": [
+                    {
+                        "text": "block",
+                        "location": [
+                            75,
+                            80
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "block"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "East 91st Street.Sun",
+                        "location": [
+                            84,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "East 91st Street.Sun"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.71588,
+                "arguments": [
+                    {
+                        "text": "block",
+                        "location": [
+                            241,
+                            246
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "block"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "East 91st Street",
+                        "location": [
+                            250,
+                            266
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "East 91st Street.Sun"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.506436,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            125,
+                            128
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "man"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "East 91st Street.Sun",
+                        "location": [
+                            84,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "East 91st Street.Sun"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.40906,
+                "arguments": [
+                    {
+                        "text": "shot",
+                        "location": [
+                            133,
+                            137
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "shot"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "sidewalk",
+                        "location": [
+                            207,
+                            215
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "sidewalk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.622093,
+                "arguments": [
+                    {
+                        "text": "sidewalk",
+                        "location": [
+                            207,
+                            215
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "sidewalk"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "block",
+                        "location": [
+                            241,
+                            246
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "block"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.449962,
+                "arguments": [
+                    {
+                        "text": "someone",
+                        "location": [
+                            272,
+                            279
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "someone"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "East 91st Street",
+                        "location": [
+                            250,
+                            266
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "East 91st Street.Sun"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.645919,
+                "arguments": [
+                    {
+                        "text": "someone",
+                        "location": [
+                            272,
+                            279
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "someone"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "fired",
+                        "location": [
+                            280,
+                            285
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPersonnel",
+                                "text": "fired"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.978179,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            327,
+                            330
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "man"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "42-year-old",
+                        "location": [
+                            315,
+                            326
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "42-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "One man was fatally shot and another was wounded June 4, 2020, in the 3200 block of East 91st Street.Sun-Times file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at 9:37 p.m. in the 3200 block of East 91st Street when someone fired shots, according to police.A 42-year-old man was hit in the chest and taken to the University of Medical Center, where he was pronounced dead, police said.",
+                "score": 0.538542,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            405,
+                            407
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "man"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "pronounced",
+                        "location": [
+                            412,
+                            422
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "pronounced"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Medical Center",
+                "relevance": 0.961591,
+                "count": 1
+            },
+            {
+                "text": "block of East 91st Street.Sun-Times",
+                "relevance": 0.908643,
+                "count": 1
+            },
+            {
+                "text": "medical examiner's office",
+                "relevance": 0.751557,
+                "count": 1
+            },
+            {
+                "text": "block of East 91st Street",
+                "relevance": 0.703655,
+                "count": 1
+            },
+            {
+                "text": "42-year-old man",
+                "relevance": 0.622306,
+                "count": 1
+            },
+            {
+                "text": "police",
+                "relevance": 0.604642,
+                "count": 2
+            },
+            {
+                "text": "Cook County",
+                "relevance": 0.591468,
+                "count": 1
+            },
+            {
+                "text": "police said.No",
+                "relevance": 0.589108,
+                "count": 1
+            },
+            {
+                "text": "man",
+                "relevance": 0.565983,
+                "count": 2
+            },
+            {
+                "text": "photoOne man",
+                "relevance": 0.564002,
+                "count": 1
+            },
+            {
+                "text": "custody",
+                "relevance": 0.520116,
+                "count": 1
+            },
+            {
+                "text": "Area",
+                "relevance": 0.515678,
+                "count": 1
+            },
+            {
+                "text": "shots",
+                "relevance": 0.513432,
+                "count": 1
+            },
+            {
+                "text": "chest",
+                "relevance": 0.513201,
+                "count": 1
+            },
+            {
+                "text": "details",
+                "relevance": 0.512931,
+                "count": 1
+            },
+            {
+                "text": "hospital",
+                "relevance": 0.512931,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.508797,
+                "count": 1
+            },
+            {
+                "text": "University",
+                "relevance": 0.508797,
+                "count": 1
+            },
+            {
+                "text": "sidewalk",
+                "relevance": 0.508797,
+                "count": 1
+            },
+            {
+                "text": "death",
+                "relevance": 0.508797,
+                "count": 1
+            },
+            {
+                "text": "city'shomicidesNext Up In",
+                "relevance": 0.493917,
+                "count": 1
+            },
+            {
+                "text": "detectives investigate.Read",
+                "relevance": 0.451994,
+                "count": 1
+            },
+            {
+                "text": "fair condition",
+                "relevance": 0.437482,
+                "count": 1
+            },
+            {
+                "text": "shot",
+                "relevance": 0.39641,
+                "count": 1
+            },
+            {
+                "text": "back",
+                "relevance": 0.389551,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.386139,
+                "count": 1
+            },
+            {
+                "text": "South",
+                "relevance": 0.381599,
+                "count": 1
+            },
+            {
+                "text": "death.The",
+                "relevance": 0.381011,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "c5f34cf3b13394225a37f5c827d1f033f2ecde94",
+        "filename": "202006050348AMSPIDERNEWS_____CHCGST12_AA291D1B47820F70990110B9BEC4DE9C_2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:48:00-04:00",
+    "title": "Man killed, another hurt in South Chicago shooting [Chicago Sun-Times (IL)]",
+    "html": "<p>One man was fatally shot and another was wounded <chron>June 4, 2020</chron>, in the 3200 block of <location>East 91st Street</location>.Sun-<org>Times</org> file photoOne man was shot to death and another was wounded Thursday in South .They were on the sidewalk at <chron>9:37 p.m.</chron> in the 3200 block of <location>East 91st Street</location> when someone fired shots, according to  police.A 42-year-old man was hit in the chest and taken to the University of  Medical Center, where he was pronounced dead, police said. The <location idsrc=\"xmltag.org\" value=\"LU/us.il.cook\">Cook County</location> medical examiner&#8217;s office has not released details about the death.The other man, 55, was hit in the back and taken to the same hospital in fair condition, police said.No one is in custody as Area Two detectives investigate.Read more oncrime, and track the city&#8217;shomicidesNext Up In</p>",
+    "geoFocus": []
+}

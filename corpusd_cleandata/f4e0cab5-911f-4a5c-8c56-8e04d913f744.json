@@ -1,0 +1,301 @@
+{
+    "id": "f4e0cab5-911f-4a5c-8c56-8e04d913f744",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "92018281261496744498",
+    "description": "sealing and plumbing work more info: Location: GERMANY BidDate: 6/ 17/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Chamber of Crafts Dresden, building coordination Tendering Authority Address: 01099 Dresden Saxony Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "sealing and plumbing work more info : Location : GERMANY BidDate : 6/17/2020\nTender Country : GERMANY Tender Type : Tenders Tendering Authority : Chamber\nof Crafts Dresden, building coordination Tendering Authority Address : 01099\nDresden Saxony Financier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_25128_176210711_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dresden Saxony Financier",
+                "relevance": 0.931639,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Crafts Dresden",
+                "relevance": 0.682326,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.465292,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.574685,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ],
+                    "name": "Nazi Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Nazi_Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.826113,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.645897,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.608203,
+                "label": "/business and industrial/construction"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "sealing and plumbing work more info : Location : GERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Chamber of Crafts Dresden, building coordination Tendering Authority Address : 01099 Dresden Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.586284,
+                "arguments": [
+                    {
+                        "text": "6/17/2020\nTender",
+                        "location": [
+                            67,
+                            83
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/17/2020\nTender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : Chamber\nof Crafts Dresden",
+                        "location": [
+                            102,
+                            171
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : Chamber\nof Crafts Dresden"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "sealing and plumbing work more info : Location : GERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Chamber of Crafts Dresden, building coordination Tendering Authority Address : 01099 Dresden Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.470575,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            246,
+                            255
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Dresden Saxony",
+                        "location": [
+                            231,
+                            245
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Dresden Saxony"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Crafts Dresden",
+                "relevance": 0.979964,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.891702,
+                "count": 1
+            },
+            {
+                "text": "Dresden Saxony Financier",
+                "relevance": 0.760982,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.646356,
+                "count": 1
+            },
+            {
+                "text": "work",
+                "relevance": 0.557508,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.551572,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.542105,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.539779,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.532829,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.530107,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.52857,
+                "count": 1
+            },
+            {
+                "text": "Chamber",
+                "relevance": 0.52006,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.519863,
+                "count": 1
+            },
+            {
+                "text": "building coordination",
+                "relevance": 0.496431,
+                "count": 1
+            },
+            {
+                "text": "Authority Address",
+                "relevance": 0.33216,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "2e435032198d181e66ac6c52c4f2cbd3dfba38b6",
+        "filename": "202006050210ALBA____ME_NA_NE_25128_176210711_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "sealing and plumbing work [TenderNews.com - Tenders (India)]",
+    "html": "<p>sealing and plumbing work more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/17/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Chamber of Crafts Dresden, building coordination\nTendering Authority Address : 01099 Dresden Saxony\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

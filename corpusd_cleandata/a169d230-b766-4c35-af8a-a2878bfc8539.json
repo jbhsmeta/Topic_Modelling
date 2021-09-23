@@ -1,0 +1,645 @@
+{
+    "id": "a169d230-b766-4c35-af8a-a2878bfc8539",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 2020 AIM Media Midwest Operating, LLC.",
+    "geoOrigin": "Davidson County, North Carolina",
+    "sourceType": "Newspaper",
+    "source": "Morrow County Sentinel, The (OH)",
+    "corpus_document_id": "70938843153983662517",
+    "description": "Seven graduates who work at Kroger in Mount Gilead were recognized Friday for graduation from high school or college. Shown, from left, are Ryan Smith, Mount Gilead; Hunter Badlwin, Mount Gilead; Alliza Clark, Highland; Jeff Smith, Highland and Alexis Satorius, Northmor. Absent were Joel Butterman, Mount Gilead; and Rocky Sword, Ohio State University.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Seven graduates who work at Kroger in Mount Gilead were recognized Friday for\ngraduation from high school or college. Shown, from left, are Ryan Smith,\nMount Gilead; Hunter Badlwin, Mount Gilead; Alliza Clark, Highland; Jeff\nSmith, Highland and Alexis Satorius, Northmor. Absent were Joel Butterman,\nMount Gilead; and Rocky Sword, Ohio State University. Graduates enjoyed cake\nand ice cream and received a gift card from store management.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Ohio State University"
+        ],
+        "location": [
+            "Mount Gilead"
+        ],
+        "person": [
+            "Ryan Smith",
+            "Hunter Badlwin",
+            "Jeff Smith",
+            "Alexis Satorius",
+            "Rocky Sword"
+        ],
+        "companies": [
+            "Ohio State University"
+        ]
+    },
+    "geoOrigin_code": "RU/us.nc.davson",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSCA42ECFA9B0958F0660D5A938A5FA86.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mount Gilead",
+                "relevance": 0.926605,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.36644,
+                    "label": "positive"
+                },
+                "text": "Ryan Smith",
+                "relevance": 0.242106,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rocky Sword",
+                "relevance": 0.136524,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Joel Butterman",
+                "relevance": 0.133917,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ohio State University",
+                "relevance": 0.130164,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "University"
+                    ],
+                    "name": "Ohio State University",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Ohio_State_University"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Highland",
+                "relevance": 0.126082,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hunter Badlwin",
+                "relevance": 0.122924,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alliza Clark",
+                "relevance": 0.122819,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alexis Satorius",
+                "relevance": 0.122734,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Northmor",
+                "relevance": 0.094057,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Seven graduates"
+                },
+                "sentence": "Seven graduates who work at Kroger in Mount Gilead were recognized Friday for",
+                "action": {
+                    "verb": {
+                        "text": "work",
+                        "tense": "present"
+                    },
+                    "text": "work",
+                    "normalized": "work"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Seven graduates who work at Kroger in Mount Gilead"
+                },
+                "sentence": "Seven graduates who work at Kroger in Mount Gilead were recognized Friday for",
+                "object": {
+                    "text": "recognized"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Seven graduates who work at Kroger in Mount Gilead"
+                },
+                "sentence": "Seven graduates who work at Kroger in Mount Gilead were recognized Friday for",
+                "action": {
+                    "verb": {
+                        "text": "recognize",
+                        "tense": "past"
+                    },
+                    "text": "were recognized",
+                    "normalized": "be recognize"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Graduates"
+                },
+                "sentence": " Graduates enjoyed cake",
+                "object": {
+                    "text": "cake"
+                },
+                "action": {
+                    "verb": {
+                        "text": "enjoy",
+                        "tense": "past"
+                    },
+                    "text": "enjoyed",
+                    "normalized": "enjoy"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a gift card"
+                },
+                "sentence": " and ice cream and received a gift card from store management.",
+                "object": {
+                    "text": "from store management"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "past"
+                    },
+                    "text": "received",
+                    "normalized": "receive"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.639032,
+                "label": "/education/high school"
+            },
+            {
+                "score": 0.626424,
+                "label": "/science/biology"
+            },
+            {
+                "score": 0.611741,
+                "label": "/education/special education"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Seven graduates who work at Kroger in Mount Gilead were recognized Friday for graduation from high school or college.",
+                "score": 0.873009,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            16,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "graduates"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Kroger",
+                        "location": [
+                            28,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Kroger"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Seven graduates who work at Kroger in Mount Gilead were recognized Friday for graduation from high school or college.",
+                "score": 0.82858,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            16,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "graduates"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mount Gilead",
+                        "location": [
+                            38,
+                            50
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeographicFeature",
+                                "text": "Mount Gilead"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Seven graduates who work at Kroger in Mount Gilead were recognized Friday for graduation from high school or college.",
+                "score": 0.636296,
+                "arguments": [
+                    {
+                        "text": "Kroger",
+                        "location": [
+                            28,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Kroger"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mount Gilead",
+                        "location": [
+                            38,
+                            50
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeographicFeature",
+                                "text": "Mount Gilead"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Shown, from left, are Ryan Smith, Mount Gilead; Hunter Badlwin, Mount Gilead; Alliza Clark, Highland; Jeff Smith, Highland and Alexis Satorius, Northmor.",
+                "score": 0.378933,
+                "arguments": [
+                    {
+                        "text": "Ryan Smith",
+                        "location": [
+                            140,
+                            150
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Ryan Smith"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mount Gilead",
+                        "location": [
+                            152,
+                            164
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeographicFeature",
+                                "text": "Mount Gilead"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Shown, from left, are Ryan Smith, Mount Gilead; Hunter Badlwin, Mount Gilead; Alliza Clark, Highland; Jeff Smith, Highland and Alexis Satorius, Northmor.",
+                "score": 0.374174,
+                "arguments": [
+                    {
+                        "text": "Hunter Badlwin",
+                        "location": [
+                            166,
+                            180
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Hunter Badlwin"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mount Gilead",
+                        "location": [
+                            182,
+                            194
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeographicFeature",
+                                "text": "Mount Gilead"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Shown, from left, are Ryan Smith, Mount Gilead; Hunter Badlwin, Mount Gilead; Alliza Clark, Highland; Jeff Smith, Highland and Alexis Satorius, Northmor.",
+                "score": 0.826437,
+                "arguments": [
+                    {
+                        "text": "Alliza Clark",
+                        "location": [
+                            196,
+                            208
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Alliza Clark"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Highland",
+                        "location": [
+                            210,
+                            218
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Highland"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Shown, from left, are Ryan Smith, Mount Gilead; Hunter Badlwin, Mount Gilead; Alliza Clark, Highland; Jeff Smith, Highland and Alexis Satorius, Northmor.",
+                "score": 0.56687,
+                "arguments": [
+                    {
+                        "text": "Jeff\nSmith",
+                        "location": [
+                            220,
+                            230
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jeff\nSmith"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Highland",
+                        "location": [
+                            232,
+                            240
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Highland"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Absent were Joel Butterman, Mount Gilead; and Rocky Sword, Ohio State University.",
+                "score": 0.596147,
+                "arguments": [
+                    {
+                        "text": "Joel Butterman",
+                        "location": [
+                            284,
+                            298
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Joel Butterman"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mount Gilead",
+                        "location": [
+                            300,
+                            312
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeographicFeature",
+                                "text": "Mount Gilead"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Mount Gilead",
+                "relevance": 0.975316,
+                "count": 4
+            },
+            {
+                "text": "ice cream",
+                "relevance": 0.828782,
+                "count": 1
+            },
+            {
+                "text": "Hunter Badlwin",
+                "relevance": 0.740677,
+                "count": 1
+            },
+            {
+                "text": "gift card",
+                "relevance": 0.643207,
+                "count": 1
+            },
+            {
+                "text": "graduates",
+                "relevance": 0.642313,
+                "count": 2
+            },
+            {
+                "text": "high school",
+                "relevance": 0.638718,
+                "count": 1
+            },
+            {
+                "text": "Ohio State University",
+                "relevance": 0.633877,
+                "count": 1
+            },
+            {
+                "text": "Kroger",
+                "relevance": 0.550577,
+                "count": 1
+            },
+            {
+                "text": "graduation",
+                "relevance": 0.543037,
+                "count": 1
+            },
+            {
+                "text": "Ryan Smith",
+                "relevance": 0.53739,
+                "count": 1
+            },
+            {
+                "text": "Highland",
+                "relevance": 0.530947,
+                "count": 2
+            },
+            {
+                "text": "Rocky Sword",
+                "relevance": 0.521083,
+                "count": 1
+            },
+            {
+                "text": "cake",
+                "relevance": 0.51275,
+                "count": 1
+            },
+            {
+                "text": "college",
+                "relevance": 0.51275,
+                "count": 1
+            },
+            {
+                "text": "Alliza Clark",
+                "relevance": 0.499081,
+                "count": 1
+            },
+            {
+                "text": "Alexis Satorius",
+                "relevance": 0.462031,
+                "count": 1
+            },
+            {
+                "text": "Joel Butterman",
+                "relevance": 0.447373,
+                "count": 1
+            },
+            {
+                "text": "store management",
+                "relevance": 0.43673,
+                "count": 1
+            },
+            {
+                "text": "Absent",
+                "relevance": 0.372661,
+                "count": 1
+            },
+            {
+                "text": "left",
+                "relevance": 0.370884,
+                "count": 1
+            },
+            {
+                "text": "Northmor",
+                "relevance": 0.353364,
+                "count": 1
+            },
+            {
+                "text": "Friday",
+                "relevance": 0.353364,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "dfeb35510d7a13b5eb3cedd53c1b58906f2edafb",
+        "filename": "202006050000NEWSBANKNEWSPPRSCA42ECFA9B0958F0660D5A938A5FA86.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||The Ohio State University|extractor|DUNS:001964634;NECOID:2611876;ACORN:0296093915|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Kroger employees honored for graduation",
+    "html": "<p>Seven graduates who work at Kroger in <location>Mount Gilead</location> were recognized Friday for graduation from high school or college. Shown, from left, are <person>Ryan Smith</person>, <location>Mount Gilead</location>; <person>Hunter Badlwin</person>, <location>Mount Gilead</location>; Alliza Clark, Highland; <person>Jeff Smith</person>, Highland and <person>Alexis Satorius</person>, Northmor. Absent were Joel Butterman, <location>Mount Gilead</location>; and <person>Rocky Sword</person>, <org idsrc=\"xmltag.org\" value=\"ACORN:0296093915\">Ohio State University</org>. Graduates enjoyed cake and ice cream and received a gift card from store management.</p>",
+    "geoFocus": [
+        [
+            "GU/us.oh.morrow",
+            "Morrow County"
+        ]
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "id": "61750f46-c5be-424e-ace9-bbea5ecca8e0",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 1998-2020 WJHL, Nexstar Broadcasting, Inc. All rights reserved.",
+    "geoOrigin": "Johnson City, Tennessee",
+    "sourceType": "Broadcast Transcript",
+    "source": "CBS - 11 WJHL (Johnson City, TN)",
+    "corpus_document_id": "30427327647536145145",
+    "description": "Davis Garrison III from Preservation Financial discusses why it may not be the best idea, to gift your home to an adult child.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Finance",
+            "code": "IS/fin#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "7",
+            "description": "Personal Finance",
+            "code": "IS/fin.personal#7#50#75",
+            "level": 1
+        },
+        {
+            "parent": "IS/fin.personal",
+            "relevance_score": "7",
+            "description": "Retirement Planning",
+            "code": "IS/fin.retplan#7#75#50",
+            "level": 2
+        }
+    ],
+    "text": "Davis Garrison III from Preservation Financial discusses why it may not be the\nbest idea, to gift your home to an adult child.\n\nFor more information call (423) 952-0861 or go to\n[preservationfinancialgroup.net](http://preservationfinancialgroup.net)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.tn.johity",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSA496EC31CA476D3DE926AB4B79E8458.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Davis Garrison III",
+                "relevance": 0.989544,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Preservation Financial",
+                "relevance": 0.528676,
+                "type": "Company"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Davis Garrison III from Preservation Financial"
+                },
+                "sentence": "Davis Garrison III from Preservation Financial discusses why it may not be the",
+                "object": {
+                    "text": "why it may not be the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "discuss",
+                        "tense": "present"
+                    },
+                    "text": "discusses",
+                    "normalized": "discuss"
+                }
+            },
+            {
+                "subject": {
+                    "text": "your home"
+                },
+                "sentence": " best idea, to gift your home to an adult child.",
+                "object": {
+                    "text": "to an adult child"
+                },
+                "action": {
+                    "verb": {
+                        "text": "gift",
+                        "tense": "future"
+                    },
+                    "text": "to gift",
+                    "normalized": "to gift"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.923081,
+                "label": "/family and parenting/children"
+            },
+            {
+                "score": 0.740972,
+                "label": "/finance/financial news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "colleague",
+                "sentence": "Davis Garrison III from Preservation Financial discusses why it may not be the best idea, to gift your home to an adult child.",
+                "score": 0.312615,
+                "arguments": [
+                    {
+                        "text": "Davis Garrison III",
+                        "location": [
+                            0,
+                            18
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Davis Garrison III"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Preservation Financial discusses",
+                        "location": [
+                            24,
+                            56
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Preservation Financial discusses"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "Davis Garrison III from Preservation Financial discusses why it may not be the best idea, to gift your home to an adult child.",
+                "score": 0.522625,
+                "arguments": [
+                    {
+                        "text": "your",
+                        "location": [
+                            98,
+                            102
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "child"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "home",
+                        "location": [
+                            103,
+                            107
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "home"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Davis Garrison III",
+                "relevance": 0.930963,
+                "count": 1
+            },
+            {
+                "text": "best idea",
+                "relevance": 0.910403,
+                "count": 1
+            },
+            {
+                "text": "home",
+                "relevance": 0.565385,
+                "count": 1
+            },
+            {
+                "text": "information call",
+                "relevance": 0.360198,
+                "count": 1
+            },
+            {
+                "text": "Preservation Financial",
+                "relevance": 0.295597,
+                "count": 1
+            },
+            {
+                "text": "adult child",
+                "relevance": 0.237373,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "75c3db6ce11778449635464413d76cc98816fdf7",
+        "filename": "202006050000NEWSBANKNEWSPPRSA496EC31CA476D3DE926AB4B79E8458.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Retirement planning advice from Preservation Financial",
+    "html": "<p>Davis Garrison III from Preservation Financial discusses why it may not be the best idea, to gift your home to an adult child.</p>\n<p>For more information call (423) 952-0861 or go to <a href=\"http://preservationfinancialgroup.net\">preservationfinancialgroup.net</a></p>",
+    "geoFocus": [
+        [
+            "GU/us.tn.johity",
+            "Johnson City"
+        ]
+    ]
+}

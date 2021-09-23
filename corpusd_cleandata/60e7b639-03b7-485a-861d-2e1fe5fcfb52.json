@@ -1,0 +1,307 @@
+{
+    "id": "60e7b639-03b7-485a-861d-2e1fe5fcfb52",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "42635191086226561995",
+    "description": "community services building and site demolition more info: Location: CANADA BidDate: 6/ 11/ 2020 Tender Country: CANADA Tender Type: Tenders Tendering Authority: City of Lloydminster Tendering Authority Address: 4420 50 avenue, lloydminster, ab/sk, t9v 0 w2, ph. 780-875-6184 fax 780-871-8345 Financier: Self Funded.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "Canada",
+            "code": "LC/ca#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "community services building and site demolition more info : Location : CANADA\nBidDate : 6/11/2020 Tender Country : CANADA Tender Type : Tenders Tendering\nAuthority : City of Lloydminster Tendering Authority Address : 4420 50 avenue,  \nlloydminster, ab/sk, t9v 0w2,  \nph. 780-875-6184  \nfax 780-871-8345 Financier : Self Funded",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "CANADA"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_53586_176208347_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Lloydminster Tendering Authority",
+                "relevance": 0.960215,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.346844,
+                    "label": "positive"
+                },
+                "text": "lloydminster",
+                "relevance": 0.458567,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Lloydminster",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Lloydminster"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "CANADA",
+                "relevance": 0.287397,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Kingdom",
+                        "AwardDiscipline",
+                        "FilmScreeningVenue",
+                        "Country"
+                    ],
+                    "name": "Canada",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Canada"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.696888,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.591719,
+                "label": "/business and industrial/construction"
+            },
+            {
+                "score": 0.576979,
+                "label": "/business and industrial/energy/oil"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "community services building and site demolition more info : Location : CANADA BidDate : 6/11/2020 Tender Country : CANADA Tender Type : Tenders Tendering Authority : City of Lloydminster Tendering Authority Address : 4420 50 avenue,   lloydminster, ab/sk, t9v 0w2,   ph.",
+                "score": 0.581351,
+                "arguments": [
+                    {
+                        "text": "6/11/2020 Tender",
+                        "location": [
+                            88,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/11/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering\nAuthority : City of Lloydminster Tendering Authority Address :",
+                        "location": [
+                            122,
+                            216
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering\nAuthority : City of Lloydminster Tendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "780-875-6184   fax 780-871-8345 Financier : Self Funded",
+                "score": 0.44639,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            303,
+                            312
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "t9v 0w2"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "fax",
+                        "location": [
+                            286,
+                            289
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "fax"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "City of Lloydminster Tendering Authority Address",
+                "relevance": 0.997394,
+                "count": 1
+            },
+            {
+                "text": "community services building",
+                "relevance": 0.832345,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.734901,
+                "count": 1
+            },
+            {
+                "text": "lloydminster",
+                "relevance": 0.56882,
+                "count": 1
+            },
+            {
+                "text": "CANADA Tender Type",
+                "relevance": 0.550103,
+                "count": 1
+            },
+            {
+                "text": "CANADA",
+                "relevance": 0.549812,
+                "count": 1
+            },
+            {
+                "text": "fax",
+                "relevance": 0.540554,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.526028,
+                "count": 1
+            },
+            {
+                "text": "Financier",
+                "relevance": 0.521955,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.521472,
+                "count": 1
+            },
+            {
+                "text": "avenue",
+                "relevance": 0.515412,
+                "count": 1
+            },
+            {
+                "text": "site demolition",
+                "relevance": 0.515044,
+                "count": 1
+            },
+            {
+                "text": "t9v",
+                "relevance": 0.361672,
+                "count": 1
+            },
+            {
+                "text": "ab",
+                "relevance": 0.285777,
+                "count": 1
+            },
+            {
+                "text": "sk",
+                "relevance": 0.277526,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "517503b4e2f1e2b2705a1306116d5c371c95998e",
+        "filename": "202006050210ALBA____ME_NA_NE_53586_176208347_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "community services building and site demolition [TenderNews.com - Tenders (India)]",
+    "html": "<p>community services building and site demolition more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/ca\">CANADA</location>\nBidDate : <chron>6/11/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/ca\">CANADA</location>\nTender Type : <org>Tenders\nTendering Authority</org> : City of Lloydminster\nTendering Authority Address : 4420 50 avenue,<br />lloydminster, ab/sk, t9v 0w2,<br />ph. 780-875-6184<br />fax 780-871-8345\nFinancier : Self Funded</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

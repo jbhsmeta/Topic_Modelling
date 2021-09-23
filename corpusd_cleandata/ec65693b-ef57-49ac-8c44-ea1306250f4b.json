@@ -1,0 +1,145 @@
+{
+    "id": "ec65693b-ef57-49ac-8c44-ea1306250f4b",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "53418329449412246384",
+    "description": "Up to 100 gather to mourn\u2018 honorable gentleman\u2019 killed trying to prevent St.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "Up to 100 gather to mourn 'honorable gentleman' killed trying to prevent St.\nLouis looting",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "St. Louis"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050225AMSPIDERNEWS_____PIPOGA01_D8C510405EACB639D26038DAD0FC8C44_3.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.693892,
+                    "label": "negative"
+                },
+                "text": "Louis",
+                "relevance": 0.951129,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "'honorable gentleman'"
+                },
+                "sentence": "Up to 100 gather to mourn 'honorable gentleman' killed trying to prevent St.",
+                "object": {
+                    "text": "to prevent St"
+                },
+                "action": {
+                    "verb": {
+                        "text": "try",
+                        "tense": "present"
+                    },
+                    "text": "trying",
+                    "normalized": "try"
+                }
+            },
+            {
+                "subject": {
+                    "text": "'honorable gentleman'"
+                },
+                "sentence": "Up to 100 gather to mourn 'honorable gentleman' killed trying to prevent St.",
+                "object": {
+                    "text": "St"
+                },
+                "action": {
+                    "verb": {
+                        "text": "prevent",
+                        "tense": "future"
+                    },
+                    "text": "killed trying to prevent",
+                    "normalized": "kill try to prevent"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.723751,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.609247,
+                "label": "/law, govt and politics/armed forces"
+            },
+            {
+                "score": 0.536393,
+                "label": "/society/senior living"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "honorable gentleman",
+                "relevance": 0.809389,
+                "count": 1
+            },
+            {
+                "text": "gather",
+                "relevance": 0.190611,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "a717b3dd7a2a92df5a078082943ff38dfd62d8fa",
+        "filename": "202006050225AMSPIDERNEWS_____PIPOGA01_D8C510405EACB639D26038DAD0FC8C44_3.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:25:00-04:00",
+    "title": "Up to 100 gather to mourn \u2018honorable gentleman\u2019 killed trying to prevent St. Louis looting [Pittsburgh Post-Gazette (PA)]",
+    "html": "<p>Up to 100 gather to mourn &#8216;honorable gentleman&#8217; killed trying to prevent <location idsrc=\"xmltag.org\" value=\"LU/us.mo.stluis\">St. Louis</location> looting</p>",
+    "geoFocus": []
+}

@@ -1,0 +1,296 @@
+{
+    "id": "4eba7c0e-3699-4243-9e26-2a57b9c8bc21",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "92875415436903821801",
+    "description": "Ostfalia University of Applied Sciences Wolfenbuttel, new building Open Mobility Lab more info: Location: GERMANY BidDate: 6/ 16/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: State construction management Braunschweig Tendering Authority Address: 38302 Wolfenbuttel Lower Saxony Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Ostfalia University of Applied Sciences Wolfenbuttel, new building Open\nMobility Lab more info : Location : GERMANY BidDate : 6/16/2020 Tender Country\n: GERMANY Tender Type : Tenders Tendering Authority : State construction\nmanagement Braunschweig Tendering Authority Address : 38302 Wolfenbuttel Lower\nSaxony Financier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Ostfalia University",
+            "Open Mobility Lab"
+        ],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": [
+            "Open Mobility Lab",
+            "Ostfalia University"
+        ]
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_56620_176211066_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ostfalia University of Applied Sciences Wolfenbuttel",
+                "relevance": 0.949406,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Braunschweig Tendering Authority",
+                "relevance": 0.907413,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.809017,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.523622,
+                    "label": "negative"
+                },
+                "text": "Wolfenbuttel Lower",
+                "relevance": 0.6913,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.288327,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.475814,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Saxony",
+                "relevance": 0.342177,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ],
+                    "name": "Kingdom of Saxony",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Kingdom_of_Saxony"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Ostfalia University of Applied Sciences Wolfenbuttel"
+                },
+                "sentence": "Ostfalia University of Applied Sciences Wolfenbuttel, new building Open",
+                "object": {
+                    "text": "Open"
+                },
+                "action": {
+                    "verb": {
+                        "text": "build",
+                        "tense": "present"
+                    },
+                    "text": "building",
+                    "normalized": "build"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.803693,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.672596,
+                "label": "/business and industrial/construction"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Ostfalia University of Applied Sciences Wolfenbuttel, new building Open Mobility Lab more info : Location : GERMANY BidDate : 6/16/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State construction management Braunschweig Tendering Authority Address : 38302 Wolfenbuttel Lower Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.527835,
+                "arguments": [
+                    {
+                        "text": "6/16/2020 Tender",
+                        "location": [
+                            126,
+                            142
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/16/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : State",
+                        "location": [
+                            161,
+                            210
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : State"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Ostfalia University of Applied Sciences Wolfenbuttel",
+                "relevance": 0.833713,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.703066,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.637845,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.578139,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.56621,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.553206,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.54694,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.53792,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.53361,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.528507,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "e281d2711d75ce4cc6451a6c2f47186d2fdc285b",
+        "filename": "202006050210ALBA____ME_NA_NE_56620_176211066_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Ostfalia University of Applied Sciences Wolfenbuttel, new building Open Mobility Lab [TenderNews.com - Tenders (India)]",
+    "html": "<p><org>Ostfalia University</org> of Applied Sciences Wolfenbuttel, new building <org>Open Mobility Lab</org> more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/16/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : State construction management Braunschweig\nTendering Authority Address : 38302 Wolfenbuttel Lower Saxony\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

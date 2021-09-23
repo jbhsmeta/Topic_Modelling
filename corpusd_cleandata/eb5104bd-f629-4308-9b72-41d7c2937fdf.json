@@ -1,0 +1,801 @@
+{
+    "id": "eb5104bd-f629-4308-9b72-41d7c2937fdf",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "Norfolk, England, United Kingdom",
+    "sourceType": "Newspaper",
+    "source": "Diss, Wymondham and Attleborough Mercury (UK)",
+    "corpus_document_id": "52973060354646008752",
+    "description": "A golf bag and a set of clubs have been stolen from a home in Suffolk, along with outdoor kit and a gold club membership. The burglary happened at some point be",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.crime",
+            "relevance_score": "9",
+            "description": "Burglary",
+            "code": "IS/lifesoc.burglary#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Crime",
+            "code": "IS/lifesoc.crime#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "A golf bag and a set of clubs have been stolen from a home in Suffolk, along\nwith outdoor kit and a gold club membership.\n\nThe burglary happened at some point between Tuesday, May 26 at 11.30pm and\nWednesday, May 27 at 5.30am at a property in Broad Street, Eye.\n\nThe suspects entered the premises through an insecure door at the rear of the\nproperty and stole a Motocaddy golf bag and a set of Wilson golf clubs.\n\nThe bag also had a Regatta waterproof jacket, a pair of black Regatta trousers\nand a membership disc for Diss Golf Club.\n\nPolice are now appealing for witnesses to the burglary and advise people to\nsecure their homes by locking doors, keeping windows secure and to always\nleave the house looking occupied.\n\nEnquiries are on-going and anyone who witnessed any suspicious behaviour or\nhas knowledge of the incident should contact Suffolk police quoting crime\nreference 37/28925/20.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Motocaddy",
+            "Diss Golf Club"
+        ],
+        "location": [
+            "Broad Street"
+        ],
+        "person": [],
+        "companies": [
+            "Diss Golf Club",
+            "Motocaddy"
+        ]
+    },
+    "geoOrigin_code": "RU/gb.eng.nfk",
+    "language": "English",
+    "filename": "202006050000ARCHANT_NEWS____86448209.XML",
+    "providerName": "Archant Limited",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.741512,
+                    "label": "negative"
+                },
+                "text": "burglary",
+                "relevance": 0.901779,
+                "type": "Crime"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.268883,
+                    "label": "negative"
+                },
+                "text": "Suffolk",
+                "relevance": 0.815285,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Diss Golf Club",
+                "relevance": 0.809857,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.681239,
+                    "label": "negative"
+                },
+                "text": "Wilson",
+                "relevance": 0.42806,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.681239,
+                    "label": "negative"
+                },
+                "text": "Motocaddy",
+                "relevance": 0.426381,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A golf bag and a set of clubs"
+                },
+                "sentence": "A golf bag and a set of clubs have been stolen from a home in Suffolk, along",
+                "object": {
+                    "text": "stolen from a home in Suffolk, along"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A golf bag and a set of clubs"
+                },
+                "sentence": "A golf bag and a set of clubs have been stolen from a home in Suffolk, along",
+                "object": {
+                    "text": "from a home in Suffolk, along"
+                },
+                "action": {
+                    "verb": {
+                        "text": "steal",
+                        "tense": "past"
+                    },
+                    "text": "have been stolen",
+                    "normalized": "have be steal"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The burglary"
+                },
+                "sentence": " The burglary happened at some point between Tuesday, May 26 at 11.30pm and",
+                "action": {
+                    "verb": {
+                        "text": "happen",
+                        "tense": "past"
+                    },
+                    "text": "happened",
+                    "normalized": "happen"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The suspects"
+                },
+                "sentence": " The suspects entered the premises through an insecure door at the rear of the",
+                "object": {
+                    "text": "the premises"
+                },
+                "action": {
+                    "verb": {
+                        "text": "enter",
+                        "tense": "past"
+                    },
+                    "text": "entered",
+                    "normalized": "enter"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The bag"
+                },
+                "sentence": " The bag also had a Regatta waterproof jacket, a pair of black Regatta trousers",
+                "object": {
+                    "text": "a Regatta waterproof jacket, a pair of black Regatta trousers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police are now appealing for witnesses to the burglary and advise people to",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police are now appealing for witnesses to the burglary and advise people to",
+                "object": {
+                    "text": "for witnesses to the burglary"
+                },
+                "action": {
+                    "verb": {
+                        "text": "appeal",
+                        "tense": "present"
+                    },
+                    "text": "appealing",
+                    "normalized": "appeal"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the house"
+                },
+                "sentence": " leave the house looking occupied.",
+                "object": {
+                    "text": "looking occupied"
+                },
+                "action": {
+                    "verb": {
+                        "text": "leave",
+                        "tense": "present"
+                    },
+                    "text": "leave",
+                    "normalized": "leave"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the house"
+                },
+                "sentence": " leave the house looking occupied.",
+                "object": {
+                    "text": "occupied"
+                },
+                "action": {
+                    "verb": {
+                        "text": "look",
+                        "tense": "present"
+                    },
+                    "text": "looking",
+                    "normalized": "look"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Enquiries"
+                },
+                "sentence": " Enquiries are on-going and anyone who witnessed any suspicious behaviour or",
+                "object": {
+                    "text": "on-going"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "anyone"
+                },
+                "sentence": " Enquiries are on-going and anyone who witnessed any suspicious behaviour or",
+                "object": {
+                    "text": "any suspicious behaviour"
+                },
+                "action": {
+                    "verb": {
+                        "text": "witness",
+                        "tense": "past"
+                    },
+                    "text": "witnessed",
+                    "normalized": "witness"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Suffolk police"
+                },
+                "sentence": " has knowledge of the incident should contact Suffolk police quoting crime",
+                "object": {
+                    "text": "crime"
+                },
+                "action": {
+                    "verb": {
+                        "text": "quote",
+                        "tense": "future"
+                    },
+                    "text": "quoting",
+                    "normalized": "quote"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.999388,
+                "label": "/sports/golf"
+            },
+            {
+                "score": 0.986579,
+                "label": "/society/crime/property crime/burglary"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "A golf bag and a set of clubs have been stolen from a home in Suffolk, along with outdoor kit and a gold club membership.",
+                "score": 0.945957,
+                "arguments": [
+                    {
+                        "text": "home",
+                        "location": [
+                            54,
+                            58
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "property"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Suffolk",
+                        "location": [
+                            62,
+                            69
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Suffolk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The burglary happened at some point between Tuesday, May 26 at 11.30pm and Wednesday, May 27 at 5.30am at a property in Broad Street, Eye.",
+                "score": 0.895322,
+                "arguments": [
+                    {
+                        "text": "property",
+                        "location": [
+                            231,
+                            239
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "property"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Broad Street",
+                        "location": [
+                            243,
+                            255
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Broad Street"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The suspects entered the premises through an insecure door at the rear of the property and stole a Motocaddy golf bag and a set of Wilson golf clubs.",
+                "score": 0.540649,
+                "arguments": [
+                    {
+                        "text": "suspects",
+                        "location": [
+                            267,
+                            275
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "suspects"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "property",
+                        "location": [
+                            341,
+                            349
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "property"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "The suspects entered the premises through an insecure door at the rear of the property and stole a Motocaddy golf bag and a set of Wilson golf clubs.",
+                "score": 0.459479,
+                "arguments": [
+                    {
+                        "text": "golf",
+                        "location": [
+                            401,
+                            405
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "golf"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "clubs",
+                        "location": [
+                            406,
+                            411
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "club membership"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "The bag also had a Regatta waterproof jacket, a pair of black Regatta trousers and a membership disc for Diss Golf Club.",
+                "score": 0.490324,
+                "arguments": [
+                    {
+                        "text": "membership disc",
+                        "location": [
+                            499,
+                            514
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "membership disc"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Diss Golf Club",
+                        "location": [
+                            519,
+                            533
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Diss Golf Club"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "Police are now appealing for witnesses to the burglary and advise people to secure their homes by locking doors, keeping windows secure and to always leave the house looking occupied.",
+                "score": 0.407756,
+                "arguments": [
+                    {
+                        "text": "their",
+                        "location": [
+                            619,
+                            624
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "homes",
+                        "location": [
+                            625,
+                            630
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "homes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Police are now appealing for witnesses to the burglary and advise people to secure their homes by locking doors, keeping windows secure and to always leave the house looking occupied.",
+                "score": 0.375699,
+                "arguments": [
+                    {
+                        "text": "homes",
+                        "location": [
+                            625,
+                            630
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "homes"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "house",
+                        "location": [
+                            696,
+                            701
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "property"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Enquiries are on-going and anyone who witnessed any suspicious behaviour or has knowledge of the incident should contact Suffolk police quoting crime reference 37/28925/20.",
+                "score": 0.997571,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            850,
+                            856
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Suffolk",
+                        "location": [
+                            842,
+                            849
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Suffolk"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "golf bag",
+                "relevance": 0.828079,
+                "count": 1
+            },
+            {
+                "text": "knowledge of the incident",
+                "relevance": 0.741973,
+                "count": 1
+            },
+            {
+                "text": "Motocaddy golf bag",
+                "relevance": 0.6907,
+                "count": 1
+            },
+            {
+                "text": "outdoor kit",
+                "relevance": 0.652593,
+                "count": 1
+            },
+            {
+                "text": "set of clubs",
+                "relevance": 0.636965,
+                "count": 1
+            },
+            {
+                "text": "gold club membership",
+                "relevance": 0.624091,
+                "count": 1
+            },
+            {
+                "text": "set of Wilson golf clubs",
+                "relevance": 0.571641,
+                "count": 1
+            },
+            {
+                "text": "Broad Street",
+                "relevance": 0.564482,
+                "count": 1
+            },
+            {
+                "text": "Police",
+                "relevance": 0.558312,
+                "count": 1
+            },
+            {
+                "text": "property",
+                "relevance": 0.552091,
+                "count": 2
+            },
+            {
+                "text": "burglary",
+                "relevance": 0.551572,
+                "count": 2
+            },
+            {
+                "text": "membership disc",
+                "relevance": 0.546254,
+                "count": 1
+            },
+            {
+                "text": "waterproof jacket",
+                "relevance": 0.53642,
+                "count": 1
+            },
+            {
+                "text": "suspects",
+                "relevance": 0.534377,
+                "count": 1
+            },
+            {
+                "text": "Enquiries",
+                "relevance": 0.530737,
+                "count": 1
+            },
+            {
+                "text": "witnesses",
+                "relevance": 0.528423,
+                "count": 1
+            },
+            {
+                "text": "home",
+                "relevance": 0.52622,
+                "count": 1
+            },
+            {
+                "text": "bag",
+                "relevance": 0.52417,
+                "count": 1
+            },
+            {
+                "text": "Diss Golf Club",
+                "relevance": 0.522729,
+                "count": 1
+            },
+            {
+                "text": "Regatta",
+                "relevance": 0.52257,
+                "count": 1
+            },
+            {
+                "text": "Suffolk",
+                "relevance": 0.522438,
+                "count": 2
+            },
+            {
+                "text": "pair of black Regatta trousers",
+                "relevance": 0.521227,
+                "count": 1
+            },
+            {
+                "text": "insecure door",
+                "relevance": 0.520149,
+                "count": 1
+            },
+            {
+                "text": "point",
+                "relevance": 0.518958,
+                "count": 1
+            },
+            {
+                "text": "premises",
+                "relevance": 0.513606,
+                "count": 1
+            },
+            {
+                "text": "homes",
+                "relevance": 0.513119,
+                "count": 1
+            },
+            {
+                "text": "house",
+                "relevance": 0.512443,
+                "count": 1
+            },
+            {
+                "text": "windows",
+                "relevance": 0.512198,
+                "count": 1
+            },
+            {
+                "text": "doors",
+                "relevance": 0.50969,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.506805,
+                "count": 1
+            },
+            {
+                "text": "Eye",
+                "relevance": 0.506805,
+                "count": 1
+            },
+            {
+                "text": "suspicious behaviour",
+                "relevance": 0.463237,
+                "count": 1
+            },
+            {
+                "text": "Wednesday",
+                "relevance": 0.451568,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.448273,
+                "count": 2
+            },
+            {
+                "text": "Tuesday",
+                "relevance": 0.42504,
+                "count": 1
+            },
+            {
+                "text": "rear",
+                "relevance": 0.417264,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "7b96543726526b1e52bbf40fe5cda5a03c39fec2",
+        "filename": "202006050000ARCHANT_NEWS____86448209.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Motocaddy Holdings Limited|extractor|DUNS:216774262;NECOID:431096317;ACORN:2556579948|MENTION||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "School merger will allow staff to share skills, says headteacher",
+    "html": "<p>A golf bag and a set of clubs have been stolen from a home in Suffolk, along with outdoor kit and a gold club membership.</p>\n<p>The burglary happened at some point between <chron>Tuesday, May 26</chron> at <chron>11.30pm</chron> and <chron>Wednesday, May 27</chron> at <chron>5.30am</chron> at a property in <location>Broad Street</location>, Eye.</p>\n<p>The suspects entered the premises through an insecure door at the rear of the property and stole a <org idsrc=\"xmltag.org\" value=\"ACORN:2556579948\">Motocaddy</org> golf bag and a set of Wilson golf clubs.</p>\n<p>The bag also had a Regatta waterproof jacket, a pair of black Regatta trousers and a membership disc for <org>Diss Golf Club</org>.</p>\n<p>Police are now appealing for witnesses to the burglary and advise people to secure their homes by locking doors, keeping windows secure and to always leave the house looking occupied.</p>\n<p>Enquiries are on-going and anyone who witnessed any suspicious behaviour or has knowledge of the incident should contact Suffolk police quoting crime reference 37/28925/20.</p>",
+    "geoFocus": [
+        [
+            "GU/gb.eng.nfk",
+            "Norfolk"
+        ]
+    ]
+}

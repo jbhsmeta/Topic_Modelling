@@ -1,0 +1,166 @@
+{
+    "id": "8cdd11af-08a7-4c5d-b3d2-2d9e22fdc893",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "61146754648449939719",
+    "description": "PD earnings call for the period ending March 31, 2020.",
+    "serviceName": "Financial News",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": "IS/spec.trans",
+            "relevance_score": "8",
+            "description": "Conference Call Transcripts",
+            "code": "IS/biz.calltran#8#63#82",
+            "level": 2
+        },
+        {
+            "parent": "IS/biz.spec",
+            "relevance_score": "8",
+            "description": "Conference Calls",
+            "code": "IS/biz.concalls#8#50#82",
+            "level": 2
+        },
+        {
+            "parent": "IS/fin.reports",
+            "relevance_score": "8",
+            "description": "Earnings Call Transcripts",
+            "code": "IS/biz.ecalltra#8#82#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "8",
+            "description": "Structured Business and Commerce Content",
+            "code": "IS/biz.spec#8#50#82",
+            "level": 1
+        }
+    ],
+    "text": "PAGERDUTY, INC. (PD) Q1 2021 Earnings Call Transcript PD earnings call for the\nperiod ending March 31, 2020.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "PAGERDUTY, INC."
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "PAGERDUTY, INC."
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050443AMSPIDERFIN_NEWS_MOTFOO01_F28D56436D4CAC2DBF2BD6A52E900BA8_2.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "PAGERDUTY",
+                "relevance": 0.93086,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "INC.",
+                "relevance": 0.623768,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Magazine"
+                    ],
+                    "name": "Inc. (magazine)",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Inc._(magazine)"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "period"
+                },
+                "sentence": " period ending March 31, 2020.",
+                "action": {
+                    "verb": {
+                        "text": "end",
+                        "tense": "present"
+                    },
+                    "text": "ending",
+                    "normalized": "end"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.6622,
+                "label": "/business and industrial/company"
+            },
+            {
+                "score": 0.637887,
+                "label": "/business and industrial/company/earnings"
+            },
+            {
+                "score": 0.612365,
+                "label": "/finance/accounting and auditing/tax preparation and planning"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "PD",
+                "relevance": 0.69743,
+                "count": 1
+            },
+            {
+                "text": "period",
+                "relevance": 0.673656,
+                "count": 1
+            },
+            {
+                "text": "PAGERDUTY",
+                "relevance": 0.58374,
+                "count": 1
+            },
+            {
+                "text": "Earnings Call Transcript PD earnings call",
+                "relevance": 0.57706,
+                "count": 1
+            },
+            {
+                "text": "March",
+                "relevance": 0.568301,
+                "count": 1
+            },
+            {
+                "text": "INC.",
+                "relevance": 0.47102,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "3195935302724e5657b94dc49b56e349a1c06a52",
+        "filename": "202006050443AMSPIDERFIN_NEWS_MOTFOO01_F28D56436D4CAC2DBF2BD6A52E900BA8_2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NYSE|PD|CUSIP:69553P100;ISIN:US69553P1003|Pagerduty Inc|extractor|DUNS:058933814;NECOID:8411428;ACORN:5011411428|SIGNIFICANT||||XNYS|REFERENCE",
+    "publicationTime": "2020-06-05T04:43:00-04:00",
+    "title": "PAGERDUTY, INC. (PD) Q1 2021 Earnings Call Transcript [The Motley Fool]",
+    "html": "<p><org idsrc=\"xmltag.org\" value=\"NYSE:PD\">PAGERDUTY, INC.</org> (PD) Q1 2021 Earnings Call Transcript PD earnings call for the period ending <chron>March 31, 2020</chron>.</p>",
+    "geoFocus": []
+}

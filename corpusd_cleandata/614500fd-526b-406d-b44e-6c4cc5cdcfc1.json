@@ -1,0 +1,338 @@
+{
+    "id": "614500fd-526b-406d-b44e-6c4cc5cdcfc1",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "59790326415066107534",
+    "description": "more info: Location: Erfurt Tender Country: Germany Tender Type: Prior Information Notice Tendering Authority: TEN Thuringian Energiesetze GmbH& Co. KG Tendering Authority Address: Address: Postfach 90 01 35 Postal Code: 99104 Town: Erfurt PHONE: +49 361652-2248 FAX: +49 361652-3485 Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Prequalification procedure - The awarding body maintains an examination system\nin which prequalified companies are listed for possible awards.\n\nmore info : Location : Erfurt Tender Country : Germany Tender Type : Prior\nInformation Notice Tendering Authority : TEN Thuringian Energiesetze GmbH &\nCo. KG Tendering Authority Address : Address: Postfach 90 01 35 Postal Code:\n99104 Town: Erfurt PHONE: +49 361652-2248 FAX: +49 361652-3485 Financier :\nSelf Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_12560_176209581_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.567615,
+                    "label": "positive"
+                },
+                "text": "Erfurt",
+                "relevance": 0.986676,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GermanUrbanDistrict",
+                        "City"
+                    ],
+                    "name": "Erfurt",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Erfurt"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Thuringian Energiesetze GmbH",
+                "relevance": 0.943387,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.430945,
+                    "label": "positive"
+                },
+                "text": "Germany",
+                "relevance": 0.505297,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The awarding body"
+                },
+                "sentence": "Prequalification procedure - The awarding body maintains an examination system",
+                "object": {
+                    "text": "an examination system"
+                },
+                "action": {
+                    "verb": {
+                        "text": "maintain",
+                        "tense": "present"
+                    },
+                    "text": "maintains",
+                    "normalized": "maintain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "prequalified companies"
+                },
+                "sentence": " in which prequalified companies are listed for possible awards.",
+                "object": {
+                    "text": "for possible awards"
+                },
+                "action": {
+                    "verb": {
+                        "text": "list",
+                        "tense": "past"
+                    },
+                    "text": "are listed",
+                    "normalized": "be list"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.609437,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.566447,
+                "label": "/real estate/buying and selling homes"
+            },
+            {
+                "score": 0.545477,
+                "label": "/finance/financial news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "productOf",
+                "sentence": "more info : Location : Erfurt Tender Country : Germany Tender Type : Prior Information Notice Tendering Authority : TEN Thuringian Energiesetze GmbH & Co. KG Tendering Authority Address : Address: Postfach 90 01 35 Postal Code: 99104 Town: Erfurt PHONE: +49 361652-2248 FAX: +49 361652-3485 Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.218267,
+                "arguments": [
+                    {
+                        "text": "Tender Type : Prior\nInformation Notice Tendering Authority : TEN Thuringian Energiesetze GmbH",
+                        "location": [
+                            199,
+                            292
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Prior\nInformation Notice Tendering Authority : TEN Thuringian Energiesetze GmbH"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Germany",
+                        "location": [
+                            191,
+                            198
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Germany",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "more info : Location : Erfurt Tender Country : Germany Tender Type : Prior Information Notice Tendering Authority : TEN Thuringian Energiesetze GmbH & Co. KG Tendering Authority Address : Address: Postfach 90 01 35 Postal Code: 99104 Town: Erfurt PHONE: +49 361652-2248 FAX: +49 361652-3485 Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.723081,
+                "arguments": [
+                    {
+                        "text": "Town",
+                        "location": [
+                            378,
+                            382
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Town"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Erfurt",
+                        "location": [
+                            384,
+                            390
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Erfurt"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Co. KG Tendering Authority Address",
+                "relevance": 0.817839,
+                "count": 1
+            },
+            {
+                "text": "Prequalification procedure",
+                "relevance": 0.763957,
+                "count": 1
+            },
+            {
+                "text": "Erfurt Tender Country",
+                "relevance": 0.744016,
+                "count": 1
+            },
+            {
+                "text": "prequalified companies",
+                "relevance": 0.673215,
+                "count": 1
+            },
+            {
+                "text": "Postal Code",
+                "relevance": 0.614687,
+                "count": 1
+            },
+            {
+                "text": "Germany Tender Type",
+                "relevance": 0.557757,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.553211,
+                "count": 1
+            },
+            {
+                "text": "awarding body",
+                "relevance": 0.549552,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.543906,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.541425,
+                "count": 1
+            },
+            {
+                "text": "Town",
+                "relevance": 0.536674,
+                "count": 1
+            },
+            {
+                "text": "Address",
+                "relevance": 0.52131,
+                "count": 1
+            },
+            {
+                "text": "FAX",
+                "relevance": 0.518008,
+                "count": 1
+            },
+            {
+                "text": "Financier",
+                "relevance": 0.514854,
+                "count": 1
+            },
+            {
+                "text": "Erfurt PHONE",
+                "relevance": 0.502551,
+                "count": 1
+            },
+            {
+                "text": "Tearn Money",
+                "relevance": 0.500235,
+                "count": 1
+            },
+            {
+                "text": "Thuringian Energiesetze GmbH",
+                "relevance": 0.494142,
+                "count": 1
+            },
+            {
+                "text": "possible awards",
+                "relevance": 0.451177,
+                "count": 1
+            },
+            {
+                "text": "examination system",
+                "relevance": 0.451177,
+                "count": 1
+            },
+            {
+                "text": "Postfach",
+                "relevance": 0.359946,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "53432a598d10dc122df2ee4ff158c1819174960e",
+        "filename": "202006050210ALBA____ME_NA_NE_12560_176209581_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Prequalification procedure - The awarding body maintains an examination system in which prequalified companies are listed for possible awards. [TenderNews.com - Tenders (India)]",
+    "html": "<p>Prequalification procedure - The awarding body maintains an examination system in which prequalified companies are listed for possible awards.</p>\n<p>more info :  Location : Erfurt\nTender Country : Germany\nTender Type : Prior <org>Information Notice\nTendering Authority</org> : TEN Thuringian Energiesetze GmbH &amp; Co. KG\nTendering Authority Address : Address: Postfach 90 01 35\nPostal Code: 99104\nTown: Erfurt\nPHONE: +49 361652-2248\nFAX:\n+49 361652-3485\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

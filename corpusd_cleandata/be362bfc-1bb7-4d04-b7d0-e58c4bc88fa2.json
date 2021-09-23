@@ -1,0 +1,625 @@
+{
+    "id": "be362bfc-1bb7-4d04-b7d0-e58c4bc88fa2",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 1998-2020 WJHL, Nexstar Broadcasting, Inc. All rights reserved.",
+    "geoOrigin": "Johnson City, Tennessee",
+    "sourceType": "Broadcast Transcript",
+    "source": "CBS - 11 WJHL (Johnson City, TN)",
+    "corpus_document_id": "40995166152157029159",
+    "description": "A University of Tennessee running back was arrested multiple charges Saturday in Polk County, Florida. Tim Jordan was arrested and charged with carrying a concealed firearm, possession of drug paraphernalia and possession of marijuana. WATE 6 On Your Side reached out to UT Athletics for a comment, but have not heard back yet.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": "IS/lifesoc.sport",
+            "relevance_score": "7",
+            "description": "College Sports",
+            "code": "IS/lifesoc.colsport#7#70#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/sports",
+            "relevance_score": "7",
+            "description": "Amateur Sports",
+            "code": "IS/lifesoc.sport#7#50#70",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Sports",
+            "code": "IS/sports#7#50#70",
+            "level": 0
+        }
+    ],
+    "text": "POLK COUNTY, FLA. (WATE) \u0096 A University of Tennessee running back was arrested\nmultiple charges Saturday in Polk County, Florida.\n\nTim Jordan was arrested and charged with carrying a concealed firearm,\npossession of drug paraphernalia and possession of marijuana.\n\nWATE 6 On Your Side reached out to UT Athletics for a comment, but have not\nheard back yet.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "University of Tennessee"
+        ],
+        "location": [
+            "POLK COUNTY, FLA",
+            "Polk County, Florida"
+        ],
+        "person": [
+            "Tim Jordan"
+        ],
+        "companies": [
+            "University of Tennessee"
+        ]
+    },
+    "geoOrigin_code": "RU/us.tn.johity",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRSD11E6BC036B9471DA16727E127C2562.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.261003,
+                    "label": "negative"
+                },
+                "text": "POLK COUNTY",
+                "relevance": 0.929217,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Polk County, Tennessee",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Polk_County,_Tennessee"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tim Jordan",
+                "relevance": 0.381018,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Florida",
+                "relevance": 0.343016,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Florida",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Florida"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.2334,
+                    "label": "negative"
+                },
+                "text": "University of Tennessee",
+                "relevance": 0.305807,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Athletics",
+                "relevance": 0.297732,
+                "type": "Sport",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Athletics (sport)",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Athletics_(sport)"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "marijuana",
+                "relevance": 0.285219,
+                "type": "Drug"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "POLK COUNTY, FLA. (WATE) \u0096 A University of Tennessee running back"
+                },
+                "sentence": "POLK COUNTY, FLA. (WATE) \u0096 A University of Tennessee running back was arrested",
+                "object": {
+                    "text": "arrested"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Tim Jordan"
+                },
+                "sentence": " Tim Jordan was arrested and charged with carrying a concealed firearm,",
+                "object": {
+                    "text": "arrested and charged with carrying a concealed firearm,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Tim Jordan"
+                },
+                "sentence": " Tim Jordan was arrested and charged with carrying a concealed firearm,",
+                "object": {
+                    "text": "with carrying a concealed firearm,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "charge",
+                        "tense": "past"
+                    },
+                    "text": "was arrested and charged",
+                    "normalized": "be arrest and charge"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Tim Jordan"
+                },
+                "sentence": " Tim Jordan was arrested and charged with carrying a concealed firearm,",
+                "object": {
+                    "text": "a concealed firearm"
+                },
+                "action": {
+                    "verb": {
+                        "text": "carry",
+                        "tense": "past"
+                    },
+                    "text": "carrying",
+                    "normalized": "carry"
+                }
+            },
+            {
+                "subject": {
+                    "text": "WATE 6 On Your Side"
+                },
+                "sentence": " WATE 6 On Your Side reached out to UT Athletics for a comment, but have not",
+                "object": {
+                    "text": "not"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.637382,
+                "label": "/sports/football"
+            },
+            {
+                "score": 0.635684,
+                "label": "/sports/hunting and shooting"
+            },
+            {
+                "score": 0.633517,
+                "label": "/law, govt and politics/law enforcement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "POLK COUNTY, FLA.",
+                "score": 0.987438,
+                "arguments": [
+                    {
+                        "text": "POLK COUNTY",
+                        "location": [
+                            0,
+                            11
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "POLK COUNTY"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "FLA",
+                        "location": [
+                            13,
+                            16
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "FLA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "(WATE) \u0096 A University of Tennessee running back was arrested multiple charges Saturday in Polk County, Florida.",
+                "score": 0.960332,
+                "arguments": [
+                    {
+                        "text": "Saturday",
+                        "location": [
+                            96,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Saturday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "arrested",
+                        "location": [
+                            70,
+                            78
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCustody",
+                                "text": "arrested"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "(WATE) \u0096 A University of Tennessee running back was arrested multiple charges Saturday in Polk County, Florida.",
+                "score": 0.658509,
+                "arguments": [
+                    {
+                        "text": "Saturday",
+                        "location": [
+                            96,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Saturday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "multiple charges",
+                        "location": [
+                            79,
+                            95
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "multiple charges"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "(WATE) \u0096 A University of Tennessee running back was arrested multiple charges Saturday in Polk County, Florida.",
+                "score": 0.33882,
+                "arguments": [
+                    {
+                        "text": "multiple charges",
+                        "location": [
+                            79,
+                            95
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "multiple charges"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Polk County",
+                        "location": [
+                            108,
+                            119
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "POLK COUNTY"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "(WATE) \u0096 A University of Tennessee running back was arrested multiple charges Saturday in Polk County, Florida.",
+                "score": 0.485725,
+                "arguments": [
+                    {
+                        "text": "multiple charges",
+                        "location": [
+                            79,
+                            95
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "multiple charges"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Florida",
+                        "location": [
+                            121,
+                            128
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Florida"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "(WATE) \u0096 A University of Tennessee running back was arrested multiple charges Saturday in Polk County, Florida.",
+                "score": 0.968459,
+                "arguments": [
+                    {
+                        "text": "Polk County",
+                        "location": [
+                            108,
+                            119
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "POLK COUNTY"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Florida",
+                        "location": [
+                            121,
+                            128
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Florida"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Tim Jordan was arrested and charged with carrying a concealed firearm, possession of drug paraphernalia and possession of marijuana.",
+                "score": 0.935014,
+                "arguments": [
+                    {
+                        "text": "Tim Jordan",
+                        "location": [
+                            131,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Tim Jordan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "arrested",
+                        "location": [
+                            146,
+                            154
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCustody",
+                                "text": "arrested"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Tim Jordan was arrested and charged with carrying a concealed firearm, possession of drug paraphernalia and possession of marijuana.",
+                "score": 0.425716,
+                "arguments": [
+                    {
+                        "text": "Tim Jordan",
+                        "location": [
+                            131,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Tim Jordan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "charged",
+                        "location": [
+                            159,
+                            166
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "charged"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "possession of drug paraphernalia",
+                "relevance": 0.98987,
+                "count": 1
+            },
+            {
+                "text": "possession of marijuana",
+                "relevance": 0.769741,
+                "count": 1
+            },
+            {
+                "text": "POLK COUNTY",
+                "relevance": 0.730773,
+                "count": 2
+            },
+            {
+                "text": "Tim Jordan",
+                "relevance": 0.678216,
+                "count": 1
+            },
+            {
+                "text": "charges Saturday",
+                "relevance": 0.576278,
+                "count": 1
+            },
+            {
+                "text": "Side",
+                "relevance": 0.555343,
+                "count": 1
+            },
+            {
+                "text": "comment",
+                "relevance": 0.522096,
+                "count": 1
+            },
+            {
+                "text": "Florida",
+                "relevance": 0.518227,
+                "count": 1
+            },
+            {
+                "text": "University of Tennessee",
+                "relevance": 0.459508,
+                "count": 1
+            },
+            {
+                "text": "UT Athletics",
+                "relevance": 0.393353,
+                "count": 1
+            },
+            {
+                "text": "WATE",
+                "relevance": 0.349971,
+                "count": 2
+            },
+            {
+                "text": "concealed firearm",
+                "relevance": 0.331205,
+                "count": 1
+            },
+            {
+                "text": "FLA",
+                "relevance": 0.230942,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "67dd7f374e751978bfca6d8b94d1735f3c958e25",
+        "filename": "202005310000NEWSBANKNEWSPPRSD11E6BC036B9471DA16727E127C2562.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "Tennessee Vols running back, Tim Jordan, arrested in Polk County, Fla",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.fl.polk\">POLK COUNTY, FLA</location>. (WATE) &#150; A <org>University of Tennessee</org> running back was arrested multiple charges Saturday in <location idsrc=\"xmltag.org\" value=\"LU/us.fl.polk\">Polk County, Florida</location>.</p>\n<p><person>Tim Jordan</person> was arrested and charged with carrying a concealed firearm, possession of drug paraphernalia and possession of marijuana.</p>\n\n<p>WATE 6 On Your Side reached out to UT Athletics for a comment, but have not heard back yet.</p>",
+    "geoFocus": [
+        [
+            "GU/us.tn.johity",
+            "Johnson City"
+        ]
+    ]
+}

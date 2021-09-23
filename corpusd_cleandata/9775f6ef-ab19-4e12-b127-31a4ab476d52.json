@@ -1,0 +1,2177 @@
+{
+    "id": "9775f6ef-ab19-4e12-b127-31a4ab476d52",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, Internet Daily News",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Internet Daily News",
+    "corpus_document_id": "33850642537568522792",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at Internet Daily News-- Telefonaktiebolaget LM Ericsson has been issued patent number 10,666,755, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors. This patent was filed on October 23, 2015 and was published online on June 8, 2020. \u201cThe Internet Engineering Steering Group/...",
+    "serviceName": "Technology Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Northern Europe",
+            "code": "LB/neur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "Canada",
+            "code": "LC/ca#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": "LB/neur",
+            "relevance_score": "9",
+            "description": "Sweden",
+            "code": "LC/se#9#50#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Internet Media, The Internet",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Internet Daily\nNews \\-- Telefonaktiebolaget LM Ericsson (publ) (Stockholm, Sweden) has been\nissued patent number 10,666,755, according to news reporting originating out\nof Alexandria, Virginia, by NewsRx editors.\n\nThe patent's inventors are Zhu, Zhongwen (Saint-Laurent, CA); Pourzandi, Makan\n(Montreal, CA).\n\nThis patent was filed on October 23, 2015 and was published online on June 8,\n2020.\n\nFrom the background information supplied by the inventors, news correspondents\nobtained the following quote: \"In current content delivery networks, Hypertext\nTransfer Protocol (HTTP) is used as a main delivery mechanism. Since the\nasset, or data such as a title or content, is delivered in a non-secure\nenvironment, this allows the delivery node to verify the asset. Then, the\ndelivery node can decide to cache the asset based upon the content\nverification. In this way, the delivery node can serve the same asset to\ndifferent subscribers. This leads to a significant reduction in the round trip\nfrom the client to server, which improves the user experience.\n\n\"The Internet Engineering Steering Group (IESG)/Internet Engineering Task\nForce (IETF) has recently released HTTP 2, within which, Transport Layer\nSecurity (TLS) is mandatory for HTTP traffic. This means that in the future,\ncontent will be delivered via an end-to-end secure connection. Major browsers\nare being developed to support the new standard.\"\n\nSupplementing the background information on this patent, NewsRx reporters also\nobtained the inventors' summary information for this patent: \"According to\nsome embodiments, a method of operation implemented by a communication device\nof a subscriber configured for operation in a communication network includes\nsending a content request to a CP system reachable via the communication\nnetwork, the content request identifying targeted content, such as a video,\nand including a public key of the communication device. The method includes\nreceiving a response from the CP system that identifies a CDN and includes an\nauthorization token and a content key that is derived from the public key of\nthe communication device and a private key of the CP system. The method also\nincludes sending the authorization token to the CDN and correspondingly\nreceiving a delivery token and an address of a DN. The method then includes\nsending the delivery token and the content key to the DN and correspondingly\nreceiving encrypted content from the DN, the encrypted content comprising at\nleast a portion of the targeted content as initially encrypted by the CP using\na public key of the CP, and as further encrypted by the CDN using the content\nkey provided by the communication device. The method then includes decrypting\nthe encrypted content using a private key of the communication device, to\nobtain decrypted content for media playback at the communication device of the\nsubscriber.\n\n\"According to some embodiments, a communication device of a subscriber\nconfigured for operation in a communication network includes communication\ninterface circuitry configured to send signals to the communication network\nand receive signals from the communication network. The communication device\nalso includes processing circuitry operatively associated with the\ncommunication interface. The processing circuitry is configured to send a\ncontent request to a CP system reachable via the communication network, the\ncontent request identifying targeted content and including a public key of the\ncommunication device. The processing circuitry is also configured to receive a\nresponse from the CP system identifying a CDN and including an authorization\ntoken and a content key that is derived from the public key of the\ncommunication device and a private key of the CP system. The processing\ncircuitry is configured to send the authorization token to the CDN and\ncorrespondingly receive a delivery token and an address of a DN. The\nprocessing circuitry is configured to send the delivery token and the content\nkey to the DN and correspondingly receive encrypted content from the DN, the\nencrypted content comprising at least a portion of the targeted content as\ninitially encrypted by the CP using a public key of the CP, and as further\nencrypted by the CDN using the content key provided by the communication\ndevice. The processing circuitry is configured to decrypt the encrypted\ncontent using a private key of the communication device, to obtain decrypted\ncontent for media playback at the communication device.\n\n\"According to some embodiments, a method of operation in a CDN implemented by\none or more nodes of the CDN includes receiving a request for targeted\ncontent, wherein the request originates from a communication device of a\nsubscriber operating in a communication network that includes or is in\ncommunication with the CDN, and wherein the request includes an authorization\ntoken associated with a CP system. The method includes verifying the\nauthorization token and, conditioned upon verification of the authorization\ntoken, selecting a DN within the CDN, for use in delivering the targeted\ncontent to the communication device and sending a delivery token to the\ncommunication device, for return submission by the communication device to the\nselected DN. The delivery token and a content key are subsequently received\nfrom the communication device at the selected DN, the content key being\nderived by the CP system using a public key of the CP system. The delivery\ntoken is verified and, conditioned upon verification of the delivery token,\nencrypted content is generated comprising at least a portion of the targeted\ncontent, based on obtaining initially-encrypted content that is encrypted by\nthe CP system using a private key of the CP system and a public key of the\ncommunication device and the initially-encrypted content is further encrypted\nusing the content key and sent to the communication device.\n\n\"According to some embodiments, a CDN includes first communication interface\ncircuitry configured to receive a request for targeted content, wherein the\nrequest originates from a communication device operating in a communication\nnetwork that includes or is in communication with the CDN, and wherein the\nrequest includes an authorization token associated with a CP system. The CDN\nalso includes first processing circuitry operatively associated with the first\ncommunication interface circuitry and configured to verify the authorization\ntoken. Conditioned upon verification of the authorization token, the first\nprocessing circuitry selects a DN within the CDN, for use in delivering the\ntargeted content to the communication device, and sends a delivery token to\nthe communication device, for return submission by the communication device to\nthe selected DN. The CDN also includes second communication interface\ncircuitry configured to receive the delivery token and a content key, as\nsubsequently submitted to the CDN by the communication device, the content key\nbeing derived by the CP system using a public key of the CP system. The CDN\nincludes second processing circuitry operatively associated with the second\ncommunication interface circuitry and configured to verify the delivery token.\nConditioned upon verification of the delivery token, the second processing\ncircuitry generates encrypted content comprising at least a portion of the\ntargeted content, based on obtaining initially-encrypted content that is\nencrypted by the CP system using a private key of the CP system and a public\nkey of the communication device. The second processing circuitry further\nencrypts the initially-encrypted content using the content key and sends the\nencrypted content to the communication device.\n\n\"Further embodiments may include computer program products and non-transitory\ncomputer readable media that store instructions that, when executed by\nprocessing circuit, perform the operations of the embodiments describe above.\"\n\nThe claims supplied by the inventors are:\n\n\"What is claimed is:\n\n\"1\\. A method of operation implemented by a communication device configured\nfor operation in a communication network, the method comprising: sending a\ncontent request to a Content Provider (CP) system reachable via the\ncommunication network, the content request identifying targeted content and\nincluding a public key of the communication device; receiving a response from\nthe CP system, the response identifying a Content Delivery Network (CDN) and\nincluding an authorization token and a content key that is derived from the\npublic key of the communication device and a private key of the CP system;\nsending the authorization token to the CDN and correspondingly receiving a\ndelivery token and an address of a delivery node; sending the delivery token\nand the content key to the delivery node and correspondingly receiving\nencrypted content from the delivery node, the encrypted content comprising at\nleast a portion of the targeted content as initially encrypted by the CP using\na public key of the CP, and as further encrypted by the CDN using the content\nkey provided by the communication device; and decrypting the encrypted content\nusing a private key of the communication device, to obtain decrypted content\nfor media playback at the communication device.\n\n\"2\\. The method of claim 1, wherein sending the content request to the CP\nsystem comprises performing a public key exchange with the CP system and\ncorrespondingly establishing a secure connection to the CP system, and sending\nthe content request over the secure connection to the CP system.\n\n\"3\\. The method of claim 1, wherein sending the delivery token and the content\nkey to the delivery node comprises establishing a secure connection to the\ndelivery node, and sending the delivery token and the content key over the\nsecure connection to the delivery node.\n\n\"4\\. The method of claim 1, wherein the CP system packages the targeted\ncontent as one or more Content Management Objects (CMOs) each CMO being\nseparately encrypted by the CP system and having a corresponding authorization\ntoken, content key, and delivery node association, and wherein the method\nincludes sending the authorization token and the delivery token on a per-CMO\nbasis.\n\n\"5\\. The method of claim 1, wherein the communication device comprises a\nwireless communication device configured for operation in a Public Land Mobile\nNetwork (PLMN).\n\n\"6\\. A communication device configured for operation in a communication\nnetwork, the communication device comprising: communication interface\ncircuitry configured to send signals to the communication network and receive\nsignals from the communication network; and processing circuitry operatively\nassociated with the communication interface and configured to: send a content\nrequest to a Content Provider (CP) system reachable via the communication\nnetwork, the content request identifying targeted content and including a\npublic key of the communication device; receive a response from the CP system,\nthe response identifying a Content Delivery Network (CDN) and including an\nauthorization token and a content key that is derived from the public key of\nthe communication device and a private key of the CP system; send the\nauthorization token to the CDN and correspondingly receive a delivery token\nand an address of a delivery node; send the delivery token and the content key\nto the delivery node and correspondingly receive encrypted content from the\ndelivery node, the encrypted content comprising at least a portion of the\ntargeted content as initially encrypted by the CP using a public key of the\nCP, and as further encrypted by the CDN using the content key provided by the\ncommunication device; and decrypt the encrypted content using a private key of\nthe communication device, to obtain decrypted content for media playback at\nthe communication device.\n\n\"7\\. The communication device of claim 6, wherein the processing circuitry is\nconfigured to send the content request to the CP system by performing a public\nkey exchange with the CP system and correspondingly establishing a secure\nconnection to the CP system, and sending the content request over the secure\nconnection to the CP system.\n\n\"8\\. The communication device of claim 6, wherein the processing circuitry is\nconfigured to send the delivery token and the content key to the delivery node\nby establishing a secure connection to the delivery node, and sending the\ndelivery token and the content key over the secure connection to the delivery\nnode.\n\n\"9\\. The communication device of claim 6, wherein the CP system packages the\ntargeted content as one or more Content Management Objects (CMOs) each CMO\nbeing separately encrypted by the CP system and having a corresponding\nauthorization token, content key, and delivery node association, and wherein\nthe processing circuitry is configured to send the authorization token and the\ndelivery token on a per-CMO basis.\n\n\"10\\. The communication device of claim 6, wherein the communication device\ncomprises a wireless communication device configured for operation in a Public\nLand Mobile Network (PLMN).\n\n\"11\\. A method of operation in a Content Delivery Network (CDN), the method\nimplemented by one or more nodes of the CDN and comprising: receiving a\nrequest for targeted content, wherein the request originates from a\ncommunication device operating in a communication network that includes or is\nin communication with the CDN, and wherein the request includes an\nauthorization token associated with a Content Provider (CP) system; verifying\nthe authorization token and, conditioned upon verification of the\nauthorization token: selecting a delivery node within the CDN, for use in\ndelivering the targeted content to the communication device; sending a\ndelivery token to the communication device, for return submission by the\ncommunication device to the selected delivery node; subsequently receiving the\ndelivery token and a content key from the communication device at the selected\ndelivery node, the content key being derived by the CP system using a private\nkey of the CP system and a public key of the communication device; and\nverifying the delivery token and, conditioned upon verification of the\ndelivery token: generating encrypted content comprising at least a portion of\nthe targeted content, based on obtaining initially-encrypted content that is\nencrypted by the CP system using a public key of the CP system and further\nencrypting the initially-encrypted content using the content key; and sending\nthe encrypted content to the communication device.\n\n\"12\\. The method of claim 11, wherein obtaining the initially-encrypted\ncontent comprises obtaining the initially-encrypted content from a local data\nstore associated with the selected delivery node when the initially-encrypted\ncontent is available from the local data store, and obtaining the initially-\nencrypted content from the CP system when the initially-encrypted content is\nnot available from the local data store.\n\n\"13\\. The method of claim 11, wherein selecting the selected delivery node\ncomprises performing a proximity-based selection, based on evaluating\ncorresponding delivery paths between the communication device and respective\nones of two or more delivery nodes within the CDN.\n\n\"14\\. The method of claim 13, wherein selecting the selected delivery node\nfurther comprises performing a content-based selection, based on at least one\nof: determining which one or ones among the two or more delivery nodes are\nauthorized or otherwise provisioned for delivering content that originates\nfrom the CP system; and determining which one or ones among the two or more\ndelivery nodes are known to have local copies of the initially-encrypted\ncontent corresponding to the targeted content.\n\n\"15\\. The method of claim 11, wherein the CP system generates the\nauthorization token using a first shared secret shared between the CDN and the\nCP system, and wherein verifying the authorization token comprises using the\nfirst shared secret to verify the authorization token.\n\n\"16\\. The method of claim 11, wherein the CDN generates the delivery token\nusing a second shared secret shared between the selected delivery node and a\nrequest routing node that handles the request for the targeted content\nincoming from the communication device, and wherein verifying the delivery\ntoken comprises the selected delivery node using the second shared secret to\nverify the delivery token.\n\n\"17\\. The method of claim 11, wherein the operations are performed using a\nproxy re-encryption (PRE) mechanism, wherein the CDN acts as proxy for the PRE\nmechanism, and wherein the PRE mechanism utilizes the content key for re-\nencryption to thereby enable delivery of the targeted content of the CP system\nto the communication device without exposing the targeted content to the CDN\nand without exposing the private key of the CP system to the communication\ndevice.\n\n\"18\\. A Content Delivery Network (CDN) comprising: first communication\ninterface circuitry configured to receive a request for targeted content,\nwherein the request originates from a communication device operating in a\ncommunication network that includes or is in communication with the CDN, and\nwherein the request includes an authorization token associated with a Content\nProvider (CP) system; first processing circuitry operatively associated with\nthe first communication interface circuitry and configured to verify the\nauthorization token and, conditioned upon verification of the authorization\ntoken: select a delivery node within the CDN, for use in delivering the\ntargeted content to the communication device; and send a delivery token to the\ncommunication device, for return submission by the communication device to the\nselected delivery node; second communication interface circuitry configured to\nreceive the delivery token and a content key, as subsequently submitted to the\nCDN by the communication device, the content key being derived by the CP\nsystem using a private key of the CP system and a public key of the\ncommunication device; and second processing circuitry operatively associated\nwith the second communication interface circuitry and configured to verify the\ndelivery token and, conditioned upon verification of the delivery token:\ngenerate encrypted content comprising at least a portion of the targeted\ncontent, based on obtaining initially-encrypted content that is encrypted by\nthe CP system using a public key of the CP system and further encrypting the\ninitially-encrypted content using the content key; and send the encrypted\ncontent to the communication device.\n\n\"19\\. The CDN of claim 18, wherein the CDN includes a request routing node\ncomprising the first communication interface circuitry and the first\nprocessing circuitry, and further includes two or more delivery nodes, one of\nwhich is selected by the request routing node as the selected delivery node\nand includes the second communication interface circuitry and the second\nprocessing circuitry.\n\n\"20\\. The CDN of claim 18, wherein the second processing circuitry is\nconfigured to obtain the initially-encrypted content by obtaining the\ninitially-encrypted content from a local data store associated with the\nselected delivery node when the initially-encrypted content is available from\nthe local data store, and obtain the initially-encrypted content from the CP\nsystem when the initially-encrypted content is not available from the local\ndata store.\n\n\"21\\. The CDN of claim 18, wherein the first processing circuitry is\nconfigured to select the selected delivery node by performing a proximity-\nbased selection, based on evaluating corresponding delivery paths between the\ncommunication device and respective ones of two or more delivery nodes within\nthe CDN.\n\n\"22\\. The CDN of claim 21, wherein the first processing circuitry is\nconfigured to select the delivery node by further performing a content-based\nselection, based on at least one of: determining which one or ones among the\ntwo or more delivery nodes are authorized or otherwise provisioned for\ndelivering content that originates from the CP system; and determining which\none or ones among the two or more delivery nodes are known to have local\ncopies of the initially-encrypted content corresponding to the targeted\ncontent.\n\n\"23\\. The CDN of claim 18, wherein the CP system generates the authorization\ntoken using a first shared secret shared between the CDN and the CP system,\nand wherein the first processing circuitry is configured to use the first\nshared secret to verify the authorization token.\n\n\"24\\. The CDN of claim 18, wherein the first processing circuitry is\nconfigured to generate the delivery token using a second shared secret shared\nbetween the selected delivery node and a request routing node that handles the\nrequest for the targeted content incoming from the communication device, and\nwherein the second processing circuitry is configured to use the second shared\nsecret to verify the delivery token.\"\n\nFor the URL and additional information on this patent, see: Zhu, Zhongwen;\nPourzandi, Makan. Method And Apparatus For Secure Content Caching And\nDelivery. U.S. Patent Number 10,666,755, filed October 23, 2015, and published\nonline on June 8, 2020. Patent URL: [http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,666,755.PN.&OS=PN/10,666,755RS=PN/10,666,755](http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,666,755.PN.&OS=PN/10,666,755RS=PN/10,666,755)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Internet Daily News",
+            "Telefonaktiebolaget LM Ericsson",
+            "Internet Engineering Task Force"
+        ],
+        "location": [
+            "Stockholm, Sweden",
+            "Alexandria, Virginia",
+            "Saint-Laurent",
+            "Montreal",
+            "U.S."
+        ],
+        "person": [],
+        "companies": [
+            "Telefonaktiebolaget LM Ericsson",
+            "News Reporter-Staff News",
+            "Internet Engineering Task Force",
+            "Internet Daily News"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_TECH_E997CCCE5479F5C.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.402086,
+                    "label": "positive"
+                },
+                "text": "Zhu",
+                "relevance": 0.423926,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Pourzandi",
+                "relevance": 0.420988,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Zhongwen",
+                "relevance": 0.418976,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "PLMN",
+                "relevance": 0.389779,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "IETF",
+                "relevance": 0.345573,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Internet Engineering Task Force",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Internet_Engineering_Task_Force"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alexandria",
+                "relevance": 0.342327,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Alexandria",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Alexandria"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Virginia",
+                "relevance": 0.340731,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Virginia"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.334135,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.272247,
+                    "label": "positive"
+                },
+                "text": "Stockholm",
+                "relevance": 0.328871,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Facility",
+                        "AdministrativeDivision",
+                        "OlympicBiddingCity",
+                        "OlympicHostCity",
+                        "City"
+                    ],
+                    "name": "Stockholm",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Stockholm"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Telefonaktiebolaget LM Ericsson",
+                "relevance": 0.327538,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Internet Engineering Steering Group",
+                "relevance": 0.326767,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Montreal",
+                "relevance": 0.325624,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Internet Daily",
+                "relevance": 0.321437,
+                "type": "PrintMedia"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Public Land Mobile",
+                "relevance": 0.309161,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Sweden",
+                "relevance": 0.307887,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.305713,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Land Mobile Network",
+                "relevance": 0.299956,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "issued patent number 10,666,755"
+                },
+                "sentence": " issued patent number 10,666,755, according to news reporting originating out",
+                "object": {
+                    "text": "to news reporting originating out"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent"
+                },
+                "sentence": " This patent was filed on October 23, 2015 and was published online on June 8,",
+                "action": {
+                    "verb": {
+                        "text": "file",
+                        "tense": "past"
+                    },
+                    "text": "was filed",
+                    "normalized": "be file"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent"
+                },
+                "sentence": " This patent was filed on October 23, 2015 and was published online on June 8,",
+                "object": {
+                    "text": "published online"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent"
+                },
+                "sentence": " This patent was filed on October 23, 2015 and was published online on June 8,",
+                "object": {
+                    "text": "online"
+                },
+                "action": {
+                    "verb": {
+                        "text": "publish",
+                        "tense": "past"
+                    },
+                    "text": "was published",
+                    "normalized": "be publish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the inventors, news correspondents"
+                },
+                "sentence": " From the background information supplied by the inventors, news correspondents",
+                "object": {
+                    "text": "the background information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "supply",
+                        "tense": "past"
+                    },
+                    "text": "supplied",
+                    "normalized": "supply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Transfer Protocol (HTTP)"
+                },
+                "sentence": " Transfer Protocol (HTTP) is used as a main delivery mechanism.",
+                "object": {
+                    "text": "used as a main delivery mechanism"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Transfer Protocol (HTTP)"
+                },
+                "sentence": " Transfer Protocol (HTTP) is used as a main delivery mechanism.",
+                "object": {
+                    "text": "as a main delivery mechanism"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "is used",
+                    "normalized": "be use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "asset, or data such as a title or content,"
+                },
+                "sentence": " asset, or data such as a title or content, is delivered in a non-secure",
+                "object": {
+                    "text": "delivered in a non-secure"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "asset, or data such as a title or content,"
+                },
+                "sentence": " asset, or data such as a title or content, is delivered in a non-secure",
+                "action": {
+                    "verb": {
+                        "text": "deliver",
+                        "tense": "past"
+                    },
+                    "text": "is delivered",
+                    "normalized": "be deliver"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this"
+                },
+                "sentence": " environment, this allows the delivery node to verify the asset.",
+                "object": {
+                    "text": "the delivery node to verify the asset"
+                },
+                "action": {
+                    "verb": {
+                        "text": "allow",
+                        "tense": "present"
+                    },
+                    "text": "allows",
+                    "normalized": "allow"
+                }
+            },
+            {
+                "subject": {
+                    "text": "delivery node"
+                },
+                "sentence": " delivery node can decide to cache the asset based upon the content",
+                "object": {
+                    "text": "to cache the asset based upon the content"
+                },
+                "action": {
+                    "verb": {
+                        "text": "decide",
+                        "tense": "future"
+                    },
+                    "text": "decide",
+                    "normalized": "decide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "delivery node"
+                },
+                "sentence": " delivery node can decide to cache the asset based upon the content",
+                "object": {
+                    "text": "the asset"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cache",
+                        "tense": "future"
+                    },
+                    "text": "can decide to cache",
+                    "normalized": "can decide to cache"
+                }
+            },
+            {
+                "subject": {
+                    "text": "server"
+                },
+                "sentence": " from the client to server, which improves the user experience.",
+                "object": {
+                    "text": "the user experience"
+                },
+                "action": {
+                    "verb": {
+                        "text": "improve",
+                        "tense": "present"
+                    },
+                    "text": "improves",
+                    "normalized": "improve"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Force (IETF)"
+                },
+                "sentence": " Force (IETF) has recently released HTTP 2, within which, Transport Layer",
+                "object": {
+                    "text": "recently released HTTP 2, within which, Transport Layer"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Force (IETF)"
+                },
+                "sentence": " Force (IETF) has recently released HTTP 2, within which, Transport Layer",
+                "object": {
+                    "text": "HTTP"
+                },
+                "action": {
+                    "verb": {
+                        "text": "release",
+                        "tense": "past"
+                    },
+                    "text": "released",
+                    "normalized": "release"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Security (TLS)"
+                },
+                "sentence": " Security (TLS) is mandatory for HTTP traffic.",
+                "object": {
+                    "text": "mandatory for HTTP traffic"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This"
+                },
+                "sentence": " This means that in the future,",
+                "object": {
+                    "text": "that in the future,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "mean",
+                        "tense": "present"
+                    },
+                    "text": "means",
+                    "normalized": "mean"
+                }
+            },
+            {
+                "subject": {
+                    "text": "content"
+                },
+                "sentence": " content will be delivered via an end-to-end secure connection.",
+                "object": {
+                    "text": "delivered"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "NewsRx reporters"
+                },
+                "sentence": " Supplementing the background information on this patent, NewsRx reporters also",
+                "object": {
+                    "text": "the background information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Supplementing",
+                        "tense": "present"
+                    },
+                    "text": "Supplementing",
+                    "normalized": "Supplementing"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by a communication device"
+                },
+                "sentence": " some embodiments, a method of operation implemented by a communication device",
+                "object": {
+                    "text": "a method of operation"
+                },
+                "action": {
+                    "verb": {
+                        "text": "implement",
+                        "tense": "past"
+                    },
+                    "text": "implemented",
+                    "normalized": "implement"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a content request"
+                },
+                "sentence": " sending a content request to a CP system reachable via the communication",
+                "object": {
+                    "text": "to a CP system"
+                },
+                "action": {
+                    "verb": {
+                        "text": "send",
+                        "tense": "present"
+                    },
+                    "text": "sending",
+                    "normalized": "send"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the content request"
+                },
+                "sentence": " network, the content request identifying targeted content, such as a video,",
+                "object": {
+                    "text": "targeted content, such as a video,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "identify",
+                        "tense": "present"
+                    },
+                    "text": "identifying",
+                    "normalized": "identify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the CP system"
+                },
+                "sentence": " receiving a response from the CP system that identifies a CDN and includes an",
+                "object": {
+                    "text": "a CDN"
+                },
+                "action": {
+                    "verb": {
+                        "text": "identify",
+                        "tense": "present"
+                    },
+                    "text": "identifies",
+                    "normalized": "identify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "authorization token and a content key that"
+                },
+                "sentence": " authorization token and a content key that is derived from the public key of",
+                "object": {
+                    "text": "from the public key of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "derive",
+                        "tense": "past"
+                    },
+                    "text": "is derived",
+                    "normalized": "be derive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the authorization token"
+                },
+                "sentence": " includes sending the authorization token to the CDN and correspondingly",
+                "object": {
+                    "text": "to the CDN and correspondingly"
+                },
+                "action": {
+                    "verb": {
+                        "text": "send",
+                        "tense": "present"
+                    },
+                    "text": "includes sending",
+                    "normalized": "include send"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the delivery token and the content key"
+                },
+                "sentence": " sending the delivery token and the content key to the DN and correspondingly",
+                "object": {
+                    "text": "to the DN and correspondingly"
+                },
+                "action": {
+                    "verb": {
+                        "text": "send",
+                        "tense": "present"
+                    },
+                    "text": "sending",
+                    "normalized": "send"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the CP"
+                },
+                "sentence": " least a portion of the targeted content as initially encrypted by the CP using",
+                "action": {
+                    "verb": {
+                        "text": "encrypt",
+                        "tense": "past"
+                    },
+                    "text": "encrypted",
+                    "normalized": "encrypt"
+                }
+            },
+            {
+                "subject": {
+                    "text": "decrypting"
+                },
+                "sentence": " The method then includes decrypting",
+                "object": {
+                    "text": "The method"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the encrypted content"
+                },
+                "sentence": " the encrypted content using a private key of the communication device, to",
+                "object": {
+                    "text": "a private key of the communication device"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "present"
+                    },
+                    "text": "using",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "for operation"
+                },
+                "sentence": " configured for operation in a communication network includes communication",
+                "action": {
+                    "verb": {
+                        "text": "configure",
+                        "tense": "past"
+                    },
+                    "text": "configured",
+                    "normalized": "configure"
+                }
+            },
+            {
+                "subject": {
+                    "text": "communication"
+                },
+                "sentence": " configured for operation in a communication network includes communication",
+                "object": {
+                    "text": "configured for operation in a communication network"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "interface circuitry"
+                },
+                "sentence": " interface circuitry configured to send signals to the communication network",
+                "object": {
+                    "text": "signals"
+                },
+                "action": {
+                    "verb": {
+                        "text": "send",
+                        "tense": "future"
+                    },
+                    "text": "configured to send",
+                    "normalized": "configure to send"
+                }
+            },
+            {
+                "subject": {
+                    "text": "signals"
+                },
+                "sentence": " and receive signals from the communication network.",
+                "object": {
+                    "text": "from the communication network"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "present"
+                    },
+                    "text": "receive",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "processing circuitry"
+                },
+                "sentence": " also includes processing circuitry operatively associated with the",
+                "object": {
+                    "text": "with the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "associate",
+                        "tense": "past"
+                    },
+                    "text": "associated",
+                    "normalized": "associate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The processing circuitry"
+                },
+                "sentence": " The processing circuitry is configured to send a",
+                "object": {
+                    "text": "a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "send",
+                        "tense": "future"
+                    },
+                    "text": "to send",
+                    "normalized": "to send"
+                }
+            },
+            {
+                "subject": {
+                    "text": "content request"
+                },
+                "sentence": " content request identifying targeted content and including a public key of the",
+                "object": {
+                    "text": "targeted content"
+                },
+                "action": {
+                    "verb": {
+                        "text": "identify",
+                        "tense": "present"
+                    },
+                    "text": "identifying",
+                    "normalized": "identify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the CP system"
+                },
+                "sentence": " response from the CP system identifying a CDN and including an authorization",
+                "object": {
+                    "text": "a CDN and including an authorization"
+                },
+                "action": {
+                    "verb": {
+                        "text": "identify",
+                        "tense": "present"
+                    },
+                    "text": "identifying",
+                    "normalized": "identify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "token and a content key that"
+                },
+                "sentence": " token and a content key that is derived from the public key of the",
+                "object": {
+                    "text": "from the public key of the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "derive",
+                        "tense": "past"
+                    },
+                    "text": "is derived",
+                    "normalized": "be derive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "circuitry"
+                },
+                "sentence": " circuitry is configured to send the authorization token to the CDN and",
+                "object": {
+                    "text": "the authorization token"
+                },
+                "action": {
+                    "verb": {
+                        "text": "send",
+                        "tense": "future"
+                    },
+                    "text": "to send",
+                    "normalized": "to send"
+                }
+            },
+            {
+                "subject": {
+                    "text": "processing circuitry"
+                },
+                "sentence": " processing circuitry is configured to send the delivery token and the content",
+                "object": {
+                    "text": "the delivery token and the content"
+                },
+                "action": {
+                    "verb": {
+                        "text": "send",
+                        "tense": "future"
+                    },
+                    "text": "to send",
+                    "normalized": "to send"
+                }
+            },
+            {
+                "subject": {
+                    "text": "encrypted content"
+                },
+                "sentence": " encrypted content comprising at least a portion of the targeted content as",
+                "object": {
+                    "text": "at least a portion of the targeted content"
+                },
+                "action": {
+                    "verb": {
+                        "text": "comprise",
+                        "tense": "present"
+                    },
+                    "text": "comprising",
+                    "normalized": "comprise"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the CP"
+                },
+                "sentence": " initially encrypted by the CP using a public key of the CP, and as further",
+                "object": {
+                    "text": "key of the CP"
+                },
+                "action": {
+                    "verb": {
+                        "text": "encrypt",
+                        "tense": "past"
+                    },
+                    "text": "encrypted",
+                    "normalized": "encrypt"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the CP"
+                },
+                "sentence": " initially encrypted by the CP using a public key of the CP, and as further",
+                "object": {
+                    "text": "a public key of the CP"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "present"
+                    },
+                    "text": "using",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the CDN"
+                },
+                "sentence": " encrypted by the CDN using the content key provided by the communication",
+                "object": {
+                    "text": "the communication"
+                },
+                "action": {
+                    "verb": {
+                        "text": "encrypt",
+                        "tense": "past"
+                    },
+                    "text": "encrypted",
+                    "normalized": "encrypt"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the communication"
+                },
+                "sentence": " encrypted by the CDN using the content key provided by the communication",
+                "object": {
+                    "text": "the content key"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "past"
+                    },
+                    "text": "provided",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "device. The processing circuitry"
+                },
+                "sentence": " device. The processing circuitry is configured to decrypt the encrypted",
+                "object": {
+                    "text": "the encrypted"
+                },
+                "action": {
+                    "verb": {
+                        "text": "decrypt",
+                        "tense": "future"
+                    },
+                    "text": "is configured to decrypt",
+                    "normalized": "be configure to decrypt"
+                }
+            },
+            {
+                "subject": {
+                    "text": "content"
+                },
+                "sentence": " content using a private key of the communication device, to obtain decrypted",
+                "object": {
+                    "text": "a private key of the communication device"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "present"
+                    },
+                    "text": "using",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "one or more nodes of the CDN"
+                },
+                "sentence": " one or more nodes of the CDN includes receiving a request for targeted",
+                "object": {
+                    "text": "a request for targeted"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "present"
+                    },
+                    "text": "includes receiving",
+                    "normalized": "include receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the request"
+                },
+                "sentence": " content, wherein the request originates from a communication device of a",
+                "object": {
+                    "text": "from a communication device of a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "originate",
+                        "tense": "present"
+                    },
+                    "text": "originates",
+                    "normalized": "originate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "subscriber"
+                },
+                "sentence": " subscriber operating in a communication network that includes or is in",
+                "action": {
+                    "verb": {
+                        "text": "operate",
+                        "tense": "present"
+                    },
+                    "text": "operating",
+                    "normalized": "operate"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.953415,
+                "label": "/technology and computing/internet technology/email"
+            },
+            {
+                "score": 0.938191,
+                "label": "/technology and computing/hardware/computer/servers"
+            },
+            {
+                "score": 0.906502,
+                "label": "/technology and computing/networking/network monitoring and management"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Internet Daily News \\-- Telefonaktiebolaget LM Ericsson (publ) (Stockholm, Sweden) has been issued patent number 10,666,755, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.499015,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventors are Zhu, Zhongwen (Saint-Laurent, CA); Pourzandi, Makan (Montreal, CA).",
+                "score": 0.769114,
+                "arguments": [
+                    {
+                        "text": "Montreal",
+                        "location": [
+                            358,
+                            366
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Montreal"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "CA",
+                        "location": [
+                            368,
+                            370
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "CA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "This patent was filed on October 23, 2015 and was published online on June 8, 2020.",
+                "score": 0.938783,
+                "arguments": [
+                    {
+                        "text": "October 23, 2015",
+                        "location": [
+                            399,
+                            415
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "October 23, 2015"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            390,
+                            395
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "\"The Internet Engineering Steering Group (IESG)/Internet Engineering Task Force (IETF) has recently released HTTP 2, within which, Transport Layer Security (TLS) is mandatory for HTTP traffic.",
+                "score": 0.921759,
+                "arguments": [
+                    {
+                        "text": "Steering Group",
+                        "location": [
+                            1145,
+                            1159
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Steering Group",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "IESG",
+                        "location": [
+                            1161,
+                            1165
+                        ],
+                        "entities": [
+                            {
+                                "type": "Ticker",
+                                "text": "IESG"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "\"Further embodiments may include computer program products and non-transitory computer readable media that store instructions that, when executed by processing circuit, perform the operations of the embodiments describe above.\"",
+                "score": 0.51327,
+                "arguments": [
+                    {
+                        "text": "store instructions",
+                        "location": [
+                            7863,
+                            7881
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "store instructions"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "media",
+                        "location": [
+                            7852,
+                            7857
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "media",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The CDN of claim 18, wherein the CDN includes a request routing node comprising the first communication interface circuitry and the first processing circuitry, and further includes two or more delivery nodes, one of which is selected by the request routing node as the selected delivery node and includes the second communication interface circuitry and the second processing circuitry.",
+                "score": 0.838493,
+                "arguments": [
+                    {
+                        "text": "CDN of",
+                        "location": [
+                            18660,
+                            18666
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Content Delivery Network"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            18667,
+                            18672
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The CDN of claim 18, wherein the second processing circuitry is configured to obtain the initially-encrypted content by obtaining the initially-encrypted content from a local data store associated with the selected delivery node when the initially-encrypted content is available from the local data store, and obtain the initially-encrypted content from the CP system when the initially-encrypted content is not available from the local data store.",
+                "score": 0.978814,
+                "arguments": [
+                    {
+                        "text": "CDN of",
+                        "location": [
+                            19054,
+                            19060
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Content Delivery Network"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            19061,
+                            19066
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The CDN of claim 18, wherein the first processing circuitry is configured to select the selected delivery node by performing a proximity- based selection, based on evaluating corresponding delivery paths between the communication device and respective ones of two or more delivery nodes within the CDN.",
+                "score": 0.838493,
+                "arguments": [
+                    {
+                        "text": "CDN of",
+                        "location": [
+                            19510,
+                            19516
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Content Delivery Network"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            19517,
+                            19522
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The CDN of claim 21, wherein the first processing circuitry is configured to select the delivery node by further performing a content-based selection, based on at least one of: determining which one or ones among the two or more delivery nodes are authorized or otherwise provisioned for delivering content that originates from the CP system; and determining which one or ones among the two or more delivery nodes are known to have local copies of the initially-encrypted content corresponding to the targeted content.",
+                "score": 0.98046,
+                "arguments": [
+                    {
+                        "text": "CDN of",
+                        "location": [
+                            19820,
+                            19826
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Content Delivery Network"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            19827,
+                            19832
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The CDN of claim 18, wherein the CP system generates the authorization token using a first shared secret shared between the CDN and the CP system, and wherein the first processing circuitry is configured to use the first shared secret to verify the authorization token.",
+                "score": 0.838493,
+                "arguments": [
+                    {
+                        "text": "CDN of",
+                        "location": [
+                            20346,
+                            20352
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Content Delivery Network"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            20353,
+                            20358
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The CDN of claim 18, wherein the first processing circuitry is configured to generate the delivery token using a second shared secret shared between the selected delivery node and a request routing node that handles the request for the targeted content incoming from the communication device, and wherein the second processing circuitry is configured to use the second shared secret to verify the delivery token.\"",
+                "score": 0.98046,
+                "arguments": [
+                    {
+                        "text": "CDN of",
+                        "location": [
+                            20623,
+                            20629
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Content Delivery Network"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            20630,
+                            20635
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "For the URL and additional information on this patent, see: Zhu, Zhongwen; Pourzandi, Makan.",
+                "score": 0.817009,
+                "arguments": [
+                    {
+                        "text": "Zhu",
+                        "location": [
+                            21094,
+                            21097
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Zhu"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Zhongwen",
+                        "location": [
+                            21099,
+                            21107
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Zhongwen"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "U.S. Patent Number 10,666,755, filed October 23, 2015, and published online on June 8, 2020.",
+                "score": 0.980936,
+                "arguments": [
+                    {
+                        "text": "October 23, 2015",
+                        "location": [
+                            21226,
+                            21242
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "October 23, 2015"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            21220,
+                            21225
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Internet Daily News \\-- Telefonaktiebolaget LM Ericsson (publ) (Stockholm, Sweden) has been issued patent number 10,666,755, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.690667,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Internet Daily\nNews",
+                        "location": [
+                            64,
+                            83
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Internet Daily\nNews",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Internet Daily News \\-- Telefonaktiebolaget LM Ericsson (publ) (Stockholm, Sweden) has been issued patent number 10,666,755, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.980462,
+                "arguments": [
+                    {
+                        "text": "Stockholm",
+                        "location": [
+                            128,
+                            137
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Stockholm"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Sweden",
+                        "location": [
+                            139,
+                            145
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Sweden",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Internet Daily News \\-- Telefonaktiebolaget LM Ericsson (publ) (Stockholm, Sweden) has been issued patent number 10,666,755, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.986389,
+                "arguments": [
+                    {
+                        "text": "Alexandria",
+                        "location": [
+                            236,
+                            246
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alexandria"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Virginia",
+                        "location": [
+                            248,
+                            256
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Virginia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventors are Zhu, Zhongwen (Saint-Laurent, CA); Pourzandi, Makan (Montreal, CA).",
+                "score": 0.665118,
+                "arguments": [
+                    {
+                        "text": "inventors",
+                        "location": [
+                            291,
+                            300
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inventors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Zhu",
+                        "location": [
+                            305,
+                            308
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Zhu"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventors are Zhu, Zhongwen (Saint-Laurent, CA); Pourzandi, Makan (Montreal, CA).",
+                "score": 0.561087,
+                "arguments": [
+                    {
+                        "text": "inventors",
+                        "location": [
+                            291,
+                            300
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inventors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Zhongwen",
+                        "location": [
+                            310,
+                            318
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Zhongwen"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventors are Zhu, Zhongwen (Saint-Laurent, CA); Pourzandi, Makan (Montreal, CA).",
+                "score": 0.513913,
+                "arguments": [
+                    {
+                        "text": "inventors",
+                        "location": [
+                            291,
+                            300
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inventors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Saint-Laurent",
+                        "location": [
+                            320,
+                            333
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Saint-Laurent"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventors are Zhu, Zhongwen (Saint-Laurent, CA); Pourzandi, Makan (Montreal, CA).",
+                "score": 0.757092,
+                "arguments": [
+                    {
+                        "text": "Saint-Laurent",
+                        "location": [
+                            320,
+                            333
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Saint-Laurent"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "CA",
+                        "location": [
+                            335,
+                            337
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "CA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventors are Zhu, Zhongwen (Saint-Laurent, CA); Pourzandi, Makan (Montreal, CA).",
+                "score": 0.768591,
+                "arguments": [
+                    {
+                        "text": "Pourzandi",
+                        "location": [
+                            340,
+                            349
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Pourzandi"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Makan",
+                        "location": [
+                            351,
+                            356
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Makan"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "For the URL and additional information on this patent, see: Zhu, Zhongwen; Pourzandi, Makan.",
+                "score": 0.984201,
+                "arguments": [
+                    {
+                        "text": "Pourzandi",
+                        "location": [
+                            21109,
+                            21118
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Pourzandi"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Makan",
+                        "location": [
+                            21120,
+                            21125
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Makan"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "current content delivery networks",
+                "relevance": 0.84854,
+                "count": 1
+            },
+            {
+                "text": "communication device",
+                "relevance": 0.785476,
+                "count": 51
+            },
+            {
+                "text": "public key of the communication device",
+                "relevance": 0.676933,
+                "count": 5
+            },
+            {
+                "text": "communication network",
+                "relevance": 0.654065,
+                "count": 12
+            },
+            {
+                "text": "CP system",
+                "relevance": 0.650227,
+                "count": 34
+            },
+            {
+                "text": "authorization token",
+                "relevance": 0.636775,
+                "count": 20
+            },
+            {
+                "text": "delivery node",
+                "relevance": 0.626534,
+                "count": 15
+            },
+            {
+                "text": "encrypted content",
+                "relevance": 0.61892,
+                "count": 9
+            },
+            {
+                "text": "content request",
+                "relevance": 0.610272,
+                "count": 11
+            },
+            {
+                "text": "patent number",
+                "relevance": 0.607843,
+                "count": 1
+            },
+            {
+                "text": "main delivery mechanism",
+                "relevance": 0.604322,
+                "count": 1
+            },
+            {
+                "text": "method of operation",
+                "relevance": 0.601408,
+                "count": 4
+            },
+            {
+                "text": "background information",
+                "relevance": 0.577356,
+                "count": 2
+            },
+            {
+                "text": "content key",
+                "relevance": 0.564729,
+                "count": 26
+            },
+            {
+                "text": "selected DN",
+                "relevance": 0.559285,
+                "count": 3
+            },
+            {
+                "text": "portion of the targeted content",
+                "relevance": 0.556907,
+                "count": 3
+            },
+            {
+                "text": "private key of the CP system",
+                "relevance": 0.553846,
+                "count": 8
+            },
+            {
+                "text": "patent's inventors",
+                "relevance": 0.543816,
+                "count": 1
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.541167,
+                "count": 1
+            },
+            {
+                "text": "private key of the communication device",
+                "relevance": 0.539373,
+                "count": 3
+            },
+            {
+                "text": "content",
+                "relevance": 0.537271,
+                "count": 52
+            },
+            {
+                "text": "delivery token",
+                "relevance": 0.537097,
+                "count": 30
+            },
+            {
+                "text": "processing circuitry",
+                "relevance": 0.534813,
+                "count": 7
+            },
+            {
+                "text": "public key",
+                "relevance": 0.530314,
+                "count": 7
+            },
+            {
+                "text": "CDN",
+                "relevance": 0.529474,
+                "count": 37
+            },
+            {
+                "text": "additional information",
+                "relevance": 0.529188,
+                "count": 1
+            },
+            {
+                "text": "Internet Engineering",
+                "relevance": 0.521553,
+                "count": 1
+            },
+            {
+                "text": "use",
+                "relevance": 0.521184,
+                "count": 4
+            },
+            {
+                "text": "communication interface",
+                "relevance": 0.520957,
+                "count": 2
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.520822,
+                "count": 1
+            },
+            {
+                "text": "circuitry",
+                "relevance": 0.520253,
+                "count": 6
+            },
+            {
+                "text": "second processing circuitry",
+                "relevance": 0.519143,
+                "count": 3
+            },
+            {
+                "text": "claims",
+                "relevance": 0.518535,
+                "count": 1
+            },
+            {
+                "text": "method of claim",
+                "relevance": 0.518272,
+                "count": 10
+            },
+            {
+                "text": "significant reduction",
+                "relevance": 0.516569,
+                "count": 1
+            },
+            {
+                "text": "communication device of a subscriber",
+                "relevance": 0.516462,
+                "count": 1
+            },
+            {
+                "text": "Saint-Laurent",
+                "relevance": 0.516363,
+                "count": 1
+            },
+            {
+                "text": "second shared secret",
+                "relevance": 0.514963,
+                "count": 3
+            },
+            {
+                "text": "public key of the CP",
+                "relevance": 0.514205,
+                "count": 3
+            },
+            {
+                "text": "method",
+                "relevance": 0.511849,
+                "count": 9
+            },
+            {
+                "text": "round trip",
+                "relevance": 0.509615,
+                "count": 1
+            },
+            {
+                "text": "user experience",
+                "relevance": 0.509615,
+                "count": 1
+            },
+            {
+                "text": "proxy",
+                "relevance": 0.509028,
+                "count": 2
+            },
+            {
+                "text": "URL",
+                "relevance": 0.508697,
+                "count": 1
+            },
+            {
+                "text": "nodes of the CDN",
+                "relevance": 0.508592,
+                "count": 2
+            },
+            {
+                "text": "Parser",
+                "relevance": 0.508578,
+                "count": 2
+            },
+            {
+                "text": "inventors' summary information",
+                "relevance": 0.507959,
+                "count": 1
+            },
+            {
+                "text": "CP using",
+                "relevance": 0.507368,
+                "count": 2
+            },
+            {
+                "text": "patent",
+                "relevance": 0.507118,
+                "count": 4
+            },
+            {
+                "text": "first communication interface circuitry",
+                "relevance": 0.506828,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "363c0862183571d95a3df0106ccbfcfb192205d1",
+        "filename": "202006050000NEWSRX__VRT_TECH_E997CCCE5479F5C.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NASDAQ-NMS|ERIC|CUSIP:294821608;ISIN:US2948216088|Telefonaktiebolaget LM Ericsson|extractor|DUNS:353957491;NECOID:15507;ACORN:3919061230|SIGNIFICANT|ADRTICKER=NASDAQ-NMS:ERIC||ADR|XNAS|SYNONYM",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Patent Issued for Method And Apparatus For Secure Content Caching And Delivery (USPTO 10,666,755): Telefonaktiebolaget LM Ericsson (publ)",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at <org>Internet Daily News</org> -- <org idsrc=\"xmltag.org\" value=\"Stockholm:ERICA\">Telefonaktiebolaget LM Ericsson</org> (publ) (<location idsrc=\"xmltag.org\" value=\"LU/se..stholm\">Stockholm, Sweden</location>) has been issued patent number 10,666,755, according to news reporting originating out of <location idsrc=\"xmltag.org\" value=\"LU/us.va.alxdra\">Alexandria, Virginia</location>, by NewsRx editors.</p>\n<p>The patent&#8217;s inventors are Zhu, Zhongwen (<location idsrc=\"xmltag.org\" value=\"LU/ca.qc.saient\">Saint-Laurent</location>, CA); Pourzandi, Makan (<location idsrc=\"xmltag.org\" value=\"LU/ca.qc.montrl\">Montreal</location>, CA).</p>\n<p>This patent was filed on <chron>October 23, 2015</chron> and was published online on <chron>June 8, 2020</chron>.</p>\n<p>From the background information supplied by the inventors, news correspondents obtained the following quote: &#8220;In current content delivery networks, Hypertext Transfer Protocol (HTTP) is used as a main delivery mechanism. Since the asset, or data such as a title or content, is delivered in a non-secure environment, this allows the delivery node to verify the asset. Then, the delivery node can decide to cache the asset based upon the content verification. In this way, the delivery node can serve the same asset to different subscribers. This leads to a significant reduction in the round trip from the client to server, which improves the user experience.</p>\n<p>&#8220;The Internet Engineering Steering Group (IESG)/<org>Internet Engineering Task Force</org> (IETF) has recently released HTTP 2, within which, Transport Layer Security (TLS) is mandatory for HTTP traffic. This means that in the future, content will be delivered via an end-to-end secure connection. Major browsers are being developed to support the new standard.&#8221;</p>\n<p>Supplementing the background information on this patent, NewsRx reporters also obtained the inventors&#8217; summary information for this patent: &#8220;According to some embodiments, a method of operation implemented by a communication device of a subscriber configured for operation in a communication network includes sending a content request to a CP system reachable via the communication network, the content request identifying targeted content, such as a video, and including a public key of the communication device. The method includes receiving a response from the CP system that identifies a CDN and includes an authorization token and a content key that is derived from the public key of the communication device and a private key of the CP system. The method also includes sending the authorization token to the CDN and correspondingly receiving a delivery token and an address of a DN. The method then includes sending the delivery token and the content key to the DN and correspondingly receiving encrypted content from the DN, the encrypted content comprising at least a portion of the targeted content as initially encrypted by the CP using a public key of the CP, and as further encrypted by the CDN using the content key provided by the communication device. The method then includes decrypting the encrypted content using a private key of the communication device, to obtain decrypted content for media playback at the communication device of the subscriber.</p>\n<p>&#8220;According to some embodiments, a communication device of a subscriber configured for operation in a communication network includes communication interface circuitry configured to send signals to the communication network and receive signals from the communication network. The communication device also includes processing circuitry operatively associated with the communication interface. The processing circuitry is configured to send a content request to a CP system reachable via the communication network, the content request identifying targeted content and including a public key of the communication device. The processing circuitry is also configured to receive a response from the CP system identifying a CDN and including an authorization token and a content key that is derived from the public key of the communication device and a private key of the CP system. The processing circuitry is configured to send the authorization token to the CDN and correspondingly receive a delivery token and an address of a DN. The processing circuitry is configured to send the delivery token and the content key to the DN and correspondingly receive encrypted content from the DN, the encrypted content comprising at least a portion of the targeted content as initially encrypted by the CP using a public key of the CP, and as further encrypted by the CDN using the content key provided by the communication device. The processing circuitry is configured to decrypt the encrypted content using a private key of the communication device, to obtain decrypted content for media playback at the communication device.</p>\n<p>&#8220;According to some embodiments, a method of operation in a CDN implemented by one or more nodes of the CDN includes receiving a request for targeted content, wherein the request originates from a communication device of a subscriber operating in a communication network that includes or is in communication with the CDN, and wherein the request includes an authorization token associated with a CP system. The method includes verifying the authorization token and, conditioned upon verification of the authorization token, selecting a DN within the CDN, for use in delivering the targeted content to the communication device and sending a delivery token to the communication device, for return submission by the communication device to the selected DN. The delivery token and a content key are subsequently received from the communication device at the selected DN, the content key being derived by the CP system using a public key of the CP system. The delivery token is verified and, conditioned upon verification of the delivery token, encrypted content is generated comprising at least a portion of the targeted content, based on obtaining initially-encrypted content that is encrypted by the CP system using a private key of the CP system and a public key of the communication device and the initially-encrypted content is further encrypted using the content key and sent to the communication device.</p>\n<p>&#8220;According to some embodiments, a CDN includes first communication interface circuitry configured to receive a request for targeted content, wherein the request originates from a communication device operating in a communication network that includes or is in communication with the CDN, and wherein the request includes an authorization token associated with a CP system. The CDN also includes first processing circuitry operatively associated with the first communication interface circuitry and configured to verify the authorization token. Conditioned upon verification of the authorization token, the first processing circuitry selects a DN within the CDN, for use in delivering the targeted content to the communication device, and sends a delivery token to the communication device, for return submission by the communication device to the selected DN. The CDN also includes second communication interface circuitry configured to receive the delivery token and a content key, as subsequently submitted to the CDN by the communication device, the content key being derived by the CP system using a public key of the CP system. The CDN includes second processing circuitry operatively associated with the second communication interface circuitry and configured to verify the delivery token. Conditioned upon verification of the delivery token, the second processing circuitry generates encrypted content comprising at least a portion of the targeted content, based on obtaining initially-encrypted content that is encrypted by the CP system using a private key of the CP system and a public key of the communication device. The second processing circuitry further encrypts the initially-encrypted content using the content key and sends the encrypted content to the communication device.</p>\n<p>&#8220;Further embodiments may include computer program products and non-transitory computer readable media that store instructions that, when executed by processing circuit, perform the operations of the embodiments describe above.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;What is claimed is:</p>\n<p>&#8220;1. A method of operation implemented by a communication device configured for operation in a communication network, the method comprising: sending a content request to a Content Provider (CP) system reachable via the communication network, the content request identifying targeted content and including a public key of the communication device; receiving a response from the CP system, the response identifying a Content Delivery Network (CDN) and including an authorization token and a content key that is derived from the public key of the communication device and a private key of the CP system; sending the authorization token to the CDN and correspondingly receiving a delivery token and an address of a delivery node; sending the delivery token and the content key to the delivery node and correspondingly receiving encrypted content from the delivery node, the encrypted content comprising at least a portion of the targeted content as initially encrypted by the CP using a public key of the CP, and as further encrypted by the CDN using the content key provided by the communication device; and decrypting the encrypted content using a private key of the communication device, to obtain decrypted content for media playback at the communication device.</p>\n<p>&#8220;2. The method of claim 1, wherein sending the content request to the CP system comprises performing a public key exchange with the CP system and correspondingly establishing a secure connection to the CP system, and sending the content request over the secure connection to the CP system.</p>\n<p>&#8220;3. The method of claim 1, wherein sending the delivery token and the content key to the delivery node comprises establishing a secure connection to the delivery node, and sending the delivery token and the content key over the secure connection to the delivery node.</p>\n<p>&#8220;4. The method of claim 1, wherein the CP system packages the targeted content as one or more Content Management Objects (CMOs) each CMO being separately encrypted by the CP system and having a corresponding authorization token, content key, and delivery node association, and wherein the method includes sending the authorization token and the delivery token on a per-CMO basis.</p>\n<p>&#8220;5. The method of claim 1, wherein the communication device comprises a wireless communication device configured for operation in a Public Land Mobile Network (PLMN).</p>\n<p>&#8220;6. A communication device configured for operation in a communication network, the communication device comprising: communication interface circuitry configured to send signals to the communication network and receive signals from the communication network; and processing circuitry operatively associated with the communication interface and configured to: send a content request to a Content Provider (CP) system reachable via the communication network, the content request identifying targeted content and including a public key of the communication device; receive a response from the CP system, the response identifying a Content Delivery Network (CDN) and including an authorization token and a content key that is derived from the public key of the communication device and a private key of the CP system; send the authorization token to the CDN and correspondingly receive a delivery token and an address of a delivery node; send the delivery token and the content key to the delivery node and correspondingly receive encrypted content from the delivery node, the encrypted content comprising at least a portion of the targeted content as initially encrypted by the CP using a public key of the CP, and as further encrypted by the CDN using the content key provided by the communication device; and decrypt the encrypted content using a private key of the communication device, to obtain decrypted content for media playback at the communication device.</p>\n<p>&#8220;7. The communication device of claim 6, wherein the processing circuitry is configured to send the content request to the CP system by performing a public key exchange with the CP system and correspondingly establishing a secure connection to the CP system, and sending the content request over the secure connection to the CP system.</p>\n<p>&#8220;8. The communication device of claim 6, wherein the processing circuitry is configured to send the delivery token and the content key to the delivery node by establishing a secure connection to the delivery node, and sending the delivery token and the content key over the secure connection to the delivery node.</p>\n<p>&#8220;9. The communication device of claim 6, wherein the CP system packages the targeted content as one or more Content Management Objects (CMOs) each CMO being separately encrypted by the CP system and having a corresponding authorization token, content key, and delivery node association, and wherein the processing circuitry is configured to send the authorization token and the delivery token on a per-CMO basis.</p>\n<p>&#8220;10. The communication device of claim 6, wherein the communication device comprises a wireless communication device configured for operation in a Public Land Mobile Network (PLMN).</p>\n<p>&#8220;11. A method of operation in a Content Delivery Network (CDN), the method implemented by one or more nodes of the CDN and comprising: receiving a request for targeted content, wherein the request originates from a communication device operating in a communication network that includes or is in communication with the CDN, and wherein the request includes an authorization token associated with a Content Provider (CP) system; verifying the authorization token and, conditioned upon verification of the authorization token: selecting a delivery node within the CDN, for use in delivering the targeted content to the communication device; sending a delivery token to the communication device, for return submission by the communication device to the selected delivery node; subsequently receiving the delivery token and a content key from the communication device at the selected delivery node, the content key being derived by the CP system using a private key of the CP system and a public key of the communication device; and verifying the delivery token and, conditioned upon verification of the delivery token: generating encrypted content comprising at least a portion of the targeted content, based on obtaining initially-encrypted content that is encrypted by the CP system using a public key of the CP system and further encrypting the initially-encrypted content using the content key; and sending the encrypted content to the communication device.</p>\n<p>&#8220;12. The method of claim 11, wherein obtaining the initially-encrypted content comprises obtaining the initially-encrypted content from a local data store associated with the selected delivery node when the initially-encrypted content is available from the local data store, and obtaining the initially-encrypted content from the CP system when the initially-encrypted content is not available from the local data store.</p>\n<p>&#8220;13. The method of claim 11, wherein selecting the selected delivery node comprises performing a proximity-based selection, based on evaluating corresponding delivery paths between the communication device and respective ones of two or more delivery nodes within the CDN.</p>\n<p>&#8220;14. The method of claim 13, wherein selecting the selected delivery node further comprises performing a content-based selection, based on at least one of: determining which one or ones among the two or more delivery nodes are authorized or otherwise provisioned for delivering content that originates from the CP system; and determining which one or ones among the two or more delivery nodes are known to have local copies of the initially-encrypted content corresponding to the targeted content.</p>\n<p>&#8220;15. The method of claim 11, wherein the CP system generates the authorization token using a first shared secret shared between the CDN and the CP system, and wherein verifying the authorization token comprises using the first shared secret to verify the authorization token.</p>\n<p>&#8220;16. The method of claim 11, wherein the CDN generates the delivery token using a second shared secret shared between the selected delivery node and a request routing node that handles the request for the targeted content incoming from the communication device, and wherein verifying the delivery token comprises the selected delivery node using the second shared secret to verify the delivery token.</p>\n<p>&#8220;17. The method of claim 11, wherein the operations are performed using a proxy re-encryption (PRE) mechanism, wherein the CDN acts as proxy for the PRE mechanism, and wherein the PRE mechanism utilizes the content key for re-encryption to thereby enable delivery of the targeted content of the CP system to the communication device without exposing the targeted content to the CDN and without exposing the private key of the CP system to the communication device.</p>\n<p>&#8220;18. A Content Delivery Network (CDN) comprising: first communication interface circuitry configured to receive a request for targeted content, wherein the request originates from a communication device operating in a communication network that includes or is in communication with the CDN, and wherein the request includes an authorization token associated with a Content Provider (CP) system; first processing circuitry operatively associated with the first communication interface circuitry and configured to verify the authorization token and, conditioned upon verification of the authorization token: select a delivery node within the CDN, for use in delivering the targeted content to the communication device; and send a delivery token to the communication device, for return submission by the communication device to the selected delivery node; second communication interface circuitry configured to receive the delivery token and a content key, as subsequently submitted to the CDN by the communication device, the content key being derived by the CP system using a private key of the CP system and a public key of the communication device; and second processing circuitry operatively associated with the second communication interface circuitry and configured to verify the delivery token and, conditioned upon verification of the delivery token: generate encrypted content comprising at least a portion of the targeted content, based on obtaining initially-encrypted content that is encrypted by the CP system using a public key of the CP system and further encrypting the initially-encrypted content using the content key; and send the encrypted content to the communication device.</p>\n<p>&#8220;19. The CDN of claim 18, wherein the CDN includes a request routing node comprising the first communication interface circuitry and the first processing circuitry, and further includes two or more delivery nodes, one of which is selected by the request routing node as the selected delivery node and includes the second communication interface circuitry and the second processing circuitry.</p>\n<p>&#8220;20. The CDN of claim 18, wherein the second processing circuitry is configured to obtain the initially-encrypted content by obtaining the initially-encrypted content from a local data store associated with the selected delivery node when the initially-encrypted content is available from the local data store, and obtain the initially-encrypted content from the CP system when the initially-encrypted content is not available from the local data store.</p>\n<p>&#8220;21. The CDN of claim 18, wherein the first processing circuitry is configured to select the selected delivery node by performing a proximity-based selection, based on evaluating corresponding delivery paths between the communication device and respective ones of two or more delivery nodes within the CDN.</p>\n<p>&#8220;22. The CDN of claim 21, wherein the first processing circuitry is configured to select the delivery node by further performing a content-based selection, based on at least one of: determining which one or ones among the two or more delivery nodes are authorized or otherwise provisioned for delivering content that originates from the CP system; and determining which one or ones among the two or more delivery nodes are known to have local copies of the initially-encrypted content corresponding to the targeted content.</p>\n<p>&#8220;23. The CDN of claim 18, wherein the CP system generates the authorization token using a first shared secret shared between the CDN and the CP system, and wherein the first processing circuitry is configured to use the first shared secret to verify the authorization token.</p>\n<p>&#8220;24. The CDN of claim 18, wherein the first processing circuitry is configured to generate the delivery token using a second shared secret shared between the selected delivery node and a request routing node that handles the request for the targeted content incoming from the communication device, and wherein the second processing circuitry is configured to use the second shared secret to verify the delivery token.&#8221;</p>\n<p>For the URL and additional information on this patent, see: Zhu, Zhongwen; Pourzandi, Makan. Method And Apparatus For Secure Content Caching And Delivery. <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> Patent Number 10,666,755, filed <chron>October 23, 2015</chron>, and published online on <chron>June 8, 2020</chron>. Patent URL: <a href=\"http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,666,755.PN.&amp;OS=PN/10,666,755RS=PN/10,666,755\" target=\"_blank\">http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,666,755.PN.&amp;OS=PN/10,666,755RS=PN/10,666,755</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

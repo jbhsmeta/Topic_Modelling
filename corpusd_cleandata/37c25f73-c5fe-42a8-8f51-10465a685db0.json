@@ -1,0 +1,967 @@
+{
+    "id": "37c25f73-c5fe-42a8-8f51-10465a685db0",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Fairfax Sun Gazette \u00a9 Copyright 2020, Sun Gazette Newspapers, Springfield, VA.",
+    "geoOrigin": "Leesburg, Virginia",
+    "sourceType": "Newspaper",
+    "source": "Fairfax Sun Gazette (VA)",
+    "corpus_document_id": "54024506078272354608",
+    "description": "Officers responded at 12:26 a.m. for an alarm at McLean Pharmacy, 1392 Chain Bridge Road, and discovered the front glass door had been shattered. During the second incident, someone broke into Lost Dog Cafe, 1690 Anderson Road, Suite A, at 1:40 a.m. and stole property, police said. Also at 1:40 a.m., someone broke into Nouvelle Nails and Spa, 1690 Anderson Road, Suite...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.crime",
+            "relevance_score": "9",
+            "description": "Burglary",
+            "code": "IS/lifesoc.burglary#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Crime",
+            "code": "IS/lifesoc.crime#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "Fairfax County police on June 2 responded to three commercial burglaries in\nMcLean.\n\nOfficers responded at 12:26 a.m. for an alarm at McLean Pharmacy, 1392 Chain\nBridge Road, and discovered the front glass door had been shattered. According\nto investigators, a group of people broke into the pharmacy, stole property\nand drove away in multiple cars, police said.\n\nDuring the second incident, someone broke into Lost Dog Cafe, 1690 Anderson\nRoad, Suite A, at 1:40 a.m. and stole property, police said. Also at 1:40\na.m., someone broke into Nouvelle Nails and Spa, 1690 Anderson Road, Suite B,\nand stole property, authorities said.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "9",
+            "description": "Government Services",
+            "code": "II/gov.govserve#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "9",
+            "description": "Police Services",
+            "code": "II/gov.police#9#99#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "9",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#9#50#99",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "McLean Pharmacy",
+            "Lost Dog Cafe"
+        ],
+        "location": [
+            "Fairfax County",
+            "1392 Chain Bridge Road",
+            "1690 Anderson Road"
+        ],
+        "person": [
+            "Nouvelle Nails"
+        ],
+        "companies": [
+            "Lost Dog Cafe",
+            "McLean Pharmacy"
+        ]
+    },
+    "geoOrigin_code": "RU/us.va.leeurg",
+    "language": "English",
+    "filename": "202006080000NEWSBANKNEWSPPRS0A57E887D2B5273340DB775B490838A.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.509573,
+                    "label": "negative"
+                },
+                "text": "McLean Pharmacy",
+                "relevance": 0.83433,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "McLean",
+                "relevance": 0.493653,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.579645,
+                    "label": "negative"
+                },
+                "text": "Fairfax County",
+                "relevance": 0.436121,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Fairfax County, Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Fairfax_County,_Virginia"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.502211,
+                    "label": "negative"
+                },
+                "text": "Lost Dog Cafe",
+                "relevance": 0.400087,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Anderson",
+                "relevance": 0.37268,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "1392 Chain",
+                "relevance": 0.37268,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Bridge Road, and discovered the front glass door"
+                },
+                "sentence": " Bridge Road, and discovered the front glass door had been shattered.",
+                "object": {
+                    "text": "shattered"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "police"
+                },
+                "sentence": " and drove away in multiple cars, police said.",
+                "object": {
+                    "text": "and drove away in multiple cars"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "someone"
+                },
+                "sentence": " During the second incident, someone broke into Lost Dog Cafe, 1690 Anderson",
+                "action": {
+                    "verb": {
+                        "text": "break",
+                        "tense": "past"
+                    },
+                    "text": "broke",
+                    "normalized": "break"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.877449,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.829442,
+                "label": "/law, govt and politics/law enforcement"
+            },
+            {
+                "score": 0.723894,
+                "label": "/society/crime/personal offense/homicide"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "Fairfax County police on June 2 responded to three commercial burglaries in McLean.",
+                "score": 0.997962,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            15,
+                            21
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "authorities",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Fairfax County",
+                        "location": [
+                            0,
+                            14
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fairfax County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "During the second incident, someone broke into Lost Dog Cafe, 1690 Anderson Road, Suite A, at 1:40 a.m. and stole property, police said.",
+                "score": 0.452604,
+                "arguments": [
+                    {
+                        "text": "someone",
+                        "location": [
+                            392,
+                            399
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "someone"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Anderson\nRoad",
+                        "location": [
+                            431,
+                            444
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Anderson\nRoad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "During the second incident, someone broke into Lost Dog Cafe, 1690 Anderson Road, Suite A, at 1:40 a.m. and stole property, police said.",
+                "score": 0.987171,
+                "arguments": [
+                    {
+                        "text": "Anderson\nRoad",
+                        "location": [
+                            431,
+                            444
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Anderson\nRoad"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Suite A",
+                        "location": [
+                            446,
+                            453
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Suite A"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "During the second incident, someone broke into Lost Dog Cafe, 1690 Anderson Road, Suite A, at 1:40 a.m. and stole property, police said.",
+                "score": 0.502073,
+                "arguments": [
+                    {
+                        "text": "1:40 a.m.",
+                        "location": [
+                            458,
+                            467
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "1:40 a.m."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            495,
+                            499
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Also at 1:40 a.m., someone broke into Nouvelle Nails and Spa, 1690 Anderson Road, Suite B, and stole property, authorities said.",
+                "score": 0.499393,
+                "arguments": [
+                    {
+                        "text": "someone",
+                        "location": [
+                            520,
+                            527
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "someone"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Anderson Road",
+                        "location": [
+                            568,
+                            581
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Anderson Road"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Also at 1:40 a.m., someone broke into Nouvelle Nails and Spa, 1690 Anderson Road, Suite B, and stole property, authorities said.",
+                "score": 0.652803,
+                "arguments": [
+                    {
+                        "text": "Spa",
+                        "location": [
+                            558,
+                            561
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Spa"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Anderson Road",
+                        "location": [
+                            568,
+                            581
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Anderson Road"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Also at 1:40 a.m., someone broke into Nouvelle Nails and Spa, 1690 Anderson Road, Suite B, and stole property, authorities said.",
+                "score": 0.986751,
+                "arguments": [
+                    {
+                        "text": "Anderson Road",
+                        "location": [
+                            568,
+                            581
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Anderson Road"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Suite B",
+                        "location": [
+                            583,
+                            590
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Suite B"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Fairfax County police on June 2 responded to three commercial burglaries in McLean.",
+                "score": 0.946147,
+                "arguments": [
+                    {
+                        "text": "June 2",
+                        "location": [
+                            25,
+                            31
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "June 2"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "responded",
+                        "location": [
+                            32,
+                            41
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "responded"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Fairfax County police on June 2 responded to three commercial burglaries in McLean.",
+                "score": 0.938966,
+                "arguments": [
+                    {
+                        "text": "burglaries",
+                        "location": [
+                            62,
+                            72
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "burglaries"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "McLean",
+                        "location": [
+                            76,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "McLean Pharmacy"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Officers responded at 12:26 a.m. for an alarm at McLean Pharmacy, 1392 Chain Bridge Road, and discovered the front glass door had been shattered.",
+                "score": 0.986639,
+                "arguments": [
+                    {
+                        "text": "Officers",
+                        "location": [
+                            85,
+                            93
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Officers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "responded",
+                        "location": [
+                            94,
+                            103
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "responded"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Officers responded at 12:26 a.m. for an alarm at McLean Pharmacy, 1392 Chain Bridge Road, and discovered the front glass door had been shattered.",
+                "score": 0.962061,
+                "arguments": [
+                    {
+                        "text": "12:26 a.m.",
+                        "location": [
+                            107,
+                            117
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "12:26 a.m."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "responded",
+                        "location": [
+                            94,
+                            103
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "responded"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Officers responded at 12:26 a.m. for an alarm at McLean Pharmacy, 1392 Chain Bridge Road, and discovered the front glass door had been shattered.",
+                "score": 0.946766,
+                "arguments": [
+                    {
+                        "text": "Chain\nBridge Road",
+                        "location": [
+                            156,
+                            173
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Chain\nBridge Road"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "McLean Pharmacy",
+                        "location": [
+                            134,
+                            149
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "McLean Pharmacy"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "According to investigators, a group of people broke into the pharmacy, stole property and drove away in multiple cars, police said.",
+                "score": 0.746531,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            270,
+                            276
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cars",
+                        "location": [
+                            344,
+                            348
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "cars"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "According to investigators, a group of people broke into the pharmacy, stole property and drove away in multiple cars, police said.",
+                "score": 0.970017,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            350,
+                            356
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "authorities",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            357,
+                            361
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "During the second incident, someone broke into Lost Dog Cafe, 1690 Anderson Road, Suite A, at 1:40 a.m. and stole property, police said.",
+                "score": 0.970655,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            488,
+                            494
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "authorities",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            495,
+                            499
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Also at 1:40 a.m., someone broke into Nouvelle Nails and Spa, 1690 Anderson Road, Suite B, and stole property, authorities said.",
+                "score": 0.970611,
+                "arguments": [
+                    {
+                        "text": "authorities",
+                        "location": [
+                            612,
+                            623
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "authorities",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            624,
+                            628
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "authorOf",
+                "sentence": "During the second incident, someone broke into Lost Dog Cafe, 1690 Anderson Road, Suite A, at 1:40 a.m. and stole property, police said.",
+                "score": 0.520561,
+                "arguments": [
+                    {
+                        "text": "someone",
+                        "location": [
+                            392,
+                            399
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "someone"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Lost Dog Cafe",
+                        "location": [
+                            411,
+                            424
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Lost Dog Cafe"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "second incident",
+                "relevance": 0.824182,
+                "count": 1
+            },
+            {
+                "text": "Anderson Road",
+                "relevance": 0.788815,
+                "count": 1
+            },
+            {
+                "text": "Fairfax County police",
+                "relevance": 0.700752,
+                "count": 1
+            },
+            {
+                "text": "Nouvelle Nails",
+                "relevance": 0.694398,
+                "count": 1
+            },
+            {
+                "text": "Suite A",
+                "relevance": 0.647387,
+                "count": 1
+            },
+            {
+                "text": "group of people",
+                "relevance": 0.604774,
+                "count": 1
+            },
+            {
+                "text": "investigators",
+                "relevance": 0.574966,
+                "count": 1
+            },
+            {
+                "text": "Officers",
+                "relevance": 0.544043,
+                "count": 1
+            },
+            {
+                "text": "Spa",
+                "relevance": 0.542053,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.524845,
+                "count": 1
+            },
+            {
+                "text": "stole property",
+                "relevance": 0.523292,
+                "count": 3
+            },
+            {
+                "text": "alarm",
+                "relevance": 0.519836,
+                "count": 1
+            },
+            {
+                "text": "police",
+                "relevance": 0.516861,
+                "count": 2
+            },
+            {
+                "text": "cars",
+                "relevance": 0.515889,
+                "count": 1
+            },
+            {
+                "text": "Lost Dog Cafe",
+                "relevance": 0.51316,
+                "count": 1
+            },
+            {
+                "text": "authorities",
+                "relevance": 0.512706,
+                "count": 1
+            },
+            {
+                "text": "pharmacy",
+                "relevance": 0.509714,
+                "count": 1
+            },
+            {
+                "text": "front glass door",
+                "relevance": 0.496574,
+                "count": 1
+            },
+            {
+                "text": "Suite B",
+                "relevance": 0.481788,
+                "count": 1
+            },
+            {
+                "text": "McLean Pharmacy",
+                "relevance": 0.469719,
+                "count": 1
+            },
+            {
+                "text": "commercial burglaries",
+                "relevance": 0.435719,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "21ecdb55bfba7e509c8dd59d17064890ca0e1e44",
+        "filename": "202006080000NEWSBANKNEWSPPRS0A57E887D2B5273340DB775B490838A.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-08T00:00:00-04:00",
+    "title": "Fairfax police respond to trio of McLean burglaries",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.va.faifax\">Fairfax County</location> police on <chron>June 2</chron> responded to three commercial burglaries in McLean.</p>\n<p>Officers responded at <chron>12:26 a.m.</chron> for an alarm at <org>McLean Pharmacy</org>, <location>1392 Chain Bridge Road</location>, and discovered the front glass door had been shattered. According to investigators, a group of people broke into the pharmacy, stole property and drove away in multiple cars, police said.</p>\n\n<p>During the second incident, someone broke into <org>Lost Dog Cafe</org>, <location>1690 Anderson Road</location>, Suite A, at <chron>1:40 a.m.</chron> and stole property, police said. Also at <chron>1:40 a.m.</chron>, someone broke into <person>Nouvelle Nails</person> and Spa, <location>1690 Anderson Road</location>, Suite B, and stole property, authorities said.</p>",
+    "geoFocus": [
+        [
+            "GU/us.va.mclean",
+            "McLean"
+        ]
+    ]
+}

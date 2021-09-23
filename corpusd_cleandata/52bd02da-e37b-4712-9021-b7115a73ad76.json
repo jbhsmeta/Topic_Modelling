@@ -1,0 +1,936 @@
+{
+    "id": "52bd02da-e37b-4712-9021-b7115a73ad76",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "Norwich, England, United Kingdom",
+    "sourceType": "Newspaper",
+    "source": "Norwich Evening News (UK)",
+    "corpus_document_id": "51164133244788470903",
+    "description": "A Norfolk man has donated an oil painting to a hospital after he was treated there last year. Eddie Goodrige, from Fulmodeston, near Fakenham, who has been a pa",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.practice",
+            "relevance_score": "9",
+            "description": "Nursing",
+            "code": "IS/haw.nursing#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Specialties and Practices",
+            "code": "IS/haw.practice#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "A Norfolk man has donated an oil painting to a hospital after he was treated\nthere last year.\n\nEddie Goodrige, from Fulmodeston, near Fakenham, who has been a painter for 20\nyears, created the artwork to thank NHS staff who treated him for a virus for\nthree days in November.\n\nThe 70-year-old has given the piece, called Night Angels, to the Norfolk and\nNorwich University Hospital.\n\nMr Goodrige said: \"The care I received was absolutely wonderful and I felt\nlike I was in safe hands the whole time.\n\n\"The nurses always had a smile on their faces and I can't thank them enough\nfor the support they gave me and other patients.\"\n\nThe artwork, which depicts two nurses looking after a patient and is 1.5m by\n1.2m, took several months to paint.\n\nMr Goodridge said: \"I hope people feel a sense of pride for the NHS when they\nlook at the painting.\"",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Healthcare",
+            "code": "II/hcare#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "II/hcare",
+            "relevance_score": "9",
+            "description": "Healthcare Facilities",
+            "code": "II/hcare.facility#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "II/hcare.facility",
+            "relevance_score": "9",
+            "description": "Hospitals",
+            "code": "II/hcare.hospital#9#99#50",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Norwich University Hospital"
+        ],
+        "location": [],
+        "person": [
+            "Eddie Goodrige",
+            "Mr Goodrige",
+            "Mr Goodridge"
+        ],
+        "companies": [
+            "Norwich University Hospital"
+        ]
+    },
+    "geoOrigin_code": "RU/gb.eng.norwch",
+    "language": "English",
+    "filename": "202006050000ARCHANT_NEWS____86537017.XML",
+    "providerName": "Archant Limited",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.574551,
+                    "label": "positive"
+                },
+                "text": "NHS",
+                "relevance": 0.942848,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Norfolk",
+                "relevance": 0.835937,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Eddie Goodrige",
+                "relevance": 0.807034,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mr Goodridge",
+                "relevance": 0.723167,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.296232,
+                    "label": "negative"
+                },
+                "text": "Norwich University Hospital",
+                "relevance": 0.665213,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Fakenham",
+                "relevance": 0.524987,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "EnglishCivilParish",
+                        "City"
+                    ],
+                    "name": "Fakenham",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Fakenham"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Fulmodeston",
+                "relevance": 0.428825,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "EnglishCivilParish",
+                        "City"
+                    ],
+                    "name": "Fulmodeston",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Fulmodeston"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "three days",
+                "relevance": 0.428825,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "20\nyears",
+                "relevance": 0.428825,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "70-year",
+                "relevance": 0.428825,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "1.2m",
+                "relevance": 0.428825,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "1.5m",
+                "relevance": 0.428825,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A Norfolk man"
+                },
+                "sentence": "A Norfolk man has donated an oil painting to a hospital after he was treated",
+                "object": {
+                    "text": "donated an oil painting to a hospital after he was treated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A Norfolk man"
+                },
+                "sentence": "A Norfolk man has donated an oil painting to a hospital after he was treated",
+                "object": {
+                    "text": "an oil painting"
+                },
+                "action": {
+                    "verb": {
+                        "text": "donate",
+                        "tense": "past"
+                    },
+                    "text": "has donated",
+                    "normalized": "have donate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Eddie Goodrige"
+                },
+                "sentence": " Eddie Goodrige, from Fulmodeston, near Fakenham, who has been a painter for 20",
+                "object": {
+                    "text": "been a painter"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Eddie Goodrige"
+                },
+                "sentence": " Eddie Goodrige, from Fulmodeston, near Fakenham, who has been a painter for 20",
+                "object": {
+                    "text": "a painter"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "has been",
+                    "normalized": "have be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "NHS staff"
+                },
+                "sentence": " years, created the artwork to thank NHS staff who treated him for a virus for",
+                "object": {
+                    "text": "him"
+                },
+                "action": {
+                    "verb": {
+                        "text": "treat",
+                        "tense": "past"
+                    },
+                    "text": "treated",
+                    "normalized": "treat"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The 70-year-old"
+                },
+                "sentence": " The 70-year-old has given the piece, called Night Angels, to the Norfolk and",
+                "object": {
+                    "text": "given the piece"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The 70-year-old"
+                },
+                "sentence": " The 70-year-old has given the piece, called Night Angels, to the Norfolk and",
+                "object": {
+                    "text": "the piece, called Night Angels, to the Norfolk"
+                },
+                "action": {
+                    "verb": {
+                        "text": "give",
+                        "tense": "past"
+                    },
+                    "text": "has given",
+                    "normalized": "have give"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The 70-year-old"
+                },
+                "sentence": " The 70-year-old has given the piece, called Night Angels, to the Norfolk and",
+                "object": {
+                    "text": "the piece"
+                },
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "past"
+                    },
+                    "text": "called",
+                    "normalized": "call"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mr Goodrige"
+                },
+                "sentence": " Mr Goodrige said: \"The care I received was absolutely wonderful and I felt",
+                "object": {
+                    "text": "The care I received was absolutely wonderful and I felt"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " Mr Goodrige said: \"The care I received was absolutely wonderful and I felt",
+                "object": {
+                    "text": "The care"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "past"
+                    },
+                    "text": "received",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " like I was in safe hands the whole time.",
+                "object": {
+                    "text": "in safe hands"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The nurses"
+                },
+                "sentence": " \"The nurses always had a smile on their faces and I can't thank them enough",
+                "object": {
+                    "text": "a smile"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " \"The nurses always had a smile on their faces and I can't thank them enough",
+                "object": {
+                    "text": "enough"
+                },
+                "action": {
+                    "verb": {
+                        "text": "thank",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "thank",
+                    "normalized": "thank"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The artwork"
+                },
+                "sentence": " The artwork, which depicts two nurses looking after a patient and is 1.5m by",
+                "object": {
+                    "text": "two nurses looking after a patient"
+                },
+                "action": {
+                    "verb": {
+                        "text": "depict",
+                        "tense": "present"
+                    },
+                    "text": "depicts",
+                    "normalized": "depict"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The artwork"
+                },
+                "sentence": " The artwork, which depicts two nurses looking after a patient and is 1.5m by",
+                "object": {
+                    "text": "1.5m by"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "several months"
+                },
+                "sentence": " 1.2m, took several months to paint.",
+                "object": {
+                    "text": "to paint"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "past"
+                    },
+                    "text": "took",
+                    "normalized": "take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mr Goodridge"
+                },
+                "sentence": " Mr Goodridge said: \"I hope people feel a sense of pride for the NHS when they",
+                "object": {
+                    "text": "I hope people feel a sense of pride for the NHS when they"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.887257,
+                "label": "/careers/nursing"
+            },
+            {
+                "score": 0.703741,
+                "label": "/family and parenting/eldercare"
+            },
+            {
+                "score": 0.673536,
+                "label": "/health and fitness"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "A Norfolk man has donated an oil painting to a hospital after he was treated there last year.",
+                "score": 0.928721,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            10,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Eddie Goodrige"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Norfolk",
+                        "location": [
+                            2,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Norfolk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "A Norfolk man has donated an oil painting to a hospital after he was treated there last year.",
+                "score": 0.346883,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            10,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Eddie Goodrige"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hospital",
+                        "location": [
+                            47,
+                            55
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospital"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Eddie Goodrige, from Fulmodeston, near Fakenham, who has been a painter for 20 years, created the artwork to thank NHS staff who treated him for a virus for three days in November.",
+                "score": 0.80638,
+                "arguments": [
+                    {
+                        "text": "Eddie Goodrige",
+                        "location": [
+                            95,
+                            109
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Eddie Goodrige"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Fulmodeston",
+                        "location": [
+                            116,
+                            127
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fulmodeston"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "near",
+                "sentence": "Eddie Goodrige, from Fulmodeston, near Fakenham, who has been a painter for 20 years, created the artwork to thank NHS staff who treated him for a virus for three days in November.",
+                "score": 0.592524,
+                "arguments": [
+                    {
+                        "text": "Fulmodeston",
+                        "location": [
+                            116,
+                            127
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fulmodeston"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Fakenham",
+                        "location": [
+                            134,
+                            142
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fakenham"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Mr Goodrige said: \"The care I received was absolutely wonderful and I felt like I was in safe hands the whole time.",
+                "score": 0.987536,
+                "arguments": [
+                    {
+                        "text": "Goodrige",
+                        "location": [
+                            387,
+                            395
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Eddie Goodrige"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            396,
+                            400
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Mr Goodridge said: \"I hope people feel a sense of pride for the NHS when they look at the painting.\"",
+                "score": 0.986495,
+                "arguments": [
+                    {
+                        "text": "Goodridge",
+                        "location": [
+                            745,
+                            754
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Goodridge"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            755,
+                            759
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "last year",
+                "relevance": 0.971459,
+                "count": 1
+            },
+            {
+                "text": "Mr Goodrige",
+                "relevance": 0.755647,
+                "count": 1
+            },
+            {
+                "text": "70-year-old",
+                "relevance": 0.696793,
+                "count": 1
+            },
+            {
+                "text": "Eddie Goodrige",
+                "relevance": 0.640349,
+                "count": 1
+            },
+            {
+                "text": "Norfolk man",
+                "relevance": 0.629643,
+                "count": 1
+            },
+            {
+                "text": "Mr Goodridge",
+                "relevance": 0.624541,
+                "count": 1
+            },
+            {
+                "text": "artwork",
+                "relevance": 0.581634,
+                "count": 2
+            },
+            {
+                "text": "safe hands",
+                "relevance": 0.566483,
+                "count": 1
+            },
+            {
+                "text": "nurses",
+                "relevance": 0.549992,
+                "count": 2
+            },
+            {
+                "text": "Night Angels",
+                "relevance": 0.536798,
+                "count": 1
+            },
+            {
+                "text": "piece",
+                "relevance": 0.530375,
+                "count": 1
+            },
+            {
+                "text": "support",
+                "relevance": 0.525353,
+                "count": 1
+            },
+            {
+                "text": "Norfolk",
+                "relevance": 0.520056,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.51627,
+                "count": 1
+            },
+            {
+                "text": "patients",
+                "relevance": 0.515966,
+                "count": 1
+            },
+            {
+                "text": "days",
+                "relevance": 0.515781,
+                "count": 1
+            },
+            {
+                "text": "care",
+                "relevance": 0.514839,
+                "count": 1
+            },
+            {
+                "text": "smile",
+                "relevance": 0.51334,
+                "count": 1
+            },
+            {
+                "text": "Fakenham",
+                "relevance": 0.510345,
+                "count": 1
+            },
+            {
+                "text": "months",
+                "relevance": 0.510345,
+                "count": 1
+            },
+            {
+                "text": "hospital",
+                "relevance": 0.509631,
+                "count": 1
+            },
+            {
+                "text": "Norwich University Hospital",
+                "relevance": 0.509614,
+                "count": 1
+            },
+            {
+                "text": "November",
+                "relevance": 0.508532,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.508532,
+                "count": 1
+            },
+            {
+                "text": "painter",
+                "relevance": 0.508532,
+                "count": 1
+            },
+            {
+                "text": "NHS",
+                "relevance": 0.506938,
+                "count": 1
+            },
+            {
+                "text": "painting",
+                "relevance": 0.505498,
+                "count": 1
+            },
+            {
+                "text": "NHS staff",
+                "relevance": 0.492737,
+                "count": 1
+            },
+            {
+                "text": "oil painting",
+                "relevance": 0.487423,
+                "count": 1
+            },
+            {
+                "text": "sense of pride",
+                "relevance": 0.481444,
+                "count": 1
+            },
+            {
+                "text": "years",
+                "relevance": 0.475268,
+                "count": 1
+            },
+            {
+                "text": "whole time",
+                "relevance": 0.472234,
+                "count": 1
+            },
+            {
+                "text": "1.5m",
+                "relevance": 0.438116,
+                "count": 1
+            },
+            {
+                "text": "1.2m",
+                "relevance": 0.420963,
+                "count": 1
+            },
+            {
+                "text": "Fulmodeston",
+                "relevance": 0.41685,
+                "count": 1
+            },
+            {
+                "text": "faces",
+                "relevance": 0.414052,
+                "count": 1
+            },
+            {
+                "text": "patient",
+                "relevance": 0.411714,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-Sa",
+    "extracted_metadata": {
+        "sha1": "d17c39574f40d27526e7b029dd69b5a633c939cd",
+        "filename": "202006050000ARCHANT_NEWS____86537017.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Norfolk man donates oil painting to hospital of nurses caring for patient",
+    "html": "<p>A Norfolk man has donated an oil painting to a hospital after he was treated there last year.</p>\n<p><person>Eddie Goodrige</person>, from Fulmodeston, near Fakenham, who has been a painter for 20 years, created the artwork to thank NHS staff who treated him for a virus for three days in November.</p>\n<p>The 70-year-old has given the piece, called Night Angels, to the Norfolk and <org>Norwich University Hospital</org>.</p>\n<p><person>Mr Goodrige</person> said: &#8220;The care I received was absolutely wonderful and I felt like I was in safe hands the whole time.</p>\n<p>&#8220;The nurses always had a smile on their faces and I can&#8217;t thank them enough for the support they gave me and other patients.&#8221;</p>\n<p>The artwork, which depicts two nurses looking after a patient and is 1.5m by 1.2m, took several months to paint.</p>\n<p><person>Mr Goodridge</person> said: &#8220;I hope people feel a sense of pride for the NHS when they look at the painting.&#8221;</p>",
+    "geoFocus": [
+        [
+            "GU/gb.eng.norwch",
+            "Norwich"
+        ]
+    ]
+}

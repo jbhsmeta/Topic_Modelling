@@ -1,0 +1,211 @@
+{
+    "id": "381b3818-bb3d-423c-97c4-8ffdc8328e97",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "15514213777466970658",
+    "description": "In this town, with its primary focus on exteriors, women my age get used to not being seen. We have already been primed for the shutdown.",
+    "serviceName": "Health Pharma News",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "In this town, with its primary focus on exteriors, women my age get used to\nnot being seen. We have already been primed for the shutdown. (Source: L.A.\nTimes \\- Health)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "L.A. Times"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050127AMSPIDERHEPHNEWS_MEDWRM04_37D0312FF1B97314F09D4ECC240324CE_132.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.437918,
+                    "label": "positive"
+                },
+                "text": "L.A",
+                "relevance": 0.845091,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "OlympicBiddingCity",
+                        "OlympicHostCity",
+                        "PlaceWithNeighborhoods",
+                        "FilmScreeningVenue",
+                        "City"
+                    ],
+                    "name": "Los Angeles",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Los_Angeles"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "women my age"
+                },
+                "sentence": "In this town, with its primary focus on exteriors, women my age get used to",
+                "action": {
+                    "verb": {
+                        "text": "get",
+                        "tense": "present"
+                    },
+                    "text": "get",
+                    "normalized": "get"
+                }
+            },
+            {
+                "subject": {
+                    "text": "women"
+                },
+                "sentence": "In this town, with its primary focus on exteriors, women my age get used to",
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "get used",
+                    "normalized": "get use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " We have already been primed for the shutdown.",
+                "object": {
+                    "text": "already been primed for the shutdown"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " We have already been primed for the shutdown.",
+                "action": {
+                    "verb": {
+                        "text": "prime",
+                        "tense": "past"
+                    },
+                    "text": "primed",
+                    "normalized": "prime"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.982251,
+                "label": "/health and fitness/men's health"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "In this town, with its primary focus on exteriors, women my age get used to not being seen.",
+                "score": 0.506513,
+                "arguments": [
+                    {
+                        "text": "women",
+                        "location": [
+                            51,
+                            56
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "women"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "town",
+                        "location": [
+                            8,
+                            12
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "town"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "primary focus",
+                "relevance": 0.987666,
+                "count": 1
+            },
+            {
+                "text": "town",
+                "relevance": 0.773782,
+                "count": 1
+            },
+            {
+                "text": "exteriors",
+                "relevance": 0.609628,
+                "count": 1
+            },
+            {
+                "text": "Source",
+                "relevance": 0.594243,
+                "count": 1
+            },
+            {
+                "text": "women",
+                "relevance": 0.590885,
+                "count": 1
+            },
+            {
+                "text": "age",
+                "relevance": 0.575224,
+                "count": 1
+            },
+            {
+                "text": "Health",
+                "relevance": 0.551377,
+                "count": 1
+            },
+            {
+                "text": "shutdown",
+                "relevance": 0.551377,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "f7f658f7a2fd9fffb1a0566920b12e75757faccf",
+        "filename": "202006050127AMSPIDERHEPHNEWS_MEDWRM04_37D0312FF1B97314F09D4ECC240324CE_132.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T01:27:00-04:00",
+    "title": "To be a woman in L.A. involves upkeep. Just not during coronavirus [MedWorm News]",
+    "html": "<p>In this town, with its primary focus on exteriors, women my age get used to not being seen. We have already been primed for the shutdown. (Source: <person>L.A. Times</person> - Health)</p>",
+    "geoFocus": []
+}

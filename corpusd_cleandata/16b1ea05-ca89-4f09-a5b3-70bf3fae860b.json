@@ -1,0 +1,671 @@
+{
+    "id": "16b1ea05-ca89-4f09-a5b3-70bf3fae860b",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 The Daily Leader, Boone Newspapers Inc., All rights reserved.",
+    "geoOrigin": "Northport, Alabama",
+    "sourceType": "Newspaper",
+    "source": "Daily Leader, The (Brookhaven, MS)",
+    "corpus_document_id": "65616296316179622489",
+    "description": "Lincoln County will distribute face masks to county citizens Saturday to help curb the spread of coronavirus COVID-19. Emergency Management Director Clifford Galey announced Monday evening that the community distribution would begin at 9 a.m. at the Hansel King Sportsplex on Beltline Drive in Brookhaven. Persons claiming masks must have a Lincoln County...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#75#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "Lincoln County will distribute face masks to county citizens Saturday to help\ncurb the spread of coronavirus COVID-19.\n\nThe washable masks were provided to the county by the Mississippi Emergency\nManagement Association.\n\nEmergency Management Director Clifford Galey announced Monday evening that the\ncommunity distribution would begin at 9 a.m. at the Hansel King Sportsplex on\nBeltline Drive in Brookhaven.\n\nPersons claiming masks must have a Lincoln County license plate and four masks\nwill be provided per vehicle.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Mississippi Emergency Management Association"
+        ],
+        "location": [
+            "Lincoln County",
+            "Beltline Drive",
+            "Brookhaven"
+        ],
+        "person": [
+            "Clifford Galey"
+        ],
+        "companies": [
+            "Mississippi Emergency Management Association"
+        ]
+    },
+    "geoOrigin_code": "RU/us.al.norort",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS9D9212D72F9D058B59CB06B9E99838C.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Lincoln County",
+                "relevance": 0.88974,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Lincoln County, Mississippi",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Lincoln_County,_Mississippi"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hansel King Sportsplex",
+                "relevance": 0.378193,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Clifford Galey",
+                "relevance": 0.321052,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mississippi Emergency",
+                "relevance": 0.289298,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Brookhaven",
+                "relevance": 0.237393,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Brookhaven, Mississippi",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Brookhaven,_Mississippi"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Management Association",
+                "relevance": 0.232333,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Director",
+                "relevance": 0.188711,
+                "type": "JobTitle"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Lincoln County"
+                },
+                "sentence": "Lincoln County will distribute face masks to county citizens Saturday to help",
+                "object": {
+                    "text": "face masks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "distribute",
+                        "tense": "future"
+                    },
+                    "text": "will distribute",
+                    "normalized": "will distribute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The washable masks"
+                },
+                "sentence": " The washable masks were provided to the county by the Mississippi Emergency",
+                "object": {
+                    "text": "provided to the county by the Mississippi Emergency"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The washable masks"
+                },
+                "sentence": " The washable masks were provided to the county by the Mississippi Emergency",
+                "object": {
+                    "text": "to the county by the Mississippi Emergency"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "past"
+                    },
+                    "text": "were provided",
+                    "normalized": "be provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Emergency Management Director Clifford Galey"
+                },
+                "sentence": " Emergency Management Director Clifford Galey announced Monday evening that the",
+                "object": {
+                    "text": "that the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "past"
+                    },
+                    "text": "announced",
+                    "normalized": "announce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Persons"
+                },
+                "sentence": " Persons claiming masks must have a Lincoln County license plate and four masks",
+                "object": {
+                    "text": "masks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "claim",
+                        "tense": "present"
+                    },
+                    "text": "claiming",
+                    "normalized": "claim"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Persons claiming masks"
+                },
+                "sentence": " Persons claiming masks must have a Lincoln County license plate and four masks",
+                "object": {
+                    "text": "a Lincoln County license plate and four masks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "future"
+                    },
+                    "text": "must have",
+                    "normalized": "must have"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.616359,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.610872,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.590671,
+                "label": "/automotive and vehicles/vehicle brands"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Lincoln County will distribute face masks to county citizens Saturday to help curb the spread of coronavirus COVID-19.",
+                "score": 0.706178,
+                "arguments": [
+                    {
+                        "text": "citizens",
+                        "location": [
+                            52,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "citizens"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "county",
+                        "location": [
+                            45,
+                            51
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Lincoln County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Emergency Management Director Clifford Galey announced Monday evening that the community distribution would begin at 9 a.m. at the Hansel King Sportsplex on Beltline Drive in Brookhaven.",
+                "score": 0.484747,
+                "arguments": [
+                    {
+                        "text": "Director",
+                        "location": [
+                            242,
+                            250
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Clifford Galey"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Emergency Management",
+                        "location": [
+                            221,
+                            241
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Emergency Management",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Emergency Management Director Clifford Galey announced Monday evening that the community distribution would begin at 9 a.m. at the Hansel King Sportsplex on Beltline Drive in Brookhaven.",
+                "score": 0.995096,
+                "arguments": [
+                    {
+                        "text": "Clifford Galey",
+                        "location": [
+                            251,
+                            265
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Clifford Galey"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            266,
+                            275
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Emergency Management Director Clifford Galey announced Monday evening that the community distribution would begin at 9 a.m. at the Hansel King Sportsplex on Beltline Drive in Brookhaven.",
+                "score": 0.8372,
+                "arguments": [
+                    {
+                        "text": "Monday evening",
+                        "location": [
+                            276,
+                            290
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "Monday evening"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            266,
+                            275
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Emergency Management Director Clifford Galey announced Monday evening that the community distribution would begin at 9 a.m. at the Hansel King Sportsplex on Beltline Drive in Brookhaven.",
+                "score": 0.49726,
+                "arguments": [
+                    {
+                        "text": "Hansel King Sportsplex",
+                        "location": [
+                            352,
+                            374
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Hansel King Sportsplex"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Beltline Drive",
+                        "location": [
+                            378,
+                            392
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Beltline Drive"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Emergency Management Director Clifford Galey announced Monday evening that the community distribution would begin at 9 a.m. at the Hansel King Sportsplex on Beltline Drive in Brookhaven.",
+                "score": 0.607012,
+                "arguments": [
+                    {
+                        "text": "Hansel King Sportsplex",
+                        "location": [
+                            352,
+                            374
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Hansel King Sportsplex"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Brookhaven",
+                        "location": [
+                            396,
+                            406
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Brookhaven"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Emergency Management Director Clifford Galey announced Monday evening that the community distribution would begin at 9 a.m. at the Hansel King Sportsplex on Beltline Drive in Brookhaven.",
+                "score": 0.969549,
+                "arguments": [
+                    {
+                        "text": "Beltline Drive",
+                        "location": [
+                            378,
+                            392
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Beltline Drive"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Brookhaven",
+                        "location": [
+                            396,
+                            406
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Brookhaven"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Persons claiming masks must have a Lincoln County license plate and four masks will be provided per vehicle.",
+                "score": 0.964488,
+                "arguments": [
+                    {
+                        "text": "Persons",
+                        "location": [
+                            409,
+                            416
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Persons"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claiming",
+                        "location": [
+                            417,
+                            425
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claiming"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Lincoln County",
+                "relevance": 0.946371,
+                "count": 1
+            },
+            {
+                "text": "face masks",
+                "relevance": 0.937866,
+                "count": 1
+            },
+            {
+                "text": "Emergency Management Director Clifford Galey",
+                "relevance": 0.749598,
+                "count": 1
+            },
+            {
+                "text": "washable masks",
+                "relevance": 0.675032,
+                "count": 1
+            },
+            {
+                "text": "community distribution",
+                "relevance": 0.61449,
+                "count": 1
+            },
+            {
+                "text": "Persons",
+                "relevance": 0.606798,
+                "count": 1
+            },
+            {
+                "text": "Monday evening",
+                "relevance": 0.59419,
+                "count": 1
+            },
+            {
+                "text": "Lincoln County license plate",
+                "relevance": 0.55619,
+                "count": 1
+            },
+            {
+                "text": "county citizens Saturday",
+                "relevance": 0.547058,
+                "count": 1
+            },
+            {
+                "text": "masks",
+                "relevance": 0.543401,
+                "count": 2
+            },
+            {
+                "text": "county",
+                "relevance": 0.53766,
+                "count": 1
+            },
+            {
+                "text": "vehicle",
+                "relevance": 0.512128,
+                "count": 1
+            },
+            {
+                "text": "Brookhaven",
+                "relevance": 0.512128,
+                "count": 1
+            },
+            {
+                "text": "Beltline Drive",
+                "relevance": 0.423877,
+                "count": 1
+            },
+            {
+                "text": "spread of coronavirus COVID-19",
+                "relevance": 0.391721,
+                "count": 1
+            },
+            {
+                "text": "Hansel King Sportsplex",
+                "relevance": 0.37477,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "44b1b318c7a63d4adac3cc2b03dde5288a1b98f7",
+        "filename": "202006010000NEWSBANKNEWSPPRS9D9212D72F9D058B59CB06B9E99838C.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Lincoln County to distribute face masks",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.ms.lincln\">Lincoln County</location> will distribute face masks to county citizens Saturday to help curb the spread of coronavirus COVID-19.</p>\n<p>The washable masks were provided to the county by the <org>Mississippi Emergency Management Association</org>.</p>\n\n<p>Emergency Management Director <person>Clifford Galey</person> announced Monday evening that the community distribution would begin at <chron>9 a.m.</chron> at the Hansel King Sportsplex on <location>Beltline Drive</location> in <location idsrc=\"xmltag.org\" value=\"LU/us.ms.broven\">Brookhaven</location>.</p>\n\n<p>Persons claiming masks must have a <location idsrc=\"xmltag.org\" value=\"LU/us.ms.lincln\">Lincoln County</location> license plate and four masks will be provided per vehicle.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ms.broven",
+            "Brookhaven"
+        ]
+    ]
+}

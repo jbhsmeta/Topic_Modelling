@@ -1,0 +1,959 @@
+{
+    "id": "7940dc91-2a02-469e-96f3-db9b0b0070d6",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 Beloit Daily News, Hagadone Corporation. All rights reserved.",
+    "geoOrigin": "Beloit, Wisconsin",
+    "sourceType": "Newspaper",
+    "source": "Beloit Daily News (WI)",
+    "corpus_document_id": "44944564775984531896",
+    "description": "I see that our sheriff is citing section 252 of the State Statutes as the legal justification for the further local \"Shelter in place\" orders. Section 252 is the very same statute used as the legal basis for \"shelter in place\" by Governor Evers. This was ruled illegal by the State Supreme Court on this very basis.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Judicial System",
+            "code": "IS/pol.judicial#9#99#50",
+            "level": 1
+        },
+        {
+            "parent": "IS/pol.law",
+            "relevance_score": "7",
+            "description": "Statutory Law",
+            "code": "IS/gov.astatlaw#7#75#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "7",
+            "description": "Law",
+            "code": "IS/pol.law#7#78#75",
+            "level": 1
+        }
+    ],
+    "text": "Overreach part two. I see that our sheriff is citing section 252 of the State\nStatutes as the legal justification for the further local \"Shelter in place\"\norders.\n\nA careful reading of this states that local health departments can ban public\ngatherings, not regulate private business. Section 252 is the very same\nstatute used as the legal basis for \"shelter in place\" by Governor Evers. This\nwas ruled illegal by the State Supreme Court on this very basis. How can a\nsubsection of the same Statute be used to justify continued restrictions on\nprivate business? It can't. These local orders are just as illegal as the\noriginal State orders were. Increased testing will help identify those who\nneed to isolate and be legally quarantined by the health department.\n\nAs an additional note, I am a board certified physician who has been exposed\nto this virus from the start. I sympathize with folks and families who have\nbecome very ill or had loved ones pass from this virus, but all we are doing\nwith these restrictions is prolonging the agony and ruining people\nfinancially. Unless we are ready to live under these global restrictions for\nthe next 12-18 months, then we should end them now.\n\nCoronavirus vaccines in humans have remained elusive. A safe and properly\ntested one is at least a year away. Natural herd immunity is our next best\noption and you can't get that by distancing the herd.\n\nDr. Geoffrey Bouc\n\nBeloit\n\n(Dr. Bouc is a family physician in independent practice in Beloit. -- Editor)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "State Supreme Court"
+        ],
+        "location": [],
+        "person": [
+            "Governor Evers",
+            "Geoffrey Bouc",
+            "Dr. Bouc"
+        ],
+        "companies": [
+            "State Supreme Court"
+        ]
+    },
+    "geoOrigin_code": "RU/us.wi.beloit",
+    "language": "English",
+    "filename": "202005260000NEWSBANKNEWSPPRSFF16E4F304309A185C1AE90859A91EB.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dr. Geoffrey Bouc",
+                "relevance": 0.810575,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.319475,
+                    "label": "negative"
+                },
+                "text": "State Supreme Court",
+                "relevance": 0.753382,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Beloit",
+                "relevance": 0.737046,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Governor Evers",
+                "relevance": 0.695999,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "family physician",
+                "relevance": 0.584405,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.365349,
+                    "label": "positive"
+                },
+                "text": "Editor",
+                "relevance": 0.485167,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "18 months",
+                "relevance": 0.485167,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I see that our sheriff is citing section 252 of the State",
+                "object": {
+                    "text": "that our sheriff"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "present"
+                    },
+                    "text": "see",
+                    "normalized": "see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "our sheriff"
+                },
+                "sentence": " I see that our sheriff is citing section 252 of the State",
+                "object": {
+                    "text": "citing section 252 of the State"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "our sheriff"
+                },
+                "sentence": " I see that our sheriff is citing section 252 of the State",
+                "object": {
+                    "text": "section 252 of the State"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cite",
+                        "tense": "present"
+                    },
+                    "text": "is citing",
+                    "normalized": "be cite"
+                }
+            },
+            {
+                "subject": {
+                    "text": "local health departments"
+                },
+                "sentence": " A careful reading of this states that local health departments can ban public",
+                "object": {
+                    "text": "public"
+                },
+                "action": {
+                    "verb": {
+                        "text": "ban",
+                        "tense": "future"
+                    },
+                    "text": "can ban",
+                    "normalized": "can ban"
+                }
+            },
+            {
+                "subject": {
+                    "text": "gatherings"
+                },
+                "sentence": " gatherings, not regulate private business.",
+                "object": {
+                    "text": "private business"
+                },
+                "action": {
+                    "verb": {
+                        "text": "regulate",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "regulate",
+                    "normalized": "regulate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Section 252"
+                },
+                "sentence": " Section 252 is the very same",
+                "object": {
+                    "text": "the very same"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the State Supreme Court"
+                },
+                "sentence": " was ruled illegal by the State Supreme Court on this very basis.",
+                "object": {
+                    "text": "illegal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "rule",
+                        "tense": "past"
+                    },
+                    "text": "was ruled",
+                    "normalized": "be rule"
+                }
+            },
+            {
+                "subject": {
+                    "text": "subsection of the same Statute"
+                },
+                "sentence": " subsection of the same Statute be used to justify continued restrictions on",
+                "object": {
+                    "text": "to justify continued restrictions on"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "be used",
+                    "normalized": "be use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "subsection of the same Statute"
+                },
+                "sentence": " subsection of the same Statute be used to justify continued restrictions on",
+                "object": {
+                    "text": "continued restrictions on"
+                },
+                "action": {
+                    "verb": {
+                        "text": "justify",
+                        "tense": "future"
+                    },
+                    "text": "to justify",
+                    "normalized": "to justify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Increased testing"
+                },
+                "sentence": " Increased testing will help identify those who",
+                "object": {
+                    "text": "identify those who"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "help",
+                    "normalized": "help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Increased testing"
+                },
+                "sentence": " Increased testing will help identify those who",
+                "object": {
+                    "text": "those who"
+                },
+                "action": {
+                    "verb": {
+                        "text": "identify",
+                        "tense": "future"
+                    },
+                    "text": "will help identify",
+                    "normalized": "will help identify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " As an additional note, I am a board certified physician who has been exposed",
+                "object": {
+                    "text": "a board certified physician who has been exposed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "am",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a board certified physician"
+                },
+                "sentence": " As an additional note, I am a board certified physician who has been exposed",
+                "object": {
+                    "text": "been exposed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a board certified physician"
+                },
+                "sentence": " As an additional note, I am a board certified physician who has been exposed",
+                "object": {
+                    "text": "exposed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I sympathize with folks and families who have",
+                "object": {
+                    "text": "with folks and families who have"
+                },
+                "action": {
+                    "verb": {
+                        "text": "sympathize",
+                        "tense": "present"
+                    },
+                    "text": "sympathize",
+                    "normalized": "sympathize"
+                }
+            },
+            {
+                "subject": {
+                    "text": "loved ones"
+                },
+                "sentence": " become very ill or had loved ones pass from this virus, but all we are doing",
+                "object": {
+                    "text": "from this virus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "pass",
+                        "tense": "past"
+                    },
+                    "text": "pass",
+                    "normalized": "pass"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " become very ill or had loved ones pass from this virus, but all we are doing",
+                "object": {
+                    "text": "all"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "are doing",
+                    "normalized": "be do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "these restrictions"
+                },
+                "sentence": " with these restrictions is prolonging the agony and ruining people",
+                "object": {
+                    "text": "prolonging the agony and ruining people"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "these restrictions"
+                },
+                "sentence": " with these restrictions is prolonging the agony and ruining people",
+                "object": {
+                    "text": "the agony"
+                },
+                "action": {
+                    "verb": {
+                        "text": "prolong",
+                        "tense": "present"
+                    },
+                    "text": "is prolonging",
+                    "normalized": "be prolong"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " the next 12-18 months, then we should end them now.",
+                "object": {
+                    "text": "them"
+                },
+                "action": {
+                    "verb": {
+                        "text": "end",
+                        "tense": "future"
+                    },
+                    "text": "should end",
+                    "normalized": "should end"
+                }
+            },
+            {
+                "subject": {
+                    "text": "tested one"
+                },
+                "sentence": " tested one is at least a year away.",
+                "object": {
+                    "text": "at least a year"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Natural herd immunity"
+                },
+                "sentence": " Natural herd immunity is our next best",
+                "object": {
+                    "text": "our next best"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " option and you can't get that by distancing the herd.",
+                "object": {
+                    "text": "that"
+                },
+                "action": {
+                    "verb": {
+                        "text": "get",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "get",
+                    "normalized": "get"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " option and you can't get that by distancing the herd.",
+                "object": {
+                    "text": "the herd"
+                },
+                "action": {
+                    "verb": {
+                        "text": "distance",
+                        "tense": "future"
+                    },
+                    "text": "distancing",
+                    "normalized": "distance"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Dr. Bouc"
+                },
+                "sentence": " (Dr. Bouc is a family physician in independent practice in Beloit. -- Editor)",
+                "object": {
+                    "text": "a family physician in independent practice in Beloit. -- Editor)"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.897921,
+                "label": "/health and fitness/disease"
+            },
+            {
+                "score": 0.873889,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.867348,
+                "label": "/health and fitness/disease/epidemic"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOfMany",
+                "sentence": "I see that our sheriff is citing section 252 of the State Statutes as the legal justification for the further local \"Shelter in place\" orders.",
+                "score": 0.340706,
+                "arguments": [
+                    {
+                        "text": "sheriff",
+                        "location": [
+                            35,
+                            42
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "sheriff"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "our",
+                        "location": [
+                            31,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "our"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "I see that our sheriff is citing section 252 of the State Statutes as the legal justification for the further local \"Shelter in place\" orders.",
+                "score": 0.82645,
+                "arguments": [
+                    {
+                        "text": "sheriff",
+                        "location": [
+                            35,
+                            42
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "sheriff"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "citing",
+                        "location": [
+                            46,
+                            52
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "citing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "A careful reading of this states that local health departments can ban public gatherings, not regulate private business.",
+                "score": 0.768716,
+                "arguments": [
+                    {
+                        "text": "departments",
+                        "location": [
+                            215,
+                            226
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "departments",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "states",
+                        "location": [
+                            190,
+                            196
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "State\nStatutes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Natural herd immunity is our next best option and you can't get that by distancing the herd.",
+                "score": 0.494611,
+                "arguments": [
+                    {
+                        "text": "you",
+                        "location": [
+                            1350,
+                            1353
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "physician"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "our",
+                        "location": [
+                            1325,
+                            1328
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "those"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "legal justification",
+                "relevance": 0.644448,
+                "count": 1
+            },
+            {
+                "text": "State Supreme Court",
+                "relevance": 0.64421,
+                "count": 1
+            },
+            {
+                "text": "Dr. Geoffrey Bouc",
+                "relevance": 0.62497,
+                "count": 1
+            },
+            {
+                "text": "additional note",
+                "relevance": 0.621023,
+                "count": 1
+            },
+            {
+                "text": "Natural herd immunity",
+                "relevance": 0.606706,
+                "count": 1
+            },
+            {
+                "text": "Coronavirus vaccines",
+                "relevance": 0.597468,
+                "count": 1
+            },
+            {
+                "text": "careful reading",
+                "relevance": 0.587965,
+                "count": 1
+            },
+            {
+                "text": "legal basis",
+                "relevance": 0.587206,
+                "count": 1
+            },
+            {
+                "text": "further local",
+                "relevance": 0.569312,
+                "count": 1
+            },
+            {
+                "text": "independent practice",
+                "relevance": 0.562901,
+                "count": 1
+            },
+            {
+                "text": "private business",
+                "relevance": 0.557512,
+                "count": 2
+            },
+            {
+                "text": "subsection",
+                "relevance": 0.554956,
+                "count": 1
+            },
+            {
+                "text": "statute",
+                "relevance": 0.554941,
+                "count": 2
+            },
+            {
+                "text": "family physician",
+                "relevance": 0.550448,
+                "count": 1
+            },
+            {
+                "text": "local health departments",
+                "relevance": 0.538713,
+                "count": 1
+            },
+            {
+                "text": "health department",
+                "relevance": 0.538262,
+                "count": 1
+            },
+            {
+                "text": "original State orders",
+                "relevance": 0.533924,
+                "count": 1
+            },
+            {
+                "text": "Dr. Bouc",
+                "relevance": 0.531603,
+                "count": 1
+            },
+            {
+                "text": "restrictions",
+                "relevance": 0.527198,
+                "count": 2
+            },
+            {
+                "text": "section",
+                "relevance": 0.526093,
+                "count": 2
+            },
+            {
+                "text": "sheriff",
+                "relevance": 0.523394,
+                "count": 1
+            },
+            {
+                "text": "families",
+                "relevance": 0.515314,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.513685,
+                "count": 2
+            },
+            {
+                "text": "physician",
+                "relevance": 0.513238,
+                "count": 1
+            },
+            {
+                "text": "board",
+                "relevance": 0.512388,
+                "count": 1
+            },
+            {
+                "text": "Shelter",
+                "relevance": 0.511828,
+                "count": 2
+            },
+            {
+                "text": "folks",
+                "relevance": 0.51177,
+                "count": 1
+            },
+            {
+                "text": "global restrictions",
+                "relevance": 0.511296,
+                "count": 1
+            },
+            {
+                "text": "orders",
+                "relevance": 0.511228,
+                "count": 1
+            },
+            {
+                "text": "humans",
+                "relevance": 0.510326,
+                "count": 1
+            },
+            {
+                "text": "agony",
+                "relevance": 0.510326,
+                "count": 1
+            },
+            {
+                "text": "place",
+                "relevance": 0.509756,
+                "count": 2
+            },
+            {
+                "text": "herd",
+                "relevance": 0.509549,
+                "count": 1
+            },
+            {
+                "text": "months",
+                "relevance": 0.509456,
+                "count": 1
+            },
+            {
+                "text": "Editor",
+                "relevance": 0.506636,
+                "count": 1
+            },
+            {
+                "text": "Beloit",
+                "relevance": 0.506636,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.506636,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.506636,
+                "count": 1
+            },
+            {
+                "text": "Governor Evers",
+                "relevance": 0.496144,
+                "count": 1
+            },
+            {
+                "text": "very basis",
+                "relevance": 0.494467,
+                "count": 1
+            },
+            {
+                "text": "local orders",
+                "relevance": 0.490571,
+                "count": 1
+            },
+            {
+                "text": "testing",
+                "relevance": 0.45624,
+                "count": 1
+            },
+            {
+                "text": "start",
+                "relevance": 0.450788,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-Sa",
+    "extracted_metadata": {
+        "sha1": "847759967df29ff45c534ecf1ea761759515fbf8",
+        "filename": "202005260000NEWSBANKNEWSPPRSFF16E4F304309A185C1AE90859A91EB.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-26T00:00:00-04:00",
+    "title": "'Best option is herd immunity'",
+    "html": "<p>Overreach part two. I see that our sheriff is citing section 252 of the State Statutes as the legal justification for the further local \"Shelter in place\" orders.</p>\n<p>A careful reading of this states that local health departments can ban public gatherings, not regulate private business. Section 252 is the very same statute used as the legal basis for \"shelter in place\" by <person>Governor Evers</person>. This was ruled illegal by the <org>State Supreme Court</org> on this very basis. How can a subsection of the same Statute be used to justify continued restrictions on private business? It can't. These local orders are just as illegal as the original State orders were. Increased testing will help identify those who need to isolate and be legally quarantined by the health department.</p>\n\n<p>As an additional note, I am a board certified physician who has been exposed to this virus from the start. I sympathize with folks and families who have become very ill or had loved ones pass from this virus, but all we are doing with these restrictions is prolonging the agony and ruining people financially. Unless we are ready to live under these global restrictions for the next 12-18 months, then we should end them now.</p>\n\n<p>Coronavirus vaccines in humans have remained elusive. A safe and properly tested one is at least a year away. Natural herd immunity is our next best option and you can't get that by distancing the herd.</p>\n\n<p>Dr. <person>Geoffrey Bouc</person></p>\n\n<p>Beloit</p>\n\n<p>(<person>Dr. Bouc</person> is a family physician in independent practice in Beloit. -- Editor)</p>",
+    "geoFocus": [
+        [
+            "GU/us.wi.beloit",
+            "Beloit"
+        ]
+    ]
+}

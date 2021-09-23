@@ -1,0 +1,972 @@
+{
+    "id": "93b4f0a5-9d0f-47eb-9dca-3ac474c44860",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a92020 Watauga Democrat - Mountain Times Publications, All rights reserved.",
+    "geoOrigin": "Boone, North Carolina",
+    "sourceType": "Newspaper",
+    "source": "Watauga Democrat, The (Boone, NC)",
+    "corpus_document_id": "64039440012253561107",
+    "description": "BOONE- The Boone Police Department are investigating the June 2 death of a 25- year-old in which the departments says no foul play is suspected at this time. Boone Police and Watauga Medics responded to the Sleep Inn- located at 163 N.C. 105 Extension- at 12:10 p.m. on June 2 after receiving a 911 call to check the wellbeing of an individual. The Boone Police...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "BOONE - The Boone Police Department are investigating the June 2 death of a\n25-year-old in which the departments says no foul play is suspected at this\ntime.\n\nBoone Police and Watauga Medics responded to the Sleep Inn \\- located at 163\nN.C. 105 Extension - at 12:10 p.m. on June 2 after receiving a 911 call to\ncheck the wellbeing of an individual. The individual - identified as Cory\nWayne Tipton, 25, of Candler - was located and found to be deceased.\n\nAccording to police, the medical examiner has not yet determined the cause of\ndeath. The Boone Police Department detectives are investigating the incident,\nbut no foul play was suspected. The cause of death will be determined by the\nautopsy, the department stated.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "9",
+            "description": "Government Services",
+            "code": "II/gov.govserve#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "9",
+            "description": "Police Services",
+            "code": "II/gov.police#9#99#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "9",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#9#50#99",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "The Boone Police Department",
+            "Boone Police"
+        ],
+        "location": [
+            "Sleep Inn"
+        ],
+        "person": [
+            "Cory Wayne Tipton"
+        ],
+        "companies": [
+            "The Boone Police Department",
+            "Boone Police"
+        ]
+    },
+    "geoOrigin_code": "RU/us.nc.boone",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSED5C936DFE4DC9FB802371B3804675C.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": -0.694028,
+                    "label": "negative"
+                },
+                "text": "Boone Police Department",
+                "relevance": 0.921637,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.34872,
+                    "label": "negative"
+                },
+                "text": "Boone Police",
+                "relevance": 0.568276,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "BOONE",
+                "relevance": 0.348733,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Wayne Tipton",
+                "relevance": 0.186648,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Candler",
+                "relevance": 0.164539,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Cory",
+                "relevance": 0.157227,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.406669,
+                    "label": "positive"
+                },
+                "text": "N.C.",
+                "relevance": 0.120253,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "25-year",
+                "relevance": 0.120253,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The Boone Police Department"
+                },
+                "sentence": "BOONE - The Boone Police Department are investigating the June 2 death of a",
+                "object": {
+                    "text": "the June 2 death of a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "investigate",
+                        "tense": "present"
+                    },
+                    "text": "are investigating",
+                    "normalized": "be investigate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the departments"
+                },
+                "sentence": " 25-year-old in which the departments says no foul play is suspected at this",
+                "object": {
+                    "text": "no foul play is suspected at this"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "says",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The individual"
+                },
+                "sentence": " The individual - identified as Cory",
+                "object": {
+                    "text": "as Cory"
+                },
+                "action": {
+                    "verb": {
+                        "text": "identify",
+                        "tense": "past"
+                    },
+                    "text": "identified",
+                    "normalized": "identify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Wayne Tipton, 25, of Candler -"
+                },
+                "sentence": " Wayne Tipton, 25, of Candler - was located and found to be deceased.",
+                "object": {
+                    "text": "located"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Wayne Tipton, 25, of Candler -"
+                },
+                "sentence": " Wayne Tipton, 25, of Candler - was located and found to be deceased.",
+                "object": {
+                    "text": "deceased"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "found to be",
+                    "normalized": "find to be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the medical examiner"
+                },
+                "sentence": " According to police, the medical examiner has not yet determined the cause of",
+                "object": {
+                    "text": "the cause of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "determine",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "determined",
+                    "normalized": "determine"
+                }
+            },
+            {
+                "subject": {
+                    "text": "death. The Boone Police Department detectives"
+                },
+                "sentence": " death. The Boone Police Department detectives are investigating the incident,",
+                "object": {
+                    "text": "investigating the incident"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "death. The Boone Police Department detectives"
+                },
+                "sentence": " death. The Boone Police Department detectives are investigating the incident,",
+                "object": {
+                    "text": "the incident"
+                },
+                "action": {
+                    "verb": {
+                        "text": "investigate",
+                        "tense": "present"
+                    },
+                    "text": "are investigating",
+                    "normalized": "be investigate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "no foul play"
+                },
+                "sentence": " but no foul play was suspected.",
+                "object": {
+                    "text": "suspected"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The cause of death"
+                },
+                "sentence": " The cause of death will be determined by the",
+                "object": {
+                    "text": "determined"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the"
+                },
+                "sentence": " The cause of death will be determined by the",
+                "object": {
+                    "text": "The cause of death"
+                },
+                "action": {
+                    "verb": {
+                        "text": "determine",
+                        "tense": "future"
+                    },
+                    "text": "will be determined",
+                    "normalized": "will be determine"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.920722,
+                "label": "/society/crime/personal offense/homicide"
+            },
+            {
+                "score": 0.857538,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.841011,
+                "label": "/law, govt and politics/law enforcement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "BOONE - The Boone Police Department are investigating the June 2 death of a 25-year-old in which the departments says no foul play is suspected at this time.",
+                "score": 0.989405,
+                "arguments": [
+                    {
+                        "text": "Police Department",
+                        "location": [
+                            18,
+                            35
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police Department"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Boone",
+                        "location": [
+                            12,
+                            17
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Boone"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The Boone Police Department detectives are investigating the incident, but no foul play was suspected.",
+                "score": 0.983171,
+                "arguments": [
+                    {
+                        "text": "Police Department",
+                        "location": [
+                            550,
+                            567
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police Department"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Boone",
+                        "location": [
+                            544,
+                            549
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Boone"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The Boone Police Department detectives are investigating the incident, but no foul play was suspected.",
+                "score": 0.485756,
+                "arguments": [
+                    {
+                        "text": "detectives",
+                        "location": [
+                            568,
+                            578
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "detectives"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Police Department",
+                        "location": [
+                            550,
+                            567
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police Department"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The Boone Police Department detectives are investigating the incident, but no foul play was suspected.",
+                "score": 0.929398,
+                "arguments": [
+                    {
+                        "text": "detectives",
+                        "location": [
+                            568,
+                            578
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "detectives"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "investigating",
+                        "location": [
+                            583,
+                            596
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "investigating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The cause of death will be determined by the autopsy, the department stated.",
+                "score": 0.976363,
+                "arguments": [
+                    {
+                        "text": "department",
+                        "location": [
+                            701,
+                            711
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "department",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "stated",
+                        "location": [
+                            712,
+                            718
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "stated"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "BOONE - The Boone Police Department are investigating the June 2 death of a 25-year-old in which the departments says no foul play is suspected at this time.",
+                "score": 0.898532,
+                "arguments": [
+                    {
+                        "text": "Police Department",
+                        "location": [
+                            18,
+                            35
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police Department"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "investigating",
+                        "location": [
+                            40,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "investigating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "BOONE - The Boone Police Department are investigating the June 2 death of a 25-year-old in which the departments says no foul play is suspected at this time.",
+                "score": 0.952775,
+                "arguments": [
+                    {
+                        "text": "June 2",
+                        "location": [
+                            58,
+                            64
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "June 2"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "investigating",
+                        "location": [
+                            40,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "investigating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "BOONE - The Boone Police Department are investigating the June 2 death of a 25-year-old in which the departments says no foul play is suspected at this time.",
+                "score": 0.830413,
+                "arguments": [
+                    {
+                        "text": "departments",
+                        "location": [
+                            101,
+                            112
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "departments"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "says",
+                        "location": [
+                            113,
+                            117
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "says"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Boone Police and Watauga Medics responded to the Sleep Inn \\- located at 163 N.C. 105 Extension - at 12:10 p.m. on June 2 after receiving a 911 call to check the wellbeing of an individual.",
+                "score": 0.998939,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            165,
+                            171
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Boone",
+                        "location": [
+                            159,
+                            164
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Boone"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Boone Police and Watauga Medics responded to the Sleep Inn \\- located at 163 N.C. 105 Extension - at 12:10 p.m. on June 2 after receiving a 911 call to check the wellbeing of an individual.",
+                "score": 0.997267,
+                "arguments": [
+                    {
+                        "text": "Watauga Medics",
+                        "location": [
+                            176,
+                            190
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Watauga Medics"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "responded",
+                        "location": [
+                            191,
+                            200
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "responded"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "Boone Police and Watauga Medics responded to the Sleep Inn \\- located at 163 N.C. 105 Extension - at 12:10 p.m. on June 2 after receiving a 911 call to check the wellbeing of an individual.",
+                "score": 0.322979,
+                "arguments": [
+                    {
+                        "text": "105",
+                        "location": [
+                            241,
+                            244
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "105"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "N.C.",
+                        "location": [
+                            236,
+                            240
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "N.C."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The individual - identified as Cory Wayne Tipton, 25, of Candler - was located and found to be deceased.",
+                "score": 0.473343,
+                "arguments": [
+                    {
+                        "text": "individual -",
+                        "location": [
+                            353,
+                            365
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Cory\nWayne Tipton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "25",
+                        "location": [
+                            399,
+                            401
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "25"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The individual - identified as Cory Wayne Tipton, 25, of Candler - was located and found to be deceased.",
+                "score": 0.991104,
+                "arguments": [
+                    {
+                        "text": "Cory\nWayne Tipton",
+                        "location": [
+                            380,
+                            397
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Cory\nWayne Tipton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "25",
+                        "location": [
+                            399,
+                            401
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "25"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The individual - identified as Cory Wayne Tipton, 25, of Candler - was located and found to be deceased.",
+                "score": 0.578667,
+                "arguments": [
+                    {
+                        "text": "Cory\nWayne Tipton",
+                        "location": [
+                            380,
+                            397
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Cory\nWayne Tipton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Candler",
+                        "location": [
+                            406,
+                            413
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Candler"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Boone Police Department",
+                "relevance": 0.997627,
+                "count": 1
+            },
+            {
+                "text": "Boone Police",
+                "relevance": 0.974229,
+                "count": 1
+            },
+            {
+                "text": "BOONE",
+                "relevance": 0.938546,
+                "count": 1
+            },
+            {
+                "text": "Boone Police Department detectives",
+                "relevance": 0.923762,
+                "count": 1
+            },
+            {
+                "text": "medical examiner",
+                "relevance": 0.615306,
+                "count": 1
+            },
+            {
+                "text": "foul play",
+                "relevance": 0.603299,
+                "count": 2
+            },
+            {
+                "text": "departments",
+                "relevance": 0.519765,
+                "count": 1
+            },
+            {
+                "text": "autopsy",
+                "relevance": 0.518115,
+                "count": 1
+            },
+            {
+                "text": "Extension",
+                "relevance": 0.517625,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.517159,
+                "count": 2
+            },
+            {
+                "text": "Candler",
+                "relevance": 0.5161,
+                "count": 1
+            },
+            {
+                "text": "death",
+                "relevance": 0.511558,
+                "count": 2
+            },
+            {
+                "text": "department",
+                "relevance": 0.509886,
+                "count": 1
+            },
+            {
+                "text": "incident",
+                "relevance": 0.509768,
+                "count": 1
+            },
+            {
+                "text": "25-year-old",
+                "relevance": 0.506046,
+                "count": 1
+            },
+            {
+                "text": "wellbeing of an individual",
+                "relevance": 0.424141,
+                "count": 1
+            },
+            {
+                "text": "Watauga Medics",
+                "relevance": 0.419172,
+                "count": 1
+            },
+            {
+                "text": "Sleep Inn",
+                "relevance": 0.35322,
+                "count": 1
+            },
+            {
+                "text": "cause of death",
+                "relevance": 0.307649,
+                "count": 1
+            },
+            {
+                "text": "N.C.",
+                "relevance": 0.302311,
+                "count": 1
+            },
+            {
+                "text": "cause",
+                "relevance": 0.286447,
+                "count": 1
+            },
+            {
+                "text": "call",
+                "relevance": 0.283386,
+                "count": 1
+            },
+            {
+                "text": "time",
+                "relevance": 0.283386,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "95829ab5bba2a63b4e5a0d5a889d96b06f34959e",
+        "filename": "202006050000NEWSBANKNEWSPPRSED5C936DFE4DC9FB802371B3804675C.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Police investigating death of 25-year-old, no foul play suspected",
+    "html": "<p>BOONE - <org>The Boone Police Department</org> are investigating the <chron>June 2</chron> death of a 25-year-old in which the departments says no foul play is suspected at this time.</p>\n<p><org>Boone Police</org> and Watauga Medics responded to the <location>Sleep Inn</location> - located at 163 N.C. 105 Extension - at <chron>12:10 p.m.</chron> on <chron>June 2</chron> after receiving a 911 call to check the wellbeing of an individual. The individual - identified as <person>Cory Wayne Tipton</person>, 25, of Candler - was located and found to be deceased.</p>\n\n<p>According to police, the medical examiner has not yet determined the cause of death. <org>The Boone Police Department</org> detectives are investigating the incident, but no foul play was suspected. The cause of death will be determined by the autopsy, the department stated.</p>",
+    "geoFocus": [
+        [
+            "GU/us.nc.boone",
+            "Boone"
+        ]
+    ]
+}

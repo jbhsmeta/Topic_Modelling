@@ -1,0 +1,422 @@
+{
+    "id": "fbbe053f-0dd9-4050-9dda-924be5b9b790",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c) 2020 Accord Fintech",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "Business & Financial Newswire",
+    "source": "Accord Fintech (India)",
+    "corpus_document_id": "75327059791634918049",
+    "description": "With reference to the above cited subject, It is to inform you that a meeting of the Board of Directors of the Company is scheduled to be held on Monday the 8th day of June 2020 at 2:30 P.M at Hyderabad inter alia to consider and approve the Audited Financial Results for the Period ended 31st March 2020. Published by HT Digital Content Services with permission from...",
+    "serviceName": "South Asian Newspapers and Newswires",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Southern Asia",
+            "code": "LB/sas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sas",
+            "relevance_score": "9",
+            "description": "India",
+            "code": "LC/in#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Business and Commerce",
+            "code": "IS/biz#9#75#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/impact.ops",
+            "relevance_score": "9",
+            "description": "Board of Directors",
+            "code": "IS/biz.board#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/biz.spec",
+            "relevance_score": "9",
+            "description": "Company Event Announcements",
+            "code": "IS/biz.corpmeet#9#99#73",
+            "level": 2
+        },
+        {
+            "parent": "IS/biz",
+            "relevance_score": "9",
+            "description": "Business Management",
+            "code": "IS/biz.manage#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "India, June 5 \\-- With reference to the above cited subject, It is to inform\nyou that a meeting of the Board of Directors of the Company is scheduled to be\nheld on Monday the 8th day of June 2020 at 2:30 P.M at Hyderabad inter alia to\nconsider and approve the Audited Financial Results for the Period ended 31st\nMarch 2020. Published by HT Digital Content Services with permission from\nACCORD FINTECH BSE. For any query with respect to this article or any other\ncontent requirement, please contact Editor at\n[contentservices@htlive.com](mailto:contentservices@htlive.com)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "India",
+            "Hyderabad"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050419HIND____NEWS__SA_N-43200004_810.38.XML",
+    "providerName": "HT Media",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Board of Directors",
+                "relevance": 0.858789,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hyderabad",
+                "relevance": 0.812263,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "India",
+                "relevance": 0.697935,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Editor",
+                "relevance": 0.682022,
+                "type": "JobTitle"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "contentservices@htlive.com",
+                "relevance": 0.682022,
+                "type": "EmailAddress"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "the Company"
+                },
+                "sentence": " you that a meeting of the Board of Directors of the Company is scheduled to be",
+                "object": {
+                    "text": "to be"
+                },
+                "action": {
+                    "verb": {
+                        "text": "schedule",
+                        "tense": "past"
+                    },
+                    "text": "scheduled",
+                    "normalized": "schedule"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the Audited Financial Results"
+                },
+                "sentence": " consider and approve the Audited Financial Results for the Period ended 31st",
+                "action": {
+                    "verb": {
+                        "text": "consider",
+                        "tense": "present"
+                    },
+                    "text": "consider and approve",
+                    "normalized": "consider and approve"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the Audited Financial Results"
+                },
+                "sentence": " consider and approve the Audited Financial Results for the Period ended 31st",
+                "action": {
+                    "verb": {
+                        "text": "approve",
+                        "tense": "present"
+                    },
+                    "text": "consider and approve",
+                    "normalized": "consider and approve"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the Period"
+                },
+                "sentence": " consider and approve the Audited Financial Results for the Period ended 31st",
+                "action": {
+                    "verb": {
+                        "text": "end",
+                        "tense": "past"
+                    },
+                    "text": "ended",
+                    "normalized": "end"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.80103,
+                "label": "/finance/financial news"
+            },
+            {
+                "score": 0.699417,
+                "label": "/technology and computing/internet technology/web search/people search"
+            },
+            {
+                "score": 0.686535,
+                "label": "/law, govt and politics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "affectedBy",
+                "sentence": "India, June 5 \\-- With reference to the above cited subject, It is to inform you that a meeting of the Board of Directors of the Company is scheduled to be held on Monday the 8th day of June 2020 at 2:30 P.M at Hyderabad inter alia to consider and approve the Audited Financial Results for the Period ended 31st March 2020.",
+                "score": 0.616746,
+                "arguments": [
+                    {
+                        "text": "you",
+                        "location": [
+                            77,
+                            80
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "you"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "inform",
+                        "location": [
+                            70,
+                            76
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "inform"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "India, June 5 \\-- With reference to the above cited subject, It is to inform you that a meeting of the Board of Directors of the Company is scheduled to be held on Monday the 8th day of June 2020 at 2:30 P.M at Hyderabad inter alia to consider and approve the Audited Financial Results for the Period ended 31st March 2020.",
+                "score": 0.613526,
+                "arguments": [
+                    {
+                        "text": "Board of Directors",
+                        "location": [
+                            103,
+                            121
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Board of Directors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meeting",
+                        "location": [
+                            88,
+                            95
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meeting"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "HT Digital Content Services",
+                "relevance": 0.762236,
+                "count": 1
+            },
+            {
+                "text": "8th day of June",
+                "relevance": 0.707813,
+                "count": 1
+            },
+            {
+                "text": "meeting of the Board of Directors",
+                "relevance": 0.705143,
+                "count": 1
+            },
+            {
+                "text": "Financial Results",
+                "relevance": 0.67815,
+                "count": 1
+            },
+            {
+                "text": "above cited subject",
+                "relevance": 0.600092,
+                "count": 1
+            },
+            {
+                "text": "ACCORD FINTECH BSE",
+                "relevance": 0.599789,
+                "count": 1
+            },
+            {
+                "text": "content requirement",
+                "relevance": 0.567299,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.564622,
+                "count": 1
+            },
+            {
+                "text": "India",
+                "relevance": 0.555319,
+                "count": 1
+            },
+            {
+                "text": "query",
+                "relevance": 0.544879,
+                "count": 1
+            },
+            {
+                "text": "P.M",
+                "relevance": 0.544593,
+                "count": 1
+            },
+            {
+                "text": "reference",
+                "relevance": 0.531987,
+                "count": 1
+            },
+            {
+                "text": "respect",
+                "relevance": 0.524305,
+                "count": 1
+            },
+            {
+                "text": "Period",
+                "relevance": 0.519544,
+                "count": 1
+            },
+            {
+                "text": "article",
+                "relevance": 0.517063,
+                "count": 1
+            },
+            {
+                "text": "Hyderabad",
+                "relevance": 0.516122,
+                "count": 1
+            },
+            {
+                "text": "Company",
+                "relevance": 0.516122,
+                "count": 1
+            },
+            {
+                "text": "Editor",
+                "relevance": 0.513298,
+                "count": 1
+            },
+            {
+                "text": "permission",
+                "relevance": 0.513298,
+                "count": 1
+            },
+            {
+                "text": "alia",
+                "relevance": 0.513298,
+                "count": 1
+            },
+            {
+                "text": "Monday",
+                "relevance": 0.449784,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.405497,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "7a742a9c9ace06ac51d415e790b522c2ba784eef",
+        "filename": "202006050419HIND____NEWS__SA_N-43200004_810.38.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:19:00-04:00",
+    "title": "Compliances-Reg. 50 (3) - Board Meeting Intimation (SCRIPCODE: 952538) [Accord Fintech (India)]",
+    "html": "<block>\n<p><location idsrc=\"xmltag.org\" value=\"LC/in\">India</location>, <chron>June 5</chron> -- With reference to the above cited subject, It is to inform you that a meeting of the Board of Directors of the Company is scheduled to be held on Monday the 8th day of <chron>June 2020</chron> at 2:30 P.M at <location idsrc=\"xmltag.org\" value=\"LU/in..hyderb\">Hyderabad</location> inter alia to consider and approve the Audited Financial Results for the Period ended <chron>31st March 2020</chron>. Published by HT Digital Content Services with permission from ACCORD FINTECH BSE. For any query with respect to this article or any other content requirement, please contact Editor at <a href=\"mailto:contentservices@htlive.com\">contentservices@htlive.com</a></p>\n</block>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

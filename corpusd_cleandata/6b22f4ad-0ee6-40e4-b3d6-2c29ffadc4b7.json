@@ -1,0 +1,437 @@
+{
+    "id": "6b22f4ad-0ee6-40e4-b3d6-2c29ffadc4b7",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 The Daily Iberian. All rights reserved.",
+    "geoOrigin": "New Iberia, Louisiana",
+    "sourceType": "Newspaper",
+    "source": "Daily Iberian, The (New Iberia, LA)",
+    "corpus_document_id": "57320517441389215905",
+    "description": "JEANERETTE- Funeral services are pending for Phillip John Lewis, 49, a resident of Jeanerette who died at 6:03 a.m. on Wednesday, June 3, 2020, at his residence.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": "IS/lifesoc.spec",
+            "relevance_score": "8",
+            "description": "Obituaries and Funerals",
+            "code": "IS/lifesoc.obit#8#85#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "8",
+            "description": "Structured Life and Society Content",
+            "code": "IS/lifesoc.spec#8#50#85",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Structured Content",
+            "code": "IS/spec#8#50#85",
+            "level": 0
+        }
+    ],
+    "text": "JEANERETTE \\- Funeral services are pending for Phillip John Lewis, 49, a\nresident of Jeanerette who died at 6:03 a.m. on Wednesday, June 3, 2020, at\nhis residence.\n\nFletcher Funeral Home is in charge of the arrangements.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Fletcher Funeral Home"
+        ],
+        "location": [
+            "JEANERETTE",
+            "Jeanerette"
+        ],
+        "person": [
+            "Phillip John Lewis"
+        ],
+        "companies": [
+            "Fletcher Funeral Home"
+        ]
+    },
+    "geoOrigin_code": "RU/us.la.newria",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSAA170CC6D1E9F298BEB20A72C02202E.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.361826,
+                    "label": "negative"
+                },
+                "text": "Jeanerette",
+                "relevance": 0.931352,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Jeanerette, Louisiana",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Jeanerette,_Louisiana"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Fletcher Funeral Home",
+                "relevance": 0.613931,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Phillip John Lewis",
+                "relevance": 0.518279,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "JEANERETTE \\- Funeral services"
+                },
+                "sentence": "JEANERETTE \\- Funeral services are pending for Phillip John Lewis, 49, a",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Fletcher Funeral Home"
+                },
+                "sentence": " Fletcher Funeral Home is in charge of the arrangements.",
+                "object": {
+                    "text": "in charge of the arrangements"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.68422,
+                "label": "/news"
+            },
+            {
+                "score": 0.583353,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.560385,
+                "label": "/business and industrial/business news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "JEANERETTE \\- Funeral services are pending for Phillip John Lewis, 49, a resident of Jeanerette who died at 6:03 a.m. on Wednesday, June 3, 2020, at his residence.",
+                "score": 0.992669,
+                "arguments": [
+                    {
+                        "text": "Phillip John Lewis",
+                        "location": [
+                            47,
+                            65
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Phillip John Lewis"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "49",
+                        "location": [
+                            67,
+                            69
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "49"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "diedOn",
+                "sentence": "JEANERETTE \\- Funeral services are pending for Phillip John Lewis, 49, a resident of Jeanerette who died at 6:03 a.m. on Wednesday, June 3, 2020, at his residence.",
+                "score": 0.598694,
+                "arguments": [
+                    {
+                        "text": "Phillip John Lewis",
+                        "location": [
+                            47,
+                            65
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Phillip John Lewis"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "June 3, 2020",
+                        "location": [
+                            132,
+                            144
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "June 3, 2020"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "JEANERETTE \\- Funeral services are pending for Phillip John Lewis, 49, a resident of Jeanerette who died at 6:03 a.m. on Wednesday, June 3, 2020, at his residence.",
+                "score": 0.914225,
+                "arguments": [
+                    {
+                        "text": "resident",
+                        "location": [
+                            73,
+                            81
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Phillip John Lewis"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jeanerette",
+                        "location": [
+                            85,
+                            95
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jeanerette"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "JEANERETTE \\- Funeral services are pending for Phillip John Lewis, 49, a resident of Jeanerette who died at 6:03 a.m. on Wednesday, June 3, 2020, at his residence.",
+                "score": 0.486573,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            96,
+                            99
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Phillip John Lewis"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jeanerette",
+                        "location": [
+                            85,
+                            95
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jeanerette"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "diedOn",
+                "sentence": "JEANERETTE \\- Funeral services are pending for Phillip John Lewis, 49, a resident of Jeanerette who died at 6:03 a.m. on Wednesday, June 3, 2020, at his residence.",
+                "score": 0.439625,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            96,
+                            99
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Phillip John Lewis"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "6:03 a.m.",
+                        "location": [
+                            108,
+                            117
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "6:03 a.m."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "JEANERETTE \\- Funeral services are pending for Phillip John Lewis, 49, a resident of Jeanerette who died at 6:03 a.m. on Wednesday, June 3, 2020, at his residence.",
+                "score": 0.720697,
+                "arguments": [
+                    {
+                        "text": "his",
+                        "location": [
+                            149,
+                            152
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Phillip John Lewis"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "residence",
+                        "location": [
+                            153,
+                            162
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "residence"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "resident of Jeanerette",
+                "relevance": 0.986537,
+                "count": 1
+            },
+            {
+                "text": "Funeral services",
+                "relevance": 0.973008,
+                "count": 1
+            },
+            {
+                "text": "Fletcher Funeral Home",
+                "relevance": 0.834354,
+                "count": 1
+            },
+            {
+                "text": "residence",
+                "relevance": 0.53697,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.53697,
+                "count": 1
+            },
+            {
+                "text": "Phillip John Lewis",
+                "relevance": 0.411548,
+                "count": 1
+            },
+            {
+                "text": "charge of the arrangements",
+                "relevance": 0.312702,
+                "count": 1
+            },
+            {
+                "text": "JEANERETTE",
+                "relevance": 0.265072,
+                "count": 1
+            },
+            {
+                "text": "Wednesday",
+                "relevance": 0.14528,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Six times a week",
+    "extracted_metadata": {
+        "sha1": "34e859644abbfe358b9e5c6fb1007119914169cc",
+        "filename": "202006050000NEWSBANKNEWSPPRSAA170CC6D1E9F298BEB20A72C02202E.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Phillip Lewis",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.la.jeatte\">JEANERETTE</location> - Funeral services are pending for <person>Phillip John Lewis</person>, 49, a resident of <location idsrc=\"xmltag.org\" value=\"LU/us.la.jeatte\">Jeanerette</location> who died at <chron>6:03 a.m.</chron> on <chron>Wednesday, June 3, 2020</chron>, at his residence.</p>\n<p><org>Fletcher Funeral Home</org> is in charge of the arrangements.</p>",
+    "geoFocus": [
+        [
+            "GU/us.la.ibeish",
+            "Iberia Parish"
+        ]
+    ]
+}

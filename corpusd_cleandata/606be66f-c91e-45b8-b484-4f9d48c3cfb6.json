@@ -1,0 +1,417 @@
+{
+    "id": "606be66f-c91e-45b8-b484-4f9d48c3cfb6",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "46045995427352905641",
+    "description": "MANILA, Philippines\u2013 Starting a new business is definitely not a simple wa",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "South-Eastern Asia",
+            "code": "LB/seas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/seas",
+            "relevance_score": "9",
+            "description": "Philippines",
+            "code": "LC/ph#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Business and Commerce",
+            "code": "IS/biz#9#94#50",
+            "level": 0
+        }
+    ],
+    "text": "[Editor's Note: For many small businesses, Lazada has been pivotal in\ndelivering their products to more and more customers. Lazada continues to\ninspire Filipino entrepreneurs in achieving their dreams. Below is their\nstory.] MANILA, Philippines - Starting a new business is definitely not a\nsimple walk in the park. These hardworking Filipino ...",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "MANILA, Philippines"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050334AMSPIDERNEWS_____RAPPLR01_35CF0A1D4D1E217C5304A91A3C8EFF0C_4.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.315147,
+                    "label": "negative"
+                },
+                "text": "Lazada",
+                "relevance": 0.950804,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.240321,
+                    "label": "positive"
+                },
+                "text": "MANILA",
+                "relevance": 0.8332,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Manila",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Manila"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Editor",
+                "relevance": 0.743991,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Philippines",
+                "relevance": 0.714538,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Philippines",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Philippines"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Lazada"
+                },
+                "sentence": "[Editor's Note: For many small businesses, Lazada has been pivotal in",
+                "object": {
+                    "text": "pivotal in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "has been",
+                    "normalized": "have be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "their products"
+                },
+                "sentence": " delivering their products to more and more customers.",
+                "object": {
+                    "text": "to more and more customers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "deliver",
+                        "tense": "present"
+                    },
+                    "text": "delivering",
+                    "normalized": "deliver"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Filipino entrepreneurs"
+                },
+                "sentence": " inspire Filipino entrepreneurs in achieving their dreams.",
+                "object": {
+                    "text": "their dreams"
+                },
+                "action": {
+                    "verb": {
+                        "text": "achieve",
+                        "tense": "present"
+                    },
+                    "text": "achieving",
+                    "normalized": "achieve"
+                }
+            },
+            {
+                "subject": {
+                    "text": "story.] MANILA, Philippines"
+                },
+                "sentence": " story.] MANILA, Philippines - Starting a new business is definitely not a",
+                "object": {
+                    "text": "a new business"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Starting",
+                        "tense": "present"
+                    },
+                    "text": "Starting",
+                    "normalized": "Starting"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.862859,
+                "label": "/business and industrial"
+            },
+            {
+                "score": 0.711981,
+                "label": "/business and industrial/business operations"
+            },
+            {
+                "score": 0.692622,
+                "label": "/business and industrial/business news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "[Editor's Note: For many small businesses, Lazada has been pivotal in delivering their products to more and more customers.",
+                "score": 0.408944,
+                "arguments": [
+                    {
+                        "text": "businesses",
+                        "location": [
+                            31,
+                            41
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "businesses",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Lazada",
+                        "location": [
+                            43,
+                            49
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Lazada",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "[Editor's Note: For many small businesses, Lazada has been pivotal in delivering their products to more and more customers.",
+                "score": 0.391228,
+                "arguments": [
+                    {
+                        "text": "customers",
+                        "location": [
+                            113,
+                            122
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "customers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "their",
+                        "location": [
+                            81,
+                            86
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "businesses",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "] MANILA, Philippines - Starting a new business is definitely not a simple walk in the park.",
+                "score": 0.973421,
+                "arguments": [
+                    {
+                        "text": "MANILA",
+                        "location": [
+                            225,
+                            231
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "MANILA"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Philippines",
+                        "location": [
+                            233,
+                            244
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Philippines",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Editor's Note",
+                "relevance": 0.942305,
+                "count": 1
+            },
+            {
+                "text": "small businesses",
+                "relevance": 0.829497,
+                "count": 1
+            },
+            {
+                "text": "simple walk",
+                "relevance": 0.683153,
+                "count": 1
+            },
+            {
+                "text": "Filipino entrepreneurs",
+                "relevance": 0.648563,
+                "count": 1
+            },
+            {
+                "text": "hardworking Filipino",
+                "relevance": 0.588429,
+                "count": 1
+            },
+            {
+                "text": "Philippines",
+                "relevance": 0.559437,
+                "count": 1
+            },
+            {
+                "text": "products",
+                "relevance": 0.548382,
+                "count": 1
+            },
+            {
+                "text": "customers",
+                "relevance": 0.526993,
+                "count": 1
+            },
+            {
+                "text": "park",
+                "relevance": 0.526993,
+                "count": 1
+            },
+            {
+                "text": "story",
+                "relevance": 0.526993,
+                "count": 1
+            },
+            {
+                "text": "dreams",
+                "relevance": 0.526993,
+                "count": 1
+            },
+            {
+                "text": "pivotal in",
+                "relevance": 0.499546,
+                "count": 1
+            },
+            {
+                "text": "new business",
+                "relevance": 0.497564,
+                "count": 1
+            },
+            {
+                "text": "MANILA",
+                "relevance": 0.399102,
+                "count": 1
+            },
+            {
+                "text": "Lazada",
+                "relevance": 0.354259,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "0ff1f5c5b6ca026ae521289effeae3bddb33445b",
+        "filename": "202006050334AMSPIDERNEWS_____RAPPLR01_35CF0A1D4D1E217C5304A91A3C8EFF0C_4.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:34:00-04:00",
+    "title": "Aspiring Filipino entrepreneurs find success on Lazada [Rappler]",
+    "html": "<p>[Editor's Note: For many small businesses, Lazada has been pivotal in delivering their products to more and more customers. Lazada continues to inspire Filipino entrepreneurs in achieving their dreams. Below is their story.] <location idsrc=\"xmltag.org\" value=\"LU/ph..manila\">MANILA, Philippines</location> &#8211; Starting a new business is definitely not a simple walk in the park. These hardworking Filipino ...</p>",
+    "geoFocus": []
+}

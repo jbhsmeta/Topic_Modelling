@@ -1,0 +1,302 @@
+{
+    "id": "6e38d61a-e65b-4c44-a285-2e1fce9bc671",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "82944208118769834990",
+    "description": "Operation of refugee accommodation including social care more info: Location: GERMANY BidDate: 6/ 12/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: State Capital Hanover- Central Submission for Tendering Authority Address: 30159 Hanover Lower Saxony Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Operation of refugee accommodation including social care more info : Location\n: GERMANY BidDate : 6/12/2020 Tender Country : GERMANY Tender Type : Tenders\nTendering Authority : State Capital Hanover - Central Submission for Tendering\nAuthority Address : 30159 Hanover Lower Saxony Financier : Self Funded Tearn\nMoney : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_25512_176211732_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hanover Lower Saxony Financier",
+                "relevance": 0.963688,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "State Capital Hanover",
+                "relevance": 0.607475,
+                "type": "Facility"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.432415,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.500838,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "social care more info : Location"
+                },
+                "sentence": "Operation of refugee accommodation including social care more info : Location",
+                "object": {
+                    "text": "Operation of refugee accommodation"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.82804,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.634658,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.538779,
+                "label": "/business and industrial/business operations"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Operation of refugee accommodation including social care more info : Location : GERMANY BidDate : 6/12/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State Capital Hanover - Central Submission for Tendering Authority Address : 30159 Hanover Lower Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.621514,
+                "arguments": [
+                    {
+                        "text": "6/12/2020 Tender",
+                        "location": [
+                            98,
+                            114
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/12/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders\nTendering Authority : State Capital Hanover - Central Submission for Tendering\nAuthority Address :",
+                        "location": [
+                            133,
+                            253
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders\nTendering Authority : State Capital Hanover - Central Submission for Tendering\nAuthority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Operation of refugee accommodation including social care more info : Location : GERMANY BidDate : 6/12/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State Capital Hanover - Central Submission for Tendering Authority Address : 30159 Hanover Lower Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.489404,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            281,
+                            290
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Hanover Lower Saxony",
+                        "location": [
+                            260,
+                            280
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Hanover Lower Saxony"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.996524,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.985696,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.74124,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.658607,
+                "count": 1
+            },
+            {
+                "text": "social care",
+                "relevance": 0.634303,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.587117,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.576719,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.511915,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.509827,
+                "count": 1
+            },
+            {
+                "text": "Operation of refugee accommodation",
+                "relevance": 0.477627,
+                "count": 1
+            },
+            {
+                "text": "State Capital Hanover",
+                "relevance": 0.339118,
+                "count": 1
+            },
+            {
+                "text": "Hanover Lower Saxony Financier",
+                "relevance": 0.297909,
+                "count": 1
+            },
+            {
+                "text": "Central Submission",
+                "relevance": 0.215656,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "2527f77871b9c814329a7142134b6212b0663b07",
+        "filename": "202006050210ALBA____ME_NA_NE_25512_176211732_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Operation of refugee accommodation including social care [TenderNews.com - Tenders (India)]",
+    "html": "<p>Operation of refugee accommodation including social care more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/12/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : State Capital Hanover - Central Submission for\nTendering Authority Address : 30159 Hanover Lower Saxony\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

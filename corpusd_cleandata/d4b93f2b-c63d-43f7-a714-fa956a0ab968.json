@@ -1,0 +1,1251 @@
+{
+    "id": "d4b93f2b-c63d-43f7-a714-fa956a0ab968",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "Cambridgeshire, England, United Kingdom",
+    "sourceType": "Newspaper",
+    "source": "Cambs Times (UK)",
+    "corpus_document_id": "78202130972207374760",
+    "description": "A father assaulted in his home after three men broke through the door and demanded cash was spared further injury when his daughter threatened the intruders wit",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#6#50#66",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.crime",
+            "relevance_score": "6",
+            "description": "Assault",
+            "code": "IS/lifesoc.assault#6#66#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "6",
+            "description": "Crime",
+            "code": "IS/lifesoc.crime#6#50#66",
+            "level": 1
+        }
+    ],
+    "text": "A father assaulted in his home after three men broke through the door and\ndemanded cash was spared further injury when his daughter threatened the\nintruders with a machete.\n\nPolice are investigating the aggravated burglary which took place at his home\nin Parson Drove at around 9.30pm on May 10.\n\nThe 58-year-old escaped more serious injuries after his daughter, Allen Sasha,\nintervened before the intruders fled.\n\n\"I ran down the stairs with a machete and told them to stop attacking him;\nthey did,\" she said.\n\nShe said: \"Three men broke into our house and began to attack my dad who has\nmany underlying health conditions.\n\n\"They ran around our home smashing things, going upstairs and even attempted\nto go into the bedroom where my five-year-old sleeps.\n\n\"I had to tell them to get out of there.\"\n\nAnyone with information, should call police on 101 quoting 35/30664/20.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Allen Sasha"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/gb.eng.cam",
+    "language": "English",
+    "filename": "202006050000ARCHANT_NEWS____86483038.XML",
+    "providerName": "Archant Limited",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.232521,
+                    "label": "negative"
+                },
+                "text": "Allen Sasha",
+                "relevance": 0.834655,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Parson Drove",
+                "relevance": 0.699722,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.767413,
+                    "label": "negative"
+                },
+                "text": "burglary",
+                "relevance": 0.538431,
+                "type": "Crime"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "five-year",
+                "relevance": 0.538431,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "58-year",
+                "relevance": 0.538431,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A father"
+                },
+                "sentence": "A father assaulted in his home after three men broke through the door and",
+                "action": {
+                    "verb": {
+                        "text": "assault",
+                        "tense": "past"
+                    },
+                    "text": "assaulted",
+                    "normalized": "assault"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cash"
+                },
+                "sentence": " demanded cash was spared further injury when his daughter threatened the",
+                "action": {
+                    "verb": {
+                        "text": "demand",
+                        "tense": "past"
+                    },
+                    "text": "demanded",
+                    "normalized": "demand"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cash"
+                },
+                "sentence": " demanded cash was spared further injury when his daughter threatened the",
+                "object": {
+                    "text": "spared further injury"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cash"
+                },
+                "sentence": " demanded cash was spared further injury when his daughter threatened the",
+                "object": {
+                    "text": "further injury"
+                },
+                "action": {
+                    "verb": {
+                        "text": "spare",
+                        "tense": "past"
+                    },
+                    "text": "was spared",
+                    "normalized": "be spare"
+                }
+            },
+            {
+                "subject": {
+                    "text": "his daughter"
+                },
+                "sentence": " demanded cash was spared further injury when his daughter threatened the",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "threaten",
+                        "tense": "past"
+                    },
+                    "text": "threatened",
+                    "normalized": "threaten"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police are investigating the aggravated burglary which took place at his home",
+                "object": {
+                    "text": "investigating the aggravated burglary which took place at his home"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police are investigating the aggravated burglary which took place at his home",
+                "object": {
+                    "text": "the aggravated burglary which took place at his home"
+                },
+                "action": {
+                    "verb": {
+                        "text": "investigate",
+                        "tense": "present"
+                    },
+                    "text": "are investigating",
+                    "normalized": "be investigate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the aggravated burglary"
+                },
+                "sentence": " Police are investigating the aggravated burglary which took place at his home",
+                "object": {
+                    "text": "place"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "past"
+                    },
+                    "text": "took",
+                    "normalized": "take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The 58-year-old"
+                },
+                "sentence": " The 58-year-old escaped more serious injuries after his daughter, Allen Sasha,",
+                "object": {
+                    "text": "more serious injuries"
+                },
+                "action": {
+                    "verb": {
+                        "text": "escape",
+                        "tense": "past"
+                    },
+                    "text": "escaped",
+                    "normalized": "escape"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " \"I ran down the stairs with a machete and told them to stop attacking him;",
+                "object": {
+                    "text": "the stairs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "run",
+                        "tense": "past"
+                    },
+                    "text": "ran",
+                    "normalized": "run"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " \"I ran down the stairs with a machete and told them to stop attacking him;",
+                "object": {
+                    "text": "to stop attacking him"
+                },
+                "action": {
+                    "verb": {
+                        "text": "tell",
+                        "tense": "past"
+                    },
+                    "text": "told",
+                    "normalized": "tell"
+                }
+            },
+            {
+                "subject": {
+                    "text": "them"
+                },
+                "sentence": " \"I ran down the stairs with a machete and told them to stop attacking him;",
+                "object": {
+                    "text": "attacking him"
+                },
+                "action": {
+                    "verb": {
+                        "text": "stop",
+                        "tense": "future"
+                    },
+                    "text": "stop",
+                    "normalized": "stop"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": " they did,\" she said.",
+                "object": {
+                    "text": "they did"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "She"
+                },
+                "sentence": " She said: \"Three men broke into our house and began to attack my dad who has",
+                "object": {
+                    "text": "Three men broke into our house and began to attack my dad who has"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Three men"
+                },
+                "sentence": " She said: \"Three men broke into our house and began to attack my dad who has",
+                "object": {
+                    "text": "my dad who has"
+                },
+                "action": {
+                    "verb": {
+                        "text": "attack",
+                        "tense": "past"
+                    },
+                    "text": "began to attack",
+                    "normalized": "begin to attack"
+                }
+            },
+            {
+                "subject": {
+                    "text": "They"
+                },
+                "sentence": " \"They ran around our home smashing things, going upstairs and even attempted",
+                "action": {
+                    "verb": {
+                        "text": "run",
+                        "tense": "past"
+                    },
+                    "text": "ran",
+                    "normalized": "run"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " \"I had to tell them to get out of there.\"",
+                "object": {
+                    "text": "to get out of there"
+                },
+                "action": {
+                    "verb": {
+                        "text": "tell",
+                        "tense": "past"
+                    },
+                    "text": "had to tell",
+                    "normalized": "have to tell"
+                }
+            },
+            {
+                "subject": {
+                    "text": "them"
+                },
+                "sentence": " \"I had to tell them to get out of there.\"",
+                "object": {
+                    "text": "out of there"
+                },
+                "action": {
+                    "verb": {
+                        "text": "get",
+                        "tense": "past"
+                    },
+                    "text": "to get",
+                    "normalized": "to get"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Anyone"
+                },
+                "sentence": " Anyone with information, should call police on 101 quoting 35/30664/20.",
+                "object": {
+                    "text": "police"
+                },
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "future"
+                    },
+                    "text": "should call",
+                    "normalized": "should call"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.919707,
+                "label": "/society/crime/property crime/burglary"
+            },
+            {
+                "score": 0.854432,
+                "label": "/society/crime/personal offense/assault"
+            },
+            {
+                "score": 0.792818,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "A father assaulted in his home after three men broke through the door and demanded cash was spared further injury when his daughter threatened the intruders with a machete.",
+                "score": 0.820636,
+                "arguments": [
+                    {
+                        "text": "father",
+                        "location": [
+                            2,
+                            8
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "father"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "assaulted",
+                        "location": [
+                            9,
+                            18
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "assaulted"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"I ran down the stairs with a machete and told them to stop attacking him; they did,\" she said.",
+                "score": 0.767879,
+                "arguments": [
+                    {
+                        "text": "I",
+                        "location": [
+                            416,
+                            417
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "father"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "told",
+                        "location": [
+                            457,
+                            461
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "\"I ran down the stairs with a machete and told them to stop attacking him; they did,\" she said.",
+                "score": 0.827469,
+                "arguments": [
+                    {
+                        "text": "them",
+                        "location": [
+                            462,
+                            466
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "intruders"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "told",
+                        "location": [
+                            457,
+                            461
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"I ran down the stairs with a machete and told them to stop attacking him; they did,\" she said.",
+                "score": 0.959657,
+                "arguments": [
+                    {
+                        "text": "she",
+                        "location": [
+                            501,
+                            504
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "daughter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            505,
+                            509
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "She said: \"Three men broke into our house and began to attack my dad who has many underlying health conditions.",
+                "score": 0.997176,
+                "arguments": [
+                    {
+                        "text": "She",
+                        "location": [
+                            512,
+                            515
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "daughter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            516,
+                            520
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "She said: \"Three men broke into our house and began to attack my dad who has many underlying health conditions.",
+                "score": 0.895731,
+                "arguments": [
+                    {
+                        "text": "men",
+                        "location": [
+                            529,
+                            532
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "men"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "house",
+                        "location": [
+                            548,
+                            553
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "house"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "She said: \"Three men broke into our house and began to attack my dad who has many underlying health conditions.",
+                "score": 0.394927,
+                "arguments": [
+                    {
+                        "text": "our",
+                        "location": [
+                            544,
+                            547
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "intruders"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "house",
+                        "location": [
+                            548,
+                            553
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "house"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"I had to tell them to get out of there.\"",
+                "score": 0.869078,
+                "arguments": [
+                    {
+                        "text": "I",
+                        "location": [
+                            758,
+                            759
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "daughter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "tell",
+                        "location": [
+                            767,
+                            771
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "tell"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "\"I had to tell them to get out of there.\"",
+                "score": 0.785789,
+                "arguments": [
+                    {
+                        "text": "I",
+                        "location": [
+                            758,
+                            759
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "daughter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "them",
+                        "location": [
+                            772,
+                            776
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "intruders"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "\"I had to tell them to get out of there.\"",
+                "score": 0.936882,
+                "arguments": [
+                    {
+                        "text": "them",
+                        "location": [
+                            772,
+                            776
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "intruders"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "tell",
+                        "location": [
+                            767,
+                            771
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "tell"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "A father assaulted in his home after three men broke through the door and demanded cash was spared further injury when his daughter threatened the intruders with a machete.",
+                "score": 0.836094,
+                "arguments": [
+                    {
+                        "text": "assaulted",
+                        "location": [
+                            9,
+                            18
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "assaulted"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "home",
+                        "location": [
+                            26,
+                            30
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "house"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "A father assaulted in his home after three men broke through the door and demanded cash was spared further injury when his daughter threatened the intruders with a machete.",
+                "score": 0.372969,
+                "arguments": [
+                    {
+                        "text": "his",
+                        "location": [
+                            22,
+                            25
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "father"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "home",
+                        "location": [
+                            26,
+                            30
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "house"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Police are investigating the aggravated burglary which took place at his home in Parson Drove at around 9.30pm on May 10.",
+                "score": 0.379024,
+                "arguments": [
+                    {
+                        "text": "his",
+                        "location": [
+                            243,
+                            246
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "father"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "home",
+                        "location": [
+                            247,
+                            251
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "house"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "A father assaulted in his home after three men broke through the door and demanded cash was spared further injury when his daughter threatened the intruders with a machete.",
+                "score": 0.783971,
+                "arguments": [
+                    {
+                        "text": "men",
+                        "location": [
+                            43,
+                            46
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "men"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "demanded",
+                        "location": [
+                            74,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "demanded"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "parentOf",
+                "sentence": "A father assaulted in his home after three men broke through the door and demanded cash was spared further injury when his daughter threatened the intruders with a machete.",
+                "score": 0.860527,
+                "arguments": [
+                    {
+                        "text": "his",
+                        "location": [
+                            119,
+                            122
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "father"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "daughter",
+                        "location": [
+                            123,
+                            131
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "daughter"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "parentOf",
+                "sentence": "The 58-year-old escaped more serious injuries after his daughter, Allen Sasha, intervened before the intruders fled.",
+                "score": 0.814467,
+                "arguments": [
+                    {
+                        "text": "his",
+                        "location": [
+                            349,
+                            352
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "father"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "daughter",
+                        "location": [
+                            353,
+                            361
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "daughter"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "A father assaulted in his home after three men broke through the door and demanded cash was spared further injury when his daughter threatened the intruders with a machete.",
+                "score": 0.851872,
+                "arguments": [
+                    {
+                        "text": "daughter",
+                        "location": [
+                            123,
+                            131
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "daughter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "threatened",
+                        "location": [
+                            132,
+                            142
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "threatened"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "A father assaulted in his home after three men broke through the door and demanded cash was spared further injury when his daughter threatened the intruders with a machete.",
+                "score": 0.786702,
+                "arguments": [
+                    {
+                        "text": "intruders",
+                        "location": [
+                            147,
+                            156
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "intruders"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "threatened",
+                        "location": [
+                            132,
+                            142
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "threatened"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police are investigating the aggravated burglary which took place at his home in Parson Drove at around 9.30pm on May 10.",
+                "score": 0.95322,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            174,
+                            180
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "investigating",
+                        "location": [
+                            185,
+                            198
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "investigating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Police are investigating the aggravated burglary which took place at his home in Parson Drove at around 9.30pm on May 10.",
+                "score": 0.969779,
+                "arguments": [
+                    {
+                        "text": "home",
+                        "location": [
+                            247,
+                            251
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "house"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Parson",
+                        "location": [
+                            255,
+                            261
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Parson"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "58-year-old",
+                "relevance": 0.664187,
+                "count": 1
+            },
+            {
+                "text": "aggravated burglary",
+                "relevance": 0.622238,
+                "count": 1
+            },
+            {
+                "text": "Parson Drove",
+                "relevance": 0.607251,
+                "count": 1
+            },
+            {
+                "text": "serious injuries",
+                "relevance": 0.59626,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.585073,
+                "count": 1
+            },
+            {
+                "text": "spared further injury",
+                "relevance": 0.583929,
+                "count": 1
+            },
+            {
+                "text": "Police",
+                "relevance": 0.572167,
+                "count": 2
+            },
+            {
+                "text": "five-year-old sleeps",
+                "relevance": 0.559813,
+                "count": 1
+            },
+            {
+                "text": "home",
+                "relevance": 0.556561,
+                "count": 3
+            },
+            {
+                "text": "father",
+                "relevance": 0.54927,
+                "count": 1
+            },
+            {
+                "text": "underlying health conditions",
+                "relevance": 0.544728,
+                "count": 1
+            },
+            {
+                "text": "bedroom",
+                "relevance": 0.533353,
+                "count": 1
+            },
+            {
+                "text": "men",
+                "relevance": 0.529268,
+                "count": 2
+            },
+            {
+                "text": "cash",
+                "relevance": 0.524993,
+                "count": 1
+            },
+            {
+                "text": "things",
+                "relevance": 0.524641,
+                "count": 1
+            },
+            {
+                "text": "stairs",
+                "relevance": 0.521437,
+                "count": 1
+            },
+            {
+                "text": "house",
+                "relevance": 0.520663,
+                "count": 1
+            },
+            {
+                "text": "intruders",
+                "relevance": 0.517793,
+                "count": 2
+            },
+            {
+                "text": "machete",
+                "relevance": 0.516708,
+                "count": 2
+            },
+            {
+                "text": "place",
+                "relevance": 0.51606,
+                "count": 1
+            },
+            {
+                "text": "daughter",
+                "relevance": 0.515422,
+                "count": 2
+            },
+            {
+                "text": "dad",
+                "relevance": 0.512709,
+                "count": 1
+            },
+            {
+                "text": "door",
+                "relevance": 0.509167,
+                "count": 1
+            },
+            {
+                "text": "Allen Sasha",
+                "relevance": 0.504689,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.442072,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "682bb1481b4317d221457f6c4cbe3fd48af59c91",
+        "filename": "202006050000ARCHANT_NEWS____86483038.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Three men ransack house before assaulting homeowner and demand cash with weapons",
+    "html": "<p>A father assaulted in his home after three men broke through the door and demanded cash was spared further injury when his daughter threatened the intruders with a machete.</p>\n<p>Police are investigating the aggravated burglary which took place at his home in Parson Drove at around <chron>9.30pm</chron> on <chron>May 10</chron>.   </p>\n<p>The 58-year-old escaped more serious injuries after his daughter, <person>Allen Sasha</person>, intervened before the intruders fled. </p>\n<p>&#8220;I ran down the stairs with a machete and told them to stop attacking him; they did,&#8221; she said.   </p>\n<p>She said: &#8220;Three men broke into our house and began to attack my dad who has many underlying health conditions.    </p>\n<p>&#8220;They ran around our home smashing things, going upstairs and even attempted to go into the bedroom where my five-year-old sleeps. </p>\n<p>&#8220;I had to tell them to get out of there.&#8221;    </p>\n<p>Anyone with information, should call police on 101 quoting 35/30664/20.</p>",
+    "geoFocus": [
+        [
+            "GU/gb.eng.cam",
+            "Cambridgeshire"
+        ]
+    ]
+}

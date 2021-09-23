@@ -1,0 +1,1236 @@
+{
+    "id": "516a34f3-61d9-4175-aa8b-d8b87a17a84f",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 The Jonesboro Sun",
+    "geoOrigin": "Jonesboro, Arkansas",
+    "sourceType": "Newspaper",
+    "source": "Jonesboro Sun, The (AR)",
+    "corpus_document_id": "92688459243571077327",
+    "description": "NEWPORT- Karen Sue Cathey, of Newport, died Wednesday. She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett. Arrangements by Jackson's Newport Funeral...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": "IS/lifesoc.spec",
+            "relevance_score": "9",
+            "description": "Obituaries and Funerals",
+            "code": "IS/lifesoc.obit#9#90#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Life and Society Content",
+            "code": "IS/lifesoc.spec#9#50#90",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#90",
+            "level": 0
+        }
+    ],
+    "text": "NEWPORT \\- Karen Sue (Fortune) Cathey, of Newport, died Wednesday.\n\nShe is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the\nhome; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane\nCathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of\nNewport; four grandchildren, Summer, Gage, Ainsley and Beckett.\n\nFriends may visit at Jackson's Newport Funeral home 5 to 7 p.m. on Tuesday.\nThe memorial service will be at 10 a.m. Wednesday at Walnut Grove Cemetery.\n\nArrangements by Jackson's Newport Funeral Homes, Inc.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Newport Funeral Homes, Inc."
+        ],
+        "location": [
+            "NEWPORT",
+            "Newport",
+            "Little Rock",
+            "Dallas, Texas",
+            "Jackson's",
+            "Walnut Grove Cemetery"
+        ],
+        "person": [
+            "Karen Sue (Fortune) Cathey",
+            "Albert \"Junior\" Cathey",
+            "Jason Cathey",
+            "Shane Cathey",
+            "Mike Fortune"
+        ],
+        "companies": [
+            "Newport Funeral Homes, Inc."
+        ]
+    },
+    "geoOrigin_code": "RU/us.ar.jonoro",
+    "language": "English",
+    "filename": "202005240000NEWSBANKNEWSPPRS8ADF2BD35EBC80A8131F9AA8A3668C4.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": 0.348429,
+                    "label": "positive"
+                },
+                "text": "Jason Cathey",
+                "relevance": 0.931679,
+                "type": "Person"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "NEWPORT",
+                "relevance": 0.504192,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.369621,
+                    "label": "negative"
+                },
+                "text": "Newport Funeral Homes",
+                "relevance": 0.441194,
+                "type": "Facility"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Karen Sue",
+                "relevance": 0.257744,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.506069,
+                    "label": "positive"
+                },
+                "text": "Walnut Grove Cemetery",
+                "relevance": 0.221158,
+                "type": "Facility",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "Cemetery"
+                    ],
+                    "name": "Walnut Grove Cemetery",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Walnut_Grove_Cemetery"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.432035,
+                    "label": "positive"
+                },
+                "text": "Mike Fortune",
+                "relevance": 0.192081,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.369621,
+                    "label": "negative"
+                },
+                "text": "Jackson",
+                "relevance": 0.187524,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.270683,
+                    "label": "negative"
+                },
+                "text": "Little Rock",
+                "relevance": 0.146102,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Shane",
+                "relevance": 0.136745,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.563435,
+                    "label": "positive"
+                },
+                "text": "Ainsley",
+                "relevance": 0.13322,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dallas",
+                "relevance": 0.129981,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Dallas",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Dallas"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.215524,
+                    "label": "positive"
+                },
+                "text": "Gage",
+                "relevance": 0.129606,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.563435,
+                    "label": "positive"
+                },
+                "text": "Beckett",
+                "relevance": 0.12672,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Melody",
+                "relevance": 0.125864,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.391159,
+                    "label": "positive"
+                },
+                "text": "Texas",
+                "relevance": 0.124865,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Texas",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Texas"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Brindy",
+                "relevance": 0.109026,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "44 years",
+                "relevance": 0.109026,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "NEWPORT \\- Karen Sue (Fortune) Cathey, of Newport,"
+                },
+                "sentence": "NEWPORT \\- Karen Sue (Fortune) Cathey, of Newport, died Wednesday.",
+                "action": {
+                    "verb": {
+                        "text": "die",
+                        "tense": "past"
+                    },
+                    "text": "died",
+                    "normalized": "die"
+                }
+            },
+            {
+                "subject": {
+                    "text": "She"
+                },
+                "sentence": " She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the",
+                "object": {
+                    "text": "survived by her husband, of 44 years"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by her husband, of 44 years, Albert \"Junior\" Cathey, of the"
+                },
+                "sentence": " She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the",
+                "object": {
+                    "text": "She"
+                },
+                "action": {
+                    "verb": {
+                        "text": "survive",
+                        "tense": "past"
+                    },
+                    "text": "is survived",
+                    "normalized": "be survive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Friends"
+                },
+                "sentence": " Friends may visit at Jackson's Newport Funeral home 5 to 7 p.m. on Tuesday.",
+                "action": {
+                    "verb": {
+                        "text": "visit",
+                        "tense": "future"
+                    },
+                    "text": "may visit",
+                    "normalized": "may visit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The memorial service"
+                },
+                "sentence": " The memorial service will be at 10 a.m.",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "will be",
+                    "normalized": "will be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.631917,
+                "label": "/news"
+            },
+            {
+                "score": 0.611356,
+                "label": "/travel/traveling with kids"
+            },
+            {
+                "score": 0.560608,
+                "label": "/family and parenting/parenting teens"
+            }
+        ],
+        "relations": [
+            {
+                "type": "diedOn",
+                "sentence": "NEWPORT \\- Karen Sue (Fortune) Cathey, of Newport, died Wednesday.",
+                "score": 0.51879,
+                "arguments": [
+                    {
+                        "text": "Karen Sue",
+                        "location": [
+                            11,
+                            20
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Karen Sue"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Wednesday",
+                        "location": [
+                            56,
+                            65
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Wednesday"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett.",
+                "score": 0.978869,
+                "arguments": [
+                    {
+                        "text": "Dallas",
+                        "location": [
+                            227,
+                            233
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Dallas"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Texas",
+                        "location": [
+                            235,
+                            240
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Texas"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett.",
+                "score": 0.721461,
+                "arguments": [
+                    {
+                        "text": "Mike Fortune",
+                        "location": [
+                            255,
+                            267
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mike Fortune"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "grandchildren",
+                        "location": [
+                            303,
+                            316
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "grandchildren"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett.",
+                "score": 0.521767,
+                "arguments": [
+                    {
+                        "text": "Melody",
+                        "location": [
+                            278,
+                            284
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Melody"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "grandchildren",
+                        "location": [
+                            303,
+                            316
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "grandchildren"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Friends may visit at Jackson's Newport Funeral home 5 to 7 p.m. on Tuesday.",
+                "score": 0.563684,
+                "arguments": [
+                    {
+                        "text": "Friends",
+                        "location": [
+                            354,
+                            361
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Friends"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "home",
+                        "location": [
+                            401,
+                            405
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Friends may visit at Jackson's Newport Funeral home 5 to 7 p.m. on Tuesday.",
+                "score": 0.823677,
+                "arguments": [
+                    {
+                        "text": "Funeral",
+                        "location": [
+                            393,
+                            400
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "memorial service"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Newport",
+                        "location": [
+                            385,
+                            392
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "NEWPORT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Friends may visit at Jackson's Newport Funeral home 5 to 7 p.m. on Tuesday.",
+                "score": 0.842698,
+                "arguments": [
+                    {
+                        "text": "home",
+                        "location": [
+                            401,
+                            405
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "home"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Newport",
+                        "location": [
+                            385,
+                            392
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "NEWPORT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Friends may visit at Jackson's Newport Funeral home 5 to 7 p.m. on Tuesday.",
+                "score": 0.593135,
+                "arguments": [
+                    {
+                        "text": "Funeral",
+                        "location": [
+                            393,
+                            400
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "memorial service"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "home",
+                        "location": [
+                            401,
+                            405
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Friends may visit at Jackson's Newport Funeral home 5 to 7 p.m. on Tuesday.",
+                "score": 0.552872,
+                "arguments": [
+                    {
+                        "text": "7 p.m.",
+                        "location": [
+                            411,
+                            417
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "7 p.m."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Funeral",
+                        "location": [
+                            393,
+                            400
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "memorial service"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The memorial service will be at 10 a.m. Wednesday at Walnut Grove Cemetery.",
+                "score": 0.798877,
+                "arguments": [
+                    {
+                        "text": "10 a.m. Wednesday",
+                        "location": [
+                            462,
+                            479
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "10 a.m. Wednesday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "memorial service",
+                        "location": [
+                            434,
+                            450
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "memorial service"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The memorial service will be at 10 a.m. Wednesday at Walnut Grove Cemetery.",
+                "score": 0.510996,
+                "arguments": [
+                    {
+                        "text": "memorial service",
+                        "location": [
+                            434,
+                            450
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "memorial service"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Walnut Grove Cemetery",
+                        "location": [
+                            483,
+                            504
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Walnut Grove Cemetery"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "NEWPORT \\- Karen Sue (Fortune) Cathey, of Newport, died Wednesday.",
+                "score": 0.673443,
+                "arguments": [
+                    {
+                        "text": "Cathey",
+                        "location": [
+                            31,
+                            37
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Karen Sue"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Newport",
+                        "location": [
+                            42,
+                            49
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "NEWPORT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Arrangements by Jackson's Newport Funeral Homes, Inc.",
+                "score": 0.380868,
+                "arguments": [
+                    {
+                        "text": "Jackson",
+                        "location": [
+                            523,
+                            530
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jackson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Newport Funeral Homes, Inc.",
+                        "location": [
+                            533,
+                            560
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Newport Funeral Homes, Inc."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "spouseOf",
+                "sentence": "She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett.",
+                "score": 0.707314,
+                "arguments": [
+                    {
+                        "text": "her",
+                        "location": [
+                            87,
+                            90
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Karen Sue"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "husband",
+                        "location": [
+                            91,
+                            98
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jackson"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett.",
+                "score": 0.826736,
+                "arguments": [
+                    {
+                        "text": "husband",
+                        "location": [
+                            91,
+                            98
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jackson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "44 years",
+                        "location": [
+                            103,
+                            111
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "44 years"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett.",
+                "score": 0.349561,
+                "arguments": [
+                    {
+                        "text": "sons",
+                        "location": [
+                            154,
+                            158
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "sons"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "home",
+                        "location": [
+                            144,
+                            148
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett.",
+                "score": 0.937294,
+                "arguments": [
+                    {
+                        "text": "Jason Cathey",
+                        "location": [
+                            160,
+                            172
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jason Cathey"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "sons",
+                        "location": [
+                            154,
+                            158
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "sons"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett.",
+                "score": 0.526725,
+                "arguments": [
+                    {
+                        "text": "wife",
+                        "location": [
+                            177,
+                            181
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Brindy"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "sons",
+                        "location": [
+                            154,
+                            158
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "sons"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett.",
+                "score": 0.907655,
+                "arguments": [
+                    {
+                        "text": "Shane\nCathey",
+                        "location": [
+                            211,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Shane\nCathey"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "sons",
+                        "location": [
+                            154,
+                            158
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "sons"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "She is survived by her husband, of 44 years, Albert \"Junior\" Cathey, of the home; two sons, Jason Cathey and wife, Brindy, of Little Rock, and Shane Cathey of Dallas, Texas; one brother, Mike Fortune and wife, Melody, of Newport; four grandchildren, Summer, Gage, Ainsley and Beckett.",
+                "score": 0.856309,
+                "arguments": [
+                    {
+                        "text": "Shane\nCathey",
+                        "location": [
+                            211,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Shane\nCathey"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Dallas",
+                        "location": [
+                            227,
+                            233
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Dallas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Jackson's Newport Funeral",
+                "relevance": 0.78792,
+                "count": 1
+            },
+            {
+                "text": "memorial service",
+                "relevance": 0.754718,
+                "count": 1
+            },
+            {
+                "text": "Karen Sue",
+                "relevance": 0.741502,
+                "count": 1
+            },
+            {
+                "text": "Jackson's Newport Funeral Homes",
+                "relevance": 0.696273,
+                "count": 1
+            },
+            {
+                "text": "NEWPORT",
+                "relevance": 0.654759,
+                "count": 3
+            },
+            {
+                "text": "Jason Cathey",
+                "relevance": 0.630981,
+                "count": 1
+            },
+            {
+                "text": "Little Rock",
+                "relevance": 0.599344,
+                "count": 1
+            },
+            {
+                "text": "Friends",
+                "relevance": 0.589938,
+                "count": 1
+            },
+            {
+                "text": "home",
+                "relevance": 0.56662,
+                "count": 1
+            },
+            {
+                "text": "Mike Fortune",
+                "relevance": 0.562745,
+                "count": 1
+            },
+            {
+                "text": "Arrangements",
+                "relevance": 0.562039,
+                "count": 1
+            },
+            {
+                "text": "Fortune",
+                "relevance": 0.543368,
+                "count": 1
+            },
+            {
+                "text": "Dallas",
+                "relevance": 0.540074,
+                "count": 1
+            },
+            {
+                "text": "sons",
+                "relevance": 0.537107,
+                "count": 1
+            },
+            {
+                "text": "grandchildren",
+                "relevance": 0.528378,
+                "count": 1
+            },
+            {
+                "text": "Walnut Grove Cemetery",
+                "relevance": 0.526473,
+                "count": 1
+            },
+            {
+                "text": "brother",
+                "relevance": 0.525146,
+                "count": 1
+            },
+            {
+                "text": "wife",
+                "relevance": 0.525063,
+                "count": 2
+            },
+            {
+                "text": "Albert",
+                "relevance": 0.522339,
+                "count": 1
+            },
+            {
+                "text": "Summer",
+                "relevance": 0.519926,
+                "count": 1
+            },
+            {
+                "text": "Gage",
+                "relevance": 0.51553,
+                "count": 1
+            },
+            {
+                "text": "Cathey",
+                "relevance": 0.514628,
+                "count": 2
+            },
+            {
+                "text": "Ainsley",
+                "relevance": 0.512809,
+                "count": 1
+            },
+            {
+                "text": "Beckett",
+                "relevance": 0.510565,
+                "count": 1
+            },
+            {
+                "text": "Melody",
+                "relevance": 0.510565,
+                "count": 1
+            },
+            {
+                "text": "husband",
+                "relevance": 0.453806,
+                "count": 1
+            },
+            {
+                "text": "Texas",
+                "relevance": 0.443094,
+                "count": 1
+            },
+            {
+                "text": "years",
+                "relevance": 0.441747,
+                "count": 1
+            },
+            {
+                "text": "Brindy",
+                "relevance": 0.432053,
+                "count": 1
+            },
+            {
+                "text": "Wednesday",
+                "relevance": 0.432053,
+                "count": 2
+            },
+            {
+                "text": "Junior",
+                "relevance": 0.431661,
+                "count": 1
+            },
+            {
+                "text": "Inc.",
+                "relevance": 0.423955,
+                "count": 1
+            },
+            {
+                "text": "Tuesday",
+                "relevance": 0.423955,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "fee6403946afb796ca23acca503da0f205e7bcf1",
+        "filename": "202005240000NEWSBANKNEWSPPRS8ADF2BD35EBC80A8131F9AA8A3668C4.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-24T00:00:00-04:00",
+    "title": "Karen Cathey",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.ar.newpor\">NEWPORT</location> - <person>Karen Sue (Fortune) Cathey</person>, of <location idsrc=\"xmltag.org\" value=\"LU/us.ar.newpor\">Newport</location>, died Wednesday.</p>\n<p>She is survived by her husband, of 44 years, <person>Albert \"Junior\" Cathey</person>, of the home; two sons, <person>Jason Cathey</person> and wife, Brindy, of <location idsrc=\"xmltag.org\" value=\"LU/us.ar.litrck\">Little Rock</location>, and <person>Shane Cathey</person> of <location idsrc=\"xmltag.org\" value=\"LU/us.tx.dallas\">Dallas, Texas</location>; one brother, <person>Mike Fortune</person> and wife, Melody, of <location idsrc=\"xmltag.org\" value=\"LU/us.ar.newpor\">Newport</location>; four grandchildren, Summer, Gage, Ainsley and Beckett.</p>\n\n<p>Friends may visit at <location idsrc=\"xmltag.org\" value=\"LU/us.ar.jacksn\">Jackson's</location> Newport Funeral home <chron>5 to 7 p.m. on Tuesday</chron>. The memorial service will be at <chron>10 a.m. Wednesday</chron> at <location>Walnut Grove Cemetery</location>.</p>\n\n<p>Arrangements by <location idsrc=\"xmltag.org\" value=\"LU/us.ar.jacksn\">Jackson's</location> <org>Newport Funeral Homes, Inc.</org></p>",
+    "geoFocus": [
+        [
+            "GU/us.ar.jonoro",
+            "Jonesboro"
+        ]
+    ]
+}

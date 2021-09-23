@@ -1,0 +1,333 @@
+{
+    "id": "e073e77c-32d4-4253-ad64-8b92d386ecdb",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "26027430664110262451",
+    "description": "Reconstruction LSA151 Hofholzallee/ Melsdorfer Strae; Device replacement more info: Location: GERMANY BidDate: 6/ 17/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: State capital Kiel, the mayor Tendering Authority Address: 24109 Kiel Schleswig-Holstein Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Reconstruction LSA151 Hofholzallee / Melsdorfer Strae; Device replacement more\ninfo : Location : GERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender\nType : Tenders Tendering Authority : State capital Kiel, the mayor Tendering\nAuthority Address : 24109 Kiel Schleswig-Holstein Financier : Self Funded\nTearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_25241_176210742_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.966565,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kiel",
+                "relevance": 0.730271,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GermanUrbanDistrict",
+                        "City"
+                    ],
+                    "name": "Kiel",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Kiel"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.370718,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.528341,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.840531,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.682215,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.533765,
+                "label": "/business and industrial/construction"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Reconstruction LSA151 Hofholzallee / Melsdorfer Strae; Device replacement more info : Location : GERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State capital Kiel, the mayor Tendering Authority Address : 24109 Kiel Schleswig-Holstein Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.541234,
+                "arguments": [
+                    {
+                        "text": "mayor",
+                        "location": [
+                            218,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reconstruction LSA151 Hofholzallee"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Authority Address",
+                        "location": [
+                            234,
+                            251
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Authority Address",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Reconstruction LSA151 Hofholzallee / Melsdorfer Strae; Device replacement more info : Location : GERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State capital Kiel, the mayor Tendering Authority Address : 24109 Kiel Schleswig-Holstein Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.504852,
+                "arguments": [
+                    {
+                        "text": "mayor",
+                        "location": [
+                            218,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reconstruction LSA151 Hofholzallee"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Kiel Schleswig-Holstein",
+                        "location": [
+                            260,
+                            283
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Kiel Schleswig-Holstein"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Reconstruction LSA151 Hofholzallee / Melsdorfer Strae; Device replacement more info : Location : GERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State capital Kiel, the mayor Tendering Authority Address : 24109 Kiel Schleswig-Holstein Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.567173,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            284,
+                            293
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Kiel Schleswig-Holstein",
+                        "location": [
+                            260,
+                            283
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Kiel Schleswig-Holstein"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.906216,
+                "count": 1
+            },
+            {
+                "text": "Reconstruction LSA151 Hofholzallee",
+                "relevance": 0.807633,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.718439,
+                "count": 1
+            },
+            {
+                "text": "Self Funded",
+                "relevance": 0.633419,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.615229,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.608289,
+                "count": 1
+            },
+            {
+                "text": "State capital Kiel",
+                "relevance": 0.590746,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.581231,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.567776,
+                "count": 1
+            },
+            {
+                "text": "Kiel Schleswig-Holstein Financier",
+                "relevance": 0.526792,
+                "count": 1
+            },
+            {
+                "text": "Money",
+                "relevance": 0.524773,
+                "count": 1
+            },
+            {
+                "text": "Melsdorfer Strae",
+                "relevance": 0.4654,
+                "count": 1
+            },
+            {
+                "text": "Device replacement",
+                "relevance": 0.389266,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "19e5276d6bc07c3c7193583c51fd6e1429f47523",
+        "filename": "202006050210ALBA____ME_NA_NE_25241_176210742_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Reconstruction LSA151 Hofholzallee / Melsdorfer Strae; Device replacement [TenderNews.com - Tenders (India)]",
+    "html": "<p>Reconstruction LSA151 Hofholzallee / Melsdorfer Strae; Device replacement more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/17/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : State capital Kiel, the mayor\nTendering Authority Address : 24109 Kiel Schleswig-Holstein\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

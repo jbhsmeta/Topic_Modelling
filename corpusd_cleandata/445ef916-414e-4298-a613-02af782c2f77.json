@@ -1,0 +1,640 @@
+{
+    "id": "445ef916-414e-4298-a613-02af782c2f77",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020 Al Bawaba (Albawaba.com)  Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "Amman, Jordan",
+    "sourceType": "Business & Financial Newswire",
+    "source": "Al Bawaba Business",
+    "corpus_document_id": "44343856712251812999",
+    "description": "Prior information notice with call for competition: Printing and delivery services. The contracting authority requires the distribution of 1 load as follows: 69,000 copies to all mailboxes of the inhabitants of the Prague 10 district. This contract is divided into lots: no Major organization: MESTSK CST PRAHA 10 (00063941) Address: Vrovick 1429/ 68 Town: Praha 10...",
+    "serviceName": "Mena Report",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Eastern Europe",
+            "code": "LB/eeur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eeur",
+            "relevance_score": "9",
+            "description": "Czech Republic",
+            "code": "LC/cz#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LS/cz#9#50#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Prior information notice with call for competition: Printing and delivery\nservices\n\nDescription of the procurement: The subject of the public contract is to\nensure the distribution of the press by delivering a town hall monthly in the\namount of 69,000 copies for 1 distribution. The contracting authority requires\nthe distribution of 1 load as follows: 69,000 copies to all mailboxes of the\ninhabitants of the Prague 10 district. The total cost is 69,000 copies per\nmonth. Distribution will take place 11 months in a calendar year.\n\nValue excluding VAT: 3 300 000.00 CZKII.1.6)Information about lots\n\nThis contract is divided into lots: no Major organization : MESTSK CST PRAHA\n10 (00063941) Address : Vrovick 1429/68 Town: Praha 10 Country :Czech Republic\nEmail :\n[administrace@krutakpartners.cz](mailto:administrace@krutakpartners.cz) Tender\nnotice number : 256780-2020 Notice type : Procurement Forecast Open date :\n2020-07-07\n\nTender documents :\n[T453909477.html](http://d.infostores.biz/T453909477.html?id=Nzg4Rzh2IBtjfC0GA0MUIwhhJXkbUm5oVw9WZ0ZD)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Prague",
+            "PRAHA",
+            "Praha"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/jo..amman",
+    "language": "English",
+    "filename": "202006050258ALBA____MENAREPO_15198_176219044_138.2.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Prague",
+                "relevance": 0.818774,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "City"
+                    ],
+                    "name": "Prague",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Prague"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Czech Republic",
+                "relevance": 0.753729,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Czech Republic",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Czech_Republic"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "administrace@krutakpartners.cz",
+                "relevance": 0.753729,
+                "type": "EmailAddress"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "11 months",
+                "relevance": 0.753729,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "a town hall"
+                },
+                "sentence": " ensure the distribution of the press by delivering a town hall monthly in the",
+                "action": {
+                    "verb": {
+                        "text": "deliver",
+                        "tense": "present"
+                    },
+                    "text": "delivering",
+                    "normalized": "deliver"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the distribution of 1 load"
+                },
+                "sentence": " the distribution of 1 load as follows: 69,000 copies to all mailboxes of the",
+                "object": {
+                    "text": "69,000 copies to all mailboxes of the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "follow",
+                        "tense": "present"
+                    },
+                    "text": "follows",
+                    "normalized": "follow"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The total cost"
+                },
+                "sentence": " The total cost is 69,000 copies per",
+                "object": {
+                    "text": "69,000 copies per"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "month. Distribution"
+                },
+                "sentence": " month. Distribution will take place 11 months in a calendar year.",
+                "object": {
+                    "text": "place"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "future"
+                    },
+                    "text": "will take",
+                    "normalized": "will take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This contract"
+                },
+                "sentence": " This contract is divided into lots: no Major organization : MESTSK CST PRAHA",
+                "object": {
+                    "text": "divided into lots"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This contract"
+                },
+                "sentence": " This contract is divided into lots: no Major organization : MESTSK CST PRAHA",
+                "object": {
+                    "text": "into lots: no Major organization : MESTSK CST PRAHA"
+                },
+                "action": {
+                    "verb": {
+                        "text": "divide",
+                        "tense": "past"
+                    },
+                    "text": "is divided",
+                    "normalized": "be divide"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.85844,
+                "label": "/technology and computing/internet technology/email"
+            },
+            {
+                "score": 0.733896,
+                "label": "/real estate/buying and selling homes"
+            },
+            {
+                "score": 0.653262,
+                "label": "/law, govt and politics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Description of the procurement: The subject of the public contract is to ensure the distribution of the press by delivering a town hall monthly in the amount of 69,000 copies for 1 distribution.",
+                "score": 0.944853,
+                "arguments": [
+                    {
+                        "text": "hall",
+                        "location": [
+                            215,
+                            219
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "hall"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "town",
+                        "location": [
+                            210,
+                            214
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Town"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "memberOf",
+                "sentence": "The contracting authority requires the distribution of 1 load as follows: 69,000 copies to all mailboxes of the inhabitants of the Prague 10 district.",
+                "score": 0.411972,
+                "arguments": [
+                    {
+                        "text": "inhabitants",
+                        "location": [
+                            391,
+                            402
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inhabitants"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "district",
+                        "location": [
+                            420,
+                            428
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "district"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "The contracting authority requires the distribution of 1 load as follows: 69,000 copies to all mailboxes of the inhabitants of the Prague 10 district.",
+                "score": 0.544102,
+                "arguments": [
+                    {
+                        "text": "10",
+                        "location": [
+                            417,
+                            419
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "10"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Prague",
+                        "location": [
+                            410,
+                            416
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Prague"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "The contracting authority requires the distribution of 1 load as follows: 69,000 copies to all mailboxes of the inhabitants of the Prague 10 district.",
+                "score": 0.592235,
+                "arguments": [
+                    {
+                        "text": "district",
+                        "location": [
+                            420,
+                            428
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "district"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Prague",
+                        "location": [
+                            410,
+                            416
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Prague"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "This contract is divided into lots: no Major organization : MESTSK CST PRAHA 10 (00063941) Address : Vrovick 1429/68 Town: Praha 10 Country :Czech Republic Email : [administrace@krutakpartners.cz](mailto:administrace@krutakpartners.cz) Tender notice number : 256780-2020 Notice type : Procurement Forecast Open date : 2020-07-07",
+                "score": 0.831049,
+                "arguments": [
+                    {
+                        "text": "Vrovick",
+                        "location": [
+                            702,
+                            709
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Vrovick"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Town",
+                        "location": [
+                            718,
+                            722
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Town"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Prior information notice",
+                "relevance": 0.914538,
+                "count": 1
+            },
+            {
+                "text": "distribution of the press",
+                "relevance": 0.816483,
+                "count": 1
+            },
+            {
+                "text": "Notice type",
+                "relevance": 0.71537,
+                "count": 1
+            },
+            {
+                "text": "subject of the public contract",
+                "relevance": 0.663902,
+                "count": 1
+            },
+            {
+                "text": "total cost",
+                "relevance": 0.638675,
+                "count": 1
+            },
+            {
+                "text": "town hall",
+                "relevance": 0.613727,
+                "count": 1
+            },
+            {
+                "text": "calendar year",
+                "relevance": 0.56633,
+                "count": 1
+            },
+            {
+                "text": "Value",
+                "relevance": 0.561974,
+                "count": 1
+            },
+            {
+                "text": "Procurement Forecast Open date",
+                "relevance": 0.552878,
+                "count": 1
+            },
+            {
+                "text": "distribution",
+                "relevance": 0.544647,
+                "count": 3
+            },
+            {
+                "text": "inhabitants of the Prague",
+                "relevance": 0.542405,
+                "count": 1
+            },
+            {
+                "text": "contracting authority",
+                "relevance": 0.542405,
+                "count": 1
+            },
+            {
+                "text": "procurement",
+                "relevance": 0.541165,
+                "count": 1
+            },
+            {
+                "text": "Address",
+                "relevance": 0.539238,
+                "count": 1
+            },
+            {
+                "text": "amount",
+                "relevance": 0.538831,
+                "count": 1
+            },
+            {
+                "text": "copies",
+                "relevance": 0.535601,
+                "count": 3
+            },
+            {
+                "text": "Major organization",
+                "relevance": 0.531913,
+                "count": 1
+            },
+            {
+                "text": "MESTSK CST PRAHA",
+                "relevance": 0.524923,
+                "count": 1
+            },
+            {
+                "text": "VAT",
+                "relevance": 0.524764,
+                "count": 1
+            },
+            {
+                "text": "Information",
+                "relevance": 0.522855,
+                "count": 1
+            },
+            {
+                "text": "load",
+                "relevance": 0.521856,
+                "count": 1
+            },
+            {
+                "text": "lots",
+                "relevance": 0.52148,
+                "count": 2
+            },
+            {
+                "text": "contract",
+                "relevance": 0.520303,
+                "count": 1
+            },
+            {
+                "text": "place",
+                "relevance": 0.516014,
+                "count": 1
+            },
+            {
+                "text": "Country",
+                "relevance": 0.51248,
+                "count": 1
+            },
+            {
+                "text": "competition",
+                "relevance": 0.51248,
+                "count": 1
+            },
+            {
+                "text": "Town",
+                "relevance": 0.510366,
+                "count": 1
+            },
+            {
+                "text": "district",
+                "relevance": 0.50849,
+                "count": 1
+            },
+            {
+                "text": "mailboxes",
+                "relevance": 0.50849,
+                "count": 1
+            },
+            {
+                "text": "Praha",
+                "relevance": 0.507567,
+                "count": 1
+            },
+            {
+                "text": "months",
+                "relevance": 0.506241,
+                "count": 1
+            },
+            {
+                "text": "Tender documents",
+                "relevance": 0.504564,
+                "count": 1
+            },
+            {
+                "text": "Vrovick",
+                "relevance": 0.43829,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.437457,
+                "count": 1
+            },
+            {
+                "text": "CZKII",
+                "relevance": 0.434968,
+                "count": 1
+            },
+            {
+                "text": "call",
+                "relevance": 0.430867,
+                "count": 1
+            },
+            {
+                "text": "month",
+                "relevance": 0.428267,
+                "count": 1
+            },
+            {
+                "text": "Printing",
+                "relevance": 0.426125,
+                "count": 1
+            },
+            {
+                "text": "[T453909477.html",
+                "relevance": 0.424362,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "714ab13887f161468b821001d672eb81450ec8b9",
+        "filename": "202006050258ALBA____MENAREPO_15198_176219044_138.2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:58:00-04:00",
+    "title": "Printing And Delivery Services [Al Bawaba Business]",
+    "html": "<p>Prior information notice with call for competition: Printing and delivery services</p>\n<p>Description of the procurement: The subject of the public contract is to ensure the distribution of the press by delivering a town hall monthly in the amount of 69,000 copies for 1 distribution. The contracting authority requires the distribution of 1 load as follows: 69,000 copies to all mailboxes of the inhabitants of the <location idsrc=\"xmltag.org\" value=\"LU/cz..prague\">Prague</location> 10 district. The total cost is 69,000 copies per month. Distribution will take place 11 months in a calendar year.</p>\n<p>Value excluding VAT: 3 300 000.00 CZKII.1.6)Information about lots</p>\n<p>This contract is divided into lots: no\nMajor organization : MESTSK CST <location idsrc=\"xmltag.org\" value=\"LU/cz..prague\">PRAHA</location> 10 (00063941)\nAddress : Vrovick 1429/68 Town: <location idsrc=\"xmltag.org\" value=\"LU/cz..prague\">Praha</location> 10\nCountry :Czech Republic\nEmail : <a href=\"mailto:administrace@krutakpartners.cz\">administrace@krutakpartners.cz</a>\nTender notice number : 256780-2020\nNotice type : Procurement Forecast\nOpen date : 2020-07-07</p>\n<p>\nTender documents : <a href=\"http://d.infostores.biz/T453909477.html?id=Nzg4Rzh2IBtjfC0GA0MUIwhhJXkbUm5oVw9WZ0ZD\">T453909477.html</a></p>",
+    "geoFocus": [
+        [
+            "GB/nafr",
+            "Northern Africa"
+        ],
+        [
+            "GB/was",
+            "Western Asia"
+        ]
+    ]
+}

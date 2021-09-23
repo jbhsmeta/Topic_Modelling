@@ -1,0 +1,276 @@
+{
+    "id": "d99a88be-b5bf-458e-a289-1e400abc7302",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 Sioux City Journal",
+    "geoOrigin": "Sioux City, Iowa",
+    "sourceType": "Newspaper",
+    "source": "Sioux City Journal (IA)",
+    "corpus_document_id": "83747916368110723898",
+    "description": "Demonstrators took to the streets of Sioux City to protest in the wake of the death of George Floyd in police custody in Minneapolis.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Demonstrators took to the streets of Sioux City to protest in the wake of the\ndeath of George Floyd in police custody in Minneapolis.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Sioux City",
+            "Minneapolis"
+        ],
+        "person": [
+            "George Floyd"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ia.sioity",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS4AD749719A527A72BF6D7AD813A9A4F.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.593581,
+                    "label": "negative"
+                },
+                "text": "George Floyd",
+                "relevance": 0.945686,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "FootballPlayer"
+                    ],
+                    "name": "George Floyd",
+                    "dbpedia_resource": "http://dbpedia.org/resource/George_Floyd"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.786404,
+                    "label": "negative"
+                },
+                "text": "Sioux City",
+                "relevance": 0.919925,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Sioux City, Iowa",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Sioux_City,_Iowa"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.593581,
+                    "label": "negative"
+                },
+                "text": "Minneapolis",
+                "relevance": 0.534024,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Minneapolis",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Minneapolis"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.903439,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.75086,
+                "label": "/law, govt and politics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Demonstrators took to the streets of Sioux City to protest in the wake of the death of George Floyd in police custody in Minneapolis.",
+                "score": 0.830336,
+                "arguments": [
+                    {
+                        "text": "streets",
+                        "location": [
+                            26,
+                            33
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "streets"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Sioux City",
+                        "location": [
+                            37,
+                            47
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Sioux City"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Demonstrators took to the streets of Sioux City to protest in the wake of the death of George Floyd in police custody in Minneapolis.",
+                "score": 0.456216,
+                "arguments": [
+                    {
+                        "text": "George Floyd",
+                        "location": [
+                            87,
+                            99
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Floyd"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "police custody",
+                        "location": [
+                            103,
+                            117
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police custody"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "Demonstrators took to the streets of Sioux City to protest in the wake of the death of George Floyd in police custody in Minneapolis.",
+                "score": 0.512827,
+                "arguments": [
+                    {
+                        "text": "police custody",
+                        "location": [
+                            103,
+                            117
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police custody"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Minneapolis",
+                        "location": [
+                            121,
+                            132
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Minneapolis"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "death of George Floyd",
+                "relevance": 0.978471,
+                "count": 1
+            },
+            {
+                "text": "police custody",
+                "relevance": 0.876305,
+                "count": 1
+            },
+            {
+                "text": "streets of Sioux City",
+                "relevance": 0.771059,
+                "count": 1
+            },
+            {
+                "text": "Demonstrators",
+                "relevance": 0.75129,
+                "count": 1
+            },
+            {
+                "text": "Minneapolis",
+                "relevance": 0.551191,
+                "count": 1
+            },
+            {
+                "text": "wake",
+                "relevance": 0.127769,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "139b7e196f58a436da872d3e43218374ac06e99e",
+        "filename": "202006010000NEWSBANKNEWSPPRS4AD749719A527A72BF6D7AD813A9A4F.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "WATCH NOW: Scenes from Sunday night protest in Sioux City (includes explicit language)",
+    "html": "<p>Demonstrators took to the streets of <location idsrc=\"xmltag.org\" value=\"LU/us.ia.sioity\">Sioux City</location> to protest in the wake of the death of <person>George Floyd</person> in police custody in <location idsrc=\"xmltag.org\" value=\"LU/us.mn.minnea\">Minneapolis</location>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ia.sioity",
+            "Sioux City"
+        ]
+    ]
+}

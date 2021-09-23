@@ -1,0 +1,303 @@
+{
+    "id": "2416a366-bfb6-4d3f-a6d4-a93fcfd6b3d1",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "91844723504465263533",
+    "description": "3027 b carpentry work doors more info: Location: GERMANY BidDate: 6/ 16/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Fortune and Construction Office Freiburg Tendering Authority Address: 77654 Offenburg, Prinz-Eugen-Str. 78 Baden-Wuerttemberg Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "3027b carpentry work doors more info : Location : GERMANY BidDate : 6/16/2020\nTender Country : GERMANY Tender Type : Tenders Tendering Authority : Fortune\nand Construction Office Freiburg Tendering Authority Address : 77654\nOffenburg, Prinz-Eugen-Str. 78 Baden-Wuerttemberg Financier : Self Funded\nTearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_31254_176210918_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Construction Office Freiburg Tendering Authority",
+                "relevance": 0.959073,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.225459,
+                    "label": "positive"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.889299,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.465736,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.484161,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.790981,
+                "label": "/business and industrial/construction"
+            },
+            {
+                "score": 0.769226,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "3027b carpentry work doors more info : Location : GERMANY BidDate : 6/16/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Fortune and Construction Office Freiburg Tendering Authority Address : 77654 Offenburg, Prinz-Eugen-Str.",
+                "score": 0.743835,
+                "arguments": [
+                    {
+                        "text": "77654",
+                        "location": [
+                            218,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "77654"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : Fortune\nand Construction Office Freiburg Tendering Authority Address :",
+                        "location": [
+                            103,
+                            217
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : Fortune\nand Construction Office Freiburg Tendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "3027b carpentry work doors more info : Location : GERMANY BidDate : 6/16/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Fortune and Construction Office Freiburg Tendering Authority Address : 77654 Offenburg, Prinz-Eugen-Str.",
+                "score": 0.724359,
+                "arguments": [
+                    {
+                        "text": "Prinz-Eugen-Str",
+                        "location": [
+                            235,
+                            250
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Prinz-Eugen-Str",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Offenburg",
+                        "location": [
+                            224,
+                            233
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Offenburg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.944831,
+                "count": 1
+            },
+            {
+                "text": "3027b carpentry work doors",
+                "relevance": 0.917628,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.749825,
+                "count": 1
+            },
+            {
+                "text": "Baden-Wuerttemberg Financier",
+                "relevance": 0.679664,
+                "count": 1
+            },
+            {
+                "text": "Self Funded",
+                "relevance": 0.633902,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.633317,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.559154,
+                "count": 1
+            },
+            {
+                "text": "Offenburg",
+                "relevance": 0.558816,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.538231,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.536696,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.53155,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.529355,
+                "count": 1
+            },
+            {
+                "text": "Money",
+                "relevance": 0.524868,
+                "count": 1
+            },
+            {
+                "text": "Fortune",
+                "relevance": 0.517458,
+                "count": 1
+            },
+            {
+                "text": "Prinz-Eugen-Str",
+                "relevance": 0.472544,
+                "count": 1
+            },
+            {
+                "text": "Construction Office Freiburg Tendering Authority Address",
+                "relevance": 0.356677,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "5d1d3fb0aa52bcfa2956c7bf7cb0db3755037c80",
+        "filename": "202006050210ALBA____ME_NA_NE_31254_176210918_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "3027b carpentry work doors [TenderNews.com - Tenders (India)]",
+    "html": "<p>3027b carpentry work doors more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/16/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Fortune and Construction Office Freiburg\nTendering Authority Address : 77654 Offenburg, Prinz-Eugen-Str. 78 Baden-Wuerttemberg\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

@@ -1,0 +1,848 @@
+{
+    "id": "4b425d19-bf89-45b9-b725-2fbe616b62b6",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright Mirror Regional Newspapers Jun 5, 2020",
+    "geoOrigin": "Birmingham, England, United Kingdom",
+    "sourceType": "Newspaper",
+    "source": "Birmingham Mail (UK)",
+    "corpus_document_id": "81174457920088927635",
+    "description": "The human cost of the coronavirus will be discussed by the council's Health and Adult Social Care Scrutiny Committee, at its first public meeting since the national lockdown. Councillors are to be updated by the borough's acting director of public health Bal Kaur, on how the borough has coped with the impact of the disease at their virtual meeting on Wednesday,...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#75#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "DUDLEY has suffered fewer cases of Covid-19 than any other Black Country\nauthority but almost 300 people have still lost their lives to the pandemic.\n\nThe human cost of the coronavirus will be discussed by the council's Health\nand Adult Social Care Scrutiny Committee, at its first public meeting since\nthe national lockdown.\n\nCouncillors are to be updated by the borough's acting director of public\nhealth Bal Kaur, on how the borough has coped with the impact of the disease\nat their virtual meeting on Wednesday, June 10.\n\nA report to the committee said 880 people have been diagnosed as infected in\nthe borough while deaths at Dudley Group NHS Foundation Trust have reached 243\nwith another 43 in care homes.\n\nIn comparison, neighbouring councils have all suffered higher case numbers.\n\nWalsall has been the hardest hit with 1,089 followed by Sandwell at 1,033 and\nWolverhampton with 998.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Adult Social Care Scrutiny Committee",
+            "Dudley Group NHS Foundation Trust"
+        ],
+        "location": [],
+        "person": [
+            "Bal Kaur"
+        ],
+        "companies": [
+            "Adult Social Care Scrutiny Committee",
+            "Dudley Group NHS Foundation Trust"
+        ]
+    },
+    "geoOrigin_code": "RU/gb.eng.birmhm",
+    "language": "English",
+    "filename": "202006050000PROQUESTNEWPAPER_2409450314.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.589813,
+                    "label": "negative"
+                },
+                "text": "Adult Social Care Scrutiny Committee",
+                "relevance": 0.841381,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.331445,
+                    "label": "negative"
+                },
+                "text": "Dudley Group NHS Foundation Trust",
+                "relevance": 0.571869,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.749195,
+                    "label": "negative"
+                },
+                "text": "DUDLEY",
+                "relevance": 0.45928,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.258849,
+                    "label": "positive"
+                },
+                "text": "Bal Kaur",
+                "relevance": 0.422725,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.490362,
+                    "label": "negative"
+                },
+                "text": "acting director",
+                "relevance": 0.357704,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.703539,
+                    "label": "negative"
+                },
+                "text": "Walsall",
+                "relevance": 0.345827,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Walsall",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Walsall"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Wolverhampton",
+                "relevance": 0.337738,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "EnglishMetropolitanBorough",
+                        "City"
+                    ],
+                    "name": "Wolverhampton",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Wolverhampton"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "DUDLEY"
+                },
+                "sentence": "DUDLEY has suffered fewer cases of Covid-19 than any other Black Country",
+                "object": {
+                    "text": "suffered fewer cases of Covid-19 than any other Black Country"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "DUDLEY"
+                },
+                "sentence": "DUDLEY has suffered fewer cases of Covid-19 than any other Black Country",
+                "object": {
+                    "text": "fewer cases of Covid-19 than any other Black Country"
+                },
+                "action": {
+                    "verb": {
+                        "text": "suffer",
+                        "tense": "past"
+                    },
+                    "text": "has suffered",
+                    "normalized": "have suffer"
+                }
+            },
+            {
+                "subject": {
+                    "text": "almost 300 people"
+                },
+                "sentence": " authority but almost 300 people have still lost their lives to the pandemic.",
+                "object": {
+                    "text": "still lost their lives to the pandemic"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "almost 300 people"
+                },
+                "sentence": " authority but almost 300 people have still lost their lives to the pandemic.",
+                "object": {
+                    "text": "their lives"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lose",
+                        "tense": "past"
+                    },
+                    "text": "lost",
+                    "normalized": "lose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The human cost of the coronavirus"
+                },
+                "sentence": " The human cost of the coronavirus will be discussed by the council's Health",
+                "object": {
+                    "text": "discussed by the council's Health"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the council's Health"
+                },
+                "sentence": " The human cost of the coronavirus will be discussed by the council's Health",
+                "object": {
+                    "text": "The human cost of the coronavirus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "discuss",
+                        "tense": "future"
+                    },
+                    "text": "will be discussed",
+                    "normalized": "will be discuss"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Councillors"
+                },
+                "sentence": " Councillors are to be updated by the borough's acting director of public",
+                "object": {
+                    "text": "updated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the borough"
+                },
+                "sentence": " health Bal Kaur, on how the borough has coped with the impact of the disease",
+                "object": {
+                    "text": "with the impact of the disease"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cope",
+                        "tense": "past"
+                    },
+                    "text": "has coped",
+                    "normalized": "have cope"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A report to the committee"
+                },
+                "sentence": " A report to the committee said 880 people have been diagnosed as infected in",
+                "object": {
+                    "text": "880 people have been diagnosed as infected in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "880 people"
+                },
+                "sentence": " A report to the committee said 880 people have been diagnosed as infected in",
+                "object": {
+                    "text": "diagnosed as infected in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "deaths at Dudley Group NHS Foundation Trust"
+                },
+                "sentence": " the borough while deaths at Dudley Group NHS Foundation Trust have reached 243",
+                "object": {
+                    "text": "reached 243"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "deaths at Dudley Group NHS Foundation Trust"
+                },
+                "sentence": " the borough while deaths at Dudley Group NHS Foundation Trust have reached 243",
+                "object": {
+                    "text": "243"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reach",
+                        "tense": "past"
+                    },
+                    "text": "have reached",
+                    "normalized": "have reach"
+                }
+            },
+            {
+                "subject": {
+                    "text": "neighbouring councils"
+                },
+                "sentence": " In comparison, neighbouring councils have all suffered higher case numbers.",
+                "object": {
+                    "text": "all suffered higher case numbers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "neighbouring councils"
+                },
+                "sentence": " In comparison, neighbouring councils have all suffered higher case numbers.",
+                "object": {
+                    "text": "higher case numbers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "suffer",
+                        "tense": "past"
+                    },
+                    "text": "suffered",
+                    "normalized": "suffer"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.911078,
+                "label": "/health and fitness/disease"
+            },
+            {
+                "score": 0.868363,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.813564,
+                "label": "/health and fitness/disease/cold and flu"
+            }
+        ],
+        "relations": [
+            {
+                "type": "participantIn",
+                "sentence": "The human cost of the coronavirus will be discussed by the council's Health and Adult Social Care Scrutiny Committee, at its first public meeting since the national lockdown.",
+                "score": 0.539083,
+                "arguments": [
+                    {
+                        "text": "council",
+                        "location": [
+                            210,
+                            217
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "council",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Multigov"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "discussed",
+                        "location": [
+                            193,
+                            202
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "discussed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The human cost of the coronavirus will be discussed by the council's Health and Adult Social Care Scrutiny Committee, at its first public meeting since the national lockdown.",
+                "score": 0.416985,
+                "arguments": [
+                    {
+                        "text": "discussed",
+                        "location": [
+                            193,
+                            202
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "discussed"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meeting",
+                        "location": [
+                            289,
+                            296
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meeting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The human cost of the coronavirus will be discussed by the council's Health and Adult Social Care Scrutiny Committee, at its first public meeting since the national lockdown.",
+                "score": 0.707446,
+                "arguments": [
+                    {
+                        "text": "Health\nand Adult Social Care Scrutiny Committee",
+                        "location": [
+                            220,
+                            267
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Health\nand Adult Social Care Scrutiny Committee",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "council",
+                        "location": [
+                            210,
+                            217
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "council",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Multigov"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "The human cost of the coronavirus will be discussed by the council's Health and Adult Social Care Scrutiny Committee, at its first public meeting since the national lockdown.",
+                "score": 0.805416,
+                "arguments": [
+                    {
+                        "text": "its",
+                        "location": [
+                            272,
+                            275
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "its"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meeting",
+                        "location": [
+                            289,
+                            296
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meeting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "Councillors are to be updated by the borough's acting director of public health Bal Kaur, on how the borough has coped with the impact of the disease at their virtual meeting on Wednesday, June 10.",
+                "score": 0.905547,
+                "arguments": [
+                    {
+                        "text": "Bal Kaur",
+                        "location": [
+                            407,
+                            415
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Bal Kaur"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meeting",
+                        "location": [
+                            494,
+                            501
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meeting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "Councillors are to be updated by the borough's acting director of public health Bal Kaur, on how the borough has coped with the impact of the disease at their virtual meeting on Wednesday, June 10.",
+                "score": 0.956734,
+                "arguments": [
+                    {
+                        "text": "their",
+                        "location": [
+                            480,
+                            485
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Councillors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meeting",
+                        "location": [
+                            494,
+                            501
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meeting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Councillors are to be updated by the borough's acting director of public health Bal Kaur, on how the borough has coped with the impact of the disease at their virtual meeting on Wednesday, June 10.",
+                "score": 0.939376,
+                "arguments": [
+                    {
+                        "text": "Wednesday",
+                        "location": [
+                            505,
+                            514
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Wednesday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meeting",
+                        "location": [
+                            494,
+                            501
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meeting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "Walsall has been the hardest hit with 1,089 followed by Sandwell at 1,033 and Wolverhampton with 998.",
+                "score": 0.433235,
+                "arguments": [
+                    {
+                        "text": "998",
+                        "location": [
+                            888,
+                            891
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "998"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Wolverhampton",
+                        "location": [
+                            869,
+                            882
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Wolverhampton"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "human cost of the coronavirus",
+                "relevance": 0.831821,
+                "count": 1
+            },
+            {
+                "text": "Adult Social Care Scrutiny Committee",
+                "relevance": 0.789103,
+                "count": 1
+            },
+            {
+                "text": "council's Health",
+                "relevance": 0.747146,
+                "count": 1
+            },
+            {
+                "text": "care homes",
+                "relevance": 0.58569,
+                "count": 1
+            },
+            {
+                "text": "Dudley Group NHS Foundation Trust",
+                "relevance": 0.57712,
+                "count": 1
+            },
+            {
+                "text": "borough",
+                "relevance": 0.576743,
+                "count": 3
+            },
+            {
+                "text": "Councillors",
+                "relevance": 0.561526,
+                "count": 1
+            },
+            {
+                "text": "fewer cases of Covid-19",
+                "relevance": 0.558964,
+                "count": 1
+            },
+            {
+                "text": "comparison",
+                "relevance": 0.548445,
+                "count": 1
+            },
+            {
+                "text": "DUDLEY",
+                "relevance": 0.540435,
+                "count": 1
+            },
+            {
+                "text": "deaths",
+                "relevance": 0.536539,
+                "count": 1
+            },
+            {
+                "text": "Walsall",
+                "relevance": 0.534458,
+                "count": 1
+            },
+            {
+                "text": "report",
+                "relevance": 0.527901,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.522596,
+                "count": 2
+            },
+            {
+                "text": "councils",
+                "relevance": 0.519052,
+                "count": 1
+            },
+            {
+                "text": "hardest hit",
+                "relevance": 0.516816,
+                "count": 1
+            },
+            {
+                "text": "first public meeting",
+                "relevance": 0.515473,
+                "count": 1
+            },
+            {
+                "text": "committee",
+                "relevance": 0.515422,
+                "count": 1
+            },
+            {
+                "text": "lives",
+                "relevance": 0.5102,
+                "count": 1
+            },
+            {
+                "text": "director",
+                "relevance": 0.509584,
+                "count": 1
+            },
+            {
+                "text": "Sandwell",
+                "relevance": 0.508413,
+                "count": 1
+            },
+            {
+                "text": "Wolverhampton",
+                "relevance": 0.508413,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.508413,
+                "count": 1
+            },
+            {
+                "text": "virtual meeting",
+                "relevance": 0.500751,
+                "count": 1
+            },
+            {
+                "text": "higher case numbers",
+                "relevance": 0.49369,
+                "count": 1
+            },
+            {
+                "text": "national lockdown",
+                "relevance": 0.491336,
+                "count": 1
+            },
+            {
+                "text": "impact of the disease",
+                "relevance": 0.469024,
+                "count": 1
+            },
+            {
+                "text": "Wednesday",
+                "relevance": 0.414512,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-F",
+    "extracted_metadata": {
+        "sha1": "9c7e8178f9b8871ed4627db1e6f17f7c8c6f56ba",
+        "filename": "202006050000PROQUESTNEWPAPER_2409450314.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||The Dudley Group NHS Foundation Trust|extractor|DUNS:423161991;NECOID:1008271505;ACORN:0997271505|MENTION||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Town sees far fewer cases",
+    "html": "<p>DUDLEY has suffered fewer cases of Covid-19 than any other Black Country authority but almost 300 people have still lost their lives to the pandemic.</p>\n<p>The human cost of the coronavirus will be discussed by the council's Health and <org>Adult Social Care Scrutiny Committee</org>, at its first public meeting since the national lockdown.</p>\n<p>Councillors are to be updated by the borough's acting director of public health <person>Bal Kaur</person>, on how the borough has coped with the impact of the disease at their virtual meeting on <chron>Wednesday, June 10</chron>.</p>\n<p>A report to the committee said 880 people have been diagnosed as infected in the borough while deaths at <org idsrc=\"xmltag.org\" value=\"ACORN:0997271505\">Dudley Group NHS Foundation Trust</org> have reached 243 with another 43 in care homes.</p>\n<p>In comparison, neighbouring councils have all suffered higher case numbers.</p>\n<p>Walsall has been the hardest hit with 1,089 followed by Sandwell at 1,033 and Wolverhampton with 998.</p><p />",
+    "geoFocus": [
+        [
+            "GU/gb.eng.birmhm",
+            "Birmingham"
+        ]
+    ]
+}

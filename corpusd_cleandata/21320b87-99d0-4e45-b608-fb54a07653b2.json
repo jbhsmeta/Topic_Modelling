@@ -1,0 +1,392 @@
+{
+    "id": "21320b87-99d0-4e45-b608-fb54a07653b2",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "COPYRIGHT 2020 BNP Media",
+    "geoOrigin": "Troy, Michigan",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "National Provisioner, The",
+    "corpus_document_id": "46322210682057694740",
+    "description": "Marel is the leading global provider of advanced processing systems and services to the poultry and meat industries. We offer the convenience of a single source to meet every need. Marel Meat will have on display the newest portion cutter along with groundbreaking shackle-based deboning and cutting systems for pork.",
+    "serviceName": "Gale All",
+    "locationCode": [],
+    "sourceClass": "Meat Processing",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#8#50#82",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.fooddine",
+            "relevance_score": "8",
+            "description": "Food Products",
+            "code": "IS/lifesoc.food#8#50#82",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "8",
+            "description": "Food and Dining",
+            "code": "IS/lifesoc.fooddine#8#50#82",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.food",
+            "relevance_score": "8",
+            "description": "Meat",
+            "code": "IS/lifesoc.meat#8#82#50",
+            "level": 3
+        }
+    ],
+    "text": "Marel is the leading global provider of advanced processing systems and\nservices to the poultry and meat industries. We offer the convenience of a\nsingle source to meet every need. Our state-of-the-art equipment and systems\nhelp food processors of all sizes, in all markets, to operate at peak\nproductivity.\n\nMarel Poultry embraces smart processing and we are excited about showcasing\nthe different ways we can help processors make smart moves throughout the\nfacility. From the latest in live bird handling to automatic meat deboning to\nrobotic packaging. Marel Meat will have on display the newest portion cutter\nalong with groundbreaking shackle-based deboning and cutting systems for pork.\nAnd Marel software offers processors opportunities to gather data and provide\ntraceability.\n\n[www.marel.com](http://www.marel.com)\n\nIPPE Booth #B-4207",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Marel Meat"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.mi.troy",
+    "language": "English",
+    "filename": "202001010000GALE____PUB_ALL_626204802.XML",
+    "providerName": "Gale Group",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.53507,
+                    "label": "positive"
+                },
+                "text": "Marel",
+                "relevance": 0.881626,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Marel Meat",
+                "relevance": 0.800778,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.947948,
+                    "label": "positive"
+                },
+                "text": "Marel Poultry",
+                "relevance": 0.771858,
+                "type": "Company"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Marel"
+                },
+                "sentence": "Marel is the leading global provider of advanced processing systems and",
+                "object": {
+                    "text": "the leading global provider of advanced processing systems"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Marel Poultry"
+                },
+                "sentence": " Marel Poultry embraces smart processing and we are excited about showcasing",
+                "object": {
+                    "text": "smart processing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "embrace",
+                        "tense": "present"
+                    },
+                    "text": "embraces",
+                    "normalized": "embrace"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " Marel Poultry embraces smart processing and we are excited about showcasing",
+                "object": {
+                    "text": "excited about showcasing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " the different ways we can help processors make smart moves throughout the",
+                "object": {
+                    "text": "processors make smart moves throughout the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "can help",
+                    "normalized": "can help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Marel software"
+                },
+                "sentence": " And Marel software offers processors opportunities to gather data and provide",
+                "object": {
+                    "text": "opportunities to gather data and provide"
+                },
+                "action": {
+                    "verb": {
+                        "text": "offer",
+                        "tense": "present"
+                    },
+                    "text": "offers",
+                    "normalized": "offer"
+                }
+            },
+            {
+                "subject": {
+                    "text": "processors"
+                },
+                "sentence": " And Marel software offers processors opportunities to gather data and provide",
+                "object": {
+                    "text": "data"
+                },
+                "action": {
+                    "verb": {
+                        "text": "gather",
+                        "tense": "future"
+                    },
+                    "text": "to gather",
+                    "normalized": "to gather"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.999996,
+                "label": "/technology and computing/hardware/computer components/chips and processors"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "different ways",
+                "relevance": 0.856004,
+                "count": 1
+            },
+            {
+                "text": "Marel Poultry",
+                "relevance": 0.748791,
+                "count": 1
+            },
+            {
+                "text": "single source",
+                "relevance": 0.681455,
+                "count": 1
+            },
+            {
+                "text": "groundbreaking shackle",
+                "relevance": 0.655236,
+                "count": 1
+            },
+            {
+                "text": "Marel Meat",
+                "relevance": 0.640575,
+                "count": 1
+            },
+            {
+                "text": "food processors of all sizes",
+                "relevance": 0.640001,
+                "count": 1
+            },
+            {
+                "text": "Marel software",
+                "relevance": 0.638821,
+                "count": 1
+            },
+            {
+                "text": "global provider",
+                "relevance": 0.626509,
+                "count": 1
+            },
+            {
+                "text": "live bird handling",
+                "relevance": 0.616669,
+                "count": 1
+            },
+            {
+                "text": "meat industries",
+                "relevance": 0.567185,
+                "count": 1
+            },
+            {
+                "text": "Marel",
+                "relevance": 0.536848,
+                "count": 1
+            },
+            {
+                "text": "IPPE Booth",
+                "relevance": 0.533686,
+                "count": 1
+            },
+            {
+                "text": "poultry",
+                "relevance": 0.533431,
+                "count": 1
+            },
+            {
+                "text": "services",
+                "relevance": 0.53113,
+                "count": 1
+            },
+            {
+                "text": "state",
+                "relevance": 0.528476,
+                "count": 1
+            },
+            {
+                "text": "processors",
+                "relevance": 0.520814,
+                "count": 1
+            },
+            {
+                "text": "display",
+                "relevance": 0.517617,
+                "count": 1
+            },
+            {
+                "text": "markets",
+                "relevance": 0.514531,
+                "count": 1
+            },
+            {
+                "text": "data",
+                "relevance": 0.511985,
+                "count": 1
+            },
+            {
+                "text": "convenience",
+                "relevance": 0.509885,
+                "count": 1
+            },
+            {
+                "text": "traceability",
+                "relevance": 0.509885,
+                "count": 1
+            },
+            {
+                "text": "pork",
+                "relevance": 0.509885,
+                "count": 1
+            },
+            {
+                "text": "facility",
+                "relevance": 0.509885,
+                "count": 1
+            },
+            {
+                "text": "smart processing",
+                "relevance": 0.508103,
+                "count": 1
+            },
+            {
+                "text": "automatic meat",
+                "relevance": 0.505029,
+                "count": 1
+            },
+            {
+                "text": "processors opportunities",
+                "relevance": 0.497775,
+                "count": 1
+            },
+            {
+                "text": "newest portion cutter",
+                "relevance": 0.491981,
+                "count": 1
+            },
+            {
+                "text": "robotic packaging",
+                "relevance": 0.489554,
+                "count": 1
+            },
+            {
+                "text": "art equipment",
+                "relevance": 0.479727,
+                "count": 1
+            },
+            {
+                "text": "smart moves",
+                "relevance": 0.455536,
+                "count": 1
+            },
+            {
+                "text": "deboning",
+                "relevance": 0.402518,
+                "count": 1
+            },
+            {
+                "text": "systems",
+                "relevance": 0.398992,
+                "count": 3
+            },
+            {
+                "text": "B-4207",
+                "relevance": 0.396978,
+                "count": 1
+            },
+            {
+                "text": "need",
+                "relevance": 0.396978,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Monthly",
+    "extracted_metadata": {
+        "sha1": "47262412aa85be34a0628c0a73a21d96de7541d3",
+        "filename": "202001010000GALE____PUB_ALL_626204802.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-01-01T00:00:00-05:00",
+    "title": "MAREL: Transforming Food Processing.(PROFILES)",
+    "html": "<p>Marel is the leading global provider of advanced processing systems\nand services to the poultry and meat industries. We offer the\nconvenience of a single source to meet every need. Our state-of-the-art\nequipment and systems help food processors of all sizes, in all markets,\nto operate at peak productivity.</p>\n\n<p>Marel Poultry embraces smart processing and we are excited about\nshowcasing the different ways we can help processors make smart moves\nthroughout the facility. From the latest in live bird handling to\nautomatic meat deboning to robotic packaging. <person>Marel Meat</person> will have on\ndisplay the newest portion cutter along with groundbreaking\nshackle-based deboning and cutting systems for pork. And Marel software\noffers processors opportunities to gather data and provide traceability.</p>\n\n<p><a href=\"http://www.marel.com\">www.marel.com</a></p>\n\n<p>IPPE Booth #B-4207</p>",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

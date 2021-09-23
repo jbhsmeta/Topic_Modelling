@@ -1,0 +1,636 @@
+{
+    "id": "de240bd4-a073-428d-9ac8-9af412fb79af",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, Marietta Daily Journal. All Rights Reserved.",
+    "geoOrigin": "Marietta, Georgia",
+    "sourceType": "Newspaper",
+    "source": "Marietta Daily Journal (GA)",
+    "corpus_document_id": "91042765431539039111",
+    "description": "A bad bully policeman goes rogue which leads to a man's death, it would appear. Meanwhile, a million other cops are doing their sworn duty to protect and serve. One contemptible treatment of a citizen by a bad cop does not in any way excuse the horrifying destruction being allowed to happen in Minnesota and many other places.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "DEAR EDITOR:\n\nA bad bully policeman goes rogue which leads to a man's death, it would\nappear. Tragic and repulsive. Meanwhile, a million other cops are doing their\nsworn duty to protect and serve.\n\nI used to think the race problem was about equality. That can't quite be true.\nWhat if whites or Asians took to the streets and demolished, burned buildings\nand looted stores every time a person of another race committed a heinous\ncrime, rather than taking to the courts, as befits a civil society? Why are\nnot these rioting criminals being rounded up and confined? One contemptible\ntreatment of a citizen by a bad cop does not in any way excuse the horrifying\ndestruction being allowed to happen in Minnesota and many other places.\n\nWithout the equal application of all laws, we don't have a civil society, but\na nation in chaos, which leads inevitably to tyranny, which the Head Table at\nProgressive HQ cannot wait to impose across the board.\n\nHarry Hagan\n\nPowder Springs",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Minnesota",
+            "Powder Springs"
+        ],
+        "person": [
+            "Harry Hagan"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ga.martta",
+    "language": "English",
+    "filename": "202005300000NEWSBANKNEWSPPRS286E41C564A80B6FFC477E42D26DA5E.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Harry Hagan",
+                "relevance": 0.953118,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Powder Springs",
+                "relevance": 0.850051,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "EDITOR",
+                "relevance": 0.798105,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.613201,
+                    "label": "negative"
+                },
+                "text": "Minnesota",
+                "relevance": 0.688563,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "a million other cops"
+                },
+                "sentence": " Meanwhile, a million other cops are doing their",
+                "object": {
+                    "text": "doing their"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a million other cops"
+                },
+                "sentence": " Meanwhile, a million other cops are doing their",
+                "object": {
+                    "text": "their"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "are doing",
+                    "normalized": "be do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I used to think the race problem was about equality.",
+                "object": {
+                    "text": "the race problem was about equality"
+                },
+                "action": {
+                    "verb": {
+                        "text": "think",
+                        "tense": "future"
+                    },
+                    "text": "used to think",
+                    "normalized": "use to think"
+                }
+            },
+            {
+                "subject": {
+                    "text": "That"
+                },
+                "sentence": " That can't quite be true.",
+                "object": {
+                    "text": "true"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "What if whites or Asians"
+                },
+                "sentence": " What if whites or Asians took to the streets and demolished, burned buildings",
+                "object": {
+                    "text": "buildings"
+                },
+                "action": {
+                    "verb": {
+                        "text": "burn",
+                        "tense": "past"
+                    },
+                    "text": "burned",
+                    "normalized": "burn"
+                }
+            },
+            {
+                "subject": {
+                    "text": "stores"
+                },
+                "sentence": " and looted stores every time a person of another race committed a heinous",
+                "action": {
+                    "verb": {
+                        "text": "loot",
+                        "tense": "past"
+                    },
+                    "text": "looted",
+                    "normalized": "loot"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a person of another race"
+                },
+                "sentence": " and looted stores every time a person of another race committed a heinous",
+                "object": {
+                    "text": "a heinous"
+                },
+                "action": {
+                    "verb": {
+                        "text": "commit",
+                        "tense": "past"
+                    },
+                    "text": "committed",
+                    "normalized": "commit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "not these rioting criminals"
+                },
+                "sentence": " not these rioting criminals being rounded up and confined?",
+                "action": {
+                    "verb": {
+                        "text": "confine",
+                        "tense": "past"
+                    },
+                    "text": "confined",
+                    "normalized": "confine"
+                }
+            },
+            {
+                "subject": {
+                    "text": "treatment of a citizen by a bad cop"
+                },
+                "sentence": " treatment of a citizen by a bad cop does not in any way excuse the horrifying",
+                "object": {
+                    "text": "the horrifying"
+                },
+                "action": {
+                    "verb": {
+                        "text": "excuse",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "excuse",
+                    "normalized": "excuse"
+                }
+            },
+            {
+                "subject": {
+                    "text": "destruction"
+                },
+                "sentence": " destruction being allowed to happen in Minnesota and many other places.",
+                "action": {
+                    "verb": {
+                        "text": "happen",
+                        "tense": "future"
+                    },
+                    "text": "being allowed to happen",
+                    "normalized": "be allow to happen"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " Without the equal application of all laws, we don't have a civil society, but",
+                "object": {
+                    "text": "a civil society"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Progressive HQ"
+                },
+                "sentence": " Progressive HQ cannot wait to impose across the board.",
+                "object": {
+                    "text": "to impose across the board"
+                },
+                "action": {
+                    "verb": {
+                        "text": "wait",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "wait",
+                    "normalized": "wait"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.820541,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.743455,
+                "label": "/society"
+            },
+            {
+                "score": 0.716169,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "What if whites or Asians took to the streets and demolished, burned buildings and looted stores every time a person of another race committed a heinous crime, rather than taking to the courts, as befits a civil society?",
+                "score": 0.485218,
+                "arguments": [
+                    {
+                        "text": "person",
+                        "location": [
+                            386,
+                            392
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "person"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "stores",
+                        "location": [
+                            366,
+                            372
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "stores",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "What if whites or Asians took to the streets and demolished, burned buildings and looted stores every time a person of another race committed a heinous crime, rather than taking to the courts, as befits a civil society?",
+                "score": 0.559839,
+                "arguments": [
+                    {
+                        "text": "stores",
+                        "location": [
+                            366,
+                            372
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "stores",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "race",
+                        "location": [
+                            404,
+                            408
+                        ],
+                        "entities": [
+                            {
+                                "type": "SportingEvent",
+                                "text": "race"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "What if whites or Asians took to the streets and demolished, burned buildings and looted stores every time a person of another race committed a heinous crime, rather than taking to the courts, as befits a civil society?",
+                "score": 0.912366,
+                "arguments": [
+                    {
+                        "text": "person",
+                        "location": [
+                            386,
+                            392
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "person"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "race",
+                        "location": [
+                            404,
+                            408
+                        ],
+                        "entities": [
+                            {
+                                "type": "SportingEvent",
+                                "text": "race"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "One contemptible treatment of a citizen by a bad cop does not in any way excuse the horrifying destruction being allowed to happen in Minnesota and many other places.",
+                "score": 0.533584,
+                "arguments": [
+                    {
+                        "text": "places",
+                        "location": [
+                            723,
+                            729
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "places"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Minnesota",
+                        "location": [
+                            698,
+                            707
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Minnesota"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "bad bully policeman",
+                "relevance": 0.771952,
+                "count": 1
+            },
+            {
+                "text": "equal application of all laws",
+                "relevance": 0.6429,
+                "count": 1
+            },
+            {
+                "text": "Progressive HQ",
+                "relevance": 0.6325,
+                "count": 1
+            },
+            {
+                "text": "rioting criminals",
+                "relevance": 0.598509,
+                "count": 1
+            },
+            {
+                "text": "bad cop",
+                "relevance": 0.59841,
+                "count": 1
+            },
+            {
+                "text": "civil society",
+                "relevance": 0.568653,
+                "count": 2
+            },
+            {
+                "text": "whites",
+                "relevance": 0.547684,
+                "count": 1
+            },
+            {
+                "text": "citizen",
+                "relevance": 0.545328,
+                "count": 1
+            },
+            {
+                "text": "race problem",
+                "relevance": 0.534504,
+                "count": 1
+            },
+            {
+                "text": "nation",
+                "relevance": 0.534195,
+                "count": 1
+            },
+            {
+                "text": "Asians",
+                "relevance": 0.527051,
+                "count": 1
+            },
+            {
+                "text": "stores",
+                "relevance": 0.526359,
+                "count": 1
+            },
+            {
+                "text": "DEAR EDITOR",
+                "relevance": 0.523188,
+                "count": 1
+            },
+            {
+                "text": "cops",
+                "relevance": 0.520101,
+                "count": 1
+            },
+            {
+                "text": "person of another race",
+                "relevance": 0.519912,
+                "count": 1
+            },
+            {
+                "text": "chaos",
+                "relevance": 0.519513,
+                "count": 1
+            },
+            {
+                "text": "Minnesota",
+                "relevance": 0.517338,
+                "count": 1
+            },
+            {
+                "text": "duty",
+                "relevance": 0.516072,
+                "count": 1
+            },
+            {
+                "text": "rogue",
+                "relevance": 0.515855,
+                "count": 1
+            },
+            {
+                "text": "streets",
+                "relevance": 0.515667,
+                "count": 1
+            },
+            {
+                "text": "way excuse",
+                "relevance": 0.514527,
+                "count": 1
+            },
+            {
+                "text": "courts",
+                "relevance": 0.513931,
+                "count": 1
+            },
+            {
+                "text": "tyranny",
+                "relevance": 0.512922,
+                "count": 1
+            },
+            {
+                "text": "equality",
+                "relevance": 0.508791,
+                "count": 1
+            },
+            {
+                "text": "board",
+                "relevance": 0.508791,
+                "count": 1
+            },
+            {
+                "text": "places",
+                "relevance": 0.508791,
+                "count": 1
+            },
+            {
+                "text": "buildings",
+                "relevance": 0.508791,
+                "count": 1
+            },
+            {
+                "text": "Head Table",
+                "relevance": 0.49985,
+                "count": 1
+            },
+            {
+                "text": "man's death",
+                "relevance": 0.49985,
+                "count": 1
+            },
+            {
+                "text": "time",
+                "relevance": 0.450747,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "4236243e5f7ee74e882b6ec39a69917f8cd20623",
+        "filename": "202005300000NEWSBANKNEWSPPRS286E41C564A80B6FFC477E42D26DA5E.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-30T00:00:00-04:00",
+    "title": "Take to the courts",
+    "html": "<p>DEAR EDITOR:</p>\n<p>A bad bully policeman goes rogue which leads to a man's death, it would appear. Tragic and repulsive. Meanwhile, a million other cops are doing their sworn duty to protect and serve.</p>\n\n<p>I used to think the race problem was about equality. That can't quite be true. What if whites or Asians took to the streets and demolished, burned buildings and looted stores every time a person of another race committed a heinous crime, rather than taking to the courts, as befits a civil society? Why are not these rioting criminals being rounded up and confined? One contemptible treatment of a citizen by a bad cop does not in any way excuse the horrifying destruction being allowed to happen in <location idsrc=\"xmltag.org\" value=\"LS/us.mn\">Minnesota</location> and many other places.</p>\n\n<p>Without the equal application of all laws, we don't have a civil society, but a nation in chaos, which leads inevitably to tyranny, which the Head Table at Progressive HQ cannot wait to impose across the board.</p>\n\n<p><person>Harry Hagan</person></p>\n\n<p><location>Powder Springs</location></p>",
+    "geoFocus": [
+        [
+            "GU/us.ga.martta",
+            "Marietta"
+        ]
+    ]
+}

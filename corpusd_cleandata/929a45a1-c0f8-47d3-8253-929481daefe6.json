@@ -1,0 +1,266 @@
+{
+    "id": "929a45a1-c0f8-47d3-8253-929481daefe6",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "97842089455363329216",
+    "description": "Factory repair of heaters of the TPz Fuchs system more info: Location: GERMANY BidDate: 6/ 8/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: HIL Heeresinstandsaltungslogistik GmbH Tendering Authority Address: 53123 Bonn Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Factory repair of heaters of the TPz Fuchs system more info : Location :\nGERMANY BidDate : 6/8/2020 Tender Country : GERMANY Tender Type : Tenders\nTendering Authority : HIL Heeresinstandsaltungslogistik GmbH Tendering\nAuthority Address : 53123 Bonn Financier : Self Funded Tearn Money : Not\nSpecified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_57295_176212892_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "HIL Heeresinstandsaltungslogistik GmbH",
+                "relevance": 0.980204,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.432415,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.936624,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.471094,
+                    "label": "positive"
+                },
+                "text": "TPz Fuchs",
+                "relevance": 0.787631,
+                "type": "Company"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.846606,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Factory repair of heaters of the TPz Fuchs system more info : Location : GERMANY BidDate : 6/8/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : HIL Heeresinstandsaltungslogistik GmbH Tendering Authority Address : 53123 Bonn Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.621514,
+                "arguments": [
+                    {
+                        "text": "6/8/2020 Tender",
+                        "location": [
+                            91,
+                            106
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/8/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders\nTendering Authority : HIL Heeresinstandsaltungslogistik GmbH Tendering\nAuthority Address :",
+                        "location": [
+                            125,
+                            237
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders\nTendering Authority : HIL Heeresinstandsaltungslogistik GmbH Tendering\nAuthority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Factory repair of heaters of the TPz Fuchs system more info : Location : GERMANY BidDate : 6/8/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : HIL Heeresinstandsaltungslogistik GmbH Tendering Authority Address : 53123 Bonn Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.517818,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            249,
+                            258
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Bonn",
+                        "location": [
+                            244,
+                            248
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Bonn"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.996709,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.985576,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.731713,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.661298,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.587995,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.584539,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.512619,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.510408,
+                "count": 1
+            },
+            {
+                "text": "Bonn Financier",
+                "relevance": 0.255126,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.238058,
+                "count": 1
+            },
+            {
+                "text": "Factory repair of heaters of the TPz Fuchs system",
+                "relevance": 0.191732,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "f42ccbe535ee5ca8091a66daa28479db6f80d4ab",
+        "filename": "202006050210ALBA____ME_NA_NE_57295_176212892_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Factory repair of heaters of the TPz Fuchs system [TenderNews.com - Tenders (India)]",
+    "html": "<p>Factory repair of heaters of the TPz Fuchs system more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/8/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : HIL Heeresinstandsaltungslogistik GmbH\nTendering Authority Address : 53123 Bonn\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

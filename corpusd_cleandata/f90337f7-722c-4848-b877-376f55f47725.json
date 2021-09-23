@@ -1,0 +1,299 @@
+{
+    "id": "f90337f7-722c-4848-b877-376f55f47725",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright, 2020, News Publishing LLC (Bowling Green, KY)",
+    "geoOrigin": "Bowling Green, Kentucky",
+    "sourceType": "Newspaper",
+    "source": "Daily News (Bowling Green, KY)",
+    "corpus_document_id": "51204007205545542479",
+    "description": "The first day of June begins cool and crisp before sunshine and southerly winds result in a nice warming trend. This will continue Tuesday into Wednesday, with pop-up shower and storm chances arriving late Wednesday into Thursday. For more forecast information, visit wxornotBG.com.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "The first day of June begins cool and crisp before sunshine and southerly\nwinds result in a nice warming trend. This will continue Tuesday into\nWednesday, with pop-up shower and storm chances arriving late Wednesday into\nThursday. For more forecast information, visit\n[wxornotBG.com](http://wxornotBG.com).\n\nMonday: High 84/Low 50, mostly sunnyTuesday: High 88/Low 59, mostly\nsunnyWednesday: High 91/Low 65, isolated afternoon stormsThursday: High 89/Low\n67, scattered stormsFriday: High 90/Low 69, scattered storms",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ky.boween",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS8B9595A915F94FE0CC90F2BA853C99C.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "sunnyWednesday",
+                "relevance": 0.855738,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The first day of June"
+                },
+                "sentence": "The first day of June begins cool and crisp before sunshine and southerly",
+                "action": {
+                    "verb": {
+                        "text": "begin",
+                        "tense": "present"
+                    },
+                    "text": "begins",
+                    "normalized": "begin"
+                }
+            },
+            {
+                "subject": {
+                    "text": "winds"
+                },
+                "sentence": " winds result in a nice warming trend.",
+                "object": {
+                    "text": "in a nice warming trend"
+                },
+                "action": {
+                    "verb": {
+                        "text": "result",
+                        "tense": "present"
+                    },
+                    "text": "result",
+                    "normalized": "result"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This"
+                },
+                "sentence": " This will continue Tuesday into",
+                "action": {
+                    "verb": {
+                        "text": "continue",
+                        "tense": "future"
+                    },
+                    "text": "will continue",
+                    "normalized": "will continue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "pop-up shower and storm chances"
+                },
+                "sentence": " Wednesday, with pop-up shower and storm chances arriving late Wednesday into",
+                "action": {
+                    "verb": {
+                        "text": "arrive",
+                        "tense": "present"
+                    },
+                    "text": "arriving",
+                    "normalized": "arrive"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.998587,
+                "label": "/science/weather/meteorological disaster/hurricane"
+            },
+            {
+                "score": 0.872587,
+                "label": "/science/weather/meteorological disaster/flood"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "Monday: High 84/Low 50, mostly sunnyTuesday: High 88/Low 59, mostly sunnyWednesday: High 91/Low 65, isolated afternoon stormsThursday: High 89/Low 67, scattered stormsFriday: High 90/Low 69, scattered storms",
+                "score": 0.970925,
+                "arguments": [
+                    {
+                        "text": "Low",
+                        "location": [
+                            324,
+                            327
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Low"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "50",
+                        "location": [
+                            328,
+                            330
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "50"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Monday: High 84/Low 50, mostly sunnyTuesday: High 88/Low 59, mostly sunnyWednesday: High 91/Low 65, isolated afternoon stormsThursday: High 89/Low 67, scattered stormsFriday: High 90/Low 69, scattered storms",
+                "score": 0.977506,
+                "arguments": [
+                    {
+                        "text": "Low",
+                        "location": [
+                            361,
+                            364
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Low"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "59",
+                        "location": [
+                            365,
+                            367
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "59"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "first day of June",
+                "relevance": 0.809647,
+                "count": 1
+            },
+            {
+                "text": "storm chances",
+                "relevance": 0.762622,
+                "count": 1
+            },
+            {
+                "text": "late Wednesday",
+                "relevance": 0.69074,
+                "count": 1
+            },
+            {
+                "text": "afternoon stormsThursday",
+                "relevance": 0.595713,
+                "count": 1
+            },
+            {
+                "text": "pop",
+                "relevance": 0.56003,
+                "count": 1
+            },
+            {
+                "text": "shower",
+                "relevance": 0.547359,
+                "count": 1
+            },
+            {
+                "text": "forecast information",
+                "relevance": 0.534735,
+                "count": 1
+            },
+            {
+                "text": "nice warming trend",
+                "relevance": 0.533297,
+                "count": 1
+            },
+            {
+                "text": "storms",
+                "relevance": 0.530867,
+                "count": 1
+            },
+            {
+                "text": "sunshine",
+                "relevance": 0.515585,
+                "count": 1
+            },
+            {
+                "text": "Wednesday",
+                "relevance": 0.493829,
+                "count": 1
+            },
+            {
+                "text": "stormsFriday",
+                "relevance": 0.446875,
+                "count": 1
+            },
+            {
+                "text": "sunnyWednesday",
+                "relevance": 0.435362,
+                "count": 1
+            },
+            {
+                "text": "Monday",
+                "relevance": 0.433158,
+                "count": 1
+            },
+            {
+                "text": "result",
+                "relevance": 0.420359,
+                "count": 1
+            },
+            {
+                "text": "sunnyTuesday",
+                "relevance": 0.418092,
+                "count": 1
+            },
+            {
+                "text": "visit",
+                "relevance": 0.405185,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.405185,
+                "count": 1
+            },
+            {
+                "text": "Tuesday",
+                "relevance": 0.405185,
+                "count": 1
+            },
+            {
+                "text": "southerly",
+                "relevance": 0.405185,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "242981278eebfdee78ea5b6240ed5a91a5e58033",
+        "filename": "202006010000NEWSBANKNEWSPPRS8B9595A915F94FE0CC90F2BA853C99C.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Sun and warmth expected through at least Wednesday evening",
+    "html": "<p>The first day of June begins cool and crisp before sunshine and southerly winds result in a nice warming trend. This will continue Tuesday into Wednesday, with pop-up shower and storm chances arriving late Wednesday into Thursday. For more forecast information, visit <a href=\"http://wxornotBG.com\">wxornotBG.com</a>.</p>\n<p>Monday: High 84/Low 50, mostly sunnyTuesday: High 88/Low 59, mostly sunnyWednesday: High 91/Low 65, isolated afternoon stormsThursday: High 89/Low 67, scattered stormsFriday: High 90/Low 69, scattered storms</p>",
+    "geoFocus": [
+        [
+            "GU/us.ky.boween",
+            "Bowling Green"
+        ]
+    ]
+}

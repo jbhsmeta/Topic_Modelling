@@ -1,0 +1,538 @@
+{
+    "id": "b3763291-e600-45fa-bda2-d69e418a230d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020, Record-Courier.  All Rights Reserved.",
+    "geoOrigin": "Ravenna, Ohio",
+    "sourceType": "Newspaper",
+    "source": "Record-Courier, The (Kent, Ravenna, OH)",
+    "corpus_document_id": "14564873801904333703",
+    "description": "Skeels Community Center is awarding $500 scholarships to Ravenna High School students Adrianna Ballard and Autumn Boyer.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#91",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Education",
+            "code": "IS/lifesoc.edu#9#91#50",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "6",
+            "description": "Awards and Honors",
+            "code": "IS/lifesoc.awards#6#66#50",
+            "level": 1
+        }
+    ],
+    "text": "Skeels Community Center is awarding $500 scholarships to Ravenna High School\nstudents Adrianna Ballard and Autumn Boyer. Both are planning to attend Kent\nState University.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Skeels Community Center",
+            "Ravenna High School",
+            "Kent State University"
+        ],
+        "location": [],
+        "person": [
+            "Adrianna Ballard",
+            "Autumn Boyer"
+        ],
+        "companies": [
+            "Kent State University",
+            "Skeels Community Center",
+            "Ravenna High School"
+        ]
+    },
+    "geoOrigin_code": "RU/us.oh.ravnna",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS4683F30C83532C9D9E2B6C559938159.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Adrianna Ballard",
+                "relevance": 0.909775,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ravenna High School",
+                "relevance": 0.818254,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "School"
+                    ],
+                    "name": "Ravenna High School (Ohio)",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Ravenna_High_School_(Ohio)"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Autumn Boyer",
+                "relevance": 0.721812,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Skeels Community Center",
+                "relevance": 0.543989,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kent",
+                "relevance": 0.402035,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "State University",
+                "relevance": 0.396343,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$500",
+                "relevance": 0.396343,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Skeels Community Center"
+                },
+                "sentence": "Skeels Community Center is awarding $500 scholarships to Ravenna High School",
+                "object": {
+                    "text": "awarding $500 scholarships to Ravenna High School"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Skeels Community Center"
+                },
+                "sentence": "Skeels Community Center is awarding $500 scholarships to Ravenna High School",
+                "object": {
+                    "text": "$500 scholarships"
+                },
+                "action": {
+                    "verb": {
+                        "text": "award",
+                        "tense": "present"
+                    },
+                    "text": "is awarding",
+                    "normalized": "be award"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Both"
+                },
+                "sentence": " Both are planning to attend Kent",
+                "object": {
+                    "text": "to attend Kent"
+                },
+                "action": {
+                    "verb": {
+                        "text": "plan",
+                        "tense": "present"
+                    },
+                    "text": "planning",
+                    "normalized": "plan"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.969713,
+                "label": "/education/high school"
+            },
+            {
+                "score": 0.964713,
+                "label": "/education/special education"
+            },
+            {
+                "score": 0.862861,
+                "label": "/science/mathematics/algebra"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Skeels Community Center is awarding $500 scholarships to Ravenna High School students Adrianna Ballard and Autumn Boyer.",
+                "score": 0.896951,
+                "arguments": [
+                    {
+                        "text": "Skeels Community Center",
+                        "location": [
+                            0,
+                            23
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Skeels Community Center"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "awarding",
+                        "location": [
+                            27,
+                            35
+                        ],
+                        "entities": [
+                            {
+                                "type": "EntertainmentAward",
+                                "text": "awarding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Skeels Community Center is awarding $500 scholarships to Ravenna High School students Adrianna Ballard and Autumn Boyer.",
+                "score": 0.54866,
+                "arguments": [
+                    {
+                        "text": "Skeels Community Center",
+                        "location": [
+                            0,
+                            23
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Skeels Community Center"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "$500",
+                        "location": [
+                            36,
+                            40
+                        ],
+                        "entities": [
+                            {
+                                "type": "Money",
+                                "text": "$500",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Gainloss"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Skeels Community Center is awarding $500 scholarships to Ravenna High School students Adrianna Ballard and Autumn Boyer.",
+                "score": 0.540504,
+                "arguments": [
+                    {
+                        "text": "students",
+                        "location": [
+                            77,
+                            85
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "awarding",
+                        "location": [
+                            27,
+                            35
+                        ],
+                        "entities": [
+                            {
+                                "type": "EntertainmentAward",
+                                "text": "awarding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Skeels Community Center is awarding $500 scholarships to Ravenna High School students Adrianna Ballard and Autumn Boyer.",
+                "score": 0.599162,
+                "arguments": [
+                    {
+                        "text": "Ravenna High School",
+                        "location": [
+                            57,
+                            76
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Ravenna High School",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Educational"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "$500",
+                        "location": [
+                            36,
+                            40
+                        ],
+                        "entities": [
+                            {
+                                "type": "Money",
+                                "text": "$500",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Gainloss"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Skeels Community Center is awarding $500 scholarships to Ravenna High School students Adrianna Ballard and Autumn Boyer.",
+                "score": 0.474671,
+                "arguments": [
+                    {
+                        "text": "students",
+                        "location": [
+                            77,
+                            85
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "$500",
+                        "location": [
+                            36,
+                            40
+                        ],
+                        "entities": [
+                            {
+                                "type": "Money",
+                                "text": "$500",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Gainloss"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "educatedAt",
+                "sentence": "Skeels Community Center is awarding $500 scholarships to Ravenna High School students Adrianna Ballard and Autumn Boyer.",
+                "score": 0.566261,
+                "arguments": [
+                    {
+                        "text": "students",
+                        "location": [
+                            77,
+                            85
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Ravenna High School",
+                        "location": [
+                            57,
+                            76
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Ravenna High School",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Educational"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Skeels Community Center is awarding $500 scholarships to Ravenna High School students Adrianna Ballard and Autumn Boyer.",
+                "score": 0.969087,
+                "arguments": [
+                    {
+                        "text": "Adrianna Ballard",
+                        "location": [
+                            86,
+                            102
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Adrianna Ballard"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "students",
+                        "location": [
+                            77,
+                            85
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Skeels Community Center is awarding $500 scholarships to Ravenna High School students Adrianna Ballard and Autumn Boyer.",
+                "score": 0.97952,
+                "arguments": [
+                    {
+                        "text": "Autumn Boyer",
+                        "location": [
+                            107,
+                            119
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Autumn Boyer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "students",
+                        "location": [
+                            77,
+                            85
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Skeels Community Center",
+                "relevance": 0.967313,
+                "count": 1
+            },
+            {
+                "text": "scholarships",
+                "relevance": 0.570744,
+                "count": 1
+            },
+            {
+                "text": "Autumn Boyer",
+                "relevance": 0.230011,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "a6e7796fa602ea70ed4af4e7beffe6194cc5da24",
+        "filename": "202006010000NEWSBANKNEWSPPRS4683F30C83532C9D9E2B6C559938159.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Kent State University|extractor|DUNS:041071101;NECOID:5270096;ACORN:1934888545|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Skeels awards scholarships",
+    "html": "<p><org>Skeels Community Center</org> is awarding <money>$500</money> scholarships to <org>Ravenna High School</org> students <person>Adrianna Ballard</person> and <person>Autumn Boyer</person>. Both are planning to attend <org idsrc=\"xmltag.org\" value=\"ACORN:1934888545\">Kent State University</org>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.oh.ravnna",
+            "Ravenna"
+        ]
+    ]
+}

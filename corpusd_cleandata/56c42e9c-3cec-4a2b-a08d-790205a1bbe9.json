@@ -1,0 +1,458 @@
+{
+    "id": "56c42e9c-3cec-4a2b-a08d-790205a1bbe9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2000 - 2020 Al Bawaba. All Rights Reserved. Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "Dubai, United Arab Emirates",
+    "sourceType": "General Newswire",
+    "source": "Tenders Monitor Africa-Asia",
+    "corpus_document_id": "60444618398942474318",
+    "description": "Description: Tenders are invited for Project \"Package of Procurement of Medical Supplies of Ca Mau General Hospital 2020-2021\" Bid Security Amount: 80,000,000 VND Duration of Contract: 18 Month.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "South-Eastern Asia",
+            "code": "LB/seas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/seas",
+            "relevance_score": "9",
+            "description": "Vietnam",
+            "code": "LC/vn#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "6",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#6#66#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "6",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#6#50#66",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Structured Content",
+            "code": "IS/spec#6#50#66",
+            "level": 0
+        }
+    ],
+    "text": "Company : CA MAU GENERAL HOSPITAL\n\nAddress : 078033567220 - 0948477345\n\nCountry : Vietnam\n\nLocation : Vietnam\n\nTender_No : 20200613018-00\n\nValue : VND 7770000000\n\nDead line : 2020-06-15\n\nLocal International : International\n\nFunding Agency : No\n\nDescription : Tenders are invited for Project \"Package of Procurement of\nMedical Supplies of Ca Mau General Hospital 2020-2021\" Bid Security Amount:\n80,000,000 VND Duration of Contract: 18 Month [Disclaimer: The above text is\nmachine translated. For accurate information kindly refer the original\ndocument.]\n\nDocument : [\nhttp://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20741177.html](http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20741177.html)",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Healthcare",
+            "code": "II/hcare#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "II/hcare.supplies",
+            "relevance_score": "7",
+            "description": "Hospital Supplies",
+            "code": "II/hcare.hospsupp#7#75#50",
+            "level": 2
+        },
+        {
+            "parent": "II/hcare",
+            "relevance_score": "7",
+            "description": "Medical Supplies",
+            "code": "II/hcare.supplies#7#50#75",
+            "level": 1
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Medical Supplies",
+            "Ca Mau General Hospital"
+        ],
+        "location": [
+            "CA MAU",
+            "Vietnam"
+        ],
+        "person": [],
+        "companies": [
+            "Medical Supplies",
+            "Ca Mau General Hospital"
+        ]
+    },
+    "geoOrigin_code": "RU/ae..dubai",
+    "language": "English",
+    "filename": "202006050058ALBA____ME_NA_NE_46340_176204899_138.930.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ca Mau General Hospital",
+                "relevance": 0.845473,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.308456,
+                    "label": "negative"
+                },
+                "text": "MAU GENERAL HOSPITAL",
+                "relevance": 0.816477,
+                "type": "Facility"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.458686,
+                    "label": "positive"
+                },
+                "text": "Vietnam",
+                "relevance": 0.636656,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Vietnam",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Vietnam"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "18 Month",
+                "relevance": 0.636656,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "2021",
+                "relevance": 0.636656,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Tenders"
+                },
+                "sentence": " Description : Tenders are invited for Project \"Package of Procurement of",
+                "object": {
+                    "text": "for Project \"Package of Procurement of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "invite",
+                        "tense": "past"
+                    },
+                    "text": "are invited",
+                    "normalized": "be invite"
+                }
+            },
+            {
+                "subject": {
+                    "text": "accurate information"
+                },
+                "sentence": " For accurate information kindly refer the original",
+                "object": {
+                    "text": "the original"
+                },
+                "action": {
+                    "verb": {
+                        "text": "refer",
+                        "tense": "present"
+                    },
+                    "text": "refer",
+                    "normalized": "refer"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.620438,
+                "label": "/business and industrial/business operations"
+            },
+            {
+                "score": 0.571065,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.570844,
+                "label": "/finance/investing/funds"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Company : CA MAU GENERAL HOSPITAL",
+                "score": 0.448899,
+                "arguments": [
+                    {
+                        "text": "Company",
+                        "location": [
+                            0,
+                            7
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "International"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "CA",
+                        "location": [
+                            10,
+                            12
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "CA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "Company : CA MAU GENERAL HOSPITAL",
+                "score": 0.95319,
+                "arguments": [
+                    {
+                        "text": "MAU GENERAL HOSPITAL",
+                        "location": [
+                            13,
+                            33
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "MAU GENERAL HOSPITAL",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "CA",
+                        "location": [
+                            10,
+                            12
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "CA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Country : Vietnam",
+                "score": 0.149385,
+                "arguments": [
+                    {
+                        "text": "Country",
+                        "location": [
+                            72,
+                            79
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "CA"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Vietnam",
+                        "location": [
+                            82,
+                            89
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Vietnam",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "accurate information",
+                "relevance": 0.799632,
+                "count": 1
+            },
+            {
+                "text": "VND Duration of Contract",
+                "relevance": 0.776735,
+                "count": 1
+            },
+            {
+                "text": "Value",
+                "relevance": 0.598945,
+                "count": 1
+            },
+            {
+                "text": "Local International",
+                "relevance": 0.595117,
+                "count": 1
+            },
+            {
+                "text": "Description",
+                "relevance": 0.584844,
+                "count": 1
+            },
+            {
+                "text": "Dead line",
+                "relevance": 0.580541,
+                "count": 1
+            },
+            {
+                "text": "Company",
+                "relevance": 0.549116,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.548226,
+                "count": 1
+            },
+            {
+                "text": "above text",
+                "relevance": 0.533399,
+                "count": 1
+            },
+            {
+                "text": "Package of Procurement",
+                "relevance": 0.533399,
+                "count": 1
+            },
+            {
+                "text": "Security Amount",
+                "relevance": 0.533399,
+                "count": 1
+            },
+            {
+                "text": "machine",
+                "relevance": 0.533238,
+                "count": 1
+            },
+            {
+                "text": "Disclaimer",
+                "relevance": 0.526428,
+                "count": 1
+            },
+            {
+                "text": "Project",
+                "relevance": 0.526428,
+                "count": 1
+            },
+            {
+                "text": "Country",
+                "relevance": 0.525618,
+                "count": 1
+            },
+            {
+                "text": "Agency",
+                "relevance": 0.517985,
+                "count": 1
+            },
+            {
+                "text": "Document",
+                "relevance": 0.517985,
+                "count": 1
+            },
+            {
+                "text": "Medical Supplies of Ca Mau General Hospital",
+                "relevance": 0.502847,
+                "count": 1
+            },
+            {
+                "text": "VND",
+                "relevance": 0.488857,
+                "count": 1
+            },
+            {
+                "text": "Month",
+                "relevance": 0.424704,
+                "count": 1
+            },
+            {
+                "text": "International",
+                "relevance": 0.405747,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "2bae2f160901db7a86dfb17e203e99750cb7d24a",
+        "filename": "202006050058ALBA____ME_NA_NE_46340_176204899_138.930.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:58:00-04:00",
+    "title": "Project \"Package of Procurement of Medical Supplies of Ca Mau General Hospital 2020-2021\"",
+    "html": "<p>Company : <location idsrc=\"xmltag.org\" value=\"LS/vn.cm\">CA MAU</location> GENERAL HOSPITAL</p>\n<p>Address : 078033567220 - 0948477345</p>\n<p>Country : <location idsrc=\"xmltag.org\" value=\"LC/vn\">Vietnam</location></p>\n<p>Location : <location idsrc=\"xmltag.org\" value=\"LC/vn\">Vietnam</location></p>\n<p>Tender_No : 20200613018-00</p>\n<p>Value : <money>VND 7770000000</money></p>\n<p>Dead line : 2020-06-15</p>\n<p>Local International : International</p>\n<p>Funding Agency : No</p>\n<p>Description : Tenders are invited for Project \"Package of Procurement of <org>Medical Supplies</org> of <org>Ca Mau General Hospital</org> 2020-2021\" Bid Security Amount: <money>80,000,000 VND</money> Duration of Contract: 18 Month [Disclaimer: The above text is machine translated. For accurate information kindly refer the original document.]</p>\n<p>Document : <a href=\"http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20741177.html\"> http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20741177.html</a></p>",
+    "geoFocus": [
+        [
+            "GR/afr",
+            "Africa"
+        ],
+        [
+            "GR/as",
+            "Asia"
+        ]
+    ]
+}

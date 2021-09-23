@@ -1,0 +1,343 @@
+{
+    "id": "b599b05b-d035-4a4d-8fbd-25438d7f3f5e",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "41126735407213249723",
+    "description": "Framework contract for roofing/ waterproofing and plumbing more info: Location: GERMANY BidDate: 6/ 16/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Waste Management Company Munich- Tendering Authority Address: Waste management company Munich, head office, all depots, all recycling centers, see also in the list of services Financier:...",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LS/de#9#50#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Framework contract for roofing / waterproofing and plumbing more info :\nLocation : GERMANY BidDate : 6/16/2020 Tender Country : GERMANY Tender Type :\nTenders Tendering Authority : Waste Management Company Munich (AWM) -\nTendering Authority Address : Waste management company Munich, head office,\nall depots, all recycling centers, see also in the list of services Financier\n: Self Funded Tearn Money : Not Specified",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Environmental and Waste Management",
+            "code": "II/envman#9#82#99",
+            "level": 0
+        },
+        {
+            "parent": "II/envman",
+            "relevance_score": "9",
+            "description": "Waste Management Services",
+            "code": "II/envman.wasteman#9#99#66",
+            "level": 1
+        },
+        {
+            "parent": "II/envman.wasteman",
+            "relevance_score": "6",
+            "description": "Recycling and Materials Recovery",
+            "code": "II/envman.recycle#6#66#50",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY",
+            "Munich"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_12379_176211344_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.549872,
+                    "label": "negative"
+                },
+                "text": "Waste Management Company Munich",
+                "relevance": 0.942049,
+                "type": "JobTitle"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.372781,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.356993,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "all depots"
+                },
+                "sentence": " all depots, all recycling centers, see also in the list of services Financier",
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "present"
+                    },
+                    "text": "see",
+                    "normalized": "see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Self"
+                },
+                "sentence": " : Self Funded Tearn Money : Not Specified",
+                "object": {
+                    "text": "Tearn Money"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Funded",
+                        "tense": "past"
+                    },
+                    "text": "Funded",
+                    "normalized": "Funded"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Self Funded"
+                },
+                "sentence": " : Self Funded Tearn Money : Not Specified",
+                "object": {
+                    "text": "Money"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Tearn",
+                        "tense": "present"
+                    },
+                    "text": "Tearn",
+                    "normalized": "Tearn"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.626798,
+                "label": "/science/mathematics"
+            },
+            {
+                "score": 0.597047,
+                "label": "/business and industrial/company"
+            },
+            {
+                "score": 0.583219,
+                "label": "/business and industrial/business operations/human resources/payroll services"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Framework contract for roofing / waterproofing and plumbing more info : Location : GERMANY BidDate : 6/16/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Waste Management Company Munich (AWM) - Tendering Authority Address : Waste management company Munich, head office, all depots, all recycling centers, see also in the list of services Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.638971,
+                "arguments": [
+                    {
+                        "text": "6/16/2020 Tender",
+                        "location": [
+                            101,
+                            117
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/16/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type :\nTenders Tendering Authority : Waste Management Company Munich",
+                        "location": [
+                            136,
+                            211
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type :\nTenders Tendering Authority : Waste Management Company Munich"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.953391,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.902868,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.719602,
+                "count": 1
+            },
+            {
+                "text": "Framework contract",
+                "relevance": 0.700611,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.626433,
+                "count": 1
+            },
+            {
+                "text": "head office",
+                "relevance": 0.614846,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.607636,
+                "count": 1
+            },
+            {
+                "text": "Waste Management Company Munich",
+                "relevance": 0.591473,
+                "count": 2
+            },
+            {
+                "text": "depots",
+                "relevance": 0.579373,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.566009,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.563299,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.556306,
+                "count": 1
+            },
+            {
+                "text": "recycling centers",
+                "relevance": 0.535978,
+                "count": 1
+            },
+            {
+                "text": "roofing",
+                "relevance": 0.533986,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.514876,
+                "count": 1
+            },
+            {
+                "text": "Authority Address",
+                "relevance": 0.460761,
+                "count": 1
+            },
+            {
+                "text": "list of services Financier",
+                "relevance": 0.413544,
+                "count": 1
+            },
+            {
+                "text": "waterproofing",
+                "relevance": 0.292412,
+                "count": 1
+            },
+            {
+                "text": "AWM",
+                "relevance": 0.282869,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "3bb77f01d9397023f96b69c1c65559b527b2bcc0",
+        "filename": "202006050210ALBA____ME_NA_NE_12379_176211344_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Framework contract for roofing / waterproofing and plumbing [TenderNews.com - Tenders (India)]",
+    "html": "<p>Framework contract for roofing / waterproofing and plumbing more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/16/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Waste Management Company Munich (AWM) -\nTendering Authority Address : Waste management company <location idsrc=\"xmltag.org\" value=\"LU/de..munich\">Munich</location>, head office, all depots, all recycling centers, see also in the list of services\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

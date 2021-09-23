@@ -1,0 +1,1344 @@
+{
+    "id": "e79de813-449b-4d45-92bf-ff50f4eca71a",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, Immunotherapy Daily",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Immunotherapy Daily",
+    "corpus_document_id": "7911669270783174361",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at Immunotherapy Daily-- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from medrxiv.org:. \u201cCOVID-19 is caused by the Severe Acute Respiratory Syndrome Coronavirus-2, resulting in symptoms, such as fever, cough, and shortness of breath.",
+    "serviceName": "Health Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "7",
+            "description": "Southern Europe",
+            "code": "LB/seur#7#49#70",
+            "level": 1
+        },
+        {
+            "parent": "LB/seur",
+            "relevance_score": "7",
+            "description": "Italy",
+            "code": "LC/it#7#50#70",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Europe",
+            "code": "LR/eur#7#49#70",
+            "level": 0
+        },
+        {
+            "code": "LS/it#7#50#70",
+            "description": "",
+            "relevance_score": "7"
+        }
+    ],
+    "sourceClass": "Immunotherapeutics, Immune System Disorders",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Health and Wellness",
+            "code": "IS/haw#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "7",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#7#50#75",
+            "level": 1
+        },
+        {
+            "parent": "IS/haw.disease",
+            "relevance_score": "7",
+            "description": "Respiratory Diseases",
+            "code": "IS/haw.respitor#7#50#75",
+            "level": 2
+        },
+        {
+            "parent": "IS/haw.respitor",
+            "relevance_score": "7",
+            "description": "Upper Respiratory Disease",
+            "code": "IS/haw.upresp#7#75#50",
+            "level": 3
+        }
+    ],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Immunotherapy\nDaily \\-- According to news reporting based on a preprint abstract, our\njournalists obtained the following quote sourced from\n[medrxiv.org](http://medrxiv.org):\n\n\"COVID-19 is caused by the Severe Acute Respiratory Syndrome Coronavirus-2\n(SAR-CoV-2), resulting in symptoms, such as fever, cough, and shortness of\nbreath. The SARS-CoV-2 virus has also been suggested to initiate a cytokine\nstorm in patients with COVID-19 evidenced by elevated cytokines, such as\ninterleukin-6 (IL-6) and C-reactive protein (CRP).\n\n\"We report preliminary data from 21 patients with COVID-19 who developed\npneumonia/acute respiratory distress syndrome (ARDS) and participated in a\ncompassionate-use program at Papa Giovanni XXIII hospital in Bergamo, Italy.\nAll 21 patients received intravenous siltuximab, a chimeric mAb that binds to\nand blocks the effect of IL-6, at a dose ranging between 700 to 1,200 mg\n(median 900 mg). The median age of patients treated was 64 years, and all\npatients were followed for a median of eight days. Serum CRP levels reduced in\nall 16 patients with available data following treatment. An improvement in the\nclinical condition was observed in 33% (7/21) of patients, 43% (9/21) of\npatients stabilized as evidenced by no clinically relevant change in their\ncondition, and 24% (5/21) experienced a worsening in their condition. Of those\npatients who experienced a worsening in their condition, one patient died, and\none patient experienced a cerebrovascular event.\n\n\"This analysis is presented to inform the medical community of the potential\nrole of siltuximab in treating patients with ARDS secondary to SARS-CoV-2\ninfection, and a cohort study with patients treated with standard therapy in\nour hospital is ongoing, and will report the 30-day mortality rates upon\ncompletion.\"\n\nThis preprint may not have been peer-reviewed. For more information on this\nresearch see: <http://medrxiv.org/content/10.1101/2020.04.01.20048561v3>\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Immunotherapy Daily"
+        ],
+        "location": [
+            "Bergamo, Italy"
+        ],
+        "person": [],
+        "companies": [
+            "News Reporter-Staff News",
+            "Immunotherapy Daily"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__HLTHNWLR_CABBF57199F27532.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Papa Giovanni XXIII hospital",
+                "relevance": 0.917652,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.568687,
+                    "label": "negative"
+                },
+                "text": "respiratory distress",
+                "relevance": 0.887,
+                "type": "HealthCondition",
+                "disambiguation": {
+                    "subtype": [
+                        "CauseOfDeath",
+                        "Disease"
+                    ],
+                    "name": "Respiratory failure",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Respiratory_failure"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.894408,
+                    "label": "negative"
+                },
+                "text": "Respiratory Syndrome",
+                "relevance": 0.878541,
+                "type": "HealthCondition"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.787942,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Bergamo",
+                "relevance": 0.724915,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "ItalianComune",
+                        "City"
+                    ],
+                    "name": "Bergamo",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Bergamo"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.535874,
+                    "label": "negative"
+                },
+                "text": "fever",
+                "relevance": 0.721973,
+                "type": "HealthCondition",
+                "disambiguation": {
+                    "subtype": [
+                        "CauseOfDeath",
+                        "DiseaseCause",
+                        "RiskFactor",
+                        "Symptom"
+                    ],
+                    "name": "Fever",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Fever"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Italy",
+                "relevance": 0.664178,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "HumanLanguage",
+                        "PoliticalDistrict",
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Italy",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Italy"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.60009,
+                    "label": "negative"
+                },
+                "text": "infection",
+                "relevance": 0.635202,
+                "type": "HealthCondition"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "eight days",
+                "relevance": 0.635202,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "1,200 mg",
+                "relevance": 0.635202,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "64 years",
+                "relevance": 0.635202,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "30-day",
+                "relevance": 0.635202,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "900 mg",
+                "relevance": 0.635202,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "24%",
+                "relevance": 0.635202,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "33%",
+                "relevance": 0.635202,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "43%",
+                "relevance": 0.635202,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "news reporting"
+                },
+                "sentence": " Daily \\-- According to news reporting based on a preprint abstract, our",
+                "object": {
+                    "text": "on a preprint abstract"
+                },
+                "action": {
+                    "verb": {
+                        "text": "base",
+                        "tense": "past"
+                    },
+                    "text": "based",
+                    "normalized": "base"
+                }
+            },
+            {
+                "subject": {
+                    "text": "journalists"
+                },
+                "sentence": " journalists obtained the following quote sourced from",
+                "object": {
+                    "text": "the following quote sourced from"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the Severe Acute Respiratory Syndrome Coronavirus-2"
+                },
+                "sentence": " \"COVID-19 is caused by the Severe Acute Respiratory Syndrome Coronavirus-2",
+                "object": {
+                    "text": "COVID-19"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cause",
+                        "tense": "past"
+                    },
+                    "text": "is caused",
+                    "normalized": "be cause"
+                }
+            },
+            {
+                "subject": {
+                    "text": "breath. The SARS-CoV-2 virus"
+                },
+                "sentence": " breath. The SARS-CoV-2 virus has also been suggested to initiate a cytokine",
+                "object": {
+                    "text": "to initiate a cytokine"
+                },
+                "action": {
+                    "verb": {
+                        "text": "suggest",
+                        "tense": "past"
+                    },
+                    "text": "suggested",
+                    "normalized": "suggest"
+                }
+            },
+            {
+                "subject": {
+                    "text": "breath. The SARS-CoV-2 virus"
+                },
+                "sentence": " breath. The SARS-CoV-2 virus has also been suggested to initiate a cytokine",
+                "object": {
+                    "text": "a cytokine"
+                },
+                "action": {
+                    "verb": {
+                        "text": "initiate",
+                        "tense": "future"
+                    },
+                    "text": "has also been suggested to initiate",
+                    "normalized": "have also be suggest to initiate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by elevated cytokines"
+                },
+                "sentence": " storm in patients with COVID-19 evidenced by elevated cytokines, such as",
+                "object": {
+                    "text": "COVID-19"
+                },
+                "action": {
+                    "verb": {
+                        "text": "evidence",
+                        "tense": "past"
+                    },
+                    "text": "evidenced",
+                    "normalized": "evidence"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We report preliminary data from 21 patients with COVID-19 who developed",
+                "object": {
+                    "text": "preliminary data"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "present"
+                    },
+                    "text": "report",
+                    "normalized": "report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The median age of patients treated"
+                },
+                "sentence": " The median age of patients treated was 64 years, and all",
+                "object": {
+                    "text": "64 years"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "clinical condition"
+                },
+                "sentence": " clinical condition was observed in 33% (7/21) of patients, 43% (9/21) of",
+                "object": {
+                    "text": "observed in 33%"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "clinical condition"
+                },
+                "sentence": " clinical condition was observed in 33% (7/21) of patients, 43% (9/21) of",
+                "object": {
+                    "text": "in 33% (7/21) of patients, 43% (9/21) of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "observe",
+                        "tense": "past"
+                    },
+                    "text": "was observed",
+                    "normalized": "be observe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by no clinically relevant change in their"
+                },
+                "sentence": " patients stabilized as evidenced by no clinically relevant change in their",
+                "object": {
+                    "text": "patients"
+                },
+                "action": {
+                    "verb": {
+                        "text": "evidence",
+                        "tense": "past"
+                    },
+                    "text": "evidenced",
+                    "normalized": "evidence"
+                }
+            },
+            {
+                "subject": {
+                    "text": "condition, and 24% (5/21)"
+                },
+                "sentence": " condition, and 24% (5/21) experienced a worsening in their condition.",
+                "object": {
+                    "text": "a worsening in their condition"
+                },
+                "action": {
+                    "verb": {
+                        "text": "experience",
+                        "tense": "past"
+                    },
+                    "text": "experienced",
+                    "normalized": "experience"
+                }
+            },
+            {
+                "subject": {
+                    "text": "patients"
+                },
+                "sentence": " patients who experienced a worsening in their condition, one patient died, and",
+                "object": {
+                    "text": "a worsening in their condition"
+                },
+                "action": {
+                    "verb": {
+                        "text": "experience",
+                        "tense": "past"
+                    },
+                    "text": "experienced",
+                    "normalized": "experience"
+                }
+            },
+            {
+                "subject": {
+                    "text": "one patient"
+                },
+                "sentence": " one patient experienced a cerebrovascular event.",
+                "object": {
+                    "text": "a cerebrovascular event"
+                },
+                "action": {
+                    "verb": {
+                        "text": "experience",
+                        "tense": "past"
+                    },
+                    "text": "experienced",
+                    "normalized": "experience"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This analysis"
+                },
+                "sentence": " \"This analysis is presented to inform the medical community of the potential",
+                "object": {
+                    "text": "presented to inform the medical community of the potential"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This analysis"
+                },
+                "sentence": " \"This analysis is presented to inform the medical community of the potential",
+                "object": {
+                    "text": "to inform the medical community of the potential"
+                },
+                "action": {
+                    "verb": {
+                        "text": "present",
+                        "tense": "past"
+                    },
+                    "text": "presented",
+                    "normalized": "present"
+                }
+            },
+            {
+                "subject": {
+                    "text": "patients"
+                },
+                "sentence": " role of siltuximab in treating patients with ARDS secondary to SARS-CoV-2",
+                "object": {
+                    "text": "with ARDS secondary to SARS-CoV-2"
+                },
+                "action": {
+                    "verb": {
+                        "text": "treat",
+                        "tense": "present"
+                    },
+                    "text": "treating",
+                    "normalized": "treat"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a cohort study with patients"
+                },
+                "sentence": " infection, and a cohort study with patients treated with standard therapy in",
+                "object": {
+                    "text": "with standard therapy"
+                },
+                "action": {
+                    "verb": {
+                        "text": "treat",
+                        "tense": "past"
+                    },
+                    "text": "treated",
+                    "normalized": "treat"
+                }
+            },
+            {
+                "subject": {
+                    "text": "our hospital"
+                },
+                "sentence": " our hospital is ongoing, and will report the 30-day mortality rates upon",
+                "object": {
+                    "text": "ongoing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This preprint"
+                },
+                "sentence": " This preprint may not have been peer-reviewed.",
+                "object": {
+                    "text": "peer-reviewed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Our reports"
+                },
+                "sentence": " (Our reports deliver fact-based news of research and discoveries from around",
+                "object": {
+                    "text": "fact-based news of research and discoveries"
+                },
+                "action": {
+                    "verb": {
+                        "text": "deliver",
+                        "tense": "present"
+                    },
+                    "text": "deliver",
+                    "normalized": "deliver"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.937064,
+                "label": "/health and fitness/disease"
+            },
+            {
+                "score": 0.919709,
+                "label": "/health and fitness/therapy"
+            },
+            {
+                "score": 0.783074,
+                "label": "/health and fitness/disease/epidemic"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Immunotherapy Daily \\-- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from [medrxiv.org](http://medrxiv.org):",
+                "score": 0.496824,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "\"This analysis is presented to inform the medical community of the potential role of siltuximab in treating patients with ARDS secondary to SARS-CoV-2 infection, and a cohort study with patients treated with standard therapy in our hospital is ongoing, and will report the 30-day mortality rates upon completion.\"",
+                "score": 0.846359,
+                "arguments": [
+                    {
+                        "text": "medical community",
+                        "location": [
+                            1597,
+                            1614
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "medical community"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "inform",
+                        "location": [
+                            1586,
+                            1592
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "inform"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "\"This analysis is presented to inform the medical community of the potential role of siltuximab in treating patients with ARDS secondary to SARS-CoV-2 infection, and a cohort study with patients treated with standard therapy in our hospital is ongoing, and will report the 30-day mortality rates upon completion.\"",
+                "score": 0.913836,
+                "arguments": [
+                    {
+                        "text": "patients",
+                        "location": [
+                            1663,
+                            1671
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "patients"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "infection",
+                        "location": [
+                            1706,
+                            1715
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "infection"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"This analysis is presented to inform the medical community of the potential role of siltuximab in treating patients with ARDS secondary to SARS-CoV-2 infection, and a cohort study with patients treated with standard therapy in our hospital is ongoing, and will report the 30-day mortality rates upon completion.\"",
+                "score": 0.357866,
+                "arguments": [
+                    {
+                        "text": "our",
+                        "location": [
+                            1783,
+                            1786
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "patients"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hospital",
+                        "location": [
+                            1787,
+                            1795
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospital"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Immunotherapy Daily \\-- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from [medrxiv.org](http://medrxiv.org):",
+                "score": 0.766168,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Immunotherapy\nDaily \\",
+                        "location": [
+                            64,
+                            85
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Immunotherapy\nDaily \\",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "clientOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Immunotherapy Daily \\-- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from [medrxiv.org](http://medrxiv.org):",
+                "score": 0.307489,
+                "arguments": [
+                    {
+                        "text": "our",
+                        "location": [
+                            146,
+                            149
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "our"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "journalists",
+                        "location": [
+                            150,
+                            161
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "\"We report preliminary data from 21 patients with COVID-19 who developed pneumonia/acute respiratory distress syndrome (ARDS) and participated in a compassionate-use program at Papa Giovanni XXIII hospital in Bergamo, Italy.",
+                "score": 0.475531,
+                "arguments": [
+                    {
+                        "text": "We",
+                        "location": [
+                            592,
+                            594
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "our"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "patients",
+                        "location": [
+                            627,
+                            635
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "patients"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "\"We report preliminary data from 21 patients with COVID-19 who developed pneumonia/acute respiratory distress syndrome (ARDS) and participated in a compassionate-use program at Papa Giovanni XXIII hospital in Bergamo, Italy.",
+                "score": 0.581935,
+                "arguments": [
+                    {
+                        "text": "patients",
+                        "location": [
+                            627,
+                            635
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "patients"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "pneumonia",
+                        "location": [
+                            664,
+                            673
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "pneumonia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "\"We report preliminary data from 21 patients with COVID-19 who developed pneumonia/acute respiratory distress syndrome (ARDS) and participated in a compassionate-use program at Papa Giovanni XXIII hospital in Bergamo, Italy.",
+                "score": 0.907066,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            650,
+                            653
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "who"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "pneumonia",
+                        "location": [
+                            664,
+                            673
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "pneumonia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"We report preliminary data from 21 patients with COVID-19 who developed pneumonia/acute respiratory distress syndrome (ARDS) and participated in a compassionate-use program at Papa Giovanni XXIII hospital in Bergamo, Italy.",
+                "score": 0.358221,
+                "arguments": [
+                    {
+                        "text": "Papa Giovanni XXIII",
+                        "location": [
+                            768,
+                            787
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Papa Giovanni XXIII"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hospital",
+                        "location": [
+                            788,
+                            796
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospital"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "\"We report preliminary data from 21 patients with COVID-19 who developed pneumonia/acute respiratory distress syndrome (ARDS) and participated in a compassionate-use program at Papa Giovanni XXIII hospital in Bergamo, Italy.",
+                "score": 0.838238,
+                "arguments": [
+                    {
+                        "text": "hospital",
+                        "location": [
+                            788,
+                            796
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospital"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Bergamo",
+                        "location": [
+                            800,
+                            807
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Bergamo"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"We report preliminary data from 21 patients with COVID-19 who developed pneumonia/acute respiratory distress syndrome (ARDS) and participated in a compassionate-use program at Papa Giovanni XXIII hospital in Bergamo, Italy.",
+                "score": 0.98516,
+                "arguments": [
+                    {
+                        "text": "Bergamo",
+                        "location": [
+                            800,
+                            807
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Bergamo"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Italy",
+                        "location": [
+                            809,
+                            814
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Italy",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "compassionate-use program",
+                "relevance": 0.700132,
+                "count": 1
+            },
+            {
+                "text": "clinical condition",
+                "relevance": 0.658208,
+                "count": 1
+            },
+            {
+                "text": "median age of patients",
+                "relevance": 0.658067,
+                "count": 1
+            },
+            {
+                "text": "Papa Giovanni XXIII hospital",
+                "relevance": 0.652479,
+                "count": 1
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.631555,
+                "count": 1
+            },
+            {
+                "text": "patients",
+                "relevance": 0.624848,
+                "count": 10
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.589884,
+                "count": 1
+            },
+            {
+                "text": "preliminary data",
+                "relevance": 0.580448,
+                "count": 1
+            },
+            {
+                "text": "available data",
+                "relevance": 0.569059,
+                "count": 1
+            },
+            {
+                "text": "SAR-CoV-2",
+                "relevance": 0.566254,
+                "count": 1
+            },
+            {
+                "text": "cohort study",
+                "relevance": 0.56575,
+                "count": 1
+            },
+            {
+                "text": "reports",
+                "relevance": 0.557932,
+                "count": 1
+            },
+            {
+                "text": "intravenous siltuximab",
+                "relevance": 0.557816,
+                "count": 1
+            },
+            {
+                "text": "Severe Acute Respiratory Syndrome Coronavirus-2",
+                "relevance": 0.554602,
+                "count": 1
+            },
+            {
+                "text": "acute respiratory distress syndrome",
+                "relevance": 0.553685,
+                "count": 1
+            },
+            {
+                "text": "SARS-CoV-2 virus",
+                "relevance": 0.548298,
+                "count": 1
+            },
+            {
+                "text": "medical community",
+                "relevance": 0.536089,
+                "count": 1
+            },
+            {
+                "text": "effect of IL-6",
+                "relevance": 0.521033,
+                "count": 1
+            },
+            {
+                "text": "JUN",
+                "relevance": 0.520619,
+                "count": 1
+            },
+            {
+                "text": "condition",
+                "relevance": 0.518704,
+                "count": 3
+            },
+            {
+                "text": "analysis",
+                "relevance": 0.518059,
+                "count": 1
+            },
+            {
+                "text": "hospital",
+                "relevance": 0.515526,
+                "count": 1
+            },
+            {
+                "text": "journalists",
+                "relevance": 0.515525,
+                "count": 1
+            },
+            {
+                "text": "IL-6",
+                "relevance": 0.514139,
+                "count": 1
+            },
+            {
+                "text": "preprint abstract",
+                "relevance": 0.513292,
+                "count": 1
+            },
+            {
+                "text": "ARDS",
+                "relevance": 0.512223,
+                "count": 1
+            },
+            {
+                "text": "ARDS secondary",
+                "relevance": 0.512153,
+                "count": 1
+            },
+            {
+                "text": "C-reactive protein",
+                "relevance": 0.511018,
+                "count": 1
+            },
+            {
+                "text": "pneumonia",
+                "relevance": 0.510353,
+                "count": 1
+            },
+            {
+                "text": "news",
+                "relevance": 0.509933,
+                "count": 1
+            },
+            {
+                "text": "fact",
+                "relevance": 0.509767,
+                "count": 1
+            },
+            {
+                "text": "research",
+                "relevance": 0.507825,
+                "count": 1
+            },
+            {
+                "text": "symptoms",
+                "relevance": 0.507482,
+                "count": 1
+            },
+            {
+                "text": "CRP",
+                "relevance": 0.506938,
+                "count": 1
+            },
+            {
+                "text": "days",
+                "relevance": 0.505578,
+                "count": 1
+            },
+            {
+                "text": "fever",
+                "relevance": 0.505578,
+                "count": 1
+            },
+            {
+                "text": "peer",
+                "relevance": 0.505407,
+                "count": 1
+            },
+            {
+                "text": "dose",
+                "relevance": 0.505382,
+                "count": 1
+            },
+            {
+                "text": "cough",
+                "relevance": 0.5046,
+                "count": 1
+            },
+            {
+                "text": "Bergamo",
+                "relevance": 0.5046,
+                "count": 1
+            },
+            {
+                "text": "cytokines",
+                "relevance": 0.504513,
+                "count": 1
+            },
+            {
+                "text": "Italy",
+                "relevance": 0.503794,
+                "count": 1
+            },
+            {
+                "text": "discoveries",
+                "relevance": 0.503794,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.503794,
+                "count": 1
+            },
+            {
+                "text": "completion",
+                "relevance": 0.503794,
+                "count": 1
+            },
+            {
+                "text": "improvement",
+                "relevance": 0.503794,
+                "count": 1
+            },
+            {
+                "text": "treatment",
+                "relevance": 0.503794,
+                "count": 1
+            },
+            {
+                "text": "Immunotherapy",
+                "relevance": 0.503794,
+                "count": 1
+            },
+            {
+                "text": "breath",
+                "relevance": 0.503794,
+                "count": 1
+            },
+            {
+                "text": "shortness",
+                "relevance": 0.503794,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "0de82b0247b4de5d3e83afd226ba48efa88f0da5",
+        "filename": "202006050000NEWSRX__HLTHNWLR_CABBF57199F27532.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Use of siltuximab in patients with COVID-19 pneumonia requiring ventilatory support (Updated May 22, 2020): COVID-19/SARS-CoV-2 News from Preprints",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at <org>Immunotherapy Daily</org> -- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from <a href=\"http://medrxiv.org\">medrxiv.org</a>:</p>\n<p>&#8220;COVID-19 is caused by the Severe Acute Respiratory Syndrome Coronavirus-2 (SAR-CoV-2), resulting in symptoms, such as fever, cough, and shortness of breath. The SARS-CoV-2 virus has also been suggested to initiate a cytokine storm in patients with COVID-19 evidenced by elevated cytokines, such as interleukin-6 (IL-6) and C-reactive protein (CRP).</p>\n<p>&#8220;We report preliminary data from 21 patients with COVID-19 who developed pneumonia/acute respiratory distress syndrome (ARDS) and participated in a compassionate-use program at Papa Giovanni XXIII hospital in <location idsrc=\"xmltag.org\" value=\"LS/it.bg\">Bergamo, Italy</location>. All 21 patients received intravenous siltuximab, a chimeric mAb that binds to and blocks the effect of IL-6, at a dose ranging between 700 to 1,200 mg (median 900 mg). The median age of patients treated was 64 years, and all patients were followed for a median of eight days. Serum CRP levels reduced in all 16 patients with available data following treatment. An improvement in the clinical condition was observed in 33% (7/21) of patients, 43% (9/21) of patients stabilized as evidenced by no clinically relevant change in their condition, and 24% (5/21) experienced a worsening in their condition. Of those patients who experienced a worsening in their condition, one patient died, and one patient experienced a cerebrovascular event.</p>\n<p>&#8220;This analysis is presented to inform the medical community of the potential role of siltuximab in treating patients with ARDS secondary to SARS-CoV-2 infection, and a cohort study with patients treated with standard therapy in our hospital is ongoing, and will report the 30-day mortality rates upon completion.&#8221;</p>\n<p>This preprint may not have been peer-reviewed. For more information on this research see: <a href=\"http://medrxiv.org/content/10.1101/2020.04.01.20048561v3\" target=\"_blank\">http://medrxiv.org/content/10.1101/2020.04.01.20048561v3</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

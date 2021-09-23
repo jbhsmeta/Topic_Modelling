@@ -1,0 +1,384 @@
+{
+    "id": "13bbae22-3229-4554-a600-8a8438b69a03",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, The Daily Courier,  All Rights Reserved.",
+    "geoOrigin": "Forest City, North Carolina",
+    "sourceType": "Newspaper",
+    "source": "Daily Courier, The (Forest City, NC)",
+    "corpus_document_id": "18334070430489401772",
+    "description": "Class of 2020 graduates of Lake Lure Classical Academy toss their caps into the sky following Thursday afternoon's commencement. LLCA opted to keep the traditional date for graduation by practicing social distancing. They were honored with a parade while the graduation ceremony was more like a drive-in style at Morse Park.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Class of 2020 graduates of Lake Lure Classical Academy toss their caps into\nthe sky following Thursday afternoon's commencement. LLCA opted to keep the\ntraditional date for graduation by practicing social distancing. They were\nhonored with a parade while the graduation ceremony was more like a drive-in\nstyle at Morse Park.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Lake Lure Classical Academy"
+        ],
+        "location": [
+            "Morse Park"
+        ],
+        "person": [],
+        "companies": [
+            "Lake Lure Classical Academy"
+        ]
+    },
+    "geoOrigin_code": "RU/us.nc.fority",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSBE4990CF76E1EA30D8D99B89E37CB1C.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.645075,
+                    "label": "negative"
+                },
+                "text": "Lake Lure Classical Academy",
+                "relevance": 0.917121,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.56387,
+                    "label": "positive"
+                },
+                "text": "Morse Park",
+                "relevance": 0.400068,
+                "type": "Facility"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Class of 2020 graduates of Lake Lure Classical Academy"
+                },
+                "sentence": "Class of 2020 graduates of Lake Lure Classical Academy toss their caps into",
+                "object": {
+                    "text": "their caps"
+                },
+                "action": {
+                    "verb": {
+                        "text": "toss",
+                        "tense": "present"
+                    },
+                    "text": "toss",
+                    "normalized": "toss"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the sky"
+                },
+                "sentence": " the sky following Thursday afternoon's commencement.",
+                "action": {
+                    "verb": {
+                        "text": "follow",
+                        "tense": "present"
+                    },
+                    "text": "following",
+                    "normalized": "follow"
+                }
+            },
+            {
+                "subject": {
+                    "text": "LLCA"
+                },
+                "sentence": " LLCA opted to keep the",
+                "object": {
+                    "text": "to keep the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "opt",
+                        "tense": "past"
+                    },
+                    "text": "opted",
+                    "normalized": "opt"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the graduation ceremony"
+                },
+                "sentence": " honored with a parade while the graduation ceremony was more like a drive-in",
+                "object": {
+                    "text": "more like a drive-in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.667605,
+                "label": "/education/alumni and reunions"
+            },
+            {
+                "score": 0.662406,
+                "label": "/art and entertainment/shows and events/classical concert"
+            },
+            {
+                "score": 0.638387,
+                "label": "/style and fashion"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "Class of 2020 graduates of Lake Lure Classical Academy toss their caps into the sky following Thursday afternoon's commencement.",
+                "score": 0.842128,
+                "arguments": [
+                    {
+                        "text": "graduates",
+                        "location": [
+                            14,
+                            23
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "graduates"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Lake Lure",
+                        "location": [
+                            27,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Lake Lure"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Class of 2020 graduates of Lake Lure Classical Academy toss their caps into the sky following Thursday afternoon's commencement.",
+                "score": 0.487132,
+                "arguments": [
+                    {
+                        "text": "graduates",
+                        "location": [
+                            14,
+                            23
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "graduates"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Academy",
+                        "location": [
+                            47,
+                            54
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Academy"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "Class of 2020 graduates of Lake Lure Classical Academy toss their caps into the sky following Thursday afternoon's commencement.",
+                "score": 0.538746,
+                "arguments": [
+                    {
+                        "text": "Academy",
+                        "location": [
+                            47,
+                            54
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Academy"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Lake Lure",
+                        "location": [
+                            27,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Lake Lure"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "They were honored with a parade while the graduation ceremony was more like a drive-in style at Morse Park.",
+                "score": 0.635219,
+                "arguments": [
+                    {
+                        "text": "They",
+                        "location": [
+                            217,
+                            221
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "graduates"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "honored",
+                        "location": [
+                            227,
+                            234
+                        ],
+                        "entities": [
+                            {
+                                "type": "EntertainmentAward",
+                                "text": "honored"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "They were honored with a parade while the graduation ceremony was more like a drive-in style at Morse Park.",
+                "score": 0.433384,
+                "arguments": [
+                    {
+                        "text": "graduation ceremony",
+                        "location": [
+                            259,
+                            278
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "graduation ceremony"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Morse Park",
+                        "location": [
+                            313,
+                            323
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Morse Park"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "traditional date",
+                "relevance": 0.914448,
+                "count": 1
+            },
+            {
+                "text": "graduation ceremony",
+                "relevance": 0.721832,
+                "count": 1
+            },
+            {
+                "text": "Class",
+                "relevance": 0.637083,
+                "count": 1
+            },
+            {
+                "text": "sky",
+                "relevance": 0.595587,
+                "count": 1
+            },
+            {
+                "text": "Thursday afternoon's commencement",
+                "relevance": 0.590199,
+                "count": 1
+            },
+            {
+                "text": "graduation",
+                "relevance": 0.565058,
+                "count": 1
+            },
+            {
+                "text": "parade",
+                "relevance": 0.55815,
+                "count": 1
+            },
+            {
+                "text": "Morse Park",
+                "relevance": 0.535603,
+                "count": 1
+            },
+            {
+                "text": "caps",
+                "relevance": 0.523575,
+                "count": 1
+            },
+            {
+                "text": "social distancing",
+                "relevance": 0.5157,
+                "count": 1
+            },
+            {
+                "text": "graduates of Lake Lure Classical Academy toss",
+                "relevance": 0.437505,
+                "count": 1
+            },
+            {
+                "text": "LLCA",
+                "relevance": 0.394129,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-F",
+    "extracted_metadata": {
+        "sha1": "6a938e956f51665e48075c01af09d8cb7af8c1f5",
+        "filename": "202006050000NEWSBANKNEWSPPRSBE4990CF76E1EA30D8D99B89E37CB1C.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Pomp & Circumstance",
+    "html": "<p>Class of 2020 graduates of <org>Lake Lure Classical Academy</org> toss their caps into the sky following Thursday afternoon's commencement. LLCA opted to keep the traditional date for graduation by practicing social distancing. They were honored with a parade while the graduation ceremony was more like a drive-in style at <location>Morse Park</location>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.nc.fority",
+            "Forest City"
+        ]
+    ]
+}

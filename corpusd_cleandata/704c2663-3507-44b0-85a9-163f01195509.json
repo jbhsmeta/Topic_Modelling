@@ -1,0 +1,302 @@
+{
+    "id": "704c2663-3507-44b0-85a9-163f01195509",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "20786692207932001837",
+    "description": "A patient-reported symptom tracking method used for patients with cancer has now been adapted for patients with COVID-19. The first clinical case series showed that famotidine may help COVID-19 patients with mild to moderately severe symptoms.",
+    "serviceName": "Technology News",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#82#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "A patient-reported symptom tracking method used for patients with cancer has\nnow been adapted for patients with COVID-19. The first clinical case series\nshowed that famotidine may help COVID-19 patients with mild to moderately\nsevere symptoms.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Healthcare",
+            "code": "II/hcare#6#50#63",
+            "level": 0
+        },
+        {
+            "parent": "II/hcare.facility",
+            "relevance_score": "6",
+            "description": "Ambulatory Care Centers",
+            "code": "II/hcare.ambucare#6#63#50",
+            "level": 2
+        },
+        {
+            "parent": "II/hcare",
+            "relevance_score": "6",
+            "description": "Healthcare Facilities",
+            "code": "II/hcare.facility#6#50#63",
+            "level": 1
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050149AMSPIDERTECHNEWS_I6D2F87W_645D8FF557A83B6E31FE576427FF2C32_6.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.444924,
+                    "label": "negative"
+                },
+                "text": "famotidine",
+                "relevance": 0.956634,
+                "type": "Drug"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A patient-reported symptom tracking method"
+                },
+                "sentence": "A patient-reported symptom tracking method used for patients with cancer has",
+                "object": {
+                    "text": "with cancer has"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "used",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "famotidine"
+                },
+                "sentence": " showed that famotidine may help COVID-19 patients with mild to moderately",
+                "object": {
+                    "text": "COVID-19 patients"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "may help",
+                    "normalized": "may help"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.971263,
+                "label": "/health and fitness"
+            },
+            {
+                "score": 0.955969,
+                "label": "/health and fitness/therapy"
+            },
+            {
+                "score": 0.939136,
+                "label": "/health and fitness/disease"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "A patient-reported symptom tracking method used for patients with cancer has now been adapted for patients with COVID-19.",
+                "score": 0.57505,
+                "arguments": [
+                    {
+                        "text": "patient",
+                        "location": [
+                            2,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "patient"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cancer",
+                        "location": [
+                            66,
+                            72
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "cancer"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "A patient-reported symptom tracking method used for patients with cancer has now been adapted for patients with COVID-19.",
+                "score": 0.93628,
+                "arguments": [
+                    {
+                        "text": "patients",
+                        "location": [
+                            52,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "patients"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cancer",
+                        "location": [
+                            66,
+                            72
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "cancer"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "A patient-reported symptom tracking method used for patients with cancer has now been adapted for patients with COVID-19.",
+                "score": 0.632907,
+                "arguments": [
+                    {
+                        "text": "patients",
+                        "location": [
+                            98,
+                            106
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "patients"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cancer",
+                        "location": [
+                            66,
+                            72
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "cancer"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "severe symptoms",
+                "relevance": 0.83073,
+                "count": 1
+            },
+            {
+                "text": "first clinical case series",
+                "relevance": 0.823976,
+                "count": 1
+            },
+            {
+                "text": "patients",
+                "relevance": 0.713416,
+                "count": 2
+            },
+            {
+                "text": "COVID-19 patients",
+                "relevance": 0.674525,
+                "count": 1
+            },
+            {
+                "text": "symptom",
+                "relevance": 0.604552,
+                "count": 1
+            },
+            {
+                "text": "method",
+                "relevance": 0.577516,
+                "count": 1
+            },
+            {
+                "text": "cancer",
+                "relevance": 0.535336,
+                "count": 1
+            },
+            {
+                "text": "famotidine",
+                "relevance": 0.374073,
+                "count": 1
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.33923,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "dd58d93c9c5d463df3e9a290aee860cc242d2fd8",
+        "filename": "202006050149AMSPIDERTECHNEWS_I6D2F87W_645D8FF557A83B6E31FE576427FF2C32_6.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T01:49:00-04:00",
+    "title": "Applying symptom tracking to COVID-19 outpatient care using famotidine [ScienceDaily]",
+    "html": "<p>A patient-reported symptom tracking method used for patients with cancer has now been adapted for patients with COVID-19. The first clinical case series showed that famotidine may help COVID-19 patients with mild to moderately severe symptoms.</p>",
+    "geoFocus": []
+}

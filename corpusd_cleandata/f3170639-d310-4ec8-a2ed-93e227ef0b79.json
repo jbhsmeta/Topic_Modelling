@@ -1,0 +1,326 @@
+{
+    "id": "f3170639-d310-4ec8-a2ed-93e227ef0b79",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "57935032669118489502",
+    "description": "Drywall more info: Location: GERMANY BidDate: 6/ 9/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: City of Dingelstadt Tendering Authority Address: 37351 Dingelstadt Thuringia Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Multipurpose hall Bummi Kindergarten Dingelstadt Lot 12 Fliesen u. Drywall\nmore info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY\nTender Type : Tenders Tendering Authority : City of Dingelstadt Tendering\nAuthority Address : 37351 Dingelstadt Thuringia Financier : Self Funded Tearn\nMoney : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_53668_176212833_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.212387,
+                    "label": "positive"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.958939,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dingelstadt Thuringia Financier",
+                "relevance": 0.659614,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.381312,
+                    "label": "positive"
+                },
+                "text": "Dingelstadt Tendering",
+                "relevance": 0.629796,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.203223,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.465942,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "East Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/East_Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.818062,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.614672,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Multipurpose hall Bummi Kindergarten Dingelstadt Lot 12 Fliesen u.",
+                "score": 0.317403,
+                "arguments": [
+                    {
+                        "text": "Multipurpose hall Bummi Kindergarten Dingelstadt Lot",
+                        "location": [
+                            0,
+                            52
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Multipurpose hall Bummi Kindergarten Dingelstadt Lot"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Fliesen u",
+                        "location": [
+                            56,
+                            65
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Fliesen u"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Drywall more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Dingelstadt Tendering Authority Address : 37351 Dingelstadt Thuringia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.660303,
+                "arguments": [
+                    {
+                        "text": "6/9/2020 Tender",
+                        "location": [
+                            116,
+                            131
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/9/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : City of Dingelstadt Tendering\nAuthority Address :",
+                        "location": [
+                            150,
+                            243
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : City of Dingelstadt Tendering\nAuthority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Drywall more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Dingelstadt Tendering Authority Address : 37351 Dingelstadt Thuringia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.470575,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            272,
+                            281
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Dingelstadt Thuringia",
+                        "location": [
+                            250,
+                            271
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Dingelstadt Thuringia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.984994,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.891849,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.656886,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.588057,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.587773,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.586224,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.565734,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.53301,
+                "count": 1
+            },
+            {
+                "text": "City",
+                "relevance": 0.525113,
+                "count": 1
+            },
+            {
+                "text": "Drywall",
+                "relevance": 0.516587,
+                "count": 1
+            },
+            {
+                "text": "Dingelstadt Thuringia Financier",
+                "relevance": 0.509141,
+                "count": 1
+            },
+            {
+                "text": "Fliesen u",
+                "relevance": 0.36748,
+                "count": 1
+            },
+            {
+                "text": "Multipurpose hall Bummi Kindergarten Dingelstadt Lot",
+                "relevance": 0.352656,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "702626ba3e7775810929b264fdfe53bf2886ee47",
+        "filename": "202006050210ALBA____ME_NA_NE_53668_176212833_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Multipurpose hall Bummi Kindergarten Dingelstadt Lot 12 Fliesen u. Drywall [TenderNews.com - Tenders (India)]",
+    "html": "<p>Multipurpose hall Bummi Kindergarten Dingelstadt Lot 12 Fliesen u. Drywall more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/9/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : City of Dingelstadt\nTendering Authority Address : 37351 Dingelstadt Thuringia\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

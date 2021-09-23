@@ -1,0 +1,393 @@
+{
+    "id": "ad7fcd0e-07c4-4dde-9205-1f6f3ea8e72e",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "26723055515406970700",
+    "description": "Reuters report, citing BOJ sources on the matter Adding that the BOJ's forecasts to be released should reflect the view that the Japanese economy bottomed in April or May, which heightens the chances of the central bank forgoing bold easing measures at the upcoming meeting.",
+    "serviceName": "Financial Blogs",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Economics",
+            "code": "IS/econ#8#50#87",
+            "level": 0
+        },
+        {
+            "parent": "IS/econ",
+            "relevance_score": "8",
+            "description": "Area Economies",
+            "code": "IS/econ.area#8#50#87",
+            "level": 1
+        },
+        {
+            "parent": "IS/econ.area",
+            "relevance_score": "8",
+            "description": "National Economy",
+            "code": "IS/econ.national#8#87#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/econ.policy",
+            "relevance_score": "7",
+            "description": "Monetary Policy",
+            "code": "IS/econ.monetary#7#77#50",
+            "level": 3
+        }
+    ],
+    "text": "Reuters report, citing BOJ sources on the matter Adding that the BOJ's\nforecasts to be released should reflect the view that the Japanese economy\nbottomed in April or May, which heightens the chances of the central bank\nforgoing bold easing measures at the upcoming meeting.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Financial Services and Banking",
+            "code": "II/finserv#9#50#90",
+            "level": 0
+        },
+        {
+            "parent": "II/finserv.lending",
+            "relevance_score": "9",
+            "description": "Banks and Banking",
+            "code": "II/finserv.banking#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": "II/finserv.banking",
+            "relevance_score": "9",
+            "description": "Central Banks",
+            "code": "II/finserv.centbank#9#90#50",
+            "level": 3
+        },
+        {
+            "parent": "II/finserv",
+            "relevance_score": "9",
+            "description": "Lending",
+            "code": "II/finserv.lending#9#50#90",
+            "level": 1
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "BOJ",
+            "BOJ's"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "BOJ's",
+            "BOJ"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050316AMSPIDERBLG_FIN__FOREXL04_C754C6660ABD5021F031F6E9BFCF54A2_1.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "BOJ",
+                "relevance": 0.943617,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Company"
+                    ],
+                    "name": "Bank of Japan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Bank_of_Japan"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "BOJ",
+                "relevance": 0.874896,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Bank of Japan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Bank_of_Japan"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Reuters",
+                "relevance": 0.443744,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Reuters",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Reuters"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Reuters report"
+                },
+                "sentence": "Reuters report, citing BOJ sources on the matter Adding that the BOJ's",
+                "object": {
+                    "text": "BOJ sources on the matter Adding that the BOJ's"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cite",
+                        "tense": "present"
+                    },
+                    "text": "citing",
+                    "normalized": "cite"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the view that the Japanese economy"
+                },
+                "sentence": " forecasts to be released should reflect the view that the Japanese economy",
+                "object": {
+                    "text": "forecasts to be released"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reflect",
+                        "tense": "future"
+                    },
+                    "text": "should reflect",
+                    "normalized": "should reflect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "bold easing measures"
+                },
+                "sentence": " forgoing bold easing measures at the upcoming meeting.",
+                "action": {
+                    "verb": {
+                        "text": "forgo",
+                        "tense": "present"
+                    },
+                    "text": "forgoing",
+                    "normalized": "forgo"
+                }
+            },
+            {
+                "subject": {
+                    "text": "forgoing bold"
+                },
+                "sentence": " forgoing bold easing measures at the upcoming meeting.",
+                "object": {
+                    "text": "measures"
+                },
+                "action": {
+                    "verb": {
+                        "text": "ease",
+                        "tense": "present"
+                    },
+                    "text": "easing",
+                    "normalized": "ease"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.833645,
+                "label": "/finance/bank"
+            },
+            {
+                "score": 0.80053,
+                "label": "/society/work/unemployment"
+            },
+            {
+                "score": 0.732148,
+                "label": "/finance/financial news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Reuters report, citing BOJ sources on the matter Adding that the BOJ's forecasts to be released should reflect the view that the Japanese economy bottomed in April or May, which heightens the chances of the central bank forgoing bold easing measures at the upcoming meeting.",
+                "score": 0.528457,
+                "arguments": [
+                    {
+                        "text": "BOJ",
+                        "location": [
+                            65,
+                            68
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "BOJ"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "released",
+                        "location": [
+                            87,
+                            95
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCustody",
+                                "text": "released"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Reuters report, citing BOJ sources on the matter Adding that the BOJ's forecasts to be released should reflect the view that the Japanese economy bottomed in April or May, which heightens the chances of the central bank forgoing bold easing measures at the upcoming meeting.",
+                "score": 0.727676,
+                "arguments": [
+                    {
+                        "text": "April or May",
+                        "location": [
+                            158,
+                            170
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "April or May"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meeting",
+                        "location": [
+                            266,
+                            273
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meeting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "Reuters report, citing BOJ sources on the matter Adding that the BOJ's forecasts to be released should reflect the view that the Japanese economy bottomed in April or May, which heightens the chances of the central bank forgoing bold easing measures at the upcoming meeting.",
+                "score": 0.441623,
+                "arguments": [
+                    {
+                        "text": "bank",
+                        "location": [
+                            215,
+                            219
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "BOJ"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meeting",
+                        "location": [
+                            266,
+                            273
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meeting"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Reuters report",
+                "relevance": 0.904606,
+                "count": 1
+            },
+            {
+                "text": "Japanese economy",
+                "relevance": 0.68805,
+                "count": 1
+            },
+            {
+                "text": "BOJ sources",
+                "relevance": 0.675678,
+                "count": 1
+            },
+            {
+                "text": "chances of the central bank",
+                "relevance": 0.582473,
+                "count": 1
+            },
+            {
+                "text": "April",
+                "relevance": 0.576092,
+                "count": 1
+            },
+            {
+                "text": "matter",
+                "relevance": 0.538863,
+                "count": 1
+            },
+            {
+                "text": "measures",
+                "relevance": 0.536929,
+                "count": 1
+            },
+            {
+                "text": "view",
+                "relevance": 0.536929,
+                "count": 1
+            },
+            {
+                "text": "upcoming meeting",
+                "relevance": 0.5102,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.372867,
+                "count": 1
+            },
+            {
+                "text": "BOJ",
+                "relevance": 0.346217,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "c9cc84acf96653a4b624e89a0d4f59ea14f16837",
+        "filename": "202006050316AMSPIDERBLG_FIN__FOREXL04_C754C6660ABD5021F031F6E9BFCF54A2_1.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:16:00-04:00",
+    "title": "BOJ likely to maintain view that Japan economy to gradually recover in 2H 2020 - report [ForexLive]",
+    "html": "<p>Reuters report, citing <org>BOJ</org> sources on the matter Adding that the <org>BOJ's</org> forecasts to be released should reflect the view that the Japanese economy bottomed in April or May, which heightens the chances of the central bank forgoing bold easing measures at the upcoming meeting.</p>",
+    "geoFocus": []
+}

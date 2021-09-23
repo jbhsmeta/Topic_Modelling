@@ -1,0 +1,307 @@
+{
+    "id": "ccbb17f7-09bf-41a2-b757-db95c6c871c3",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "71882978663798645347",
+    "description": "TEHRAN\u2013 A horrifying video shows an elderly US protester being shoved to the ground by officers in Buffalo, US state of New York, as they moved in to clear the area after the curfew.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Southern Asia",
+            "code": "LB/sas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sas",
+            "relevance_score": "9",
+            "description": "Iran",
+            "code": "LC/ir#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "TEHRAN (Tasnim) - A horrifying video shows an elderly US protester being\nshoved to the ground by officers in Buffalo, US state of New York, as they\nmoved in to clear the area after the curfew.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#9#50#90",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "9",
+            "description": "Government Services",
+            "code": "II/gov.govserve#9#50#90",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "9",
+            "description": "Police Services",
+            "code": "II/gov.police#9#90#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "9",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#9#50#90",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "TEHRAN",
+            "New York"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050408AMSPIDERNEWS_____TASNIM01_DB0E7D9387C3212CDC0BCC3EC6A2C71F_20.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "US",
+                "relevance": 0.843122,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "TEHRAN",
+                "relevance": 0.58941,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country",
+                        "City"
+                    ],
+                    "name": "Tehran",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Tehran"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.407403,
+                    "label": "negative"
+                },
+                "text": "Buffalo",
+                "relevance": 0.425545,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Buffalo, New York",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Buffalo,_New_York"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "New York",
+                "relevance": 0.384297,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tasnim",
+                "relevance": 0.253905,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "the area"
+                },
+                "sentence": " moved in to clear the area after the curfew.",
+                "action": {
+                    "verb": {
+                        "text": "clear",
+                        "tense": "future"
+                    },
+                    "text": "to clear",
+                    "normalized": "to clear"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.761969,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.730561,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.689602,
+                "label": "/law, govt and politics/government/heads of state"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "TEHRAN (Tasnim) - A horrifying video shows an elderly US protester being shoved to the ground by officers in Buffalo, US state of New York, as they moved in to clear the area after the curfew.",
+                "score": 0.35481,
+                "arguments": [
+                    {
+                        "text": "officers",
+                        "location": [
+                            97,
+                            105
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Buffalo",
+                        "location": [
+                            109,
+                            116
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Buffalo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "horrifying video",
+                "relevance": 0.804026,
+                "count": 1
+            },
+            {
+                "text": "elderly US protester being",
+                "relevance": 0.771432,
+                "count": 1
+            },
+            {
+                "text": "TEHRAN",
+                "relevance": 0.689564,
+                "count": 1
+            },
+            {
+                "text": "US state of New York",
+                "relevance": 0.669431,
+                "count": 1
+            },
+            {
+                "text": "ground",
+                "relevance": 0.598085,
+                "count": 1
+            },
+            {
+                "text": "officers",
+                "relevance": 0.574895,
+                "count": 1
+            },
+            {
+                "text": "Buffalo",
+                "relevance": 0.563699,
+                "count": 1
+            },
+            {
+                "text": "area",
+                "relevance": 0.540563,
+                "count": 1
+            },
+            {
+                "text": "curfew",
+                "relevance": 0.531635,
+                "count": 1
+            },
+            {
+                "text": "Tasnim",
+                "relevance": 0.406852,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "9ec6cd21c0f93b7a6cea548d0da360b78000c09f",
+        "filename": "202006050408AMSPIDERNEWS_____TASNIM01_DB0E7D9387C3212CDC0BCC3EC6A2C71F_20.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:08:00-04:00",
+    "title": "75-Year-Old Protester Shoved, Knocked Unconscious by Buffalo Police (+Video)",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/ir..tehran\">TEHRAN</location> (Tasnim) &#8211; A horrifying video shows an elderly US protester being shoved to the ground by officers in Buffalo, US state of <location idsrc=\"xmltag.org\" value=\"LU/us.ny.nyc\">New York</location>, as they moved in to clear the area after the curfew.</p>",
+    "geoFocus": []
+}

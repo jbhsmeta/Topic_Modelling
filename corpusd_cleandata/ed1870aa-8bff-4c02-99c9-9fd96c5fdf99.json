@@ -1,0 +1,315 @@
+{
+    "id": "ed1870aa-8bff-4c02-99c9-9fd96c5fdf99",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "81869819757229840089",
+    "description": "AWZ On the Scheid roofing of the recycling center more info: Location: GERMANY BidDate: 6/ 9/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Ahrweiler waste management company Tendering Authority Address: 56651 Niederzissen Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#7#50#70",
+            "level": 0
+        }
+    ],
+    "text": "AWZ On the Scheid roofing of the recycling center more info : Location :\nGERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders\nTendering Authority : Ahrweiler waste management company Tendering Authority\nAddress : 56651 Niederzissen Financier : Self Funded Tearn Money : Not\nSpecified",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Environmental and Waste Management",
+            "code": "II/envman#9#66#99",
+            "level": 0
+        },
+        {
+            "parent": "II/envman",
+            "relevance_score": "9",
+            "description": "Waste Management Services",
+            "code": "II/envman.wasteman#9#99#66",
+            "level": 1
+        },
+        {
+            "parent": "II/envman.wasteman",
+            "relevance_score": "6",
+            "description": "Recycling and Materials Recovery",
+            "code": "II/envman.recycle#6#66#50",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_24222_176212529_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.600584,
+                    "label": "negative"
+                },
+                "text": "Tendering Authority",
+                "relevance": 0.990491,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.432415,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.63672,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Scheid",
+                "relevance": 0.584184,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Scheid",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Scheid"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.854812,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "AWZ On the Scheid roofing of the recycling center more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Ahrweiler waste management company Tendering Authority Address : 56651 Niederzissen Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.662506,
+                "arguments": [
+                    {
+                        "text": "6/9/2020 Tender",
+                        "location": [
+                            91,
+                            106
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/9/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders\nTendering Authority : Ahrweiler",
+                        "location": [
+                            125,
+                            178
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders\nTendering Authority : Ahrweiler"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "AWZ On the Scheid roofing of the recycling center more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Ahrweiler waste management company Tendering Authority Address : 56651 Niederzissen Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.443123,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            253,
+                            262
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tendering Authority\nAddress",
+                        "location": [
+                            204,
+                            231
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Tendering Authority\nAddress"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.977173,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.957212,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.665033,
+                "count": 1
+            },
+            {
+                "text": "Ahrweiler waste management company",
+                "relevance": 0.662803,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.614678,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.576196,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.568787,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.517585,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.514505,
+                "count": 1
+            },
+            {
+                "text": "Scheid roofing of the recycling center",
+                "relevance": 0.504154,
+                "count": 1
+            },
+            {
+                "text": "Niederzissen Financier",
+                "relevance": 0.412197,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.343052,
+                "count": 1
+            },
+            {
+                "text": "AWZ",
+                "relevance": 0.247026,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "16d0f5278bc223e0063006f5967bcd3f2784a36d",
+        "filename": "202006050210ALBA____ME_NA_NE_24222_176212529_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "AWZ On the Scheid roofing of the recycling center [TenderNews.com - Tenders (India)]",
+    "html": "<p>AWZ On the Scheid roofing of the recycling center more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/9/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Ahrweiler waste management company\nTendering Authority Address : 56651 Niederzissen\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

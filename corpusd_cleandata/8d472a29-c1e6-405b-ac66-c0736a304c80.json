@@ -1,0 +1,927 @@
+{
+    "id": "8d472a29-c1e6-405b-ac66-c0736a304c80",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 The Denver Post Corp.",
+    "geoOrigin": "Denver, Colorado",
+    "sourceType": "Newspaper",
+    "source": "Denver Post, The",
+    "corpus_document_id": "82561030046476460701",
+    "description": "The woman, who was driving a silver Nissan Titan, appeared to have been driving west on Quincy Avenue near Harvest Street when she crossed the center line and collided with a black Ford F-150 traveling the opposite direction, police say. The two in the Ford suffered minor injuries, according to police. Those who witnessed the accident or may have more information...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#8#50#82",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.trans",
+            "relevance_score": "8",
+            "description": "Land Transportation",
+            "code": "IS/lifesoc.landtran#8#50#82",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc.landtran",
+            "relevance_score": "8",
+            "description": "Road Transport",
+            "code": "IS/lifesoc.roadtran#8#82#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "8",
+            "description": "Transportation",
+            "code": "IS/lifesoc.trans#8#50#82",
+            "level": 1
+        }
+    ],
+    "text": "A woman has died after it appeared she had driven her truck into oncoming\ntraffic and crashed head-on with another vehicle Sunday afternoon, according\nto Aurora police.\n\nThe woman, who was driving a silver Nissan Titan, appeared to have been\ndriving west on Quincy Avenue near Harvest Street when she crossed the center\nline and collided with a black Ford F-150 traveling the opposite direction,\npolice say.\n\nThe woman was transported to a hospital, where she later died from her\ninjuries. The two in the Ford suffered minor injuries, according to police.\n\nThe identity of the driver has not been released. Neither alcohol nor speed\nwere \"contributing factors in this accident,\" according to a release from\nAurora police.\n\nThose who witnessed the accident or may have more information can call\nDetective Doug Daufeldt at 303-739-6303.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Ford"
+        ],
+        "location": [
+            "Quincy Avenue",
+            "Harvest Street"
+        ],
+        "person": [
+            "Nissan Titan",
+            "Doug Daufeldt"
+        ],
+        "companies": [
+            "Ford"
+        ]
+    },
+    "geoOrigin_code": "RU/us.co.denver",
+    "language": "English",
+    "filename": "202005250000NEWSBANKNEWSPPRS48480B9485D69C74739595CF3376513.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Aurora",
+                "relevance": 0.85383,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Nissan Titan",
+                "relevance": 0.645297,
+                "type": "Vehicle",
+                "disambiguation": {
+                    "subtype": [
+                        "Automobile"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Doug Daufeldt",
+                "relevance": 0.542452,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A woman"
+                },
+                "sentence": "A woman has died after it appeared she had driven her truck into oncoming",
+                "action": {
+                    "verb": {
+                        "text": "die",
+                        "tense": "past"
+                    },
+                    "text": "has died",
+                    "normalized": "have die"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": "A woman has died after it appeared she had driven her truck into oncoming",
+                "object": {
+                    "text": "driven her truck into oncoming"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": "A woman has died after it appeared she had driven her truck into oncoming",
+                "object": {
+                    "text": "her truck"
+                },
+                "action": {
+                    "verb": {
+                        "text": "drive",
+                        "tense": "past"
+                    },
+                    "text": "had driven",
+                    "normalized": "have drive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The woman"
+                },
+                "sentence": " The woman, who was driving a silver Nissan Titan, appeared to have been",
+                "object": {
+                    "text": "driving a silver Nissan Titan"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The woman"
+                },
+                "sentence": " The woman, who was driving a silver Nissan Titan, appeared to have been",
+                "object": {
+                    "text": "a silver Nissan Titan"
+                },
+                "action": {
+                    "verb": {
+                        "text": "drive",
+                        "tense": "past"
+                    },
+                    "text": "was driving",
+                    "normalized": "be drive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "west"
+                },
+                "sentence": " driving west on Quincy Avenue near Harvest Street when she crossed the center",
+                "action": {
+                    "verb": {
+                        "text": "drive",
+                        "tense": "present"
+                    },
+                    "text": "driving",
+                    "normalized": "drive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": " driving west on Quincy Avenue near Harvest Street when she crossed the center",
+                "object": {
+                    "text": "the center"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cross",
+                        "tense": "past"
+                    },
+                    "text": "crossed",
+                    "normalized": "cross"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a black Ford F-150"
+                },
+                "sentence": " line and collided with a black Ford F-150 traveling the opposite direction,",
+                "object": {
+                    "text": "the opposite direction"
+                },
+                "action": {
+                    "verb": {
+                        "text": "travel",
+                        "tense": "present"
+                    },
+                    "text": "traveling",
+                    "normalized": "travel"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The woman"
+                },
+                "sentence": " The woman was transported to a hospital, where she later died from her",
+                "object": {
+                    "text": "transported to a hospital, where she later died from her"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": " The woman was transported to a hospital, where she later died from her",
+                "object": {
+                    "text": "from her"
+                },
+                "action": {
+                    "verb": {
+                        "text": "die",
+                        "tense": "past"
+                    },
+                    "text": "died",
+                    "normalized": "die"
+                }
+            },
+            {
+                "subject": {
+                    "text": "injuries. The two in the Ford"
+                },
+                "sentence": " injuries. The two in the Ford suffered minor injuries, according to police.",
+                "object": {
+                    "text": "minor injuries"
+                },
+                "action": {
+                    "verb": {
+                        "text": "suffer",
+                        "tense": "past"
+                    },
+                    "text": "suffered",
+                    "normalized": "suffer"
+                }
+            },
+            {
+                "subject": {
+                    "text": "injuries. The two in the Ford suffered minor injuries"
+                },
+                "sentence": " injuries. The two in the Ford suffered minor injuries, according to police.",
+                "object": {
+                    "text": "to police"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The identity of the driver"
+                },
+                "sentence": " The identity of the driver has not been released.",
+                "object": {
+                    "text": "not been released"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "factors"
+                },
+                "sentence": " were \"contributing factors in this accident,\" according to a release from",
+                "object": {
+                    "text": "in this accident"
+                },
+                "action": {
+                    "verb": {
+                        "text": "contribute",
+                        "tense": "past"
+                    },
+                    "text": "contributing",
+                    "normalized": "contribute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Those"
+                },
+                "sentence": " Those who witnessed the accident or may have more information can call",
+                "object": {
+                    "text": "the accident"
+                },
+                "action": {
+                    "verb": {
+                        "text": "witness",
+                        "tense": "past"
+                    },
+                    "text": "witnessed",
+                    "normalized": "witness"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Those who witnessed the accident or may"
+                },
+                "sentence": " Those who witnessed the accident or may have more information can call",
+                "object": {
+                    "text": "more information can call"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "future"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Those"
+                },
+                "sentence": " Those who witnessed the accident or may have more information can call",
+                "object": {
+                    "text": "more information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "future"
+                    },
+                    "text": "can call",
+                    "normalized": "can call"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.966371,
+                "label": "/automotive and vehicles/vehicle brands/nissan"
+            },
+            {
+                "score": 0.855258,
+                "label": "/automotive and vehicles/auto parts"
+            },
+            {
+                "score": 0.81195,
+                "label": "/automotive and vehicles/cars/car culture"
+            }
+        ],
+        "relations": [
+            {
+                "type": "ownerOf",
+                "sentence": "A woman has died after it appeared she had driven her truck into oncoming traffic and crashed head-on with another vehicle Sunday afternoon, according to Aurora police.",
+                "score": 0.74253,
+                "arguments": [
+                    {
+                        "text": "her",
+                        "location": [
+                            50,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "woman"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "truck",
+                        "location": [
+                            54,
+                            59
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "vehicle"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The two in the Ford suffered minor injuries, according to police.",
+                "score": 0.291686,
+                "arguments": [
+                    {
+                        "text": "two",
+                        "location": [
+                            494,
+                            497
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "two"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Ford",
+                        "location": [
+                            505,
+                            509
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Ford",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Those who witnessed the accident or may have more information can call Detective Doug Daufeldt at 303-739-6303.",
+                "score": 0.640534,
+                "arguments": [
+                    {
+                        "text": "Doug Daufeldt",
+                        "location": [
+                            804,
+                            817
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Doug Daufeldt"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "303-739-6303",
+                        "location": [
+                            821,
+                            833
+                        ],
+                        "entities": [
+                            {
+                                "type": "Phone",
+                                "text": "303-739-6303"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "A woman has died after it appeared she had driven her truck into oncoming traffic and crashed head-on with another vehicle Sunday afternoon, according to Aurora police.",
+                "score": 0.689162,
+                "arguments": [
+                    {
+                        "text": "truck",
+                        "location": [
+                            54,
+                            59
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "vehicle"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "crashed",
+                        "location": [
+                            86,
+                            93
+                        ],
+                        "entities": [
+                            {
+                                "type": "NaturalDisaster",
+                                "text": "accident"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "A woman has died after it appeared she had driven her truck into oncoming traffic and crashed head-on with another vehicle Sunday afternoon, according to Aurora police.",
+                "score": 0.843843,
+                "arguments": [
+                    {
+                        "text": "head-on",
+                        "location": [
+                            94,
+                            101
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "head-on"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "crashed",
+                        "location": [
+                            86,
+                            93
+                        ],
+                        "entities": [
+                            {
+                                "type": "NaturalDisaster",
+                                "text": "accident"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "A woman has died after it appeared she had driven her truck into oncoming traffic and crashed head-on with another vehicle Sunday afternoon, according to Aurora police.",
+                "score": 0.901393,
+                "arguments": [
+                    {
+                        "text": "Sunday afternoon",
+                        "location": [
+                            123,
+                            139
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "Sunday afternoon"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "crashed",
+                        "location": [
+                            86,
+                            93
+                        ],
+                        "entities": [
+                            {
+                                "type": "NaturalDisaster",
+                                "text": "accident"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "A woman has died after it appeared she had driven her truck into oncoming traffic and crashed head-on with another vehicle Sunday afternoon, according to Aurora police.",
+                "score": 0.677507,
+                "arguments": [
+                    {
+                        "text": "head-on",
+                        "location": [
+                            94,
+                            101
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "head-on"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "vehicle",
+                        "location": [
+                            115,
+                            122
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "vehicle"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The woman, who was driving a silver Nissan Titan, appeared to have been driving west on Quincy Avenue near Harvest Street when she crossed the center line and collided with a black Ford F-150 traveling the opposite direction, police say.",
+                "score": 0.593142,
+                "arguments": [
+                    {
+                        "text": "Nissan Titan",
+                        "location": [
+                            206,
+                            218
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Nissan Titan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quincy Avenue",
+                        "location": [
+                            258,
+                            271
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Quincy Avenue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The woman, who was driving a silver Nissan Titan, appeared to have been driving west on Quincy Avenue near Harvest Street when she crossed the center line and collided with a black Ford F-150 traveling the opposite direction, police say.",
+                "score": 0.708753,
+                "arguments": [
+                    {
+                        "text": "Quincy Avenue",
+                        "location": [
+                            258,
+                            271
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Quincy Avenue"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Harvest Street",
+                        "location": [
+                            277,
+                            291
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Harvest Street"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The woman, who was driving a silver Nissan Titan, appeared to have been driving west on Quincy Avenue near Harvest Street when she crossed the center line and collided with a black Ford F-150 traveling the opposite direction, police say.",
+                "score": 0.983711,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            396,
+                            402
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            403,
+                            406
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The woman was transported to a hospital, where she later died from her injuries.",
+                "score": 0.688146,
+                "arguments": [
+                    {
+                        "text": "woman",
+                        "location": [
+                            413,
+                            418
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "woman"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hospital",
+                        "location": [
+                            440,
+                            448
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospital",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "black Ford F-150",
+                "relevance": 0.767818,
+                "count": 1
+            },
+            {
+                "text": "woman",
+                "relevance": 0.623189,
+                "count": 3
+            },
+            {
+                "text": "Quincy Avenue",
+                "relevance": 0.619954,
+                "count": 1
+            },
+            {
+                "text": "minor injuries",
+                "relevance": 0.607612,
+                "count": 1
+            },
+            {
+                "text": "silver Nissan Titan",
+                "relevance": 0.588115,
+                "count": 1
+            },
+            {
+                "text": "opposite direction",
+                "relevance": 0.586215,
+                "count": 1
+            },
+            {
+                "text": "Detective Doug Daufeldt",
+                "relevance": 0.585409,
+                "count": 1
+            },
+            {
+                "text": "vehicle Sunday afternoon",
+                "relevance": 0.555564,
+                "count": 1
+            },
+            {
+                "text": "identity of the driver",
+                "relevance": 0.544125,
+                "count": 1
+            },
+            {
+                "text": "Aurora police",
+                "relevance": 0.54391,
+                "count": 2
+            },
+            {
+                "text": "Harvest Street",
+                "relevance": 0.539157,
+                "count": 1
+            },
+            {
+                "text": "accident",
+                "relevance": 0.533203,
+                "count": 2
+            },
+            {
+                "text": "Ford",
+                "relevance": 0.531793,
+                "count": 1
+            },
+            {
+                "text": "head",
+                "relevance": 0.525329,
+                "count": 1
+            },
+            {
+                "text": "factors",
+                "relevance": 0.523943,
+                "count": 1
+            },
+            {
+                "text": "alcohol",
+                "relevance": 0.520489,
+                "count": 1
+            },
+            {
+                "text": "hospital",
+                "relevance": 0.519634,
+                "count": 1
+            },
+            {
+                "text": "injuries",
+                "relevance": 0.51587,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.513433,
+                "count": 1
+            },
+            {
+                "text": "truck",
+                "relevance": 0.513433,
+                "count": 1
+            },
+            {
+                "text": "release",
+                "relevance": 0.51108,
+                "count": 1
+            },
+            {
+                "text": "speed",
+                "relevance": 0.51108,
+                "count": 1
+            },
+            {
+                "text": "police",
+                "relevance": 0.510249,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "96a682dd78b25ef1f38656ab7e10e260897b90c4",
+        "filename": "202005250000NEWSBANKNEWSPPRS48480B9485D69C74739595CF3376513.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NYSE|F|CUSIP:345370860;ISIN:US3453708600|Ford Motor Company|extractor|DUNS:001344746;NECOID:9928;ACORN:1618886577|MENTION||||XNYS|REFERENCE",
+    "publicationTime": "2020-05-25T00:00:00-04:00",
+    "title": "Woman dies in head-on car crash in Aurora",
+    "html": "<p>A woman has died after it appeared she had driven her truck into oncoming traffic and crashed head-on with another vehicle Sunday afternoon, according to Aurora police.</p>\n<p>The woman, who was driving a silver <person>Nissan Titan</person>, appeared to have been driving west on <location>Quincy Avenue</location> near <location>Harvest Street</location> when she crossed the center line and collided with a black Ford F-150 traveling the opposite direction, police say.</p>\n\n<p>The woman was transported to a hospital, where she later died from her injuries. The two in the <org idsrc=\"xmltag.org\" value=\"NYSE:F\">Ford</org> suffered minor injuries, according to police.</p>\n\n<p>The identity of the driver has not been released. Neither alcohol nor speed were \"contributing factors in this accident,\" according to a release from Aurora police.</p>\n\n<p>Those who witnessed the accident or may have more information can call Detective <person>Doug Daufeldt</person> at 303-739-6303.</p>",
+    "geoFocus": [
+        [
+            "GS/us.co",
+            "Colorado"
+        ],
+        [
+            "GU/us.co.denver",
+            "Denver"
+        ]
+    ]
+}

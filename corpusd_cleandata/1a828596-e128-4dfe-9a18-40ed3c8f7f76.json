@@ -1,0 +1,193 @@
+{
+    "id": "1a828596-e128-4dfe-9a18-40ed3c8f7f76",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "33200661409485923941",
+    "description": "Harry Potter fans and roller coaster lovers are streaming back into Universal Orlando Resort this week MedWorm Message: Have you tried our new medical search engine? Log on with your social media account. 100% free.",
+    "serviceName": "Health Pharma News",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "Harry Potter fans and roller coaster lovers are streaming back into Universal\nOrlando Resort this week (Source: ABC News: Health) MedWorm Message: Have you\ntried our new medical search engine ? More powerful than before. Log on with\nyour social media account. 100% free.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Sports and Recreation",
+            "code": "II/sports#7#50#72",
+            "level": 0
+        },
+        {
+            "parent": "II/sports",
+            "relevance_score": "7",
+            "description": "Recreational Facilities",
+            "code": "II/sports.rec#7#50#72",
+            "level": 1
+        },
+        {
+            "parent": "II/sports.rec",
+            "relevance_score": "7",
+            "description": "Theme Parks",
+            "code": "II/sports.thpark#7#72#50",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Arts and Entertainment",
+            "code": "II/are#6#50#69",
+            "level": 0
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "ABC News"
+        ],
+        "location": [
+            "Universal Orlando Resort"
+        ],
+        "person": [
+            "Harry Potter"
+        ],
+        "companies": [
+            "ABC News"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050127AMSPIDERHEPHNEWS_MEDWRM04_C8EFCFAF8EBB8C14BA285DA1E9CA991F_170.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.954034,
+                    "label": "positive"
+                },
+                "text": "Harry Potter",
+                "relevance": 0.921981,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.381706,
+                    "label": "positive"
+                },
+                "text": "Orlando Resort",
+                "relevance": 0.857296,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "100%",
+                "relevance": 0.530157,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Harry Potter fans and roller coaster lovers"
+                },
+                "sentence": "Harry Potter fans and roller coaster lovers are streaming back into Universal",
+                "object": {
+                    "text": "streaming back into Universal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.959809,
+                "label": "/technology and computing/internet technology/web search"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "Harry Potter fans",
+                "relevance": 0.919809,
+                "count": 1
+            },
+            {
+                "text": "ABC News",
+                "relevance": 0.604188,
+                "count": 1
+            },
+            {
+                "text": "roller coaster lovers",
+                "relevance": 0.59567,
+                "count": 1
+            },
+            {
+                "text": "social media account",
+                "relevance": 0.595107,
+                "count": 1
+            },
+            {
+                "text": "new medical search engine",
+                "relevance": 0.591847,
+                "count": 1
+            },
+            {
+                "text": "week",
+                "relevance": 0.59087,
+                "count": 1
+            },
+            {
+                "text": "Source",
+                "relevance": 0.569442,
+                "count": 1
+            },
+            {
+                "text": "Health",
+                "relevance": 0.543868,
+                "count": 1
+            },
+            {
+                "text": "MedWorm Message",
+                "relevance": 0.441904,
+                "count": 1
+            },
+            {
+                "text": "Universal",
+                "relevance": 0.254433,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "6e6cb3d4f74d8a421506397acd0666e6ec1df598",
+        "filename": "202006050127AMSPIDERHEPHNEWS_MEDWRM04_C8EFCFAF8EBB8C14BA285DA1E9CA991F_170.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T01:27:00-04:00",
+    "title": "Universal takes first steps reviving Orlando theme park biz [MedWorm News]",
+    "html": "<p><person>Harry Potter</person> fans and roller coaster lovers are streaming back into <location>Universal Orlando Resort</location> this week (Source: <org>ABC News</org>: Health) MedWorm Message: Have you tried our new medical search engine ? More powerful than before. Log on with your social media account. 100% free.</p>",
+    "geoFocus": []
+}

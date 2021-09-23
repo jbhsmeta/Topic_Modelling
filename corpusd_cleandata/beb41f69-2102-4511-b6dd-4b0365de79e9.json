@@ -1,0 +1,873 @@
+{
+    "id": "beb41f69-2102-4511-b6dd-4b0365de79e9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, The Pilot LLC, All Rights Reserved.",
+    "geoOrigin": "Southern Pines, North Carolina",
+    "sourceType": "Newspaper",
+    "source": "Pilot, The (Southern Pines, NC)",
+    "corpus_document_id": "82639014605628640921",
+    "description": "The North Carolina Department of Health and Human Services was reporting the following laboratory-confirmed cases of COVID-19 in Moore County ZIP codes as of June 11, 2020. Note that several local ZIP codes are shared by multiple counties, so the sum of the numbers below does not represent the total number of cases for Moore County. The Pilot has organized the...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#70#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "The North Carolina Department of Health and Human Services was reporting the\nfollowing laboratory-confirmed cases of COVID-19 in Moore County ZIP codes as\nof June 11, 2020.\n\nNote that several local ZIP codes are shared by multiple counties, so the sum\nof the numbers below does not represent the total number of cases for Moore\nCounty. The Pilot has organized the data to first show ZIP codes primarily\nlocated in Moore County, followed by ZIP codes that include Moore but are\nprimarily based in different counties.\n\nThe primary municipality for each ZIP code is listed, while the accompanying\nmaps show the actual area covered by a particular ZIP code.\n\nSome cases may be reassigned to a different ZIP code by NCDHHS after an\ninfected individual's residence has been verified. Because the agency does not\nreport data for ZIP codes with fewer than 500 residents and less than five\ncases, the Lakeview community, population 305, is not included here.\n\nZIP Codes Primarily Located in Moore County\n\n28374 (Pinehurst):\n\n86 Cases; Five Deaths\n\n27325 (Robbins):\n\n44 Cases; No Deaths\n\n28315 (Aberdeen):\n\n40 Cases: One Death\n\n28327 (Carthage):\n\n29 Cases; No Deaths\n\n28387 (Southern Pines):\n\n22 Cases; Two Deaths\n\n27376 (West End):\n\n17 Cases; One Death\n\n27281 (Jackson Springs):\n\n16 Cases; No Deaths\n\n28394 (Vass):\n\nEight Cases; No Deaths\n\n28373 (Pinebluff):\n\nSix Cases; No Deaths\n\n27242 (Eagle Springs):\n\nTwo Cases; No Deaths\n\nZIP Codes Partially Located in Moore County\n\n27209 (Biscoe):\n\n61 Cases; Two Deaths\n\n28326 (Cameron):\n\n40 Cases; One Death\n\n27356 (Star):\n\n26 Cases; One Death\n\n27341 (Seagrove):\n\n16 Cases; No Deaths\n\n28347 (Hoffman):\n\nFour Cases; No Deaths",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "North Carolina Department of Health and Human Services"
+        ],
+        "location": [
+            "West End",
+            "Jackson Springs",
+            "Eagle Springs"
+        ],
+        "person": [],
+        "companies": [
+            "North Carolina Department of Health and Human Services"
+        ]
+    },
+    "geoOrigin_code": "RU/us.nc.sounes",
+    "language": "English",
+    "filename": "202006080000NEWSBANKNEWSPPRS5DC0F2ADF2A0B6F7346E9747C0D6608.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Moore County",
+                "relevance": 0.831982,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Moore County, North Carolina",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Moore_County,_North_Carolina"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Moore",
+                "relevance": 0.415351,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "North Carolina Department of Health and Human Services",
+                "relevance": 0.313708,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentAgency"
+                    ],
+                    "name": "North Carolina Department of Health and Human Services",
+                    "dbpedia_resource": "http://dbpedia.org/resource/North_Carolina_Department_of_Health_and_Human_Services"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Southern Pines",
+                "relevance": 0.251018,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Southern Pines, North Carolina",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Southern_Pines,_North_Carolina"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jackson Springs",
+                "relevance": 0.244719,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.392613,
+                    "label": "positive"
+                },
+                "text": "Aberdeen",
+                "relevance": 0.243104,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "ScottishCouncilArea",
+                        "City"
+                    ],
+                    "name": "Aberdeen",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Aberdeen"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Eagle Springs",
+                "relevance": 0.241749,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.306964,
+                    "label": "negative"
+                },
+                "text": "NCDHHS",
+                "relevance": 0.240004,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.395423,
+                    "label": "negative"
+                },
+                "text": "Robbins",
+                "relevance": 0.229606,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.585471,
+                    "label": "positive"
+                },
+                "text": "Hoffman",
+                "relevance": 0.22835,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Carthage",
+                "relevance": 0.228229,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.601468,
+                    "label": "positive"
+                },
+                "text": "County.",
+                "relevance": 0.218254,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.364319,
+                    "label": "negative"
+                },
+                "text": "Cameron",
+                "relevance": 0.212432,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "several local ZIP codes"
+                },
+                "sentence": " Note that several local ZIP codes are shared by multiple counties, so the sum",
+                "object": {
+                    "text": "shared by multiple counties"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by multiple counties"
+                },
+                "sentence": " Note that several local ZIP codes are shared by multiple counties, so the sum",
+                "object": {
+                    "text": "several local ZIP codes"
+                },
+                "action": {
+                    "verb": {
+                        "text": "share",
+                        "tense": "past"
+                    },
+                    "text": "are shared",
+                    "normalized": "be share"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the numbers below"
+                },
+                "sentence": " of the numbers below does not represent the total number of cases for Moore",
+                "object": {
+                    "text": "not represent the total number of cases for Moore"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "does",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "of the numbers below"
+                },
+                "sentence": " of the numbers below does not represent the total number of cases for Moore",
+                "object": {
+                    "text": "the total number of cases for Moore"
+                },
+                "action": {
+                    "verb": {
+                        "text": "represent",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "represent",
+                    "normalized": "represent"
+                }
+            },
+            {
+                "subject": {
+                    "text": "County. The Pilot"
+                },
+                "sentence": " County. The Pilot has organized the data to first show ZIP codes primarily",
+                "object": {
+                    "text": "organized the data to first show ZIP codes"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Pilot"
+                },
+                "sentence": " County. The Pilot has organized the data to first show ZIP codes primarily",
+                "object": {
+                    "text": "the data"
+                },
+                "action": {
+                    "verb": {
+                        "text": "organize",
+                        "tense": "past"
+                    },
+                    "text": "has organized",
+                    "normalized": "have organize"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Moore"
+                },
+                "sentence": " located in Moore County, followed by ZIP codes that include Moore but are",
+                "object": {
+                    "text": "ZIP codes"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "include",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "maps"
+                },
+                "sentence": " maps show the actual area covered by a particular ZIP code.",
+                "object": {
+                    "text": "the actual area covered by a particular ZIP code"
+                },
+                "action": {
+                    "verb": {
+                        "text": "show",
+                        "tense": "present"
+                    },
+                    "text": "show",
+                    "normalized": "show"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Some cases"
+                },
+                "sentence": " Some cases may be reassigned to a different ZIP code by NCDHHS after an",
+                "object": {
+                    "text": "to a different ZIP code by NCDHHS"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reassign",
+                        "tense": "future"
+                    },
+                    "text": "may be reassigned",
+                    "normalized": "may be reassign"
+                }
+            },
+            {
+                "subject": {
+                    "text": "infected individual's residence"
+                },
+                "sentence": " infected individual's residence has been verified.",
+                "object": {
+                    "text": "verified"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cases, the Lakeview community, population 305,"
+                },
+                "sentence": " cases, the Lakeview community, population 305, is not included here.",
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "included",
+                    "normalized": "include"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.72293,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.717933,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.614396,
+                "label": "/science/weather"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "The North Carolina Department of Health and Human Services was reporting the following laboratory-confirmed cases of COVID-19 in Moore County ZIP codes as of June 11, 2020.",
+                "score": 0.864942,
+                "arguments": [
+                    {
+                        "text": "North Carolina Department of Health and Human Services",
+                        "location": [
+                            4,
+                            58
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "North Carolina Department of Health and Human Services"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reporting",
+                        "location": [
+                            63,
+                            72
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reporting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "Some cases may be reassigned to a different ZIP code by NCDHHS after an infected individual's residence has been verified.",
+                "score": 0.692672,
+                "arguments": [
+                    {
+                        "text": "individual",
+                        "location": [
+                            736,
+                            746
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "individual"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "residence",
+                        "location": [
+                            749,
+                            758
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "residence"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Because the agency does not report data for ZIP codes with fewer than 500 residents and less than five cases, the Lakeview community, population 305, is not included here.",
+                "score": 0.902857,
+                "arguments": [
+                    {
+                        "text": "fewer than",
+                        "location": [
+                            837,
+                            847
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "fewer than"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "residents",
+                        "location": [
+                            852,
+                            861
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "residents"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "ZIP Codes Primarily Located in Moore County",
+                "score": 0.740104,
+                "arguments": [
+                    {
+                        "text": "ZIP Codes Primarily Located",
+                        "location": [
+                            951,
+                            978
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "ZIP Codes Partially Located",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Moore County",
+                        "location": [
+                            982,
+                            994
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Moore County ZIP"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "ZIP Codes Partially Located in Moore County",
+                "score": 0.749238,
+                "arguments": [
+                    {
+                        "text": "ZIP Codes Partially Located",
+                        "location": [
+                            1419,
+                            1446
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "ZIP Codes Partially Located",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Moore County",
+                        "location": [
+                            1450,
+                            1462
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Moore County ZIP"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "total number of cases",
+                "relevance": 0.881072,
+                "count": 1
+            },
+            {
+                "text": "Moore County ZIP codes",
+                "relevance": 0.786783,
+                "count": 1
+            },
+            {
+                "text": "cases of COVID-19",
+                "relevance": 0.701012,
+                "count": 1
+            },
+            {
+                "text": "following laboratory",
+                "relevance": 0.693567,
+                "count": 1
+            },
+            {
+                "text": "North Carolina Department of Health",
+                "relevance": 0.682087,
+                "count": 1
+            },
+            {
+                "text": "numbers",
+                "relevance": 0.673517,
+                "count": 1
+            },
+            {
+                "text": "ZIP codes",
+                "relevance": 0.612424,
+                "count": 4
+            },
+            {
+                "text": "actual area",
+                "relevance": 0.605864,
+                "count": 1
+            },
+            {
+                "text": "local ZIP codes",
+                "relevance": 0.605605,
+                "count": 1
+            },
+            {
+                "text": "Human Services",
+                "relevance": 0.57921,
+                "count": 1
+            },
+            {
+                "text": "different counties",
+                "relevance": 0.5693,
+                "count": 1
+            },
+            {
+                "text": "ZIP code",
+                "relevance": 0.568199,
+                "count": 1
+            },
+            {
+                "text": "primary municipality",
+                "relevance": 0.546904,
+                "count": 1
+            },
+            {
+                "text": "Pilot",
+                "relevance": 0.536914,
+                "count": 1
+            },
+            {
+                "text": "report data",
+                "relevance": 0.524398,
+                "count": 1
+            },
+            {
+                "text": "data",
+                "relevance": 0.521174,
+                "count": 1
+            },
+            {
+                "text": "cases",
+                "relevance": 0.518935,
+                "count": 17
+            },
+            {
+                "text": "Moore County",
+                "relevance": 0.514589,
+                "count": 3
+            },
+            {
+                "text": "counties",
+                "relevance": 0.514363,
+                "count": 1
+            },
+            {
+                "text": "agency",
+                "relevance": 0.511968,
+                "count": 1
+            },
+            {
+                "text": "Moore",
+                "relevance": 0.510468,
+                "count": 1
+            },
+            {
+                "text": "residence",
+                "relevance": 0.508303,
+                "count": 1
+            },
+            {
+                "text": "residents",
+                "relevance": 0.507845,
+                "count": 1
+            },
+            {
+                "text": "population",
+                "relevance": 0.507307,
+                "count": 1
+            },
+            {
+                "text": "Cameron",
+                "relevance": 0.50647,
+                "count": 1
+            },
+            {
+                "text": "sum",
+                "relevance": 0.50647,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.50647,
+                "count": 1
+            },
+            {
+                "text": "Hoffman",
+                "relevance": 0.50647,
+                "count": 1
+            },
+            {
+                "text": "Star",
+                "relevance": 0.50647,
+                "count": 1
+            },
+            {
+                "text": "Deaths",
+                "relevance": 0.50647,
+                "count": 10
+            },
+            {
+                "text": "Carthage",
+                "relevance": 0.50647,
+                "count": 1
+            },
+            {
+                "text": "Aberdeen",
+                "relevance": 0.50647,
+                "count": 1
+            },
+            {
+                "text": "Robbins",
+                "relevance": 0.50647,
+                "count": 1
+            },
+            {
+                "text": "Lakeview community",
+                "relevance": 0.50425,
+                "count": 1
+            },
+            {
+                "text": "Death",
+                "relevance": 0.502157,
+                "count": 4
+            },
+            {
+                "text": "particular ZIP code",
+                "relevance": 0.496524,
+                "count": 1
+            },
+            {
+                "text": "West End",
+                "relevance": 0.49066,
+                "count": 1
+            },
+            {
+                "text": "Southern Pines",
+                "relevance": 0.49066,
+                "count": 1
+            },
+            {
+                "text": "different ZIP code",
+                "relevance": 0.480048,
+                "count": 1
+            },
+            {
+                "text": "Jackson Springs",
+                "relevance": 0.478956,
+                "count": 1
+            },
+            {
+                "text": "Eagle Springs",
+                "relevance": 0.471511,
+                "count": 1
+            },
+            {
+                "text": "NCDHHS",
+                "relevance": 0.429564,
+                "count": 1
+            },
+            {
+                "text": "Seagrove",
+                "relevance": 0.429564,
+                "count": 1
+            },
+            {
+                "text": "Biscoe",
+                "relevance": 0.429564,
+                "count": 1
+            },
+            {
+                "text": "Pinebluff",
+                "relevance": 0.429564,
+                "count": 1
+            },
+            {
+                "text": "Vass",
+                "relevance": 0.429564,
+                "count": 1
+            },
+            {
+                "text": "Pinehurst",
+                "relevance": 0.429564,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "4c64100b1b828442bad6532006c6c6bb4df14db6",
+        "filename": "202006080000NEWSBANKNEWSPPRS5DC0F2ADF2A0B6F7346E9747C0D6608.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||North Carolina Department of Health & Human Services|extractor|DUNS:809785363;NECOID:2030960406;ACORN:4156444037;UDUNS:003459047;UACORN:0102586490|MENTION||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-08T00:00:00-04:00",
+    "title": "Where the Coronavirus Has Spread in Moore County",
+    "html": "<p>The <org idsrc=\"xmltag.org\" value=\"ACORN:4156444037\">North Carolina Department of Health and Human Services</org> was reporting the following laboratory-confirmed cases of COVID-19 in Moore County ZIP codes as of <chron>June 11, 2020</chron>.</p>\n<p>Note that several local ZIP codes are shared by multiple counties, so the sum of the numbers below does not represent the total number of cases for Moore County. The Pilot has organized the data to first show ZIP codes primarily located in Moore County, followed by ZIP codes that include Moore but are primarily based in different counties.</p>\n\n<p>The primary municipality for each ZIP code is listed, while the accompanying maps show the actual area covered by a particular ZIP code.</p>\n\n<p>Some cases may be reassigned to a different ZIP code by NCDHHS after an infected individual's residence has been verified. Because the agency does not report data for ZIP codes with fewer than 500 residents and less than five cases, the Lakeview community, population 305, is not included here.</p>\n\n<p>ZIP Codes Primarily Located in Moore County</p>\n\n<p>28374 (Pinehurst):</p>\n\n<p>86 Cases; Five Deaths</p>\n\n<p>27325 (Robbins):</p>\n\n<p>44 Cases; No Deaths</p>\n\n<p>28315 (Aberdeen):</p>\n\n<p>40 Cases: One Death</p>\n\n<p>28327 (Carthage):</p>\n\n<p>29 Cases; No Deaths</p>\n\n<p>28387 (Southern Pines):</p>\n\n<p>22 Cases; Two Deaths</p>\n\n<p>27376 (<location>West End</location>):</p>\n\n<p>17 Cases; One Death</p>\n\n<p>27281 (<location>Jackson Springs</location>):</p>\n\n<p>16 Cases; No Deaths</p>\n\n<p>28394 (Vass):</p>\n\n<p>Eight Cases; No Deaths</p>\n\n<p>28373 (Pinebluff):</p>\n\n<p>Six Cases; No Deaths</p>\n\n<p>27242 (<location>Eagle Springs</location>):</p>\n\n<p>Two Cases; No Deaths</p>\n\n<p>ZIP Codes Partially Located in Moore County</p>\n\n<p>27209 (Biscoe):</p>\n\n<p>61 Cases; Two Deaths</p>\n\n<p>28326 (Cameron):</p>\n\n<p>40 Cases; One Death</p>\n\n<p>27356 (Star):</p>\n\n<p>26 Cases; One Death</p>\n\n<p>27341 (Seagrove):</p>\n\n<p>16 Cases; No Deaths</p>\n\n<p>28347 (Hoffman):</p>\n\n<p>Four Cases; No Deaths</p>",
+    "geoFocus": [
+        [
+            "GU/us.nc.sounes",
+            "Southern Pines"
+        ]
+    ]
+}

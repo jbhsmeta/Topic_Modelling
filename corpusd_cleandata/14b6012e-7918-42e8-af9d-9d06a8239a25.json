@@ -1,0 +1,682 @@
+{
+    "id": "14b6012e-7918-42e8-af9d-9d06a8239a25",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "COPYRIGHT 2020 Thomas Crosbie Media",
+    "geoOrigin": "Cork, Ireland",
+    "sourceType": "Newspaper",
+    "source": "breakingNEWS.ie (Ireland)",
+    "corpus_document_id": "86865540170096192595",
+    "description": "There was a 6% increase in serious incidents within the HSE last year, with most resulting in a patient's death or serious harm. The details have been released under the Freedom of Information Act. Dr Mary Tumelty, a lecturer UCC's school of law, said: \"The numbers highlight that systems need to be made better.",
+    "serviceName": "Gale All",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.law",
+            "relevance_score": "7",
+            "description": "Media Law",
+            "code": "IS/gov.media#7#73#50",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Politics and Government",
+            "code": "IS/pol#7#50#73",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "7",
+            "description": "Law",
+            "code": "IS/pol.law#7#50#73",
+            "level": 1
+        }
+    ],
+    "text": "There was a 6% increase in serious incidents within the HSE last year, with\nmost resulting in a patient's death or serious harm.\n\nThe details have been released under the Freedom of Information Act.\n\nSome 'serious reportable events' are largely preventable patient-safety\nincidents.\n\nOthers might not have been preventable, such as a patient falling, but need to\nbe examined to see if safety could be improved.\n\nThere were 636 serious reportable events within the HSE in 2018, rising to 675\nlast year.\n\nIn 2019, 286 were 'care-management events', which include a patient's death\ndue to a medication or diagnostic error, or a maternal death that was the\nhospital's fault.\n\n336 were 'environmental events'. These all involved a patient falling and\ndying or getting seriously injured as a result.\n\n23 were 'criminal events', which include sexual assaults or serious physical\nattacks.\n\nDr Mary Tumelty, a lecturer UCC's school of law, said: \"The numbers highlight\nthat systems need to be made better. Where serious reportable offences occur\noften the human cost on the patients and their families is incalculable.\n\n\"It's essential that safety incidents are reported and investigated and\nlessons are learned.\"\n\nThe HSE says the health service has millions of interactions with patients and\nservice-users every year, and there is often excellent care, but it says\nadverse events and patient harm can and do occur.\n\n[readmore]1003286[/readmore]",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Mary Tumelty"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/ie..cork",
+    "language": "English",
+    "filename": "202006040000GALE____PUB_ALL_625708528.XML",
+    "providerName": "Gale Group",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": -0.276851,
+                    "label": "negative"
+                },
+                "text": "HSE",
+                "relevance": 0.820865,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.647745,
+                    "label": "negative"
+                },
+                "text": "maternal death",
+                "relevance": 0.479465,
+                "type": "HealthCondition",
+                "disambiguation": {
+                    "subtype": [
+                        "DiseaseOrMedicalCondition"
+                    ],
+                    "name": "Maternal death",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Maternal_death"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dr Mary Tumelty",
+                "relevance": 0.333768,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "lecturer",
+                "relevance": 0.287132,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "UCC",
+                "relevance": 0.270805,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "school of law",
+                "relevance": 0.231796,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "6%",
+                "relevance": 0.231796,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The details"
+                },
+                "sentence": " The details have been released under the Freedom of Information Act.",
+                "action": {
+                    "verb": {
+                        "text": "release",
+                        "tense": "past"
+                    },
+                    "text": "have been released",
+                    "normalized": "have be release"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Others"
+                },
+                "sentence": " Others might not have been preventable, such as a patient falling, but need to",
+                "object": {
+                    "text": "preventable"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "safety"
+                },
+                "sentence": " be examined to see if safety could be improved.",
+                "object": {
+                    "text": "improved"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a patient's death"
+                },
+                "sentence": " In 2019, 286 were 'care-management events', which include a patient's death",
+                "object": {
+                    "text": "'care-management events'"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "include",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a maternal death that"
+                },
+                "sentence": " due to a medication or diagnostic error, or a maternal death that was the",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a patient falling and"
+                },
+                "sentence": " These all involved a patient falling and",
+                "object": {
+                    "text": "These all"
+                },
+                "action": {
+                    "verb": {
+                        "text": "involve",
+                        "tense": "past"
+                    },
+                    "text": "involved",
+                    "normalized": "involve"
+                }
+            },
+            {
+                "subject": {
+                    "text": "events'"
+                },
+                "sentence": " 23 were 'criminal events', which include sexual assaults or serious physical",
+                "object": {
+                    "text": "sexual assaults or serious physical"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "include",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Dr Mary Tumelty, a lecturer UCC's school of law,"
+                },
+                "sentence": " Dr Mary Tumelty, a lecturer UCC's school of law, said: \"The numbers highlight",
+                "object": {
+                    "text": "The numbers highlight"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the human cost on the patients and their families"
+                },
+                "sentence": " often the human cost on the patients and their families is incalculable.",
+                "object": {
+                    "text": "incalculable"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " \"It's essential that safety incidents are reported and investigated and",
+                "object": {
+                    "text": "essential that safety incidents are reported and investigated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "lessons"
+                },
+                "sentence": " lessons are learned.\"",
+                "object": {
+                    "text": "learned"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The HSE"
+                },
+                "sentence": " The HSE says the health service has millions of interactions with patients and",
+                "object": {
+                    "text": "the health service has millions of interactions with patients and"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "says",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "adverse events and patient harm"
+                },
+                "sentence": " adverse events and patient harm can and do occur.",
+                "object": {
+                    "text": "occur"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "future"
+                    },
+                    "text": "do",
+                    "normalized": "do"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.928118,
+                "label": "/health and fitness"
+            },
+            {
+                "score": 0.796757,
+                "label": "/health and fitness/therapy"
+            },
+            {
+                "score": 0.714051,
+                "label": "/health and fitness/disease"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Dr Mary Tumelty, a lecturer UCC's school of law, said: \"The numbers highlight that systems need to be made better.",
+                "score": 0.537536,
+                "arguments": [
+                    {
+                        "text": "Mary Tumelty",
+                        "location": [
+                            885,
+                            897
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mary Tumelty"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            931,
+                            935
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "relative",
+                "sentence": "Where serious reportable offences occur often the human cost on the patients and their families is incalculable.",
+                "score": 0.27191,
+                "arguments": [
+                    {
+                        "text": "their",
+                        "location": [
+                            1078,
+                            1083
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "patients"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "families",
+                        "location": [
+                            1084,
+                            1092
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "families"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The HSE says the health service has millions of interactions with patients and service-users every year, and there is often excellent care, but it says adverse events and patient harm can and do occur.",
+                "score": 0.987557,
+                "arguments": [
+                    {
+                        "text": "HSE",
+                        "location": [
+                            1210,
+                            1213
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "HSE"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "says",
+                        "location": [
+                            1214,
+                            1218
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "says"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "health service",
+                "relevance": 0.862716,
+                "count": 1
+            },
+            {
+                "text": "serious incidents",
+                "relevance": 0.750695,
+                "count": 1
+            },
+            {
+                "text": "service-users",
+                "relevance": 0.696858,
+                "count": 1
+            },
+            {
+                "text": "Dr Mary Tumelty",
+                "relevance": 0.692285,
+                "count": 1
+            },
+            {
+                "text": "serious reportable events",
+                "relevance": 0.689189,
+                "count": 2
+            },
+            {
+                "text": "last year",
+                "relevance": 0.634128,
+                "count": 2
+            },
+            {
+                "text": "human cost",
+                "relevance": 0.605766,
+                "count": 1
+            },
+            {
+                "text": "sexual assaults",
+                "relevance": 0.602776,
+                "count": 1
+            },
+            {
+                "text": "care-management events",
+                "relevance": 0.592329,
+                "count": 1
+            },
+            {
+                "text": "serious harm",
+                "relevance": 0.57703,
+                "count": 1
+            },
+            {
+                "text": "adverse events",
+                "relevance": 0.572358,
+                "count": 1
+            },
+            {
+                "text": "HSE",
+                "relevance": 0.562059,
+                "count": 3
+            },
+            {
+                "text": "lecturer UCC's school",
+                "relevance": 0.5575,
+                "count": 1
+            },
+            {
+                "text": "patient's death",
+                "relevance": 0.537957,
+                "count": 2
+            },
+            {
+                "text": "details",
+                "relevance": 0.524169,
+                "count": 1
+            },
+            {
+                "text": "medication",
+                "relevance": 0.523617,
+                "count": 1
+            },
+            {
+                "text": "excellent care",
+                "relevance": 0.516116,
+                "count": 1
+            },
+            {
+                "text": "Others",
+                "relevance": 0.515812,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.515166,
+                "count": 1
+            },
+            {
+                "text": "safety",
+                "relevance": 0.515078,
+                "count": 1
+            },
+            {
+                "text": "law",
+                "relevance": 0.513545,
+                "count": 1
+            },
+            {
+                "text": "lessons",
+                "relevance": 0.510906,
+                "count": 1
+            },
+            {
+                "text": "criminal events",
+                "relevance": 0.50968,
+                "count": 1
+            },
+            {
+                "text": "families",
+                "relevance": 0.507148,
+                "count": 1
+            },
+            {
+                "text": "interactions",
+                "relevance": 0.506934,
+                "count": 1
+            },
+            {
+                "text": "patients",
+                "relevance": 0.50513,
+                "count": 2
+            },
+            {
+                "text": "serious reportable offences",
+                "relevance": 0.489808,
+                "count": 1
+            },
+            {
+                "text": "diagnostic error",
+                "relevance": 0.472723,
+                "count": 1
+            },
+            {
+                "text": "environmental events",
+                "relevance": 0.470469,
+                "count": 1
+            },
+            {
+                "text": "patient falling",
+                "relevance": 0.469569,
+                "count": 2
+            },
+            {
+                "text": "safety incidents",
+                "relevance": 0.467551,
+                "count": 1
+            },
+            {
+                "text": "Freedom of Information Act",
+                "relevance": 0.459949,
+                "count": 1
+            },
+            {
+                "text": "hospital's fault",
+                "relevance": 0.456768,
+                "count": 1
+            },
+            {
+                "text": "numbers highlight",
+                "relevance": 0.441268,
+                "count": 1
+            },
+            {
+                "text": "maternal death",
+                "relevance": 0.43596,
+                "count": 1
+            },
+            {
+                "text": "increase",
+                "relevance": 0.421792,
+                "count": 1
+            },
+            {
+                "text": "patient harm",
+                "relevance": 0.420032,
+                "count": 1
+            },
+            {
+                "text": "result",
+                "relevance": 0.410582,
+                "count": 1
+            },
+            {
+                "text": "systems",
+                "relevance": 0.408328,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "6d55a2c386b40cf20b28437433dc7c8a78ef8681",
+        "filename": "202006040000GALE____PUB_ALL_625708528.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-04T00:00:00-04:00",
+    "title": "'Lessons need to be learned' as HSE sees rise in serious incidents.",
+    "html": "<p>There was a 6% increase in serious incidents within the HSE last\nyear, with most resulting in a patient's death or serious harm.</p>\n\n<p>The details have been released under the Freedom of Information\nAct.</p>\n\n<p>Some 'serious reportable events' are largely preventable\npatient-safety incidents.</p>\n\n<p>Others might not have been preventable, such as a patient falling,\nbut need to be examined to see if safety could be improved.</p>\n\n<p>There were 636 serious reportable events within the HSE in 2018,\nrising to 675 last year.</p>\n\n<p>In 2019, 286 were 'care-management events', which include\na patient's death due to a medication or diagnostic error, or a\nmaternal death that was the hospital's fault.</p>\n\n<p>336 were 'environmental events'. These all involved a\npatient falling and dying or getting seriously injured as a result.</p>\n\n<p>23 were 'criminal events', which include sexual assaults\nor serious physical attacks.</p>\n\n<p>Dr <person>Mary Tumelty</person>, a lecturer UCC's school of law, said:\n\"The numbers highlight that systems need to be made better. Where\nserious reportable offences occur often the human cost on the patients\nand their families is incalculable.</p>\n\n<p>\"It's essential that safety incidents are reported and\ninvestigated and lessons are learned.\"</p>\n\n<p>The HSE says the health service has millions of interactions with\npatients and service-users every year, and there is often excellent\ncare, but it says adverse events and patient harm can and do occur.</p>\n\n<p>[readmore]1003286[/readmore]</p>",
+    "geoFocus": [
+        [
+            "GC/ie",
+            "Ireland"
+        ]
+    ]
+}

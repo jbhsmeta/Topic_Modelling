@@ -1,0 +1,946 @@
+{
+    "id": "7d72916e-c1f3-4f62-821b-49b657b4e1a7",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Cambridge News & The Independent, All rights reserved.",
+    "geoOrigin": "Cambridge, Wisconsin",
+    "sourceType": "Newspaper",
+    "source": "Cambridge News & The Independent, The (WI)",
+    "corpus_document_id": "12648525142141169854",
+    "description": "The 2020 Jefferson County Fair has been canceled due to COVID-19. A schedule posted as recently as May 26 on the Jefferson County Fair's website listed events that it said would include tractor and truck pulls, a demolition derby, live music and animal and exhibit judging.  \"The safety of the Jefferson County Fair's attendees, participants and community is the...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "The 2020 Jefferson County Fair has been canceled due to COVID-19.\n\nThe fair, which was scheduled for July 8-12, will not happen this year, a\nsocial media post from the fair board said on Monday June 1.\n\nThat's an about-face from two weeks ago, when Jefferson County announced its\nfair would go on as nearby fairs including Dane County and the Stoughton Fair\nfell due to COVID-19.\n\nA schedule posted as recently as May 26 on the Jefferson County Fair's website\nlisted events that it said would include tractor and truck pulls, a demolition\nderby, live music and animal and exhibit judging.\n\nThe Dane County Fair had been scheduled for July 16-19. The Stoughton Fair had\nbeen set for July 1-5.\n\nThe Wisconsin State Fair, that had been set for Aug. 6-26, has also been\ncanceled.\n\n\"The safety of the Jefferson County Fair's attendees, participants and\ncommunity is the highest priority in producing the annual fair,\" the June 1\npost said.\n\nThere will be a virtual fair held on the Jefferson County Fair website for\njunior, senior and open class exhibitors, officials said. Online entries will\nbe accepted until June 30, and judged virtually July 8-12.\n\nThere is more information at [www.jcfairpark.com](http://www.jcfairpark.com)\non entries and refunds.\n\n\"We look forward to brighter, better days ahead when we can gather again and\ncontinue to celebrate all that is exceptional about Jefferson County,\" the\npost said.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Arts and Entertainment",
+            "code": "II/are#6#50#66",
+            "level": 0
+        },
+        {
+            "parent": "II/are",
+            "relevance_score": "6",
+            "description": "Arts",
+            "code": "II/are.arts#6#50#66",
+            "level": 1
+        },
+        {
+            "parent": "II/are.perform",
+            "relevance_score": "6",
+            "description": "Live Music",
+            "code": "II/are.music#6#66#50",
+            "level": 3
+        },
+        {
+            "parent": "II/are.arts",
+            "relevance_score": "6",
+            "description": "Performing Arts",
+            "code": "II/are.perform#6#50#66",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Jefferson County Fair",
+            "Jefferson County Fair's",
+            "The Dane County Fair"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "The Dane County Fair",
+            "Jefferson County Fair's",
+            "Jefferson County Fair"
+        ]
+    },
+    "geoOrigin_code": "RU/us.wi.cambri",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRSDE280200E3BE5A3545D5BE905682752.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 7,
+                "sentiment": {
+                    "score": 0.554249,
+                    "label": "positive"
+                },
+                "text": "Jefferson County",
+                "relevance": 0.868313,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Jefferson County, Wisconsin",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Jefferson_County,_Wisconsin"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.584461,
+                    "label": "positive"
+                },
+                "text": "Stoughton Fair",
+                "relevance": 0.586834,
+                "type": "PrintMedia"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dane County Fair",
+                "relevance": 0.576318,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.352856,
+                    "label": "positive"
+                },
+                "text": "Wisconsin State Fair",
+                "relevance": 0.413157,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.593313,
+                    "label": "positive"
+                },
+                "text": "Dane County",
+                "relevance": 0.293666,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Dane County, Wisconsin",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Dane_County,_Wisconsin"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "two weeks",
+                "relevance": 0.157569,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The 2020 Jefferson County Fair"
+                },
+                "sentence": "The 2020 Jefferson County Fair has been canceled due to COVID-19.",
+                "object": {
+                    "text": "canceled due"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The fair"
+                },
+                "sentence": " The fair, which was scheduled for July 8-12, will not happen this year, a",
+                "object": {
+                    "text": "scheduled"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The fair, which was scheduled for July 8-12,"
+                },
+                "sentence": " The fair, which was scheduled for July 8-12, will not happen this year, a",
+                "action": {
+                    "verb": {
+                        "text": "happen",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "happen",
+                    "normalized": "happen"
+                }
+            },
+            {
+                "subject": {
+                    "text": "social media post from the fair board"
+                },
+                "sentence": " social media post from the fair board said on Monday June 1.",
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "That"
+                },
+                "sentence": " That's an about-face from two weeks ago, when Jefferson County announced its",
+                "object": {
+                    "text": "an about-face"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Jefferson County"
+                },
+                "sentence": " That's an about-face from two weeks ago, when Jefferson County announced its",
+                "object": {
+                    "text": "its"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "past"
+                    },
+                    "text": "announced",
+                    "normalized": "announce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Dane County and the Stoughton Fair"
+                },
+                "sentence": " fair would go on as nearby fairs including Dane County and the Stoughton Fair",
+                "object": {
+                    "text": "nearby fairs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A schedule"
+                },
+                "sentence": " A schedule posted as recently as May 26 on the Jefferson County Fair's website",
+                "action": {
+                    "verb": {
+                        "text": "post",
+                        "tense": "past"
+                    },
+                    "text": "posted",
+                    "normalized": "post"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Dane County Fair"
+                },
+                "sentence": " The Dane County Fair had been scheduled for July 16-19.",
+                "object": {
+                    "text": "scheduled"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Dane County Fair"
+                },
+                "sentence": " The Dane County Fair had been scheduled for July 16-19.",
+                "action": {
+                    "verb": {
+                        "text": "schedule",
+                        "tense": "past"
+                    },
+                    "text": "had been scheduled",
+                    "normalized": "have be schedule"
+                }
+            },
+            {
+                "subject": {
+                    "text": "community"
+                },
+                "sentence": " community is the highest priority in producing the annual fair,\" the June 1",
+                "object": {
+                    "text": "the highest priority"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a virtual fair"
+                },
+                "sentence": " There will be a virtual fair held on the Jefferson County Fair website for",
+                "object": {
+                    "text": "on the Jefferson County Fair website"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hold",
+                        "tense": "future"
+                    },
+                    "text": "held",
+                    "normalized": "hold"
+                }
+            },
+            {
+                "subject": {
+                    "text": "more information"
+                },
+                "sentence": " There is more information at [www.jcfairpark.com](http://www.jcfairpark.com)",
+                "object": {
+                    "text": "at [www.jcfairpark.com](http://www.jcfairpark.com)"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We look forward to brighter, better days ahead when we can gather again and",
+                "object": {
+                    "text": "to brighter"
+                },
+                "action": {
+                    "verb": {
+                        "text": "look",
+                        "tense": "present"
+                    },
+                    "text": "look",
+                    "normalized": "look"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " \"We look forward to brighter, better days ahead when we can gather again and",
+                "action": {
+                    "verb": {
+                        "text": "gather",
+                        "tense": "future"
+                    },
+                    "text": "can gather",
+                    "normalized": "can gather"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.947544,
+                "label": "/art and entertainment/shows and events/fair"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "The fair, which was scheduled for July 8-12, will not happen this year, a social media post from the fair board said on Monday June 1.",
+                "score": 0.502504,
+                "arguments": [
+                    {
+                        "text": "social media",
+                        "location": [
+                            141,
+                            153
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "social media"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "fair board",
+                        "location": [
+                            168,
+                            178
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Jefferson County Fair"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The fair, which was scheduled for July 8-12, will not happen this year, a social media post from the fair board said on Monday June 1.",
+                "score": 0.550263,
+                "arguments": [
+                    {
+                        "text": "social media",
+                        "location": [
+                            141,
+                            153
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "social media"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            179,
+                            183
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The fair, which was scheduled for July 8-12, will not happen this year, a social media post from the fair board said on Monday June 1.",
+                "score": 0.832022,
+                "arguments": [
+                    {
+                        "text": "Monday June 1",
+                        "location": [
+                            187,
+                            200
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Monday June 1"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            179,
+                            183
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "That's an about-face from two weeks ago, when Jefferson County announced its fair would go on as nearby fairs including Dane County and the Stoughton Fair fell due to COVID-19.",
+                "score": 0.777287,
+                "arguments": [
+                    {
+                        "text": "two weeks ago",
+                        "location": [
+                            229,
+                            242
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "two weeks ago"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            266,
+                            275
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "That's an about-face from two weeks ago, when Jefferson County announced its fair would go on as nearby fairs including Dane County and the Stoughton Fair fell due to COVID-19.",
+                "score": 0.998023,
+                "arguments": [
+                    {
+                        "text": "Jefferson County",
+                        "location": [
+                            249,
+                            265
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Jefferson County Fair"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            266,
+                            275
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "A schedule posted as recently as May 26 on the Jefferson County Fair's website listed events that it said would include tractor and truck pulls, a demolition derby, live music and animal and exhibit judging.",
+                "score": 0.975331,
+                "arguments": [
+                    {
+                        "text": "it",
+                        "location": [
+                            479,
+                            481
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Jefferson County Fair"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            482,
+                            486
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "That's an about-face from two weeks ago, when Jefferson County announced its fair would go on as nearby fairs including Dane County and the Stoughton Fair fell due to COVID-19.",
+                "score": 0.677194,
+                "arguments": [
+                    {
+                        "text": "Dane County",
+                        "location": [
+                            323,
+                            334
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Dane County"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Stoughton Fair",
+                        "location": [
+                            343,
+                            357
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Stoughton Fair"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The Dane County Fair had been scheduled for July 16-19.",
+                "score": 0.995029,
+                "arguments": [
+                    {
+                        "text": "Fair",
+                        "location": [
+                            606,
+                            610
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Jefferson County Fair"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Dane County",
+                        "location": [
+                            594,
+                            605
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Dane County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "\"The safety of the Jefferson County Fair's attendees, participants and community is the highest priority in producing the annual fair,\" the June 1 post said.",
+                "score": 0.864609,
+                "arguments": [
+                    {
+                        "text": "June 1",
+                        "location": [
+                            917,
+                            923
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "June 1"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            929,
+                            933
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "There will be a virtual fair held on the Jefferson County Fair website for junior, senior and open class exhibitors, officials said.",
+                "score": 0.993459,
+                "arguments": [
+                    {
+                        "text": "officials",
+                        "location": [
+                            1053,
+                            1062
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officials"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            1063,
+                            1067
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Jefferson County Fair",
+                "relevance": 0.928099,
+                "count": 1
+            },
+            {
+                "text": "fair board",
+                "relevance": 0.719634,
+                "count": 1
+            },
+            {
+                "text": "social media post",
+                "relevance": 0.695952,
+                "count": 1
+            },
+            {
+                "text": "Jefferson County",
+                "relevance": 0.662643,
+                "count": 2
+            },
+            {
+                "text": "highest priority",
+                "relevance": 0.655421,
+                "count": 1
+            },
+            {
+                "text": "nearby fairs",
+                "relevance": 0.645894,
+                "count": 1
+            },
+            {
+                "text": "live music",
+                "relevance": 0.620507,
+                "count": 1
+            },
+            {
+                "text": "Stoughton Fair",
+                "relevance": 0.587696,
+                "count": 2
+            },
+            {
+                "text": "Wisconsin State Fair",
+                "relevance": 0.586573,
+                "count": 1
+            },
+            {
+                "text": "Dane County",
+                "relevance": 0.57765,
+                "count": 1
+            },
+            {
+                "text": "better days",
+                "relevance": 0.576535,
+                "count": 1
+            },
+            {
+                "text": "Jefferson County Fair's website",
+                "relevance": 0.569208,
+                "count": 1
+            },
+            {
+                "text": "Monday June",
+                "relevance": 0.566541,
+                "count": 1
+            },
+            {
+                "text": "Dane County Fair",
+                "relevance": 0.545016,
+                "count": 1
+            },
+            {
+                "text": "community",
+                "relevance": 0.544594,
+                "count": 1
+            },
+            {
+                "text": "safety of the Jefferson County Fair",
+                "relevance": 0.537455,
+                "count": 1
+            },
+            {
+                "text": "schedule",
+                "relevance": 0.535817,
+                "count": 1
+            },
+            {
+                "text": "open class exhibitors",
+                "relevance": 0.53171,
+                "count": 1
+            },
+            {
+                "text": "face",
+                "relevance": 0.52676,
+                "count": 1
+            },
+            {
+                "text": "Online entries",
+                "relevance": 0.525685,
+                "count": 1
+            },
+            {
+                "text": "events",
+                "relevance": 0.519041,
+                "count": 1
+            },
+            {
+                "text": "weeks",
+                "relevance": 0.514475,
+                "count": 1
+            },
+            {
+                "text": "tractor",
+                "relevance": 0.513938,
+                "count": 1
+            },
+            {
+                "text": "animal",
+                "relevance": 0.511002,
+                "count": 1
+            },
+            {
+                "text": "officials",
+                "relevance": 0.509691,
+                "count": 1
+            },
+            {
+                "text": "attendees",
+                "relevance": 0.509482,
+                "count": 1
+            },
+            {
+                "text": "exhibit",
+                "relevance": 0.509075,
+                "count": 1
+            },
+            {
+                "text": "refunds",
+                "relevance": 0.50782,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.50782,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.50782,
+                "count": 1
+            },
+            {
+                "text": "participants",
+                "relevance": 0.50782,
+                "count": 1
+            },
+            {
+                "text": "entries",
+                "relevance": 0.507234,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.505055,
+                "count": 2
+            },
+            {
+                "text": "Jefferson County Fair website",
+                "relevance": 0.490925,
+                "count": 1
+            },
+            {
+                "text": "truck pulls",
+                "relevance": 0.476334,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.419528,
+                "count": 1
+            },
+            {
+                "text": "July",
+                "relevance": 0.414804,
+                "count": 4
+            },
+            {
+                "text": "set",
+                "relevance": 0.413201,
+                "count": 1
+            },
+            {
+                "text": "Aug.",
+                "relevance": 0.410588,
+                "count": 1
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.410588,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "081130c428c5fb416b923afac51187b7ae9a5bf6",
+        "filename": "202006010000NEWSBANKNEWSPPRSDE280200E3BE5A3545D5BE905682752.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Jefferson County Fair canceled",
+    "html": "<p>The 2020 <org>Jefferson County Fair</org> has been canceled due to COVID-19.</p>\n<p>The fair, which was scheduled for <chron>July 8-12</chron>, will not happen this year, a social media post from the fair board said on <chron>Monday June 1</chron>.</p>\n\n<p>That's an about-face from two weeks ago, when Jefferson County announced its fair would go on as nearby fairs including Dane County and the Stoughton Fair fell due to COVID-19.</p>\n\n<p>A schedule posted as recently as <chron>May 26</chron> on the <org>Jefferson County Fair's</org> website listed events that it said would include tractor and truck pulls, a demolition derby, live music and animal and exhibit judging.</p>\n\n<p><org>The Dane County Fair</org> had been scheduled for <chron>July 16-19</chron>. The Stoughton Fair had been set for <chron>July 1-5</chron>.</p>\n\n<p>The Wisconsin State Fair, that had been set for <chron>Aug. 6-26</chron>, has also been canceled.</p>\n\n<p>\"The safety of the <org>Jefferson County Fair's</org> attendees, participants and community is the highest priority in producing the annual fair,\" the <chron>June 1</chron> post said.</p>\n\n<p>There will be a virtual fair held on the <org>Jefferson County Fair</org> website for junior, senior and open class exhibitors, officials said. Online entries will be accepted until <chron>June 30</chron>, and judged virtually <chron>July 8-12</chron>.</p>\n\n<p>There is more information at <a href=\"http://www.jcfairpark.com\">www.jcfairpark.com</a> on entries and refunds.</p>\n\n<p>\"We look forward to brighter, better days ahead when we can gather again and continue to celebrate all that is exceptional about Jefferson County,\" the post said.</p>",
+    "geoFocus": [
+        [
+            "GU/us.wi.cambri",
+            "Cambridge"
+        ]
+    ]
+}

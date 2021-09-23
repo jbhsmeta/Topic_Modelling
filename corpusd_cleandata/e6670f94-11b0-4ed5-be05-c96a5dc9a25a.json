@@ -1,0 +1,589 @@
+{
+    "id": "e6670f94-11b0-4ed5-be05-c96a5dc9a25a",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 The Star, All rights reserved.",
+    "geoOrigin": "Sun Prairie, Wisconsin",
+    "sourceType": "Newspaper",
+    "source": "Star, The (Sun Prairie, WI)",
+    "corpus_document_id": "94658022179118754121",
+    "description": "Motorists are asked to take extra caution this summer, when hotter temperatures forecast throughout Wisconsin could create conditions for pavement buckling. Pavement can buckle when the weather quickly goes from cool to very hot. While it's difficult to predict if or where buckling may occur, the Wisconsin Department of Transportation offers these tips:.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Weather",
+            "code": "IS/lifesoc.weather#9#99#50",
+            "level": 1
+        }
+    ],
+    "text": "Motorists are asked to take extra caution this summer, when hotter\ntemperatures forecast throughout Wisconsin could create conditions for\npavement buckling.\n\nPavement can buckle when the weather quickly goes from cool to very hot. The\nquick temperature change causes slabs of pavement to expand and push against\none another. If the pressure becomes great enough, the pavement can buckle and\ncreate unexpected bumps or dips.\n\nWhile it's difficult to predict if or where buckling may occur, the Wisconsin\nDepartment of Transportation (WisDOT) offers these tips:\n\nSlow down, buckle up and focus your full attention on the roadway.\n\nWatch for slowing traffic and be ready to move over for all roadside workers,\nincluding highway crews as they repair damaged pavement.\n\nBefore your trip, check the 511 Travel Information system\n([511wi.gov](http://511wi.gov)) for the latest on any incidents or delays.\n\nIf necessary, report serious pavement issues by calling 911. Be ready to\nprovide specific location information.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Wisconsin Department of Transportation"
+        ],
+        "location": [
+            "Wisconsin"
+        ],
+        "person": [],
+        "companies": [
+            "Wisconsin Department of Transportation"
+        ]
+    },
+    "geoOrigin_code": "RU/us.wi.sunrie",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS97B948F7D3208615246BBEE10A72397.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Wisconsin",
+                "relevance": 0.756842,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Wisconsin",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Wisconsin"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Department of Transportation",
+                "relevance": 0.465878,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "to take extra caution"
+                },
+                "sentence": "Motorists are asked to take extra caution this summer, when hotter",
+                "object": {
+                    "text": "Motorists"
+                },
+                "action": {
+                    "verb": {
+                        "text": "ask",
+                        "tense": "past"
+                    },
+                    "text": "are asked",
+                    "normalized": "be ask"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Motorists"
+                },
+                "sentence": "Motorists are asked to take extra caution this summer, when hotter",
+                "object": {
+                    "text": "extra caution"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "future"
+                    },
+                    "text": "to take",
+                    "normalized": "to take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "temperatures forecast throughout Wisconsin"
+                },
+                "sentence": " temperatures forecast throughout Wisconsin could create conditions for",
+                "object": {
+                    "text": "conditions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "create",
+                        "tense": "future"
+                    },
+                    "text": "could create",
+                    "normalized": "could create"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Pavement"
+                },
+                "sentence": " Pavement can buckle when the weather quickly goes from cool to very hot.",
+                "action": {
+                    "verb": {
+                        "text": "buckle",
+                        "tense": "future"
+                    },
+                    "text": "can buckle",
+                    "normalized": "can buckle"
+                }
+            },
+            {
+                "subject": {
+                    "text": "quick temperature change"
+                },
+                "sentence": " quick temperature change causes slabs of pavement to expand and push against",
+                "object": {
+                    "text": "slabs of pavement"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cause",
+                        "tense": "present"
+                    },
+                    "text": "causes",
+                    "normalized": "cause"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the pressure"
+                },
+                "sentence": " If the pressure becomes great enough, the pavement can buckle and",
+                "object": {
+                    "text": "great enough"
+                },
+                "action": {
+                    "verb": {
+                        "text": "become",
+                        "tense": "present"
+                    },
+                    "text": "becomes",
+                    "normalized": "become"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " While it's difficult to predict if or where buckling may occur, the Wisconsin",
+                "object": {
+                    "text": "to predict if or where buckling may occur"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Department of Transportation (WisDOT)"
+                },
+                "sentence": " Department of Transportation (WisDOT) offers these tips:",
+                "object": {
+                    "text": "these tips"
+                },
+                "action": {
+                    "verb": {
+                        "text": "offer",
+                        "tense": "present"
+                    },
+                    "text": "offers",
+                    "normalized": "offer"
+                }
+            },
+            {
+                "subject": {
+                    "text": "your full attention"
+                },
+                "sentence": " Slow down, buckle up and focus your full attention on the roadway.",
+                "object": {
+                    "text": "on the roadway"
+                },
+                "action": {
+                    "verb": {
+                        "text": "focus",
+                        "tense": "present"
+                    },
+                    "text": "focus",
+                    "normalized": "focus"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " including highway crews as they repair damaged pavement.",
+                "object": {
+                    "text": "damaged pavement"
+                },
+                "action": {
+                    "verb": {
+                        "text": "repair",
+                        "tense": "present"
+                    },
+                    "text": "repair",
+                    "normalized": "repair"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " including highway crews as they repair damaged pavement.",
+                "object": {
+                    "text": "pavement"
+                },
+                "action": {
+                    "verb": {
+                        "text": "damage",
+                        "tense": "past"
+                    },
+                    "text": "repair damaged",
+                    "normalized": "repair damage"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the 511 Travel Information system"
+                },
+                "sentence": " Before your trip, check the 511 Travel Information system",
+                "action": {
+                    "verb": {
+                        "text": "check",
+                        "tense": "present"
+                    },
+                    "text": "check",
+                    "normalized": "check"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.77793,
+                "label": "/automotive and vehicles/road-side assistance"
+            },
+            {
+                "score": 0.755796,
+                "label": "/science/weather"
+            },
+            {
+                "score": 0.741001,
+                "label": "/business and industrial/construction"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Motorists are asked to take extra caution this summer, when hotter temperatures forecast throughout Wisconsin could create conditions for pavement buckling.",
+                "score": 0.533495,
+                "arguments": [
+                    {
+                        "text": "Motorists",
+                        "location": [
+                            0,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Motorists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "asked",
+                        "location": [
+                            14,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "asked"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Slow down, buckle up and focus your full attention on the roadway.",
+                "score": 0.531081,
+                "arguments": [
+                    {
+                        "text": "your",
+                        "location": [
+                            592,
+                            596
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "your"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "roadway",
+                        "location": [
+                            619,
+                            626
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "roadway"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Watch for slowing traffic and be ready to move over for all roadside workers, including highway crews as they repair damaged pavement.",
+                "score": 0.373082,
+                "arguments": [
+                    {
+                        "text": "crews",
+                        "location": [
+                            725,
+                            730
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "crews"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "highway",
+                        "location": [
+                            717,
+                            724
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "highway"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "pavement buckling",
+                "relevance": 0.672819,
+                "count": 1
+            },
+            {
+                "text": "highway crews",
+                "relevance": 0.601675,
+                "count": 1
+            },
+            {
+                "text": "serious pavement issues",
+                "relevance": 0.550498,
+                "count": 1
+            },
+            {
+                "text": "pressure",
+                "relevance": 0.548945,
+                "count": 1
+            },
+            {
+                "text": "unexpected bumps",
+                "relevance": 0.547371,
+                "count": 1
+            },
+            {
+                "text": "Motorists",
+                "relevance": 0.544373,
+                "count": 1
+            },
+            {
+                "text": "specific location information",
+                "relevance": 0.542757,
+                "count": 1
+            },
+            {
+                "text": "extra caution",
+                "relevance": 0.541888,
+                "count": 1
+            },
+            {
+                "text": "Travel Information system",
+                "relevance": 0.541288,
+                "count": 1
+            },
+            {
+                "text": "quick temperature change causes slabs of pavement",
+                "relevance": 0.538651,
+                "count": 1
+            },
+            {
+                "text": "full attention",
+                "relevance": 0.533055,
+                "count": 1
+            },
+            {
+                "text": "trip",
+                "relevance": 0.531976,
+                "count": 1
+            },
+            {
+                "text": "Pavement",
+                "relevance": 0.522638,
+                "count": 3
+            },
+            {
+                "text": "report",
+                "relevance": 0.522026,
+                "count": 1
+            },
+            {
+                "text": "traffic",
+                "relevance": 0.520062,
+                "count": 1
+            },
+            {
+                "text": "Wisconsin",
+                "relevance": 0.519567,
+                "count": 1
+            },
+            {
+                "text": "Transportation",
+                "relevance": 0.519446,
+                "count": 1
+            },
+            {
+                "text": "roadside workers",
+                "relevance": 0.518442,
+                "count": 1
+            },
+            {
+                "text": "weather",
+                "relevance": 0.515099,
+                "count": 1
+            },
+            {
+                "text": "incidents",
+                "relevance": 0.511258,
+                "count": 1
+            },
+            {
+                "text": "summer",
+                "relevance": 0.509705,
+                "count": 1
+            },
+            {
+                "text": "dips",
+                "relevance": 0.508773,
+                "count": 1
+            },
+            {
+                "text": "delays",
+                "relevance": 0.508773,
+                "count": 1
+            },
+            {
+                "text": "roadway",
+                "relevance": 0.508773,
+                "count": 1
+            },
+            {
+                "text": "tips",
+                "relevance": 0.508773,
+                "count": 1
+            },
+            {
+                "text": "conditions",
+                "relevance": 0.508773,
+                "count": 1
+            },
+            {
+                "text": "511wi.gov",
+                "relevance": 0.479197,
+                "count": 1
+            },
+            {
+                "text": "WisDOT",
+                "relevance": 0.463219,
+                "count": 1
+            },
+            {
+                "text": "push",
+                "relevance": 0.45837,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "f9e1264467d145b94dd5233b465a5ef93839ee2f",
+        "filename": "202006010000NEWSBANKNEWSPPRS97B948F7D3208615246BBEE10A72397.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Wisconsin Department of Transportation|extractor|DUNS:809611460;NECOID:70736549;ACORN:2196220180;UDUNS:001778349;UACORN:2805946232|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "WisDOT: Watch for buckling pavement",
+    "html": "<p>Motorists are asked to take extra caution this summer, when hotter temperatures forecast throughout <location idsrc=\"xmltag.org\" value=\"LS/us.wi\">Wisconsin</location> could create conditions for pavement buckling.</p>\n<p>Pavement can buckle when the weather quickly goes from cool to very hot. The quick temperature change causes slabs of pavement to expand and push against one another. If the pressure becomes great enough, the pavement can buckle and create unexpected bumps or dips.</p>\n\n<p>While it's difficult to predict if or where buckling may occur, the <org idsrc=\"xmltag.org\" value=\"ACORN:2196220180\">Wisconsin Department of Transportation</org> (WisDOT) offers these tips:</p>\n\n<p>  Slow down, buckle up and focus your full attention on the roadway.</p>\n\n<p>  Watch for slowing traffic and be ready to move over for all roadside workers, including highway crews as they repair damaged pavement.</p>\n\n<p>  Before your trip, check the 511 Travel Information system (<a href=\"http://511wi.gov\">511wi.gov</a>) for the latest on any incidents or delays.</p>\n\n<p>  If necessary, report serious pavement issues by calling 911. Be ready to provide specific location information.</p>",
+    "geoFocus": [
+        [
+            "GU/us.wi.sunrie",
+            "Sun Prairie"
+        ]
+    ]
+}

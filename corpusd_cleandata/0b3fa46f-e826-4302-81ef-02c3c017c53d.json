@@ -1,0 +1,1186 @@
+{
+    "id": "0b3fa46f-e826-4302-81ef-02c3c017c53d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, The Commercial Dispatch, All Rights Reserved.",
+    "geoOrigin": "Columbus, Mississippi",
+    "sourceType": "Newspaper",
+    "source": "Commercial Dispatch, The (Columbus, MS)",
+    "corpus_document_id": "7592163313178992495",
+    "description": "A Vernon, Alabama man died in a work accident in Lowndes County Friday after the truck he was repairing fell on him. Lowndes County Coroner Greg Merchant identified the victim as Mitchell L. Welch, who was working for T-N-T Truck Repair, on Performance One drive off Highway 45 near Columbus Air Force Base. Merchant said Occupational Health and Safety...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#90",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.trans",
+            "relevance_score": "9",
+            "description": "Land Transportation",
+            "code": "IS/lifesoc.landtran#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc.landtran",
+            "relevance_score": "9",
+            "description": "Road Transport",
+            "code": "IS/lifesoc.roadtran#9#90#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Transportation",
+            "code": "IS/lifesoc.trans#9#50#90",
+            "level": 1
+        }
+    ],
+    "text": "A Vernon, Alabama man died in a work accident in Lowndes County Friday after\nthe truck he was repairing fell on him.\n\nLowndes County Coroner Greg Merchant identified the victim as Mitchell L.\nWelch, who was working for T-N-T Truck Repair, on Performance One drive off\nHighway 45 near Columbus Air Force Base.\n\nWelch had been under the truck working on it when the jack holding it up\nfailed, causing the truck to fall, Merchant said in a release to media. Though\nWelch's coworkers worked to remove the truck, Welch was pronounced dead on the\nscene.\n\nMerchant said Occupational Health and Safety Administration is investigating\nthe incident.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Occupational Health and Safety Administration"
+        ],
+        "location": [
+            "Vernon, Alabama",
+            "Lowndes County",
+            "Highway 45",
+            "Columbus Air Force Base"
+        ],
+        "person": [
+            "Greg Merchant",
+            "Mitchell L. Welch"
+        ],
+        "companies": [
+            "Occupational Health and Safety Administration"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ms.colbus",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRSD6D1A03D5E0F18B6DE0CE9BD7865BF0.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": -0.205963,
+                    "label": "negative"
+                },
+                "text": "Welch",
+                "relevance": 0.916852,
+                "type": "Person"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": -0.559659,
+                    "label": "negative"
+                },
+                "text": "Greg Merchant",
+                "relevance": 0.71055,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.559659,
+                    "label": "negative"
+                },
+                "text": "Lowndes County",
+                "relevance": 0.655747,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Lowndes County, Alabama",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Lowndes_County,_Alabama"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Columbus Air Force Base",
+                "relevance": 0.407054,
+                "type": "Facility",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "MilitaryPost",
+                        "Airport"
+                    ],
+                    "name": "Columbus Air Force Base",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Columbus_Air_Force_Base"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Occupational Health and Safety Administration",
+                "relevance": 0.335324,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Vernon",
+                "relevance": 0.300059,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Vernon, Alabama",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Vernon,_Alabama"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mitchell L",
+                "relevance": 0.275349,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alabama",
+                "relevance": 0.259198,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Alabama",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Alabama"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A Vernon, Alabama man"
+                },
+                "sentence": "A Vernon, Alabama man died in a work accident in Lowndes County Friday after",
+                "action": {
+                    "verb": {
+                        "text": "die",
+                        "tense": "past"
+                    },
+                    "text": "died",
+                    "normalized": "die"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " the truck he was repairing fell on him.",
+                "object": {
+                    "text": "the truck"
+                },
+                "action": {
+                    "verb": {
+                        "text": "repair",
+                        "tense": "past"
+                    },
+                    "text": "was repairing",
+                    "normalized": "be repair"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Lowndes County Coroner Greg Merchant"
+                },
+                "sentence": " Lowndes County Coroner Greg Merchant identified the victim as Mitchell L.",
+                "object": {
+                    "text": "the victim"
+                },
+                "action": {
+                    "verb": {
+                        "text": "identify",
+                        "tense": "past"
+                    },
+                    "text": "identified",
+                    "normalized": "identify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Welch"
+                },
+                "sentence": " Welch, who was working for T-N-T Truck Repair, on Performance One drive off",
+                "object": {
+                    "text": "for T-N-T Truck Repair"
+                },
+                "action": {
+                    "verb": {
+                        "text": "work",
+                        "tense": "past"
+                    },
+                    "text": "was working",
+                    "normalized": "be work"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Welch"
+                },
+                "sentence": " Welch had been under the truck working on it when the jack holding it up",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "had been",
+                    "normalized": "have be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Merchant"
+                },
+                "sentence": " failed, causing the truck to fall, Merchant said in a release to media.",
+                "object": {
+                    "text": "failed, causing the truck to fall"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Welch's coworkers"
+                },
+                "sentence": " Welch's coworkers worked to remove the truck, Welch was pronounced dead on the",
+                "object": {
+                    "text": "the truck"
+                },
+                "action": {
+                    "verb": {
+                        "text": "remove",
+                        "tense": "future"
+                    },
+                    "text": "worked to remove",
+                    "normalized": "work to remove"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Merchant"
+                },
+                "sentence": " Merchant said Occupational Health and Safety Administration is investigating",
+                "object": {
+                    "text": "Occupational Health and Safety Administration is investigating"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.994929,
+                "label": "/automotive and vehicles/trucks and suvs/truck accessories"
+            },
+            {
+                "score": 0.967161,
+                "label": "/automotive and vehicles/vehicle rental"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "A Vernon, Alabama man died in a work accident in Lowndes County Friday after the truck he was repairing fell on him.",
+                "score": 0.915609,
+                "arguments": [
+                    {
+                        "text": "Vernon",
+                        "location": [
+                            2,
+                            8
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Vernon"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Alabama",
+                        "location": [
+                            10,
+                            17
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alabama"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "Lowndes County Coroner Greg Merchant identified the victim as Mitchell L. Welch, who was working for T-N-T Truck Repair, on Performance One drive off Highway 45 near Columbus Air Force Base.",
+                "score": 0.812252,
+                "arguments": [
+                    {
+                        "text": "Air Force Base",
+                        "location": [
+                            293,
+                            307
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Air Force Base",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Military"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Columbus",
+                        "location": [
+                            284,
+                            292
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Columbus"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Welch had been under the truck working on it when the jack holding it up failed, causing the truck to fall, Merchant said in a release to media.",
+                "score": 0.997208,
+                "arguments": [
+                    {
+                        "text": "Merchant",
+                        "location": [
+                            418,
+                            426
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Greg Merchant"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            427,
+                            431
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Merchant said Occupational Health and Safety Administration is investigating the incident.",
+                "score": 0.995998,
+                "arguments": [
+                    {
+                        "text": "Merchant",
+                        "location": [
+                            549,
+                            557
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Greg Merchant"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            558,
+                            562
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Though Welch's coworkers worked to remove the truck, Welch was pronounced dead on the scene.",
+                "score": 0.634865,
+                "arguments": [
+                    {
+                        "text": "coworkers",
+                        "location": [
+                            470,
+                            479
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "coworkers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "truck",
+                        "location": [
+                            501,
+                            506
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "truck"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Though Welch's coworkers worked to remove the truck, Welch was pronounced dead on the scene.",
+                "score": 0.974563,
+                "arguments": [
+                    {
+                        "text": "Welch",
+                        "location": [
+                            508,
+                            513
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mitchell L.\nWelch"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "pronounced",
+                        "location": [
+                            518,
+                            528
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "pronounced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Though Welch's coworkers worked to remove the truck, Welch was pronounced dead on the scene.",
+                "score": 0.630539,
+                "arguments": [
+                    {
+                        "text": "Welch",
+                        "location": [
+                            508,
+                            513
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mitchell L.\nWelch"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "scene",
+                        "location": [
+                            541,
+                            546
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "scene"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Merchant said Occupational Health and Safety Administration is investigating the incident.",
+                "score": 0.427589,
+                "arguments": [
+                    {
+                        "text": "Merchant",
+                        "location": [
+                            549,
+                            557
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Greg Merchant"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "investigating",
+                        "location": [
+                            612,
+                            625
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "investigating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Merchant said Occupational Health and Safety Administration is investigating the incident.",
+                "score": 0.792177,
+                "arguments": [
+                    {
+                        "text": "Occupational Health and Safety Administration",
+                        "location": [
+                            563,
+                            608
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Occupational Health and Safety Administration"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "investigating",
+                        "location": [
+                            612,
+                            625
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "investigating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Merchant said Occupational Health and Safety Administration is investigating the incident.",
+                "score": 0.517198,
+                "arguments": [
+                    {
+                        "text": "Occupational Health and Safety Administration",
+                        "location": [
+                            563,
+                            608
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Occupational Health and Safety Administration"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "incident",
+                        "location": [
+                            630,
+                            638
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "incident"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "A Vernon, Alabama man died in a work accident in Lowndes County Friday after the truck he was repairing fell on him.",
+                "score": 0.869242,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            18,
+                            21
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mitchell L.\nWelch"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Alabama",
+                        "location": [
+                            10,
+                            17
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alabama"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "diedOf",
+                "sentence": "A Vernon, Alabama man died in a work accident in Lowndes County Friday after the truck he was repairing fell on him.",
+                "score": 0.50407,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            18,
+                            21
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mitchell L.\nWelch"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "accident",
+                        "location": [
+                            37,
+                            45
+                        ],
+                        "entities": [
+                            {
+                                "type": "NaturalDisaster",
+                                "text": "accident"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "A Vernon, Alabama man died in a work accident in Lowndes County Friday after the truck he was repairing fell on him.",
+                "score": 0.504124,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            18,
+                            21
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mitchell L.\nWelch"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Lowndes County",
+                        "location": [
+                            49,
+                            63
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Lowndes County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "diedOn",
+                "sentence": "A Vernon, Alabama man died in a work accident in Lowndes County Friday after the truck he was repairing fell on him.",
+                "score": 0.929949,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            18,
+                            21
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mitchell L.\nWelch"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Friday",
+                        "location": [
+                            64,
+                            70
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Friday"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "A Vernon, Alabama man died in a work accident in Lowndes County Friday after the truck he was repairing fell on him.",
+                "score": 0.944862,
+                "arguments": [
+                    {
+                        "text": "Friday",
+                        "location": [
+                            64,
+                            70
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Friday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "accident",
+                        "location": [
+                            37,
+                            45
+                        ],
+                        "entities": [
+                            {
+                                "type": "NaturalDisaster",
+                                "text": "accident"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "A Vernon, Alabama man died in a work accident in Lowndes County Friday after the truck he was repairing fell on him.",
+                "score": 0.460665,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            87,
+                            89
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mitchell L.\nWelch"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "truck",
+                        "location": [
+                            81,
+                            86
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "truck"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Lowndes County Coroner Greg Merchant identified the victim as Mitchell L. Welch, who was working for T-N-T Truck Repair, on Performance One drive off Highway 45 near Columbus Air Force Base.",
+                "score": 0.907097,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            199,
+                            202
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mitchell L.\nWelch"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Truck",
+                        "location": [
+                            225,
+                            230
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "truck"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Welch had been under the truck working on it when the jack holding it up failed, causing the truck to fall, Merchant said in a release to media.",
+                "score": 0.494471,
+                "arguments": [
+                    {
+                        "text": "Welch",
+                        "location": [
+                            310,
+                            315
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mitchell L.\nWelch"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "truck",
+                        "location": [
+                            335,
+                            340
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "truck"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Though Welch's coworkers worked to remove the truck, Welch was pronounced dead on the scene.",
+                "score": 0.646033,
+                "arguments": [
+                    {
+                        "text": "Welch",
+                        "location": [
+                            462,
+                            467
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mitchell L.\nWelch"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "truck",
+                        "location": [
+                            501,
+                            506
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "truck"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Lowndes County Coroner Greg Merchant identified the victim as Mitchell L. Welch, who was working for T-N-T Truck Repair, on Performance One drive off Highway 45 near Columbus Air Force Base.",
+                "score": 0.51166,
+                "arguments": [
+                    {
+                        "text": "Coroner",
+                        "location": [
+                            133,
+                            140
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Greg Merchant"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Lowndes County",
+                        "location": [
+                            118,
+                            132
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Lowndes County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Lowndes County Coroner Greg Merchant identified the victim as Mitchell L. Welch, who was working for T-N-T Truck Repair, on Performance One drive off Highway 45 near Columbus Air Force Base.",
+                "score": 0.839746,
+                "arguments": [
+                    {
+                        "text": "Highway 45",
+                        "location": [
+                            268,
+                            278
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Highway 45"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Columbus",
+                        "location": [
+                            284,
+                            292
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Columbus"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "work accident",
+                "relevance": 0.878301,
+                "count": 1
+            },
+            {
+                "text": "Welch's coworkers",
+                "relevance": 0.855569,
+                "count": 1
+            },
+            {
+                "text": "T-N-T Truck Repair",
+                "relevance": 0.724099,
+                "count": 1
+            },
+            {
+                "text": "Alabama man",
+                "relevance": 0.699819,
+                "count": 1
+            },
+            {
+                "text": "Welch",
+                "relevance": 0.669106,
+                "count": 2
+            },
+            {
+                "text": "Lowndes County Coroner Greg Merchant",
+                "relevance": 0.643282,
+                "count": 1
+            },
+            {
+                "text": "Occupational Health",
+                "relevance": 0.621281,
+                "count": 1
+            },
+            {
+                "text": "Lowndes County Friday",
+                "relevance": 0.614697,
+                "count": 1
+            },
+            {
+                "text": "Vernon",
+                "relevance": 0.599049,
+                "count": 1
+            },
+            {
+                "text": "truck",
+                "relevance": 0.597044,
+                "count": 4
+            },
+            {
+                "text": "Highway",
+                "relevance": 0.53495,
+                "count": 1
+            },
+            {
+                "text": "Merchant",
+                "relevance": 0.522337,
+                "count": 2
+            },
+            {
+                "text": "release",
+                "relevance": 0.510346,
+                "count": 1
+            },
+            {
+                "text": "jack",
+                "relevance": 0.510346,
+                "count": 1
+            },
+            {
+                "text": "Performance",
+                "relevance": 0.510346,
+                "count": 1
+            },
+            {
+                "text": "victim",
+                "relevance": 0.510346,
+                "count": 1
+            },
+            {
+                "text": "incident",
+                "relevance": 0.508533,
+                "count": 1
+            },
+            {
+                "text": "scene",
+                "relevance": 0.508533,
+                "count": 1
+            },
+            {
+                "text": "media",
+                "relevance": 0.508533,
+                "count": 1
+            },
+            {
+                "text": "Columbus Air Force Base",
+                "relevance": 0.477263,
+                "count": 1
+            },
+            {
+                "text": "Safety Administration",
+                "relevance": 0.425488,
+                "count": 1
+            },
+            {
+                "text": "Mitchell",
+                "relevance": 0.356314,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Six times a week",
+    "extracted_metadata": {
+        "sha1": "194db573492a765ae805972256bda34664be49a1",
+        "filename": "202006010000NEWSBANKNEWSPPRSD6D1A03D5E0F18B6DE0CE9BD7865BF0.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Alabama man dies after truck he was repairing falls on him",
+    "html": "<p>A <location idsrc=\"xmltag.org\" value=\"LU/us.al.vernon\">Vernon, Alabama</location> man died in a work accident in <location idsrc=\"xmltag.org\" value=\"LU/us.al.lowdes\">Lowndes County</location> Friday after the truck he was repairing fell on him.</p>\n<p><location idsrc=\"xmltag.org\" value=\"LU/us.al.lowdes\">Lowndes County</location> Coroner <person>Greg Merchant</person> identified the victim as <person>Mitchell L. Welch</person>, who was working for T-N-T Truck Repair, on Performance One drive off <location>Highway 45</location> near <location>Columbus Air Force Base</location>.</p>\n\n<p>Welch had been under the truck working on it when the jack holding it up failed, causing the truck to fall, Merchant said in a release to media. Though Welch's coworkers worked to remove the truck, Welch was pronounced dead on the scene.</p>\n\n<p>Merchant said <org>Occupational Health and Safety Administration</org> is investigating the incident.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ms.colbus",
+            "Columbus"
+        ]
+    ]
+}

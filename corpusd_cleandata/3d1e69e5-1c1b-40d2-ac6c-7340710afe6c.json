@@ -1,0 +1,682 @@
+{
+    "id": "3d1e69e5-1c1b-40d2-ac6c-7340710afe6c",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c) 2020 US Fed News (HT Digital Content Services)",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "U.S. Fed News",
+    "corpus_document_id": "36955182508620271535",
+    "description": "United States Tax Court issued the following order on Jun. 03:. Due to the COVID-19 pandemic, the Court's trial session in San Francisco, California, beginning April 20, 2020, has been canceled. Dated: Washington, D.C. June 3, 2020 For any query with respect to this article or any other content requirement, please contact Editor at contentservices@htlive.com.",
+    "serviceName": "US Fed News",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "National Government",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#70#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "WASHINGTON, June 4 \\-- United States Tax Court issued the following order on\nJun. 03:\n\nDue to the COVID-19 pandemic, the Court's trial session in San Francisco,\nCalifornia, beginning April 20, 2020, has been canceled. On May 27, 2020, the\nparties filed a Status Report stating therein that they are working together\nto resolve this case. Upon due consideration and for cause, it is\n\nORDERED that on or before August 3, 2020, the parties shall file a joint\nstatus report (or, ifthat is not possible, separate reports), in which they\nshall describe their progress of settlement negotiations and the then-current\nstatus of the case.\n\n(Signed) Joseph W. Nega Judge\n\nDated: Washington, D.C. June 3, 2020 For any query with respect to this\narticle or any other content requirement, please contact Editor at\n[contentservices@htlive.com](mailto:contentservices@htlive.com)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "WASHINGTON",
+            "San Francisco, California",
+            "Washington, D.C."
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006042359HIND____USFEDNW__PR-3412271_810.2.XML",
+    "providerName": "HT Media",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "United States Tax Court",
+                "relevance": 0.806681,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location"
+                    ],
+                    "name": "United States Tax Court",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States_Tax_Court"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "WASHINGTON",
+                "relevance": 0.587445,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "MilitaryPost",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Washington, D.C.",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Washington,_D.C."
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "San Francisco",
+                "relevance": 0.393847,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "FilmScreeningVenue",
+                        "City"
+                    ],
+                    "name": "San Francisco",
+                    "dbpedia_resource": "http://dbpedia.org/resource/San_Francisco"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Joseph W. Nega",
+                "relevance": 0.384676,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Editor",
+                "relevance": 0.355565,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "California",
+                "relevance": 0.349788,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "Appellation",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "WineRegion",
+                        "StateOrCounty"
+                    ],
+                    "name": "California",
+                    "dbpedia_resource": "http://dbpedia.org/resource/California"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "contentservices@htlive.com",
+                "relevance": 0.349788,
+                "type": "EmailAddress"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "United States Tax Court"
+                },
+                "sentence": "WASHINGTON, June 4 \\-- United States Tax Court issued the following order on",
+                "action": {
+                    "verb": {
+                        "text": "issue",
+                        "tense": "past"
+                    },
+                    "text": "issued",
+                    "normalized": "issue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "California"
+                },
+                "sentence": " California, beginning April 20, 2020, has been canceled.",
+                "action": {
+                    "verb": {
+                        "text": "begin",
+                        "tense": "present"
+                    },
+                    "text": "beginning",
+                    "normalized": "begin"
+                }
+            },
+            {
+                "subject": {
+                    "text": "California, beginning April 20, 2020,"
+                },
+                "sentence": " California, beginning April 20, 2020, has been canceled.",
+                "object": {
+                    "text": "canceled"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "parties"
+                },
+                "sentence": " parties filed a Status Report stating therein that they are working together",
+                "object": {
+                    "text": "a Status Report"
+                },
+                "action": {
+                    "verb": {
+                        "text": "file",
+                        "tense": "past"
+                    },
+                    "text": "filed",
+                    "normalized": "file"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " parties filed a Status Report stating therein that they are working together",
+                "object": {
+                    "text": "working together"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the parties"
+                },
+                "sentence": " ORDERED that on or before August 3, 2020, the parties shall file a joint",
+                "object": {
+                    "text": "a joint"
+                },
+                "action": {
+                    "verb": {
+                        "text": "file",
+                        "tense": "future"
+                    },
+                    "text": "shall file",
+                    "normalized": "shall file"
+                }
+            },
+            {
+                "subject": {
+                    "text": "status report (or, ifthat"
+                },
+                "sentence": " status report (or, ifthat is not possible, separate reports), in which they",
+                "object": {
+                    "text": "not possible, separate reports), in which they"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "contact Editor"
+                },
+                "sentence": " article or any other content requirement, please contact Editor at",
+                "object": {
+                    "text": "article or any other content requirement"
+                },
+                "action": {
+                    "verb": {
+                        "text": "please",
+                        "tense": "present"
+                    },
+                    "text": "please",
+                    "normalized": "please"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.809903,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.737843,
+                "label": "/law, govt and politics/government"
+            },
+            {
+                "score": 0.618142,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Due to the COVID-19 pandemic, the Court's trial session in San Francisco, California, beginning April 20, 2020, has been canceled.",
+                "score": 0.901501,
+                "arguments": [
+                    {
+                        "text": "Court",
+                        "location": [
+                            121,
+                            126
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "United States Tax Court"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "trial",
+                        "location": [
+                            129,
+                            134
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "trial"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Due to the COVID-19 pandemic, the Court's trial session in San Francisco, California, beginning April 20, 2020, has been canceled.",
+                "score": 0.389494,
+                "arguments": [
+                    {
+                        "text": "Court",
+                        "location": [
+                            121,
+                            126
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "United States Tax Court"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "session",
+                        "location": [
+                            135,
+                            142
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "session"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Due to the COVID-19 pandemic, the Court's trial session in San Francisco, California, beginning April 20, 2020, has been canceled.",
+                "score": 0.88411,
+                "arguments": [
+                    {
+                        "text": "session",
+                        "location": [
+                            135,
+                            142
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "session"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "San Francisco",
+                        "location": [
+                            146,
+                            159
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "San Francisco"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Due to the COVID-19 pandemic, the Court's trial session in San Francisco, California, beginning April 20, 2020, has been canceled.",
+                "score": 0.541051,
+                "arguments": [
+                    {
+                        "text": "April 20, 2020",
+                        "location": [
+                            183,
+                            197
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "April 20, 2020"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "session",
+                        "location": [
+                            135,
+                            142
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "session"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Due to the COVID-19 pandemic, the Court's trial session in San Francisco, California, beginning April 20, 2020, has been canceled.",
+                "score": 0.997164,
+                "arguments": [
+                    {
+                        "text": "San Francisco",
+                        "location": [
+                            146,
+                            159
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "San Francisco"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "California",
+                        "location": [
+                            161,
+                            171
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "California"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "following order",
+                "relevance": 0.838386,
+                "count": 1
+            },
+            {
+                "text": "United States Tax Court",
+                "relevance": 0.793883,
+                "count": 1
+            },
+            {
+                "text": "Status Report",
+                "relevance": 0.67258,
+                "count": 1
+            },
+            {
+                "text": "D.C. June",
+                "relevance": 0.591144,
+                "count": 1
+            },
+            {
+                "text": "WASHINGTON",
+                "relevance": 0.578702,
+                "count": 2
+            },
+            {
+                "text": "San Francisco",
+                "relevance": 0.571743,
+                "count": 1
+            },
+            {
+                "text": "Court's trial session",
+                "relevance": 0.569089,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.554668,
+                "count": 1
+            },
+            {
+                "text": "parties",
+                "relevance": 0.553468,
+                "count": 2
+            },
+            {
+                "text": "Joseph W. Nega Judge",
+                "relevance": 0.549737,
+                "count": 1
+            },
+            {
+                "text": "article",
+                "relevance": 0.543659,
+                "count": 1
+            },
+            {
+                "text": "due consideration",
+                "relevance": 0.543583,
+                "count": 1
+            },
+            {
+                "text": "progress of settlement negotiations",
+                "relevance": 0.542265,
+                "count": 1
+            },
+            {
+                "text": "content requirement",
+                "relevance": 0.515886,
+                "count": 1
+            },
+            {
+                "text": "separate reports",
+                "relevance": 0.514137,
+                "count": 1
+            },
+            {
+                "text": "April",
+                "relevance": 0.511795,
+                "count": 1
+            },
+            {
+                "text": "query",
+                "relevance": 0.511145,
+                "count": 1
+            },
+            {
+                "text": "Editor",
+                "relevance": 0.509192,
+                "count": 1
+            },
+            {
+                "text": "respect",
+                "relevance": 0.509192,
+                "count": 1
+            },
+            {
+                "text": "case",
+                "relevance": 0.509192,
+                "count": 2
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.452062,
+                "count": 1
+            },
+            {
+                "text": "August",
+                "relevance": 0.448386,
+                "count": 1
+            },
+            {
+                "text": "California",
+                "relevance": 0.437381,
+                "count": 1
+            },
+            {
+                "text": "ifthat",
+                "relevance": 0.426537,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.415948,
+                "count": 1
+            },
+            {
+                "text": "cause",
+                "relevance": 0.415948,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.415948,
+                "count": 1
+            },
+            {
+                "text": "Jun.",
+                "relevance": 0.415948,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "7ac25e079d6fdfd80c841c01b290577283b73205",
+        "filename": "202006042359HIND____USFEDNW__PR-3412271_810.2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-04T23:59:00-04:00",
+    "title": "UNITED STATES TAX COURT ISSUES ORDER REGARDING SUHAIL TUFAIL VS COMMISSIONER OF INTERNAL REVENUE CASE [U.S. Fed News]",
+    "html": "<block>\n<p><location idsrc=\"xmltag.org\" value=\"LU/us.dc.wash\">WASHINGTON</location>, <chron>June 4</chron> -- United States Tax Court issued the following order on <chron>Jun. 03</chron>:</p>\n<p>Due to the COVID-19 pandemic, the Court's trial session in <location idsrc=\"xmltag.org\" value=\"LU/us.ca.sanfrn\">San Francisco, California</location>, beginning <chron>April 20, 2020</chron>, has been canceled. On <chron>May 27, 2020</chron>, the parties filed a Status Report stating therein that they are working together to resolve this case. Upon due consideration and for cause, it is</p>\n<p>ORDERED that on or before <chron>August 3, 2020</chron>, the parties shall file a joint status report (or, ifthat is not possible, separate reports), in which they shall describe their progress of settlement negotiations and the then-current status of the case.</p>\n<p>(Signed) <person>Joseph W. Nega\nJudge</person></p>\n<p>Dated: <location idsrc=\"xmltag.org\" value=\"LU/us.dc.wash\">Washington, D.C.</location>\n<chron>June 3, 2020</chron> For any query with respect to this article or any other content requirement, please contact Editor at <a href=\"mailto:contentservices@htlive.com\">contentservices@htlive.com</a></p>\n</block>",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ],
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

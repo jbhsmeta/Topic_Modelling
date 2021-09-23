@@ -1,0 +1,319 @@
+{
+    "id": "80d7d1e0-ed57-4162-a577-23f9a287ae10",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 Copyright 2020, The Dothan Eagle, Dothan, AL",
+    "geoOrigin": "Dothan, Alabama",
+    "sourceType": "Newspaper",
+    "source": "Dothan Eagle (AL)",
+    "corpus_document_id": "88315551644914224402",
+    "description": "Future plans: Becoming a prosecuting lawyer. Accomplishments: Presidential scholarships& Completing Access Class early. Favorite quote: It's hard being a diamond in a rhinestone world- Dolly Parton.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "School: Dothan High School\n\nFuture plans: Becoming a prosecuting lawyer\n\nAccomplishments: Presidential scholarships & Completing Access Class early\n\nExtracurriculars: Key Club Junior Civitan SGA\n\nFavorite quote: It's hard being a diamond in a rhinestone world - Dolly Parton\n\nFavorite memory: Meeting my best friend\n\nAdvice to future generations: Watch who your friends are & never lose focus !\n\nParents' names: Tameka Reed",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Dothan High School"
+        ],
+        "location": [],
+        "person": [
+            "Dolly Parton",
+            "Tameka Reed"
+        ],
+        "companies": [
+            "Dothan High School"
+        ]
+    },
+    "geoOrigin_code": "RU/us.al.dothan",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS4E8A9E05D2E9C555DADDA557CF0F24D.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Key Club Junior Civitan SGA",
+                "relevance": 0.952854,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dothan High School",
+                "relevance": 0.795502,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "School"
+                    ],
+                    "name": "Dothan High School",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Dothan_High_School"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.57426,
+                    "label": "positive"
+                },
+                "text": "Dolly Parton",
+                "relevance": 0.709277,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Composer",
+                        "MusicalArtist",
+                        "AwardNominee",
+                        "AwardWinner",
+                        "BroadcastArtist",
+                        "FilmMusicContributor",
+                        "MusicalGroupMember",
+                        "FilmActor",
+                        "TVActor"
+                    ],
+                    "name": "Dolly Parton",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Dolly_Parton"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tameka Reed",
+                "relevance": 0.502726,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Extracurriculars",
+                "relevance": 0.359405,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Access Class"
+                },
+                "sentence": " Accomplishments: Presidential scholarships & Completing Access Class early",
+                "action": {
+                    "verb": {
+                        "text": "Completing",
+                        "tense": "present"
+                    },
+                    "text": "Completing",
+                    "normalized": "Completing"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " Favorite quote: It's hard being a diamond in a rhinestone world - Dolly Parton",
+                "object": {
+                    "text": "hard being a diamond"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "&"
+                },
+                "sentence": " Advice to future generations: Watch who your friends are & never lose focus !",
+                "object": {
+                    "text": "focus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lose",
+                        "tense": "present"
+                    },
+                    "text": "lose",
+                    "normalized": "lose"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.707522,
+                "label": "/education/school"
+            },
+            {
+                "score": 0.639525,
+                "label": "/education/high school"
+            },
+            {
+                "score": 0.614508,
+                "label": "/education/teaching and classroom resources"
+            }
+        ],
+        "relations": [
+            {
+                "type": "participantIn",
+                "sentence": "Favorite memory: Meeting my best friend",
+                "score": 0.530863,
+                "arguments": [
+                    {
+                        "text": "my",
+                        "location": [
+                            301,
+                            303
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "my"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Meeting",
+                        "location": [
+                            293,
+                            300
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "Meeting"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Future plans",
+                "relevance": 0.858952,
+                "count": 1
+            },
+            {
+                "text": "Favorite quote",
+                "relevance": 0.840918,
+                "count": 1
+            },
+            {
+                "text": "Dothan High School",
+                "relevance": 0.832642,
+                "count": 1
+            },
+            {
+                "text": "future generations",
+                "relevance": 0.738297,
+                "count": 1
+            },
+            {
+                "text": "School",
+                "relevance": 0.645667,
+                "count": 1
+            },
+            {
+                "text": "Favorite memory",
+                "relevance": 0.613125,
+                "count": 1
+            },
+            {
+                "text": "Dolly Parton",
+                "relevance": 0.611332,
+                "count": 1
+            },
+            {
+                "text": "Key Club Junior Civitan SGA",
+                "relevance": 0.5624,
+                "count": 1
+            },
+            {
+                "text": "Parents' names",
+                "relevance": 0.556652,
+                "count": 1
+            },
+            {
+                "text": "diamond",
+                "relevance": 0.532914,
+                "count": 1
+            },
+            {
+                "text": "friends",
+                "relevance": 0.52117,
+                "count": 1
+            },
+            {
+                "text": "Presidential scholarships",
+                "relevance": 0.516451,
+                "count": 1
+            },
+            {
+                "text": "rhinestone world",
+                "relevance": 0.446498,
+                "count": 1
+            },
+            {
+                "text": "Completing Access Class",
+                "relevance": 0.435238,
+                "count": 1
+            },
+            {
+                "text": "Tameka Reed",
+                "relevance": 0.398469,
+                "count": 1
+            },
+            {
+                "text": "Extracurriculars",
+                "relevance": 0.352911,
+                "count": 1
+            },
+            {
+                "text": "Watch",
+                "relevance": 0.312823,
+                "count": 1
+            },
+            {
+                "text": "focus",
+                "relevance": 0.305115,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "d1605fe5dd236757b925c725ed211b95f68fb02e",
+        "filename": "202006010000NEWSBANKNEWSPPRS4E8A9E05D2E9C555DADDA557CF0F24D.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Turmon, Tenecia",
+    "html": "<p>School: <org>Dothan High School</org></p>\n<p>Future plans: Becoming a prosecuting lawyer</p>\n\n<p>Accomplishments: Presidential scholarships &amp; Completing Access Class early</p>\n\n<p>Extracurriculars: Key Club Junior Civitan SGA</p>\n\n<p>Favorite quote: It's hard being a diamond in a rhinestone world - <person>Dolly Parton</person></p>\n\n<p>Favorite memory: Meeting my best friend</p>\n\n<p>Advice to future generations: Watch who your friends are &amp; never lose focus !</p>\n\n<p>Parents' names: <person>Tameka Reed</person></p>",
+    "geoFocus": [
+        [
+            "GU/us.al.dothan",
+            "Dothan"
+        ]
+    ]
+}

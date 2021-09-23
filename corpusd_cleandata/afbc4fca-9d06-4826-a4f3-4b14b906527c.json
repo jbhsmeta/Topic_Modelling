@@ -1,0 +1,356 @@
+{
+    "id": "afbc4fca-9d06-4826-a4f3-4b14b906527c",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "27428955249164688458",
+    "description": "-A court has ruled that a unit of Japan's Sony Corp broke the consumer law by denying customers refunds for faulty PlayStation games and...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Eastern Asia",
+            "code": "LB/eas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eas",
+            "relevance_score": "9",
+            "description": "Japan",
+            "code": "LC/jp#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Judicial System",
+            "code": "IS/pol.judicial#9#99#50",
+            "level": 1
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "6",
+            "description": "Law",
+            "code": "IS/pol.law#6#63#50",
+            "level": 1
+        }
+    ],
+    "text": "(Reuters) - A court has ruled that a unit of Japan's Sony Corp broke the\nconsumer law by denying customers refunds for faulty PlayStation games and...",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Technology",
+            "code": "II/tech#6#50#66",
+            "level": 0
+        },
+        {
+            "parent": "II/tech",
+            "relevance_score": "6",
+            "description": "Electronics",
+            "code": "II/tech.electro#6#50#66",
+            "level": 1
+        },
+        {
+            "parent": "II/tech.electro",
+            "relevance_score": "6",
+            "description": "Video Games",
+            "code": "II/tech.vidgame#6#66#50",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Sony Corp"
+        ],
+        "location": [
+            "Japan's"
+        ],
+        "person": [],
+        "companies": [
+            "Sony Corp"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050330AMSPIDERNEWS_____USNEWS01_67FDA13C02CA49DD4AC4DB44B44057EA_14.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.29353,
+                    "label": "negative"
+                },
+                "text": "Sony Corp",
+                "relevance": 0.973351,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [
+                        "RecordLabel"
+                    ],
+                    "name": "Sony",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Sony"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Reuters",
+                "relevance": 0.798735,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Reuters",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Reuters"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.29353,
+                    "label": "negative"
+                },
+                "text": "Japan",
+                "relevance": 0.582886,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "MusicalGroup",
+                        "BroadcastArtist",
+                        "MusicalArtist",
+                        "RecordProducer",
+                        "Country"
+                    ],
+                    "name": "Japan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Japan"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A court"
+                },
+                "sentence": "(Reuters) - A court has ruled that a unit of Japan's Sony Corp broke the",
+                "object": {
+                    "text": "that a unit of Japan's Sony Corp broke the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "rule",
+                        "tense": "past"
+                    },
+                    "text": "has ruled",
+                    "normalized": "have rule"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.999947,
+                "label": "/technology and computing/consumer electronics/game systems and consoles/playstation"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "(Reuters) - A court has ruled that a unit of Japan's Sony Corp broke the consumer law by denying customers refunds for faulty PlayStation games and...",
+                "score": 0.95694,
+                "arguments": [
+                    {
+                        "text": "court",
+                        "location": [
+                            14,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "court",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ruled",
+                        "location": [
+                            24,
+                            29
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "ruled"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "(Reuters) - A court has ruled that a unit of Japan's Sony Corp broke the consumer law by denying customers refunds for faulty PlayStation games and...",
+                "score": 0.658854,
+                "arguments": [
+                    {
+                        "text": "Sony Corp",
+                        "location": [
+                            53,
+                            62
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Sony Corp",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Japan",
+                        "location": [
+                            45,
+                            50
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Japan",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "clientOf",
+                "sentence": "(Reuters) - A court has ruled that a unit of Japan's Sony Corp broke the consumer law by denying customers refunds for faulty PlayStation games and...",
+                "score": 0.527311,
+                "arguments": [
+                    {
+                        "text": "customers",
+                        "location": [
+                            97,
+                            106
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "customers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Sony Corp",
+                        "location": [
+                            53,
+                            62
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Sony Corp",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "consumer law",
+                "relevance": 0.962633,
+                "count": 1
+            },
+            {
+                "text": "Reuters",
+                "relevance": 0.714099,
+                "count": 1
+            },
+            {
+                "text": "court",
+                "relevance": 0.627315,
+                "count": 1
+            },
+            {
+                "text": "customers refunds",
+                "relevance": 0.533362,
+                "count": 1
+            },
+            {
+                "text": "unit of Japan",
+                "relevance": 0.533362,
+                "count": 1
+            },
+            {
+                "text": "faulty PlayStation games",
+                "relevance": 0.409781,
+                "count": 1
+            },
+            {
+                "text": "Sony Corp",
+                "relevance": 0.364931,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "800bc57003432d4be116f3087bcadb7bb53de476",
+        "filename": "202006050330AMSPIDERNEWS_____USNEWS01_67FDA13C02CA49DD4AC4DB44B44057EA_14.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NYSE|SNE|CUSIP:835699307;ISIN:US8356993076|Sony Corporation|extractor|DUNS:690553649;NECOID:24599;ACORN:3148178130|SIGNIFICANT|ADRTICKER=NYSE:SNE||ADR|XNYS|SYNONYM",
+    "publicationTime": "2020-06-05T03:30:00-04:00",
+    "title": "Australia Fines Sony $2.4 Million for Refusing Refunds on Faulty PlayStation Games [U.S. News & World Report Online]",
+    "html": "<p>(Reuters) - A court has ruled that a unit of <location idsrc=\"xmltag.org\" value=\"LC/jp\">Japan's</location> <org idsrc=\"xmltag.org\" value=\"Tokyo:6758\">Sony Corp</org> broke the consumer law by denying customers refunds for faulty PlayStation games and...</p>",
+    "geoFocus": []
+}

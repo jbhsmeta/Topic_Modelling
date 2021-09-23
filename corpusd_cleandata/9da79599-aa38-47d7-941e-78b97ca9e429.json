@@ -1,0 +1,720 @@
+{
+    "id": "9da79599-aa38-47d7-941e-78b97ca9e429",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, Marietta Daily Journal. All Rights Reserved.",
+    "geoOrigin": "Marietta, Georgia",
+    "sourceType": "Newspaper",
+    "source": "Marietta Daily Journal (GA)",
+    "corpus_document_id": "27770987250796719297",
+    "description": "The City of Kennesaw and Kennesaw Parks& Recreation have announced the next steps for reopening parks and facilities to public access. Beginning June 1, the skatepark, dog park, pavilions and restrooms at Swift-Cantrell Park and the pavilions at Adams Park will reopen to the public. The athletic fields at Adams Park will open for team practices on June 1 with a...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#96",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.parks",
+            "relevance_score": "9",
+            "description": "Local Parks",
+            "code": "IS/lifesoc.localprk#9#96#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Natural Resources",
+            "code": "IS/lifesoc.natres#9#50#96",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.natres",
+            "relevance_score": "9",
+            "description": "Parks",
+            "code": "IS/lifesoc.parks#9#50#96",
+            "level": 2
+        }
+    ],
+    "text": "The City of Kennesaw and Kennesaw Parks & Recreation have announced the next\nsteps for reopening parks and facilities to public access.\n\nBeginning June 1, the skatepark, dog park, pavilions and restrooms at Swift-\nCantrell Park and the pavilions at Adams Park will reopen to the public.\nPlaygrounds and the exercise equipment station remain closed at this time.\n\nThe athletic fields at Adams Park will open for team practices on June 1 with\na minimum of 30-minutes scheduled between practices to encourage social\ndistancing and discourage gatherings of people over 25, in compliance with\nGov. Brian Kemps' Executive Order. Dugouts will remain closed at this time.\n\nClasses and programs at the Ben Robertson Community Center will resume\nbeginning June 15. All guests will be screened, evaluated upon entrance and\nwill have\n\ntheir temperature taken. The Ben Robertson Community Center is open to the\npublic for access to classes and programs only.\n\nFor more information, visit [www.kennesaw-\nga.gov/covid-19](http://www.kennesaw-ga.gov/covid-19).",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Kennesaw Parks &amp; Recreation",
+            "Ben Robertson Community Center",
+            "The Ben Robertson Community Center"
+        ],
+        "location": [
+            "City of Kennesaw",
+            "Swift-Cantrell Park",
+            "Adams Park"
+        ],
+        "person": [
+            "Brian Kemps'"
+        ],
+        "companies": [
+            "Kennesaw Parks &amp; Recreation",
+            "The Ben Robertson Community Center",
+            "Ben Robertson Community Center"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.martta",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS508144AF67A49578B66D9D061B46EC1.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Adams Park",
+                "relevance": 0.871128,
+                "type": "Facility",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "Stadium"
+                    ],
+                    "name": "Adams Park",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Adams_Park"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ben Robertson Community Center",
+                "relevance": 0.841267,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.309042,
+                    "label": "negative"
+                },
+                "text": "Kennesaw Parks & Recreation",
+                "relevance": 0.680213,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Cantrell Park",
+                "relevance": 0.569264,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.309042,
+                    "label": "negative"
+                },
+                "text": "Kennesaw",
+                "relevance": 0.558579,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Kennesaw, Georgia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Kennesaw,_Georgia"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.342992,
+                    "label": "negative"
+                },
+                "text": "Gov. Brian Kemps",
+                "relevance": 0.450523,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Executive",
+                "relevance": 0.324438,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "30-minutes",
+                "relevance": 0.324438,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The City of Kennesaw and Kennesaw Parks & Recreation"
+                },
+                "sentence": "The City of Kennesaw and Kennesaw Parks & Recreation have announced the next",
+                "object": {
+                    "text": "announced the next"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The City of Kennesaw and Kennesaw Parks & Recreation"
+                },
+                "sentence": "The City of Kennesaw and Kennesaw Parks & Recreation have announced the next",
+                "object": {
+                    "text": "the next"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "past"
+                    },
+                    "text": "have announced",
+                    "normalized": "have announce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "steps"
+                },
+                "sentence": " steps for reopening parks and facilities to public access.",
+                "object": {
+                    "text": "parks and facilities"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reopen",
+                        "tense": "present"
+                    },
+                    "text": "reopening",
+                    "normalized": "reopen"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Playgrounds and the exercise equipment station"
+                },
+                "sentence": " Playgrounds and the exercise equipment station remain closed at this time.",
+                "action": {
+                    "verb": {
+                        "text": "close",
+                        "tense": "past"
+                    },
+                    "text": "closed",
+                    "normalized": "close"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The athletic fields at Adams Park"
+                },
+                "sentence": " The athletic fields at Adams Park will open for team practices on June 1 with",
+                "action": {
+                    "verb": {
+                        "text": "open",
+                        "tense": "future"
+                    },
+                    "text": "will open",
+                    "normalized": "will open"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a minimum of 30-minutes"
+                },
+                "sentence": " a minimum of 30-minutes scheduled between practices to encourage social",
+                "object": {
+                    "text": "between practices to encourage social"
+                },
+                "action": {
+                    "verb": {
+                        "text": "schedule",
+                        "tense": "past"
+                    },
+                    "text": "scheduled",
+                    "normalized": "schedule"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Dugouts"
+                },
+                "sentence": " Dugouts will remain closed at this time.",
+                "action": {
+                    "verb": {
+                        "text": "close",
+                        "tense": "future"
+                    },
+                    "text": "closed",
+                    "normalized": "close"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Ben Robertson Community Center"
+                },
+                "sentence": " The Ben Robertson Community Center is open to the",
+                "object": {
+                    "text": "open"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.719831,
+                "label": "/sports/skateboarding"
+            },
+            {
+                "score": 0.578119,
+                "label": "/business and industrial/construction"
+            },
+            {
+                "score": 0.571876,
+                "label": "/health and fitness/exercise"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Beginning June 1, the skatepark, dog park, pavilions and restrooms at Swift- Cantrell Park and the pavilions at Adams Park will reopen to the public.",
+                "score": 0.636887,
+                "arguments": [
+                    {
+                        "text": "dog",
+                        "location": [
+                            170,
+                            173
+                        ],
+                        "entities": [
+                            {
+                                "type": "Animal",
+                                "text": "dog"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "park",
+                        "location": [
+                            174,
+                            178
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Adams Park"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Beginning June 1, the skatepark, dog park, pavilions and restrooms at Swift- Cantrell Park and the pavilions at Adams Park will reopen to the public.",
+                "score": 0.753944,
+                "arguments": [
+                    {
+                        "text": "restrooms",
+                        "location": [
+                            194,
+                            203
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "restrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "pavilions",
+                        "location": [
+                            236,
+                            245
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "pavilions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Beginning June 1, the skatepark, dog park, pavilions and restrooms at Swift- Cantrell Park and the pavilions at Adams Park will reopen to the public.",
+                "score": 0.475439,
+                "arguments": [
+                    {
+                        "text": "Cantrell Park",
+                        "location": [
+                            214,
+                            227
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Cantrell Park"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Swift-",
+                        "location": [
+                            207,
+                            213
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Swift-",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Educational"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Beginning June 1, the skatepark, dog park, pavilions and restrooms at Swift- Cantrell Park and the pavilions at Adams Park will reopen to the public.",
+                "score": 0.762931,
+                "arguments": [
+                    {
+                        "text": "pavilions",
+                        "location": [
+                            236,
+                            245
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "pavilions"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Adams Park",
+                        "location": [
+                            249,
+                            259
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Adams Park"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Classes and programs at the Ben Robertson Community Center will resume beginning June 15.",
+                "score": 0.453573,
+                "arguments": [
+                    {
+                        "text": "Ben Robertson Community Center",
+                        "location": [
+                            693,
+                            723
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Ben Robertson Community Center"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Classes",
+                        "location": [
+                            665,
+                            672
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Classes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Kennesaw Parks",
+                "relevance": 0.808042,
+                "count": 1
+            },
+            {
+                "text": "public access",
+                "relevance": 0.755064,
+                "count": 1
+            },
+            {
+                "text": "athletic fields",
+                "relevance": 0.733485,
+                "count": 1
+            },
+            {
+                "text": "City of Kennesaw",
+                "relevance": 0.694135,
+                "count": 1
+            },
+            {
+                "text": "Adams Park",
+                "relevance": 0.692337,
+                "count": 2
+            },
+            {
+                "text": "minimum of 30-minutes",
+                "relevance": 0.636747,
+                "count": 1
+            },
+            {
+                "text": "Ben Robertson Community Center",
+                "relevance": 0.622494,
+                "count": 2
+            },
+            {
+                "text": "Brian Kemps' Executive Order",
+                "relevance": 0.602599,
+                "count": 1
+            },
+            {
+                "text": "dog park",
+                "relevance": 0.594652,
+                "count": 1
+            },
+            {
+                "text": "Cantrell Park",
+                "relevance": 0.591697,
+                "count": 1
+            },
+            {
+                "text": "exercise equipment station",
+                "relevance": 0.583575,
+                "count": 1
+            },
+            {
+                "text": "Playgrounds",
+                "relevance": 0.545271,
+                "count": 1
+            },
+            {
+                "text": "parks",
+                "relevance": 0.543455,
+                "count": 1
+            },
+            {
+                "text": "Classes",
+                "relevance": 0.542002,
+                "count": 2
+            },
+            {
+                "text": "team practices",
+                "relevance": 0.536662,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.536615,
+                "count": 3
+            },
+            {
+                "text": "pavilions",
+                "relevance": 0.534787,
+                "count": 2
+            },
+            {
+                "text": "guests",
+                "relevance": 0.531261,
+                "count": 1
+            },
+            {
+                "text": "programs",
+                "relevance": 0.530645,
+                "count": 2
+            },
+            {
+                "text": "skatepark",
+                "relevance": 0.527387,
+                "count": 1
+            },
+            {
+                "text": "facilities",
+                "relevance": 0.519758,
+                "count": 1
+            },
+            {
+                "text": "temperature",
+                "relevance": 0.51711,
+                "count": 1
+            },
+            {
+                "text": "access",
+                "relevance": 0.516827,
+                "count": 1
+            },
+            {
+                "text": "Dugouts",
+                "relevance": 0.514509,
+                "count": 1
+            },
+            {
+                "text": "Recreation",
+                "relevance": 0.513599,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.513181,
+                "count": 1
+            },
+            {
+                "text": "restrooms",
+                "relevance": 0.511216,
+                "count": 1
+            },
+            {
+                "text": "practices",
+                "relevance": 0.509398,
+                "count": 1
+            },
+            {
+                "text": "compliance",
+                "relevance": 0.509251,
+                "count": 1
+            },
+            {
+                "text": "entrance",
+                "relevance": 0.509251,
+                "count": 1
+            },
+            {
+                "text": "social",
+                "relevance": 0.509251,
+                "count": 1
+            },
+            {
+                "text": "gatherings of people",
+                "relevance": 0.502156,
+                "count": 1
+            },
+            {
+                "text": "public",
+                "relevance": 0.433846,
+                "count": 1
+            },
+            {
+                "text": "ga.gov",
+                "relevance": 0.428509,
+                "count": 1
+            },
+            {
+                "text": "covid-19",
+                "relevance": 0.420823,
+                "count": 1
+            },
+            {
+                "text": "visit",
+                "relevance": 0.420823,
+                "count": 1
+            },
+            {
+                "text": "time",
+                "relevance": 0.420823,
+                "count": 2
+            },
+            {
+                "text": "Swift",
+                "relevance": 0.420823,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "f9905217a1ee75c41c1cf149532ba5747a6a9a2e",
+        "filename": "202006010000NEWSBANKNEWSPPRS508144AF67A49578B66D9D061B46EC1.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "City of Kennesaw Parks & Recreation announces next steps for reopening parks, facilities",
+    "html": "<p>The <location idsrc=\"xmltag.org\" value=\"LU/us.ga.kensaw\">City of Kennesaw</location> and <org>Kennesaw Parks &amp; Recreation</org> have announced the next steps for reopening parks and facilities to public access.</p>\n<p>Beginning <chron>June 1</chron>, the skatepark, dog park, pavilions and restrooms at <location>Swift-Cantrell Park</location> and the pavilions at <location>Adams Park</location> will reopen to the public. Playgrounds and the exercise equipment station remain closed at this time.</p>\n\n<p>The athletic fields at <location>Adams Park</location> will open for team practices on <chron>June 1</chron> with a minimum of 30-minutes scheduled between practices to encourage social distancing and discourage gatherings of people over 25, in compliance with Gov. <person>Brian Kemps'</person> Executive Order. Dugouts will remain closed at this time.</p>\n\n<p>Classes and programs at the <org>Ben Robertson Community Center</org> will resume beginning <chron>June 15</chron>. All guests will be screened, evaluated upon entrance and will have</p>\n\n<p>their temperature taken. <org>The Ben Robertson Community Center</org> is open to the public for access to classes and programs only.</p>\n\n<p>For more information, visit <a href=\"http://www.kennesaw-ga.gov/covid-19\">www.kennesaw-ga.gov/covid-19</a>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ga.martta",
+            "Marietta"
+        ]
+    ]
+}

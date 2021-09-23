@@ -1,0 +1,1869 @@
+{
+    "id": "1346797f-63e8-4531-94f7-553de102b9c9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, Daily Asia Business",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Daily Asia Business",
+    "corpus_document_id": "28395881033577229459",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at Daily Asia Business-- Seiko Epson Corporation has been issued patent number 10,664,104, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors. The patent\u2019 s inventor is Yamauchi, Taisuke. This patent was filed on March 22, 2017 and was published online on June 8, 2020.",
+    "serviceName": "Geographic Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Eastern Asia",
+            "code": "LB/eas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eas",
+            "relevance_score": "9",
+            "description": "Japan",
+            "code": "LC/jp#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#70#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Business and Commerce, Finance",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia\nBusiness -- Seiko Epson Corporation (Tokyo, Japan) has been issued patent\nnumber 10,664,104, according to news reporting originating out of Alexandria,\nVirginia, by NewsRx editors.\n\nThe patent's inventor is Yamauchi, Taisuke (Matsumoto, Japan).\n\nThis patent was filed on March 22, 2017 and was published online on June 8,\n2020.\n\nFrom the background information supplied by the inventors, news correspondents\nobtained the following quote: \"As a technique that is likely to be able to be\napplied to image recognition to detect whether or not a finger is in contact\nwith a screen where an image is projected from a projector, there is a\ntechnique of projecting a NIR-light random speckle pattern, acquiring with a\nNIR camera NIR light (reflected light) reflected by a finger, and detecting\nwhether or not the finger is in contact with the screen, based on the acquired\ninformation (see, for example, PTL 1).\"\n\nSupplementing the background information on this patent, NewsRx reporters also\nobtained the inventor's summary information for this patent: \"Technical\nProblem\n\n\"However, the image recognition technique described in PTL 1 has a problem in\nthat it has poor detection accuracy for a position (depth) of the finger in\nthe direction of depth as viewed from the NIR camera and hence poor touch\nrecognition accuracy.\n\n\"An object of the invention is to provide an image recognition device, an\nimage recognition method, and an image recognition unit which can achieve\ntouch recognition with high accuracy.\n\n\"Solution to Problem\n\n\"Such an object is achieved the following invention.\n\n\"An image recognition device according to the invention is an image\nrecognition device used in an image display unit which has a detection image\ndisplay device displaying a detection image on an image display surface, and\nan image capturing device capturing up an image of the image display surface,\nand in which when a plane including a group of beams forming an upper end in a\nvertical direction of the detection image is a defined as a first imaginary\nplane, a plane including a group of beams forming a lower end in the vertical\ndirection of the detection image is defined as a second imaginary plane, an\narea situated between the image display surface and the detection image\ndisplay device and between the first imaginary plane and the second imaginary\nplane is defined as a first orthant, an area situated above the first orthant\nin the vertical direction is defined as a second orthant, and an area situated\nbelow the first orthant in the vertical direction is defined as a third\northant, the image capturing device is arranged in the second orthant or the\nthird orthant.\n\n\"The image recognition device includes an image processing unit which detects,\nbased on the image acquired by the image capturing device, a distance between\na missing part generated on the image display surface due to light from the\ndetection image display device being blocked by an object when the object is\nsituated between the detection image display device and the image display\nsurface, and the detection image situated on an epipolar line decided based on\na positional relation between the image capturing device and the detection\nimage display device and passing through the missing part, and displayed on\nthe object, and which determines whether the object is in contact with the\nimage display surface or not, based on a result of the detection.\n\n\"Thus, an image recognition device that can achieve touch recognition with\nhigh accuracy is provided.\n\n\"In the image recognition device according to the invention, it is preferable\nthat the detection image has a linear pattern intersecting the epipolar line.\n\n\"Thus, the detection image has a relatively simple configuration.\n\n\"In the image recognition device according to the invention, it is preferable\nthat the image capturing device is arranged in the second orthant, and\n\n\"that both the first imaginary plane and the second imaginary plane are tilted\nin such a way that the image display surface side is situated below the\ndetection image display device side.\n\n\"Thus, the image capturing device can capture an image of the missing part\nmore securely.\n\n\"In the image recognition device according to the invention, it is preferable\nthat the image capturing device is arranged in the third orthant, and\n\n\"that both the first imaginary plane and the second imaginary plane are tilted\nin such a way that the image display surface side is situated above the\ndetection image display device side.\n\n\"Thus, the image capturing device can capture an image of the missing part\nmore securely.\n\n\"In the image recognition device according to the invention, it is preferable\nthat a missing portion of the linear pattern due to the missing part is\ndisplayed on the object, and\n\n\"that the image processing unit detects a distance along the epipolar line\nbetween a position where the missing portion is displayed when the object is\nabsent and an actual position where the missing portion is displayed on the\nobject.\n\n\"Thus, touch recognition can be carried out relatively easily and with high\naccuracy.\n\n\"In the image recognition device according to the invention, it is preferable\nthat the image processing unit has a position estimation unit which estimates\na position of a distal end part of the object, based on a shape of the misting\npart.\n\n\"Thus, the contact position between the object and the image display surface\ncan be detected more accurately.\n\n\"In the image recognition device according to the invention, it is preferable\nthat the detection image has a first linear pattern and a second linear\npattern which extend intersecting the epipolar line and which are different\npatterns from each other, and\n\n\"that the first linear pattern and the second linear pattern are arranged\nalternately along a direction of extension of the epipolar line.\n\n\"Thus, touch recognition can be carried out and the contact position between\nthe object and the image display surface can be detected, with a higher\nresolution than the resolution of the image capturing device.\n\n\"In the image recognition device according to the invention, it is preferable\nthat the detection image has a first area situated on a near side to the image\ncapturing device and a second area situated on a farther side from the image\ncapturing device than the first area, that a linear pattern extending along\nthe epipolar line is arranged in the first area, and that a linear pattern\nintersecting the epipolar line is arranged in the second area.\n\n\"Thus, touch recognition can be carried out more securely, particularly in the\nfirst area.\n\n\"An image recognition method according to the invention is an image\nrecognition method used in an image display unit which has a detection image\ndisplay device displaying a detection image on an image display surface, and\nan image capturing device capturing an image of the image display surface, and\nin which when a plane including a group of beams forming an upper end in a\nvertical direction of the detection image is a defined as a first imaginary\nplane, a plane including a group of beams forming a lower end in the vertical\ndirection of the detection image is defined as a second imaginary plane, an\narea situated between the image display surface and the detection image\ndisplay device and between the first imaginary plane and the second imaginary\nplane is defined as a first orthant, an area situated above the first orthant\nin the vertical direction is defined as a second orthant, and an area situated\nbelow the first orthant in the vertical direction is defined as a third\northant, the image capturing device is arranged in the second orthant or the\nthird orthant.\n\n\"The image recognition method includes detecting, based on the image acquired\nby the image capturing device, a distance between a missing part generated on\nthe image display surface due to light from the detection image display device\nbeing blocked by an object when the object is situated between the detection\nimage display device and the image display surface, and the detection image\nsituated on an epipolar line decided based on a positional relation between\nthe image capturing device and the detection image display device and passing\nthrough the missing part, and displayed on the object, and determining whether\nthe object is in contact with the image display surface or not, based on a\nresult of the detection.\n\n\"Thus, touch recognition can be carried out with high accuracy.\n\n\"An image recognition unit according to the invention includes:\n\n\"the image recognition device according to the invention;\n\n\"the detection image display device; and\n\n\"the image capturing device.\n\n\"Thus, an image recognition unit which can achieve touch recognition with high\naccuracy is provided.\n\n\"It is preferable that the image recognition unit has an image display device\nwhich displays an image on the image display surface.\n\n\"Thus, a desired image can be displayed on the image display surface.\"\n\nThe claims supplied by the inventors are:\n\n\"The invention claimed is:\n\n\"1\\. An image recognition device determining whether an object is in contact\nwith an image display surface or not, based on an image of the image display\nsurface, on which a detection image is displayed by a detection image display\ndevice, captured by an image capturing device, comprising an image processing\nunit configured to: detect, based on the image captured by the image capturing\ndevice, a distance, along an epipolar line, between a missing part and the\ndetection image that is displayed on the object situated between the detection\nimage display device and the image display surface, the missing part being\ngenerated on the image display surface due to light from the detection image\ndisplay device being blocked by the object, and the epipolar line being\ndecided based on a positional relation between the image capturing device and\nthe detection image display device and passing through the missing part, and\ndetermine whether the object is in contact with the image display surface or\nnot, based on the detected distance.\n\n\"2\\. The image recognition device according to claim 1, wherein the detection\nimage has a linear pattern intersecting the epipolar line.\n\n\"3\\. The image recognition device according to claim 2, wherein a missing\nportion of the linear pattern due to the missing part is displayed on the\nobject, and the image processing unit detects a distance along the epipolar\nline between a position where the missing portion is displayed when the object\nis absent and an actual position where the missing portion is displayed on the\nobject.\n\n\"4\\. The image recognition device according to claim 1, wherein the image\nprocessing unit has a position estimation unit which estimates a position of a\ndistal end part of the object, based on a shape of the missing part.\n\n\"5\\. The image recognition device according to claim 1, wherein the detection\nimage has a first linear pattern and a second linear pattern which extend\nintersecting the epipolar line and which are different patterns from each\nother, and the first linear pattern and the second linear pattern are arranged\nalternately along a direction of extension of the epipolar line.\n\n\"6\\. The image recognition device according to claim 1, wherein the detection\nimage has a first area situated on a near side to the image capturing device\nand a second area situated on a farther side from the image capturing device\nthan the first area, and a linear pattern extending along the epipolar line is\narranged in the first area, and a linear pattern intersecting the epipolar\nline is arranged in the second area.\n\n\"7\\. An image recognition unit comprising: the image recognition device\naccording to claim 1; the detection image display device; and the image\ncapturing device.\n\n\"8\\. The image recognition unit according to claim 7, comprising an image\ndisplay device which displays an image on the image display surface.\n\n\"9\\. The image recognition device according to claim 1, wherein when a plane\nincluding a group of beams forming an upper end in a vertical direction of the\ndetection image is defined as a first imaginary plane, a plane including a\ngroup of beams forming a lower end in the vertical direction of the detection\nimage is defined as a second imaginary plane, an area situated between the\nimage display surface and the detection image display device and between the\nfirst imaginary plane and the second imaginary plane is defined as a first\northant, an area situated above the first orthant in the vertical direction is\ndefined as a second orthant, and an area situated below the first orthant in\nthe vertical direction is defined as a third orthant, the image capturing\ndevice is arranged in the second orthant or the third orthant.\n\n\"10\\. The image recognition device according to claim 9, wherein the image\ncapturing device is arranged in the second orthant, and both the first\nimaginary plane and the second imaginary plane are tilted in such a way that\nthe image display surface side is situated below the detection image display\ndevice side.\n\n\"11\\. The image recognition device according to claim 9, wherein the image\ncapturing device is arranged in the third orthant, and both the first\nimaginary plane and the second imaginary plane are tilted in such a way that\nthe image display surface side is situated above the detection image display\ndevice side.\n\n\"12\\. An image recognition method determining whether an object is in contact\nwith an image display surface or not, based on an image of the image display\nsurface, on which a detection image is displayed by a detection image display\ndevice, captured by an image capturing device, comprising: detecting, based on\nthe image captured by the image capturing device, a distance, along an\nepipolar line, between a missing part and the detection image that is\ndisplayed on the object situated between the detection image display device\nand the image display surface, the missing part being generated on the image\ndisplay surface due to light from the detection image display device being\nblocked by the object, and the epipolar line being decided based on a\npositional relation between the image capturing device and the detection image\ndisplay device and passing through the missing part, and determining whether\nthe object is in contact with the image display surface or not, based on the\ndetected distance.\"\n\nFor the URL and additional information on this patent, see: Yamauchi, Taisuke.\nImage Recognition Device, Image Recognition Method, And Image Recognition\nUnit. U.S. Patent Number 10,664,104, filed March 22, 2017, and published\nonline on June 8, 2020. Patent URL: [http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,664,104.PN.&OS=PN/10,664,104RS=PN/10,664,104](http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,664,104.PN.&OS=PN/10,664,104RS=PN/10,664,104)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Seiko Epson Corporation"
+        ],
+        "location": [
+            "Tokyo, Japan",
+            "Alexandria, Virginia",
+            "Japan",
+            "U.S."
+        ],
+        "person": [],
+        "companies": [
+            "News Reporter-Staff News",
+            "Seiko Epson Corporation"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_GEOG_7761DED56F860A67.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "orthant",
+                "relevance": 0.259499,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Yamauchi",
+                "relevance": 0.188497,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Taisuke",
+                "relevance": 0.178974,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Japan",
+                "relevance": 0.174052,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "MusicalGroup",
+                        "BroadcastArtist",
+                        "MusicalArtist",
+                        "RecordProducer",
+                        "Country"
+                    ],
+                    "name": "Japan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Japan"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Virginia",
+                "relevance": 0.17217,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Virginia"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alexandria",
+                "relevance": 0.167745,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Alexandria",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Alexandria"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Seiko Epson Corporation",
+                "relevance": 0.167517,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Seiko Epson",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Seiko_Epson"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.815738,
+                    "label": "negative"
+                },
+                "text": "NIR",
+                "relevance": 0.162189,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.160554,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.368838,
+                    "label": "positive"
+                },
+                "text": "Tokyo",
+                "relevance": 0.157789,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "JapanesePrefecture",
+                        "OlympicHostCity",
+                        "PlaceWithNeighborhoods",
+                        "City"
+                    ],
+                    "name": "Tokyo",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Tokyo"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Daily Asia",
+                "relevance": 0.148785,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Matsumoto",
+                "relevance": 0.145196,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.145001,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "patent"
+                },
+                "sentence": " Business -- Seiko Epson Corporation (Tokyo, Japan) has been issued patent",
+                "object": {
+                    "text": "Business -- Seiko Epson Corporation (Tokyo, Japan)"
+                },
+                "action": {
+                    "verb": {
+                        "text": "issue",
+                        "tense": "past"
+                    },
+                    "text": "has been issued",
+                    "normalized": "have be issue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "number 10,664,104"
+                },
+                "sentence": " number 10,664,104, according to news reporting originating out of Alexandria,",
+                "object": {
+                    "text": "to news reporting originating out of Alexandria,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The patent's inventor"
+                },
+                "sentence": " The patent's inventor is Yamauchi, Taisuke (Matsumoto, Japan).",
+                "object": {
+                    "text": "Yamauchi, Taisuke (Matsumoto, Japan)"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent"
+                },
+                "sentence": " This patent was filed on March 22, 2017 and was published online on June 8,",
+                "action": {
+                    "verb": {
+                        "text": "file",
+                        "tense": "past"
+                    },
+                    "text": "was filed",
+                    "normalized": "be file"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent"
+                },
+                "sentence": " This patent was filed on March 22, 2017 and was published online on June 8,",
+                "object": {
+                    "text": "published online"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the inventors, news correspondents"
+                },
+                "sentence": " From the background information supplied by the inventors, news correspondents",
+                "object": {
+                    "text": "the background information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "supply",
+                        "tense": "past"
+                    },
+                    "text": "supplied",
+                    "normalized": "supply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a technique"
+                },
+                "sentence": " obtained the following quote: \"As a technique that is likely to be able to be",
+                "object": {
+                    "text": "likely"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "whether or not a finger"
+                },
+                "sentence": " applied to image recognition to detect whether or not a finger is in contact",
+                "object": {
+                    "text": "in contact"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an image"
+                },
+                "sentence": " with a screen where an image is projected from a projector, there is a",
+                "object": {
+                    "text": "projected from a projector"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an image"
+                },
+                "sentence": " with a screen where an image is projected from a projector, there is a",
+                "action": {
+                    "verb": {
+                        "text": "project",
+                        "tense": "past"
+                    },
+                    "text": "is projected",
+                    "normalized": "be project"
+                }
+            },
+            {
+                "subject": {
+                    "text": "whether or not the finger"
+                },
+                "sentence": " whether or not the finger is in contact with the screen, based on the acquired",
+                "object": {
+                    "text": "in contact with the screen"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "NewsRx reporters"
+                },
+                "sentence": " Supplementing the background information on this patent, NewsRx reporters also",
+                "object": {
+                    "text": "the background information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Supplementing",
+                        "tense": "present"
+                    },
+                    "text": "Supplementing",
+                    "normalized": "Supplementing"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image recognition technique"
+                },
+                "sentence": " \"However, the image recognition technique described in PTL 1 has a problem in",
+                "object": {
+                    "text": "in PTL 1"
+                },
+                "action": {
+                    "verb": {
+                        "text": "describe",
+                        "tense": "past"
+                    },
+                    "text": "described",
+                    "normalized": "describe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image recognition technique described in PTL 1"
+                },
+                "sentence": " \"However, the image recognition technique described in PTL 1 has a problem in",
+                "object": {
+                    "text": "a problem in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " that it has poor detection accuracy for a position (depth) of the finger in",
+                "object": {
+                    "text": "poor detection accuracy for a position (depth) of the finger in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Such an object"
+                },
+                "sentence": " \"Such an object is achieved the following invention.",
+                "object": {
+                    "text": "achieved the following invention"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "An image recognition device"
+                },
+                "sentence": " \"An image recognition device according to the invention is an image",
+                "object": {
+                    "text": "to the invention"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "recognition device"
+                },
+                "sentence": " recognition device used in an image display unit which has a detection image",
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "used",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an image display unit"
+                },
+                "sentence": " recognition device used in an image display unit which has a detection image",
+                "object": {
+                    "text": "a detection image"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "display device"
+                },
+                "sentence": " display device displaying a detection image on an image display surface, and",
+                "object": {
+                    "text": "a detection image"
+                },
+                "action": {
+                    "verb": {
+                        "text": "display",
+                        "tense": "present"
+                    },
+                    "text": "displaying",
+                    "normalized": "display"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an image"
+                },
+                "sentence": " an image capturing device capturing up an image of the image display surface,",
+                "object": {
+                    "text": "device"
+                },
+                "action": {
+                    "verb": {
+                        "text": "capture",
+                        "tense": "present"
+                    },
+                    "text": "capturing",
+                    "normalized": "capture"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a group of beams forming an upper end"
+                },
+                "sentence": " and in which when a plane including a group of beams forming an upper end in a",
+                "object": {
+                    "text": "a plane"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a plane including a group of beams"
+                },
+                "sentence": " and in which when a plane including a group of beams forming an upper end in a",
+                "object": {
+                    "text": "an upper end"
+                },
+                "action": {
+                    "verb": {
+                        "text": "form",
+                        "tense": "present"
+                    },
+                    "text": "forming",
+                    "normalized": "form"
+                }
+            },
+            {
+                "subject": {
+                    "text": "vertical direction of the detection image"
+                },
+                "sentence": " vertical direction of the detection image is a defined as a first imaginary",
+                "object": {
+                    "text": "a defined as a first imaginary"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a group of beams forming a lower end in the vertical"
+                },
+                "sentence": " plane, a plane including a group of beams forming a lower end in the vertical",
+                "object": {
+                    "text": "a plane"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "plane, a plane including a group of beams"
+                },
+                "sentence": " plane, a plane including a group of beams forming a lower end in the vertical",
+                "object": {
+                    "text": "a lower end in the vertical"
+                },
+                "action": {
+                    "verb": {
+                        "text": "form",
+                        "tense": "present"
+                    },
+                    "text": "forming",
+                    "normalized": "form"
+                }
+            },
+            {
+                "subject": {
+                    "text": "direction of the detection image"
+                },
+                "sentence": " direction of the detection image is defined as a second imaginary plane, an",
+                "object": {
+                    "text": "defined as a second imaginary plane"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "direction of the detection image"
+                },
+                "sentence": " direction of the detection image is defined as a second imaginary plane, an",
+                "object": {
+                    "text": "as a second imaginary plane"
+                },
+                "action": {
+                    "verb": {
+                        "text": "define",
+                        "tense": "past"
+                    },
+                    "text": "is defined",
+                    "normalized": "be define"
+                }
+            },
+            {
+                "subject": {
+                    "text": "area"
+                },
+                "sentence": " area situated between the image display surface and the detection image",
+                "object": {
+                    "text": "between the image display surface and the detection image"
+                },
+                "action": {
+                    "verb": {
+                        "text": "situate",
+                        "tense": "past"
+                    },
+                    "text": "situated",
+                    "normalized": "situate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "plane"
+                },
+                "sentence": " plane is defined as a first orthant, an area situated above the first orthant",
+                "object": {
+                    "text": "as a first orthant, an area situated above the first orthant"
+                },
+                "action": {
+                    "verb": {
+                        "text": "define",
+                        "tense": "past"
+                    },
+                    "text": "is defined",
+                    "normalized": "be define"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the vertical direction"
+                },
+                "sentence": " in the vertical direction is defined as a second orthant, and an area situated",
+                "object": {
+                    "text": "defined as a second orthant"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the vertical direction"
+                },
+                "sentence": " in the vertical direction is defined as a second orthant, and an area situated",
+                "object": {
+                    "text": "as a second orthant"
+                },
+                "action": {
+                    "verb": {
+                        "text": "define",
+                        "tense": "past"
+                    },
+                    "text": "is defined",
+                    "normalized": "be define"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the first orthant in the vertical direction"
+                },
+                "sentence": " below the first orthant in the vertical direction is defined as a third",
+                "object": {
+                    "text": "defined as a third"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the first orthant in the vertical direction"
+                },
+                "sentence": " below the first orthant in the vertical direction is defined as a third",
+                "object": {
+                    "text": "as a third"
+                },
+                "action": {
+                    "verb": {
+                        "text": "define",
+                        "tense": "past"
+                    },
+                    "text": "is defined",
+                    "normalized": "be define"
+                }
+            },
+            {
+                "subject": {
+                    "text": "orthant, the image capturing device"
+                },
+                "sentence": " orthant, the image capturing device is arranged in the second orthant or the",
+                "object": {
+                    "text": "arranged in the second orthant"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image capturing device"
+                },
+                "sentence": " orthant, the image capturing device is arranged in the second orthant or the",
+                "action": {
+                    "verb": {
+                        "text": "arrange",
+                        "tense": "past"
+                    },
+                    "text": "is arranged",
+                    "normalized": "be arrange"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an image processing unit which detects,"
+                },
+                "sentence": " \"The image recognition device includes an image processing unit which detects,",
+                "object": {
+                    "text": "The image recognition device"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the image capturing device"
+                },
+                "sentence": " based on the image acquired by the image capturing device, a distance between",
+                "object": {
+                    "text": "the image"
+                },
+                "action": {
+                    "verb": {
+                        "text": "acquire",
+                        "tense": "past"
+                    },
+                    "text": "acquired",
+                    "normalized": "acquire"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a missing part"
+                },
+                "sentence": " a missing part generated on the image display surface due to light from the",
+                "object": {
+                    "text": "on the image display surface"
+                },
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "past"
+                    },
+                    "text": "generated",
+                    "normalized": "generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the detection image"
+                },
+                "sentence": " surface, and the detection image situated on an epipolar line decided based on",
+                "object": {
+                    "text": "on an epipolar line"
+                },
+                "action": {
+                    "verb": {
+                        "text": "situate",
+                        "tense": "past"
+                    },
+                    "text": "situated",
+                    "normalized": "situate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the object"
+                },
+                "sentence": " the object, and which determines whether the object is in contact with the",
+                "object": {
+                    "text": "in contact"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an image recognition device"
+                },
+                "sentence": " \"Thus, an image recognition device that can achieve touch recognition with",
+                "object": {
+                    "text": "touch recognition"
+                },
+                "action": {
+                    "verb": {
+                        "text": "achieve",
+                        "tense": "future"
+                    },
+                    "text": "can achieve",
+                    "normalized": "can achieve"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image recognition device"
+                },
+                "sentence": " \"In the image recognition device according to the invention, it is preferable",
+                "object": {
+                    "text": "to the invention"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the detection image"
+                },
+                "sentence": " that the detection image has a linear pattern intersecting the epipolar line.",
+                "object": {
+                    "text": "a linear pattern intersecting the epipolar line"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the detection image"
+                },
+                "sentence": " \"Thus, the detection image has a relatively simple configuration.",
+                "object": {
+                    "text": "a relatively simple configuration"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image recognition device"
+                },
+                "sentence": " \"In the image recognition device according to the invention, it is preferable",
+                "object": {
+                    "text": "to the invention"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image capturing device"
+                },
+                "sentence": " that the image capturing device is arranged in the second orthant, and",
+                "object": {
+                    "text": "arranged in the second orthant"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image capturing device"
+                },
+                "sentence": " that the image capturing device is arranged in the second orthant, and",
+                "action": {
+                    "verb": {
+                        "text": "arrange",
+                        "tense": "past"
+                    },
+                    "text": "is arranged",
+                    "normalized": "be arrange"
+                }
+            },
+            {
+                "subject": {
+                    "text": "both the first imaginary plane and the second imaginary plane"
+                },
+                "sentence": " \"that both the first imaginary plane and the second imaginary plane are tilted",
+                "object": {
+                    "text": "tilted"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "that the image display surface side"
+                },
+                "sentence": " in such a way that the image display surface side is situated below the",
+                "object": {
+                    "text": "situated below"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.884184,
+                "label": "/technology and computing/hardware/computer components"
+            },
+            {
+                "score": 0.781057,
+                "label": "/technology and computing/hardware/computer peripherals/computer monitors"
+            },
+            {
+                "score": 0.761469,
+                "label": "/technology and computing/hardware/computer/portable computer"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia Business -- Seiko Epson Corporation (Tokyo, Japan) has been issued patent number 10,664,104, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.69501,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Daily Asia\nBusiness",
+                        "location": [
+                            64,
+                            83
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Daily Asia\nBusiness",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia Business -- Seiko Epson Corporation (Tokyo, Japan) has been issued patent number 10,664,104, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.975208,
+                "arguments": [
+                    {
+                        "text": "Tokyo",
+                        "location": [
+                            112,
+                            117
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Tokyo"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Japan",
+                        "location": [
+                            119,
+                            124
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Japan",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia Business -- Seiko Epson Corporation (Tokyo, Japan) has been issued patent number 10,664,104, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.98944,
+                "arguments": [
+                    {
+                        "text": "Alexandria",
+                        "location": [
+                            215,
+                            225
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alexandria"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Virginia",
+                        "location": [
+                            227,
+                            235
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Virginia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventor is Yamauchi, Taisuke (Matsumoto, Japan).",
+                "score": 0.324569,
+                "arguments": [
+                    {
+                        "text": "Yamauchi",
+                        "location": [
+                            282,
+                            290
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Yamauchi"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Japan",
+                        "location": [
+                            312,
+                            317
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Japan",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventor is Yamauchi, Taisuke (Matsumoto, Japan).",
+                "score": 0.473291,
+                "arguments": [
+                    {
+                        "text": "Matsumoto",
+                        "location": [
+                            301,
+                            310
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Matsumoto"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Japan",
+                        "location": [
+                            312,
+                            317
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Japan",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "This patent was filed on March 22, 2017 and was published online on June 8, 2020.",
+                "score": 0.941969,
+                "arguments": [
+                    {
+                        "text": "March 22, 2017",
+                        "location": [
+                            346,
+                            360
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "March 22, 2017"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            337,
+                            342
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"An image recognition device according to the invention is an image recognition device used in an image display unit which has a detection image display device displaying a detection image on an image display surface, and an image capturing device capturing up an image of the image display surface, and in which when a plane including a group of beams forming an upper end in a vertical direction of the detection image is a defined as a first imaginary plane, a plane including a group of beams forming a lower end in the vertical direction of the detection image is defined as a second imaginary plane, an area situated between the image display surface and the detection image display device and between the first imaginary plane and the second imaginary plane is defined as a first orthant,",
+                "score": 0.810502,
+                "arguments": [
+                    {
+                        "text": "group",
+                        "location": [
+                            1994,
+                            1999
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "group"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "plane",
+                        "location": [
+                            1976,
+                            1981
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "plane"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"An image recognition device according to the invention is an image recognition device used in an image display unit which has a detection image display device displaying a detection image on an image display surface, and an image capturing device capturing up an image of the image display surface, and in which when a plane including a group of beams forming an upper end in a vertical direction of the detection image is a defined as a first imaginary plane, a plane including a group of beams forming a lower end in the vertical direction of the detection image is defined as a second imaginary plane, an area situated between the image display surface and the detection image display device and between the first imaginary plane and the second imaginary plane is defined as a first orthant,",
+                "score": 0.846255,
+                "arguments": [
+                    {
+                        "text": "group",
+                        "location": [
+                            2138,
+                            2143
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "group"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "plane",
+                        "location": [
+                            2120,
+                            2125
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "plane"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"An image recognition method according to the invention is an image recognition method used in an image display unit which has a detection image display device displaying a detection image on an image display surface, and an image capturing device capturing an image of the image display surface, and in which when a plane including a group of beams forming an upper end in a vertical direction of the detection image is a defined as a first imaginary plane, a plane including a group of beams forming a lower end in the vertical direction of the detection image is defined as a second imaginary plane, an area situated between the image display surface and the detection image display device and between the first imaginary plane and the second imaginary plane is defined as a first orthant,",
+                "score": 0.810502,
+                "arguments": [
+                    {
+                        "text": "group",
+                        "location": [
+                            7021,
+                            7026
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "group"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "plane",
+                        "location": [
+                            7003,
+                            7008
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "plane"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"An image recognition method according to the invention is an image recognition method used in an image display unit which has a detection image display device displaying a detection image on an image display surface, and an image capturing device capturing an image of the image display surface, and in which when a plane including a group of beams forming an upper end in a vertical direction of the detection image is a defined as a first imaginary plane, a plane including a group of beams forming a lower end in the vertical direction of the detection image is defined as a second imaginary plane, an area situated between the image display surface and the detection image display device and between the first imaginary plane and the second imaginary plane is defined as a first orthant,",
+                "score": 0.846255,
+                "arguments": [
+                    {
+                        "text": "group",
+                        "location": [
+                            7165,
+                            7170
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "group"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "plane",
+                        "location": [
+                            7147,
+                            7152
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "plane"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The image recognition device according to claim 1, wherein when a plane including a group of beams forming an upper end in a vertical direction of the detection image is defined as a first imaginary plane, a plane including a group of beams forming a lower end in the vertical direction of the detection image is defined as a second imaginary plane, an area situated between the image display surface and the detection image display device and between the first imaginary plane and the second imaginary plane is defined as a first orthant, an area situated above the first orthant in the vertical direction is defined as a second orthant, and an area situated below the first orthant in the vertical direction is defined as a third orthant, the image capturing device is arranged in the second orthant or the third orthant.",
+                "score": 0.819777,
+                "arguments": [
+                    {
+                        "text": "group",
+                        "location": [
+                            12105,
+                            12110
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "group"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "plane",
+                        "location": [
+                            12087,
+                            12092
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "plane"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The image recognition device according to claim 1, wherein when a plane including a group of beams forming an upper end in a vertical direction of the detection image is defined as a first imaginary plane, a plane including a group of beams forming a lower end in the vertical direction of the detection image is defined as a second imaginary plane, an area situated between the image display surface and the detection image display device and between the first imaginary plane and the second imaginary plane is defined as a first orthant, an area situated above the first orthant in the vertical direction is defined as a second orthant, and an area situated below the first orthant in the vertical direction is defined as a third orthant, the image capturing device is arranged in the second orthant or the third orthant.",
+                "score": 0.846255,
+                "arguments": [
+                    {
+                        "text": "group",
+                        "location": [
+                            12247,
+                            12252
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "group"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "plane",
+                        "location": [
+                            12229,
+                            12234
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "plane"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"An image recognition method according to the invention is an image recognition method used in an image display unit which has a detection image display device displaying a detection image on an image display surface, and an image capturing device capturing an image of the image display surface, and in which when a plane including a group of beams forming an upper end in a vertical direction of the detection image is a defined as a first imaginary plane, a plane including a group of beams forming a lower end in the vertical direction of the detection image is defined as a second imaginary plane, an area situated between the image display surface and the detection image display device and between the first imaginary plane and the second imaginary plane is defined as a first orthant,",
+                "score": 0.418216,
+                "arguments": [
+                    {
+                        "text": "plane",
+                        "location": [
+                            7282,
+                            7287
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "plane"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "area",
+                        "location": [
+                            7292,
+                            7296
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "area"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "U.S. Patent Number 10,664,104, filed March 22, 2017, and published online on June 8, 2020.",
+                "score": 0.978804,
+                "arguments": [
+                    {
+                        "text": "March 22, 2017",
+                        "location": [
+                            14674,
+                            14688
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "March 22, 2017"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            14668,
+                            14673
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "image recognition technique",
+                "relevance": 0.825154,
+                "count": 1
+            },
+            {
+                "text": "image recognition device",
+                "relevance": 0.814688,
+                "count": 23
+            },
+            {
+                "text": "image display unit",
+                "relevance": 0.744326,
+                "count": 2
+            },
+            {
+                "text": "poor detection accuracy",
+                "relevance": 0.670575,
+                "count": 1
+            },
+            {
+                "text": "image recognition method",
+                "relevance": 0.66972,
+                "count": 5
+            },
+            {
+                "text": "image",
+                "relevance": 0.659135,
+                "count": 19
+            },
+            {
+                "text": "image display surface",
+                "relevance": 0.651931,
+                "count": 22
+            },
+            {
+                "text": "image recognition unit",
+                "relevance": 0.651534,
+                "count": 6
+            },
+            {
+                "text": "image capturing device",
+                "relevance": 0.616433,
+                "count": 20
+            },
+            {
+                "text": "detection image",
+                "relevance": 0.603866,
+                "count": 15
+            },
+            {
+                "text": "image of the image display surface",
+                "relevance": 0.602673,
+                "count": 2
+            },
+            {
+                "text": "first imaginary plane",
+                "relevance": 0.583504,
+                "count": 5
+            },
+            {
+                "text": "vertical direction of the detection image",
+                "relevance": 0.583143,
+                "count": 2
+            },
+            {
+                "text": "second imaginary plane",
+                "relevance": 0.580314,
+                "count": 8
+            },
+            {
+                "text": "background information",
+                "relevance": 0.576667,
+                "count": 2
+            },
+            {
+                "text": "resolution of the image capturing device",
+                "relevance": 0.575933,
+                "count": 1
+            },
+            {
+                "text": "object of the invention",
+                "relevance": 0.567228,
+                "count": 1
+            },
+            {
+                "text": "patent's inventor",
+                "relevance": 0.560349,
+                "count": 1
+            },
+            {
+                "text": "recognition",
+                "relevance": 0.553395,
+                "count": 3
+            },
+            {
+                "text": "direction of depth",
+                "relevance": 0.552911,
+                "count": 1
+            },
+            {
+                "text": "vertical direction",
+                "relevance": 0.547766,
+                "count": 8
+            },
+            {
+                "text": "NIR-light random speckle pattern",
+                "relevance": 0.543346,
+                "count": 1
+            },
+            {
+                "text": "detection image display device",
+                "relevance": 0.540504,
+                "count": 9
+            },
+            {
+                "text": "first orthant in",
+                "relevance": 0.533576,
+                "count": 1
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.532882,
+                "count": 1
+            },
+            {
+                "text": "epipolar line",
+                "relevance": 0.530338,
+                "count": 13
+            },
+            {
+                "text": "additional information",
+                "relevance": 0.529824,
+                "count": 1
+            },
+            {
+                "text": "missing part",
+                "relevance": 0.529126,
+                "count": 11
+            },
+            {
+                "text": "plane",
+                "relevance": 0.526143,
+                "count": 6
+            },
+            {
+                "text": "second area",
+                "relevance": 0.523809,
+                "count": 4
+            },
+            {
+                "text": "touch recognition",
+                "relevance": 0.520891,
+                "count": 5
+            },
+            {
+                "text": "group of beams",
+                "relevance": 0.520179,
+                "count": 6
+            },
+            {
+                "text": "high accuracy",
+                "relevance": 0.519102,
+                "count": 3
+            },
+            {
+                "text": "area",
+                "relevance": 0.515785,
+                "count": 9
+            },
+            {
+                "text": "position",
+                "relevance": 0.514251,
+                "count": 4
+            },
+            {
+                "text": "Parser",
+                "relevance": 0.512922,
+                "count": 2
+            },
+            {
+                "text": "linear pattern",
+                "relevance": 0.512912,
+                "count": 7
+            },
+            {
+                "text": "image display surface side",
+                "relevance": 0.51244,
+                "count": 4
+            },
+            {
+                "text": "object",
+                "relevance": 0.510913,
+                "count": 25
+            },
+            {
+                "text": "different patterns",
+                "relevance": 0.510099,
+                "count": 1
+            },
+            {
+                "text": "patent",
+                "relevance": 0.509726,
+                "count": 4
+            },
+            {
+                "text": "contact",
+                "relevance": 0.509307,
+                "count": 8
+            },
+            {
+                "text": "URL",
+                "relevance": 0.509002,
+                "count": 1
+            },
+            {
+                "text": "claims",
+                "relevance": 0.508722,
+                "count": 1
+            },
+            {
+                "text": "reports",
+                "relevance": 0.507789,
+                "count": 1
+            },
+            {
+                "text": "technique",
+                "relevance": 0.507672,
+                "count": 2
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.50727,
+                "count": 1
+            },
+            {
+                "text": "depth",
+                "relevance": 0.507166,
+                "count": 1
+            },
+            {
+                "text": "unit",
+                "relevance": 0.506926,
+                "count": 5
+            },
+            {
+                "text": "detection image display device side",
+                "relevance": 0.505447,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "54508c918785bdb13af6a69d1ab5900d049a0ecf",
+        "filename": "202006050000NEWSRX__VRT_GEOG_7761DED56F860A67.json",
+        "file_type": "json"
+    },
+    "companyRecord": "OTC-PINK|SEKEY|CUSIP:81603X108;ISIN:US81603X1081|Seiko Epson Corporation.|extractor|DUNS:690549639;NECOID:1809853;ACORN:3164281704|SIGNIFICANT|ADRTICKER=OTC-PINK:SEKEY||ADR|PINX|SYNONYM",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Japan - Patent Issued for Image Recognition Device, Image Recognition Method, And Image Recognition Unit (USPTO 10,664,104): Seiko Epson Corporation",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at Daily Asia Business -- <org idsrc=\"xmltag.org\" value=\"Tokyo:6724\">Seiko Epson Corporation</org> (<location idsrc=\"xmltag.org\" value=\"LU/jp..tokyo\">Tokyo, Japan</location>) has been issued patent number 10,664,104, according to news reporting originating out of <location idsrc=\"xmltag.org\" value=\"LU/us.va.alxdra\">Alexandria, Virginia</location>, by NewsRx editors.</p>\n<p>The patent&#8217;s inventor is Yamauchi, Taisuke (Matsumoto, <location idsrc=\"xmltag.org\" value=\"LC/jp\">Japan</location>).</p>\n<p>This patent was filed on <chron>March 22, 2017</chron> and was published online on <chron>June 8, 2020</chron>.</p>\n<p>From the background information supplied by the inventors, news correspondents obtained the following quote: &#8220;As a technique that is likely to be able to be applied to image recognition to detect whether or not a finger is in contact with a screen where an image is projected from a projector, there is a technique of projecting a NIR-light random speckle pattern, acquiring with a NIR camera NIR light (reflected light) reflected by a finger, and detecting whether or not the finger is in contact with the screen, based on the acquired information (see, for example, PTL 1).&#8221;</p>\n<p>Supplementing the background information on this patent, NewsRx reporters also obtained the inventor&#8217;s summary information for this patent: &#8220;Technical Problem</p>\n<p>&#8220;However, the image recognition technique described in PTL 1 has a problem in that it has poor detection accuracy for a position (depth) of the finger in the direction of depth as viewed from the NIR camera and hence poor touch recognition accuracy.</p>\n<p>&#8220;An object of the invention is to provide an image recognition device, an image recognition method, and an image recognition unit which can achieve touch recognition with high accuracy.</p>\n<p>&#8220;Solution to Problem</p>\n<p>&#8220;Such an object is achieved the following invention.</p>\n<p>&#8220;An image recognition device according to the invention is an image recognition device used in an image display unit which has a detection image display device displaying a detection image on an image display surface, and an image capturing device capturing up an image of the image display surface, and in which when a plane including a group of beams forming an upper end in a vertical direction of the detection image is a defined as a first imaginary plane, a plane including a group of beams forming a lower end in the vertical direction of the detection image is defined as a second imaginary plane, an area situated between the image display surface and the detection image display device and between the first imaginary plane and the second imaginary plane is defined as a first orthant, an area situated above the first orthant in the vertical direction is defined as a second orthant, and an area situated below the first orthant in the vertical direction is defined as a third orthant, the image capturing device is arranged in the second orthant or the third orthant.</p>\n<p>&#8220;The image recognition device includes an image processing unit which detects, based on the image acquired by the image capturing device, a distance between a missing part generated on the image display surface due to light from the detection image display device being blocked by an object when the object is situated between the detection image display device and the image display surface, and the detection image situated on an epipolar line decided based on a positional relation between the image capturing device and the detection image display device and passing through the missing part, and displayed on the object, and which determines whether the object is in contact with the image display surface or not, based on a result of the detection.</p>\n<p>&#8220;Thus, an image recognition device that can achieve touch recognition with high accuracy is provided.</p>\n<p>&#8220;In the image recognition device according to the invention, it is preferable that the detection image has a linear pattern intersecting the epipolar line.</p>\n<p>&#8220;Thus, the detection image has a relatively simple configuration.</p>\n<p>&#8220;In the image recognition device according to the invention, it is preferable that the image capturing device is arranged in the second orthant, and</p>\n<p>&#8220;that both the first imaginary plane and the second imaginary plane are tilted in such a way that the image display surface side is situated below the detection image display device side.</p>\n<p>&#8220;Thus, the image capturing device can capture an image of the missing part more securely.</p>\n<p>&#8220;In the image recognition device according to the invention, it is preferable that the image capturing device is arranged in the third orthant, and</p>\n<p>&#8220;that both the first imaginary plane and the second imaginary plane are tilted in such a way that the image display surface side is situated above the detection image display device side.</p>\n<p>&#8220;Thus, the image capturing device can capture an image of the missing part more securely.</p>\n<p>&#8220;In the image recognition device according to the invention, it is preferable that a missing portion of the linear pattern due to the missing part is displayed on the object, and</p>\n<p>&#8220;that the image processing unit detects a distance along the epipolar line between a position where the missing portion is displayed when the object is absent and an actual position where the missing portion is displayed on the object.</p>\n<p>&#8220;Thus, touch recognition can be carried out relatively easily and with high accuracy.</p>\n<p>&#8220;In the image recognition device according to the invention, it is preferable that the image processing unit has a position estimation unit which estimates a position of a distal end part of the object, based on a shape of the misting part.</p>\n<p>&#8220;Thus, the contact position between the object and the image display surface can be detected more accurately.</p>\n<p>&#8220;In the image recognition device according to the invention, it is preferable that the detection image has a first linear pattern and a second linear pattern which extend intersecting the epipolar line and which are different patterns from each other, and</p>\n<p>&#8220;that the first linear pattern and the second linear pattern are arranged alternately along a direction of extension of the epipolar line.</p>\n<p>&#8220;Thus, touch recognition can be carried out and the contact position between the object and the image display surface can be detected, with a higher resolution than the resolution of the image capturing device.</p>\n<p>&#8220;In the image recognition device according to the invention, it is preferable that the detection image has a first area situated on a near side to the image capturing device and a second area situated on a farther side from the image capturing device than the first area, that a linear pattern extending along the epipolar line is arranged in the first area, and that a linear pattern intersecting the epipolar line is arranged in the second area.</p>\n<p>&#8220;Thus, touch recognition can be carried out more securely, particularly in the first area.</p>\n<p>&#8220;An image recognition method according to the invention is an image recognition method used in an image display unit which has a detection image display device displaying a detection image on an image display surface, and an image capturing device capturing an image of the image display surface, and in which when a plane including a group of beams forming an upper end in a vertical direction of the detection image is a defined as a first imaginary plane, a plane including a group of beams forming a lower end in the vertical direction of the detection image is defined as a second imaginary plane, an area situated between the image display surface and the detection image display device and between the first imaginary plane and the second imaginary plane is defined as a first orthant, an area situated above the first orthant in the vertical direction is defined as a second orthant, and an area situated below the first orthant in the vertical direction is defined as a third orthant, the image capturing device is arranged in the second orthant or the third orthant.</p>\n<p>&#8220;The image recognition method includes detecting, based on the image acquired by the image capturing device, a distance between a missing part generated on the image display surface due to light from the detection image display device being blocked by an object when the object is situated between the detection image display device and the image display surface, and the detection image situated on an epipolar line decided based on a positional relation between the image capturing device and the detection image display device and passing through the missing part, and displayed on the object, and determining whether the object is in contact with the image display surface or not, based on a result of the detection.</p>\n<p>&#8220;Thus, touch recognition can be carried out with high accuracy.</p>\n<p>&#8220;An image recognition unit according to the invention includes:</p>\n<p>&#8220;the image recognition device according to the invention;</p>\n<p>&#8220;the detection image display device; and</p>\n<p>&#8220;the image capturing device.</p>\n<p>&#8220;Thus, an image recognition unit which can achieve touch recognition with high accuracy is provided.</p>\n<p>&#8220;It is preferable that the image recognition unit has an image display device which displays an image on the image display surface.</p>\n<p>&#8220;Thus, a desired image can be displayed on the image display surface.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;The invention claimed is:</p>\n<p>&#8220;1. An image recognition device determining whether an object is in contact with an image display surface or not, based on an image of the image display surface, on which a detection image is displayed by a detection image display device, captured by an image capturing device, comprising an image processing unit configured to: detect, based on the image captured by the image capturing device, a distance, along an epipolar line, between a missing part and the detection image that is displayed on the object situated between the detection image display device and the image display surface, the missing part being generated on the image display surface due to light from the detection image display device being blocked by the object, and the epipolar line being decided based on a positional relation between the image capturing device and the detection image display device and passing through the missing part, and determine whether the object is in contact with the image display surface or not, based on the detected distance.</p>\n<p>&#8220;2. The image recognition device according to claim 1, wherein the detection image has a linear pattern intersecting the epipolar line.</p>\n<p>&#8220;3. The image recognition device according to claim 2, wherein a missing portion of the linear pattern due to the missing part is displayed on the object, and the image processing unit detects a distance along the epipolar line between a position where the missing portion is displayed when the object is absent and an actual position where the missing portion is displayed on the object.</p>\n<p>&#8220;4. The image recognition device according to claim 1, wherein the image processing unit has a position estimation unit which estimates a position of a distal end part of the object, based on a shape of the missing part.</p>\n<p>&#8220;5. The image recognition device according to claim 1, wherein the detection image has a first linear pattern and a second linear pattern which extend intersecting the epipolar line and which are different patterns from each other, and the first linear pattern and the second linear pattern are arranged alternately along a direction of extension of the epipolar line.</p>\n<p>&#8220;6. The image recognition device according to claim 1, wherein the detection image has a first area situated on a near side to the image capturing device and a second area situated on a farther side from the image capturing device than the first area, and a linear pattern extending along the epipolar line is arranged in the first area, and a linear pattern intersecting the epipolar line is arranged in the second area.</p>\n<p>&#8220;7. An image recognition unit comprising: the image recognition device according to claim 1; the detection image display device; and the image capturing device.</p>\n<p>&#8220;8. The image recognition unit according to claim 7, comprising an image display device which displays an image on the image display surface.</p>\n<p>&#8220;9. The image recognition device according to claim 1, wherein when a plane including a group of beams forming an upper end in a vertical direction of the detection image is defined as a first imaginary plane, a plane including a group of beams forming a lower end in the vertical direction of the detection image is defined as a second imaginary plane, an area situated between the image display surface and the detection image display device and between the first imaginary plane and the second imaginary plane is defined as a first orthant, an area situated above the first orthant in the vertical direction is defined as a second orthant, and an area situated below the first orthant in the vertical direction is defined as a third orthant, the image capturing device is arranged in the second orthant or the third orthant.</p>\n<p>&#8220;10. The image recognition device according to claim 9, wherein the image capturing device is arranged in the second orthant, and both the first imaginary plane and the second imaginary plane are tilted in such a way that the image display surface side is situated below the detection image display device side.</p>\n<p>&#8220;11. The image recognition device according to claim 9, wherein the image capturing device is arranged in the third orthant, and both the first imaginary plane and the second imaginary plane are tilted in such a way that the image display surface side is situated above the detection image display device side.</p>\n<p>&#8220;12. An image recognition method determining whether an object is in contact with an image display surface or not, based on an image of the image display surface, on which a detection image is displayed by a detection image display device, captured by an image capturing device, comprising: detecting, based on the image captured by the image capturing device, a distance, along an epipolar line, between a missing part and the detection image that is displayed on the object situated between the detection image display device and the image display surface, the missing part being generated on the image display surface due to light from the detection image display device being blocked by the object, and the epipolar line being decided based on a positional relation between the image capturing device and the detection image display device and passing through the missing part, and determining whether the object is in contact with the image display surface or not, based on the detected distance.&#8221;</p>\n<p>For the URL and additional information on this patent, see: Yamauchi, Taisuke. Image Recognition Device, Image Recognition Method, And Image Recognition Unit. <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> Patent Number 10,664,104, filed <chron>March 22, 2017</chron>, and published online on <chron>June 8, 2020</chron>. Patent URL: <a href=\"http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,664,104.PN.&amp;OS=PN/10,664,104RS=PN/10,664,104\" target=\"_blank\">http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,664,104.PN.&amp;OS=PN/10,664,104RS=PN/10,664,104</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GR/as",
+            "Asia"
+        ]
+    ]
+}

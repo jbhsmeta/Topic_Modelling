@@ -1,0 +1,354 @@
+{
+    "id": "cf671a29-da22-4657-990a-3b620ef3181d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020, The Middlesboro Daily News, All Rights Reserved.",
+    "geoOrigin": "Middlesboro, Kentucky",
+    "sourceType": "Newspaper",
+    "source": "Middlesboro Daily News (KY)",
+    "corpus_document_id": "22353357727926110938",
+    "description": "The Middlesboro Garden Club worked hard in the Victorian Garden pulling weeds and trimming bushes and trees. The ladies planted three new trees to freshen up the garden. You are invited to come and visit the beautiful landscape when you are downtown.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#7#50#70",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.homegard",
+            "relevance_score": "7",
+            "description": "Gardening",
+            "code": "IS/lifesoc.garden#7#70#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "7",
+            "description": "Home and Garden",
+            "code": "IS/lifesoc.homegard#7#50#70",
+            "level": 1
+        }
+    ],
+    "text": "The Middlesboro Garden Club worked hard in the Victorian Garden pulling weeds\nand trimming bushes and trees. The ladies planted three new trees to freshen\nup the garden. You are invited to come and visit the beautiful landscape when\nyou are downtown. The ladies held their breath for the photo and then weeded\nat a distance from each other.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "The Middlesboro Garden Club"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "The Middlesboro Garden Club"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ky.midoro",
+    "language": "English",
+    "filename": "202005270000NEWSBANKNEWSPPRS3343C18EC370865032E6559DD93088C.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.638448,
+                    "label": "positive"
+                },
+                "text": "Victorian Garden",
+                "relevance": 0.907579,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Middlesboro Garden Club",
+                "relevance": 0.80206,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The Middlesboro Garden Club"
+                },
+                "sentence": "The Middlesboro Garden Club worked hard in the Victorian Garden pulling weeds",
+                "action": {
+                    "verb": {
+                        "text": "work",
+                        "tense": "past"
+                    },
+                    "text": "worked",
+                    "normalized": "work"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Middlesboro Garden Club"
+                },
+                "sentence": "The Middlesboro Garden Club worked hard in the Victorian Garden pulling weeds",
+                "object": {
+                    "text": "weeds"
+                },
+                "action": {
+                    "verb": {
+                        "text": "pull",
+                        "tense": "present"
+                    },
+                    "text": "pulling",
+                    "normalized": "pull"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The ladies"
+                },
+                "sentence": " The ladies planted three new trees to freshen",
+                "object": {
+                    "text": "three new trees"
+                },
+                "action": {
+                    "verb": {
+                        "text": "plant",
+                        "tense": "past"
+                    },
+                    "text": "planted",
+                    "normalized": "plant"
+                }
+            },
+            {
+                "subject": {
+                    "text": "You"
+                },
+                "sentence": " You are invited to come and visit the beautiful landscape when",
+                "object": {
+                    "text": "to come"
+                },
+                "action": {
+                    "verb": {
+                        "text": "invite",
+                        "tense": "past"
+                    },
+                    "text": "invited",
+                    "normalized": "invite"
+                }
+            },
+            {
+                "subject": {
+                    "text": "You"
+                },
+                "sentence": " You are invited to come and visit the beautiful landscape when",
+                "object": {
+                    "text": "the beautiful landscape"
+                },
+                "action": {
+                    "verb": {
+                        "text": "visit",
+                        "tense": "present"
+                    },
+                    "text": "visit",
+                    "normalized": "visit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The ladies"
+                },
+                "sentence": " The ladies held their breath for the photo and then weeded",
+                "object": {
+                    "text": "their breath"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hold",
+                        "tense": "past"
+                    },
+                    "text": "held",
+                    "normalized": "hold"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The ladies"
+                },
+                "sentence": " The ladies held their breath for the photo and then weeded",
+                "action": {
+                    "verb": {
+                        "text": "weed",
+                        "tense": "past"
+                    },
+                    "text": "weeded",
+                    "normalized": "weed"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.759045,
+                "label": "/home and garden/gardening and landscaping/gardening"
+            },
+            {
+                "score": 0.555858,
+                "label": "/home and garden/gardening and landscaping/landscaping"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "The Middlesboro Garden Club worked hard in the Victorian Garden pulling weeds and trimming bushes and trees.",
+                "score": 0.198822,
+                "arguments": [
+                    {
+                        "text": "bushes",
+                        "location": [
+                            91,
+                            97
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "bushes"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Middlesboro Garden Club",
+                        "location": [
+                            4,
+                            27
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Middlesboro Garden Club"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "You are invited to come and visit the beautiful landscape when you are downtown.",
+                "score": 0.613849,
+                "arguments": [
+                    {
+                        "text": "you",
+                        "location": [
+                            233,
+                            236
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "You"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "downtown",
+                        "location": [
+                            241,
+                            249
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "downtown"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Middlesboro Garden Club",
+                "relevance": 0.965016,
+                "count": 1
+            },
+            {
+                "text": "Victorian Garden",
+                "relevance": 0.743173,
+                "count": 1
+            },
+            {
+                "text": "beautiful landscape",
+                "relevance": 0.708168,
+                "count": 1
+            },
+            {
+                "text": "ladies",
+                "relevance": 0.675091,
+                "count": 2
+            },
+            {
+                "text": "distance",
+                "relevance": 0.551986,
+                "count": 1
+            },
+            {
+                "text": "garden",
+                "relevance": 0.544078,
+                "count": 1
+            },
+            {
+                "text": "breath",
+                "relevance": 0.539953,
+                "count": 1
+            },
+            {
+                "text": "new trees",
+                "relevance": 0.534838,
+                "count": 1
+            },
+            {
+                "text": "trees",
+                "relevance": 0.534142,
+                "count": 1
+            },
+            {
+                "text": "bushes",
+                "relevance": 0.533963,
+                "count": 1
+            },
+            {
+                "text": "photo",
+                "relevance": 0.531159,
+                "count": 1
+            },
+            {
+                "text": "downtown",
+                "relevance": 0.528173,
+                "count": 1
+            },
+            {
+                "text": "weeds",
+                "relevance": 0.528173,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "45d68628ac9be056e73c751b77bd008a9daae050",
+        "filename": "202005270000NEWSBANKNEWSPPRS3343C18EC370865032E6559DD93088C.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-27T00:00:00-04:00",
+    "title": "Middlesboro Garden Club introduces fresh trees to garden",
+    "html": "<p><org>The Middlesboro Garden Club</org> worked hard in the Victorian Garden pulling weeds and trimming bushes and trees. The ladies planted three new trees to freshen up the garden. You are invited to come and visit the beautiful landscape when you are downtown. The ladies held their breath for the photo and then weeded at a distance from each other.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ky.midoro",
+            "Middlesboro"
+        ]
+    ]
+}

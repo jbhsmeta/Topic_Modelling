@@ -1,0 +1,503 @@
+{
+    "id": "838eb752-4897-4b24-94b6-87d21cb3c98b",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright (c) 2020 . Informatics India Ltd.",
+    "geoOrigin": "Bangalore, India",
+    "sourceType": "Business & Financial Newswire",
+    "source": "Indian Business Insight",
+    "corpus_document_id": "51496874289588031496",
+    "description": "Konkan Railway Corporation Limited has implemented various steps to ensure safe running of trains during monsoon. The 740- kilometre route of Konkan Railway covers the region from Kolad to Thokur that receives heavy rainfall during the monsoon. KRCL said 974 personnel will patrol the Konkan Railway route during the monsoon.",
+    "serviceName": "Indian Business Insight",
+    "locationCode": [],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#92",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.trans",
+            "relevance_score": "9",
+            "description": "Land Transportation",
+            "code": "IS/lifesoc.landtran#9#50#92",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc.landtran",
+            "relevance_score": "9",
+            "description": "Rail Transport",
+            "code": "IS/lifesoc.railtran#9#92#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Transportation",
+            "code": "IS/lifesoc.trans#9#50#92",
+            "level": 1
+        }
+    ],
+    "text": "Konkan Railway Corporation Limited (KRCL) has implemented various steps to\nensure safe running of trains during monsoon. The 740-kilometre route of\nKonkan Railway covers the region from Kolad to Thokur that receives heavy\nrainfall during the monsoon. KRCL said 974 personnel will patrol the Konkan\nRailway route during the monsoon. Vulnerable locations will have speed\nrestrictions and 24-hour watchmen.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Konkan   Railway  Corporation  Limited",
+            "Konkan Railway"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "Konkan Railway",
+            "Konkan   Railway  Corporation  Limited"
+        ]
+    },
+    "geoOrigin_code": "RU/in..bangal",
+    "language": "English",
+    "filename": "202006052000INFOMATCINDBUSIN1773621.XML",
+    "providerName": "Informatics India Limited",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Konkan Railway Corporation Limited",
+                "relevance": 0.989506,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Konkan Railway",
+                "relevance": 0.812881,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Konkan",
+                "relevance": 0.551474,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "KRCL",
+                "relevance": 0.479927,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "RadioStation"
+                    ],
+                    "name": "KRCL",
+                    "dbpedia_resource": "http://dbpedia.org/resource/KRCL"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Thokur",
+                "relevance": 0.155835,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "740-kilometre",
+                "relevance": 0.155835,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "24-hour",
+                "relevance": 0.155835,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Konkan Railway Corporation Limited (KRCL)"
+                },
+                "sentence": "Konkan Railway Corporation Limited (KRCL) has implemented various steps to",
+                "object": {
+                    "text": "implemented various steps"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Konkan Railway Corporation Limited (KRCL)"
+                },
+                "sentence": "Konkan Railway Corporation Limited (KRCL) has implemented various steps to",
+                "object": {
+                    "text": "various steps"
+                },
+                "action": {
+                    "verb": {
+                        "text": "implement",
+                        "tense": "past"
+                    },
+                    "text": "has implemented",
+                    "normalized": "have implement"
+                }
+            },
+            {
+                "subject": {
+                    "text": "safe running of trains"
+                },
+                "sentence": " ensure safe running of trains during monsoon.",
+                "action": {
+                    "verb": {
+                        "text": "ensure",
+                        "tense": "present"
+                    },
+                    "text": "ensure",
+                    "normalized": "ensure"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Konkan Railway"
+                },
+                "sentence": " Konkan Railway covers the region from Kolad to Thokur that receives heavy",
+                "object": {
+                    "text": "the region"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cover",
+                        "tense": "present"
+                    },
+                    "text": "covers",
+                    "normalized": "cover"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Thokur"
+                },
+                "sentence": " Konkan Railway covers the region from Kolad to Thokur that receives heavy",
+                "object": {
+                    "text": "heavy"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "present"
+                    },
+                    "text": "receives",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "KRCL"
+                },
+                "sentence": " KRCL said 974 personnel will patrol the Konkan",
+                "object": {
+                    "text": "974 personnel will patrol the Konkan"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Vulnerable locations"
+                },
+                "sentence": " Vulnerable locations will have speed",
+                "object": {
+                    "text": "speed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "future"
+                    },
+                    "text": "will have",
+                    "normalized": "will have"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.616867,
+                "label": "/science/weather"
+            },
+            {
+                "score": 0.616594,
+                "label": "/science/weather/meteorological disaster/hurricane"
+            },
+            {
+                "score": 0.616068,
+                "label": "/science/weather/meteorological disaster/flood"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "The 740-kilometre route of Konkan Railway covers the region from Kolad to Thokur that receives heavy rainfall during the monsoon.",
+                "score": 0.538349,
+                "arguments": [
+                    {
+                        "text": "Kolad",
+                        "location": [
+                            186,
+                            191
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Kolad"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Thokur",
+                        "location": [
+                            195,
+                            201
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Thokur"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "KRCL said 974 personnel will patrol the Konkan Railway route during the monsoon.",
+                "score": 0.981601,
+                "arguments": [
+                    {
+                        "text": "KRCL",
+                        "location": [
+                            251,
+                            255
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Konkan Railway Corporation Limited"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            256,
+                            260
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "KRCL said 974 personnel will patrol the Konkan Railway route during the monsoon.",
+                "score": 0.82539,
+                "arguments": [
+                    {
+                        "text": "personnel",
+                        "location": [
+                            265,
+                            274
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "personnel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "route",
+                        "location": [
+                            306,
+                            311
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "route"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "KRCL said 974 personnel will patrol the Konkan Railway route during the monsoon.",
+                "score": 0.502737,
+                "arguments": [
+                    {
+                        "text": "Konkan\nRailway",
+                        "location": [
+                            291,
+                            305
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Konkan\nRailway"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "route",
+                        "location": [
+                            306,
+                            311
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "route"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Konkan Railway Corporation Limited",
+                "relevance": 0.995821,
+                "count": 1
+            },
+            {
+                "text": "Konkan Railway",
+                "relevance": 0.883034,
+                "count": 1
+            },
+            {
+                "text": "personnel",
+                "relevance": 0.585423,
+                "count": 1
+            },
+            {
+                "text": "region",
+                "relevance": 0.522657,
+                "count": 1
+            },
+            {
+                "text": "monsoon",
+                "relevance": 0.510488,
+                "count": 3
+            },
+            {
+                "text": "KRCL",
+                "relevance": 0.473881,
+                "count": 2
+            },
+            {
+                "text": "Vulnerable locations",
+                "relevance": 0.440216,
+                "count": 1
+            },
+            {
+                "text": "safe running of trains",
+                "relevance": 0.38432,
+                "count": 1
+            },
+            {
+                "text": "740-kilometre route",
+                "relevance": 0.341161,
+                "count": 1
+            },
+            {
+                "text": "24-hour watchmen",
+                "relevance": 0.335838,
+                "count": 1
+            },
+            {
+                "text": "various steps",
+                "relevance": 0.327967,
+                "count": 1
+            },
+            {
+                "text": "Kolad",
+                "relevance": 0.274417,
+                "count": 1
+            },
+            {
+                "text": "Thokur",
+                "relevance": 0.271815,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "f24458d394c2ab0e2971e8c6f33276709eed4247",
+        "filename": "202006052000INFOMATCINDBUSIN1773621.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Konkan Railway Corporation Limited|extractor|DUNS:862237732;NECOID:1437949707;ACORN:3563433338|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T20:00:00-04:00",
+    "title": "KONKAN RAILWAY GETS READY FOR MONSOON",
+    "html": "<p><org idsrc=\"xmltag.org\" value=\"ACORN:3563433338\">Konkan   Railway  Corporation  Limited</org>  (KRCL)  has  implemented  various  steps to ensure safe running of trains during  monsoon.  The 740-kilometre route of <org idsrc=\"xmltag.org\" value=\"ACORN:3563433338\">Konkan Railway</org> covers the region from  Kolad to Thokur that receives heavy rainfall during the monsoon.  KRCL  said  974  personnel will patrol the <org idsrc=\"xmltag.org\" value=\"ACORN:3563433338\">Konkan Railway</org>  route  during  the  monsoon.  Vulnerable  locations  will  have   speed  restrictions and 24-hour watchmen.</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

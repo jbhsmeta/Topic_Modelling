@@ -1,0 +1,264 @@
+{
+    "id": "8c6bbe96-1e94-4342-b9fb-ccf94f0c59c9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "76871403731715292470",
+    "description": "more info: Location: KENYA BidDate: 6/ 15/ 2020 Tender Country: KENYA Tender Type: Tenders Tendering Authority: County Government of Homa Bay Tendering Authority Address: p.o box: 469-40300, homa-bay county, Financier: Self Funded.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/afr",
+            "relevance_score": "9",
+            "description": "Eastern Africa",
+            "code": "LB/eafr#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eafr",
+            "relevance_score": "9",
+            "description": "Kenya",
+            "code": "LC/ke#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Africa",
+            "code": "LR/afr#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/eafr.any#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "construction of pit latrine at ramba ogao in mfangano island ward.\n\nmore info : Location : KENYA BidDate : 6/15/2020 Tender Country : KENYA Tender\nType : Tenders Tendering Authority : County Government of Homa Bay Tendering\nAuthority Address : p.o box: 469-40300, homa-bay county, Financier : Self\nFunded",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "KENYA"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_12632_176208335_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Homa Bay Tendering",
+                "relevance": 0.865098,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.474762,
+                    "label": "positive"
+                },
+                "text": "KENYA",
+                "relevance": 0.677308,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "BoardMember",
+                        "Country"
+                    ],
+                    "name": "Kenya",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Kenya"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "mfangano island",
+                "relevance": 0.386665,
+                "type": "GeographicFeature",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "Island"
+                    ],
+                    "name": "Mfangano Island",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Mfangano_Island"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.796079,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.654267,
+                "label": "/business and industrial/construction"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "more info : Location : KENYA BidDate : 6/15/2020 Tender Country : KENYA Tender Type : Tenders Tendering Authority : County Government of Homa Bay Tendering Authority Address : p.o box: 469-40300, homa-bay county, Financier : Self Funded",
+                "score": 0.685936,
+                "arguments": [
+                    {
+                        "text": "6/15/2020 Tender",
+                        "location": [
+                            107,
+                            123
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/15/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender\nType : Tenders Tendering Authority : County Government of Homa Bay Tendering\nAuthority Address :",
+                        "location": [
+                            140,
+                            243
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender\nType : Tenders Tendering Authority : County Government of Homa Bay Tendering\nAuthority Address :"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.886773,
+                "count": 1
+            },
+            {
+                "text": "construction of pit latrine",
+                "relevance": 0.832917,
+                "count": 1
+            },
+            {
+                "text": "County Government",
+                "relevance": 0.726834,
+                "count": 1
+            },
+            {
+                "text": "KENYA BidDate",
+                "relevance": 0.683918,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.618137,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.575462,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.575057,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.558833,
+                "count": 1
+            },
+            {
+                "text": "Financier",
+                "relevance": 0.518222,
+                "count": 1
+            },
+            {
+                "text": "homa-bay county",
+                "relevance": 0.490593,
+                "count": 1
+            },
+            {
+                "text": "ramba ogao",
+                "relevance": 0.489497,
+                "count": 1
+            },
+            {
+                "text": "o box",
+                "relevance": 0.481686,
+                "count": 1
+            },
+            {
+                "text": "mfangano island ward",
+                "relevance": 0.43074,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "aab819fa2c3c8a91ec775a97f157b9b57c50cdb2",
+        "filename": "202006050210ALBA____ME_NA_NE_12632_176208335_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "construction of pit latrine at ramba ogao in mfangano island ward. [TenderNews.com - Tenders (India)]",
+    "html": "<p>construction of pit latrine at ramba ogao in mfangano island ward.</p>\n<p>more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/ke\">KENYA</location>\nBidDate : <chron>6/15/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/ke\">KENYA</location>\nTender Type : <org>Tenders\nTendering Authority</org> : County Government of Homa Bay\nTendering Authority Address : p.o box: 469-40300, homa-bay county,\nFinancier : Self Funded</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

@@ -1,0 +1,852 @@
+{
+    "id": "fbf038e8-667c-40eb-86fb-30e2de0b6146",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, CDC & FDA Daily",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "CDC & FDA Daily",
+    "corpus_document_id": "55383006013998822696",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at CDC& FDA Daily-- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from medrxiv.org:. \u201cThe present outbreak as consequence by coronavirus covid19 has generated an big impact over the world. Peru is a country with good start with quarantine, social...",
+    "serviceName": "Health Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "South America",
+            "code": "LB/sam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sam",
+            "relevance_score": "9",
+            "description": "Peru",
+            "code": "LC/pe#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/sam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Medical and Pharmaceutical Regulation",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at CDC & FDA\nDaily \\-- According to news reporting based on a preprint abstract, our\njournalists obtained the following quote sourced from\n[medrxiv.org](http://medrxiv.org):\n\n\"The present outbreak as consequence by coronavirus covid19 has generated an\nbig impact over the world. South American countries had their own limitations,\nchallengues and pandemic has highlighted what needs to improve. Peru is a\ncountry with good start with quarantine, social distancing policies but the\npolicies was not enough during the weeks. So, the analysis over April is\nperformed through infoveillance using posts from different cities to analyze\nwhat population was living or worried during this month.\n\n\"Results presents a high concern about international context, and national\nsituation, besides Economy and Politics are issues to solve. By constrast,\nReligion and Transport are not very important for peruvian citizens.\"\n\nThis preprint may not have been peer-reviewed. For more information on this\nresearch see: <http://medrxiv.org/content/10.1101/2020.05.24.20112193v1>\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "CDC &amp; FDA Daily"
+        ],
+        "location": [
+            "Peru"
+        ],
+        "person": [],
+        "companies": [
+            "News Reporter-Staff News",
+            "CDC &amp; FDA Daily"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__HLTHNWLR_2D1DE052979B9EDA.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.937997,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.48019,
+                    "label": "positive"
+                },
+                "text": "Peru",
+                "relevance": 0.791242,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Peru",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Peru"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "CDC",
+                "relevance": 0.759534,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "FDA",
+                "relevance": 0.723873,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "news reporting"
+                },
+                "sentence": " Daily \\-- According to news reporting based on a preprint abstract, our",
+                "object": {
+                    "text": "on a preprint abstract"
+                },
+                "action": {
+                    "verb": {
+                        "text": "base",
+                        "tense": "past"
+                    },
+                    "text": "based",
+                    "normalized": "base"
+                }
+            },
+            {
+                "subject": {
+                    "text": "journalists"
+                },
+                "sentence": " journalists obtained the following quote sourced from",
+                "object": {
+                    "text": "the following quote sourced from"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "South American countries"
+                },
+                "sentence": " South American countries had their own limitations,",
+                "object": {
+                    "text": "their own limitations"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "challengues and pandemic"
+                },
+                "sentence": " challengues and pandemic has highlighted what needs to improve.",
+                "object": {
+                    "text": "highlighted what needs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "challengues and pandemic"
+                },
+                "sentence": " challengues and pandemic has highlighted what needs to improve.",
+                "object": {
+                    "text": "what needs to improve"
+                },
+                "action": {
+                    "verb": {
+                        "text": "highlight",
+                        "tense": "past"
+                    },
+                    "text": "has highlighted",
+                    "normalized": "have highlight"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Peru"
+                },
+                "sentence": " Peru is a",
+                "object": {
+                    "text": "a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "policies"
+                },
+                "sentence": " policies was not enough during the weeks.",
+                "object": {
+                    "text": "not enough"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "posts"
+                },
+                "sentence": " performed through infoveillance using posts from different cities to analyze",
+                "object": {
+                    "text": "from different cities to analyze"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "present"
+                    },
+                    "text": "using",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "what population"
+                },
+                "sentence": " what population was living or worried during this month.",
+                "object": {
+                    "text": "living or worried"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "what population"
+                },
+                "sentence": " what population was living or worried during this month.",
+                "action": {
+                    "verb": {
+                        "text": "live",
+                        "tense": "past"
+                    },
+                    "text": "was living",
+                    "normalized": "be live"
+                }
+            },
+            {
+                "subject": {
+                    "text": "what population"
+                },
+                "sentence": " what population was living or worried during this month.",
+                "action": {
+                    "verb": {
+                        "text": "worry",
+                        "tense": "past"
+                    },
+                    "text": "worried",
+                    "normalized": "worry"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Results"
+                },
+                "sentence": " \"Results presents a high concern about international context, and national",
+                "object": {
+                    "text": "a high concern about international context"
+                },
+                "action": {
+                    "verb": {
+                        "text": "present",
+                        "tense": "present"
+                    },
+                    "text": "presents",
+                    "normalized": "present"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This preprint"
+                },
+                "sentence": " This preprint may not have been peer-reviewed.",
+                "object": {
+                    "text": "peer-reviewed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Our reports"
+                },
+                "sentence": " (Our reports deliver fact-based news of research and discoveries from around",
+                "object": {
+                    "text": "fact-based news of research and discoveries"
+                },
+                "action": {
+                    "verb": {
+                        "text": "deliver",
+                        "tense": "present"
+                    },
+                    "text": "deliver",
+                    "normalized": "deliver"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.835907,
+                "label": "/news/national news"
+            },
+            {
+                "score": 0.804564,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.771449,
+                "label": "/health and fitness/disease/cold and flu"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at CDC & FDA Daily \\-- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from [medrxiv.org](http://medrxiv.org):",
+                "score": 0.499015,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at CDC & FDA Daily \\-- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from [medrxiv.org](http://medrxiv.org):",
+                "score": 0.50046,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "CDC",
+                        "location": [
+                            64,
+                            67
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "CDC",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at CDC & FDA Daily \\-- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from [medrxiv.org](http://medrxiv.org):",
+                "score": 0.518847,
+                "arguments": [
+                    {
+                        "text": "FDA\nDaily \\",
+                        "location": [
+                            70,
+                            81
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "FDA\nDaily \\",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "CDC",
+                        "location": [
+                            64,
+                            67
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "CDC",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "clientOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at CDC & FDA Daily \\-- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from [medrxiv.org](http://medrxiv.org):",
+                "score": 0.269215,
+                "arguments": [
+                    {
+                        "text": "our",
+                        "location": [
+                            142,
+                            145
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "their"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "journalists",
+                        "location": [
+                            146,
+                            157
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "South American countries had their own limitations, challengues and pandemic has highlighted what needs to improve.",
+                "score": 0.378525,
+                "arguments": [
+                    {
+                        "text": "countries",
+                        "location": [
+                            355,
+                            364
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "countries",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Area"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "South American",
+                        "location": [
+                            340,
+                            354
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "South American",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Area"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "So, the analysis over April is performed through infoveillance using posts from different cities to analyze what population was living or worried during this month.",
+                "score": 0.769415,
+                "arguments": [
+                    {
+                        "text": "population",
+                        "location": [
+                            697,
+                            707
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "population"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cities",
+                        "location": [
+                            674,
+                            680
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "cities"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "American countries",
+                "relevance": 0.798966,
+                "count": 1
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.761951,
+                "count": 1
+            },
+            {
+                "text": "present outbreak",
+                "relevance": 0.701461,
+                "count": 1
+            },
+            {
+                "text": "good start",
+                "relevance": 0.650721,
+                "count": 1
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.571538,
+                "count": 1
+            },
+            {
+                "text": "international context",
+                "relevance": 0.569139,
+                "count": 1
+            },
+            {
+                "text": "different cities",
+                "relevance": 0.569139,
+                "count": 1
+            },
+            {
+                "text": "Results",
+                "relevance": 0.562314,
+                "count": 1
+            },
+            {
+                "text": "preprint abstract",
+                "relevance": 0.55627,
+                "count": 1
+            },
+            {
+                "text": "big impact",
+                "relevance": 0.555461,
+                "count": 1
+            },
+            {
+                "text": "high concern",
+                "relevance": 0.551974,
+                "count": 1
+            },
+            {
+                "text": "reports",
+                "relevance": 0.551754,
+                "count": 1
+            },
+            {
+                "text": "JUN",
+                "relevance": 0.540893,
+                "count": 1
+            },
+            {
+                "text": "Religion",
+                "relevance": 0.529922,
+                "count": 1
+            },
+            {
+                "text": "journalists",
+                "relevance": 0.529922,
+                "count": 1
+            },
+            {
+                "text": "news of research",
+                "relevance": 0.526202,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.525989,
+                "count": 1
+            },
+            {
+                "text": "population",
+                "relevance": 0.524688,
+                "count": 1
+            },
+            {
+                "text": "news",
+                "relevance": 0.518802,
+                "count": 1
+            },
+            {
+                "text": "fact",
+                "relevance": 0.518718,
+                "count": 1
+            },
+            {
+                "text": "Transport",
+                "relevance": 0.516188,
+                "count": 1
+            },
+            {
+                "text": "Economy",
+                "relevance": 0.516188,
+                "count": 1
+            },
+            {
+                "text": "coronavirus covid19",
+                "relevance": 0.515843,
+                "count": 1
+            },
+            {
+                "text": "research",
+                "relevance": 0.515058,
+                "count": 1
+            },
+            {
+                "text": "quarantine",
+                "relevance": 0.514953,
+                "count": 1
+            },
+            {
+                "text": "consequence",
+                "relevance": 0.513775,
+                "count": 1
+            },
+            {
+                "text": "policies",
+                "relevance": 0.513507,
+                "count": 2
+            },
+            {
+                "text": "analysis",
+                "relevance": 0.513507,
+                "count": 1
+            },
+            {
+                "text": "posts",
+                "relevance": 0.513015,
+                "count": 1
+            },
+            {
+                "text": "Politics",
+                "relevance": 0.511362,
+                "count": 1
+            },
+            {
+                "text": "peer",
+                "relevance": 0.510405,
+                "count": 1
+            },
+            {
+                "text": "issues",
+                "relevance": 0.508854,
+                "count": 1
+            },
+            {
+                "text": "CDC",
+                "relevance": 0.508854,
+                "count": 1
+            },
+            {
+                "text": "weeks",
+                "relevance": 0.507302,
+                "count": 1
+            },
+            {
+                "text": "Peru",
+                "relevance": 0.507302,
+                "count": 1
+            },
+            {
+                "text": "discoveries",
+                "relevance": 0.507302,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.507302,
+                "count": 1
+            },
+            {
+                "text": "April",
+                "relevance": 0.507302,
+                "count": 1
+            },
+            {
+                "text": "FDA",
+                "relevance": 0.507302,
+                "count": 1
+            },
+            {
+                "text": "world",
+                "relevance": 0.507302,
+                "count": 2
+            },
+            {
+                "text": "peruvian citizens",
+                "relevance": 0.503653,
+                "count": 1
+            },
+            {
+                "text": "own limitations",
+                "relevance": 0.503653,
+                "count": 1
+            },
+            {
+                "text": "challengues",
+                "relevance": 0.47624,
+                "count": 1
+            },
+            {
+                "text": "NewsRx",
+                "relevance": 0.470615,
+                "count": 1
+            },
+            {
+                "text": "infoveillance",
+                "relevance": 0.46856,
+                "count": 1
+            },
+            {
+                "text": "preprint",
+                "relevance": 0.456774,
+                "count": 1
+            },
+            {
+                "text": "constrast",
+                "relevance": 0.4537,
+                "count": 1
+            },
+            {
+                "text": "month",
+                "relevance": 0.4537,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "b7160856da103717a9458f1c643d981ed962fd9f",
+        "filename": "202006050000NEWSRX__HLTHNWLR_2D1DE052979B9EDA.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Covid19 Surveillance in Peru on April using Text Mining: COVID-19/SARS-CoV-2 News from Preprints",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at <org>CDC &amp; FDA Daily</org> -- According to news reporting based on a preprint abstract, our journalists obtained the following quote sourced from <a href=\"http://medrxiv.org\">medrxiv.org</a>:</p>\n<p>&#8220;The present outbreak as consequence by coronavirus covid19 has generated an big impact over the world. South American countries had their own limitations, challengues and pandemic has highlighted what needs to improve. <location idsrc=\"xmltag.org\" value=\"LC/pe\">Peru</location> is a country with good start with quarantine, social distancing policies but the policies was not enough during the weeks. So, the analysis over April is performed through infoveillance using posts from different cities to analyze what population was living or worried during this month.</p>\n<p>&#8220;Results presents a high concern about international context, and national situation, besides Economy and Politics are issues to solve. By constrast, Religion and Transport are not very important for peruvian citizens.&#8221;</p>\n<p>This preprint may not have been peer-reviewed. For more information on this research see: <a href=\"http://medrxiv.org/content/10.1101/2020.05.24.20112193v1\" target=\"_blank\">http://medrxiv.org/content/10.1101/2020.05.24.20112193v1</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ]
+    ]
+}

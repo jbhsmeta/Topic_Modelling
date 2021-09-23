@@ -1,0 +1,379 @@
+{
+    "id": "ec969cc3-a35c-445b-a760-b92f54d42dfe",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright, 2020, The Grand Island Independent, All Rights Reserved.",
+    "geoOrigin": "Grand Island, Nebraska",
+    "sourceType": "Newspaper",
+    "source": "Grand Island Independent, The (NE)",
+    "corpus_document_id": "71488230040070795372",
+    "description": "Mercedes Linton, 86, of Grand Island passed away Thursday, May 28, 2020. Cremation was chosen and burial of ashes will be in the Grand Island City Cemetery. All Faiths Funeral Home is entrusted with arrangements.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Mercedes Linton, 86, of Grand Island passed away Thursday, May 28, 2020.\n\nCremation was chosen and burial of ashes will be in the Grand Island City\nCemetery.\n\nAll Faiths Funeral Home is entrusted with arrangements.\n\nMore details will follow.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Faiths Funeral Home"
+        ],
+        "location": [
+            "Grand Island",
+            "Grand Island City Cemetery"
+        ],
+        "person": [
+            "Mercedes Linton"
+        ],
+        "companies": [
+            "Faiths Funeral Home"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ne.graand",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRS09CA89FFA94337573F29D7699ADADAD.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Grand Island",
+                "relevance": 0.998112,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.434076,
+                    "label": "positive"
+                },
+                "text": "Mercedes Linton",
+                "relevance": 0.714986,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Faiths Funeral Home",
+                "relevance": 0.635086,
+                "type": "Facility"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Grand Island"
+                },
+                "sentence": "Mercedes Linton, 86, of Grand Island passed away Thursday, May 28, 2020.",
+                "action": {
+                    "verb": {
+                        "text": "pass",
+                        "tense": "past"
+                    },
+                    "text": "passed",
+                    "normalized": "pass"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Cremation"
+                },
+                "sentence": " Cremation was chosen and burial of ashes will be in the Grand Island City",
+                "object": {
+                    "text": "chosen"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "burial of ashes"
+                },
+                "sentence": " Cremation was chosen and burial of ashes will be in the Grand Island City",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "will be",
+                    "normalized": "will be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "All Faiths Funeral Home"
+                },
+                "sentence": " All Faiths Funeral Home is entrusted with arrangements.",
+                "object": {
+                    "text": "entrusted with arrangements"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.653248,
+                "label": "/automotive and vehicles/cars/car culture"
+            },
+            {
+                "score": 0.646566,
+                "label": "/sports/cricket"
+            },
+            {
+                "score": 0.583085,
+                "label": "/automotive and vehicles/cars/performance vehicles"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "Mercedes Linton, 86, of Grand Island passed away Thursday, May 28, 2020.",
+                "score": 0.990385,
+                "arguments": [
+                    {
+                        "text": "Mercedes Linton",
+                        "location": [
+                            0,
+                            15
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mercedes Linton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "86",
+                        "location": [
+                            17,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "86"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Mercedes Linton, 86, of Grand Island passed away Thursday, May 28, 2020.",
+                "score": 0.96606,
+                "arguments": [
+                    {
+                        "text": "Mercedes Linton",
+                        "location": [
+                            0,
+                            15
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mercedes Linton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Grand Island",
+                        "location": [
+                            24,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Grand Island City\nCemetery"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "All Faiths Funeral Home is entrusted with arrangements.",
+                "score": 0.620415,
+                "arguments": [
+                    {
+                        "text": "Faiths",
+                        "location": [
+                            163,
+                            169
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Faiths"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Funeral",
+                        "location": [
+                            170,
+                            177
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "Funeral"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "All Faiths Funeral Home is entrusted with arrangements.",
+                "score": 0.497125,
+                "arguments": [
+                    {
+                        "text": "Faiths",
+                        "location": [
+                            163,
+                            169
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Faiths"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Home",
+                        "location": [
+                            178,
+                            182
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "All Faiths Funeral Home is entrusted with arrangements.",
+                "score": 0.41462,
+                "arguments": [
+                    {
+                        "text": "Funeral",
+                        "location": [
+                            170,
+                            177
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "Funeral"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Home",
+                        "location": [
+                            178,
+                            182
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Home"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Faiths Funeral Home",
+                "relevance": 0.91171,
+                "count": 1
+            },
+            {
+                "text": "Grand Island",
+                "relevance": 0.897951,
+                "count": 1
+            },
+            {
+                "text": "burial of ashes",
+                "relevance": 0.727789,
+                "count": 1
+            },
+            {
+                "text": "Cremation",
+                "relevance": 0.678783,
+                "count": 1
+            },
+            {
+                "text": "Linton",
+                "relevance": 0.573387,
+                "count": 1
+            },
+            {
+                "text": "details",
+                "relevance": 0.548532,
+                "count": 1
+            },
+            {
+                "text": "arrangements",
+                "relevance": 0.534112,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.297623,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.291588,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "3bd316f0c90d81b5c816b1b1b307fb999e571345",
+        "filename": "202005310000NEWSBANKNEWSPPRS09CA89FFA94337573F29D7699ADADAD.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "Mercedes Linton, 86",
+    "html": "<p><person>Mercedes Linton</person>, 86, of <location>Grand Island</location> passed away <chron>Thursday, May 28, 2020</chron>.</p>\n<p>Cremation was chosen and burial of ashes will be in the <location>Grand Island City Cemetery</location>.</p>\n\n<p>All <org>Faiths Funeral Home</org> is entrusted with arrangements.</p>\n\n<p>More details will follow.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ne.graand",
+            "Grand Island"
+        ]
+    ]
+}

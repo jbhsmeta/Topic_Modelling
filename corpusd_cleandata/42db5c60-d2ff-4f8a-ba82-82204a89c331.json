@@ -1,0 +1,988 @@
+{
+    "id": "42db5c60-d2ff-4f8a-ba82-82204a89c331",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 News World Communications, Inc.",
+    "geoOrigin": "Washington, District of Columbia",
+    "sourceType": "Newspaper",
+    "source": "Washington Times (DC)",
+    "corpus_document_id": "18813154520948838645",
+    "description": "President Trump's re-election campaign tweeted a 4- minute tribute video to George Floyd, narrated by the president. The video, in which Mr. Trump said \"we hear their pleas\" of protesters in the notorious killing of the Minneapolis black man, received more than a million views and also was re-tweeted by Donald Trump Jr. before being pulled down.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Politics and Government",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol.election",
+            "relevance_score": "9",
+            "description": "Political Campaigns",
+            "code": "IS/pol.campaign#9#99#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/pol.politics",
+            "relevance_score": "9",
+            "description": "Elections",
+            "code": "IS/pol.election#9#50#99",
+            "level": 2
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Politics",
+            "code": "IS/pol.politics#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "President Trump's re-election campaign tweeted a 4-minute tribute video to\nGeorge Floyd, narrated by the president.\n\nTwitter took it down Thursday.\n\nThe video, in which Mr. Trump said \"we hear their pleas\" of protesters in the\nnotorious killing of the Minneapolis black man, received more than a million\nviews and also was re-tweeted by Donald Trump Jr. before being pulled down.\n\n\"This X 1000!!!,\" the younger Mr. Trump said.\n\nNow the video is replaced by a message that reads, \"this media has been\ndisabled in response to a report by the copyright owner.\"\n\nLater in the video, according to The Hill, the president warns about \"violence\nand anarchy\" from \"radical leftwing groups\" and the images show looting and\nviolent mayhem.\n\nMr. Trump's voiceover also calls police \"devoted public servants\" to images of\nofficers hugging civilians and people cleaning up graffiti and garbage, the\nHill reported.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Minneapolis"
+        ],
+        "person": [
+            "President Trump's",
+            "George Floyd",
+            "Mr. Trump",
+            "Donald Trump Jr",
+            "Mr. Trump's"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.dc.wash",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSC55CFE12E306190BEEF1B147E23CABE.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": 0.474544,
+                    "label": "positive"
+                },
+                "text": "Donald Trump Jr.",
+                "relevance": 0.962213,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "TVActor"
+                    ],
+                    "name": "Donald Trump, Jr.",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Donald_Trump,_Jr."
+                }
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0.664967,
+                    "label": "positive"
+                },
+                "text": "president",
+                "relevance": 0.391462,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "George Floyd",
+                "relevance": 0.22948,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "FootballPlayer"
+                    ],
+                    "name": "George Floyd",
+                    "dbpedia_resource": "http://dbpedia.org/resource/George_Floyd"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.454051,
+                    "label": "negative"
+                },
+                "text": "Twitter",
+                "relevance": 0.207511,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [
+                        "Website",
+                        "VentureFundedCompany"
+                    ],
+                    "name": "Twitter",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Twitter"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hill",
+                "relevance": 0.202572,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.375171,
+                    "label": "negative"
+                },
+                "text": "Minneapolis",
+                "relevance": 0.173639,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "4-minute",
+                "relevance": 0.173639,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "President Trump's re-election campaign"
+                },
+                "sentence": "President Trump's re-election campaign tweeted a 4-minute tribute video to",
+                "object": {
+                    "text": "a 4-minute tribute video"
+                },
+                "action": {
+                    "verb": {
+                        "text": "tweet",
+                        "tense": "past"
+                    },
+                    "text": "tweeted",
+                    "normalized": "tweet"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the president"
+                },
+                "sentence": " George Floyd, narrated by the president.",
+                "object": {
+                    "text": "George Floyd"
+                },
+                "action": {
+                    "verb": {
+                        "text": "narrate",
+                        "tense": "past"
+                    },
+                    "text": "narrated",
+                    "normalized": "narrate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Twitter"
+                },
+                "sentence": " Twitter took it down Thursday.",
+                "object": {
+                    "text": "it"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "past"
+                    },
+                    "text": "took",
+                    "normalized": "take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " The video, in which Mr. Trump said \"we hear their pleas\" of protesters in the",
+                "object": {
+                    "text": "their pleas\" of protesters"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hear",
+                        "tense": "present"
+                    },
+                    "text": "hear",
+                    "normalized": "hear"
+                }
+            },
+            {
+                "subject": {
+                    "text": "notorious killing of the Minneapolis black man,"
+                },
+                "sentence": " notorious killing of the Minneapolis black man, received more than a million",
+                "object": {
+                    "text": "more than a million"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "past"
+                    },
+                    "text": "received",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by Donald Trump Jr."
+                },
+                "sentence": " views and also was re-tweeted by Donald Trump Jr. before being pulled down.",
+                "action": {
+                    "verb": {
+                        "text": "re-tweeted",
+                        "tense": "past"
+                    },
+                    "text": "was re-tweeted",
+                    "normalized": "be re-tweeted"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the video"
+                },
+                "sentence": " Now the video is replaced by a message that reads, \"this media has been",
+                "object": {
+                    "text": "replaced by a message that reads"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by a message"
+                },
+                "sentence": " Now the video is replaced by a message that reads, \"this media has been",
+                "object": {
+                    "text": "the video"
+                },
+                "action": {
+                    "verb": {
+                        "text": "replace",
+                        "tense": "past"
+                    },
+                    "text": "is replaced",
+                    "normalized": "be replace"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the president"
+                },
+                "sentence": " Later in the video, according to The Hill, the president warns about \"violence",
+                "object": {
+                    "text": "about \"violence"
+                },
+                "action": {
+                    "verb": {
+                        "text": "warn",
+                        "tense": "present"
+                    },
+                    "text": "warns",
+                    "normalized": "warn"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the images"
+                },
+                "sentence": " and anarchy\" from \"radical leftwing groups\" and the images show looting and",
+                "object": {
+                    "text": "looting"
+                },
+                "action": {
+                    "verb": {
+                        "text": "show",
+                        "tense": "present"
+                    },
+                    "text": "show",
+                    "normalized": "show"
+                }
+            },
+            {
+                "subject": {
+                    "text": "officers"
+                },
+                "sentence": " officers hugging civilians and people cleaning up graffiti and garbage, the",
+                "object": {
+                    "text": "civilians and people cleaning up graffiti and garbage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hug",
+                        "tense": "present"
+                    },
+                    "text": "hugging",
+                    "normalized": "hug"
+                }
+            },
+            {
+                "subject": {
+                    "text": "officers hugging civilians and people"
+                },
+                "sentence": " officers hugging civilians and people cleaning up graffiti and garbage, the",
+                "object": {
+                    "text": "up graffiti and garbage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "clean",
+                        "tense": "present"
+                    },
+                    "text": "cleaning",
+                    "normalized": "clean"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.874038,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.832233,
+                "label": "/law, govt and politics/politics/elections/presidential elections"
+            },
+            {
+                "score": 0.75365,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "The video, in which Mr. Trump said \"we hear their pleas\" of protesters in the notorious killing of the Minneapolis black man, received more than a million views and also was re-tweeted by Donald Trump Jr. before being pulled down.",
+                "score": 0.998903,
+                "arguments": [
+                    {
+                        "text": "Trump",
+                        "location": [
+                            173,
+                            178
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Trump"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            179,
+                            183
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": ",\" the younger Mr. Trump said.",
+                "score": 0.996387,
+                "arguments": [
+                    {
+                        "text": "Trump",
+                        "location": [
+                            415,
+                            420
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Trump"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            421,
+                            425
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Mr. Trump's voiceover also calls police \"devoted public servants\" to images of officers hugging civilians and people cleaning up graffiti and garbage, the Hill reported.",
+                "score": 0.992355,
+                "arguments": [
+                    {
+                        "text": "Hill",
+                        "location": [
+                            886,
+                            890
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Hill",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            891,
+                            899
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "The video, in which Mr. Trump said \"we hear their pleas\" of protesters in the notorious killing of the Minneapolis black man, received more than a million views and also was re-tweeted by Donald Trump Jr. before being pulled down.",
+                "score": 0.495057,
+                "arguments": [
+                    {
+                        "text": "Trump",
+                        "location": [
+                            173,
+                            178
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Trump"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "we",
+                        "location": [
+                            185,
+                            187
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "their"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The video, in which Mr. Trump said \"we hear their pleas\" of protesters in the notorious killing of the Minneapolis black man, received more than a million views and also was re-tweeted by Donald Trump Jr. before being pulled down.",
+                "score": 0.662996,
+                "arguments": [
+                    {
+                        "text": "protesters",
+                        "location": [
+                            209,
+                            219
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "protesters"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "killing",
+                        "location": [
+                            237,
+                            244
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "killing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The video, in which Mr. Trump said \"we hear their pleas\" of protesters in the notorious killing of the Minneapolis black man, received more than a million views and also was re-tweeted by Donald Trump Jr. before being pulled down.",
+                "score": 0.561493,
+                "arguments": [
+                    {
+                        "text": "killing",
+                        "location": [
+                            237,
+                            244
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "killing"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Minneapolis",
+                        "location": [
+                            252,
+                            263
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Minneapolis"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Now the video is replaced by a message that reads, \"this media has been disabled in response to a report by the copyright owner.\"",
+                "score": 0.523487,
+                "arguments": [
+                    {
+                        "text": "media",
+                        "location": [
+                            485,
+                            490
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "media",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "report",
+                        "location": [
+                            526,
+                            532
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "report"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Now the video is replaced by a message that reads, \"this media has been disabled in response to a report by the copyright owner.\"",
+                "score": 0.90851,
+                "arguments": [
+                    {
+                        "text": "owner",
+                        "location": [
+                            550,
+                            555
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "owner"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "report",
+                        "location": [
+                            526,
+                            532
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "report"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Later in the video, according to The Hill, the president warns about \"violence and anarchy\" from \"radical leftwing groups\" and the images show looting and violent mayhem.",
+                "score": 0.976825,
+                "arguments": [
+                    {
+                        "text": "president",
+                        "location": [
+                            606,
+                            615
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Floyd"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "warns",
+                        "location": [
+                            616,
+                            621
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "calls"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Mr. Trump's voiceover also calls police \"devoted public servants\" to images of officers hugging civilians and people cleaning up graffiti and garbage, the Hill reported.",
+                "score": 0.779993,
+                "arguments": [
+                    {
+                        "text": "Trump",
+                        "location": [
+                            735,
+                            740
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Trump"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "calls",
+                        "location": [
+                            758,
+                            763
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "calls"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Mr. Trump's voiceover also calls police \"devoted public servants\" to images of officers hugging civilians and people cleaning up graffiti and garbage, the Hill reported.",
+                "score": 0.63033,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            764,
+                            770
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "calls",
+                        "location": [
+                            758,
+                            763
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "calls"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "President Trump's re-election campaign",
+                "relevance": 0.907537,
+                "count": 1
+            },
+            {
+                "text": "4-minute tribute video",
+                "relevance": 0.823453,
+                "count": 1
+            },
+            {
+                "text": "Mr. Trump",
+                "relevance": 0.744969,
+                "count": 1
+            },
+            {
+                "text": "notorious killing of the Minneapolis",
+                "relevance": 0.652475,
+                "count": 1
+            },
+            {
+                "text": "younger Mr. Trump",
+                "relevance": 0.645517,
+                "count": 1
+            },
+            {
+                "text": "Donald Trump Jr.",
+                "relevance": 0.589158,
+                "count": 1
+            },
+            {
+                "text": "Mr. Trump's voiceover",
+                "relevance": 0.571982,
+                "count": 1
+            },
+            {
+                "text": "public servants",
+                "relevance": 0.569749,
+                "count": 1
+            },
+            {
+                "text": "copyright owner",
+                "relevance": 0.560425,
+                "count": 1
+            },
+            {
+                "text": "radical leftwing groups",
+                "relevance": 0.550367,
+                "count": 1
+            },
+            {
+                "text": "video",
+                "relevance": 0.543476,
+                "count": 3
+            },
+            {
+                "text": "George Floyd",
+                "relevance": 0.54256,
+                "count": 1
+            },
+            {
+                "text": "officers",
+                "relevance": 0.541476,
+                "count": 1
+            },
+            {
+                "text": "anarchy",
+                "relevance": 0.537418,
+                "count": 1
+            },
+            {
+                "text": "views",
+                "relevance": 0.535571,
+                "count": 1
+            },
+            {
+                "text": "Twitter",
+                "relevance": 0.520359,
+                "count": 1
+            },
+            {
+                "text": "civilians",
+                "relevance": 0.517669,
+                "count": 1
+            },
+            {
+                "text": "Hill",
+                "relevance": 0.51637,
+                "count": 2
+            },
+            {
+                "text": "police",
+                "relevance": 0.51592,
+                "count": 1
+            },
+            {
+                "text": "response",
+                "relevance": 0.515425,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.51377,
+                "count": 1
+            },
+            {
+                "text": "report",
+                "relevance": 0.512021,
+                "count": 1
+            },
+            {
+                "text": "message",
+                "relevance": 0.512021,
+                "count": 1
+            },
+            {
+                "text": "president",
+                "relevance": 0.511358,
+                "count": 2
+            },
+            {
+                "text": "graffiti",
+                "relevance": 0.509368,
+                "count": 1
+            },
+            {
+                "text": "pleas",
+                "relevance": 0.509368,
+                "count": 1
+            },
+            {
+                "text": "protesters",
+                "relevance": 0.507726,
+                "count": 1
+            },
+            {
+                "text": "garbage",
+                "relevance": 0.507726,
+                "count": 1
+            },
+            {
+                "text": "violence",
+                "relevance": 0.507726,
+                "count": 1
+            },
+            {
+                "text": "media",
+                "relevance": 0.507726,
+                "count": 1
+            },
+            {
+                "text": "images",
+                "relevance": 0.50568,
+                "count": 1
+            },
+            {
+                "text": "black man",
+                "relevance": 0.492041,
+                "count": 1
+            },
+            {
+                "text": "images show looting",
+                "relevance": 0.485921,
+                "count": 1
+            },
+            {
+                "text": "violent mayhem",
+                "relevance": 0.484024,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.411441,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-F",
+    "extracted_metadata": {
+        "sha1": "8cfb562d4d20b56d14e273498a4a67e0916899ef",
+        "filename": "202006050000NEWSBANKNEWSPPRSC55CFE12E306190BEEF1B147E23CABE.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Twitter removes Trump campaign George Floyd tribute",
+    "html": "<p><person>President Trump's</person> re-election campaign tweeted a 4-minute tribute video to <person>George Floyd</person>, narrated by the president.</p>\n<p>Twitter took it down Thursday.</p>\n\n<p>The video, in which <person>Mr. Trump</person> said \"we hear their pleas\" of protesters in the notorious killing of the <location idsrc=\"xmltag.org\" value=\"LU/us.mn.minnea\">Minneapolis</location> black man, received more than a million views and also was re-tweeted by <person>Donald Trump Jr</person>. before being pulled down.</p>\n\n<p>\"This X 1000!!!,\" the younger <person>Mr. Trump</person> said.</p>\n\n<p>Now the video is replaced by a message that reads, \"this media has been disabled in response to a report by the copyright owner.\"</p>\n\n<p>Later in the video, according to The Hill, the president warns about \"violence and anarchy\" from \"radical leftwing groups\" and the images show looting and violent mayhem.</p>\n\n<p><person>Mr. Trump's</person> voiceover also calls police \"devoted public servants\" to images of officers hugging civilians and people cleaning up graffiti and garbage, the Hill reported.</p>",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ],
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

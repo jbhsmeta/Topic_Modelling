@@ -1,0 +1,973 @@
+{
+    "id": "310bac4c-adda-4d05-bd7b-ff0a2f7a40a9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020, Venice Gondolier Sun",
+    "geoOrigin": "Port Charlotte, Florida",
+    "sourceType": "Newspaper",
+    "source": "Venice Gondolier Sun (FL)",
+    "corpus_document_id": "41498534573791850886",
+    "description": "ENGLEWOOD- An early morning vehicle crash on Manasota Key Road in Sarasota County left one North Port teenager dead and two other teens in serious condition Sunday, according to a Florida Highway Patrol press release. The deceased, an 18- year-old male, was driving with two passengers- a female, 17, and a male, 18, also of North Port- around 1:17 a.m. south on...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.trans",
+            "relevance_score": "9",
+            "description": "Land Transportation",
+            "code": "IS/lifesoc.landtran#9#50#99",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc.landtran",
+            "relevance_score": "9",
+            "description": "Road Transport",
+            "code": "IS/lifesoc.roadtran#9#99#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Transportation",
+            "code": "IS/lifesoc.trans#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "ENGLEWOOD \\- An early morning vehicle crash on Manasota Key Road in Sarasota\nCounty left one North Port teenager dead and two other teens in serious\ncondition Sunday, according to a Florida Highway Patrol press release.\n\nThe deceased, an 18-year-old male, was driving with two passengers - a female,\n17, and a male, 18, also of North Port \\- around 1:17 a.m. south on Manasota\nKey Road near County Road 774 (Manasota Beach Road) when he lost control of\nthe vehicle at the curve.\n\nThe vehicle then ran off the roadway, continued south and collided with\nmultiple trees.\n\nThe crash remains under investigation. All occupants were listed as wearing\nseat belts.\n\nThe driver's next of kin have been notified. It could not be determined if the\ntwo passengers' families have been contacted.\n\nThe name of the hospital where the teens are being treated was also\nunavailable.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Florida Highway Patrol"
+        ],
+        "location": [
+            "ENGLEWOOD",
+            "Manasota Key Road",
+            "Sarasota County",
+            "North Port",
+            "County Road 774",
+            "Manasota Beach Road"
+        ],
+        "person": [],
+        "companies": [
+            "Florida Highway Patrol"
+        ]
+    },
+    "geoOrigin_code": "RU/us.fl.portte",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRS3BD3FEEE3A988C206D708B4EA9B230F.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Manasota",
+                "relevance": 0.88294,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.720672,
+                    "label": "negative"
+                },
+                "text": "North Port",
+                "relevance": 0.663748,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Florida Highway Patrol",
+                "relevance": 0.629289,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentAgency"
+                    ],
+                    "name": "Florida Highway Patrol",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Florida_Highway_Patrol"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "ENGLEWOOD",
+                "relevance": 0.50886,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Sarasota",
+                "relevance": 0.506289,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Sarasota, Florida",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Sarasota,_Florida"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "18-year",
+                "relevance": 0.482235,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "condition Sunday"
+                },
+                "sentence": " condition Sunday, according to a Florida Highway Patrol press release.",
+                "object": {
+                    "text": "to a Florida Highway Patrol press release"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The deceased, an 18-year-old male,"
+                },
+                "sentence": " The deceased, an 18-year-old male, was driving with two passengers - a female,",
+                "object": {
+                    "text": "driving with two passengers - a female,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The deceased, an 18-year-old male,"
+                },
+                "sentence": " The deceased, an 18-year-old male, was driving with two passengers - a female,",
+                "object": {
+                    "text": "with two passengers - a female,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "drive",
+                        "tense": "past"
+                    },
+                    "text": "was driving",
+                    "normalized": "be drive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " Key Road near County Road 774 (Manasota Beach Road) when he lost control of",
+                "object": {
+                    "text": "control"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lose",
+                        "tense": "past"
+                    },
+                    "text": "lost",
+                    "normalized": "lose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The vehicle"
+                },
+                "sentence": " The vehicle then ran off the roadway, continued south and collided with",
+                "object": {
+                    "text": "the roadway"
+                },
+                "action": {
+                    "verb": {
+                        "text": "run",
+                        "tense": "past"
+                    },
+                    "text": "ran",
+                    "normalized": "run"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The vehicle"
+                },
+                "sentence": " The vehicle then ran off the roadway, continued south and collided with",
+                "action": {
+                    "verb": {
+                        "text": "collide",
+                        "tense": "past"
+                    },
+                    "text": "collided",
+                    "normalized": "collide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The driver's next of kin"
+                },
+                "sentence": " The driver's next of kin have been notified.",
+                "object": {
+                    "text": "notified"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It could not be determined if the",
+                "object": {
+                    "text": "determined"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "two passengers' families"
+                },
+                "sentence": " two passengers' families have been contacted.",
+                "object": {
+                    "text": "contacted"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.997815,
+                "label": "/automotive and vehicles/vehicle brands"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "ENGLEWOOD \\- An early morning vehicle crash on Manasota Key Road in Sarasota County left one North Port teenager dead and two other teens in serious condition Sunday, according to a Florida Highway Patrol press release.",
+                "score": 0.548355,
+                "arguments": [
+                    {
+                        "text": "vehicle",
+                        "location": [
+                            30,
+                            37
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "vehicle"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Manasota Key Road",
+                        "location": [
+                            47,
+                            64
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Manasota Key Road"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The deceased, an 18-year-old male, was driving with two passengers - a female, 17, and a male, 18, also of North Port \\- around 1:17 a.m. south on Manasota Key Road near County Road 774 (Manasota Beach Road) when he lost control of the vehicle at the curve.",
+                "score": 0.676184,
+                "arguments": [
+                    {
+                        "text": "County Road",
+                        "location": [
+                            391,
+                            402
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "County Road"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Manasota Beach Road",
+                        "location": [
+                            408,
+                            427
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Manasota Beach Road"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The deceased, an 18-year-old male, was driving with two passengers - a female, 17, and a male, 18, also of North Port \\- around 1:17 a.m. south on Manasota Key Road near County Road 774 (Manasota Beach Road) when he lost control of the vehicle at the curve.",
+                "score": 0.580357,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            434,
+                            436
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "driver"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "vehicle",
+                        "location": [
+                            457,
+                            464
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "vehicle"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The driver's next of kin have been notified.",
+                "score": 0.517053,
+                "arguments": [
+                    {
+                        "text": "driver",
+                        "location": [
+                            662,
+                            668
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "driver"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "notified",
+                        "location": [
+                            693,
+                            701
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "notified"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "It could not be determined if the two passengers' families have been contacted.",
+                "score": 0.314299,
+                "arguments": [
+                    {
+                        "text": "families",
+                        "location": [
+                            753,
+                            761
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "families"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "passengers",
+                        "location": [
+                            741,
+                            751
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "passengers"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The name of the hospital where the teens are being treated was also unavailable.",
+                "score": 0.2641,
+                "arguments": [
+                    {
+                        "text": "teens",
+                        "location": [
+                            819,
+                            824
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "teens"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "where",
+                        "location": [
+                            809,
+                            814
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "hospital"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "ENGLEWOOD \\- An early morning vehicle crash on Manasota Key Road in Sarasota County left one North Port teenager dead and two other teens in serious condition Sunday, according to a Florida Highway Patrol press release.",
+                "score": 0.977727,
+                "arguments": [
+                    {
+                        "text": "Manasota Key Road",
+                        "location": [
+                            47,
+                            64
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Manasota Key Road"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Sarasota\nCounty",
+                        "location": [
+                            68,
+                            83
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Sarasota\nCounty"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "ENGLEWOOD \\- An early morning vehicle crash on Manasota Key Road in Sarasota County left one North Port teenager dead and two other teens in serious condition Sunday, according to a Florida Highway Patrol press release.",
+                "score": 0.529164,
+                "arguments": [
+                    {
+                        "text": "teens",
+                        "location": [
+                            132,
+                            137
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "teens"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Manasota Key Road",
+                        "location": [
+                            47,
+                            64
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Manasota Key Road"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "ENGLEWOOD \\- An early morning vehicle crash on Manasota Key Road in Sarasota County left one North Port teenager dead and two other teens in serious condition Sunday, according to a Florida Highway Patrol press release.",
+                "score": 0.902221,
+                "arguments": [
+                    {
+                        "text": "teenager",
+                        "location": [
+                            104,
+                            112
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "teenager"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "North Port",
+                        "location": [
+                            93,
+                            103
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "North Port"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "ENGLEWOOD \\- An early morning vehicle crash on Manasota Key Road in Sarasota County left one North Port teenager dead and two other teens in serious condition Sunday, according to a Florida Highway Patrol press release.",
+                "score": 0.606094,
+                "arguments": [
+                    {
+                        "text": "Highway Patrol",
+                        "location": [
+                            190,
+                            204
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Highway Patrol",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Florida",
+                        "location": [
+                            182,
+                            189
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Florida"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The deceased, an 18-year-old male, was driving with two passengers - a female, 17, and a male, 18, also of North Port \\- around 1:17 a.m. south on Manasota Key Road near County Road 774 (Manasota Beach Road) when he lost control of the vehicle at the curve.",
+                "score": 0.958296,
+                "arguments": [
+                    {
+                        "text": "male",
+                        "location": [
+                            250,
+                            254
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "driver"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "18-year-old",
+                        "location": [
+                            238,
+                            249
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "18-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The deceased, an 18-year-old male, was driving with two passengers - a female, 17, and a male, 18, also of North Port \\- around 1:17 a.m. south on Manasota Key Road near County Road 774 (Manasota Beach Road) when he lost control of the vehicle at the curve.",
+                "score": 0.508369,
+                "arguments": [
+                    {
+                        "text": "male",
+                        "location": [
+                            250,
+                            254
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "driver"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "17",
+                        "location": [
+                            300,
+                            302
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "17"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The deceased, an 18-year-old male, was driving with two passengers - a female, 17, and a male, 18, also of North Port \\- around 1:17 a.m. south on Manasota Key Road near County Road 774 (Manasota Beach Road) when he lost control of the vehicle at the curve.",
+                "score": 0.68631,
+                "arguments": [
+                    {
+                        "text": "passengers",
+                        "location": [
+                            277,
+                            287
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "passengers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "17",
+                        "location": [
+                            300,
+                            302
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "17"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The deceased, an 18-year-old male, was driving with two passengers - a female, 17, and a male, 18, also of North Port \\- around 1:17 a.m. south on Manasota Key Road near County Road 774 (Manasota Beach Road) when he lost control of the vehicle at the curve.",
+                "score": 0.579466,
+                "arguments": [
+                    {
+                        "text": "Manasota\nKey Road",
+                        "location": [
+                            368,
+                            385
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Manasota\nKey Road"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "County Road",
+                        "location": [
+                            391,
+                            402
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "County Road"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "early morning vehicle crash",
+                "relevance": 0.866352,
+                "count": 1
+            },
+            {
+                "text": "Manasota Key Road",
+                "relevance": 0.809779,
+                "count": 1
+            },
+            {
+                "text": "County Road",
+                "relevance": 0.8044,
+                "count": 1
+            },
+            {
+                "text": "18-year-old male",
+                "relevance": 0.688124,
+                "count": 1
+            },
+            {
+                "text": "ENGLEWOOD",
+                "relevance": 0.61228,
+                "count": 1
+            },
+            {
+                "text": "North Port teenager",
+                "relevance": 0.606644,
+                "count": 1
+            },
+            {
+                "text": "Key Road",
+                "relevance": 0.598755,
+                "count": 1
+            },
+            {
+                "text": "vehicle",
+                "relevance": 0.535524,
+                "count": 2
+            },
+            {
+                "text": "Florida Highway Patrol press release",
+                "relevance": 0.531517,
+                "count": 1
+            },
+            {
+                "text": "driver",
+                "relevance": 0.5289,
+                "count": 1
+            },
+            {
+                "text": "passengers",
+                "relevance": 0.524343,
+                "count": 1
+            },
+            {
+                "text": "occupants",
+                "relevance": 0.522529,
+                "count": 1
+            },
+            {
+                "text": "crash",
+                "relevance": 0.521916,
+                "count": 1
+            },
+            {
+                "text": "Manasota Beach Road",
+                "relevance": 0.518456,
+                "count": 1
+            },
+            {
+                "text": "name of the hospital",
+                "relevance": 0.514949,
+                "count": 1
+            },
+            {
+                "text": "roadway",
+                "relevance": 0.513304,
+                "count": 1
+            },
+            {
+                "text": "teens",
+                "relevance": 0.512789,
+                "count": 2
+            },
+            {
+                "text": "investigation",
+                "relevance": 0.508551,
+                "count": 1
+            },
+            {
+                "text": "control",
+                "relevance": 0.508551,
+                "count": 1
+            },
+            {
+                "text": "trees",
+                "relevance": 0.508551,
+                "count": 1
+            },
+            {
+                "text": "curve",
+                "relevance": 0.508551,
+                "count": 1
+            },
+            {
+                "text": "North Port",
+                "relevance": 0.485239,
+                "count": 1
+            },
+            {
+                "text": "passengers' families",
+                "relevance": 0.4667,
+                "count": 1
+            },
+            {
+                "text": "deceased",
+                "relevance": 0.45065,
+                "count": 1
+            },
+            {
+                "text": "Manasota",
+                "relevance": 0.401584,
+                "count": 1
+            },
+            {
+                "text": "male",
+                "relevance": 0.40112,
+                "count": 1
+            },
+            {
+                "text": "female",
+                "relevance": 0.390837,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "299d76c4a75e6ca9335daa7acb54180cd1b0d53e",
+        "filename": "202005310000NEWSBANKNEWSPPRS3BD3FEEE3A988C206D708B4EA9B230F.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "North Port teen dead, 2 in serious condition after crash",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.fl.engood\">ENGLEWOOD</location> - An early morning vehicle crash on <location>Manasota Key Road</location> in <location idsrc=\"xmltag.org\" value=\"LU/us.fl.sarsot\">Sarasota County</location> left one <location idsrc=\"xmltag.org\" value=\"LU/us.fl.norort\">North Port</location> teenager dead and two other teens in serious condition Sunday, according to a <org>Florida Highway Patrol</org> press release.</p>\n<p>The deceased, an 18-year-old male, was driving with two passengers - a female, 17, and a male, 18, also of <location idsrc=\"xmltag.org\" value=\"LU/us.fl.norort\">North Port</location> - around <chron>1:17 a.m.</chron> south on <location>Manasota Key Road</location> near <location>County Road 774</location> (<location>Manasota Beach Road</location>) when he lost control of the vehicle at the curve.</p>\n\n<p>The vehicle then ran off the roadway, continued south and collided with multiple trees.</p>\n\n<p>The crash remains under investigation. All occupants were listed as wearing seat belts.</p>\n\n<p>The driver's next of kin have been notified. It could not be determined if the two passengers' families have been contacted.</p>\n\n<p>The name of the hospital where the teens are being treated was also unavailable.</p>",
+    "geoFocus": [
+        [
+            "GU/us.fl.tambay",
+            "Tampa Bay"
+        ],
+        [
+            "GU/us.fl.venice",
+            "Venice"
+        ]
+    ]
+}

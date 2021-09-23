@@ -1,0 +1,323 @@
+{
+    "id": "8b99faad-480e-4ffd-9f70-87443d705fe3",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "75532712929991916299",
+    "description": "Delivery of four transporters for service dogs for the Sachsen police more info: Location: GERMANY BidDate: 6/ 10/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Police administration office logistics center Tendering Authority Address: Police administration office logistics center Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LS/de#9#50#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Delivery of four transporters for service dogs for the Sachsen police more\ninfo : Location : GERMANY BidDate : 6/10/2020 Tender Country : GERMANY Tender\nType : Tenders Tendering Authority : Police administration office logistics\ncenter Tendering Authority Address : Police administration office logistics\ncenter Financier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#9#50#94",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "9",
+            "description": "Government Services",
+            "code": "II/gov.govserve#9#50#94",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "9",
+            "description": "Police Services",
+            "code": "II/gov.police#9#94#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "9",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#9#50#94",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Sachsen",
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_50444_176212187_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "center Tendering Authority",
+                "relevance": 0.913213,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.899219,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.370718,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.484022,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.609748,
+                    "label": "negative"
+                },
+                "text": "Sachsen",
+                "relevance": 0.286746,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Sachsen bei Ansbach",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Sachsen_bei_Ansbach"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.99978,
+                "label": "/business and industrial/logistics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "Delivery of four transporters for service dogs for the Sachsen police more info : Location : GERMANY BidDate : 6/10/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Police administration office logistics center Tendering Authority Address : Police administration office logistics center Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.993277,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            63,
+                            69
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Sachsen",
+                        "location": [
+                            55,
+                            62
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Sachsen"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Delivery of four transporters for service dogs for the Sachsen police more info : Location : GERMANY BidDate : 6/10/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Police administration office logistics center Tendering Authority Address : Police administration office logistics center Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.547661,
+                "arguments": [
+                    {
+                        "text": "6/10/2020 Tender",
+                        "location": [
+                            111,
+                            127
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/10/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender\nType : Tenders Tendering Authority : Police",
+                        "location": [
+                            146,
+                            196
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender\nType : Tenders Tendering Authority : Police"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.83955,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.736719,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.659472,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.616978,
+                "count": 1
+            },
+            {
+                "text": "Delivery",
+                "relevance": 0.614476,
+                "count": 1
+            },
+            {
+                "text": "service dogs",
+                "relevance": 0.571905,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.568922,
+                "count": 1
+            },
+            {
+                "text": "transporters",
+                "relevance": 0.564409,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.56118,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.555341,
+                "count": 1
+            },
+            {
+                "text": "Sachsen police",
+                "relevance": 0.542169,
+                "count": 1
+            },
+            {
+                "text": "Authority Address",
+                "relevance": 0.488095,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "3ebae488dfbc48eb548ffa0a68c44dc13feefde5",
+        "filename": "202006050210ALBA____ME_NA_NE_50444_176212187_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Delivery of four transporters for service dogs for the Sachsen police [TenderNews.com - Tenders (India)]",
+    "html": "<p>Delivery of four transporters for service dogs for the <location idsrc=\"xmltag.org\" value=\"LS/de.sn\">Sachsen</location> police more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/10/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Police administration office logistics center\nTendering Authority Address : Police administration office logistics center\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

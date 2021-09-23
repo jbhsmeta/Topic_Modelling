@@ -1,0 +1,284 @@
+{
+    "id": "53704e98-0093-418f-8f0a-2c943a0fbcd9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "62363782687323019470",
+    "description": "Optical sewer inspection and cleaning- caretaker contract more info: Location: GERMANY BidDate: 6/ 22/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Roads and drainage Lemgo Tendering Authority Address: 32657 Lemgo North Rhine-Westphalia Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Optical sewer inspection and cleaning - caretaker contract more info :\nLocation : GERMANY BidDate : 6/22/2020 Tender Country : GERMANY Tender Type :\nTenders Tendering Authority : Roads and drainage Lemgo Tendering Authority\nAddress : 32657 Lemgo North Rhine-Westphalia Financier : Self Funded Tearn\nMoney : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_32064_176210419_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Lemgo Tendering Authority",
+                "relevance": 0.917444,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Lemgo North Rhine-Westphalia",
+                "relevance": 0.567752,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.372781,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.537284,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.878219,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Optical sewer inspection and cleaning - caretaker contract more info : Location : GERMANY BidDate : 6/22/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Roads and drainage Lemgo Tendering Authority Address : 32657 Lemgo North Rhine-Westphalia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.624224,
+                "arguments": [
+                    {
+                        "text": "6/22/2020 Tender",
+                        "location": [
+                            100,
+                            116
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/22/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type :\nTenders Tendering Authority : Roads and drainage Lemgo Tendering Authority\nAddress :",
+                        "location": [
+                            135,
+                            233
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type :\nTenders Tendering Authority : Roads and drainage Lemgo Tendering Authority\nAddress :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Optical sewer inspection and cleaning - caretaker contract more info : Location : GERMANY BidDate : 6/22/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Roads and drainage Lemgo Tendering Authority Address : 32657 Lemgo North Rhine-Westphalia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.374828,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            269,
+                            278
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Lemgo North",
+                        "location": [
+                            240,
+                            251
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Lemgo North"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.923708,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.876099,
+                "count": 1
+            },
+            {
+                "text": "Optical sewer inspection",
+                "relevance": 0.778823,
+                "count": 1
+            },
+            {
+                "text": "Lemgo North Rhine-Westphalia Financier",
+                "relevance": 0.727868,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.639485,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.606718,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.564881,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.559119,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.557904,
+                "count": 1
+            },
+            {
+                "text": "Roads",
+                "relevance": 0.552644,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.516809,
+                "count": 1
+            },
+            {
+                "text": "caretaker contract",
+                "relevance": 0.394881,
+                "count": 1
+            },
+            {
+                "text": "cleaning",
+                "relevance": 0.257586,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "c546cc58e74e1a4d33fb395f50553a306e27b8e1",
+        "filename": "202006050210ALBA____ME_NA_NE_32064_176210419_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Optical sewer inspection and cleaning - caretaker contract [TenderNews.com - Tenders (India)]",
+    "html": "<p>Optical sewer inspection and cleaning - caretaker contract more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/22/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Roads and drainage Lemgo\nTendering Authority Address : 32657 Lemgo North Rhine-Westphalia\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

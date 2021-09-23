@@ -1,0 +1,526 @@
+{
+    "id": "0494d966-f924-4b7f-b153-949558ba341c",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "Moscow, Russia",
+    "sourceType": "News Abstract or Digest",
+    "source": "What the Papers Say (Russia)",
+    "corpus_document_id": "77860688263656563883",
+    "description": "As Kommersant found out, in September, after the expiration of the five-year contract, Nikolai Shulginov will leave the post of head of RusHydro. Among them, there are former company manager George Rizhinashvili, current deputy head of RusHydro Viktor Khmarin and State Duma deputy Denis Kravchenko. Kommersant, N100, June 8, 2020, p. 5.",
+    "serviceName": "Political & Social News Digests",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "As Kommersant found out, in September, after the expiration of the five-year\ncontract, Nikolai Shulginov will leave the post of head of RusHydro. The\ngovernment has no specific complaints; Kommersant's interlocutors say that the\ndecision to leave is \"mutually voluntary\". The state has not yet decided on\nthe candidate to replace Mr. Shulginov. There are several main candidates.\nAmong them, there are former company manager George Rizhinashvili, current\ndeputy head of RusHydro Viktor Khmarin and State Duma deputy Denis Kravchenko.\n\nKommersant, N100, June 8, 2020, p. 5",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "George Rizhinashvili",
+            "Denis Kravchenko"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/ru..moscow",
+    "language": "English",
+    "filename": "202006081120WPSN____POLSOCND_3865309664.XML",
+    "providerName": "WPS USA Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "deputy head",
+                "relevance": 0.956165,
+                "type": "JobTitle"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Nikolai Shulginov",
+                "relevance": 0.864766,
+                "type": "Person"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kommersant",
+                "relevance": 0.83517,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Denis Kravchenko",
+                "relevance": 0.684945,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Viktor Khmarin",
+                "relevance": 0.547368,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "George Rizhinashvili",
+                "relevance": 0.470006,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "five-year",
+                "relevance": 0.470006,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Kommersant"
+                },
+                "sentence": "As Kommersant found out, in September, after the expiration of the five-year",
+                "action": {
+                    "verb": {
+                        "text": "find",
+                        "tense": "past"
+                    },
+                    "text": "found",
+                    "normalized": "find"
+                }
+            },
+            {
+                "subject": {
+                    "text": "government"
+                },
+                "sentence": " government has no specific complaints; Kommersant's interlocutors say that the",
+                "object": {
+                    "text": "no specific complaints"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Kommersant's interlocutors"
+                },
+                "sentence": " government has no specific complaints; Kommersant's interlocutors say that the",
+                "object": {
+                    "text": "that the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "say",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "decision"
+                },
+                "sentence": " decision to leave is \"mutually voluntary\".",
+                "object": {
+                    "text": "mutually voluntary\""
+                },
+                "action": {
+                    "verb": {
+                        "text": "leave",
+                        "tense": "future"
+                    },
+                    "text": "to leave",
+                    "normalized": "to leave"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The state"
+                },
+                "sentence": " The state has not yet decided on",
+                "action": {
+                    "verb": {
+                        "text": "decide",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "decided",
+                    "normalized": "decide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mr. Shulginov"
+                },
+                "sentence": " the candidate to replace Mr. Shulginov.",
+                "object": {
+                    "text": "the candidate"
+                },
+                "action": {
+                    "verb": {
+                        "text": "replace",
+                        "tense": "future"
+                    },
+                    "text": "to replace",
+                    "normalized": "to replace"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.681225,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.589125,
+                "label": "/law, govt and politics/politics"
+            },
+            {
+                "score": 0.588398,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "clientOf",
+                "sentence": "The government has no specific complaints; Kommersant's interlocutors say that the decision to leave is \"mutually voluntary\".",
+                "score": 0.349993,
+                "arguments": [
+                    {
+                        "text": "Kommersant",
+                        "location": [
+                            189,
+                            199
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Kommersant, N100"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "interlocutors",
+                        "location": [
+                            202,
+                            215
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "interlocutors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The government has no specific complaints; Kommersant's interlocutors say that the decision to leave is \"mutually voluntary\".",
+                "score": 0.606675,
+                "arguments": [
+                    {
+                        "text": "Kommersant",
+                        "location": [
+                            189,
+                            199
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Kommersant, N100"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            216,
+                            219
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The government has no specific complaints; Kommersant's interlocutors say that the decision to leave is \"mutually voluntary\".",
+                "score": 0.963655,
+                "arguments": [
+                    {
+                        "text": "interlocutors",
+                        "location": [
+                            202,
+                            215
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "interlocutors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            216,
+                            219
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Among them, there are former company manager George Rizhinashvili, current deputy head of RusHydro Viktor Khmarin and State Duma deputy Denis Kravchenko.",
+                "score": 0.564931,
+                "arguments": [
+                    {
+                        "text": "manager",
+                        "location": [
+                            417,
+                            424
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Rizhinashvili"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "company",
+                        "location": [
+                            409,
+                            416
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "RusHydro Viktor Khmarin and State Duma"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Among them, there are former company manager George Rizhinashvili, current deputy head of RusHydro Viktor Khmarin and State Duma deputy Denis Kravchenko.",
+                "score": 0.736527,
+                "arguments": [
+                    {
+                        "text": "deputy head",
+                        "location": [
+                            455,
+                            466
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Rizhinashvili"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "RusHydro Viktor Khmarin and State Duma",
+                        "location": [
+                            470,
+                            508
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "RusHydro Viktor Khmarin and State Duma"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Among them, there are former company manager George Rizhinashvili, current deputy head of RusHydro Viktor Khmarin and State Duma deputy Denis Kravchenko.",
+                "score": 0.541248,
+                "arguments": [
+                    {
+                        "text": "deputy",
+                        "location": [
+                            509,
+                            515
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Denis Kravchenko"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "RusHydro Viktor Khmarin and State Duma",
+                        "location": [
+                            470,
+                            508
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "RusHydro Viktor Khmarin and State Duma"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "post of head of RusHydro",
+                "relevance": 0.731118,
+                "count": 1
+            },
+            {
+                "text": "State Duma deputy Denis Kravchenko",
+                "relevance": 0.682228,
+                "count": 1
+            },
+            {
+                "text": "RusHydro Viktor Khmarin",
+                "relevance": 0.677963,
+                "count": 1
+            },
+            {
+                "text": "main candidates",
+                "relevance": 0.671804,
+                "count": 1
+            },
+            {
+                "text": "Nikolai Shulginov",
+                "relevance": 0.641834,
+                "count": 1
+            },
+            {
+                "text": "specific complaints",
+                "relevance": 0.616479,
+                "count": 1
+            },
+            {
+                "text": "former company manager George Rizhinashvili",
+                "relevance": 0.606658,
+                "count": 1
+            },
+            {
+                "text": "government",
+                "relevance": 0.60645,
+                "count": 1
+            },
+            {
+                "text": "Kommersant",
+                "relevance": 0.579947,
+                "count": 2
+            },
+            {
+                "text": "Kommersant's interlocutors",
+                "relevance": 0.553895,
+                "count": 1
+            },
+            {
+                "text": "candidate",
+                "relevance": 0.549693,
+                "count": 1
+            },
+            {
+                "text": "state",
+                "relevance": 0.545025,
+                "count": 1
+            },
+            {
+                "text": "decision",
+                "relevance": 0.52491,
+                "count": 1
+            },
+            {
+                "text": "September",
+                "relevance": 0.518032,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.514874,
+                "count": 1
+            },
+            {
+                "text": "expiration",
+                "relevance": 0.514054,
+                "count": 1
+            },
+            {
+                "text": "Mr. Shulginov",
+                "relevance": 0.48389,
+                "count": 1
+            },
+            {
+                "text": "N100",
+                "relevance": 0.365223,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Five times a week",
+    "extracted_metadata": {
+        "sha1": "98c7312f5050823181a1831da884199cb843b33a",
+        "filename": "202006081120WPSN____POLSOCND_3865309664.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-08T11:20:00-04:00",
+    "title": "HPP SECTOR CHANGES THE CEO",
+    "html": "<p>As Kommersant found out, in September, after the expiration of the five-year contract, Nikolai Shulginov will leave the post of head of RusHydro. The government has no specific complaints; Kommersant's interlocutors say that the decision to leave is \"mutually voluntary\". The state has not yet decided on the candidate to replace Mr. Shulginov. There are several main candidates. Among them, there are former company manager <person>George Rizhinashvili</person>, current deputy head of RusHydro Viktor Khmarin and State Duma deputy <person>Denis Kravchenko</person>.</p>\n<p />\n<p>Kommersant, N100, <chron>June 8, 2020</chron>, p. 5</p>\n<p />",
+    "geoFocus": [
+        [
+            "GC/ru",
+            "Russia"
+        ]
+    ]
+}

@@ -1,0 +1,757 @@
+{
+    "id": "ebcad1ce-34d5-445d-89ee-febb5922b125",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Globe Gazette, All rights reserved.",
+    "geoOrigin": "Mason City, Iowa",
+    "sourceType": "Newspaper",
+    "source": "Globe Gazette (Mason City, IA)",
+    "corpus_document_id": "16894484044488385633",
+    "description": "Gerald and Elise Meier of Clear Lake will be celebrating their 60th wedding anniversary on Friday, June 5, with a family gathering. They were married on June 5, 1960, at First Lutheran Church in Dows, Iowa. The couple have two children, Cindy Meier of Clear Lake, and Cathy McDougle and her husband Jim of Victoria, MN. They have one grandchild, Dmitry McDougle.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Family Life",
+            "code": "IS/lifesoc.famlife#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Human Relationships",
+            "code": "IS/lifesoc.humrelat#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.humrelat",
+            "relevance_score": "9",
+            "description": "Marriage",
+            "code": "IS/lifesoc.marriage#9#99#50",
+            "level": 2
+        }
+    ],
+    "text": "Gerald and Elise Meier of Clear Lake will be celebrating their 60th wedding\nanniversary on Friday, June 5, with a family gathering. They were married on\nJune 5, 1960, at First Lutheran Church in Dows, Iowa. The couple have two\nchildren, Cindy Meier of Clear Lake, and Cathy McDougle and her husband Jim of\nVictoria, MN. They have one grandchild, Dmitry McDougle.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "First Lutheran Church"
+        ],
+        "location": [
+            "Clear Lake",
+            "Dows, Iowa",
+            "Victoria, MN."
+        ],
+        "person": [
+            "Elise Meier",
+            "Cindy Meier",
+            "Cathy McDougle",
+            "Dmitry McDougle"
+        ],
+        "companies": [
+            "First Lutheran Church"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ia.masity",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRS8390940D93FB19314FDE4153532BF2E.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.840764,
+                    "label": "positive"
+                },
+                "text": "Clear Lake",
+                "relevance": 0.931187,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dmitry McDougle",
+                "relevance": 0.778471,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.840764,
+                    "label": "positive"
+                },
+                "text": "Elise Meier",
+                "relevance": 0.69271,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Cathy McDougle",
+                "relevance": 0.657612,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Cindy Meier",
+                "relevance": 0.629607,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "First Lutheran Church",
+                "relevance": 0.467785,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dows",
+                "relevance": 0.418275,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Dows, Iowa",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Dows,_Iowa"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.840764,
+                    "label": "positive"
+                },
+                "text": "Gerald",
+                "relevance": 0.364188,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "MN",
+                "relevance": 0.313467,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Victoria",
+                "relevance": 0.294819,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.332783,
+                    "label": "positive"
+                },
+                "text": "Iowa",
+                "relevance": 0.294385,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Iowa",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Iowa"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jim",
+                "relevance": 0.252052,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Gerald and Elise Meier of Clear Lake"
+                },
+                "sentence": "Gerald and Elise Meier of Clear Lake will be celebrating their 60th wedding",
+                "object": {
+                    "text": "celebrating their 60th wedding"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Gerald and Elise Meier of Clear Lake"
+                },
+                "sentence": "Gerald and Elise Meier of Clear Lake will be celebrating their 60th wedding",
+                "object": {
+                    "text": "their 60th wedding"
+                },
+                "action": {
+                    "verb": {
+                        "text": "celebrate",
+                        "tense": "future"
+                    },
+                    "text": "will be celebrating",
+                    "normalized": "will be celebrate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "They"
+                },
+                "sentence": " They were married on",
+                "object": {
+                    "text": "married on"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The couple"
+                },
+                "sentence": " The couple have two",
+                "object": {
+                    "text": "two"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "They"
+                },
+                "sentence": " They have one grandchild, Dmitry McDougle.",
+                "object": {
+                    "text": "one grandchild"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.590032,
+                "label": "/society/social institution/divorce"
+            },
+            {
+                "score": 0.532634,
+                "label": "/health and fitness/dental care"
+            },
+            {
+                "score": 0.53186,
+                "label": "/society/social institution/marriage"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOfMany",
+                "sentence": "Gerald and Elise Meier of Clear Lake will be celebrating their 60th wedding anniversary on Friday, June 5, with a family gathering.",
+                "score": 0.871454,
+                "arguments": [
+                    {
+                        "text": "Gerald",
+                        "location": [
+                            0,
+                            6
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Gerald"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "their",
+                        "location": [
+                            57,
+                            62
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "their"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Gerald and Elise Meier of Clear Lake will be celebrating their 60th wedding anniversary on Friday, June 5, with a family gathering.",
+                "score": 0.749005,
+                "arguments": [
+                    {
+                        "text": "Elise Meier",
+                        "location": [
+                            11,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Elise Meier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Clear Lake",
+                        "location": [
+                            26,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Clear Lake"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Gerald and Elise Meier of Clear Lake will be celebrating their 60th wedding anniversary on Friday, June 5, with a family gathering.",
+                "score": 0.911471,
+                "arguments": [
+                    {
+                        "text": "Elise Meier",
+                        "location": [
+                            11,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Elise Meier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "their",
+                        "location": [
+                            57,
+                            62
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "their"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "Gerald and Elise Meier of Clear Lake will be celebrating their 60th wedding anniversary on Friday, June 5, with a family gathering.",
+                "score": 0.866141,
+                "arguments": [
+                    {
+                        "text": "family",
+                        "location": [
+                            114,
+                            120
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "family"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "gathering",
+                        "location": [
+                            121,
+                            130
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "gathering"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "They were married on June 5, 1960, at First Lutheran Church in Dows, Iowa.",
+                "score": 0.652781,
+                "arguments": [
+                    {
+                        "text": "First Lutheran Church",
+                        "location": [
+                            170,
+                            191
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "First Lutheran Church",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Dows",
+                        "location": [
+                            195,
+                            199
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Dows"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "They were married on June 5, 1960, at First Lutheran Church in Dows, Iowa.",
+                "score": 0.988015,
+                "arguments": [
+                    {
+                        "text": "Dows",
+                        "location": [
+                            195,
+                            199
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Dows"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Iowa",
+                        "location": [
+                            201,
+                            205
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Iowa"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "The couple have two children, Cindy Meier of Clear Lake, and Cathy McDougle and her husband Jim of Victoria, MN.",
+                "score": 0.525637,
+                "arguments": [
+                    {
+                        "text": "Cindy Meier",
+                        "location": [
+                            237,
+                            248
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Cindy Meier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "children",
+                        "location": [
+                            227,
+                            235
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "children"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The couple have two children, Cindy Meier of Clear Lake, and Cathy McDougle and her husband Jim of Victoria, MN.",
+                "score": 0.887023,
+                "arguments": [
+                    {
+                        "text": "Cindy Meier",
+                        "location": [
+                            237,
+                            248
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Cindy Meier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Clear Lake",
+                        "location": [
+                            252,
+                            262
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Clear Lake"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "spouseOf",
+                "sentence": "The couple have two children, Cindy Meier of Clear Lake, and Cathy McDougle and her husband Jim of Victoria, MN.",
+                "score": 0.771805,
+                "arguments": [
+                    {
+                        "text": "her",
+                        "location": [
+                            287,
+                            290
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Cathy McDougle"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "husband",
+                        "location": [
+                            291,
+                            298
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jim"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Elise Meier of Clear Lake",
+                "relevance": 0.867899,
+                "count": 1
+            },
+            {
+                "text": "Cindy Meier of Clear Lake",
+                "relevance": 0.727076,
+                "count": 1
+            },
+            {
+                "text": "First Lutheran Church",
+                "relevance": 0.695865,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.605916,
+                "count": 2
+            },
+            {
+                "text": "children",
+                "relevance": 0.598451,
+                "count": 1
+            },
+            {
+                "text": "Gerald",
+                "relevance": 0.597824,
+                "count": 1
+            },
+            {
+                "text": "couple",
+                "relevance": 0.573108,
+                "count": 1
+            },
+            {
+                "text": "Cathy McDougle",
+                "relevance": 0.566012,
+                "count": 1
+            },
+            {
+                "text": "Victoria",
+                "relevance": 0.537348,
+                "count": 1
+            },
+            {
+                "text": "grandchild",
+                "relevance": 0.533914,
+                "count": 1
+            },
+            {
+                "text": "Iowa",
+                "relevance": 0.520214,
+                "count": 1
+            },
+            {
+                "text": "husband Jim",
+                "relevance": 0.501952,
+                "count": 1
+            },
+            {
+                "text": "family gathering",
+                "relevance": 0.501952,
+                "count": 1
+            },
+            {
+                "text": "Dmitry McDougle",
+                "relevance": 0.483483,
+                "count": 1
+            },
+            {
+                "text": "Friday",
+                "relevance": 0.420861,
+                "count": 1
+            },
+            {
+                "text": "Dows",
+                "relevance": 0.370552,
+                "count": 1
+            },
+            {
+                "text": "MN",
+                "relevance": 0.366551,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "fe8cea9288db57ab0a1a3698641ec59fd31fcf2c",
+        "filename": "202005310000NEWSBANKNEWSPPRS8390940D93FB19314FDE4153532BF2E.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "Meier, 60 years",
+    "html": "<p>Gerald and <person>Elise Meier</person> of <location idsrc=\"xmltag.org\" value=\"LU/us.ia.cleake\">Clear Lake</location> will be celebrating their 60th wedding anniversary on <chron>Friday, June 5</chron>, with a family gathering. They were married on <chron>June 5, 1960</chron>, at <org>First Lutheran Church</org> in <location idsrc=\"xmltag.org\" value=\"LU/us.ia.dows\">Dows, Iowa</location>. The couple have two children, <person>Cindy Meier</person> of <location idsrc=\"xmltag.org\" value=\"LU/us.mn.cleake\">Clear Lake</location>, and <person>Cathy McDougle</person> and her husband Jim of <location idsrc=\"xmltag.org\" value=\"LU/us.mn.vicria\">Victoria, MN.</location> They have one grandchild, <person>Dmitry McDougle</person>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ia.masity",
+            "Mason City"
+        ]
+    ]
+}

@@ -1,0 +1,289 @@
+{
+    "id": "0ab76193-3be3-43ee-8d96-6a5326899cc5",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "95384635365164549872",
+    "description": "BOD radio system more info: Location: GERMANY BidDate: 6/ 11/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Leipziger Messe GmbH Tendering Authority Address: 04356 Leipzig Saxony Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "BOD radio system more info : Location : GERMANY BidDate : 6/11/2020 Tender\nCountry : GERMANY Tender Type : Tenders Tendering Authority : Leipziger Messe\nGmbH Tendering Authority Address : 04356 Leipzig Saxony Financier : Self\nFunded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_11832_176211886_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.995086,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "GmbH Tendering Authority",
+                "relevance": 0.94403,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Leipzig Saxony Financier",
+                "relevance": 0.69481,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Leipziger Messe",
+                "relevance": 0.578181,
+                "type": "Facility"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.257255,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.499628,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.773463,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.609038,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.601116,
+                "label": "/business and industrial/construction"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "BOD radio system more info : Location : GERMANY BidDate : 6/11/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Leipziger Messe GmbH Tendering Authority Address : 04356 Leipzig Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.621514,
+                "arguments": [
+                    {
+                        "text": "6/11/2020 Tender",
+                        "location": [
+                            58,
+                            74
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/11/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : Leipziger Messe\nGmbH Tendering Authority Address :",
+                        "location": [
+                            93,
+                            187
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : Leipziger Messe\nGmbH Tendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "BOD radio system more info : Location : GERMANY BidDate : 6/11/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Leipziger Messe GmbH Tendering Authority Address : 04356 Leipzig Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.489404,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            209,
+                            218
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Leipzig Saxony",
+                        "location": [
+                            194,
+                            208
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Leipzig Saxony"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "BOD radio system",
+                "relevance": 0.962667,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.791639,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.607478,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.568116,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.561755,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.556534,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.551015,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.537277,
+                "count": 1
+            },
+            {
+                "text": "Tearn Money",
+                "relevance": 0.481021,
+                "count": 1
+            },
+            {
+                "text": "Leipzig Saxony Financier",
+                "relevance": 0.470852,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "d5958a89dd7fa9599cc3f1c57395afa1f9f71837",
+        "filename": "202006050210ALBA____ME_NA_NE_11832_176211886_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "BOD radio system [TenderNews.com - Tenders (India)]",
+    "html": "<p>BOD radio system more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/11/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Leipziger Messe GmbH\nTendering Authority Address : 04356 Leipzig Saxony\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

@@ -1,0 +1,420 @@
+{
+    "id": "fc96c798-ad8e-47f8-be20-03087377abc9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 The Journal Gazette",
+    "geoOrigin": "Fort Wayne, Indiana",
+    "sourceType": "Newspaper",
+    "source": "Journal Gazette (Fort Wayne, IN)",
+    "corpus_document_id": "61049555643958574408",
+    "description": "BERNICE GRONCZEWSKI, 94, of Angola, Ind., passed away on Thursday, May 28, 2020.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "BERNICE GRONCZEWSKI, 94, of Angola, Ind., passed away on Thursday, May 28,\n2020. Arrangements by Beams Funeral Home of Fremont, Ind.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Beams Funeral Home"
+        ],
+        "location": [
+            "Angola, Ind.",
+            "Fremont, Ind."
+        ],
+        "person": [
+            "BERNICE GRONCZEWSKI"
+        ],
+        "companies": [
+            "Beams Funeral Home"
+        ]
+    },
+    "geoOrigin_code": "RU/us.in.ftwyne",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRSB3363DAD658F875546A9D279BB92C7E.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ind",
+                "relevance": 0.945895,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.368343,
+                    "label": "negative"
+                },
+                "text": "Beams Funeral Home",
+                "relevance": 0.937573,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "BERNICE GRONCZEWSKI",
+                "relevance": 0.832247,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Angola",
+                "relevance": 0.634189,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Angola",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Angola"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.368343,
+                    "label": "negative"
+                },
+                "text": "Fremont",
+                "relevance": 0.531822,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Fremont, Indiana",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Fremont,_Indiana"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ind.",
+                "relevance": 0.198046,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Indiana",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Indiana"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "BERNICE GRONCZEWSKI, 94, of Angola, Ind.,"
+                },
+                "sentence": "BERNICE GRONCZEWSKI, 94, of Angola, Ind., passed away on Thursday, May 28,",
+                "action": {
+                    "verb": {
+                        "text": "pass",
+                        "tense": "past"
+                    },
+                    "text": "passed",
+                    "normalized": "pass"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.653641,
+                "label": "/business and industrial/construction"
+            },
+            {
+                "score": 0.570404,
+                "label": "/automotive and vehicles/road-side assistance"
+            },
+            {
+                "score": 0.547308,
+                "label": "/business and industrial/war industry"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "BERNICE GRONCZEWSKI, 94, of Angola, Ind., passed away on Thursday, May 28, 2020.",
+                "score": 0.990392,
+                "arguments": [
+                    {
+                        "text": "BERNICE GRONCZEWSKI",
+                        "location": [
+                            0,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "BERNICE GRONCZEWSKI"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "94",
+                        "location": [
+                            21,
+                            23
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "94"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "BERNICE GRONCZEWSKI, 94, of Angola, Ind., passed away on Thursday, May 28, 2020.",
+                "score": 0.917533,
+                "arguments": [
+                    {
+                        "text": "BERNICE GRONCZEWSKI",
+                        "location": [
+                            0,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "BERNICE GRONCZEWSKI"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Angola",
+                        "location": [
+                            28,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Angola"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "BERNICE GRONCZEWSKI, 94, of Angola, Ind., passed away on Thursday, May 28, 2020.",
+                "score": 0.990931,
+                "arguments": [
+                    {
+                        "text": "Angola",
+                        "location": [
+                            28,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Angola"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Ind.",
+                        "location": [
+                            36,
+                            40
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Ind."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "Arrangements by Beams Funeral Home of Fremont, Ind.",
+                "score": 0.652372,
+                "arguments": [
+                    {
+                        "text": "Beams Funeral Home",
+                        "location": [
+                            97,
+                            115
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Beams Funeral Home",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Fremont",
+                        "location": [
+                            119,
+                            126
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fremont"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Arrangements by Beams Funeral Home of Fremont, Ind.",
+                "score": 0.978605,
+                "arguments": [
+                    {
+                        "text": "Fremont",
+                        "location": [
+                            119,
+                            126
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fremont"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Ind.",
+                        "location": [
+                            128,
+                            132
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Ind."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "BERNICE GRONCZEWSKI",
+                "relevance": 0.988572,
+                "count": 1
+            },
+            {
+                "text": "Funeral Home of Fremont",
+                "relevance": 0.819889,
+                "count": 1
+            },
+            {
+                "text": "Arrangements",
+                "relevance": 0.744545,
+                "count": 1
+            },
+            {
+                "text": "Beams",
+                "relevance": 0.646674,
+                "count": 1
+            },
+            {
+                "text": "Angola",
+                "relevance": 0.610156,
+                "count": 1
+            },
+            {
+                "text": "Ind",
+                "relevance": 0.598558,
+                "count": 2
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.226679,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.218441,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "0b1d9cb09bad9ab7ca501ad54aa76fe1e6f97a20",
+        "filename": "202005310000NEWSBANKNEWSPPRSB3363DAD658F875546A9D279BB92C7E.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "BERNICE GRONCZEWSKI",
+    "html": "<p><person>BERNICE GRONCZEWSKI</person>, 94, of <location idsrc=\"xmltag.org\" value=\"LU/us.in.angola\">Angola, Ind.</location>, passed away on <chron>Thursday, May 28, 2020</chron>. Arrangements by <org>Beams Funeral Home</org> of <location idsrc=\"xmltag.org\" value=\"LU/us.in.freont\">Fremont, Ind.</location></p>",
+    "geoFocus": [
+        [
+            "GU/us.in.ftwyne",
+            "Fort Wayne"
+        ]
+    ]
+}

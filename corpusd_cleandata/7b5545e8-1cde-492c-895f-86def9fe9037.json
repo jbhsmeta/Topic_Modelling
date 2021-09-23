@@ -1,0 +1,231 @@
+{
+    "id": "7b5545e8-1cde-492c-895f-86def9fe9037",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "76708139655382216214",
+    "description": "Warner Music Group received applause on Wall Street for the biggest IPO so far this year.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Finance",
+            "code": "IS/fin#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "9",
+            "description": "Business Finance and Financing",
+            "code": "IS/fin.biz#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "9",
+            "description": "Investments",
+            "code": "IS/fin.invest#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "IS/fin.stkoffer",
+            "relevance_score": "9",
+            "description": "Initial Public Offering (IPO)",
+            "code": "IS/fin.ipo#9#99#50",
+            "level": 4
+        }
+    ],
+    "text": "Warner Music hits IPO high note Warner Music Group received applause on Wall\nStreet for the biggest IPO so far this year. Reuters Warner Music Group\nreceived applause on Wall Street for the biggest IPO so far this year.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Warner Music",
+            "Warner Music Group"
+        ],
+        "location": [
+            "Wall Street"
+        ],
+        "person": [],
+        "companies": [
+            "Warner Music Group",
+            "Warner Music"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050406AMSPIDERNEWS_____GLOBMA04_E0DEB86C0DA15BF9E603BAC7704BAC6C_36.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Warner Music Group",
+                "relevance": 0.904642,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [
+                        "CompanyDivision",
+                        "RecordLabel",
+                        "FilmMusicContributor"
+                    ],
+                    "name": "Warner Music Group",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Warner_Music_Group"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Warner Music"
+                },
+                "sentence": "Warner Music hits IPO high note Warner Music Group received applause on Wall",
+                "object": {
+                    "text": "IPO high note Warner Music Group received applause on Wall"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hit",
+                        "tense": "present"
+                    },
+                    "text": "hits",
+                    "normalized": "hit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "applause on Wall Street"
+                },
+                "sentence": " received applause on Wall Street for the biggest IPO so far this year.",
+                "object": {
+                    "text": "for the biggest IPO"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "past"
+                    },
+                    "text": "received",
+                    "normalized": "receive"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.673277,
+                "label": "/art and entertainment/music/recording industry/record labels"
+            },
+            {
+                "score": 0.659443,
+                "label": "/business and industrial/record company"
+            },
+            {
+                "score": 0.659417,
+                "label": "/finance/financial news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Warner Music hits IPO high note Warner Music Group received applause on Wall Street for the biggest IPO so far this year.",
+                "score": 0.643314,
+                "arguments": [
+                    {
+                        "text": "Warner Music Group",
+                        "location": [
+                            32,
+                            50
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Warner Music Group"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Wall\nStreet",
+                        "location": [
+                            72,
+                            83
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Wall\nStreet",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Warner Music",
+                "relevance": 0.998006,
+                "count": 1
+            },
+            {
+                "text": "high note Warner Music Group",
+                "relevance": 0.924577,
+                "count": 1
+            },
+            {
+                "text": "Warner Music Group",
+                "relevance": 0.898128,
+                "count": 1
+            },
+            {
+                "text": "Wall Street",
+                "relevance": 0.878345,
+                "count": 1
+            },
+            {
+                "text": "IPO",
+                "relevance": 0.638093,
+                "count": 1
+            },
+            {
+                "text": "applause",
+                "relevance": 0.583174,
+                "count": 2
+            },
+            {
+                "text": "year",
+                "relevance": 0.521804,
+                "count": 2
+            },
+            {
+                "text": "biggest IPO",
+                "relevance": 0.38836,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "0f3d95e1cbce7cabeaa2e71929e7ace900d2f9da",
+        "filename": "202006050406AMSPIDERNEWS_____GLOBMA04_E0DEB86C0DA15BF9E603BAC7704BAC6C_36.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NASDAQ-NMS|WMG|CUSIP:934550203;ISIN:US9345502036|Warner Music Group Corp|extractor|DUNS:175892269;NECOID:8414634;ACORN:5011414634;UDUNS:867705584;UACORN:1899824510|SIGNIFICANT||||XNAS|REFERENCE",
+    "publicationTime": "2020-06-05T04:06:00-04:00",
+    "title": "Warner Music hits IPO high note [Toronto Globe and Mail (Ontario, Canada)]",
+    "html": "<p><org idsrc=\"xmltag.org\" value=\"NASDAQ-NMS:WMG\">Warner Music</org> hits IPO high note  <org idsrc=\"xmltag.org\" value=\"NASDAQ-NMS:WMG\">Warner Music Group</org> received applause on <location>Wall Street</location> for the biggest IPO so far this year.  Reuters  Warner Music Group received applause on <location>Wall Street</location> for the biggest IPO so far this year.</p>",
+    "geoFocus": []
+}

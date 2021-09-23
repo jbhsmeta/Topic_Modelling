@@ -1,0 +1,828 @@
+{
+    "id": "64b73ecc-eef7-413e-b6be-129f62571b92",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "Chennai, India",
+    "sourceType": "Newspaper",
+    "source": "Hindu (India)",
+    "corpus_document_id": "86765224792119387754",
+    "description": "A 14- year-old boy, who returned from Mumbai along with parents on May 16 and was in institutional quarantine in Deodurga, died due to health issues related to abdomen pain. He developed pain on Thursday early morning. He was shifted to RIMS hospital immediately.",
+    "serviceName": "Indian News Sources - English",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Southern Asia",
+            "code": "LB/sas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sas",
+            "relevance_score": "9",
+            "description": "India",
+            "code": "LC/in#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "A 14-year-old boy, who returned from Mumbai along with parents on May 16 and\nwas in institutional quarantine in Deodurga, died due to health issues related\nto abdomen pain.\n\nHe developed pain on Thursday early morning. He was shifted to RIMS hospital\nimmediately. But, doctors declared him brought dead, Santosh K. Assistant\nCommissioner of Raichur, told The Hindu.\n\nAccording to parents, the boy was suffering from heart-related problems, the\nAC said adding that body was cremated as per the norms of COVID-19.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Mumbai"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..chnnai",
+    "language": "English",
+    "filename": "202006050230TANGDITGNEWS____A-381918.XML",
+    "providerName": "FFC Information Solution",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Santosh K. Assistant",
+                "relevance": 0.896069,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "RIMS hospital",
+                "relevance": 0.790894,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mumbai",
+                "relevance": 0.652248,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Commissioner",
+                "relevance": 0.609066,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "AC",
+                "relevance": 0.598419,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.335196,
+                    "label": "negative"
+                },
+                "text": "Deodurga",
+                "relevance": 0.536599,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "The Hindu",
+                "relevance": 0.500597,
+                "type": "PrintMedia",
+                "disambiguation": {
+                    "subtype": [
+                        "Newspaper"
+                    ],
+                    "name": "The Hindu",
+                    "dbpedia_resource": "http://dbpedia.org/resource/The_Hindu"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Raichur",
+                "relevance": 0.46339,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "14-year",
+                "relevance": 0.46339,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He developed pain on Thursday early morning.",
+                "object": {
+                    "text": "pain"
+                },
+                "action": {
+                    "verb": {
+                        "text": "develop",
+                        "tense": "past"
+                    },
+                    "text": "developed",
+                    "normalized": "develop"
+                }
+            },
+            {
+                "subject": {
+                    "text": "doctors"
+                },
+                "sentence": " immediately. But, doctors declared him brought dead, Santosh K. Assistant",
+                "object": {
+                    "text": "him"
+                },
+                "action": {
+                    "verb": {
+                        "text": "declare",
+                        "tense": "past"
+                    },
+                    "text": "declared",
+                    "normalized": "declare"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the boy"
+                },
+                "sentence": " According to parents, the boy was suffering from heart-related problems, the",
+                "object": {
+                    "text": "from heart-related problems"
+                },
+                "action": {
+                    "verb": {
+                        "text": "suffer",
+                        "tense": "past"
+                    },
+                    "text": "was suffering",
+                    "normalized": "be suffer"
+                }
+            },
+            {
+                "subject": {
+                    "text": "AC"
+                },
+                "sentence": " AC said adding that body was cremated as per the norms of COVID-19.",
+                "object": {
+                    "text": "adding that body was cremated as per the norms of COVID-19"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "AC"
+                },
+                "sentence": " AC said adding that body was cremated as per the norms of COVID-19.",
+                "object": {
+                    "text": "that body was cremated as per the norms of COVID-19"
+                },
+                "action": {
+                    "verb": {
+                        "text": "add",
+                        "tense": "present"
+                    },
+                    "text": "said adding",
+                    "normalized": "say add"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.876577,
+                "label": "/health and fitness/disease/chronic pain"
+            },
+            {
+                "score": 0.813358,
+                "label": "/religion and spirituality/hinduism"
+            },
+            {
+                "score": 0.688886,
+                "label": "/family and parenting/children"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "A 14-year-old boy, who returned from Mumbai along with parents on May 16 and was in institutional quarantine in Deodurga, died due to health issues related to abdomen pain.",
+                "score": 0.981968,
+                "arguments": [
+                    {
+                        "text": "boy",
+                        "location": [
+                            14,
+                            17
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Santosh K."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "14-year-old",
+                        "location": [
+                            2,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "14-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "But, doctors declared him brought dead, Santosh K. Assistant Commissioner of Raichur, told The Hindu.",
+                "score": 0.717653,
+                "arguments": [
+                    {
+                        "text": "Assistant\nCommissioner",
+                        "location": [
+                            315,
+                            337
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Santosh K."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Raichur",
+                        "location": [
+                            341,
+                            348
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Raichur"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "But, doctors declared him brought dead, Santosh K. Assistant Commissioner of Raichur, told The Hindu.",
+                "score": 0.873354,
+                "arguments": [
+                    {
+                        "text": "The Hindu",
+                        "location": [
+                            355,
+                            364
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "The Hindu",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "told",
+                        "location": [
+                            350,
+                            354
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "According to parents, the boy was suffering from heart-related problems, the AC said adding that body was cremated as per the norms of COVID-19.",
+                "score": 0.968967,
+                "arguments": [
+                    {
+                        "text": "AC",
+                        "location": [
+                            444,
+                            446
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "AC"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            447,
+                            451
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "According to parents, the boy was suffering from heart-related problems, the AC said adding that body was cremated as per the norms of COVID-19.",
+                "score": 0.753961,
+                "arguments": [
+                    {
+                        "text": "body",
+                        "location": [
+                            464,
+                            468
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Santosh K."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "adding",
+                        "location": [
+                            452,
+                            458
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "A 14-year-old boy, who returned from Mumbai along with parents on May 16 and was in institutional quarantine in Deodurga, died due to health issues related to abdomen pain.",
+                "score": 0.767441,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            19,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Santosh K."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mumbai",
+                        "location": [
+                            37,
+                            43
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mumbai"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "A 14-year-old boy, who returned from Mumbai along with parents on May 16 and was in institutional quarantine in Deodurga, died due to health issues related to abdomen pain.",
+                "score": 0.59022,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            19,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Santosh K."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "parents",
+                        "location": [
+                            55,
+                            62
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "parents"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "A 14-year-old boy, who returned from Mumbai along with parents on May 16 and was in institutional quarantine in Deodurga, died due to health issues related to abdomen pain.",
+                "score": 0.379311,
+                "arguments": [
+                    {
+                        "text": "parents",
+                        "location": [
+                            55,
+                            62
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "parents"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mumbai",
+                        "location": [
+                            37,
+                            43
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mumbai"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "He developed pain on Thursday early morning.",
+                "score": 0.945213,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            174,
+                            176
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Santosh K."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "pain",
+                        "location": [
+                            187,
+                            191
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "pain"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "He was shifted to RIMS hospital immediately.",
+                "score": 0.722282,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            219,
+                            221
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Santosh K."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hospital",
+                        "location": [
+                            242,
+                            250
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospital",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "But, doctors declared him brought dead, Santosh K. Assistant Commissioner of Raichur, told The Hindu.",
+                "score": 0.976166,
+                "arguments": [
+                    {
+                        "text": "doctors",
+                        "location": [
+                            269,
+                            276
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "doctors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "declared",
+                        "location": [
+                            277,
+                            285
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "declared"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "But, doctors declared him brought dead, Santosh K. Assistant Commissioner of Raichur, told The Hindu.",
+                "score": 0.701033,
+                "arguments": [
+                    {
+                        "text": "him",
+                        "location": [
+                            286,
+                            289
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Santosh K."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "declared",
+                        "location": [
+                            277,
+                            285
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "declared"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "But, doctors declared him brought dead, Santosh K. Assistant Commissioner of Raichur, told The Hindu.",
+                "score": 0.56758,
+                "arguments": [
+                    {
+                        "text": "Santosh K.",
+                        "location": [
+                            304,
+                            314
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Santosh K."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "told",
+                        "location": [
+                            350,
+                            354
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "14-year-old boy",
+                "relevance": 0.859157,
+                "count": 1
+            },
+            {
+                "text": "institutional quarantine",
+                "relevance": 0.795419,
+                "count": 1
+            },
+            {
+                "text": "health issues",
+                "relevance": 0.636707,
+                "count": 1
+            },
+            {
+                "text": "early morning",
+                "relevance": 0.613671,
+                "count": 1
+            },
+            {
+                "text": "abdomen pain",
+                "relevance": 0.599952,
+                "count": 1
+            },
+            {
+                "text": "doctors",
+                "relevance": 0.57855,
+                "count": 1
+            },
+            {
+                "text": "parents",
+                "relevance": 0.546075,
+                "count": 2
+            },
+            {
+                "text": "heart-related problems",
+                "relevance": 0.542641,
+                "count": 1
+            },
+            {
+                "text": "boy",
+                "relevance": 0.529443,
+                "count": 1
+            },
+            {
+                "text": "body",
+                "relevance": 0.526219,
+                "count": 1
+            },
+            {
+                "text": "Mumbai",
+                "relevance": 0.525683,
+                "count": 1
+            },
+            {
+                "text": "pain",
+                "relevance": 0.516316,
+                "count": 1
+            },
+            {
+                "text": "RIMS hospital",
+                "relevance": 0.512472,
+                "count": 1
+            },
+            {
+                "text": "norms of COVID-19",
+                "relevance": 0.500021,
+                "count": 1
+            },
+            {
+                "text": "AC",
+                "relevance": 0.4636,
+                "count": 1
+            },
+            {
+                "text": "Deodurga",
+                "relevance": 0.418734,
+                "count": 1
+            },
+            {
+                "text": "Raichur",
+                "relevance": 0.412172,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.408287,
+                "count": 1
+            },
+            {
+                "text": "Hindu",
+                "relevance": 0.400401,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.400401,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "e44193556cd06c888352e65994e92193bce214d9",
+        "filename": "202006050230TANGDITGNEWS____A-381918.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:30:00-04:00",
+    "title": "Boy in quarantine dies",
+    "html": "<p>A 14-year-old boy, who returned from <location idsrc=\"xmltag.org\" value=\"LU/in..bombay\">Mumbai</location> along with parents on <chron>May 16</chron> and was in institutional quarantine in Deodurga, died due to health issues related to abdomen pain.</p> <p>He developed pain on Thursday early morning. He was shifted to RIMS hospital immediately. But, doctors declared him brought dead, Santosh K. Assistant Commissioner of Raichur, told The Hindu.</p> <p>According to parents, the boy was suffering from heart-related problems, the AC said adding that body was cremated as per the norms of COVID-19.</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

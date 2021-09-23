@@ -1,0 +1,323 @@
+{
+    "id": "a3626b4a-2073-4107-a3b5-95b0d81b1bea",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "71013851466451680112",
+    "description": "Contract for the supply of natural gas and 100% renewable electricity to associated entities more info: Location: Namur BidDate: 7/ 6/ 2020 Tender Country: Belgium Tender Type: Tenders Tendering Authority: Idefin Tendering Authority Address: Address: Avenue Sergent Vrithoff 2 Postal Code: 5000 Town: Namur PHONE: +32 81718241 FAX: +32 81718250 Financier: Self Funded...",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Contract for the supply of natural gas and 100% renewable electricity to\nassociated entities more info : Location : Namur BidDate : 7/6/2020 Tender\nCountry : Belgium Tender Type : Tenders Tendering Authority : Idefin Tendering\nAuthority Address : Address: Avenue Sergent Vrithoff 2 Postal Code: 5000 Town:\nNamur PHONE: +32 81718241 FAX: +32 81718250 Financier : Self Funded Tearn\nMoney : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_27296_176208963_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.941042,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Idefin Tendering",
+                "relevance": 0.635239,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.207656,
+                    "label": "positive"
+                },
+                "text": "Namur",
+                "relevance": 0.609723,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.430199,
+                    "label": "positive"
+                },
+                "text": "Belgium",
+                "relevance": 0.314887,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "100%",
+                "relevance": 0.314887,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "entities"
+                },
+                "sentence": " associated entities more info : Location : Namur BidDate : 7/6/2020 Tender",
+                "object": {
+                    "text": "more info"
+                },
+                "action": {
+                    "verb": {
+                        "text": "associate",
+                        "tense": "past"
+                    },
+                    "text": "associated",
+                    "normalized": "associate"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.985321,
+                "label": "/business and industrial/energy/renewable energy"
+            },
+            {
+                "score": 0.970645,
+                "label": "/business and industrial/energy/natural gas"
+            },
+            {
+                "score": 0.964457,
+                "label": "/business and industrial/energy/electricity"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Contract for the supply of natural gas and 100% renewable electricity to associated entities more info : Location : Namur BidDate : 7/6/2020 Tender Country : Belgium Tender Type : Tenders Tendering Authority : Idefin Tendering Authority Address : Address: Avenue Sergent Vrithoff 2 Postal Code: 5000 Town: Namur PHONE: +32 81718241 FAX: +32 81718250 Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.660303,
+                "arguments": [
+                    {
+                        "text": "7/6/2020 Tender",
+                        "location": [
+                            132,
+                            147
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "7/6/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : Idefin Tendering\nAuthority Address : Address: Avenue Sergent Vrithoff 2 Postal Code:",
+                        "location": [
+                            166,
+                            294
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : Idefin Tendering\nAuthority Address : Address: Avenue Sergent Vrithoff 2 Postal Code:"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "productOf",
+                "sentence": "Contract for the supply of natural gas and 100% renewable electricity to associated entities more info : Location : Namur BidDate : 7/6/2020 Tender Country : Belgium Tender Type : Tenders Tendering Authority : Idefin Tendering Authority Address : Address: Avenue Sergent Vrithoff 2 Postal Code: 5000 Town: Namur PHONE: +32 81718241 FAX: +32 81718250 Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.210614,
+                "arguments": [
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : Idefin Tendering\nAuthority Address : Address: Avenue Sergent Vrithoff 2 Postal Code:",
+                        "location": [
+                            166,
+                            294
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : Idefin Tendering\nAuthority Address : Address: Avenue Sergent Vrithoff 2 Postal Code:"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Belgium",
+                        "location": [
+                            158,
+                            165
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Belgium",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Belgium Tender Type",
+                "relevance": 0.899214,
+                "count": 1
+            },
+            {
+                "text": "Namur BidDate",
+                "relevance": 0.739255,
+                "count": 1
+            },
+            {
+                "text": "Postal Code",
+                "relevance": 0.635632,
+                "count": 1
+            },
+            {
+                "text": "Namur PHONE",
+                "relevance": 0.618863,
+                "count": 1
+            },
+            {
+                "text": "renewable electricity",
+                "relevance": 0.612761,
+                "count": 1
+            },
+            {
+                "text": "Avenue Sergent Vrithoff",
+                "relevance": 0.606212,
+                "count": 1
+            },
+            {
+                "text": "supply of natural gas",
+                "relevance": 0.599513,
+                "count": 1
+            },
+            {
+                "text": "Address",
+                "relevance": 0.587763,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.587474,
+                "count": 1
+            },
+            {
+                "text": "entities",
+                "relevance": 0.5816,
+                "count": 1
+            },
+            {
+                "text": "Contract",
+                "relevance": 0.569069,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.560459,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.553125,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.543867,
+                "count": 1
+            },
+            {
+                "text": "FAX",
+                "relevance": 0.527518,
+                "count": 1
+            },
+            {
+                "text": "Financier",
+                "relevance": 0.521451,
+                "count": 1
+            },
+            {
+                "text": "Town",
+                "relevance": 0.514596,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "5d071b28e8568e2fa34b3d137bcac3ca5f13e629",
+        "filename": "202006050210ALBA____ME_NA_NE_27296_176208963_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Contract for the supply of natural gas and 100% renewable electricity to associated entities [TenderNews.com - Tenders (India)]",
+    "html": "<p>Contract for the supply of natural gas and 100% renewable electricity to associated entities more info :  Location : Namur\nBidDate : <chron>7/6/2020</chron>\nTender Country : Belgium\nTender Type : <org>Tenders\nTendering Authority</org> : Idefin\nTendering Authority Address : Address: Avenue Sergent Vrithoff 2\nPostal Code: 5000\nTown: Namur\nPHONE: +32 81718241\nFAX:\n+32 81718250\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

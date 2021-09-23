@@ -1,0 +1,201 @@
+{
+    "id": "e1eb0b20-79e1-4140-9bdd-de1a9ae956b8",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "74431949445448986314",
+    "description": "The Melbourne spring racing carnival program will remain unchanged after the Racing Victoria board unanimously voted against a reshuffle of race dates on Friday.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/oc",
+            "relevance_score": "9",
+            "description": "Australia and New Zealand",
+            "code": "LB/anz#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/anz",
+            "relevance_score": "9",
+            "description": "Australia",
+            "code": "LC/au#9#50#90",
+            "level": 2
+        },
+        {
+            "code": "LR/anz#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Oceania",
+            "code": "LR/oc#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "The Melbourne spring racing carnival program will remain unchanged after the\nRacing Victoria board unanimously voted against a reshuffle of race dates on\nFriday.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Melbourne"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050128AMSPIDERNEWS_____AGEAU005_7D51E20C31803E6252CC07285789D3D7_41.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Racing Victoria",
+                "relevance": 0.947172,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Racing Victoria Limited",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Racing_Victoria_Limited"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Melbourne",
+                "relevance": 0.478115,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The Melbourne spring"
+                },
+                "sentence": "The Melbourne spring racing carnival program will remain unchanged after the",
+                "object": {
+                    "text": "carnival program will remain unchanged"
+                },
+                "action": {
+                    "verb": {
+                        "text": "race",
+                        "tense": "present"
+                    },
+                    "text": "racing",
+                    "normalized": "race"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Racing Victoria board"
+                },
+                "sentence": " Racing Victoria board unanimously voted against a reshuffle of race dates on",
+                "object": {
+                    "text": "against a reshuffle of race dates on"
+                },
+                "action": {
+                    "verb": {
+                        "text": "vote",
+                        "tense": "past"
+                    },
+                    "text": "voted",
+                    "normalized": "vote"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.999994,
+                "label": "/sports/boat racing"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "The Melbourne spring racing carnival program will remain unchanged after the Racing Victoria board unanimously voted against a reshuffle of race dates on Friday.",
+                "score": 0.964209,
+                "arguments": [
+                    {
+                        "text": "board",
+                        "location": [
+                            93,
+                            98
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "board"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Racing Victoria",
+                        "location": [
+                            77,
+                            92
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Racing Victoria"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Racing Victoria",
+                "relevance": 0.98972,
+                "count": 1
+            },
+            {
+                "text": "reshuffle of race dates",
+                "relevance": 0.526781,
+                "count": 1
+            },
+            {
+                "text": "Melbourne spring racing carnival program",
+                "relevance": 0.364246,
+                "count": 1
+            },
+            {
+                "text": "Friday",
+                "relevance": 0.016025,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "03fc68dfadc0f9b0024aa9e20a4b49343fe0f460",
+        "filename": "202006050128AMSPIDERNEWS_____AGEAU005_7D51E20C31803E6252CC07285789D3D7_41.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T01:28:00-04:00",
+    "title": "Racing Victoria votes for unchanged spring racing carnival [Age, The (AU)]",
+    "html": "<p>The <location idsrc=\"xmltag.org\" value=\"LU/au..melbou\">Melbourne</location> spring racing carnival program will remain unchanged after the Racing Victoria board unanimously voted against a reshuffle of race dates on Friday.</p>",
+    "geoFocus": []
+}

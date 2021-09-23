@@ -1,0 +1,295 @@
+{
+    "id": "ffa3f100-f7bf-4276-85c3-e83fe1461fb4",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "82444547568351761126",
+    "description": "Renewal of sports hall floor Viktoria elementary school more info: Location: GERMANY BidDate: 6/ 9/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Stadtbetriebe Grevenbroich AoR area 3 Tendering Authority Address: 41517 Grevenbroich North Rhine-Westphalia Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Sports",
+            "code": "IS/sports#5#58#50",
+            "level": 0
+        }
+    ],
+    "text": "Renewal of sports hall floor Viktoria elementary school more info : Location :\nGERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders\nTendering Authority : Stadtbetriebe Grevenbroich AoR area 3 Tendering\nAuthority Address : 41517 Grevenbroich North Rhine-Westphalia Financier : Self\nFunded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_2671_176212321_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "floor Viktoria elementary school",
+                "relevance": 0.853624,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Grevenbroich North Rhine-Westphalia",
+                "relevance": 0.638898,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.432415,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.607192,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.835777,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.710018,
+                "label": "/finance/grants, scholarships and financial aid/government grants"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Renewal of sports hall floor Viktoria elementary school more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Stadtbetriebe Grevenbroich AoR area 3 Tendering Authority Address : 41517 Grevenbroich North Rhine-Westphalia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.660303,
+                "arguments": [
+                    {
+                        "text": "6/9/2020 Tender",
+                        "location": [
+                            97,
+                            112
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/9/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders\nTendering Authority : Stadtbetriebe Grevenbroich AoR area 3 Tendering\nAuthority Address :",
+                        "location": [
+                            131,
+                            242
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders\nTendering Authority : Stadtbetriebe Grevenbroich AoR area 3 Tendering\nAuthority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Renewal of sports hall floor Viktoria elementary school more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Stadtbetriebe Grevenbroich AoR area 3 Tendering Authority Address : 41517 Grevenbroich North Rhine-Westphalia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.450714,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            285,
+                            294
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Grevenbroich North",
+                        "location": [
+                            249,
+                            267
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Grevenbroich North"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.995693,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.981294,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.718485,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.653577,
+                "count": 1
+            },
+            {
+                "text": "elementary school",
+                "relevance": 0.644737,
+                "count": 1
+            },
+            {
+                "text": "Renewal of sports hall floor Viktoria",
+                "relevance": 0.58995,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.582285,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.569935,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.512894,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.510635,
+                "count": 1
+            },
+            {
+                "text": "Stadtbetriebe Grevenbroich AoR area",
+                "relevance": 0.326846,
+                "count": 1
+            },
+            {
+                "text": "Grevenbroich North Rhine-Westphalia Financier",
+                "relevance": 0.277689,
+                "count": 1
+            },
+            {
+                "text": "Tearn Money",
+                "relevance": 0.238858,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "f1bc9733fab7861e48a58692708f21a4e32ae36e",
+        "filename": "202006050210ALBA____ME_NA_NE_2671_176212321_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Renewal of sports hall floor Viktoria elementary school [TenderNews.com - Tenders (India)]",
+    "html": "<p>Renewal of sports hall floor Viktoria elementary school more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/9/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Stadtbetriebe Grevenbroich AoR area 3\nTendering Authority Address : 41517 Grevenbroich North Rhine-Westphalia\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

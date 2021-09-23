@@ -1,0 +1,2163 @@
+{
+    "id": "46caac26-a7a2-454d-b0e7-0efb70a2597f",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, Robotics & Machine Learning Daily News",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Robotics & Machine Learning Daily News",
+    "corpus_document_id": "4295814179447304203",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at Robotics& Machine Learning Daily News Daily News-- A patent application by the inventors Holtz, Alex; Matics, Scott Raymond; Oisel, Lionel, filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+    "serviceName": "Science Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#70#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Robotics Technology",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics &\nMachine Learning Daily News Daily News \\-- A patent application by the\ninventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville,\nFL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made\navailable online on May 21, 2020, according to news reporting originating from\nWashington, D.C., by NewsRx correspondents.\n\nThis patent application is assigned to GVBB Holdings S.A.R.L. (Luxembourg,\nLuxembourg).\n\nThe following quote was obtained by the news editors from the background\ninformation supplied by the inventors: \"Live production of a television\nprogram such as a news show often requires one or more television cameras to\ncapture the image of different 'on-air' talent, such as a news anchor, weather\nreporter and/or sports reporter. In the past, a camera operator would manually\noperate each television camera. Such manual operation often entailed moving\nthe camera to different positions within a television studio to make sure that\nthe particular on-air talent appeared in the center of the camera's field of\nview. During broadcasting, the on-air talent often will make slight lateral\nmovements, forcing the camera operator to displace the camera by a\ncorresponding amount to maintain the on-air talent within the center of the\ncamera's field of view. The camera operator will generally observe the image\nof the on-air talent in the camera's view finder so the operator will have\nimmediate knowledge of the movement of the talent and move the camera\naccordingly.\n\n\"Advances in technology have led to the development of robotic television\ncameras, such as the 'Cameraman', available from Thomson Grass Valley,\nJacksonville, Fla. Such robotic cameras operate under the control of one or\nmore computers which manage functions such as camera displacement along the x,\ny, and z axes, pan, tilt, zoom and focus. By appropriately programming the\ncomputer(s), the camera will operate automatically, thus obviating the need\nfor manual control. Typical robotic cameras have the ability to move from a\nknown home position to one or more pre-set positions, each pre-set position\nenabling a particular camera shot of an on-air talent. Generally, the pre-set\ncamera positions remain static. In other words, if the on-air talent moves\neven slightly to the right or left while the robotic camera remains static,\nthen the on-air talent will appear off-center within the field of view of the\ncamera.\n\n\"To overcome this difficulty, robotic cameras can include automatic tracking\ntechnology such as such the tracking system described in U.S. Pat. No.\n5,668,629 issued in the name of Jeffrey Parker et al. The automatic tracking\nsystem described in the '629 patent employs a Infra-Red (BR) transmitter\ncarried by the moving object (e.g., the on-air talent) for transmitting\nsignals to an IR receiver carried by the robotic camera. By detecting the\ndeviation in the signal transmitted by the transmitter as it moves with the\nobject, the IR receiver can establish the new position of the moving object\nand provide that information to the computer(s) controlling the robotic camera\nto displace the camera accordingly.\n\n\"The IR tracking technology described in the '629 patent works well for\ntracking a single moving object. However, tracking of multiple objects can\nprove problematic, such as in the case when a single robotic camera serves to\ncapture the image of several different on-air talent, as occurs when the\ncamera moves to capture the image of a news anchor at one instant, and a\nweather reporter at a different instant. Each different on-air talent would\nneed to carry a separate IR transmitter to avoid interference, thus\nnecessitating the need for multiple IR receivers on the camera. This IR system\nalso suffers from the disadvantage that the anchor person has to wear an\nembedded system that should be located at the center of the head to have an\naccurate estimate of the head position\n\n\"Thus, a need exists for a tracking technique that overcomes the\naforementioned disadvantage of the prior art.\"\n\nIn addition to the background information obtained for this patent\napplication, NewsRx journalists also obtained the inventors' summary\ninformation for this patent application: \"Briefly, in accordance with a\npreferred embodiment, there is provided a method for tracking an object within\nthe field of view of a robotically controlled camera. The method commences by\nfirst determining whether the object lying within the camera field of view\nmatches a reference object. If so, tracking of the object commences to\nmaintain the object in fixed relationship to a pre-set location in the\ncamera's field of view, provided the designated object has moved more than a\nthreshold distance from the pre-set location. In this way, tracking occurs in\naccordance with the camera's field of view, and does not depend on any\napparatus worn by the object being tracked.\"\n\nThe claims supplied by the inventors are:\n\n\"1\\. A system for automatically tracking objects in a video feed generated,\nthe system comprising: a camera configured to generate the video feed for the\nproduction of a television program; an object detector configured to compare\nan image characteristic the video feed with a stored image of an object to\ndetect whether the object is captured in the video feed; a tolerance\ndeterminer configured to calculate whether a distance between a pre-set\nposition in a field of view of the camera and the detected object therein is\nwithin a tolerance radius; and an object tracker configured to automatically\ncontrol a robotic camera pedestal to physically adjust a positioning of the\ncamera and a corresponding position of the object within the field of view of\nthe camera when the distance between the pre-set position and the detected\nobject is outside the tolerance radius.\n\n\"2\\. The system according to claim 1, further comprising a tracking window\nsetting module configured to define a tracking window in the field of view of\nthe camera based on an operator defined region of interest received by a user\ninterface, such that the system will not track the object in the video feed\nwhen the object is outside the defined tracking window.\n\n\"3\\. The system according to claim 2, further comprising a tracking location\nsetting module configured to define the pre-set position in the field of view\nof the camera for the identified object; and wherein the object tracker is\nconfigured to automatically track the identified object by controlling the\nrobotic camera pedestal when the camera generates the video feed to maintain\nthe identified and tracked object in a fixed relationship relative to the\ndefined pre-set position in the field of view of the camera.\n\n\"4\\. The system according to claim 1, wherein the object tracker is configured\nto automatically control the robotic camera pedestal by displacing the camera\nin an X and Y axis to physically adjust the positioning of the camera.\n\n\"5\\. The system according to claim 1, wherein the object tracker is configured\nto automatically control at least one of a panning operation and a tilting\noperation of the camera to physically adjust the positioning of the camera.\n\n\"6\\. The system according to claim 1, wherein the object detector includes a\nprocessor configured to execute instructions stored in memory to compare the\nimage characteristic with the stored image, the tolerance determiner includes\na processor configured to execute instructions stored in memory to calculate\nwhether the distance between the pre-set position in the field of view and the\ndetected object therein is within the tolerance radius, and the object tracker\nincludes a processor configured to execute instructions stored in memory to\nautomatically control the robotic camera pedestal to physically adjust the\npositioning of the camera.\n\n\"7\\. An apparatus for automatically tracking objects in a video feed generated\nby a camera, the apparatus comprising: a memory; and a processor configured to\nimplement instructions stored on the memory so as to provide: an object\ndetector configured to compare an image characteristic in frames of the video\nfeed with a stored image of an object to detect the object in the video feed;\na tolerance determiner configured to calculate whether a distance between a\npre-set position in a field of view of the camera and the detected object\ntherein is within a tolerance radius; and an object tracker configured to\nautomatically control a robotic camera pedestal to physically adjust a\npositioning of the camera and a corresponding position of the object within\nthe field of view of the camera when the distance between the pre-set position\nand the detected object is outside the tolerance radius in at least one frame\nof the video feed.\n\n\"8\\. The apparatus according to claim 7, further comprising the camera\nconfigured to capture the frames of the video feed for the production of a\ntelevision program.\n\n\"9\\. The apparatus according to claim 7, wherein the processor is configured\nto implement instructions stored on the memory so as to provide a tracking\nwindow setting module configured to define a tracking window in the field of\nview of the camera, such that the system will not track the object in the\nvideo feed when the object is outside the defined tracking window.\n\n\"10\\. The apparatus according to claim 9, wherein the tracking window setting\nmodule is configured to define the tracking window based on an operator\ndefined region of interest received by a user interface.\n\n\"11\\. The apparatus according to claim 9, wherein the processor is configured\nto implement instructions stored on the memory so as to provide a tracking\nlocation setting module configured to define the pre-set position in the field\nof view of the camera for the identified object.\n\n\"12\\. The apparatus according to claim 11, wherein the object tracker is\nconfigured to automatically track the identified object by controlling the\nrobotic camera pedestal when the camera captures the frames of the video feed\nto maintain the identified and tracked object in a fixed relationship relative\nto the defined pre-set position in the field of view of the camera.\n\n\"13\\. The apparatus according to claim 7, wherein the object tracker is\nconfigured to automatically control the robotic camera pedestal by displacing\nthe camera in an X and Y axis to physically adjust the positioning of the\ncamera.\n\n\"14\\. The apparatus according to claim 7, wherein the object tracker is\nconfigured to automatically control at least one of a panning operation and a\ntilting operation of the camera to physically adjust the positioning of the\ncamera.\n\n\"15\\. A system for automatically tracking objects in a video feed generated by\na camera, the system comprising: an object detector configured to compare an\nimage characteristic in frames of the video feed with a stored image of an\nobject to detect the object in the video feed; a tolerance determiner\nconfigured to calculate whether a distance between a pre-set position in a\nfield of view of the camera and the detected object therein is within a\ntolerance radius; and an object tracker configured to automatically control a\nrobotic camera pedestal to physically adjust a positioning of the camera and a\ncorresponding position of the object within the field of view of the camera\nwhen the distance between the pre-set position and the detected object is\noutside the tolerance radius in at least one frame of the video feed.\n\n\"16\\. The system according to claim 15, further comprising the camera\nconfigured to capture the frames of the video feed for the production of a\ntelevision program.\n\n\"17\\. The system according to claim 15, further comprising a tracking window\nsetting module configured to define a tracking window in the field of view of\nthe camera, such that the system will not track the object in the video feed\nwhen the object is outside the defined tracking window.\n\n\"18\\. The system according to claim 16, wherein the tracking window setting\nmodule is configured to define the tracking window based on an operator\ndefined region of interest received by a user interface.\n\n\"19\\. The system according to claim 17, further comprising a tracking location\nsetting module configured to define the pre-set position in the field of view\nof the camera for the identified object; and wherein the object tracker is\nconfigured to automatically track the identified object by controlling the\nrobotic camera pedestal when the camera captures the frames of the video feed\nto maintain the identified and tracked object in a fixed relationship relative\nto the defined pre-set position in the field of view of the camera.\n\n\"20\\. The system according to claim 15, wherein the object tracker is\nconfigured to automatically control the robotic camera pedestal by displacing\nthe camera in an X and Y axis to physically adjust the positioning of the\ncamera.\n\n\"21\\. The system according to claim 15, wherein the object tracker is\nconfigured to automatically control at least one of a panning operation and a\ntilting operation of the camera to physically adjust the positioning of the\ncamera.\n\n\"22\\. The system according to claim 15, wherein the object detector includes a\nprocessor configured to execute instructions stored in memory to compare the\nimage characteristic with the stored image, the tolerance determiner includes\na processor configured to execute instructions stored in memory to calculate\nwhether the distance between the pre-set position in the field of view and the\ndetected object therein is within the tolerance radius, and the object tracker\nincludes a processor configured to execute instructions stored in memory to\nautomatically control the robotic camera pedestal to physically adjust the\npositioning of the camera.\"\n\nURL and more information on this patent application, see: Holtz, Alex; Matics,\nScott Raymond; Oisel, Lionel. Technique For Automatically Tracking An Object\nBy A Camera Based On Identification Of An Object. Filed November 25, 2019 and\nposted May 21, 2020. Patent URL: [http://appft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220200160536%22.PGNR.&OS=DN/20200160536&RS=DN/20200160536](http://appft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220200160536%22.PGNR.&OS=DN/20200160536&RS=DN/20200160536)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Robotics &amp; Machine Learning Daily News Daily News"
+        ],
+        "location": [
+            "Jacksonville, FL",
+            "Washington, D.C.",
+            "Thomson Grass Valley",
+            "Jacksonville, Fla.",
+            "U.S."
+        ],
+        "person": [
+            "Scott Raymond",
+            "Jeffrey Parker"
+        ],
+        "companies": [
+            "News Reporter-Staff News",
+            "Robotics &amp; Machine Learning Daily News Daily News"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_SCNC_9266C755CC7C30DA.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0.358974,
+                    "label": "positive"
+                },
+                "text": "Jacksonville",
+                "relevance": 0.292442,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "GovernmentalJurisdiction",
+                        "PlaceWithNeighborhoods",
+                        "City"
+                    ],
+                    "name": "Jacksonville, Florida",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Jacksonville,_Florida"
+                }
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": -0.439094,
+                    "label": "negative"
+                },
+                "text": "reporter",
+                "relevance": 0.277977,
+                "type": "JobTitle"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.353963,
+                    "label": "negative"
+                },
+                "text": "Holtz",
+                "relevance": 0.240946,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Scott Raymond",
+                "relevance": 0.2396,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Matics",
+                "relevance": 0.228358,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "FL",
+                "relevance": 0.22415,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alex",
+                "relevance": 0.218301,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Washington",
+                "relevance": 0.216292,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Washington, North Carolina",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Washington,_North_Carolina"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "GVBB Holdings",
+                "relevance": 0.214583,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.440146,
+                    "label": "positive"
+                },
+                "text": "News Editor",
+                "relevance": 0.207857,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.20691,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Luxembourg",
+                "relevance": 0.199705,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Thomson Grass Valley",
+                "relevance": 0.198929,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.440887,
+                    "label": "positive"
+                },
+                "text": "D.C.",
+                "relevance": 0.194564,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Oisel",
+                "relevance": 0.190952,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jeffrey Parker",
+                "relevance": 0.188536,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.433825,
+                    "label": "positive"
+                },
+                "text": "La Nouaye",
+                "relevance": 0.181762,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Fla",
+                "relevance": 0.180501,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Oisel, Lionel (La Nouaye, FR),"
+                },
+                "sentence": " FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made",
+                "action": {
+                    "verb": {
+                        "text": "file",
+                        "tense": "past"
+                    },
+                    "text": "filed",
+                    "normalized": "file"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019,"
+                },
+                "sentence": " FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made",
+                "object": {
+                    "text": "made"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "available online on May 21"
+                },
+                "sentence": " available online on May 21, 2020, according to news reporting originating from",
+                "object": {
+                    "text": "to news reporting originating from"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "future"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent application"
+                },
+                "sentence": " This patent application is assigned to GVBB Holdings S.A.R.L. (Luxembourg,",
+                "object": {
+                    "text": "assigned to GVBB Holdings S.A.R.L. (Luxembourg,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent application"
+                },
+                "sentence": " This patent application is assigned to GVBB Holdings S.A.R.L. (Luxembourg,",
+                "object": {
+                    "text": "to GVBB Holdings S.A.R.L. (Luxembourg,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "assign",
+                        "tense": "past"
+                    },
+                    "text": "is assigned",
+                    "normalized": "be assign"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The following quote"
+                },
+                "sentence": " The following quote was obtained by the news editors from the background",
+                "object": {
+                    "text": "obtained by the news editors from the background"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the news editors from the background"
+                },
+                "sentence": " The following quote was obtained by the news editors from the background",
+                "object": {
+                    "text": "The following quote"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "was obtained",
+                    "normalized": "be obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "program such as a news show"
+                },
+                "sentence": " program such as a news show often requires one or more television cameras to",
+                "object": {
+                    "text": "one or more television cameras"
+                },
+                "action": {
+                    "verb": {
+                        "text": "require",
+                        "tense": "present"
+                    },
+                    "text": "requires",
+                    "normalized": "require"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Such manual operation"
+                },
+                "sentence": " Such manual operation often entailed moving",
+                "action": {
+                    "verb": {
+                        "text": "move",
+                        "tense": "present"
+                    },
+                    "text": "entailed moving",
+                    "normalized": "entail move"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the particular on-air talent"
+                },
+                "sentence": " the particular on-air talent appeared in the center of the camera's field of",
+                "action": {
+                    "verb": {
+                        "text": "appear",
+                        "tense": "past"
+                    },
+                    "text": "appeared",
+                    "normalized": "appear"
+                }
+            },
+            {
+                "subject": {
+                    "text": "movements"
+                },
+                "sentence": " movements, forcing the camera operator to displace the camera by a",
+                "object": {
+                    "text": "the camera operator"
+                },
+                "action": {
+                    "verb": {
+                        "text": "force",
+                        "tense": "present"
+                    },
+                    "text": "forcing",
+                    "normalized": "force"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the camera operator"
+                },
+                "sentence": " movements, forcing the camera operator to displace the camera by a",
+                "object": {
+                    "text": "the camera"
+                },
+                "action": {
+                    "verb": {
+                        "text": "displace",
+                        "tense": "future"
+                    },
+                    "text": "to displace",
+                    "normalized": "to displace"
+                }
+            },
+            {
+                "subject": {
+                    "text": "amount"
+                },
+                "sentence": " corresponding amount to maintain the on-air talent within the center of the",
+                "object": {
+                    "text": "to maintain the on-air talent within the center"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the on-air talent"
+                },
+                "sentence": " corresponding amount to maintain the on-air talent within the center of the",
+                "action": {
+                    "verb": {
+                        "text": "maintain",
+                        "tense": "future"
+                    },
+                    "text": "to maintain",
+                    "normalized": "to maintain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The camera operator"
+                },
+                "sentence": " The camera operator will generally observe the image",
+                "object": {
+                    "text": "the image"
+                },
+                "action": {
+                    "verb": {
+                        "text": "observe",
+                        "tense": "future"
+                    },
+                    "text": "will generally observe",
+                    "normalized": "will generally observe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Advances in technology"
+                },
+                "sentence": " \"Advances in technology have led to the development of robotic television",
+                "object": {
+                    "text": "led to the development of robotic television"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "more computers"
+                },
+                "sentence": " more computers which manage functions such as camera displacement along the x,",
+                "object": {
+                    "text": "functions such as camera displacement"
+                },
+                "action": {
+                    "verb": {
+                        "text": "manage",
+                        "tense": "present"
+                    },
+                    "text": "manage",
+                    "normalized": "manage"
+                }
+            },
+            {
+                "subject": {
+                    "text": "computer(s), the camera"
+                },
+                "sentence": " computer(s), the camera will operate automatically, thus obviating the need",
+                "object": {
+                    "text": "the need"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obviate",
+                        "tense": "future"
+                    },
+                    "text": "obviating",
+                    "normalized": "obviate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Typical robotic cameras"
+                },
+                "sentence": " Typical robotic cameras have the ability to move from a",
+                "object": {
+                    "text": "the ability to move"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the on-air talent"
+                },
+                "sentence": " then the on-air talent will appear off-center within the field of view of the",
+                "action": {
+                    "verb": {
+                        "text": "appear",
+                        "tense": "future"
+                    },
+                    "text": "will appear",
+                    "normalized": "will appear"
+                }
+            },
+            {
+                "subject": {
+                    "text": "automatic tracking"
+                },
+                "sentence": " \"To overcome this difficulty, robotic cameras can include automatic tracking",
+                "object": {
+                    "text": "robotic cameras"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "future"
+                    },
+                    "text": "can include",
+                    "normalized": "can include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "technology such as such the tracking system"
+                },
+                "sentence": " technology such as such the tracking system described in U.S. Pat.",
+                "action": {
+                    "verb": {
+                        "text": "describe",
+                        "tense": "past"
+                    },
+                    "text": "described",
+                    "normalized": "describe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "system"
+                },
+                "sentence": " system described in the '629 patent employs a Infra-Red (BR) transmitter",
+                "action": {
+                    "verb": {
+                        "text": "describe",
+                        "tense": "past"
+                    },
+                    "text": "described",
+                    "normalized": "describe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the '629 patent"
+                },
+                "sentence": " system described in the '629 patent employs a Infra-Red (BR) transmitter",
+                "object": {
+                    "text": "a Infra-Red (BR) transmitter"
+                },
+                "action": {
+                    "verb": {
+                        "text": "employ",
+                        "tense": "present"
+                    },
+                    "text": "employs",
+                    "normalized": "employ"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the robotic camera"
+                },
+                "sentence": " signals to an IR receiver carried by the robotic camera.",
+                "object": {
+                    "text": "an IR receiver"
+                },
+                "action": {
+                    "verb": {
+                        "text": "carry",
+                        "tense": "past"
+                    },
+                    "text": "carried",
+                    "normalized": "carry"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the transmitter"
+                },
+                "sentence": " deviation in the signal transmitted by the transmitter as it moves with the",
+                "object": {
+                    "text": "deviation in the signal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "transmit",
+                        "tense": "past"
+                    },
+                    "text": "transmitted",
+                    "normalized": "transmit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the IR receiver"
+                },
+                "sentence": " object, the IR receiver can establish the new position of the moving object",
+                "object": {
+                    "text": "the new position of the moving object"
+                },
+                "action": {
+                    "verb": {
+                        "text": "establish",
+                        "tense": "future"
+                    },
+                    "text": "can establish",
+                    "normalized": "can establish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "that information"
+                },
+                "sentence": " and provide that information to the computer(s) controlling the robotic camera",
+                "object": {
+                    "text": "to the computer(s) controlling the robotic camera"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "present"
+                    },
+                    "text": "provide",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The IR tracking technology"
+                },
+                "sentence": " \"The IR tracking technology described in the '629 patent works well for",
+                "action": {
+                    "verb": {
+                        "text": "describe",
+                        "tense": "past"
+                    },
+                    "text": "described",
+                    "normalized": "describe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "camera"
+                },
+                "sentence": " camera moves to capture the image of a news anchor at one instant, and a",
+                "object": {
+                    "text": "to capture the image of a news anchor at one instant"
+                },
+                "action": {
+                    "verb": {
+                        "text": "move",
+                        "tense": "present"
+                    },
+                    "text": "moves",
+                    "normalized": "move"
+                }
+            },
+            {
+                "subject": {
+                    "text": "camera"
+                },
+                "sentence": " camera moves to capture the image of a news anchor at one instant, and a",
+                "object": {
+                    "text": "the image of a news anchor"
+                },
+                "action": {
+                    "verb": {
+                        "text": "capture",
+                        "tense": "future"
+                    },
+                    "text": "to capture",
+                    "normalized": "to capture"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a separate IR transmitter"
+                },
+                "sentence": " need to carry a separate IR transmitter to avoid interference, thus",
+                "object": {
+                    "text": "interference"
+                },
+                "action": {
+                    "verb": {
+                        "text": "avoid",
+                        "tense": "future"
+                    },
+                    "text": "to avoid",
+                    "normalized": "to avoid"
+                }
+            },
+            {
+                "subject": {
+                    "text": "embedded system"
+                },
+                "sentence": " embedded system that should be located at the center of the head to have an",
+                "object": {
+                    "text": "located at the center of the head"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "embedded system"
+                },
+                "sentence": " embedded system that should be located at the center of the head to have an",
+                "action": {
+                    "verb": {
+                        "text": "locate",
+                        "tense": "future"
+                    },
+                    "text": "should be located",
+                    "normalized": "should be locate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a tracking technique"
+                },
+                "sentence": " \"Thus, a need exists for a tracking technique that overcomes the",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "overcome",
+                        "tense": "present"
+                    },
+                    "text": "overcomes",
+                    "normalized": "overcome"
+                }
+            },
+            {
+                "subject": {
+                    "text": "NewsRx journalists"
+                },
+                "sentence": " application, NewsRx journalists also obtained the inventors' summary",
+                "object": {
+                    "text": "the inventors' summary"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a method"
+                },
+                "sentence": " preferred embodiment, there is provided a method for tracking an object within",
+                "object": {
+                    "text": "for tracking an object within"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "past"
+                    },
+                    "text": "is provided",
+                    "normalized": "be provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "first"
+                },
+                "sentence": " first determining whether the object lying within the camera field of view",
+                "object": {
+                    "text": "whether the object lying within the camera field of view"
+                },
+                "action": {
+                    "verb": {
+                        "text": "determine",
+                        "tense": "present"
+                    },
+                    "text": "determining",
+                    "normalized": "determine"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the object"
+                },
+                "sentence": " first determining whether the object lying within the camera field of view",
+                "action": {
+                    "verb": {
+                        "text": "lie",
+                        "tense": "present"
+                    },
+                    "text": "lying",
+                    "normalized": "lie"
+                }
+            },
+            {
+                "subject": {
+                    "text": "camera"
+                },
+                "sentence": " camera's field of view, provided the designated object has moved more than a",
+                "object": {
+                    "text": "the designated object"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "past"
+                    },
+                    "text": "provided",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "apparatus worn by the object"
+                },
+                "sentence": " apparatus worn by the object being tracked.\"",
+                "object": {
+                    "text": "tracked"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "being",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the inventors"
+                },
+                "sentence": " The claims supplied by the inventors are:",
+                "object": {
+                    "text": "The claims"
+                },
+                "action": {
+                    "verb": {
+                        "text": "supply",
+                        "tense": "past"
+                    },
+                    "text": "supplied",
+                    "normalized": "supply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "objects"
+                },
+                "sentence": " \"1\\. A system for automatically tracking objects in a video feed generated,",
+                "action": {
+                    "verb": {
+                        "text": "track",
+                        "tense": "present"
+                    },
+                    "text": "tracking",
+                    "normalized": "track"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a camera"
+                },
+                "sentence": " the system comprising: a camera configured to generate the video feed for the",
+                "object": {
+                    "text": "the video feed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "future"
+                    },
+                    "text": "configured to generate",
+                    "normalized": "configure to generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "whether the object"
+                },
+                "sentence": " detect whether the object is captured in the video feed; a tolerance",
+                "action": {
+                    "verb": {
+                        "text": "detect",
+                        "tense": "present"
+                    },
+                    "text": "detect",
+                    "normalized": "detect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the object"
+                },
+                "sentence": " detect whether the object is captured in the video feed; a tolerance",
+                "object": {
+                    "text": "captured in the video feed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the object"
+                },
+                "sentence": " detect whether the object is captured in the video feed; a tolerance",
+                "action": {
+                    "verb": {
+                        "text": "capture",
+                        "tense": "past"
+                    },
+                    "text": "is captured",
+                    "normalized": "be capture"
+                }
+            },
+            {
+                "subject": {
+                    "text": "determiner"
+                },
+                "sentence": " determiner configured to calculate whether a distance between a pre-set",
+                "object": {
+                    "text": "to calculate"
+                },
+                "action": {
+                    "verb": {
+                        "text": "configure",
+                        "tense": "past"
+                    },
+                    "text": "configured",
+                    "normalized": "configure"
+                }
+            },
+            {
+                "subject": {
+                    "text": "determiner"
+                },
+                "sentence": " determiner configured to calculate whether a distance between a pre-set",
+                "object": {
+                    "text": "whether a distance between a pre-set"
+                },
+                "action": {
+                    "verb": {
+                        "text": "calculate",
+                        "tense": "future"
+                    },
+                    "text": "configured to calculate",
+                    "normalized": "configure to calculate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "object"
+                },
+                "sentence": " object is outside the tolerance radius.",
+                "object": {
+                    "text": "outside the tolerance radius"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.921882,
+                "label": "/technology and computing/hardware/computer components"
+            },
+            {
+                "score": 0.899943,
+                "label": "/technology and computing/hardware/computer"
+            },
+            {
+                "score": 0.889579,
+                "label": "/technology and computing/hardware/computer peripherals/computer monitors"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.496824,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.970955,
+                "arguments": [
+                    {
+                        "text": "Washington",
+                        "location": [
+                            377,
+                            387
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Washington"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "D.C.",
+                        "location": [
+                            389,
+                            393
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "D.C."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "This patent application is assigned to GVBB Holdings S.A.R.L. (Luxembourg, Luxembourg).",
+                "score": 0.488292,
+                "arguments": [
+                    {
+                        "text": "GVBB Holdings S.A.R.L.",
+                        "location": [
+                            461,
+                            483
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "GVBB Holdings S.A.R.L."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Luxembourg",
+                        "location": [
+                            485,
+                            495
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Luxembourg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "This patent application is assigned to GVBB Holdings S.A.R.L. (Luxembourg, Luxembourg).",
+                "score": 0.982582,
+                "arguments": [
+                    {
+                        "text": "Luxembourg",
+                        "location": [
+                            485,
+                            495
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Luxembourg"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Luxembourg",
+                        "location": [
+                            497,
+                            507
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Luxembourg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"Advances in technology have led to the development of robotic television cameras, such as the 'Cameraman', available from Thomson Grass Valley, Jacksonville, Fla. Such robotic cameras operate under the control of one or more computers which manage functions such as camera displacement along the x, y, and z axes, pan, tilt, zoom and focus.",
+                "score": 0.62606,
+                "arguments": [
+                    {
+                        "text": "Thomson Grass Valley",
+                        "location": [
+                            1701,
+                            1721
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Thomson Grass Valley"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jacksonville",
+                        "location": [
+                            1723,
+                            1735
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jacksonville"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The apparatus according to claim 7, further comprising the camera configured to capture the frames of the video feed for the production of a television program.",
+                "score": 0.917277,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            8804,
+                            8813
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            8827,
+                            8832
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The apparatus according to claim 7, wherein the processor is configured to implement instructions stored on the memory so as to provide a tracking window setting module configured to define a tracking window in the field of view of the camera, such that the system will not track the object in the video feed when the object is outside the defined tracking window.",
+                "score": 0.831453,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            8971,
+                            8980
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            8994,
+                            8999
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The apparatus according to claim 9, wherein the tracking window setting module is configured to define the tracking window based on an operator defined region of interest received by a user interface.",
+                "score": 0.852473,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            9343,
+                            9352
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            9366,
+                            9371
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The apparatus according to claim 9, wherein the processor is configured to implement instructions stored on the memory so as to provide a tracking location setting module configured to define the pre-set position in the field of view of the camera for the identified object.",
+                "score": 0.861287,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            9551,
+                            9560
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            9574,
+                            9579
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The apparatus according to claim 11, wherein the object tracker is configured to automatically track the identified object by controlling the robotic camera pedestal when the camera captures the frames of the video feed to maintain the identified and tracked object in a fixed relationship relative to the defined pre-set position in the field of view of the camera.",
+                "score": 0.861287,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            9833,
+                            9842
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            9856,
+                            9861
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The apparatus according to claim 7, wherein the object tracker is configured to automatically control the robotic camera pedestal by displacing the camera in an X and Y axis to physically adjust the positioning of the camera.",
+                "score": 0.917277,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            10207,
+                            10216
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            10230,
+                            10235
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The apparatus according to claim 7, wherein the object tracker is configured to automatically control at least one of a panning operation and a tilting operation of the camera to physically adjust the positioning of the camera.",
+                "score": 0.874885,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            10440,
+                            10449
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            10463,
+                            10468
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "URL and more information on this patent application, see: Holtz, Alex; Matics, Scott Raymond; Oisel, Lionel.",
+                "score": 0.67874,
+                "arguments": [
+                    {
+                        "text": "Alex",
+                        "location": [
+                            13863,
+                            13867
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Alex"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Matics",
+                        "location": [
+                            13869,
+                            13875
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Matics"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.966418,
+                "arguments": [
+                    {
+                        "text": "Holtz",
+                        "location": [
+                            156,
+                            161
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Holtz"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "inventors",
+                        "location": [
+                            146,
+                            155
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inventors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.972905,
+                "arguments": [
+                    {
+                        "text": "Alex",
+                        "location": [
+                            163,
+                            167
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Alex"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "inventors",
+                        "location": [
+                            146,
+                            155
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inventors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.684281,
+                "arguments": [
+                    {
+                        "text": "Scott Raymond",
+                        "location": [
+                            196,
+                            209
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Scott Raymond"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "inventors",
+                        "location": [
+                            146,
+                            155
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inventors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.648102,
+                "arguments": [
+                    {
+                        "text": "Alex",
+                        "location": [
+                            163,
+                            167
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Alex"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jacksonville",
+                        "location": [
+                            169,
+                            181
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jacksonville"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.904551,
+                "arguments": [
+                    {
+                        "text": "Jacksonville",
+                        "location": [
+                            169,
+                            181
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jacksonville"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "FL",
+                        "location": [
+                            183,
+                            185
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fla."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.703598,
+                "arguments": [
+                    {
+                        "text": "Jacksonville",
+                        "location": [
+                            211,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jacksonville"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "FL",
+                        "location": [
+                            225,
+                            227
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fla."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"Advances in technology have led to the development of robotic television cameras, such as the 'Cameraman', available from Thomson Grass Valley, Jacksonville, Fla. Such robotic cameras operate under the control of one or more computers which manage functions such as camera displacement along the x, y, and z axes, pan, tilt, zoom and focus.",
+                "score": 0.931384,
+                "arguments": [
+                    {
+                        "text": "Jacksonville",
+                        "location": [
+                            1723,
+                            1735
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jacksonville"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Fla.",
+                        "location": [
+                            1737,
+                            1741
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fla."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.778413,
+                "arguments": [
+                    {
+                        "text": "Scott Raymond",
+                        "location": [
+                            196,
+                            209
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Scott Raymond"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jacksonville",
+                        "location": [
+                            211,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jacksonville"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.379426,
+                "arguments": [
+                    {
+                        "text": "Lionel",
+                        "location": [
+                            237,
+                            243
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Lionel",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "La Nouaye",
+                        "location": [
+                            245,
+                            254
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "La Nouaye"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- A patent application by the inventors Holtz, Alex (Jacksonville, FL); Matics, Scott Raymond (Jacksonville, FL); Oisel, Lionel (La Nouaye, FR), filed on November 25, 2019, was made available online on May 21, 2020, according to news reporting originating from Washington, D.C., by NewsRx correspondents.",
+                "score": 0.959569,
+                "arguments": [
+                    {
+                        "text": "La Nouaye",
+                        "location": [
+                            245,
+                            254
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "La Nouaye"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "FR",
+                        "location": [
+                            256,
+                            258
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "FR"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "television cameras",
+                "relevance": 0.836829,
+                "count": 1
+            },
+            {
+                "text": "camera operator",
+                "relevance": 0.694252,
+                "count": 3
+            },
+            {
+                "text": "moving object",
+                "relevance": 0.644888,
+                "count": 1
+            },
+            {
+                "text": "television camera",
+                "relevance": 0.633649,
+                "count": 1
+            },
+            {
+                "text": "tracking system",
+                "relevance": 0.628952,
+                "count": 1
+            },
+            {
+                "text": "Such manual operation",
+                "relevance": 0.628069,
+                "count": 1
+            },
+            {
+                "text": "patent application",
+                "relevance": 0.608352,
+                "count": 4
+            },
+            {
+                "text": "Such robotic cameras",
+                "relevance": 0.599385,
+                "count": 1
+            },
+            {
+                "text": "different positions",
+                "relevance": 0.590885,
+                "count": 1
+            },
+            {
+                "text": "defined tracking window",
+                "relevance": 0.587813,
+                "count": 3
+            },
+            {
+                "text": "set position",
+                "relevance": 0.577214,
+                "count": 4
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.575755,
+                "count": 1
+            },
+            {
+                "text": "center of the camera",
+                "relevance": 0.555669,
+                "count": 1
+            },
+            {
+                "text": "IR receiver",
+                "relevance": 0.553966,
+                "count": 2
+            },
+            {
+                "text": "background information",
+                "relevance": 0.550975,
+                "count": 1
+            },
+            {
+                "text": "video feed",
+                "relevance": 0.550021,
+                "count": 13
+            },
+            {
+                "text": "IR system",
+                "relevance": 0.548764,
+                "count": 1
+            },
+            {
+                "text": "air' talent",
+                "relevance": 0.5454,
+                "count": 1
+            },
+            {
+                "text": "manual control",
+                "relevance": 0.535633,
+                "count": 1
+            },
+            {
+                "text": "camera's field",
+                "relevance": 0.534133,
+                "count": 3
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.532549,
+                "count": 1
+            },
+            {
+                "text": "Typical robotic cameras",
+                "relevance": 0.529723,
+                "count": 1
+            },
+            {
+                "text": "user interface",
+                "relevance": 0.529113,
+                "count": 2
+            },
+            {
+                "text": "known home position",
+                "relevance": 0.528572,
+                "count": 1
+            },
+            {
+                "text": "embedded system",
+                "relevance": 0.527738,
+                "count": 1
+            },
+            {
+                "text": "new position of the moving object",
+                "relevance": 0.527262,
+                "count": 1
+            },
+            {
+                "text": "stored image of an object",
+                "relevance": 0.526868,
+                "count": 2
+            },
+            {
+                "text": "set location",
+                "relevance": 0.525397,
+                "count": 1
+            },
+            {
+                "text": "immediate knowledge of the movement of the talent",
+                "relevance": 0.524496,
+                "count": 1
+            },
+            {
+                "text": "Y axis",
+                "relevance": 0.524049,
+                "count": 3
+            },
+            {
+                "text": "Daily News Daily News",
+                "relevance": 0.523196,
+                "count": 1
+            },
+            {
+                "text": "camera's view finder",
+                "relevance": 0.522476,
+                "count": 1
+            },
+            {
+                "text": "tolerance radius",
+                "relevance": 0.520927,
+                "count": 8
+            },
+            {
+                "text": "camera",
+                "relevance": 0.520335,
+                "count": 34
+            },
+            {
+                "text": "sports reporter",
+                "relevance": 0.519594,
+                "count": 1
+            },
+            {
+                "text": "inventors Holtz",
+                "relevance": 0.519453,
+                "count": 1
+            },
+            {
+                "text": "news anchor",
+                "relevance": 0.518585,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.517094,
+                "count": 2
+            },
+            {
+                "text": "television program",
+                "relevance": 0.516971,
+                "count": 2
+            },
+            {
+                "text": "image",
+                "relevance": 0.515988,
+                "count": 3
+            },
+            {
+                "text": "apparatus",
+                "relevance": 0.515926,
+                "count": 10
+            },
+            {
+                "text": "view",
+                "relevance": 0.51566,
+                "count": 4
+            },
+            {
+                "text": "television studio",
+                "relevance": 0.51544,
+                "count": 1
+            },
+            {
+                "text": "single moving object",
+                "relevance": 0.515113,
+                "count": 1
+            },
+            {
+                "text": "object",
+                "relevance": 0.514858,
+                "count": 20
+            },
+            {
+                "text": "claims",
+                "relevance": 0.514472,
+                "count": 1
+            },
+            {
+                "text": "control",
+                "relevance": 0.514038,
+                "count": 1
+            },
+            {
+                "text": "computers",
+                "relevance": 0.513321,
+                "count": 1
+            },
+            {
+                "text": "field",
+                "relevance": 0.513269,
+                "count": 3
+            },
+            {
+                "text": "robotic camera",
+                "relevance": 0.513127,
+                "count": 3
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "e394054a46b8dc48a1e5fa17ce3466bc58f906c5",
+        "filename": "202006050000NEWSRX__VRT_SCNC_9266C755CC7C30DA.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "\u201cTechnique For Automatically Tracking An Object By A Camera Based On Identification Of An Object\u201d in Patent Application Approval Process (USPTO 20200160536): GVBB Holdings S.A.R.L.",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at <org>Robotics &amp; Machine Learning Daily News Daily News</org> -- A patent application by the inventors Holtz, Alex (<location idsrc=\"xmltag.org\" value=\"LU/us.fl.jckvil\">Jacksonville, FL</location>); Matics, <person>Scott Raymond</person> (<location idsrc=\"xmltag.org\" value=\"LU/us.fl.jckvil\">Jacksonville, FL</location>); Oisel, Lionel (La Nouaye, FR), filed on <chron>November 25, 2019</chron>, was made available online on <chron>May 21, 2020</chron>, according to news reporting originating from <location idsrc=\"xmltag.org\" value=\"LU/us.dc.wash\">Washington, D.C.</location>, by NewsRx correspondents.</p>\n<p>This patent application is assigned to GVBB Holdings S.A.R.L. (Luxembourg, Luxembourg).</p>\n<p>The following quote was obtained by the news editors from the background information supplied by the inventors: &#8220;Live production of a television program such as a news show often requires one or more television cameras to capture the image of different &#8216;on-air&#8217; talent, such as a news anchor, weather reporter and/or sports reporter. In the past, a camera operator would manually operate each television camera. Such manual operation often entailed moving the camera to different positions within a television studio to make sure that the particular on-air talent appeared in the center of the camera&#8217;s field of view. During broadcasting, the on-air talent often will make slight lateral movements, forcing the camera operator to displace the camera by a corresponding amount to maintain the on-air talent within the center of the camera&#8217;s field of view. The camera operator will generally observe the image of the on-air talent in the camera&#8217;s view finder so the operator will have immediate knowledge of the movement of the talent and move the camera accordingly.</p>\n<p>&#8220;Advances in technology have led to the development of robotic television cameras, such as the &#8216;Cameraman&#8217;, available from <location>Thomson Grass Valley</location>, <location idsrc=\"xmltag.org\" value=\"LU/us.fl.jckvil\">Jacksonville, Fla.</location> Such robotic cameras operate under the control of one or more computers which manage functions such as camera displacement along the x, y, and z axes, pan, tilt, zoom and focus. By appropriately programming the computer(s), the camera will operate automatically, thus obviating the need for manual control. Typical robotic cameras have the ability to move from a known home position to one or more pre-set positions, each pre-set position enabling a particular camera shot of an on-air talent. Generally, the pre-set camera positions remain static. In other words, if the on-air talent moves even slightly to the right or left while the robotic camera remains static, then the on-air talent will appear off-center within the field of view of the camera.</p>\n<p>&#8220;To overcome this difficulty, robotic cameras can include automatic tracking technology such as such the tracking system described in <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> Pat. No. 5,668,629 issued in the name of <person>Jeffrey Parker</person> et al. The automatic tracking system described in the &#8216;629 patent employs a Infra-Red (BR) transmitter carried by the moving object (e.g., the on-air talent) for transmitting signals to an IR receiver carried by the robotic camera. By detecting the deviation in the signal transmitted by the transmitter as it moves with the object, the IR receiver can establish the new position of the moving object and provide that information to the computer(s) controlling the robotic camera to displace the camera accordingly.</p>\n<p>&#8220;The IR tracking technology described in the &#8216;629 patent works well for tracking a single moving object. However, tracking of multiple objects can prove problematic, such as in the case when a single robotic camera serves to capture the image of several different on-air talent, as occurs when the camera moves to capture the image of a news anchor at one instant, and a weather reporter at a different instant. Each different on-air talent would need to carry a separate IR transmitter to avoid interference, thus necessitating the need for multiple IR receivers on the camera. This IR system also suffers from the disadvantage that the anchor person has to wear an embedded system that should be located at the center of the head to have an accurate estimate of the head position</p>\n<p>&#8220;Thus, a need exists for a tracking technique that overcomes the aforementioned disadvantage of the prior art.&#8221;</p>\n<p>In addition to the background information obtained for this patent application, NewsRx journalists also obtained the inventors&#8217; summary information for this patent application: &#8220;Briefly, in accordance with a preferred embodiment, there is provided a method for tracking an object within the field of view of a robotically controlled camera. The method commences by first determining whether the object lying within the camera field of view matches a reference object. If so, tracking of the object commences to maintain the object in fixed relationship to a pre-set location in the camera&#8217;s field of view, provided the designated object has moved more than a threshold distance from the pre-set location. In this way, tracking occurs in accordance with the camera&#8217;s field of view, and does not depend on any apparatus worn by the object being tracked.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;1. A system for automatically tracking objects in a video feed generated, the system comprising: a camera configured to generate the video feed for the production of a television program; an object detector configured to compare an image characteristic the video feed with a stored image of an object to detect whether the object is captured in the video feed; a tolerance determiner configured to calculate whether a distance between a pre-set position in a field of view of the camera and the detected object therein is within a tolerance radius; and an object tracker configured to automatically control a robotic camera pedestal to physically adjust a positioning of the camera and a corresponding position of the object within the field of view of the camera when the distance between the pre-set position and the detected object is outside the tolerance radius.</p>\n<p>&#8220;2. The system according to claim 1, further comprising a tracking window setting module configured to define a tracking window in the field of view of the camera based on an operator defined region of interest received by a user interface, such that the system will not track the object in the video feed when the object is outside the defined tracking window.</p>\n<p>&#8220;3. The system according to claim 2, further comprising a tracking location setting module configured to define the pre-set position in the field of view of the camera for the identified object; and wherein the object tracker is configured to automatically track the identified object by controlling the robotic camera pedestal when the camera generates the video feed to maintain the identified and tracked object in a fixed relationship relative to the defined pre-set position in the field of view of the camera.</p>\n<p>&#8220;4. The system according to claim 1, wherein the object tracker is configured to automatically control the robotic camera pedestal by displacing the camera in an X and Y axis to physically adjust the positioning of the camera.</p>\n<p>&#8220;5. The system according to claim 1, wherein the object tracker is configured to automatically control at least one of a panning operation and a tilting operation of the camera to physically adjust the positioning of the camera.</p>\n<p>&#8220;6. The system according to claim 1, wherein the object detector includes a processor configured to execute instructions stored in memory to compare the image characteristic with the stored image, the tolerance determiner includes a processor configured to execute instructions stored in memory to calculate whether the distance between the pre-set position in the field of view and the detected object therein is within the tolerance radius, and the object tracker includes a processor configured to execute instructions stored in memory to automatically control the robotic camera pedestal to physically adjust the positioning of the camera.</p>\n<p>&#8220;7. An apparatus for automatically tracking objects in a video feed generated by a camera, the apparatus comprising: a memory; and a processor configured to implement instructions stored on the memory so as to provide: an object detector configured to compare an image characteristic in frames of the video feed with a stored image of an object to detect the object in the video feed; a tolerance determiner configured to calculate whether a distance between a pre-set position in a field of view of the camera and the detected object therein is within a tolerance radius; and an object tracker configured to automatically control a robotic camera pedestal to physically adjust a positioning of the camera and a corresponding position of the object within the field of view of the camera when the distance between the pre-set position and the detected object is outside the tolerance radius in at least one frame of the video feed.</p>\n<p>&#8220;8. The apparatus according to claim 7, further comprising the camera configured to capture the frames of the video feed for the production of a television program.</p>\n<p>&#8220;9. The apparatus according to claim 7, wherein the processor is configured to implement instructions stored on the memory so as to provide a tracking window setting module configured to define a tracking window in the field of view of the camera, such that the system will not track the object in the video feed when the object is outside the defined tracking window.</p>\n<p>&#8220;10. The apparatus according to claim 9, wherein the tracking window setting module is configured to define the tracking window based on an operator defined region of interest received by a user interface.</p>\n<p>&#8220;11. The apparatus according to claim 9, wherein the processor is configured to implement instructions stored on the memory so as to provide a tracking location setting module configured to define the pre-set position in the field of view of the camera for the identified object.</p>\n<p>&#8220;12. The apparatus according to claim 11, wherein the object tracker is configured to automatically track the identified object by controlling the robotic camera pedestal when the camera captures the frames of the video feed to maintain the identified and tracked object in a fixed relationship relative to the defined pre-set position in the field of view of the camera.</p>\n<p>&#8220;13. The apparatus according to claim 7, wherein the object tracker is configured to automatically control the robotic camera pedestal by displacing the camera in an X and Y axis to physically adjust the positioning of the camera.</p>\n<p>&#8220;14. The apparatus according to claim 7, wherein the object tracker is configured to automatically control at least one of a panning operation and a tilting operation of the camera to physically adjust the positioning of the camera.</p>\n<p>&#8220;15. A system for automatically tracking objects in a video feed generated by a camera, the system comprising: an object detector configured to compare an image characteristic in frames of the video feed with a stored image of an object to detect the object in the video feed; a tolerance determiner configured to calculate whether a distance between a pre-set position in a field of view of the camera and the detected object therein is within a tolerance radius; and an object tracker configured to automatically control a robotic camera pedestal to physically adjust a positioning of the camera and a corresponding position of the object within the field of view of the camera when the distance between the pre-set position and the detected object is outside the tolerance radius in at least one frame of the video feed.</p>\n<p>&#8220;16. The system according to claim 15, further comprising the camera configured to capture the frames of the video feed for the production of a television program.</p>\n<p>&#8220;17. The system according to claim 15, further comprising a tracking window setting module configured to define a tracking window in the field of view of the camera, such that the system will not track the object in the video feed when the object is outside the defined tracking window.</p>\n<p>&#8220;18. The system according to claim 16, wherein the tracking window setting module is configured to define the tracking window based on an operator defined region of interest received by a user interface.</p>\n<p>&#8220;19. The system according to claim 17, further comprising a tracking location setting module configured to define the pre-set position in the field of view of the camera for the identified object; and wherein the object tracker is configured to automatically track the identified object by controlling the robotic camera pedestal when the camera captures the frames of the video feed to maintain the identified and tracked object in a fixed relationship relative to the defined pre-set position in the field of view of the camera.</p>\n<p>&#8220;20. The system according to claim 15, wherein the object tracker is configured to automatically control the robotic camera pedestal by displacing the camera in an X and Y axis to physically adjust the positioning of the camera.</p>\n<p>&#8220;21. The system according to claim 15, wherein the object tracker is configured to automatically control at least one of a panning operation and a tilting operation of the camera to physically adjust the positioning of the camera.</p>\n<p>&#8220;22. The system according to claim 15, wherein the object detector includes a processor configured to execute instructions stored in memory to compare the image characteristic with the stored image, the tolerance determiner includes a processor configured to execute instructions stored in memory to calculate whether the distance between the pre-set position in the field of view and the detected object therein is within the tolerance radius, and the object tracker includes a processor configured to execute instructions stored in memory to automatically control the robotic camera pedestal to physically adjust the positioning of the camera.&#8221;</p>\n<p>URL and more information on this patent application, see: Holtz, Alex; Matics, <person>Scott Raymond</person>; Oisel, Lionel. Technique For Automatically Tracking An Object By A Camera Based On Identification Of An Object. Filed <chron>November 25, 2019</chron> and posted <chron>May 21, 2020</chron>. Patent URL: <a href=\"http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PG01&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.html&amp;r=1&amp;f=G&amp;l=50&amp;s1=%2220200160536%22.PGNR.&amp;OS=DN/20200160536&amp;RS=DN/20200160536\" target=\"_blank\">http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PG01&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.html&amp;r=1&amp;f=G&amp;l=50&amp;s1=%2220200160536%22.PGNR.&amp;OS=DN/20200160536&amp;RS=DN/20200160536</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

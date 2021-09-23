@@ -1,0 +1,475 @@
+{
+    "id": "8c475342-f022-43a0-b5ad-2a56d57ecf50",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 St. Peter Herald, APG Media of Minnesota LLC.  All rights reserved.",
+    "geoOrigin": "Saint Peter, Minnesota",
+    "sourceType": "Newspaper",
+    "source": "St. Peter Herald (MN)",
+    "corpus_document_id": "87495510331487399573",
+    "description": "Future Plans: Attending Viterbo University in Wisconsin, Majoring in Pre-Physical Therapy; running cross-country and competing in track& field.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Sports",
+            "code": "IS/sports#7#50#70",
+            "level": 0
+        },
+        {
+            "parent": "IS/sports",
+            "relevance_score": "7",
+            "description": "Running and Jogging",
+            "code": "IS/sports.running#7#70#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Health and Wellness",
+            "code": "IS/haw#6#50#69",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "6",
+            "description": "Medical Specialties and Practices",
+            "code": "IS/haw.practice#6#50#69",
+            "level": 1
+        }
+    ],
+    "text": "Cleveland Public School\n\nParents: Tom & Dawn Nygren\n\nFuture Plans: Attending Viterbo University in Wisconsin, Majoring in Pre-\nPhysical Therapy; running cross-country and competing in track & field",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Cleveland Public School"
+        ],
+        "location": [
+            "Wisconsin"
+        ],
+        "person": [
+            "Dawn Nygren"
+        ],
+        "companies": [
+            "Cleveland Public School"
+        ]
+    },
+    "geoOrigin_code": "RU/us.mn.saiter",
+    "language": "English",
+    "filename": "202005260000NEWSBANKNEWSPPRS716556C04CB7FD14B1462461EE7353D.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dawn Nygren",
+                "relevance": 0.96902,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Cleveland Public School",
+                "relevance": 0.825847,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Viterbo University",
+                "relevance": 0.78123,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "CollegeUniversity",
+                        "University"
+                    ],
+                    "name": "Viterbo University",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Viterbo_University"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tom",
+                "relevance": 0.46973,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Wisconsin",
+                "relevance": 0.465294,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Wisconsin",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Wisconsin"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "cross-country and competing"
+                },
+                "sentence": " Physical Therapy; running cross-country and competing in track & field",
+                "action": {
+                    "verb": {
+                        "text": "run",
+                        "tense": "present"
+                    },
+                    "text": "running",
+                    "normalized": "run"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.99496,
+                "label": "/education/special education"
+            },
+            {
+                "score": 0.921291,
+                "label": "/education/high school"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "Cleveland Public School",
+                "score": 0.580297,
+                "arguments": [
+                    {
+                        "text": "Public School",
+                        "location": [
+                            10,
+                            23
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Public School",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Educational"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Cleveland",
+                        "location": [
+                            0,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Cleveland",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Sports"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Parents: Tom & Dawn Nygren",
+                "score": 0.823155,
+                "arguments": [
+                    {
+                        "text": "Tom",
+                        "location": [
+                            34,
+                            37
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Tom"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Parents",
+                        "location": [
+                            25,
+                            32
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Parents"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Parents: Tom & Dawn Nygren",
+                "score": 0.964637,
+                "arguments": [
+                    {
+                        "text": "Dawn Nygren",
+                        "location": [
+                            40,
+                            51
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Dawn Nygren"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Parents",
+                        "location": [
+                            25,
+                            32
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Parents"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "Future Plans: Attending Viterbo University in Wisconsin, Majoring in Pre- Physical Therapy; running cross-country and competing in track & field",
+                "score": 0.819971,
+                "arguments": [
+                    {
+                        "text": "University",
+                        "location": [
+                            85,
+                            95
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "University",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Educational"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Wisconsin",
+                        "location": [
+                            99,
+                            108
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Wisconsin"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Future Plans: Attending Viterbo University in Wisconsin, Majoring in Pre- Physical Therapy; running cross-country and competing in track & field",
+                "score": 0.897106,
+                "arguments": [
+                    {
+                        "text": "Wisconsin",
+                        "location": [
+                            99,
+                            108
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Wisconsin"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Majoring",
+                        "location": [
+                            110,
+                            118
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Majoring"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Future Plans: Attending Viterbo University in Wisconsin, Majoring in Pre- Physical Therapy; running cross-country and competing in track & field",
+                "score": 0.968631,
+                "arguments": [
+                    {
+                        "text": "Majoring",
+                        "location": [
+                            110,
+                            118
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Majoring"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Pre",
+                        "location": [
+                            122,
+                            125
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Pre"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Physical Therapy",
+                "relevance": 0.981752,
+                "count": 1
+            },
+            {
+                "text": "Future Plans",
+                "relevance": 0.981752,
+                "count": 1
+            },
+            {
+                "text": "cross-country",
+                "relevance": 0.835827,
+                "count": 1
+            },
+            {
+                "text": "Attending Viterbo University",
+                "relevance": 0.701537,
+                "count": 1
+            },
+            {
+                "text": "Tom",
+                "relevance": 0.552919,
+                "count": 1
+            },
+            {
+                "text": "Wisconsin",
+                "relevance": 0.542599,
+                "count": 1
+            },
+            {
+                "text": "track",
+                "relevance": 0.53516,
+                "count": 1
+            },
+            {
+                "text": "field",
+                "relevance": 0.529013,
+                "count": 1
+            },
+            {
+                "text": "Pre",
+                "relevance": 0.529013,
+                "count": 1
+            },
+            {
+                "text": "Dawn Nygren",
+                "relevance": 0.400026,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "e3a24670c4c73ac2b4d0e684f0d6da967ef18023",
+        "filename": "202005260000NEWSBANKNEWSPPRS716556C04CB7FD14B1462461EE7353D.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-26T00:00:00-04:00",
+    "title": "Ellie Nygren",
+    "html": "<p><org>Cleveland Public School</org></p>\n<p>Parents: Tom &amp; <person>Dawn Nygren</person></p>\n\n<p>Future Plans: Attending Viterbo University in <location idsrc=\"xmltag.org\" value=\"LS/us.wi\">Wisconsin</location>, Majoring in Pre-Physical Therapy; running cross-country and competing in track &amp; field</p>",
+    "geoFocus": [
+        [
+            "GU/us.mn.saiter",
+            "Saint Peter"
+        ]
+    ]
+}

@@ -1,0 +1,291 @@
+{
+    "id": "b2918bda-aa76-4c85-b8ae-29b7bf63b350",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "40195435343474923915",
+    "description": "New primary school Kronsberg-Sud with single field sports hall and annex more info: Location: GERMANY BidDate: 6/ 18/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: State Capital Hanover- Central Submission for Tendering Authority Address: 30159 Hanover Lower Saxony Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Sports",
+            "code": "IS/sports#5#58#50",
+            "level": 0
+        }
+    ],
+    "text": "New primary school Kronsberg-Sud with single field sports hall and annex more\ninfo : Location : GERMANY BidDate : 6/18/2020 Tender Country : GERMANY Tender\nType : Tenders Tendering Authority : State Capital Hanover - Central\nSubmission for Tendering Authority Address : 30159 Hanover Lower Saxony\nFinancier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_57660_176210547_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.881859,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hanover Lower Saxony",
+                "relevance": 0.673505,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "State Capital Hanover",
+                "relevance": 0.505276,
+                "type": "Facility"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.370718,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.470614,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.829045,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.642364,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.530685,
+                "label": "/business and industrial/construction"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "New primary school Kronsberg-Sud with single field sports hall and annex more info : Location : GERMANY BidDate : 6/18/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State Capital Hanover - Central Submission for Tendering Authority Address : 30159 Hanover Lower Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.588297,
+                "arguments": [
+                    {
+                        "text": "6/18/2020 Tender",
+                        "location": [
+                            114,
+                            130
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/18/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender\nType : Tenders Tendering Authority : State Capital Hanover - Central\nSubmission for Tendering Authority Address :",
+                        "location": [
+                            149,
+                            269
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender\nType : Tenders Tendering Authority : State Capital Hanover - Central\nSubmission for Tendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "New primary school Kronsberg-Sud with single field sports hall and annex more info : Location : GERMANY BidDate : 6/18/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State Capital Hanover - Central Submission for Tendering Authority Address : 30159 Hanover Lower Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.470575,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            297,
+                            306
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Hanover Lower Saxony",
+                        "location": [
+                            276,
+                            296
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Hanover Lower Saxony"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "New primary school Kronsberg-Sud",
+                "relevance": 0.908165,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.786994,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.613923,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.596671,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.559776,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.556702,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.554374,
+                "count": 1
+            },
+            {
+                "text": "single field sports hall",
+                "relevance": 0.544213,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.528858,
+                "count": 1
+            },
+            {
+                "text": "State Capital Hanover",
+                "relevance": 0.439555,
+                "count": 1
+            },
+            {
+                "text": "Authority Address",
+                "relevance": 0.399644,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "c3d37b3cdb79436037868fb8bb1e519e70155ead",
+        "filename": "202006050210ALBA____ME_NA_NE_57660_176210547_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "New primary school Kronsberg-Sud with single field sports hall and annex [TenderNews.com - Tenders (India)]",
+    "html": "<p>New primary school Kronsberg-Sud with single field sports hall and annex more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/18/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : State Capital Hanover - Central Submission for\nTendering Authority Address : 30159 Hanover Lower Saxony\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

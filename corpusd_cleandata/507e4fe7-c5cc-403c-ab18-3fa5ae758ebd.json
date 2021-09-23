@@ -1,0 +1,158 @@
+{
+    "id": "507e4fe7-c5cc-403c-ab18-3fa5ae758ebd",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright, 2020, The St. Augustine Record, All Rights Reserved.",
+    "geoOrigin": "Saint Augustine, Florida",
+    "sourceType": "Newspaper",
+    "source": "St. Augustine Record, The (FL)",
+    "corpus_document_id": "56657947744362053936",
+    "description": " \"We are minor in everything but our passions.\"",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "\"We are minor in everything but our passions.\"\n\nElizabeth Bowen, Irish author (1899-1973)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Elizabeth Bowen"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.fl.saiine",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS57DE1C59E4BEB5C83217EEC58677D13.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Elizabeth Bowen",
+                "relevance": 0.966802,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "AwardNominee",
+                        "FilmWriter"
+                    ],
+                    "name": "Elizabeth Bowen",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Elizabeth_Bowen"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": "\"We are minor in everything but our passions.\"",
+                "object": {
+                    "text": "minor"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.650806,
+                "label": "/hobbies and interests/getting published"
+            },
+            {
+                "score": 0.606076,
+                "label": "/religion and spirituality/christianity/catholicism"
+            },
+            {
+                "score": 0.552515,
+                "label": "/art and entertainment/books and literature/poetry"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Elizabeth Bowen, Irish author (1899-1973)",
+                "score": 0.878572,
+                "arguments": [
+                    {
+                        "text": "author",
+                        "location": [
+                            71,
+                            77
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "author"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Irish",
+                        "location": [
+                            65,
+                            70
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Irish",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Elizabeth Bowen",
+                "relevance": 0.99656,
+                "count": 1
+            },
+            {
+                "text": "Irish author",
+                "relevance": 0.991145,
+                "count": 1
+            },
+            {
+                "text": "passions",
+                "relevance": 0.641062,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "4e18bee0957f537496550564d97d85d6c26f0353",
+        "filename": "202006010000NEWSBANKNEWSPPRS57DE1C59E4BEB5C83217EEC58677D13.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "QUOTABLE | June 2, 2020",
+    "html": "<p>\"We are minor in everything but our passions.\"</p>\n<p><person>Elizabeth Bowen</person>, Irish author (1899-1973)</p>",
+    "geoFocus": [
+        [
+            "GU/us.fl.saiine",
+            "Saint Augustine"
+        ]
+    ]
+}

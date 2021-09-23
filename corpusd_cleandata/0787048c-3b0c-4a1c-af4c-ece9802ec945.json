@@ -1,0 +1,642 @@
+{
+    "id": "0787048c-3b0c-4a1c-af4c-ece9802ec945",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 Action Economics, LLC. All Rights Reserved.",
+    "geoOrigin": "San Francisco, California",
+    "sourceType": "Report, Analysis, Commentary",
+    "source": "Action Economics - Action Alerts",
+    "corpus_document_id": "90571864010038996037",
+    "description": "FX Action: The Canadian dollar and other commodity- and oil-correlating currencies have remained underpinned amid the prevailing appetite for risk that has been coursing through global markets. Front-month WTI crude prices have remained buoyant, but off yesterday's three-month peak at $38.18. Both the U.S. and Canada will release their May employment...",
+    "serviceName": "Action Alerts",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "Canada",
+            "code": "LC/ca#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "Economics",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Finance",
+            "code": "IS/fin#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/fin.forex",
+            "relevance_score": "9",
+            "description": "Canadian Dollar Trading",
+            "code": "IS/fin.cad#9#99#78",
+            "level": 3
+        },
+        {
+            "parent": "IS/fin.invest",
+            "relevance_score": "9",
+            "description": "Foreign Exchange Trading",
+            "code": "IS/fin.forex#9#92#99",
+            "level": 2
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "9",
+            "description": "Investments",
+            "code": "IS/fin.invest#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "FX Action: The Canadian dollar and other commodity- and oil-correlating\ncurrencies have remained underpinned amid the prevailing appetite for risk\nthat has been coursing through global markets. USD-CAD has remained heavy\nafter yesterday printing a three-month low at 1.3468. Reports that OPEC+ has\nratified an extension in prevailing quotas for an extra month is in the mix of\nsentiment-influencers today, although this is by now well anticipated. Front-\nmonth WTI crude prices have remained buoyant, but off yesterday's three-month\npeak at $38.18. Both the U.S. and Canada will release their May employment\nreports, with expected to paint a dismal picture, although with a markedly\ndiminished rate of job losses versus that seen during April's nadir. We don't\nanticipate the data having much impact on USD-CAD. Bigger picture, as long as\nthe nascent recovery isn't scuttled by a second wave of coronavirus\ninfections, oil price risk going forward would appear to be to the upside,\nwhich in turn should keep the Canadian dollar underpinned.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Energy",
+            "code": "II/energy#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "II/energy",
+            "relevance_score": "9",
+            "description": "Oil and Gas",
+            "code": "II/energy.og#9#99#50",
+            "level": 1
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "U.S.",
+            "Canada"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ca.sanfrn",
+    "language": "English",
+    "filename": "202006050336ACT_ECONACTONALT351525.XML",
+    "providerName": "Action Economics",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.607985,
+                    "label": "negative"
+                },
+                "text": "infections",
+                "relevance": 0.809876,
+                "type": "HealthCondition",
+                "disambiguation": {
+                    "subtype": [
+                        "DiseaseOrMedicalCondition",
+                        "CauseOfDeath",
+                        "DiseaseCause",
+                        "RiskFactor",
+                        "Symptom"
+                    ],
+                    "name": "Infection",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Infection"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "OPEC+",
+                "relevance": 0.730415,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Canada",
+                "relevance": 0.627661,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Kingdom",
+                        "AwardDiscipline",
+                        "FilmScreeningVenue",
+                        "Country"
+                    ],
+                    "name": "Canada",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Canada"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.607095,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "three-month",
+                "relevance": 0.607095,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$38.18",
+                "relevance": 0.607095,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "that"
+                },
+                "sentence": " that has been coursing through global markets.",
+                "object": {
+                    "text": "been coursing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "that"
+                },
+                "sentence": " that has been coursing through global markets.",
+                "object": {
+                    "text": "coursing through global markets"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "that"
+                },
+                "sentence": " that has been coursing through global markets.",
+                "object": {
+                    "text": "through global markets"
+                },
+                "action": {
+                    "verb": {
+                        "text": "course",
+                        "tense": "past"
+                    },
+                    "text": "has been coursing",
+                    "normalized": "have be course"
+                }
+            },
+            {
+                "subject": {
+                    "text": "USD-CAD"
+                },
+                "sentence": " USD-CAD has remained heavy",
+                "object": {
+                    "text": "remained heavy"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a three-month low"
+                },
+                "sentence": " after yesterday printing a three-month low at 1.3468.",
+                "action": {
+                    "verb": {
+                        "text": "print",
+                        "tense": "present"
+                    },
+                    "text": "printing",
+                    "normalized": "print"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an extra month"
+                },
+                "sentence": " ratified an extension in prevailing quotas for an extra month is in the mix of",
+                "object": {
+                    "text": "in the mix"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this"
+                },
+                "sentence": " sentiment-influencers today, although this is by now well anticipated.",
+                "object": {
+                    "text": "by now well anticipated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this"
+                },
+                "sentence": " sentiment-influencers today, although this is by now well anticipated.",
+                "action": {
+                    "verb": {
+                        "text": "anticipate",
+                        "tense": "past"
+                    },
+                    "text": "anticipated",
+                    "normalized": "anticipate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "WTI crude prices"
+                },
+                "sentence": " month WTI crude prices have remained buoyant, but off yesterday's three-month",
+                "object": {
+                    "text": "remained buoyant"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Both the U.S. and Canada"
+                },
+                "sentence": " Both the U.S. and Canada will release their May employment",
+                "object": {
+                    "text": "their May employment"
+                },
+                "action": {
+                    "verb": {
+                        "text": "release",
+                        "tense": "future"
+                    },
+                    "text": "will release",
+                    "normalized": "will release"
+                }
+            },
+            {
+                "subject": {
+                    "text": "reports"
+                },
+                "sentence": " reports, with expected to paint a dismal picture, although with a markedly",
+                "object": {
+                    "text": "a dismal picture"
+                },
+                "action": {
+                    "verb": {
+                        "text": "paint",
+                        "tense": "future"
+                    },
+                    "text": "expected to paint",
+                    "normalized": "expect to paint"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " We don't",
+                "object": {
+                    "text": "n't"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "do",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the data"
+                },
+                "sentence": " anticipate the data having much impact on USD-CAD.",
+                "object": {
+                    "text": "much impact"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the nascent recovery"
+                },
+                "sentence": " the nascent recovery isn't scuttled by a second wave of coronavirus",
+                "object": {
+                    "text": "n't scuttled by a second wave of coronavirus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by a second wave of coronavirus"
+                },
+                "sentence": " the nascent recovery isn't scuttled by a second wave of coronavirus",
+                "object": {
+                    "text": "the nascent recovery"
+                },
+                "action": {
+                    "verb": {
+                        "text": "scuttle",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "scuttled",
+                    "normalized": "scuttle"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.961634,
+                "label": "/business and industrial/energy/oil/oil and gas prices"
+            },
+            {
+                "score": 0.656797,
+                "label": "/society/work/unemployment"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "sentiment-influencers today",
+                "relevance": 0.696914,
+                "count": 1
+            },
+            {
+                "text": "Canadian dollar",
+                "relevance": 0.661029,
+                "count": 2
+            },
+            {
+                "text": "crude prices",
+                "relevance": 0.656783,
+                "count": 1
+            },
+            {
+                "text": "FX Action",
+                "relevance": 0.633366,
+                "count": 1
+            },
+            {
+                "text": "month WTI",
+                "relevance": 0.629958,
+                "count": 1
+            },
+            {
+                "text": "nascent recovery",
+                "relevance": 0.622199,
+                "count": 1
+            },
+            {
+                "text": "extra month",
+                "relevance": 0.599931,
+                "count": 1
+            },
+            {
+                "text": "rate of job losses",
+                "relevance": 0.575486,
+                "count": 1
+            },
+            {
+                "text": "second wave",
+                "relevance": 0.57299,
+                "count": 1
+            },
+            {
+                "text": "three-month",
+                "relevance": 0.568158,
+                "count": 1
+            },
+            {
+                "text": "global markets",
+                "relevance": 0.566757,
+                "count": 1
+            },
+            {
+                "text": "oil price risk",
+                "relevance": 0.563391,
+                "count": 1
+            },
+            {
+                "text": "Bigger picture",
+                "relevance": 0.548927,
+                "count": 1
+            },
+            {
+                "text": "yesterday",
+                "relevance": 0.534873,
+                "count": 2
+            },
+            {
+                "text": "extension",
+                "relevance": 0.531983,
+                "count": 1
+            },
+            {
+                "text": "data",
+                "relevance": 0.522104,
+                "count": 1
+            },
+            {
+                "text": "much impact",
+                "relevance": 0.520343,
+                "count": 1
+            },
+            {
+                "text": "quotas",
+                "relevance": 0.518402,
+                "count": 1
+            },
+            {
+                "text": "Canada",
+                "relevance": 0.517102,
+                "count": 1
+            },
+            {
+                "text": "CAD",
+                "relevance": 0.516323,
+                "count": 1
+            },
+            {
+                "text": "risk",
+                "relevance": 0.51375,
+                "count": 1
+            },
+            {
+                "text": "commodity",
+                "relevance": 0.513085,
+                "count": 1
+            },
+            {
+                "text": "OPEC",
+                "relevance": 0.512198,
+                "count": 1
+            },
+            {
+                "text": "mix",
+                "relevance": 0.507715,
+                "count": 1
+            },
+            {
+                "text": "prevailing appetite",
+                "relevance": 0.487535,
+                "count": 1
+            },
+            {
+                "text": "USD-CAD",
+                "relevance": 0.483024,
+                "count": 1
+            },
+            {
+                "text": "April's nadir",
+                "relevance": 0.47443,
+                "count": 1
+            },
+            {
+                "text": "dismal picture",
+                "relevance": 0.473178,
+                "count": 1
+            },
+            {
+                "text": "turn",
+                "relevance": 0.447763,
+                "count": 1
+            },
+            {
+                "text": "U.S.",
+                "relevance": 0.445643,
+                "count": 1
+            },
+            {
+                "text": "upside",
+                "relevance": 0.422131,
+                "count": 1
+            },
+            {
+                "text": "heavy",
+                "relevance": 0.422131,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "3ca7f0830123254774f8b9f3efc2b9dee90749b7",
+        "filename": "202006050336ACT_ECONACTONALT351525.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:36:00-04:00",
+    "title": "FX Action: The Canadian dollar",
+    "html": "<p>FX Action: The Canadian dollar and other commodity- and oil-correlating currencies have remained underpinned amid the prevailing appetite for risk that has been coursing through global markets. USD-CAD has remained heavy after yesterday printing a three-month low at 1.3468. Reports that OPEC+ has ratified an extension in prevailing quotas for an extra month is in the mix of sentiment-influencers today, although this is by now well anticipated. Front-month WTI crude prices have remained buoyant, but off yesterday's three-month peak at <money>$38.18</money>. Both the <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> and <location idsrc=\"xmltag.org\" value=\"LC/ca\">Canada</location> will release their May employment reports, with expected to paint a dismal picture, although with a markedly diminished rate of job losses versus that seen during April's nadir. We don't anticipate the data having much impact on USD-CAD. Bigger picture, as long as the nascent recovery isn't scuttled by a second wave of coronavirus infections, oil price risk going forward would appear to be to the upside, which in turn should keep the Canadian dollar underpinned.</p>",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

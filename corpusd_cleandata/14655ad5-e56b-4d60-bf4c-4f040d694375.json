@@ -1,0 +1,961 @@
+{
+    "id": "14655ad5-e56b-4d60-bf4c-4f040d694375",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright The Callery Press, Inc. May 28, 2020",
+    "geoOrigin": "Boston, Massachusetts",
+    "sourceType": "Newspaper",
+    "source": "Beacon Hill Times, The (Boston, MA)",
+    "corpus_document_id": "74399507528389794420",
+    "description": "The state announced May 21 that Massachusetts residents who are eligible for the federal CARES Act and qualify for having exhausted their regular unemployment compensation may now receive the new Pandemic Emergency Unemployment Compensation. The launch of this program marks the third and final benefit available for the Commonwealth through the CARES...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.law",
+            "relevance_score": "9",
+            "description": "Employment Law",
+            "code": "IS/gov.emplaw#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Law",
+            "code": "IS/pol.law#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "The state announced May 21 that Massachusetts residents who are eligible for\nthe federal CARES Act and qualify for having exhausted their regular\nunemployment compensation may now receive the new Pandemic Emergency\nUnemployment Compensation (PEUC).\n\nThe launch of this program marks the third and final benefit available for the\nCommonwealth through the CARES Act.\n\nPEUC provides up to 13 additional weeks of benefits to an individual who has\nexhausted all rights to any regular unemployment compensation and who meets\nother eligibility requirements of the CARES Act. PEUC will automatically begin\nfor individuals who have been receiving regular standard unemployment benefits\non an active claim and those benefits are exhausted, and those individuals do\nnot have to take any further action.\n\nIf an individuals standard unemployment claim has expired, they must file a\nnew standard claim. If the individual is monetarily eligible on the new\nstandard claim, regardless of the benefit rate amount, they will receive\nbenefits from that new claim. Otherwise, the individual will be eligible for\nPEUC on the prior claim and it will be automatically implemented.\n\nIndividuals who exhausted their standard benefits but were receiving benefits\nthrough Pandemic Unemployment Assistance (PUA) must apply to claim weekly\nbenefits. Residents should apply through the standard unemployment benefits\nportal available here.\n\nThose receiving PEUC will also receive $600 weekly through the week ending\nJuly 25, 2020, provided by the Federal Pandemic Unemployment Compensation\n(FPUC) program established by the CARES Act.\n\nThe CARES Act signed into law on March 27, 2020, established the PEUC, PUA and\nFPUC public benefit programs that expanded unemployment eligibility,\ntemporarily increases weekly benefits for all claimants and allows additional\ncategories of people to claim unemployment benefits. This is the largest\nexpansion of assistance for the Commonwealths workforce since the Great\nDepression.\n\nMore information about Pandemic Emergency Unemployment Compensation can be\nfound at [mass.gov/peuc](http://mass.gov/peuc).",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Massachusetts"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ma.boston",
+    "language": "English",
+    "filename": "202005280000PROQUESTNEWPAPER_2409183458.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 6,
+                "sentiment": {
+                    "score": -0.07928,
+                    "label": "negative"
+                },
+                "text": "PEUC",
+                "relevance": 0.887281,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "PEUC",
+                "relevance": 0.45352,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Massachusetts",
+                "relevance": 0.37725,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "FPUC",
+                "relevance": 0.324975,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$600",
+                "relevance": 0.309149,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Massachusetts residents"
+                },
+                "sentence": "The state announced May 21 that Massachusetts residents who are eligible for",
+                "object": {
+                    "text": "eligible for"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the federal"
+                },
+                "sentence": " the federal CARES Act and qualify for having exhausted their regular",
+                "object": {
+                    "text": "for having exhausted their regular"
+                },
+                "action": {
+                    "verb": {
+                        "text": "qualify",
+                        "tense": "present"
+                    },
+                    "text": "qualify",
+                    "normalized": "qualify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the federal CARES Act"
+                },
+                "sentence": " the federal CARES Act and qualify for having exhausted their regular",
+                "object": {
+                    "text": "their regular"
+                },
+                "action": {
+                    "verb": {
+                        "text": "exhaust",
+                        "tense": "past"
+                    },
+                    "text": "having exhausted",
+                    "normalized": "have exhaust"
+                }
+            },
+            {
+                "subject": {
+                    "text": "unemployment compensation"
+                },
+                "sentence": " unemployment compensation may now receive the new Pandemic Emergency",
+                "object": {
+                    "text": "the new Pandemic Emergency"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "future"
+                    },
+                    "text": "receive",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The launch of this program"
+                },
+                "sentence": " The launch of this program marks the third and final benefit available for the",
+                "object": {
+                    "text": "the third and final benefit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "mark",
+                        "tense": "present"
+                    },
+                    "text": "marks",
+                    "normalized": "mark"
+                }
+            },
+            {
+                "subject": {
+                    "text": "PEUC"
+                },
+                "sentence": " PEUC provides up to 13 additional weeks of benefits to an individual who has",
+                "object": {
+                    "text": "up to 13 additional weeks of benefits to an individual who has"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "present"
+                    },
+                    "text": "provides",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "individuals"
+                },
+                "sentence": " for individuals who have been receiving regular standard unemployment benefits",
+                "object": {
+                    "text": "been receiving regular standard unemployment benefits"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "individuals"
+                },
+                "sentence": " for individuals who have been receiving regular standard unemployment benefits",
+                "object": {
+                    "text": "regular standard unemployment benefits"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "past"
+                    },
+                    "text": "have been receiving",
+                    "normalized": "have be receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "those benefits"
+                },
+                "sentence": " on an active claim and those benefits are exhausted, and those individuals do",
+                "object": {
+                    "text": "exhausted"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the individual"
+                },
+                "sentence": " Otherwise, the individual will be eligible for",
+                "object": {
+                    "text": "eligible for"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "will be",
+                    "normalized": "will be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Individuals"
+                },
+                "sentence": " Individuals who exhausted their standard benefits but were receiving benefits",
+                "object": {
+                    "text": "their standard benefits"
+                },
+                "action": {
+                    "verb": {
+                        "text": "exhaust",
+                        "tense": "past"
+                    },
+                    "text": "exhausted",
+                    "normalized": "exhaust"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Individuals who exhausted their standard benefits"
+                },
+                "sentence": " Individuals who exhausted their standard benefits but were receiving benefits",
+                "object": {
+                    "text": "benefits"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "past"
+                    },
+                    "text": "were receiving",
+                    "normalized": "be receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "benefits. Residents"
+                },
+                "sentence": " benefits. Residents should apply through the standard unemployment benefits",
+                "object": {
+                    "text": "through the standard unemployment benefits"
+                },
+                "action": {
+                    "verb": {
+                        "text": "apply",
+                        "tense": "future"
+                    },
+                    "text": "should apply",
+                    "normalized": "should apply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Those"
+                },
+                "sentence": " Those receiving PEUC will also receive $600 weekly through the week ending",
+                "object": {
+                    "text": "PEUC"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "present"
+                    },
+                    "text": "receiving",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Those receiving PEUC"
+                },
+                "sentence": " Those receiving PEUC will also receive $600 weekly through the week ending",
+                "object": {
+                    "text": "$600 weekly"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "future"
+                    },
+                    "text": "will also receive",
+                    "normalized": "will also receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the Federal Pandemic Unemployment Compensation"
+                },
+                "sentence": " July 25, 2020, provided by the Federal Pandemic Unemployment Compensation",
+                "object": {
+                    "text": "2020"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "past"
+                    },
+                    "text": "provided",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the CARES Act"
+                },
+                "sentence": " (FPUC) program established by the CARES Act.",
+                "object": {
+                    "text": "FPUC) program"
+                },
+                "action": {
+                    "verb": {
+                        "text": "establish",
+                        "tense": "past"
+                    },
+                    "text": "established",
+                    "normalized": "establish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The CARES Act"
+                },
+                "sentence": " The CARES Act signed into law on March 27, 2020, established the PEUC, PUA and",
+                "action": {
+                    "verb": {
+                        "text": "sign",
+                        "tense": "past"
+                    },
+                    "text": "signed",
+                    "normalized": "sign"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The CARES Act"
+                },
+                "sentence": " The CARES Act signed into law on March 27, 2020, established the PEUC, PUA and",
+                "object": {
+                    "text": "the PEUC"
+                },
+                "action": {
+                    "verb": {
+                        "text": "establish",
+                        "tense": "past"
+                    },
+                    "text": "established",
+                    "normalized": "establish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "weekly benefits for all claimants"
+                },
+                "sentence": " temporarily increases weekly benefits for all claimants and allows additional",
+                "action": {
+                    "verb": {
+                        "text": "increase",
+                        "tense": "present"
+                    },
+                    "text": "increases",
+                    "normalized": "increase"
+                }
+            },
+            {
+                "subject": {
+                    "text": "people"
+                },
+                "sentence": " categories of people to claim unemployment benefits.",
+                "object": {
+                    "text": "unemployment benefits"
+                },
+                "action": {
+                    "verb": {
+                        "text": "claim",
+                        "tense": "future"
+                    },
+                    "text": "to claim",
+                    "normalized": "to claim"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This"
+                },
+                "sentence": " This is the largest",
+                "object": {
+                    "text": "the largest"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.99797,
+                "label": "/society/work/unemployment"
+            },
+            {
+                "score": 0.839027,
+                "label": "/society/welfare/healthcare"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "The state announced May 21 that Massachusetts residents who are eligible for the federal CARES Act and qualify for having exhausted their regular unemployment compensation may now receive the new Pandemic Emergency Unemployment Compensation (PEUC).",
+                "score": 0.710413,
+                "arguments": [
+                    {
+                        "text": "state",
+                        "location": [
+                            4,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Commonwealth"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            10,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The state announced May 21 that Massachusetts residents who are eligible for the federal CARES Act and qualify for having exhausted their regular unemployment compensation may now receive the new Pandemic Emergency Unemployment Compensation (PEUC).",
+                "score": 0.964312,
+                "arguments": [
+                    {
+                        "text": "May 21",
+                        "location": [
+                            20,
+                            26
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "May 21"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            10,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The state announced May 21 that Massachusetts residents who are eligible for the federal CARES Act and qualify for having exhausted their regular unemployment compensation may now receive the new Pandemic Emergency Unemployment Compensation (PEUC).",
+                "score": 0.595548,
+                "arguments": [
+                    {
+                        "text": "residents",
+                        "location": [
+                            46,
+                            55
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "residents"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Massachusetts",
+                        "location": [
+                            32,
+                            45
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Massachusetts"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "PEUC provides up to 13 additional weeks of benefits to an individual who has exhausted all rights to any regular unemployment compensation and who meets other eligibility requirements of the CARES Act.",
+                "score": 0.531913,
+                "arguments": [
+                    {
+                        "text": "individual",
+                        "location": [
+                            424,
+                            434
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "individual"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "who",
+                        "location": [
+                            509,
+                            512
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "residents"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Those receiving PEUC will also receive $600 weekly through the week ending July 25, 2020, provided by the Federal Pandemic Unemployment Compensation (FPUC) program established by the CARES Act.",
+                "score": 0.567381,
+                "arguments": [
+                    {
+                        "text": "PEUC",
+                        "location": [
+                            1426,
+                            1430
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Pandemic Emergency\nUnemployment Compensation"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "$600",
+                        "location": [
+                            1449,
+                            1453
+                        ],
+                        "entities": [
+                            {
+                                "type": "Money",
+                                "text": "$600",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Gainloss"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The CARES Act signed into law on March 27, 2020, established the PEUC, PUA and FPUC public benefit programs that expanded unemployment eligibility, temporarily increases weekly benefits for all claimants and allows additional categories of people to claim unemployment benefits.",
+                "score": 0.455747,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            1845,
+                            1851
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            1855,
+                            1860
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "federal CARES Act",
+                "relevance": 0.734515,
+                "count": 1
+            },
+            {
+                "text": "final benefit",
+                "relevance": 0.701686,
+                "count": 1
+            },
+            {
+                "text": "regular unemployment compensation",
+                "relevance": 0.692775,
+                "count": 1
+            },
+            {
+                "text": "regular standard unemployment benefits",
+                "relevance": 0.644231,
+                "count": 1
+            },
+            {
+                "text": "launch of this program",
+                "relevance": 0.620297,
+                "count": 1
+            },
+            {
+                "text": "active claim",
+                "relevance": 0.607085,
+                "count": 1
+            },
+            {
+                "text": "Pandemic Unemployment Assistance",
+                "relevance": 0.601793,
+                "count": 1
+            },
+            {
+                "text": "additional weeks of benefits",
+                "relevance": 0.598806,
+                "count": 1
+            },
+            {
+                "text": "eligibility requirements of the CARES Act",
+                "relevance": 0.570296,
+                "count": 1
+            },
+            {
+                "text": "CARES Act",
+                "relevance": 0.568327,
+                "count": 3
+            },
+            {
+                "text": "standard unemployment claim",
+                "relevance": 0.559362,
+                "count": 1
+            },
+            {
+                "text": "unemployment benefits",
+                "relevance": 0.541119,
+                "count": 1
+            },
+            {
+                "text": "state",
+                "relevance": 0.535035,
+                "count": 1
+            },
+            {
+                "text": "Federal Pandemic Unemployment Compensation",
+                "relevance": 0.525758,
+                "count": 1
+            },
+            {
+                "text": "new standard claim",
+                "relevance": 0.525197,
+                "count": 1
+            },
+            {
+                "text": "individuals",
+                "relevance": 0.521573,
+                "count": 4
+            },
+            {
+                "text": "public benefit programs",
+                "relevance": 0.520164,
+                "count": 1
+            },
+            {
+                "text": "law",
+                "relevance": 0.519518,
+                "count": 1
+            },
+            {
+                "text": "program",
+                "relevance": 0.518084,
+                "count": 1
+            },
+            {
+                "text": "Commonwealth",
+                "relevance": 0.517349,
+                "count": 1
+            },
+            {
+                "text": "March",
+                "relevance": 0.5161,
+                "count": 1
+            },
+            {
+                "text": "benefits",
+                "relevance": 0.515077,
+                "count": 3
+            },
+            {
+                "text": "information",
+                "relevance": 0.512593,
+                "count": 1
+            },
+            {
+                "text": "PUA",
+                "relevance": 0.512491,
+                "count": 2
+            },
+            {
+                "text": "assistance",
+                "relevance": 0.512383,
+                "count": 1
+            },
+            {
+                "text": "rights",
+                "relevance": 0.512012,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.510918,
+                "count": 1
+            },
+            {
+                "text": "claimants",
+                "relevance": 0.510278,
+                "count": 1
+            },
+            {
+                "text": "Residents",
+                "relevance": 0.508115,
+                "count": 1
+            },
+            {
+                "text": "Massachusetts residents",
+                "relevance": 0.506439,
+                "count": 1
+            },
+            {
+                "text": "weekly benefits",
+                "relevance": 0.502866,
+                "count": 1
+            },
+            {
+                "text": "benefit rate amount",
+                "relevance": 0.499799,
+                "count": 1
+            },
+            {
+                "text": "Pandemic Emergency Unemployment Compensation",
+                "relevance": 0.487468,
+                "count": 1
+            },
+            {
+                "text": "standard unemployment benefits",
+                "relevance": 0.479812,
+                "count": 1
+            },
+            {
+                "text": "unemployment eligibility",
+                "relevance": 0.47142,
+                "count": 1
+            },
+            {
+                "text": "new claim",
+                "relevance": 0.469906,
+                "count": 1
+            },
+            {
+                "text": "standard benefits",
+                "relevance": 0.469458,
+                "count": 1
+            },
+            {
+                "text": "prior claim",
+                "relevance": 0.468995,
+                "count": 1
+            },
+            {
+                "text": "Commonwealths workforce",
+                "relevance": 0.466168,
+                "count": 1
+            },
+            {
+                "text": "PEUC",
+                "relevance": 0.461269,
+                "count": 7
+            },
+            {
+                "text": "further action",
+                "relevance": 0.458754,
+                "count": 1
+            },
+            {
+                "text": "FPUC",
+                "relevance": 0.457329,
+                "count": 2
+            },
+            {
+                "text": "individual",
+                "relevance": 0.452486,
+                "count": 3
+            },
+            {
+                "text": "May",
+                "relevance": 0.423537,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "5d79d98871299751fe98e42a3822129ddc61888f",
+        "filename": "202005280000PROQUESTNEWPAPER_2409183458.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-28T00:00:00-04:00",
+    "title": "Massachusetts implements PEUC",
+    "html": "<p>The state announced <chron>May 21</chron> that <location idsrc=\"xmltag.org\" value=\"LS/us.ma\">Massachusetts</location> residents who are eligible for the federal CARES Act and qualify for having exhausted their regular unemployment compensation may now receive the new Pandemic Emergency Unemployment Compensation (PEUC).</p>\n<p>The launch of this program marks the third and final benefit available for the Commonwealth through the CARES Act.</p>\n<p>PEUC provides up to 13 additional weeks of benefits to an individual who has exhausted all rights to any regular unemployment compensation and who meets other eligibility requirements of the CARES Act. PEUC will automatically begin for individuals who have been receiving regular standard unemployment benefits on an active claim and those benefits are exhausted, and those individuals do not have to take any further action.</p>\n<p>If an individuals standard unemployment claim has expired, they must file a new standard claim. If the individual is monetarily eligible on the new standard claim, regardless of the benefit rate amount, they will receive benefits from that new claim. Otherwise, the individual will be eligible for PEUC on the prior claim and it will be automatically implemented.</p>\n<p>Individuals who exhausted their standard benefits but were receiving benefits through Pandemic Unemployment Assistance (PUA) must apply to claim weekly benefits. Residents should apply through the standard unemployment benefits portal available here.</p>\n<p>Those receiving PEUC will also receive <money>$600</money> weekly through the week ending <chron>July 25, 2020</chron>, provided by the Federal Pandemic Unemployment Compensation (FPUC) program established by the CARES Act.</p>\n<p>The CARES Act signed into law on <chron>March 27, 2020</chron>, established the PEUC, PUA and FPUC public benefit programs that expanded unemployment eligibility, temporarily increases weekly benefits for all claimants and allows additional categories of people to claim unemployment benefits. This is the largest expansion of assistance for the Commonwealths workforce since the Great Depression.</p>\n<p>More information about Pandemic Emergency Unemployment Compensation can be found at <a href=\"http://mass.gov/peuc\">mass.gov/peuc</a>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ma.beaill",
+            "Beacon Hill"
+        ]
+    ]
+}

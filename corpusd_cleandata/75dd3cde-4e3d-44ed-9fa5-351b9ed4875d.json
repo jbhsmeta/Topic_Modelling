@@ -1,0 +1,347 @@
+{
+    "id": "75dd3cde-4e3d-44ed-9fa5-351b9ed4875d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright (c) 2020 Federal Information & News Dispatch, Inc.",
+    "geoOrigin": "Washington, District of Columbia",
+    "sourceType": "Government Document",
+    "source": "Washington Daybook (DC)",
+    "corpus_document_id": "93460620864535154328",
+    "description": "LOCATION: 1500 Pennsylvania Avenue NW, Washington, D.C..",
+    "serviceName": "Washington Daybook",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "code": "LS/us#9#50#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Politics and Government",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Structured Content",
+            "code": "IS/spec#8#50#82",
+            "level": 0
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "8",
+            "description": "Event Announcements",
+            "code": "IS/spec.events#8#82#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Economics",
+            "code": "IS/econ#6#50#63",
+            "level": 0
+        },
+        {
+            "parent": "IS/econ",
+            "relevance_score": "6",
+            "description": "Economic Indicators",
+            "code": "IS/econ.indicate#6#63#50",
+            "level": 1
+        }
+    ],
+    "text": "**New\n\nTIME: 8:30 a.m.\n\nEVENT: Treasury Department releases Daily reports: State and Local Government\nBond Rates and Treasury Yield Curve data\n\nDATE: June 8, 2020\n\nLOCATION: 1500 Pennsylvania Avenue NW, Washington, D.C.\n\nCONTACT: 202-504-3550",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Treasury Department"
+        ],
+        "location": [
+            "1500 Pennsylvania Avenue NW",
+            "Washington, D.C."
+        ],
+        "person": [],
+        "companies": [
+            "Treasury Department"
+        ]
+    },
+    "geoOrigin_code": "RU/us.dc.wash",
+    "language": "English",
+    "filename": "202006050001FIND____WASHBOOK_NE20200608EC016A.XML",
+    "providerName": "Federal Information & News Dispatch, Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Treasury Department",
+                "relevance": 0.955568,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "State and Local Government",
+                "relevance": 0.655695,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "D.C",
+                "relevance": 0.491833,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Washington",
+                "relevance": 0.449974,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "MilitaryPost",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Washington, D.C.",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Washington,_D.C."
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Treasury Department"
+                },
+                "sentence": " EVENT: Treasury Department releases Daily reports: State and Local Government",
+                "object": {
+                    "text": "Daily reports"
+                },
+                "action": {
+                    "verb": {
+                        "text": "release",
+                        "tense": "present"
+                    },
+                    "text": "releases",
+                    "normalized": "release"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.696722,
+                "label": "/finance/bank"
+            },
+            {
+                "score": 0.682144,
+                "label": "/business and industrial/construction"
+            },
+            {
+                "score": 0.624517,
+                "label": "/finance/investing/funds"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "EVENT: Treasury Department releases Daily reports: State and Local Government Bond Rates and Treasury Yield Curve data",
+                "score": 0.491188,
+                "arguments": [
+                    {
+                        "text": "Bond Rates",
+                        "location": [
+                            102,
+                            112
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Bond Rates"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Government",
+                        "location": [
+                            91,
+                            101
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Government",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "LOCATION: 1500 Pennsylvania Avenue NW, Washington, D.C.",
+                "score": 0.96988,
+                "arguments": [
+                    {
+                        "text": "Pennsylvania Avenue NW",
+                        "location": [
+                            179,
+                            201
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Pennsylvania Avenue NW"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Washington",
+                        "location": [
+                            203,
+                            213
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Washington"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "LOCATION: 1500 Pennsylvania Avenue NW, Washington, D.C.",
+                "score": 0.984802,
+                "arguments": [
+                    {
+                        "text": "Washington",
+                        "location": [
+                            203,
+                            213
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Washington"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "D.C.",
+                        "location": [
+                            215,
+                            219
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "D.C."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Treasury Department",
+                "relevance": 0.949283,
+                "count": 1
+            },
+            {
+                "text": "Pennsylvania Avenue NW",
+                "relevance": 0.725413,
+                "count": 1
+            },
+            {
+                "text": "Daily reports",
+                "relevance": 0.631834,
+                "count": 1
+            },
+            {
+                "text": "LOCATION",
+                "relevance": 0.62609,
+                "count": 1
+            },
+            {
+                "text": "EVENT",
+                "relevance": 0.623314,
+                "count": 1
+            },
+            {
+                "text": "State",
+                "relevance": 0.539707,
+                "count": 1
+            },
+            {
+                "text": "Washington",
+                "relevance": 0.53277,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.527039,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "c69ba2fb357cfe4b1bb94b017427068512dd8847",
+        "filename": "202006050001FIND____WASHBOOK_NE20200608EC016A.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:01:00-04:00",
+    "title": "Treasury Department - Economic Indicator Release",
+    "html": "<p>**New</p>\n<p>TIME: <chron>8:30 a.m.</chron></p>\n<p>EVENT: <org>Treasury Department</org> releases Daily reports: State and Local Government Bond Rates and Treasury Yield Curve data</p>\n<p>DATE: <chron>June 8, 2020</chron></p>\n<p>LOCATION: <location>1500 Pennsylvania Avenue NW</location>, <location idsrc=\"xmltag.org\" value=\"LU/us.dc.wash\">Washington, D.C.</location></p>\n<p>CONTACT: 202-504-3550</p>",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ]
+    ]
+}

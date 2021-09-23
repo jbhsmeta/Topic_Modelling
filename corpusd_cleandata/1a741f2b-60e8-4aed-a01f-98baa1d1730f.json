@@ -1,0 +1,168 @@
+{
+    "id": "1a741f2b-60e8-4aed-a01f-98baa1d1730f",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "36012237642897552487",
+    "description": "BREAKING NEWS: Dentsu office, nearby commercial facilities off-limits: police",
+    "serviceName": "News Service",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "SubscribeSubscribe to get daily newsTo have the latest news and stories\ndelivered to your inbox, subscribe here. Simply enter your email address below\nand an email will be sent through which to complete your subscription.*\nSomething went wrong",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#6#50#66",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "6",
+            "description": "Government Services",
+            "code": "II/gov.govserve#6#50#66",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "6",
+            "description": "Police Services",
+            "code": "II/gov.police#6#66#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "6",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#6#50#66",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050440AMSPIDERNEWSSERV_TQ5QEVPM_1390575DEF06C0CD62702DE0C0CE5CB9_4.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "daily newsTo"
+                },
+                "sentence": "SubscribeSubscribe to get daily newsTo have the latest news and stories",
+                "object": {
+                    "text": "the latest news and stories"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an email"
+                },
+                "sentence": " and an email will be sent through which to complete your subscription.*",
+                "object": {
+                    "text": "through which to complete your subscription"
+                },
+                "action": {
+                    "verb": {
+                        "text": "send",
+                        "tense": "future"
+                    },
+                    "text": "will be sent",
+                    "normalized": "will be send"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Something"
+                },
+                "sentence": " Something went wrong",
+                "object": {
+                    "text": "wrong"
+                },
+                "action": {
+                    "verb": {
+                        "text": "go",
+                        "tense": "past"
+                    },
+                    "text": "went",
+                    "normalized": "go"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.996783,
+                "label": "/technology and computing/internet technology/email"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "email address",
+                "relevance": 0.946768,
+                "count": 1
+            },
+            {
+                "text": "latest news",
+                "relevance": 0.801094,
+                "count": 1
+            },
+            {
+                "text": "daily newsTo",
+                "relevance": 0.798748,
+                "count": 1
+            },
+            {
+                "text": "email",
+                "relevance": 0.569154,
+                "count": 1
+            },
+            {
+                "text": "inbox",
+                "relevance": 0.5519,
+                "count": 1
+            },
+            {
+                "text": "subscription",
+                "relevance": 0.536488,
+                "count": 1
+            },
+            {
+                "text": "stories",
+                "relevance": 0.536488,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "dfa3c540c42852b8c5e94b828954b797bb6f629b",
+        "filename": "202006050440AMSPIDERNEWSSERV_TQ5QEVPM_1390575DEF06C0CD62702DE0C0CE5CB9_4.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:40:00-04:00",
+    "title": "BREAKING NEWS: Dentsu office, nearby commercial facilities off-limits: police [Kyodo News (Japan)]",
+    "html": "<p>SubscribeSubscribe to get daily newsTo have the latest news and stories delivered to your inbox, subscribe here. Simply enter your email address below and an email will be sent through which to complete your subscription.* Something went wrong</p>",
+    "geoFocus": []
+}

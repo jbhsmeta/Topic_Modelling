@@ -1,0 +1,392 @@
+{
+    "id": "ca3dbc4f-b3d4-435d-b2f2-b5d80adc6bf2",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "7237930417996954084",
+    "description": "MANILA, Philippines\u2013 Speaker Alan Peter Cayetano defended the controversial anti-terror bill feared by many it would be used to stifle government dissenters, arguing that critics should read the proposed measure first before lambasting it. On Friday, June 5, the Speaker broke his silence on the pas",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "South-Eastern Asia",
+            "code": "LB/seas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/seas",
+            "relevance_score": "9",
+            "description": "Philippines",
+            "code": "LC/ph#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "MANILA, Philippines - Speaker Alan Peter Cayetano defended the controversial\nanti-terror bill feared by many it would be used to stifle government\ndissenters, arguing that critics should read the proposed measure first before\nlambasting it. On Friday, June 5, the Speaker broke his silence on the passage\nof House Bill ...",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "MANILA, Philippines"
+        ],
+        "person": [
+            "Alan Peter Cayetano"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050334AMSPIDERNEWS_____RAPPLR01_88D4A2104B631EE1287AB6BDCCE9BE35_12.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Speaker Alan Peter Cayetano",
+                "relevance": 0.928913,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Politician",
+                        "OfficeHolder"
+                    ],
+                    "name": "Alan Peter Cayetano",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Alan_Peter_Cayetano"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.402757,
+                    "label": "positive"
+                },
+                "text": "MANILA",
+                "relevance": 0.367103,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Manila",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Manila"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Philippines",
+                "relevance": 0.303841,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "MANILA, Philippines - Speaker Alan Peter Cayetano"
+                },
+                "sentence": "MANILA, Philippines - Speaker Alan Peter Cayetano defended the controversial",
+                "object": {
+                    "text": "the controversial"
+                },
+                "action": {
+                    "verb": {
+                        "text": "defend",
+                        "tense": "past"
+                    },
+                    "text": "defended",
+                    "normalized": "defend"
+                }
+            },
+            {
+                "subject": {
+                    "text": "dissenters"
+                },
+                "sentence": " dissenters, arguing that critics should read the proposed measure first before",
+                "object": {
+                    "text": "that critics should read the proposed measure first before"
+                },
+                "action": {
+                    "verb": {
+                        "text": "argue",
+                        "tense": "present"
+                    },
+                    "text": "arguing",
+                    "normalized": "argue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the Speaker"
+                },
+                "sentence": " On Friday, June 5, the Speaker broke his silence on the passage",
+                "object": {
+                    "text": "his silence on the passage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "break",
+                        "tense": "past"
+                    },
+                    "text": "broke",
+                    "normalized": "break"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.873082,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.868862,
+                "label": "/law, govt and politics/government"
+            },
+            {
+                "score": 0.85017,
+                "label": "/law, govt and politics/government/parliament"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "MANILA, Philippines - Speaker Alan Peter Cayetano defended the controversial anti-terror bill feared by many it would be used to stifle government dissenters, arguing that critics should read the proposed measure first before lambasting it.",
+                "score": 0.949266,
+                "arguments": [
+                    {
+                        "text": "MANILA",
+                        "location": [
+                            0,
+                            6
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "MANILA"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Philippines",
+                        "location": [
+                            8,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Philippines",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "MANILA, Philippines - Speaker Alan Peter Cayetano defended the controversial anti-terror bill feared by many it would be used to stifle government dissenters, arguing that critics should read the proposed measure first before lambasting it.",
+                "score": 0.997272,
+                "arguments": [
+                    {
+                        "text": "Alan Peter Cayetano",
+                        "location": [
+                            30,
+                            49
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Alan Peter Cayetano"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "defended",
+                        "location": [
+                            50,
+                            58
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "defended"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "MANILA, Philippines - Speaker Alan Peter Cayetano defended the controversial anti-terror bill feared by many it would be used to stifle government dissenters, arguing that critics should read the proposed measure first before lambasting it.",
+                "score": 0.523228,
+                "arguments": [
+                    {
+                        "text": "arguing",
+                        "location": [
+                            159,
+                            166
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "arguing"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "defended",
+                        "location": [
+                            50,
+                            58
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "defended"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "On Friday, June 5, the Speaker broke his silence on the passage of House Bill ...",
+                "score": 0.796472,
+                "arguments": [
+                    {
+                        "text": "Bill",
+                        "location": [
+                            314,
+                            318
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Bill"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "House",
+                        "location": [
+                            308,
+                            313
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "House",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Speaker Alan Peter Cayetano",
+                "relevance": 0.831733,
+                "count": 1
+            },
+            {
+                "text": "House Bill",
+                "relevance": 0.702456,
+                "count": 1
+            },
+            {
+                "text": "Philippines",
+                "relevance": 0.570032,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.560519,
+                "count": 1
+            },
+            {
+                "text": "critics",
+                "relevance": 0.543695,
+                "count": 1
+            },
+            {
+                "text": "Speaker",
+                "relevance": 0.539942,
+                "count": 1
+            },
+            {
+                "text": "proposed measure",
+                "relevance": 0.538609,
+                "count": 1
+            },
+            {
+                "text": "silence",
+                "relevance": 0.528123,
+                "count": 1
+            },
+            {
+                "text": "passage",
+                "relevance": 0.523202,
+                "count": 1
+            },
+            {
+                "text": "MANILA",
+                "relevance": 0.479401,
+                "count": 1
+            },
+            {
+                "text": "Friday",
+                "relevance": 0.463866,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "1614055ef54d2056b604a47051a3543e5d09702a",
+        "filename": "202006050334AMSPIDERNEWS_____RAPPLR01_88D4A2104B631EE1287AB6BDCCE9BE35_12.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:34:00-04:00",
+    "title": "Cayetano justifies anti-terror bill: \u2018Let us read before we criticize\u2019 [Rappler]",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/ph..manila\">MANILA, Philippines</location> &#8211; Speaker <person>Alan Peter Cayetano</person> defended the controversial anti-terror bill feared by many it would be used to stifle government dissenters, arguing that critics should read the proposed measure first before lambasting it. On <chron>Friday, June 5</chron>, the Speaker broke his silence on the passage of House Bill ...</p>",
+    "geoFocus": []
+}

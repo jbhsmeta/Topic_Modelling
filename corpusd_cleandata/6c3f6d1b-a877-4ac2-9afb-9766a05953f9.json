@@ -1,0 +1,586 @@
+{
+    "id": "6c3f6d1b-a877-4ac2-9afb-9766a05953f9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, The Rocket-Miner, All Rights Reserved.",
+    "geoOrigin": "Rock Springs, Wyoming",
+    "sourceType": "Newspaper",
+    "source": "Rocket-Miner, The (Rock Springs, WY)",
+    "corpus_document_id": "84232539365954691512",
+    "description": "ROCK SPRINGS- The Frederick Mountain Group will conduct a two-part training series at the request of the Rock Springs Main Street/Urban Renewal Agency. The Frederick Mountain Group is a consulting company from Jackson helps businesses craft plans. The seminar will take place from 9 a.m. to 2 p.m. June 15 at The Broadway Theater.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "ROCK SPRINGS -The Frederick Mountain Group will conduct a two-part training\nseries at the request of the Rock Springs Main Street/Urban Renewal Agency.\nThe Frederick Mountain Group is a consulting company from Jackson helps\nbusinesses craft plans.\n\nThe seminar will take place from 9 a.m. to 2 p.m. June 15 at The Broadway\nTheater. It is open to any business and is free but preregistration is\nrequired. Participants must sign up at\n<https://www.frederickmtngroup.com/upcoming-trainings>.\n\nThe workshop will provide a framework for owners who want their businesses to\ngrow, according to a press release. Modern marketing tools will be introduced\nand business managers will discover how to take advantage of these tools.\n\nFor more information, contact the Rock Springs Main Street/URA at 307-352-1434\nor visit [www.downtownrs.com](http://www.downtownrs.com).",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "The Frederick Mountain Group",
+            "Rock Springs Main Street/Urban Renewal Agency",
+            "The Broadway Theater"
+        ],
+        "location": [],
+        "person": [
+            "ROCK SPRINGS"
+        ],
+        "companies": [
+            "The Frederick Mountain Group",
+            "Rock Springs Main Street/Urban Renewal Agency",
+            "The Broadway Theater"
+        ]
+    },
+    "geoOrigin_code": "RU/us.wy.rocngs",
+    "language": "English",
+    "filename": "202006080000NEWSBANKNEWSPPRS6361EE51769FDA7CABBAFD56BA2A096.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rock Springs Main Street/Urban Renewal Agency",
+                "relevance": 0.86667,
+                "type": "Organization"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0.607521,
+                    "label": "positive"
+                },
+                "text": "Frederick Mountain Group",
+                "relevance": 0.740433,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rock Springs Main Street/URA",
+                "relevance": 0.695769,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "ROCK SPRINGS",
+                "relevance": 0.609262,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.607521,
+                    "label": "positive"
+                },
+                "text": "Jackson",
+                "relevance": 0.269843,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "ROCK SPRINGS -The Frederick Mountain Group"
+                },
+                "sentence": "ROCK SPRINGS -The Frederick Mountain Group will conduct a two-part training",
+                "object": {
+                    "text": "a two-part training"
+                },
+                "action": {
+                    "verb": {
+                        "text": "conduct",
+                        "tense": "future"
+                    },
+                    "text": "will conduct",
+                    "normalized": "will conduct"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Frederick Mountain Group"
+                },
+                "sentence": " The Frederick Mountain Group is a consulting company from Jackson helps",
+                "object": {
+                    "text": "a consulting company from Jackson helps"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "businesses"
+                },
+                "sentence": " businesses craft plans.",
+                "object": {
+                    "text": "plans"
+                },
+                "action": {
+                    "verb": {
+                        "text": "craft",
+                        "tense": "present"
+                    },
+                    "text": "craft",
+                    "normalized": "craft"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The seminar"
+                },
+                "sentence": " The seminar will take place from 9 a.m. to 2 p.m.",
+                "object": {
+                    "text": "place"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "future"
+                    },
+                    "text": "will take",
+                    "normalized": "will take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Theater. It"
+                },
+                "sentence": " Theater. It is open to any business and is free but preregistration is",
+                "object": {
+                    "text": "open to any business"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Theater. It"
+                },
+                "sentence": " Theater. It is open to any business and is free but preregistration is",
+                "object": {
+                    "text": "free"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The workshop"
+                },
+                "sentence": " The workshop will provide a framework for owners who want their businesses to",
+                "object": {
+                    "text": "a framework"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "future"
+                    },
+                    "text": "will provide",
+                    "normalized": "will provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "business managers"
+                },
+                "sentence": " and business managers will discover how to take advantage of these tools.",
+                "object": {
+                    "text": "how to take advantage of these tools"
+                },
+                "action": {
+                    "verb": {
+                        "text": "discover",
+                        "tense": "future"
+                    },
+                    "text": "will discover",
+                    "normalized": "will discover"
+                }
+            },
+            {
+                "subject": {
+                    "text": "business managers"
+                },
+                "sentence": " and business managers will discover how to take advantage of these tools.",
+                "object": {
+                    "text": "advantage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "future"
+                    },
+                    "text": "to take",
+                    "normalized": "to take"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.941373,
+                "label": "/business and industrial"
+            },
+            {
+                "score": 0.901124,
+                "label": "/business and industrial/business operations/management/business process"
+            },
+            {
+                "score": 0.823988,
+                "label": "/business and industrial/business operations/business plans"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "ROCK SPRINGS -The Frederick Mountain Group will conduct a two-part training series at the request of the Rock Springs Main Street/Urban Renewal Agency.",
+                "score": 0.409926,
+                "arguments": [
+                    {
+                        "text": "Frederick Mountain Group",
+                        "location": [
+                            18,
+                            42
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Frederick Mountain Group",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ROCK SPRINGS",
+                        "location": [
+                            0,
+                            12
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "ROCK SPRINGS",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "ROCK SPRINGS -The Frederick Mountain Group will conduct a two-part training series at the request of the Rock Springs Main Street/Urban Renewal Agency.",
+                "score": 0.791212,
+                "arguments": [
+                    {
+                        "text": "Urban Renewal Agency",
+                        "location": [
+                            130,
+                            150
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Urban Renewal Agency"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rock Springs Main Street",
+                        "location": [
+                            105,
+                            129
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Rock Springs Main Street/URA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "The Frederick Mountain Group is a consulting company from Jackson helps businesses craft plans.",
+                "score": 0.430574,
+                "arguments": [
+                    {
+                        "text": "Jackson",
+                        "location": [
+                            210,
+                            217
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jackson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "company",
+                        "location": [
+                            197,
+                            204
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Urban Renewal Agency"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "For more information, contact the Rock Springs Main Street/URA at 307-352-1434 or visit [www.downtownrs.com](http://www.downtownrs.com).",
+                "score": 0.775976,
+                "arguments": [
+                    {
+                        "text": "Rock Springs Main Street/URA",
+                        "location": [
+                            755,
+                            783
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Rock Springs Main Street/URA"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "307-352-1434",
+                        "location": [
+                            787,
+                            799
+                        ],
+                        "entities": [
+                            {
+                                "type": "Phone",
+                                "text": "307-352-1434"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "For more information, contact the Rock Springs Main Street/URA at 307-352-1434 or visit [www.downtownrs.com](http://www.downtownrs.com).",
+                "score": 0.545426,
+                "arguments": [
+                    {
+                        "text": "Rock Springs Main Street/URA",
+                        "location": [
+                            755,
+                            783
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Rock Springs Main Street/URA"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "http://www.downtownrs.com",
+                        "location": [
+                            830,
+                            855
+                        ],
+                        "entities": [
+                            {
+                                "type": "Web",
+                                "text": "http://www.downtownrs.com"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "ROCK SPRINGS",
+                "relevance": 0.886619,
+                "count": 1
+            },
+            {
+                "text": "businesses craft plans",
+                "relevance": 0.763646,
+                "count": 1
+            },
+            {
+                "text": "request of the Rock Springs Main Street",
+                "relevance": 0.718087,
+                "count": 1
+            },
+            {
+                "text": "Frederick Mountain Group",
+                "relevance": 0.717846,
+                "count": 2
+            },
+            {
+                "text": "consulting company",
+                "relevance": 0.616522,
+                "count": 1
+            },
+            {
+                "text": "workshop",
+                "relevance": 0.583667,
+                "count": 1
+            },
+            {
+                "text": "press release",
+                "relevance": 0.58281,
+                "count": 1
+            },
+            {
+                "text": "Rock Springs Main Street",
+                "relevance": 0.57102,
+                "count": 1
+            },
+            {
+                "text": "business managers",
+                "relevance": 0.565099,
+                "count": 1
+            },
+            {
+                "text": "Modern marketing tools",
+                "relevance": 0.553398,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.548327,
+                "count": 1
+            },
+            {
+                "text": "business",
+                "relevance": 0.540036,
+                "count": 1
+            },
+            {
+                "text": "framework",
+                "relevance": 0.537146,
+                "count": 1
+            },
+            {
+                "text": "seminar",
+                "relevance": 0.532212,
+                "count": 1
+            },
+            {
+                "text": "owners",
+                "relevance": 0.528966,
+                "count": 1
+            },
+            {
+                "text": "businesses",
+                "relevance": 0.526722,
+                "count": 1
+            },
+            {
+                "text": "place",
+                "relevance": 0.519375,
+                "count": 1
+            },
+            {
+                "text": "Participants",
+                "relevance": 0.518999,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.512455,
+                "count": 1
+            },
+            {
+                "text": "Jackson",
+                "relevance": 0.512455,
+                "count": 1
+            },
+            {
+                "text": "URA",
+                "relevance": 0.510273,
+                "count": 1
+            },
+            {
+                "text": "Urban Renewal Agency",
+                "relevance": 0.492692,
+                "count": 1
+            },
+            {
+                "text": "advantage of these tools",
+                "relevance": 0.451372,
+                "count": 1
+            },
+            {
+                "text": "visit",
+                "relevance": 0.394038,
+                "count": 1
+            },
+            {
+                "text": "preregistration",
+                "relevance": 0.394038,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "b460f1769d5ff9566eb997b6eb2677b2763cfc70",
+        "filename": "202006080000NEWSBANKNEWSPPRS6361EE51769FDA7CABBAFD56BA2A096.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-08T00:00:00-04:00",
+    "title": "Workshop designed to help business owners build framework",
+    "html": "<p><person>ROCK SPRINGS</person> -<org>The Frederick Mountain Group</org> will conduct a two-part training series at the request of the <org>Rock Springs Main Street/Urban Renewal Agency</org>. <org>The Frederick Mountain Group</org> is a consulting company from Jackson helps businesses craft plans.</p>\n<p>The seminar will take place from <chron>9 a.m. to 2 p.m.</chron> <chron>June 15</chron> at <org>The Broadway Theater</org>. It is open to any business and is free but preregistration is required. Participants must sign up at <a href=\"https://www.frederickmtngroup.com/upcoming-trainings\">https://www.frederickmtngroup.com/upcoming-trainings</a>.</p>\n\n<p>The workshop will provide a framework for owners who want their businesses to grow, according to a press release. Modern marketing tools will be introduced and business managers will discover how to take advantage of these tools.</p>\n\n<p>For more information, contact the Rock Springs Main Street/URA at 307-352-1434 or visit <a href=\"http://www.downtownrs.com\">www.downtownrs.com</a>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.wy.rocngs",
+            "Rock Springs"
+        ]
+    ]
+}

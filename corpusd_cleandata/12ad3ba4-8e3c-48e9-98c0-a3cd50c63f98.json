@@ -1,0 +1,518 @@
+{
+    "id": "12ad3ba4-8e3c-48e9-98c0-a3cd50c63f98",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright (c) 2020 . Informatics India Ltd.",
+    "geoOrigin": "Bangalore, India",
+    "sourceType": "Business & Financial Newswire",
+    "source": "Indian Business Insight",
+    "corpus_document_id": "83459917019109102177",
+    "description": "The State Bank of India, Mumbai Metro Circle, is extending Guaranteed Emergency Credit Line Scheme. In Mumbai Metro Circle there are 9643 customers eligible for GECLS for Rs841 crore. The scheme was launched on 1 Jun 2020, and on one day has sanctioned about 300 loans totalling Rs185 crore.",
+    "serviceName": "Indian Business Insight",
+    "locationCode": [],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Finance",
+            "code": "IS/fin#8#50#82",
+            "level": 0
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "8",
+            "description": "Banking",
+            "code": "IS/fin.banking#8#50#82",
+            "level": 1
+        },
+        {
+            "parent": "IS/fin.banking",
+            "relevance_score": "8",
+            "description": "Loans",
+            "code": "IS/fin.loans#8#82#50",
+            "level": 2
+        }
+    ],
+    "text": "The State Bank of India (SBI), Mumbai Metro Circle, is extending Guaranteed\nEmergency Credit Line Scheme (GECLS). In Mumbai Metro Circle there are 9643\ncustomers eligible for GECLS for Rs841 crore. Of this, 80 percent are from\ntier-II city of Vasai-Virar region in the circle. The scheme was launched on 1\nJun 2020, and on one day has sanctioned about 300 loans totalling Rs185 crore.\nThe Mumbai Metro Circle anticipates to complete the entire sanction in 30\ndays, although GECLS is valid till 31 Oct 2020.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "State Bank of India"
+        ],
+        "location": [
+            "Mumbai Metro Circle"
+        ],
+        "person": [],
+        "companies": [
+            "State Bank of India"
+        ]
+    },
+    "geoOrigin_code": "RU/in..bangal",
+    "language": "English",
+    "filename": "202006052000INFOMATCINDBUSIN1773602.XML",
+    "providerName": "Informatics India Limited",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0.384849,
+                    "label": "positive"
+                },
+                "text": "Mumbai Metro Circle",
+                "relevance": 0.941819,
+                "type": "Facility"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0.444136,
+                    "label": "positive"
+                },
+                "text": "GECLS",
+                "relevance": 0.263641,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "State Bank of India",
+                "relevance": 0.221433,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "State Bank of India",
+                    "dbpedia_resource": "http://dbpedia.org/resource/State_Bank_of_India"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Vasai-Virar",
+                "relevance": 0.12468,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Vasai-Virar",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Vasai-Virar"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "80 percent",
+                "relevance": 0.12468,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "30\ndays",
+                "relevance": 0.12468,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "one day",
+                "relevance": 0.12468,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The State Bank of India (SBI), Mumbai Metro Circle,"
+                },
+                "sentence": "The State Bank of India (SBI), Mumbai Metro Circle, is extending Guaranteed",
+                "object": {
+                    "text": "extending Guaranteed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The scheme"
+                },
+                "sentence": " The scheme was launched on 1",
+                "object": {
+                    "text": "launched on 1"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "sanctioned about 300 loans totalling Rs185 crore"
+                },
+                "sentence": " Jun 2020, and on one day has sanctioned about 300 loans totalling Rs185 crore.",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "300 loans"
+                },
+                "sentence": " Jun 2020, and on one day has sanctioned about 300 loans totalling Rs185 crore.",
+                "object": {
+                    "text": "Rs185"
+                },
+                "action": {
+                    "verb": {
+                        "text": "total",
+                        "tense": "present"
+                    },
+                    "text": "totalling",
+                    "normalized": "total"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Mumbai Metro Circle"
+                },
+                "sentence": " The Mumbai Metro Circle anticipates to complete the entire sanction in 30",
+                "object": {
+                    "text": "to complete the entire sanction in 30"
+                },
+                "action": {
+                    "verb": {
+                        "text": "anticipate",
+                        "tense": "present"
+                    },
+                    "text": "anticipates",
+                    "normalized": "anticipate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Mumbai Metro Circle"
+                },
+                "sentence": " The Mumbai Metro Circle anticipates to complete the entire sanction in 30",
+                "object": {
+                    "text": "the entire sanction in 30"
+                },
+                "action": {
+                    "verb": {
+                        "text": "complete",
+                        "tense": "future"
+                    },
+                    "text": "anticipates to complete",
+                    "normalized": "anticipate to complete"
+                }
+            },
+            {
+                "subject": {
+                    "text": "GECLS"
+                },
+                "sentence": " days, although GECLS is valid till 31 Oct 2020.",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.819282,
+                "label": "/finance/bank"
+            },
+            {
+                "score": 0.693226,
+                "label": "/finance/bank/atms"
+            },
+            {
+                "score": 0.631738,
+                "label": "/finance/investing/funds"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "The State Bank of India (SBI), Mumbai Metro Circle, is extending Guaranteed Emergency Credit Line Scheme (GECLS).",
+                "score": 0.599885,
+                "arguments": [
+                    {
+                        "text": "SBI",
+                        "location": [
+                            25,
+                            28
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "State Bank of India"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mumbai Metro Circle",
+                        "location": [
+                            31,
+                            50
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mumbai Metro Circle"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "In Mumbai Metro Circle there are 9643 customers eligible for GECLS for Rs841 crore.",
+                "score": 0.962195,
+                "arguments": [
+                    {
+                        "text": "Metro Circle",
+                        "location": [
+                            124,
+                            136
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Metro Circle",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mumbai",
+                        "location": [
+                            117,
+                            123
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mumbai Metro Circle"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "The Mumbai Metro Circle anticipates to complete the entire sanction in 30 days, although GECLS is valid till 31 Oct 2020.",
+                "score": 0.961254,
+                "arguments": [
+                    {
+                        "text": "Metro Circle",
+                        "location": [
+                            396,
+                            408
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Metro Circle",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mumbai",
+                        "location": [
+                            389,
+                            395
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mumbai Metro Circle"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "In Mumbai Metro Circle there are 9643 customers eligible for GECLS for Rs841 crore.",
+                "score": 0.306909,
+                "arguments": [
+                    {
+                        "text": "customers",
+                        "location": [
+                            152,
+                            161
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "customers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Metro Circle",
+                        "location": [
+                            124,
+                            136
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Metro Circle",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "State Bank of India",
+                "relevance": 0.946809,
+                "count": 1
+            },
+            {
+                "text": "Mumbai Metro Circle",
+                "relevance": 0.825951,
+                "count": 3
+            },
+            {
+                "text": "Emergency Credit Line Scheme",
+                "relevance": 0.797096,
+                "count": 1
+            },
+            {
+                "text": "tier-II city of Vasai-Virar region",
+                "relevance": 0.796105,
+                "count": 1
+            },
+            {
+                "text": "Jun",
+                "relevance": 0.577857,
+                "count": 1
+            },
+            {
+                "text": "day",
+                "relevance": 0.553493,
+                "count": 1
+            },
+            {
+                "text": "SBI",
+                "relevance": 0.552241,
+                "count": 1
+            },
+            {
+                "text": "customers",
+                "relevance": 0.544012,
+                "count": 1
+            },
+            {
+                "text": "days",
+                "relevance": 0.526823,
+                "count": 1
+            },
+            {
+                "text": "loans",
+                "relevance": 0.52386,
+                "count": 1
+            },
+            {
+                "text": "scheme",
+                "relevance": 0.518315,
+                "count": 1
+            },
+            {
+                "text": "circle",
+                "relevance": 0.518177,
+                "count": 1
+            },
+            {
+                "text": "Oct",
+                "relevance": 0.517554,
+                "count": 1
+            },
+            {
+                "text": "crore",
+                "relevance": 0.517554,
+                "count": 2
+            },
+            {
+                "text": "entire sanction",
+                "relevance": 0.491219,
+                "count": 1
+            },
+            {
+                "text": "GECLS",
+                "relevance": 0.342658,
+                "count": 3
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "82961bcff7f4c4a400048c4693362f59873c800c",
+        "filename": "202006052000INFOMATCINDBUSIN1773602.json",
+        "file_type": "json"
+    },
+    "companyRecord": "OTC-PINK|SBKJY|CUSIP:856552104;ISIN:US8565521049|State Bank of India|extractor|DUNS:650056914;NECOID:25062;ACORN:1541162779|SIGNIFICANT|ADRTICKER=OTC-PINK:SBKJY||ADR|PINX|SYNONYM",
+    "publicationTime": "2020-06-05T20:00:00-04:00",
+    "title": "ENTERPRISE  CONNECT:  GUARANTEED EMERGENCY  CREDIT  LINE  (GECL)  EXTENDED BY MUMBAI METRO CIRCLE ON 1 JUN 2020",
+    "html": "<p>The <org idsrc=\"xmltag.org\" value=\"Bombay:500112\">State Bank of India</org> (SBI), <location>Mumbai Metro Circle</location>, is extending  Guaranteed Emergency Credit Line Scheme (GECLS). In Mumbai Metro  Circle  there  are 9643 customers eligible for GECLS  for  <money>Rs841  crore</money>.  Of this, 80 percent are from tier-II city of Vasai-Virar  region in the circle. The scheme was launched on <chron>1 Jun 2020</chron>, and  on one day has sanctioned about 300 loans totalling <money>Rs185 crore</money>.  The  Mumbai  Metro  Circle anticipates to  complete  the  entire  sanction in 30 days, although GECLS is valid till <chron>31 Oct 2020</chron>.</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

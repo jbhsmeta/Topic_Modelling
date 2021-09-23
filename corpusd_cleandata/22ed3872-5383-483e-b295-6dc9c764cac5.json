@@ -1,0 +1,438 @@
+{
+    "id": "22ed3872-5383-483e-b295-6dc9c764cac5",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "COPYRIGHT 2019 Newspan Media",
+    "geoOrigin": "Houston, Texas",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Semana News (Spanish)",
+    "corpus_document_id": "97065499702975292301",
+    "description": "Asi pudimos verlos paseando por la Milla de Oro cargados de bolsas de grandes marcas, que nos recordaron a una de las miticas escenas de la pelicula Pretty Woman. La pareja acaba de aterrizar en Almeria, donde el exjugador blanco entrenara al equipo de la ciudad, sin embargo, todo apunta a que viviran entre Madrid y Almeria. Leyenda: Romina Belluscio y Jose Maria...",
+    "serviceName": "Gale All",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Southern Europe",
+            "code": "LB/seur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/seur",
+            "relevance_score": "9",
+            "description": "Spain",
+            "code": "LC/es#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LS/es#9#50#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [],
+    "text": "ROMINA Belluscio y Guti forman el tandem perfecto. Aprovechan cualquier\noportunidad para disfrutar de su ciudad y de una de sus aficiones preferidas,\nlas compras. Asi pudimos verlos paseando por la Milla de Oro cargados de\nbolsas de grandes marcas, que nos recordaron a una de las miticas escenas de\nla pelicula Pretty Woman.\n\nLa pareja acaba de aterrizar en Almeria, donde el exjugador blanco entrenara\nal equipo de la ciudad, sin embargo, todo apunta a que viviran entre Madrid y\nAlmeria.\n\nDias despues de su presentacion oficial en el club, la pareja aprovecho para\ncelebrar su octavo aniversario en su nuevo hogar. La pareja se caso en 2016 y,\ndesde entonces, la presentadora ha seguido los pasos de su marido.\n\nLeyenda: Romina Belluscio (40) y Jose Maria Gutierrez 'Guti' (43) tuvieron a\nsu primer hijo en comun, Enzo, hace 6 anos.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Madrid"
+        ],
+        "person": [
+            "Romina Belluscio",
+            "Jose Maria Gutierrez"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.tx.houstn",
+    "language": "Spanish",
+    "filename": "201911270000GALE____PUB_ALL_612475235.XML",
+    "providerName": "Gale Group",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.457491,
+                    "label": "positive"
+                },
+                "text": "Almeria",
+                "relevance": 0.822177,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Almer\u00eda",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Almer\u00eda"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Aprovechan cualquier",
+                "relevance": 0.589901,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Milla de Oro",
+                "relevance": 0.544503,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "las compras",
+                "relevance": 0.531811,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jose Maria Gutierrez 'Guti",
+                "relevance": 0.522927,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Romina Belluscio",
+                "relevance": 0.482203,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Romina Belluscio",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Romina_Belluscio"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Leyenda",
+                "relevance": 0.38239,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "grandes marcas, que nos recordaron a una de las miticas escenas de"
+                },
+                "sentence": " bolsas de grandes marcas, que nos recordaron a una de las miticas escenas de",
+                "object": {
+                    "text": "bolsas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "bolsas de grandes marcas, que nos"
+                },
+                "sentence": " bolsas de grandes marcas, que nos recordaron a una de las miticas escenas de",
+                "object": {
+                    "text": "a una de las miticas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "recordaron",
+                        "tense": "present"
+                    },
+                    "text": "recordaron",
+                    "normalized": "recordaron"
+                }
+            },
+            {
+                "subject": {
+                    "text": "el exjugador blanco entrenara"
+                },
+                "sentence": " La pareja acaba de aterrizar en Almeria, donde el exjugador blanco entrenara",
+                "object": {
+                    "text": "La pareja acaba de aterrizar en Almeria"
+                },
+                "action": {
+                    "verb": {
+                        "text": "donde",
+                        "tense": "present"
+                    },
+                    "text": "donde",
+                    "normalized": "donde"
+                }
+            },
+            {
+                "subject": {
+                    "text": "su marido"
+                },
+                "sentence": " desde entonces, la presentadora ha seguido los pasos de su marido.",
+                "object": {
+                    "text": "desde entonces, la presentadora ha seguido los pasos"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.551233,
+                "label": "/art and entertainment/books and literature/poetry"
+            },
+            {
+                "score": 0.550919,
+                "label": "/art and entertainment/shows and events/sports event"
+            },
+            {
+                "score": 0.528761,
+                "label": "/travel/specialty travel/ecotourism"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "La pareja acaba de aterrizar en Almeria, donde el exjugador blanco entrenara al equipo de la ciudad, sin embargo, todo apunta a que viviran entre Madrid y Almeria.",
+                "score": 0.550327,
+                "arguments": [
+                    {
+                        "text": "Madrid",
+                        "location": [
+                            473,
+                            479
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Madrid"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Almeria",
+                        "location": [
+                            482,
+                            489
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Almeria"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "de su presentacion",
+                "relevance": 0.773814,
+                "count": 1
+            },
+            {
+                "text": "al equipo de la ciudad",
+                "relevance": 0.708669,
+                "count": 1
+            },
+            {
+                "text": "su primer hijo en comun",
+                "relevance": 0.641811,
+                "count": 1
+            },
+            {
+                "text": "la pelicula",
+                "relevance": 0.63093,
+                "count": 1
+            },
+            {
+                "text": "oficial en el club",
+                "relevance": 0.618043,
+                "count": 1
+            },
+            {
+                "text": "La pareja se caso en",
+                "relevance": 0.586791,
+                "count": 1
+            },
+            {
+                "text": "Dias",
+                "relevance": 0.547289,
+                "count": 1
+            },
+            {
+                "text": "Leyenda",
+                "relevance": 0.544297,
+                "count": 1
+            },
+            {
+                "text": "sin embargo",
+                "relevance": 0.53655,
+                "count": 1
+            },
+            {
+                "text": "donde el exjugador blanco entrenara",
+                "relevance": 0.527247,
+                "count": 1
+            },
+            {
+                "text": "y Jose Maria Gutierrez 'Guti",
+                "relevance": 0.524382,
+                "count": 1
+            },
+            {
+                "text": "todo apunta",
+                "relevance": 0.514778,
+                "count": 1
+            },
+            {
+                "text": "Enzo",
+                "relevance": 0.50909,
+                "count": 1
+            },
+            {
+                "text": "Romina Belluscio",
+                "relevance": 0.500691,
+                "count": 1
+            },
+            {
+                "text": "viviran entre",
+                "relevance": 0.475514,
+                "count": 1
+            },
+            {
+                "text": "Asi pudimos verlos paseando por la Milla de Oro cargados",
+                "relevance": 0.471664,
+                "count": 1
+            },
+            {
+                "text": "las compras",
+                "relevance": 0.466976,
+                "count": 1
+            },
+            {
+                "text": "desde entonces",
+                "relevance": 0.466976,
+                "count": 1
+            },
+            {
+                "text": "La pareja acaba de aterrizar en Almeria",
+                "relevance": 0.464226,
+                "count": 1
+            },
+            {
+                "text": "grandes marcas",
+                "relevance": 0.455847,
+                "count": 1
+            },
+            {
+                "text": "nuevo hogar",
+                "relevance": 0.450661,
+                "count": 1
+            },
+            {
+                "text": "ROMINA Belluscio y Guti forman el tandem perfecto",
+                "relevance": 0.440022,
+                "count": 1
+            },
+            {
+                "text": "bolsas",
+                "relevance": 0.418929,
+                "count": 1
+            },
+            {
+                "text": "que",
+                "relevance": 0.416463,
+                "count": 1
+            },
+            {
+                "text": "Aprovechan",
+                "relevance": 0.414203,
+                "count": 1
+            },
+            {
+                "text": "hace",
+                "relevance": 0.410382,
+                "count": 1
+            },
+            {
+                "text": "anos",
+                "relevance": 0.40911,
+                "count": 1
+            },
+            {
+                "text": "tuvieron",
+                "relevance": 0.40911,
+                "count": 1
+            },
+            {
+                "text": "preferidas",
+                "relevance": 0.40911,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "b9fb4b8588c85a3b8339ed2eb94d922cd0d24b65",
+        "filename": "201911270000GALE____PUB_ALL_612475235.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2019-11-27T00:00:00-05:00",
+    "title": "Romina y Guti se hacen un 'pretty woman' antes de ir a Almeria: Guti aprovecho una escapada a Madrid para irse de compras a la Milla de Oro con su mujer y su suegra, antes de instalarse definitivamente en la ciudad andaluza.",
+    "html": "<p>ROMINA Belluscio y Guti forman el tandem perfecto. Aprovechan\ncualquier oportunidad para disfrutar de su ciudad y de una de sus\naficiones preferidas, las compras. Asi pudimos verlos paseando por la\n<person>Milla de Oro</person> cargados de bolsas de grandes marcas, que nos recordaron a\nuna de las miticas escenas de la pelicula Pretty Woman.</p>\n\n<p>La pareja acaba de aterrizar en Almeria, donde el exjugador blanco\nentrenara al equipo de la ciudad, sin embargo, todo apunta a que viviran\nentre <location idsrc=\"xmltag.org\" value=\"LU/es..madrid\">Madrid</location> y Almeria.</p>\n\n<p>Dias despues de su presentacion oficial en el club, la pareja\naprovecho para celebrar su octavo aniversario en su nuevo hogar. La\npareja se caso en 2016 y, desde entonces, la presentadora ha seguido los\npasos de su marido.</p>\n\n<p>Leyenda: <person>Romina Belluscio</person> (40) y <person>Jose Maria Gutierrez</person>\n'Guti' (43) tuvieron a su primer hijo en comun, Enzo, hace 6\nanos.</p>",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ]
+    ]
+}

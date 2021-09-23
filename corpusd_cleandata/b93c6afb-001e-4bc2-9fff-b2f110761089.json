@@ -1,0 +1,319 @@
+{
+    "id": "b93c6afb-001e-4bc2-9fff-b2f110761089",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, Greeneville Sun, All  Rights Reserved.",
+    "geoOrigin": "Greeneville, Tennessee",
+    "sourceType": "Newspaper",
+    "source": "Greeneville Sun, The (TN)",
+    "corpus_document_id": "91391362537830051782",
+    "description": "Arrangements will be announced by Kiser-Rose Hill Funeral Home.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Kay Shackelford, 85, of the St James community, passed away Saturday evening\nat home.\n\nArrangements will be announced by Kiser-Rose Hill Funeral Home.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Kiser-Rose Hill Funeral Home"
+        ],
+        "location": [],
+        "person": [
+            "Kay Shackelford"
+        ],
+        "companies": [
+            "Kiser-Rose Hill Funeral Home"
+        ]
+    },
+    "geoOrigin_code": "RU/us.tn.grelle",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS5876CD21EDFAA51DD8DC3611C86AB5F.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.374273,
+                    "label": "negative"
+                },
+                "text": "Kiser-Rose Hill Funeral Home",
+                "relevance": 0.952553,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kay Shackelford",
+                "relevance": 0.908162,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "St James community",
+                "relevance": 0.636157,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Kay Shackelford, 85, of the St James community,"
+                },
+                "sentence": "Kay Shackelford, 85, of the St James community, passed away Saturday evening",
+                "action": {
+                    "verb": {
+                        "text": "pass",
+                        "tense": "past"
+                    },
+                    "text": "passed",
+                    "normalized": "pass"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Arrangements"
+                },
+                "sentence": " Arrangements will be announced by Kiser-Rose Hill Funeral Home.",
+                "object": {
+                    "text": "announced by Kiser-Rose Hill Funeral Home"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by Kiser-Rose Hill Funeral Home"
+                },
+                "sentence": " Arrangements will be announced by Kiser-Rose Hill Funeral Home.",
+                "object": {
+                    "text": "Arrangements"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "future"
+                    },
+                    "text": "will be announced",
+                    "normalized": "will be announce"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.555128,
+                "label": "/style and fashion/beauty/cosmetics"
+            },
+            {
+                "score": 0.550589,
+                "label": "/style and fashion/beauty/face and body care/body care"
+            },
+            {
+                "score": 0.54312,
+                "label": "/family and parenting/children"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "Kay Shackelford, 85, of the St James community, passed away Saturday evening at home.",
+                "score": 0.991053,
+                "arguments": [
+                    {
+                        "text": "Kay Shackelford",
+                        "location": [
+                            0,
+                            15
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Kay Shackelford"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "85",
+                        "location": [
+                            17,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "85"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Kay Shackelford, 85, of the St James community, passed away Saturday evening at home.",
+                "score": 0.520402,
+                "arguments": [
+                    {
+                        "text": "Kay Shackelford",
+                        "location": [
+                            0,
+                            15
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Kay Shackelford"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "St James community",
+                        "location": [
+                            28,
+                            46
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "St James community"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "diedAt",
+                "sentence": "Kay Shackelford, 85, of the St James community, passed away Saturday evening at home.",
+                "score": 0.529312,
+                "arguments": [
+                    {
+                        "text": "Kay Shackelford",
+                        "location": [
+                            0,
+                            15
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Kay Shackelford"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "home",
+                        "location": [
+                            80,
+                            84
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Arrangements will be announced by Kiser-Rose Hill Funeral Home.",
+                "score": 0.953567,
+                "arguments": [
+                    {
+                        "text": "Kiser-Rose Hill Funeral Home",
+                        "location": [
+                            121,
+                            149
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Kiser-Rose Hill Funeral Home",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            108,
+                            117
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Kay Shackelford",
+                "relevance": 0.967088,
+                "count": 1
+            },
+            {
+                "text": "Saturday evening",
+                "relevance": 0.789161,
+                "count": 1
+            },
+            {
+                "text": "Arrangements",
+                "relevance": 0.711692,
+                "count": 1
+            },
+            {
+                "text": "St James community",
+                "relevance": 0.691463,
+                "count": 1
+            },
+            {
+                "text": "Kiser-Rose Hill Funeral Home",
+                "relevance": 0.637267,
+                "count": 1
+            },
+            {
+                "text": "home",
+                "relevance": 0.541891,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "f216bf6ff2b6a9768f9fb02a95abf61fd1db8578",
+        "filename": "202006010000NEWSBANKNEWSPPRS5876CD21EDFAA51DD8DC3611C86AB5F.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Kay Shackelford (Died: May 31, 2020)",
+    "html": "<p><person>Kay Shackelford</person>, 85, of the St James community, passed away Saturday evening at home.</p>\n<p>Arrangements will be announced by <org>Kiser-Rose Hill Funeral Home</org>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.tn.grelle",
+            "Greeneville"
+        ]
+    ]
+}

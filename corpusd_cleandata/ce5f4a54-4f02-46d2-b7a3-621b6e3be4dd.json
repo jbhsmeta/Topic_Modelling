@@ -1,0 +1,2194 @@
+{
+    "id": "ce5f4a54-4f02-46d2-b7a3-621b6e3be4dd",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, China Business Day",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "China Business Day",
+    "corpus_document_id": "93186972116501992848",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at China Business Day-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun; Cui, Jie; He, Yuan; Zhu, Jiangbo, filed on December 26, 2017, was published online on June 8, 2020. The assignee for this patent, patent number 10,667,084, is Huawei...",
+    "serviceName": "Geographic Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Eastern Asia",
+            "code": "LB/eas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eas",
+            "relevance_score": "9",
+            "description": "People's Republic of China",
+            "code": "LC/cn#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#70#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business\nDay -- According to news reporting originating from Alexandria, Virginia, by\nNewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China);\nCui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo\n(Shenzhen, China), filed on December 26, 2017, was published online on June 8,\n2020.\n\nThe assignee for this patent, patent number 10,667,084, is Huawei Technologies\nCo. Ltd. (Shenzhen, People's Republic of China).\n\nReporters obtained the following quote from the background information\nsupplied by the inventors: \"Currently, with unceasing development of mobile\ncommunication technologies, the demand for positioning services is also\nincreased day by day. Application scenarios of the positioning services show a\ndiversified trend, e.g., emergency position, crime location tracking,\nnavigation, traffic control, etc. But, no matter how diversified the\napplication scenarios are, the industry always hopes to acquire a reliable,\nefficient and quick method for satisfying the positioning demand, in other\nwords, positioning technologies which are easy to be implemented and of high\nprecision are always the hot pursuit sought by peoples.\n\n\"Development of the global positioning system (GPS) enables a mobile station\nhaving a GPS module to obtain an accurate positioning, however, disadvantages\nof the GPS are also relatively obvious; firstly, an addition of the GPS module\nwill necessarily increase the cost of the mobile station, secondly, as a\nsatellite positioning technique, the GPS is not suitable for scenarios of a\nhigh-density urban area (shaded by buildings). Although the network\npositioning does not have a high accuracy as the GPS positioning, it is more\nsuitable for the scenarios of the high-density urban area. Hence, an algorithm\ncombining the GPS positioning and the network positioning is a focus of the\ncurrent research.\n\n\"Currently, there are two network positioning schemes: one is an uplink time\ndifference of arrival (UTDOA) positioning method, the other is an observed\ntime difference of arrival (OTDOA) positioning method.\n\n\"According to the UTDOA positioning method, a user equipment (UE) sends an\nuplink positioning signal (e.g., a sounding reference signal (SRS), etc.), and\nan estimation of the arrival time of the uplink signal is performed at an\nevolved node (eNB) side to obtain distance of the eNB and the UE. Thereby,\ndistance between a plurality of eNBs and the UE is obtained; a relative\ncoordinate position of the UE relative to the eNBs is obtained by calculating\naccording to a triangulation algorithm and the like, and then the network can\nobtain an absolute position of the UE according to actual positions of the\neNBs. However, since the UTDOA positioning method adopts an estimation of the\nuplink positioning signal of the UE, it is restricted by the uplink transmit\npower of the UE; since the uplink transmit power of the UE is limited, the\ncover range of the positioning signal emitted by the UE is also limited,\ntherefore, the number of the eNBs which performs the UTDOA positioning for the\nUE is restricted and, thus, the positioning precision of the UTDOA is\nrestricted. Meanwhile, the UTDOA is also a positioning algorithm based on an\nestimation of the signal arrival time, hence, if the positioning signal is\nsheltered or reflected, the signal arrival time will be affected, thereby\naffecting the positioning precision.\n\n\"The principle of the OTDOA positioning method is that, when there are three\nor more base stations existing in a system, position of a UE can be determined\naccording to time difference of arrival of downlink transmission signals from\ndifferent base stations. The downlink transmission signals may be positioning\nreference signals, and may also be synchronization signals. As known from the\ndefinition of a hyperbola, the hyperbola is constituted by points satisfying\nthe condition as following: distance difference from the points to two\nspecified points is a constant value. As shown in FIG. 1, in the system, there\nare a base station 0, a base station 1 and a base station 2, assuming that the\nblack filled portion in FIG. 1 indicates the position of the UE, points which\nsatisfy that distance difference from the UE to the base station 0 and the\nbase station 1 is d.sup.1-d.sub.0 form one hyperbola, and points which satisfy\nthat distance difference from the UE to the base station 1 and the base\nstation 2 is d.sub.2-d.sub.1 form the other hyperbola, then, the crossover\npoint of the two hyperbolas is namely the position of the UE. The more the\nnumber of base stations existing in the system, the more accurately the\ndetermined position of the UE. In the LTE, the OTDOA positioning is used as a\ntechnique where the network assists the positioning of the UE, at the network\nside, after an enhanced serving mobile location centre (e-SMLC) assigns\ntransmit configuration and receive configuration of a positioning reference\nsignal (PRS) for a base station and a mobile station, the base station sends\nthe PRS to the mobile station, after receiving the PRSs from a plurality of\nbase stations, the mobile station recognizes the first arrival path position\nof each of the PRSs and, thus, can obtain time difference of arrival of the\nPRSs among different base stations, and then report the time difference to the\ne-SMLC. The e-SMLC can obtain the distance difference from the mobile station\nto different base stations according to the received time difference of\narrival of the PRSs. By means of the mathematical computation of the foregoing\nhyperbolic model, the e-SMLC can obtain an accurate position of the mobile\nstation. It is thus clear that the precision of the OTDOA positioning is\ndependent on the receiving of the PRS signals and the estimation of the first\narrival path position to a great extent, therefore, in scenes of a dense urban\narea, the path of the PRS is not a straight path due to multiple reflections,\nrefractions and attenuations of a signal caused by obstructions from\nbuildings, if an estimation of the position of the mobile station is still\nperformed according to the time difference of arrival of the PRSs, a great\npositioning error will be brought.\"\n\nIn addition to obtaining background information on this patent, NewsRx editors\nalso obtained the inventors' summary information for this patent: \"Embodiments\nof the present invention provide a network positioning method and related\nequipment, which are used for improving the network positioning precision.\n\n\"In order to solve the technical problem above, embodiments of the present\ninvention provide the following technical solutions:\n\n\"A network positioning method, including:\n\n\"receiving, by a user equipment (UE), positioning signals of at least three\npositioning nodes, where the at least three positioning nodes include at least\none auxiliary UE, where the auxiliary UE is located within an end-to-end\ncommunication range of the UE, and valid position information of the auxiliary\nUE exists currently;\n\n\"measuring the positioning signals of the at least three positioning nodes,\nand acquiring a measurement result which includes time difference of receiving\nthe positioning signals of the at least three positioning nodes by the UE; and\n\n\"calculating, a current position of the UE according to the measurement result\nand the valid position information of the at least three positioning nodes.\n\n\"A network positioning method, including:\n\n\"acquiring, by a positioning device, a measurement result of a user equipment\n(UE), where the measurement result is obtained by the UE by measuring received\npositioning signals of at least three positioning nodes, where the measurement\nresult includes time difference of receiving the positioning signals of the at\nleast three positioning nodes by the UE, where the at least three positioning\nnodes include at least one auxiliary UE, the auxiliary UE is located within an\nend-to-end communication range of the UE, and valid position information of\nthe auxiliary UE exists currently; and\n\n\"calculating, a current position of the UE according to the acquired\nmeasurement result and the valid position information of the at least three\npositioning nodes.\n\n\"A network positioning method, including:\n\n\"acquiring, by a positioning device, measurement results of at least three\npositioning nodes, where the measurement results are obtained by the at least\nthree positioning nodes by respectively measuring a positioning signal sent by\na user equipment (UE), and the measurement results include time of\nrespectively receiving the positioning signal of the UE by the at least three\npositioning nodes, where the at least positioning nodes include at least one\nauxiliary UE, where the auxiliary UE is located within an end-to-end\ncommunication range of the UE, and valid position information of the auxiliary\nUE exists currently; and\n\n\"calculating, a current position of the UE according to the acquired\nmeasurement results and the valid position information of the at least three\npositioning nodes.\n\n\"A user equipment UE, including:\n\n\"a receiving unit, configured to receive positioning signals of at least three\npositioning nodes, where the at least three positioning nodes include at least\none auxiliary UE, where the auxiliary UE is located within an end-to-end\ncommunication range of the UE, and valid position information of the auxiliary\nUE exists currently;\n\n\"a measurement acquiring unit, configured to measure the positioning signals\nof the at least three positioning nodes, and acquire a measurement result\nwhich includes time difference of receiving the positioning signals of the at\nleast three positioning nodes by the UE; and\n\n\"a calculating unit, configured to calculate a current position of the UE\naccording to the measurement result and the valid position information of the\nat least three positioning nodes.\n\n\"A positioning device, including:\n\n\"an acquiring unit, configured to acquire a measurement result of a user\nequipment (UE), where the measurement result is obtained by the UE by\nmeasuring received positioning signals of at least three positioning nodes,\nthe measurement result includes time difference of receiving the positioning\nsignals of the at least three positioning nodes by the UE, the at least three\npositioning nodes include at least one auxiliary UE, the auxiliary UE is\nlocated within an end-to-end communication range of the UE, and valid position\ninformation of the auxiliary UE exists currently; and\n\n\"a calculating unit, configured to calculate a current position of the UE\naccording to the measurement result acquired by the acquiring unit and the\nvalid position information of the at least three positioning nodes.\n\n\"A positioning device, including:\n\n\"an acquiring unit, configured to acquire measurement results of at least\nthree positioning nodes, where the measurement results are obtained by the at\nleast three positioning nodes by respectively measuring a positioning signal\nsent by a user equipment (UE), the measurement results include time of\nrespectively receiving the positioning signal of the UE by the at least three\npositioning nodes, the at least positioning nodes include at least one\nauxiliary UE, the auxiliary UE is located within an end-to-end communication\nrange of the UE, and valid position information of the auxiliary UE exists\ncurrently; and\n\n\"a calculating unit, configured to calculate a current position of the UE\naccording to the measurement results acquired by the acquiring unit and the\nvalid position information of the at least three positioning nodes.\n\n\"As can be seen from the above, in embodiments of the present invention, other\nUEs within an end-to-end communication range of a UE and of which the valid\nposition information exists are taken as auxiliary UEs of the UE for\npositioning, since the distance between UEs within the end-to-end range is\nrelative short, thus a positioning error due to multiple reflections,\nrefractions and attenuations of a signal caused by obstructions from buildings\ncan be avoided, thereby improving the network positioning precision\nefficiently.\"\n\nThe claims supplied by the inventors are:\n\n\"What is claimed is:\n\n\"1\\. A network positioning method comprising: determining, by a first device,\nan end-to-end communication range of the first device is smaller than a\nthreshold value sent by a network side, wherein the end-to-end communication\nrange of the first device is a device-to-device (D2D) communication range of\nthe first device determined by the first device independently and without\nassistance from the network side; acquiring, by the first device, positioning\nsignals of at least three positioning nodes, wherein the at least three\npositioning nodes comprise a second device located within the end-to-end\ncommunication range of the first device, and the second device is determined\nby the first device to have valid position information; and determining, by\nthe first device, a current position of the first device based on the valid\nposition information of the second device.\n\n\"2\\. The method according to claim 1, wherein determining the current position\nof the first device comprises: taking the valid position information of the\nsecond device as the current position of the first device; or obtaining a\ncentroid relative to position coordinates of all devices in a set of devices,\nand taking the obtained centroid as the current position of the first device.\n\n\"3\\. The method according to claim 2, wherein the set of devices comprises at\nleast one device which has valid position information.\n\n\"4\\. The method according to claim 3, wherein the valid position information\nof the second device is based on uplink time difference of arrival (UTDOA)\npositioning or observed time difference of arrival (OTDOA) positioning.\n\n\"5\\. The method according to claim 2, wherein the valid position information\nof the second device is based on uplink time difference of arrival (UTDOA)\npositioning or observed time difference of arrival (OTDOA) positioning.\n\n\"6\\. The method according to claim 1, further comprising: determining whether\nvalid position information exists for other devices within the end-to-end\ncommunication range of the first device; and selecting other devices for which\nvalid position information exists as a set of devices.\n\n\"7\\. The method according to claim 6, wherein the valid position information\nof the second device is based on uplink time difference of arrival (UTDOA)\npositioning or observed time difference of arrival (OTDOA) positioning.\n\n\"8\\. A first device comprising: a non-transitory memory having processor-\nexecutable instructions stored thereon; and a processor configured to execute\nthe processor-executable instructions to facilitate performance of the\nfollowing: determining an end-to-end communication range of the first device\nis smaller than a threshold value sent by a network side, wherein the end-to-\nend communication range of the first device is a device-to-device (D2D)\ncommunication range of the first device determined by the first device\nindependently and without assistance from the network side; acquiring\npositioning signals of at least three positioning nodes, wherein the at least\nthree positioning nodes comprise a second device located within the end-to-end\ncommunication range of the first device, and the second device is determined\nby the first device to have valid position information; and determining a\ncurrent position of the first device based on the valid position information\nof the second device.\n\n\"9\\. The first device according to claim 8, wherein determining the current\nposition of the first device comprises: taking the valid position information\nof the second device as the current position of the first device; or obtaining\na centroid relative to position coordinates of all devices in a set of\ndevices, and taking the obtained centroid as the current position of the first\ndevice.\n\n\"10\\. The first device according to claim 9, wherein the set of devices\ncomprises at least one device which has valid position information.\n\n\"11\\. The first device according to claim 10, wherein the valid position\ninformation of the second device is based on uplink time difference of arrival\n(UTDOA) positioning or observed time difference of arrival (OTDOA)\npositioning.\n\n\"12\\. The first device according to claim 9, wherein the valid position\ninformation of the second device is based on uplink time difference of arrival\n(UTDOA) positioning or observed time difference of arrival (OTDOA)\npositioning.\n\n\"13\\. The first device according to claim 8, wherein the processor is further\nconfigured to execute the processor-executable instructions to facilitate\nperformance of the following: determining whether valid position information\nexists for other devices within the end-to-end communication range of the\nfirst device; and selecting other devices for which valid position information\nexists as a set of devices.\n\n\"14\\. The first device according to claim 13, wherein the valid position\ninformation of the second device is based on uplink time difference of arrival\n(UTDOA) positioning or observed time difference of arrival (OTDOA)\npositioning.\n\n\"15\\. A non-transitory computer readable storage medium having processor-\nexecutable instructions stored thereon, wherein the processor-executable\ninstructions, when executed, facilitate performance of the following:\ndetermining an end-to-end communication range of the first device is smaller\nthan a threshold value sent by a network side, wherein the end-to-end\ncommunication range of the first device is a device-to-device (D2D)\ncommunication range of the first device determined by the first device\nindependently and without assistance from the network side; acquiring\npositioning signals of at least three positioning nodes, wherein the at least\nthree positioning nodes comprise a second device located within the end-to-end\ncommunication range of the first device, and the second device is determined\nby the first device to have valid position information; and determining a\ncurrent position of the first device based on the valid position information\nof the second device.\n\n\"16\\. The non-transitory computer readable storage medium according to claim\n15, wherein determining the current position of the first device comprises:\ntaking the valid position information of the second device as the current\nposition of the first device; or obtaining a centroid relative to position\ncoordinates of all devices in a set of devices, and taking the obtained\ncentroid as the current position of the first device.\n\n\"17\\. The non-transitory computer readable storage medium according to claim\n16, wherein the set of devices comprises at least one device which has valid\nposition information.\n\n\"18\\. The non-transitory computer readable storage medium according to claim\n16, wherein the valid position information of the second device is based on\nuplink time difference of arrival (UTDOA) positioning or observed time\ndifference of arrival (OTDOA) positioning.\n\n\"19\\. The non-transitory computer readable storage medium according to claim\n15, wherein the processor-executable instructions, when executed, further\nfacilitate: determining whether valid position information exists for other\ndevices within the end-to-end communication range of the first device; and\nselecting other devices for which valid position information exists as a set\nof devices.\n\n\"20\\. The non-transitory computer readable storage medium according to claim\n19, wherein the valid position information of the second device is based on\nuplink time difference of arrival (UTDOA) positioning or observed time\ndifference of arrival (OTDOA) positioning.\"\n\nFor more information, see this patent: Xiao, Dengkun; Cui, Jie; He, Yuan; Zhu,\nJiangbo. Network Positioning Method And Related Equipment. U.S. Patent Number\n10,667,084, filed December 26, 2017, and published online on June 8, 2020.\nPatent URL: [http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,667,084.PN.&OS=PN/10,667,084RS=PN/10,667,084](http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,667,084.PN.&OS=PN/10,667,084RS=PN/10,667,084)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Huawei Technologies Co. Ltd."
+        ],
+        "location": [
+            "Alexandria, Virginia",
+            "Shenzhen, China",
+            "Shenzhen",
+            "Republic of China",
+            "U.S."
+        ],
+        "person": [
+            "Jie; He"
+        ],
+        "companies": [
+            "News Reporter-Staff News",
+            "Huawei Technologies Co. Ltd."
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_GEOG_C5ACB143F342916.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 48,
+                "sentiment": {
+                    "score": -0.144163,
+                    "label": "negative"
+                },
+                "text": "UE",
+                "relevance": 0.943023,
+                "type": "Organization"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Shenzhen",
+                "relevance": 0.200346,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "City"
+                    ],
+                    "name": "Shenzhen",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Shenzhen"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Huawei Technologies",
+                "relevance": 0.199357,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Huawei",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Huawei"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Virginia",
+                "relevance": 0.192204,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Virginia"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Xiao",
+                "relevance": 0.191506,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.547366,
+                    "label": "negative"
+                },
+                "text": "refractions",
+                "relevance": 0.191485,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.187022,
+                "type": "JobTitle"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.441913,
+                    "label": "positive"
+                },
+                "text": "Zhu",
+                "relevance": 0.184852,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.340585,
+                    "label": "positive"
+                },
+                "text": "Yuan",
+                "relevance": 0.180961,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Cui",
+                "relevance": 0.179238,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "OTDOA",
+                "relevance": 0.17882,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alexandria",
+                "relevance": 0.178797,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "China Business",
+                "relevance": 0.176025,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.866834,
+                    "label": "positive"
+                },
+                "text": "OTDOA",
+                "relevance": 0.175168,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.344969,
+                    "label": "positive"
+                },
+                "text": "Co. Ltd.",
+                "relevance": 0.174349,
+                "type": "Company"
+            },
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": 0.409691,
+                    "label": "positive"
+                },
+                "text": "China",
+                "relevance": 0.174211,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Republic of China",
+                "relevance": 0.172662,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jiangbo",
+                "relevance": 0.167367,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.167054,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Shenzhen",
+                "relevance": 0.166831,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.309743,
+                    "label": "positive"
+                },
+                "text": "Jie",
+                "relevance": 0.125185,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Shenzhen, China)"
+                },
+                "sentence": " (Shenzhen, China), filed on December 26, 2017, was published online on June 8,",
+                "action": {
+                    "verb": {
+                        "text": "file",
+                        "tense": "past"
+                    },
+                    "text": "filed",
+                    "normalized": "file"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Shenzhen, China), filed on December 26, 2017,"
+                },
+                "sentence": " (Shenzhen, China), filed on December 26, 2017, was published online on June 8,",
+                "object": {
+                    "text": "published online on June 8,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The assignee for this patent, patent number 10,667,084,"
+                },
+                "sentence": " The assignee for this patent, patent number 10,667,084, is Huawei Technologies",
+                "object": {
+                    "text": "Huawei Technologies"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Reporters"
+                },
+                "sentence": " Reporters obtained the following quote from the background information",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "day"
+                },
+                "sentence": " increased day by day.",
+                "action": {
+                    "verb": {
+                        "text": "increase",
+                        "tense": "past"
+                    },
+                    "text": "increased",
+                    "normalized": "increase"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the industry"
+                },
+                "sentence": " application scenarios are, the industry always hopes to acquire a reliable,",
+                "object": {
+                    "text": "to acquire a reliable,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hope",
+                        "tense": "present"
+                    },
+                    "text": "hopes",
+                    "normalized": "hope"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the industry"
+                },
+                "sentence": " application scenarios are, the industry always hopes to acquire a reliable,",
+                "object": {
+                    "text": "a reliable,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "acquire",
+                        "tense": "future"
+                    },
+                    "text": "hopes to acquire",
+                    "normalized": "hope to acquire"
+                }
+            },
+            {
+                "subject": {
+                    "text": "efficient and quick method"
+                },
+                "sentence": " efficient and quick method for satisfying the positioning demand, in other",
+                "object": {
+                    "text": "the positioning demand"
+                },
+                "action": {
+                    "verb": {
+                        "text": "satisfy",
+                        "tense": "present"
+                    },
+                    "text": "satisfying",
+                    "normalized": "satisfy"
+                }
+            },
+            {
+                "subject": {
+                    "text": "precision"
+                },
+                "sentence": " precision are always the hot pursuit sought by peoples.",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by peoples"
+                },
+                "sentence": " precision are always the hot pursuit sought by peoples.",
+                "object": {
+                    "text": "the hot pursuit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "seek",
+                        "tense": "past"
+                    },
+                    "text": "sought",
+                    "normalized": "seek"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Development of the global positioning system (GPS)"
+                },
+                "sentence": " \"Development of the global positioning system (GPS) enables a mobile station",
+                "object": {
+                    "text": "a mobile station"
+                },
+                "action": {
+                    "verb": {
+                        "text": "enable",
+                        "tense": "present"
+                    },
+                    "text": "enables",
+                    "normalized": "enable"
+                }
+            },
+            {
+                "subject": {
+                    "text": "of the GPS"
+                },
+                "sentence": " of the GPS are also relatively obvious; firstly, an addition of the GPS module",
+                "object": {
+                    "text": "relatively obvious"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by buildings"
+                },
+                "sentence": " high-density urban area (shaded by buildings).",
+                "object": {
+                    "text": "high-density urban area"
+                },
+                "action": {
+                    "verb": {
+                        "text": "shade",
+                        "tense": "past"
+                    },
+                    "text": "shaded",
+                    "normalized": "shade"
+                }
+            },
+            {
+                "subject": {
+                    "text": "positioning"
+                },
+                "sentence": " positioning does not have a high accuracy as the GPS positioning, it is more",
+                "object": {
+                    "text": "not have a high accuracy as the GPS positioning"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "does",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "positioning"
+                },
+                "sentence": " positioning does not have a high accuracy as the GPS positioning, it is more",
+                "object": {
+                    "text": "a high accuracy as the GPS positioning"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "combining the GPS positioning and the network positioning"
+                },
+                "sentence": " combining the GPS positioning and the network positioning is a focus of the",
+                "object": {
+                    "text": "a focus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "two network"
+                },
+                "sentence": " \"Currently, there are two network positioning schemes: one is an uplink time",
+                "object": {
+                    "text": "schemes"
+                },
+                "action": {
+                    "verb": {
+                        "text": "position",
+                        "tense": "present"
+                    },
+                    "text": "positioning",
+                    "normalized": "position"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the other"
+                },
+                "sentence": " difference of arrival (UTDOA) positioning method, the other is an observed",
+                "object": {
+                    "text": "an observed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "distance between a plurality of eNBs and the UE"
+                },
+                "sentence": " distance between a plurality of eNBs and the UE is obtained; a relative",
+                "object": {
+                    "text": "obtained"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by calculating"
+                },
+                "sentence": " coordinate position of the UE relative to the eNBs is obtained by calculating",
+                "object": {
+                    "text": "coordinate position of the UE relative to the eNBs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "is obtained",
+                    "normalized": "be obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "obtain an absolute position of the UE"
+                },
+                "sentence": " obtain an absolute position of the UE according to actual positions of the",
+                "object": {
+                    "text": "to actual positions of the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the UTDOA positioning method"
+                },
+                "sentence": " eNBs. However, since the UTDOA positioning method adopts an estimation of the",
+                "object": {
+                    "text": "an estimation of the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "adopt",
+                        "tense": "present"
+                    },
+                    "text": "adopts",
+                    "normalized": "adopt"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the uplink transmit"
+                },
+                "sentence": " uplink positioning signal of the UE, it is restricted by the uplink transmit",
+                "object": {
+                    "text": "it"
+                },
+                "action": {
+                    "verb": {
+                        "text": "restrict",
+                        "tense": "past"
+                    },
+                    "text": "is restricted",
+                    "normalized": "be restrict"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the uplink transmit power of the UE"
+                },
+                "sentence": " power of the UE; since the uplink transmit power of the UE is limited, the",
+                "object": {
+                    "text": "limited"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the UE"
+                },
+                "sentence": " cover range of the positioning signal emitted by the UE is also limited,",
+                "object": {
+                    "text": "the positioning signal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "emit",
+                        "tense": "past"
+                    },
+                    "text": "emitted",
+                    "normalized": "emit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the eNBs"
+                },
+                "sentence": " therefore, the number of the eNBs which performs the UTDOA positioning for the",
+                "object": {
+                    "text": "the UTDOA positioning"
+                },
+                "action": {
+                    "verb": {
+                        "text": "perform",
+                        "tense": "present"
+                    },
+                    "text": "performs",
+                    "normalized": "perform"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a positioning algorithm"
+                },
+                "sentence": " restricted. Meanwhile, the UTDOA is also a positioning algorithm based on an",
+                "object": {
+                    "text": "on an"
+                },
+                "action": {
+                    "verb": {
+                        "text": "base",
+                        "tense": "past"
+                    },
+                    "text": "based",
+                    "normalized": "base"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the signal arrival time"
+                },
+                "sentence": " sheltered or reflected, the signal arrival time will be affected, thereby",
+                "object": {
+                    "text": "affected"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The principle of the OTDOA positioning method"
+                },
+                "sentence": " \"The principle of the OTDOA positioning method is that, when there are three",
+                "object": {
+                    "text": "that,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "base stations"
+                },
+                "sentence": " or more base stations existing in a system, position of a UE can be determined",
+                "action": {
+                    "verb": {
+                        "text": "exist",
+                        "tense": "present"
+                    },
+                    "text": "existing",
+                    "normalized": "exist"
+                }
+            },
+            {
+                "subject": {
+                    "text": "position of a UE"
+                },
+                "sentence": " or more base stations existing in a system, position of a UE can be determined",
+                "object": {
+                    "text": "determined"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "definition of a hyperbola, the hyperbola"
+                },
+                "sentence": " definition of a hyperbola, the hyperbola is constituted by points satisfying",
+                "object": {
+                    "text": "by points satisfying"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is constituted",
+                    "normalized": "be constitute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "specified points"
+                },
+                "sentence": " specified points is a constant value.",
+                "object": {
+                    "text": "a constant value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "black filled portion in FIG. 1"
+                },
+                "sentence": " black filled portion in FIG. 1 indicates the position of the UE, points which",
+                "object": {
+                    "text": "the position of the UE, points which"
+                },
+                "action": {
+                    "verb": {
+                        "text": "indicate",
+                        "tense": "present"
+                    },
+                    "text": "indicates",
+                    "normalized": "indicate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "that distance difference"
+                },
+                "sentence": " satisfy that distance difference from the UE to the base station 0 and the",
+                "object": {
+                    "text": "from the UE to the base station 0 and the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "satisfy",
+                        "tense": "present"
+                    },
+                    "text": "satisfy",
+                    "normalized": "satisfy"
+                }
+            },
+            {
+                "subject": {
+                    "text": "one hyperbola"
+                },
+                "sentence": " base station 1 is d.sup.1-d.sub.0 form one hyperbola, and points which satisfy",
+                "object": {
+                    "text": "d.sup.1-d.sub.0 form"
+                },
+                "action": {
+                    "verb": {
+                        "text": "satisfy",
+                        "tense": "present"
+                    },
+                    "text": "satisfy",
+                    "normalized": "satisfy"
+                }
+            },
+            {
+                "subject": {
+                    "text": "station 2"
+                },
+                "sentence": " station 2 is d.sub.2-d.sub.1 form the other hyperbola, then, the crossover",
+                "object": {
+                    "text": "d.sub.2-d.sub.1 form the other hyperbola"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "point of the two hyperbolas"
+                },
+                "sentence": " point of the two hyperbolas is namely the position of the UE.",
+                "object": {
+                    "text": "namely the position of the UE"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "base stations"
+                },
+                "sentence": " number of base stations existing in the system, the more accurately the",
+                "action": {
+                    "verb": {
+                        "text": "exist",
+                        "tense": "present"
+                    },
+                    "text": "existing",
+                    "normalized": "exist"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the OTDOA positioning"
+                },
+                "sentence": " In the LTE, the OTDOA positioning is used as a",
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "is used",
+                    "normalized": "be use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the network"
+                },
+                "sentence": " technique where the network assists the positioning of the UE, at the network",
+                "object": {
+                    "text": "the positioning of the UE"
+                },
+                "action": {
+                    "verb": {
+                        "text": "assist",
+                        "tense": "present"
+                    },
+                    "text": "assists",
+                    "normalized": "assist"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the PRS to the mobile station"
+                },
+                "sentence": " the PRS to the mobile station, after receiving the PRSs from a plurality of",
+                "object": {
+                    "text": "the PRSs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "present"
+                    },
+                    "text": "receiving",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the mobile station"
+                },
+                "sentence": " base stations, the mobile station recognizes the first arrival path position",
+                "object": {
+                    "text": "the first arrival path position"
+                },
+                "action": {
+                    "verb": {
+                        "text": "recognize",
+                        "tense": "present"
+                    },
+                    "text": "recognizes",
+                    "normalized": "recognize"
+                }
+            },
+            {
+                "subject": {
+                    "text": "PRSs"
+                },
+                "sentence": " PRSs among different base stations, and then report the time difference to the",
+                "object": {
+                    "text": "the time difference"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "present"
+                    },
+                    "text": "report",
+                    "normalized": "report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "e-SMLC. The e-SMLC"
+                },
+                "sentence": " e-SMLC. The e-SMLC can obtain the distance difference from the mobile station",
+                "object": {
+                    "text": "the distance difference from the mobile station"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "future"
+                    },
+                    "text": "can obtain",
+                    "normalized": "can obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "to different base stations"
+                },
+                "sentence": " to different base stations according to the received time difference of",
+                "object": {
+                    "text": "to the received time difference of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the e-SMLC"
+                },
+                "sentence": " hyperbolic model, the e-SMLC can obtain an accurate position of the mobile",
+                "object": {
+                    "text": "an accurate position of the mobile"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "future"
+                    },
+                    "text": "can obtain",
+                    "normalized": "can obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "station. It"
+                },
+                "sentence": " station. It is thus clear that the precision of the OTDOA positioning is",
+                "object": {
+                    "text": "thus clear"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the path of the PRS"
+                },
+                "sentence": " area, the path of the PRS is not a straight path due to multiple reflections,",
+                "object": {
+                    "text": "not a straight path due to multiple reflections,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an estimation of the position of the mobile station"
+                },
+                "sentence": " buildings, if an estimation of the position of the mobile station is still",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.910205,
+                "label": "/technology and computing/hardware/computer components"
+            },
+            {
+                "score": 0.891298,
+                "label": "/technology and computing/networking/network monitoring and management"
+            },
+            {
+                "score": 0.84286,
+                "label": "/technology and computing/hardware/computer networking/wireless technology"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.546396,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "The assignee for this patent, patent number 10,667,084, is Huawei Technologies Co. Ltd. (Shenzhen, People's Republic of China).",
+                "score": 0.535093,
+                "arguments": [
+                    {
+                        "text": "People's Republic of China",
+                        "location": [
+                            489,
+                            515
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "People's Republic of China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Shenzhen",
+                        "location": [
+                            479,
+                            487
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Shenzhen"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "\"Development of the global positioning system (GPS) enables a mobile station having a GPS module to obtain an accurate positioning, however, disadvantages of the GPS are also relatively obvious; firstly, an addition of the GPS module will necessarily increase the cost of the mobile station, secondly, as a satellite positioning technique, the GPS is not suitable for scenarios of a high-density urban area (shaded by buildings).",
+                "score": 0.328424,
+                "arguments": [
+                    {
+                        "text": "GPS",
+                        "location": [
+                            1585,
+                            1588
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "GPS"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "buildings",
+                        "location": [
+                            1659,
+                            1668
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "buildings"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "In addition to obtaining background information on this patent, NewsRx editors also obtained the inventors' summary information for this patent: \"Embodiments of the present invention provide a network positioning method and related equipment, which are used for improving the network positioning precision.",
+                "score": 0.839796,
+                "arguments": [
+                    {
+                        "text": "editors",
+                        "location": [
+                            6323,
+                            6330
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "editors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            6316,
+                            6322
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "A non-transitory computer readable storage medium having processor- executable instructions stored thereon, wherein the processor-executable instructions, when executed, facilitate performance of the following: determining an end-to-end communication range of the first device is smaller than a threshold value sent by a network side, wherein the end-to-end communication range of the first device is a device-to-device (D2D) communication range of the first device determined by the first device independently and without assistance from the network side; acquiring positioning signals of at least three positioning nodes, wherein the at least three positioning nodes comprise a second device located within the end-to-end communication range of the first device, and the second device is determined by the first device to have valid position information;",
+                "score": 0.344224,
+                "arguments": [
+                    {
+                        "text": "thereon",
+                        "location": [
+                            17316,
+                            17323
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "thereon"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "executed",
+                        "location": [
+                            17377,
+                            17385
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "executed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "A non-transitory computer readable storage medium having processor- executable instructions stored thereon, wherein the processor-executable instructions, when executed, facilitate performance of the following: determining an end-to-end communication range of the first device is smaller than a threshold value sent by a network side, wherein the end-to-end communication range of the first device is a device-to-device (D2D) communication range of the first device determined by the first device independently and without assistance from the network side; acquiring positioning signals of at least three positioning nodes, wherein the at least three positioning nodes comprise a second device located within the end-to-end communication range of the first device, and the second device is determined by the first device to have valid position information;",
+                "score": 0.367526,
+                "arguments": [
+                    {
+                        "text": "instructions",
+                        "location": [
+                            17358,
+                            17370
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "instructions"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "executed",
+                        "location": [
+                            17377,
+                            17385
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "executed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "For more information, see this patent: Xiao, Dengkun; Cui, Jie; He, Yuan; Zhu, Jiangbo.",
+                "score": 0.912166,
+                "arguments": [
+                    {
+                        "text": "Xiao",
+                        "location": [
+                            19766,
+                            19770
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Xiao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Dengkun",
+                        "location": [
+                            19772,
+                            19779
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Dengkun"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "U.S. Patent Number 10,667,084, filed December 26, 2017, and published online on June 8, 2020.",
+                "score": 0.983129,
+                "arguments": [
+                    {
+                        "text": "December 26, 2017",
+                        "location": [
+                            19902,
+                            19919
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "December 26, 2017"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            19896,
+                            19901
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.575193,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Business\nDay",
+                        "location": [
+                            70,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Business\nDay"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.916282,
+                "arguments": [
+                    {
+                        "text": "Business\nDay",
+                        "location": [
+                            70,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Business\nDay"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "China",
+                        "location": [
+                            64,
+                            69
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.984005,
+                "arguments": [
+                    {
+                        "text": "Alexandria",
+                        "location": [
+                            131,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alexandria"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Virginia",
+                        "location": [
+                            143,
+                            151
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Virginia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.75572,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            163,
+                            174
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            156,
+                            162
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.887922,
+                "arguments": [
+                    {
+                        "text": "Shenzhen",
+                        "location": [
+                            217,
+                            225
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Shenzhen"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "China",
+                        "location": [
+                            227,
+                            232
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.855197,
+                "arguments": [
+                    {
+                        "text": "Shenzhen",
+                        "location": [
+                            245,
+                            253
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Shenzhen"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "China",
+                        "location": [
+                            255,
+                            260
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.831421,
+                "arguments": [
+                    {
+                        "text": "Shenzhen",
+                        "location": [
+                            273,
+                            281
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Shenzhen"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "China",
+                        "location": [
+                            283,
+                            288
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.932724,
+                "arguments": [
+                    {
+                        "text": "Shenzhen",
+                        "location": [
+                            305,
+                            313
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Shenzhen"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "China",
+                        "location": [
+                            315,
+                            320
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.662622,
+                "arguments": [
+                    {
+                        "text": "Jie",
+                        "location": [
+                            240,
+                            243
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jie"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Shenzhen",
+                        "location": [
+                            245,
+                            253
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Shenzhen"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.667172,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            263,
+                            265
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Cui"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Yuan",
+                        "location": [
+                            267,
+                            271
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Yuan"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "For more information, see this patent: Xiao, Dengkun; Cui, Jie; He, Yuan; Zhu, Jiangbo.",
+                "score": 0.845814,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            19791,
+                            19793
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Cui"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Yuan",
+                        "location": [
+                            19795,
+                            19799
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Yuan"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (Shenzhen, China); Cui, Jie (Shenzhen, China); He, Yuan (Shenzhen, China); Zhu, Jiangbo (Shenzhen, China), filed on December 26, 2017, was published online on June 8, 2020.",
+                "score": 0.594408,
+                "arguments": [
+                    {
+                        "text": "Zhu",
+                        "location": [
+                            291,
+                            294
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Zhu"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jiangbo",
+                        "location": [
+                            296,
+                            303
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jiangbo"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "For more information, see this patent: Xiao, Dengkun; Cui, Jie; He, Yuan; Zhu, Jiangbo.",
+                "score": 0.985093,
+                "arguments": [
+                    {
+                        "text": "Zhu",
+                        "location": [
+                            19801,
+                            19804
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Zhu"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jiangbo",
+                        "location": [
+                            19806,
+                            19813
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jiangbo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "emergency position",
+                "relevance": 0.792849,
+                "count": 1
+            },
+            {
+                "text": "positioning device",
+                "relevance": 0.7314,
+                "count": 4
+            },
+            {
+                "text": "coordinate position of the UE relative",
+                "relevance": 0.654131,
+                "count": 1
+            },
+            {
+                "text": "first arrival path position",
+                "relevance": 0.653114,
+                "count": 1
+            },
+            {
+                "text": "background information",
+                "relevance": 0.6012,
+                "count": 2
+            },
+            {
+                "text": "absolute position of the UE",
+                "relevance": 0.596148,
+                "count": 1
+            },
+            {
+                "text": "base stations",
+                "relevance": 0.593306,
+                "count": 2
+            },
+            {
+                "text": "Application scenarios of the positioning services",
+                "relevance": 0.592969,
+                "count": 1
+            },
+            {
+                "text": "end communication range of the UE",
+                "relevance": 0.592338,
+                "count": 2
+            },
+            {
+                "text": "cover range of the positioning signal",
+                "relevance": 0.58968,
+                "count": 1
+            },
+            {
+                "text": "first device",
+                "relevance": 0.578437,
+                "count": 27
+            },
+            {
+                "text": "obtained centroid",
+                "relevance": 0.571711,
+                "count": 2
+            },
+            {
+                "text": "valid position information",
+                "relevance": 0.566466,
+                "count": 28
+            },
+            {
+                "text": "measurement result",
+                "relevance": 0.565438,
+                "count": 9
+            },
+            {
+                "text": "current research",
+                "relevance": 0.565241,
+                "count": 1
+            },
+            {
+                "text": "actual positions",
+                "relevance": 0.563687,
+                "count": 1
+            },
+            {
+                "text": "estimation of the arrival time of the uplink signal",
+                "relevance": 0.563616,
+                "count": 1
+            },
+            {
+                "text": "mobile station",
+                "relevance": 0.561047,
+                "count": 5
+            },
+            {
+                "text": "end communication range of the first device",
+                "relevance": 0.555002,
+                "count": 5
+            },
+            {
+                "text": "time difference of arrival",
+                "relevance": 0.553963,
+                "count": 8
+            },
+            {
+                "text": "network positioning",
+                "relevance": 0.553721,
+                "count": 1
+            },
+            {
+                "text": "transitory memory",
+                "relevance": 0.547414,
+                "count": 1
+            },
+            {
+                "text": "calculating unit",
+                "relevance": 0.54739,
+                "count": 3
+            },
+            {
+                "text": "evolved node",
+                "relevance": 0.545541,
+                "count": 1
+            },
+            {
+                "text": "second device",
+                "relevance": 0.540108,
+                "count": 17
+            },
+            {
+                "text": "receiving unit",
+                "relevance": 0.538909,
+                "count": 1
+            },
+            {
+                "text": "positioning precision of the UTDOA",
+                "relevance": 0.538738,
+                "count": 1
+            },
+            {
+                "text": "quick method",
+                "relevance": 0.535935,
+                "count": 1
+            },
+            {
+                "text": "executable instructions",
+                "relevance": 0.534266,
+                "count": 2
+            },
+            {
+                "text": "base station",
+                "relevance": 0.534132,
+                "count": 8
+            },
+            {
+                "text": "threshold value",
+                "relevance": 0.531778,
+                "count": 3
+            },
+            {
+                "text": "positioning demand",
+                "relevance": 0.531018,
+                "count": 1
+            },
+            {
+                "text": "determined position of the UE",
+                "relevance": 0.529837,
+                "count": 1
+            },
+            {
+                "text": "transitory computer",
+                "relevance": 0.529379,
+                "count": 6
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.527662,
+                "count": 1
+            },
+            {
+                "text": "patent number",
+                "relevance": 0.527049,
+                "count": 1
+            },
+            {
+                "text": "position of a UE",
+                "relevance": 0.526425,
+                "count": 1
+            },
+            {
+                "text": "different base stations",
+                "relevance": 0.526413,
+                "count": 3
+            },
+            {
+                "text": "end",
+                "relevance": 0.525383,
+                "count": 20
+            },
+            {
+                "text": "constant value",
+                "relevance": 0.525037,
+                "count": 1
+            },
+            {
+                "text": "measurement acquiring unit",
+                "relevance": 0.524945,
+                "count": 1
+            },
+            {
+                "text": "high accuracy",
+                "relevance": 0.523399,
+                "count": 1
+            },
+            {
+                "text": "readable storage medium",
+                "relevance": 0.52232,
+                "count": 6
+            },
+            {
+                "text": "traffic control",
+                "relevance": 0.521322,
+                "count": 1
+            },
+            {
+                "text": "position of the UE",
+                "relevance": 0.519915,
+                "count": 2
+            },
+            {
+                "text": "time difference",
+                "relevance": 0.518453,
+                "count": 4
+            },
+            {
+                "text": "estimation of the signal arrival time",
+                "relevance": 0.51799,
+                "count": 1
+            },
+            {
+                "text": "cost of the mobile station",
+                "relevance": 0.517942,
+                "count": 1
+            },
+            {
+                "text": "Development of the global positioning system",
+                "relevance": 0.517806,
+                "count": 1
+            },
+            {
+                "text": "auxiliary UE",
+                "relevance": 0.517699,
+                "count": 14
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "423de31ba09a71e71358553ba0d3f5de422c06c3",
+        "filename": "202006050000NEWSRX__VRT_GEOG_C5ACB143F342916.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Huawei Technologies Co. Ltd|extractor|DUNS:654292358;NECOID:1341850995;ACORN:3467334626;UDUNS:544957314;UACORN:3127013699|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Patent Issued for Network Positioning Method And Related Equipment (USPTO 10,667,084): Huawei Technologies Co. Ltd.",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at China Business Day -- According to news reporting originating from <location idsrc=\"xmltag.org\" value=\"LU/us.va.alxdra\">Alexandria, Virginia</location>, by NewsRx journalists, a patent by the inventors Xiao, Dengkun (<location idsrc=\"xmltag.org\" value=\"LU/cn..shnzhn\">Shenzhen, China</location>); Cui, Jie (<location idsrc=\"xmltag.org\" value=\"LU/cn..shnzhn\">Shenzhen, China</location>); He, Yuan (<location idsrc=\"xmltag.org\" value=\"LU/cn..shnzhn\">Shenzhen, China</location>); Zhu, Jiangbo (<location idsrc=\"xmltag.org\" value=\"LU/cn..shnzhn\">Shenzhen, China</location>), filed on <chron>December 26, 2017</chron>, was published online on <chron>June 8, 2020</chron>.</p>\n<p>The assignee for this patent, patent number 10,667,084, is <org idsrc=\"xmltag.org\" value=\"ACORN:3467334626\">Huawei Technologies Co. Ltd.</org> (<location idsrc=\"xmltag.org\" value=\"LU/cn..shnzhn\">Shenzhen</location>, People&#8217;s <location idsrc=\"xmltag.org\" value=\"LC/cn\">Republic of China</location>).</p>\n<p>Reporters obtained the following quote from the background information supplied by the inventors: &#8220;Currently, with unceasing development of mobile communication technologies, the demand for positioning services is also increased day by day. Application scenarios of the positioning services show a diversified trend, e.g., emergency position, crime location tracking, navigation, traffic control, etc. But, no matter how diversified the application scenarios are, the industry always hopes to acquire a reliable, efficient and quick method for satisfying the positioning demand, in other words, positioning technologies which are easy to be implemented and of high precision are always the hot pursuit sought by peoples.</p>\n<p>&#8220;Development of the global positioning system (GPS) enables a mobile station having a GPS module to obtain an accurate positioning, however, disadvantages of the GPS are also relatively obvious; firstly, an addition of the GPS module will necessarily increase the cost of the mobile station, secondly, as a satellite positioning technique, the GPS is not suitable for scenarios of a high-density urban area (shaded by buildings). Although the network positioning does not have a high accuracy as the GPS positioning, it is more suitable for the scenarios of the high-density urban area. Hence, an algorithm combining the GPS positioning and the network positioning is a focus of the current research.</p>\n<p>&#8220;Currently, there are two network positioning schemes: one is an uplink time difference of arrival (UTDOA) positioning method, the other is an observed time difference of arrival (OTDOA) positioning method.</p>\n<p>&#8220;According to the UTDOA positioning method, a user equipment (UE) sends an uplink positioning signal (e.g., a sounding reference signal (SRS), etc.), and an estimation of the arrival time of the uplink signal is performed at an evolved node (eNB) side to obtain distance of the eNB and the UE. Thereby, distance between a plurality of eNBs and the UE is obtained; a relative coordinate position of the UE relative to the eNBs is obtained by calculating according to a triangulation algorithm and the like, and then the network can obtain an absolute position of the UE according to actual positions of the eNBs. However, since the UTDOA positioning method adopts an estimation of the uplink positioning signal of the UE, it is restricted by the uplink transmit power of the UE; since the uplink transmit power of the UE is limited, the cover range of the positioning signal emitted by the UE is also limited, therefore, the number of the eNBs which performs the UTDOA positioning for the UE is restricted and, thus, the positioning precision of the UTDOA is restricted. Meanwhile, the UTDOA is also a positioning algorithm based on an estimation of the signal arrival time, hence, if the positioning signal is sheltered or reflected, the signal arrival time will be affected, thereby affecting the positioning precision.</p>\n<p>&#8220;The principle of the OTDOA positioning method is that, when there are three or more base stations existing in a system, position of a UE can be determined according to time difference of arrival of downlink transmission signals from different base stations. The downlink transmission signals may be positioning reference signals, and may also be synchronization signals. As known from the definition of a hyperbola, the hyperbola is constituted by points satisfying the condition as following: distance difference from the points to two specified points is a constant value. As shown in FIG. 1, in the system, there are a base station 0, a base station 1 and a base station 2, assuming that the black filled portion in FIG. 1 indicates the position of the UE, points which satisfy that distance difference from the UE to the base station 0 and the base station 1 is d.sup.1-d.sub.0 form one hyperbola, and points which satisfy that distance difference from the UE to the base station 1 and the base station 2 is d.sub.2-d.sub.1 form the other hyperbola, then, the crossover point of the two hyperbolas is namely the position of the UE. The more the number of base stations existing in the system, the more accurately the determined position of the UE. In the LTE, the OTDOA positioning is used as a technique where the network assists the positioning of the UE, at the network side, after an enhanced serving mobile location centre (e-SMLC) assigns transmit configuration and receive configuration of a positioning reference signal (PRS) for a base station and a mobile station, the base station sends the PRS to the mobile station, after receiving the PRSs from a plurality of base stations, the mobile station recognizes the first arrival path position of each of the PRSs and, thus, can obtain time difference of arrival of the PRSs among different base stations, and then report the time difference to the e-SMLC. The e-SMLC can obtain the distance difference from the mobile station to different base stations according to the received time difference of arrival of the PRSs. By means of the mathematical computation of the foregoing hyperbolic model, the e-SMLC can obtain an accurate position of the mobile station. It is thus clear that the precision of the OTDOA positioning is dependent on the receiving of the PRS signals and the estimation of the first arrival path position to a great extent, therefore, in scenes of a dense urban area, the path of the PRS is not a straight path due to multiple reflections, refractions and attenuations of a signal caused by obstructions from buildings, if an estimation of the position of the mobile station is still performed according to the time difference of arrival of the PRSs, a great positioning error will be brought.&#8221;</p>\n<p>In addition to obtaining background information on this patent, NewsRx editors also obtained the inventors&#8217; summary information for this patent: &#8220;Embodiments of the present invention provide a network positioning method and related equipment, which are used for improving the network positioning precision.</p>\n<p>&#8220;In order to solve the technical problem above, embodiments of the present invention provide the following technical solutions:</p>\n<p>&#8220;A network positioning method, including:</p>\n<p>&#8220;receiving, by a user equipment (UE), positioning signals of at least three positioning nodes, where the at least three positioning nodes include at least one auxiliary UE, where the auxiliary UE is located within an end-to-end communication range of the UE, and valid position information of the auxiliary UE exists currently;</p>\n<p>&#8220;measuring the positioning signals of the at least three positioning nodes, and acquiring a measurement result which includes time difference of receiving the positioning signals of the at least three positioning nodes by the UE; and</p>\n<p>&#8220;calculating, a current position of the UE according to the measurement result and the valid position information of the at least three positioning nodes.</p>\n<p>&#8220;A network positioning method, including:</p>\n<p>&#8220;acquiring, by a positioning device, a measurement result of a user equipment (UE), where the measurement result is obtained by the UE by measuring received positioning signals of at least three positioning nodes, where the measurement result includes time difference of receiving the positioning signals of the at least three positioning nodes by the UE, where the at least three positioning nodes include at least one auxiliary UE, the auxiliary UE is located within an end-to-end communication range of the UE, and valid position information of the auxiliary UE exists currently; and</p>\n<p>&#8220;calculating, a current position of the UE according to the acquired measurement result and the valid position information of the at least three positioning nodes.</p>\n<p>&#8220;A network positioning method, including:</p>\n<p>&#8220;acquiring, by a positioning device, measurement results of at least three positioning nodes, where the measurement results are obtained by the at least three positioning nodes by respectively measuring a positioning signal sent by a user equipment (UE), and the measurement results include time of respectively receiving the positioning signal of the UE by the at least three positioning nodes, where the at least positioning nodes include at least one auxiliary UE, where the auxiliary UE is located within an end-to-end communication range of the UE, and valid position information of the auxiliary UE exists currently; and</p>\n<p>&#8220;calculating, a current position of the UE according to the acquired measurement results and the valid position information of the at least three positioning nodes.</p>\n<p>&#8220;A user equipment UE, including:</p>\n<p>&#8220;a receiving unit, configured to receive positioning signals of at least three positioning nodes, where the at least three positioning nodes include at least one auxiliary UE, where the auxiliary UE is located within an end-to-end communication range of the UE, and valid position information of the auxiliary UE exists currently;</p>\n<p>&#8220;a measurement acquiring unit, configured to measure the positioning signals of the at least three positioning nodes, and acquire a measurement result which includes time difference of receiving the positioning signals of the at least three positioning nodes by the UE; and</p>\n<p>&#8220;a calculating unit, configured to calculate a current position of the UE according to the measurement result and the valid position information of the at least three positioning nodes.</p>\n<p>&#8220;A positioning device, including:</p>\n<p>&#8220;an acquiring unit, configured to acquire a measurement result of a user equipment (UE), where the measurement result is obtained by the UE by measuring received positioning signals of at least three positioning nodes, the measurement result includes time difference of receiving the positioning signals of the at least three positioning nodes by the UE, the at least three positioning nodes include at least one auxiliary UE, the auxiliary UE is located within an end-to-end communication range of the UE, and valid position information of the auxiliary UE exists currently; and</p>\n<p>&#8220;a calculating unit, configured to calculate a current position of the UE according to the measurement result acquired by the acquiring unit and the valid position information of the at least three positioning nodes.</p>\n<p>&#8220;A positioning device, including:</p>\n<p>&#8220;an acquiring unit, configured to acquire measurement results of at least three positioning nodes, where the measurement results are obtained by the at least three positioning nodes by respectively measuring a positioning signal sent by a user equipment (UE), the measurement results include time of respectively receiving the positioning signal of the UE by the at least three positioning nodes, the at least positioning nodes include at least one auxiliary UE, the auxiliary UE is located within an end-to-end communication range of the UE, and valid position information of the auxiliary UE exists currently; and</p>\n<p>&#8220;a calculating unit, configured to calculate a current position of the UE according to the measurement results acquired by the acquiring unit and the valid position information of the at least three positioning nodes.</p>\n<p>&#8220;As can be seen from the above, in embodiments of the present invention, other UEs within an end-to-end communication range of a UE and of which the valid position information exists are taken as auxiliary UEs of the UE for positioning, since the distance between UEs within the end-to-end range is relative short, thus a positioning error due to multiple reflections, refractions and attenuations of a signal caused by obstructions from buildings can be avoided, thereby improving the network positioning precision efficiently.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;What is claimed is:</p>\n<p>&#8220;1. A network positioning method comprising: determining, by a first device, an end-to-end communication range of the first device is smaller than a threshold value sent by a network side, wherein the end-to-end communication range of the first device is a device-to-device (D2D) communication range of the first device determined by the first device independently and without assistance from the network side; acquiring, by the first device, positioning signals of at least three positioning nodes, wherein the at least three positioning nodes comprise a second device located within the end-to-end communication range of the first device, and the second device is determined by the first device to have valid position information; and determining, by the first device, a current position of the first device based on the valid position information of the second device.</p>\n<p>&#8220;2. The method according to claim 1, wherein determining the current position of the first device comprises: taking the valid position information of the second device as the current position of the first device; or obtaining a centroid relative to position coordinates of all devices in a set of devices, and taking the obtained centroid as the current position of the first device.</p>\n<p>&#8220;3. The method according to claim 2, wherein the set of devices comprises at least one device which has valid position information.</p>\n<p>&#8220;4. The method according to claim 3, wherein the valid position information of the second device is based on uplink time difference of arrival (UTDOA) positioning or observed time difference of arrival (OTDOA) positioning.</p>\n<p>&#8220;5. The method according to claim 2, wherein the valid position information of the second device is based on uplink time difference of arrival (UTDOA) positioning or observed time difference of arrival (OTDOA) positioning.</p>\n<p>&#8220;6. The method according to claim 1, further comprising: determining whether valid position information exists for other devices within the end-to-end communication range of the first device; and selecting other devices for which valid position information exists as a set of devices.</p>\n<p>&#8220;7. The method according to claim 6, wherein the valid position information of the second device is based on uplink time difference of arrival (UTDOA) positioning or observed time difference of arrival (OTDOA) positioning.</p>\n<p>&#8220;8. A first device comprising: a non-transitory memory having processor-executable instructions stored thereon; and a processor configured to execute the processor-executable instructions to facilitate performance of the following: determining an end-to-end communication range of the first device is smaller than a threshold value sent by a network side, wherein the end-to-end communication range of the first device is a device-to-device (D2D) communication range of the first device determined by the first device independently and without assistance from the network side; acquiring positioning signals of at least three positioning nodes, wherein the at least three positioning nodes comprise a second device located within the end-to-end communication range of the first device, and the second device is determined by the first device to have valid position information; and determining a current position of the first device based on the valid position information of the second device.</p>\n<p>&#8220;9. The first device according to claim 8, wherein determining the current position of the first device comprises: taking the valid position information of the second device as the current position of the first device; or obtaining a centroid relative to position coordinates of all devices in a set of devices, and taking the obtained centroid as the current position of the first device.</p>\n<p>&#8220;10. The first device according to claim 9, wherein the set of devices comprises at least one device which has valid position information.</p>\n<p>&#8220;11. The first device according to claim 10, wherein the valid position information of the second device is based on uplink time difference of arrival (UTDOA) positioning or observed time difference of arrival (OTDOA) positioning.</p>\n<p>&#8220;12. The first device according to claim 9, wherein the valid position information of the second device is based on uplink time difference of arrival (UTDOA) positioning or observed time difference of arrival (OTDOA) positioning.</p>\n<p>&#8220;13. The first device according to claim 8, wherein the processor is further configured to execute the processor-executable instructions to facilitate performance of the following: determining whether valid position information exists for other devices within the end-to-end communication range of the first device; and selecting other devices for which valid position information exists as a set of devices.</p>\n<p>&#8220;14. The first device according to claim 13, wherein the valid position information of the second device is based on uplink time difference of arrival (UTDOA) positioning or observed time difference of arrival (OTDOA) positioning.</p>\n<p>&#8220;15. A non-transitory computer readable storage medium having processor-executable instructions stored thereon, wherein the processor-executable instructions, when executed, facilitate performance of the following: determining an end-to-end communication range of the first device is smaller than a threshold value sent by a network side, wherein the end-to-end communication range of the first device is a device-to-device (D2D) communication range of the first device determined by the first device independently and without assistance from the network side; acquiring positioning signals of at least three positioning nodes, wherein the at least three positioning nodes comprise a second device located within the end-to-end communication range of the first device, and the second device is determined by the first device to have valid position information; and determining a current position of the first device based on the valid position information of the second device.</p>\n<p>&#8220;16. The non-transitory computer readable storage medium according to claim 15, wherein determining the current position of the first device comprises: taking the valid position information of the second device as the current position of the first device; or obtaining a centroid relative to position coordinates of all devices in a set of devices, and taking the obtained centroid as the current position of the first device.</p>\n<p>&#8220;17. The non-transitory computer readable storage medium according to claim 16, wherein the set of devices comprises at least one device which has valid position information.</p>\n<p>&#8220;18. The non-transitory computer readable storage medium according to claim 16, wherein the valid position information of the second device is based on uplink time difference of arrival (UTDOA) positioning or observed time difference of arrival (OTDOA) positioning.</p>\n<p>&#8220;19. The non-transitory computer readable storage medium according to claim 15, wherein the processor-executable instructions, when executed, further facilitate: determining whether valid position information exists for other devices within the end-to-end communication range of the first device; and selecting other devices for which valid position information exists as a set of devices.</p>\n<p>&#8220;20. The non-transitory computer readable storage medium according to claim 19, wherein the valid position information of the second device is based on uplink time difference of arrival (UTDOA) positioning or observed time difference of arrival (OTDOA) positioning.&#8221;</p>\n<p>For more information, see this patent: Xiao, Dengkun; Cui, <person>Jie; He</person>, Yuan; Zhu, Jiangbo. Network Positioning Method And Related Equipment. <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> Patent Number 10,667,084, filed <chron>December 26, 2017</chron>, and published online on <chron>June 8, 2020</chron>. Patent URL: <a href=\"http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,667,084.PN.&amp;OS=PN/10,667,084RS=PN/10,667,084\" target=\"_blank\">http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,667,084.PN.&amp;OS=PN/10,667,084RS=PN/10,667,084</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GC/cn",
+            "China"
+        ]
+    ]
+}

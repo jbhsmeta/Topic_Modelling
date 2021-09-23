@@ -1,0 +1,215 @@
+{
+    "id": "501b38ec-8fa5-45b4-9f37-aa81113f66e2",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "United Kingdom",
+    "sourceType": "Business & Financial Newswire",
+    "source": "Business Financial UK Newswire",
+    "corpus_document_id": "41662994179316004293",
+    "description": "Liberum Capital today reaffirms its hold investment rating on MITIE Group PLC and cut its price target to 75 p.",
+    "serviceName": "Newswire",
+    "locationCode": [],
+    "sourceClass": "Business and Commerce, Finance",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Finance",
+            "code": "IS/fin#8#50#80",
+            "level": 0
+        },
+        {
+            "parent": "IS/impact.ratings",
+            "relevance_score": "8",
+            "description": "Analyst Comments",
+            "code": "IS/fin.analyst#8#50#80",
+            "level": 2
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "8",
+            "description": "Investments",
+            "code": "IS/fin.invest#8#50#80",
+            "level": 1
+        },
+        {
+            "parent": "IS/fin.invest",
+            "relevance_score": "8",
+            "description": "Securities Analysis",
+            "code": "IS/fin.secanal#8#50#80",
+            "level": 2
+        }
+    ],
+    "text": "Liberum Capital today reaffirms its hold investment rating on MITIE Group PLC\n(LON:MTO) and cut its price target to 75p (from 80p).\n\nStory provided by [StockMarketWire.com](http://StockMarketWire.com)\n\nBroker Forecasts data provided by\n[www.sharesmagazine.co.uk](http://www.sharesmagazine.co.uk)",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Services",
+            "code": "II/service#7#75#50",
+            "level": 0
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Liberum Capital",
+            "MITIE Group PLC"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "MITIE Group PLC",
+            "Liberum Capital"
+        ]
+    },
+    "geoOrigin_code": "RC/gb",
+    "language": "English",
+    "filename": "202006050330BIZFINNWNEWS__DL_6949478.XML",
+    "providerName": "Stock Market Wire",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Liberum Capital",
+                "relevance": 0.933233,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "MITIE Group PLC",
+                "relevance": 0.736583,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "MITIE Group",
+                    "dbpedia_resource": "http://dbpedia.org/resource/MITIE_Group"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Liberum Capital"
+                },
+                "sentence": "Liberum Capital today reaffirms its hold investment rating on MITIE Group PLC",
+                "object": {
+                    "text": "its hold investment rating on MITIE Group PLC"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reaffirm",
+                        "tense": "present"
+                    },
+                    "text": "reaffirms",
+                    "normalized": "reaffirm"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by [StockMarketWire.com](http://StockMarketWire.com)"
+                },
+                "sentence": " Story provided by [StockMarketWire.com](http://StockMarketWire.com)",
+                "object": {
+                    "text": "Story"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "past"
+                    },
+                    "text": "provided",
+                    "normalized": "provide"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.926463,
+                "label": "/finance/investing"
+            },
+            {
+                "score": 0.926463,
+                "label": "/finance/investing/beginning investing"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "Liberum Capital today",
+                "relevance": 0.981955,
+                "count": 1
+            },
+            {
+                "text": "Broker Forecasts data",
+                "relevance": 0.728994,
+                "count": 1
+            },
+            {
+                "text": "hold investment rating",
+                "relevance": 0.71199,
+                "count": 1
+            },
+            {
+                "text": "LON",
+                "relevance": 0.642873,
+                "count": 1
+            },
+            {
+                "text": "MTO",
+                "relevance": 0.58072,
+                "count": 1
+            },
+            {
+                "text": "Story",
+                "relevance": 0.537533,
+                "count": 1
+            },
+            {
+                "text": "MITIE Group PLC",
+                "relevance": 0.487115,
+                "count": 1
+            },
+            {
+                "text": "price target",
+                "relevance": 0.455174,
+                "count": 1
+            },
+            {
+                "text": "75p",
+                "relevance": 0.223111,
+                "count": 1
+            },
+            {
+                "text": "80p",
+                "relevance": 0.211313,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "3c58ae4e32039d6681d297296522c5c61e806c35",
+        "filename": "202006050330BIZFINNWNEWS__DL_6949478.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Liberum Capital Limited|extractor|DUNS:779429625;NECOID:1154764332;ACORN:1143764332;UDUNS:865418172;UACORN:2607590027|MENTION||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T03:30:00-04:00",
+    "title": "Broker Forecast - Liberum Capital issues a broker note on MITIE Group PLC",
+    "html": "<p><org idsrc=\"xmltag.org\" value=\"ACORN:1143764332\">Liberum Capital</org> today reaffirms its hold investment rating on <org idsrc=\"xmltag.org\" value=\"LSE:MTO\">MITIE Group PLC</org> (LON:MTO) and cut its price target to 75p (from 80p).</p>\n\n<p>Story provided by <a href=\"http://StockMarketWire.com\">StockMarketWire.com</a></p>\n\n<p>Broker Forecasts data provided by <a href=\"http://www.sharesmagazine.co.uk\">www.sharesmagazine.co.uk</a></p>",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ]
+    ]
+}

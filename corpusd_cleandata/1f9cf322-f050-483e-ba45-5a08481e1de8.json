@@ -1,0 +1,374 @@
+{
+    "id": "1f9cf322-f050-483e-ba45-5a08481e1de8",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c) 2020 US Fed News (HT Digital Content Services)",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "U.S. Fed News",
+    "corpus_document_id": "42930181014590523863",
+    "description": "United States Tax Court issued the following order on Jun. 03:. On June 1, 2020, the respondent filed two status reports, one of which was incorrectly titled joint status report. Dated: Washington, D.C. June 3, 2020 For any query with respect to this article or any other content requirement, please contact Editor at contentservices@htlive.com.",
+    "serviceName": "US Fed News",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "National Government",
+    "subjectCode": [],
+    "text": "WASHINGTON, June 4 \\-- United States Tax Court issued the following order on\nJun. 03:\n\nOn June 1, 2020, the respondent filed two status reports, one of which was\nincorrectly titled joint status report. Upon due consideration, it is\n\nORDERED that the joint status report at index no. 0010 is hereby stricken from\nthe Court's record. It is further\n\nORDERED that the parties shall, on or before July 2, 2020, submit a stipulated\ndecision document.\n\n(Signed) Kathleen Kerrigan Judge\n\nDated: Washington, D.C. June 3, 2020 For any query with respect to this\narticle or any other content requirement, please contact Editor at\n[contentservices@htlive.com](mailto:contentservices@htlive.com)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "WASHINGTON",
+            "Washington, D.C."
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006042359HIND____USFEDNW__PR-3412602_810.2.XML",
+    "providerName": "HT Media",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "United States Tax Court",
+                "relevance": 0.907379,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location"
+                    ],
+                    "name": "United States Tax Court",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States_Tax_Court"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "WASHINGTON",
+                "relevance": 0.633159,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "MilitaryPost",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Washington, D.C.",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Washington,_D.C."
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.50112,
+                    "label": "negative"
+                },
+                "text": "Kathleen Kerrigan",
+                "relevance": 0.540984,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Editor",
+                "relevance": 0.373332,
+                "type": "JobTitle"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "contentservices@htlive.com",
+                "relevance": 0.373332,
+                "type": "EmailAddress"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "United States Tax Court"
+                },
+                "sentence": "WASHINGTON, June 4 \\-- United States Tax Court issued the following order on",
+                "action": {
+                    "verb": {
+                        "text": "issue",
+                        "tense": "past"
+                    },
+                    "text": "issued",
+                    "normalized": "issue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the respondent"
+                },
+                "sentence": " On June 1, 2020, the respondent filed two status reports, one of which was",
+                "object": {
+                    "text": "two status reports"
+                },
+                "action": {
+                    "verb": {
+                        "text": "file",
+                        "tense": "past"
+                    },
+                    "text": "filed",
+                    "normalized": "file"
+                }
+            },
+            {
+                "subject": {
+                    "text": "0010"
+                },
+                "sentence": " 0010 is hereby stricken from",
+                "object": {
+                    "text": "hereby stricken from"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It is further",
+                "object": {
+                    "text": "further"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the parties"
+                },
+                "sentence": " ORDERED that the parties shall, on or before July 2, 2020, submit a stipulated",
+                "object": {
+                    "text": "a stipulated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "submit",
+                        "tense": "present"
+                    },
+                    "text": "submit",
+                    "normalized": "submit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "contact Editor"
+                },
+                "sentence": " article or any other content requirement, please contact Editor at",
+                "object": {
+                    "text": "article or any other content requirement"
+                },
+                "action": {
+                    "verb": {
+                        "text": "please",
+                        "tense": "present"
+                    },
+                    "text": "please",
+                    "normalized": "please"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.752028,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.710162,
+                "label": "/law, govt and politics/government"
+            },
+            {
+                "score": 0.597955,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "United States Tax Court",
+                "relevance": 0.828286,
+                "count": 1
+            },
+            {
+                "text": "following order",
+                "relevance": 0.817986,
+                "count": 1
+            },
+            {
+                "text": "D.C. June",
+                "relevance": 0.660101,
+                "count": 1
+            },
+            {
+                "text": "WASHINGTON",
+                "relevance": 0.632501,
+                "count": 2
+            },
+            {
+                "text": "June",
+                "relevance": 0.610232,
+                "count": 2
+            },
+            {
+                "text": "article",
+                "relevance": 0.56165,
+                "count": 1
+            },
+            {
+                "text": "Kathleen Kerrigan Judge",
+                "relevance": 0.540513,
+                "count": 1
+            },
+            {
+                "text": "content requirement",
+                "relevance": 0.536901,
+                "count": 1
+            },
+            {
+                "text": "parties",
+                "relevance": 0.528826,
+                "count": 1
+            },
+            {
+                "text": "Court's record",
+                "relevance": 0.526669,
+                "count": 1
+            },
+            {
+                "text": "respondent",
+                "relevance": 0.523866,
+                "count": 1
+            },
+            {
+                "text": "due consideration",
+                "relevance": 0.518161,
+                "count": 1
+            },
+            {
+                "text": "query",
+                "relevance": 0.515775,
+                "count": 1
+            },
+            {
+                "text": "joint status report",
+                "relevance": 0.513787,
+                "count": 2
+            },
+            {
+                "text": "Editor",
+                "relevance": 0.513011,
+                "count": 1
+            },
+            {
+                "text": "respect",
+                "relevance": 0.513011,
+                "count": 1
+            },
+            {
+                "text": "index",
+                "relevance": 0.513011,
+                "count": 1
+            },
+            {
+                "text": "status reports",
+                "relevance": 0.507933,
+                "count": 1
+            },
+            {
+                "text": "July",
+                "relevance": 0.402827,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.395884,
+                "count": 1
+            },
+            {
+                "text": "Jun.",
+                "relevance": 0.395884,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "d6dcb5a66694941bf146529ef585f4fe38f599bd",
+        "filename": "202006042359HIND____USFEDNW__PR-3412602_810.2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-04T23:59:00-04:00",
+    "title": "UNITED STATES TAX COURT ISSUES ORDER REGARDING NICKOLAS JIM SIMONE VS COMMISSIONER OF INTERNAL REVENUE CASE [U.S. Fed News]",
+    "html": "<block>\n<p><location idsrc=\"xmltag.org\" value=\"LU/us.dc.wash\">WASHINGTON</location>, <chron>June 4</chron> -- United States Tax Court issued the following order on <chron>Jun. 03</chron>:</p>\n<p>On <chron>June 1, 2020</chron>, the respondent filed two status reports, one of which was incorrectly titled joint status report. Upon due consideration, it is</p>\n<p>ORDERED that the joint status report at index no. 0010 is hereby stricken from the Court's record. It is further</p>\n<p>ORDERED that the parties shall, on or before <chron>July 2, 2020</chron>, submit a stipulated decision document.</p>\n<p>(Signed) <person>Kathleen Kerrigan\nJudge</person></p>\n<p>Dated: <location idsrc=\"xmltag.org\" value=\"LU/us.dc.wash\">Washington, D.C.</location>\n<chron>June 3, 2020</chron> For any query with respect to this article or any other content requirement, please contact Editor at <a href=\"mailto:contentservices@htlive.com\">contentservices@htlive.com</a></p>\n</block>",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ],
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

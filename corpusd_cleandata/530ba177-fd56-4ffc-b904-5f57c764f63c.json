@@ -1,0 +1,858 @@
+{
+    "id": "530ba177-fd56-4ffc-b904-5f57c764f63c",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c) 2020 ARKA",
+    "geoOrigin": "Armenia",
+    "sourceType": "General Newswire",
+    "source": "ARKA News",
+    "corpus_document_id": "41981063918650547843",
+    "description": "The head of the Armenian Police Arman Sargsyan presented today the results of the so-called' credit system, that was enforced on January 1, 2020. Under the system, each motorist is given 9 points at the beginning of the year and unruly motorists risk not only fines but also points deductions that could result in the suspension of their driving licenses and even...",
+    "serviceName": "ARKA News",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Western Asia",
+            "code": "LB/was#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/was",
+            "relevance_score": "9",
+            "description": "Armenia",
+            "code": "LC/am#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce, Politics and Government",
+    "subjectCode": [],
+    "text": "TRANSPORT\n\nYEREVAN, June 5. /ARKA/. The head of the Armenian Police Arman Sargsyan\npresented today the results of the so-called 'credit system, that was enforced\non January 1, 2020. Under the system, each motorist is given 9 points at the\nbeginning of the year and unruly motorists risk not only fines but also points\ndeductions that could result in the suspension of their driving licenses and\neven prosecution.\n\nAccording to Sargsyan, over the first five months of 2020, 129,195 points\ndeduction notices were issued to about 900 motorists.\n\nHe said though the deduction of points applies only to traffic rule breaches\nrecorded by technical means, the positive results of the reform are already\nbeing felt.\n\n\"Over the course of five months, 1,405 traffic accidents were registered, in\nwhich 102 people died and 2,100 were injured. In comparison with the same\nperiod in 2019, the number of accidents decreased by 261, the number of deaths\nby 20 and the number of injuries by 317,\" Sargsyan said.\n\nHe said the situation has improved the most in Yerevan, which has most of the\nspeed and surveillance cameras. -0-",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#7#50#78",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "7",
+            "description": "Government Services",
+            "code": "II/gov.govserve#7#50#78",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "7",
+            "description": "Police Services",
+            "code": "II/gov.police#7#78#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "7",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#7#50#78",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "YEREVAN",
+            "Yerevan"
+        ],
+        "person": [
+            "Arman Sargsyan"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RC/am",
+    "language": "English",
+    "filename": "202006050001ARKA____NEWS_____202006051220_050613ER_170.1.XML",
+    "providerName": "ARKA News Agency",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Arman Sargsyan",
+                "relevance": 0.859118,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "YEREVAN",
+                "relevance": 0.389164,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Yerevan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Yerevan"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "five months",
+                "relevance": 0.389164,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "the results of the so-called 'credit system"
+                },
+                "sentence": " presented today the results of the so-called 'credit system, that was enforced",
+                "action": {
+                    "verb": {
+                        "text": "present",
+                        "tense": "past"
+                    },
+                    "text": "presented",
+                    "normalized": "present"
+                }
+            },
+            {
+                "subject": {
+                    "text": "each motorist"
+                },
+                "sentence": " Under the system, each motorist is given 9 points at the",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is given",
+                    "normalized": "be give"
+                }
+            },
+            {
+                "subject": {
+                    "text": "each motorist"
+                },
+                "sentence": " Under the system, each motorist is given 9 points at the",
+                "object": {
+                    "text": "9 points"
+                },
+                "action": {
+                    "verb": {
+                        "text": "give",
+                        "tense": "past"
+                    },
+                    "text": "is given",
+                    "normalized": "be give"
+                }
+            },
+            {
+                "subject": {
+                    "text": "deductions"
+                },
+                "sentence": " deductions that could result in the suspension of their driving licenses and",
+                "object": {
+                    "text": "in the suspension of their driving licenses"
+                },
+                "action": {
+                    "verb": {
+                        "text": "result",
+                        "tense": "future"
+                    },
+                    "text": "could result",
+                    "normalized": "could result"
+                }
+            },
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He said though the deduction of points applies only to traffic rule breaches",
+                "object": {
+                    "text": "though the deduction of points applies only to traffic rule breaches"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the deduction of points"
+                },
+                "sentence": " He said though the deduction of points applies only to traffic rule breaches",
+                "object": {
+                    "text": "to traffic rule breaches"
+                },
+                "action": {
+                    "verb": {
+                        "text": "apply",
+                        "tense": "present"
+                    },
+                    "text": "applies",
+                    "normalized": "apply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the positive results of the reform"
+                },
+                "sentence": " recorded by technical means, the positive results of the reform are already",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "1,405 traffic accidents"
+                },
+                "sentence": " \"Over the course of five months, 1,405 traffic accidents were registered, in",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were registered",
+                    "normalized": "be register"
+                }
+            },
+            {
+                "subject": {
+                    "text": "2,100"
+                },
+                "sentence": " which 102 people died and 2,100 were injured.",
+                "object": {
+                    "text": "injured"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Sargsyan"
+                },
+                "sentence": " by 20 and the number of injuries by 317,\" Sargsyan said.",
+                "object": {
+                    "text": "by 20 and the number of injuries by 317"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He said the situation has improved the most in Yerevan, which has most of the",
+                "object": {
+                    "text": "the situation has improved the most in Yerevan, which has most of the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the most in Yerevan"
+                },
+                "sentence": " He said the situation has improved the most in Yerevan, which has most of the",
+                "object": {
+                    "text": "most of the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.705641,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.600014,
+                "label": "/automotive and vehicles/vehicle brands"
+            },
+            {
+                "score": 0.595911,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "The head of the Armenian Police Arman Sargsyan presented today the results of the so-called 'credit system, that was enforced on January 1, 2020.",
+                "score": 0.578515,
+                "arguments": [
+                    {
+                        "text": "head",
+                        "location": [
+                            40,
+                            44
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Arman Sargsyan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "presented",
+                        "location": [
+                            83,
+                            92
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "presented"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The head of the Armenian Police Arman Sargsyan presented today the results of the so-called 'credit system, that was enforced on January 1, 2020.",
+                "score": 0.686636,
+                "arguments": [
+                    {
+                        "text": "Arman Sargsyan",
+                        "location": [
+                            68,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Arman Sargsyan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "presented",
+                        "location": [
+                            83,
+                            92
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "presented"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The head of the Armenian Police Arman Sargsyan presented today the results of the so-called 'credit system, that was enforced on January 1, 2020.",
+                "score": 0.975094,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            61,
+                            67
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Armenian",
+                        "location": [
+                            52,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Armenian"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The head of the Armenian Police Arman Sargsyan presented today the results of the so-called 'credit system, that was enforced on January 1, 2020.",
+                "score": 0.760599,
+                "arguments": [
+                    {
+                        "text": "Arman Sargsyan",
+                        "location": [
+                            68,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Arman Sargsyan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Police",
+                        "location": [
+                            61,
+                            67
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The head of the Armenian Police Arman Sargsyan presented today the results of the so-called 'credit system, that was enforced on January 1, 2020.",
+                "score": 0.978301,
+                "arguments": [
+                    {
+                        "text": "today",
+                        "location": [
+                            93,
+                            98
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "today"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "presented",
+                        "location": [
+                            83,
+                            92
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "presented"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "He said though the deduction of points applies only to traffic rule breaches recorded by technical means, the positive results of the reform are already being felt.",
+                "score": 0.970071,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            543,
+                            545
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Arman Sargsyan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            546,
+                            550
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "In comparison with the same period in 2019, the number of accidents decreased by 261, the number of deaths by 20 and the number of injuries by 317,\" Sargsyan said.",
+                "score": 0.998518,
+                "arguments": [
+                    {
+                        "text": "Sargsyan",
+                        "location": [
+                            981,
+                            989
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Arman Sargsyan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            990,
+                            994
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "He said the situation has improved the most in Yerevan, which has most of the speed and surveillance cameras.",
+                "score": 0.972567,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            997,
+                            999
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Arman Sargsyan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            1000,
+                            1004
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "diedOf",
+                "sentence": "\"Over the course of five months, 1,405 traffic accidents were registered, in which 102 people died and 2,100 were injured.",
+                "score": 0.563183,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            796,
+                            802
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "accidents",
+                        "location": [
+                            756,
+                            765
+                        ],
+                        "entities": [
+                            {
+                                "type": "NaturalDisaster",
+                                "text": "accidents"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "In comparison with the same period in 2019, the number of accidents decreased by 261, the number of deaths by 20 and the number of injuries by 317,\" Sargsyan said.",
+                "score": 0.518751,
+                "arguments": [
+                    {
+                        "text": "2019",
+                        "location": [
+                            870,
+                            874
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "2019"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "accidents",
+                        "location": [
+                            890,
+                            899
+                        ],
+                        "entities": [
+                            {
+                                "type": "NaturalDisaster",
+                                "text": "accidents"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "number of accidents",
+                "relevance": 0.882219,
+                "count": 1
+            },
+            {
+                "text": "head of the Armenian Police Arman Sargsyan",
+                "relevance": 0.759978,
+                "count": 1
+            },
+            {
+                "text": "traffic accidents",
+                "relevance": 0.71628,
+                "count": 1
+            },
+            {
+                "text": "number of deaths",
+                "relevance": 0.689544,
+                "count": 1
+            },
+            {
+                "text": "number of injuries",
+                "relevance": 0.682582,
+                "count": 1
+            },
+            {
+                "text": "deduction of points",
+                "relevance": 0.667738,
+                "count": 1
+            },
+            {
+                "text": "technical means",
+                "relevance": 0.656547,
+                "count": 1
+            },
+            {
+                "text": "beginning of the year",
+                "relevance": 0.62551,
+                "count": 1
+            },
+            {
+                "text": "surveillance cameras",
+                "relevance": 0.573661,
+                "count": 1
+            },
+            {
+                "text": "period",
+                "relevance": 0.564379,
+                "count": 1
+            },
+            {
+                "text": "results",
+                "relevance": 0.534249,
+                "count": 1
+            },
+            {
+                "text": "situation",
+                "relevance": 0.525821,
+                "count": 1
+            },
+            {
+                "text": "course",
+                "relevance": 0.524925,
+                "count": 1
+            },
+            {
+                "text": "Sargsyan",
+                "relevance": 0.524556,
+                "count": 1
+            },
+            {
+                "text": "today",
+                "relevance": 0.524448,
+                "count": 1
+            },
+            {
+                "text": "speed",
+                "relevance": 0.522458,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.522458,
+                "count": 1
+            },
+            {
+                "text": "months",
+                "relevance": 0.521637,
+                "count": 2
+            },
+            {
+                "text": "points",
+                "relevance": 0.519951,
+                "count": 1
+            },
+            {
+                "text": "motorist",
+                "relevance": 0.519923,
+                "count": 1
+            },
+            {
+                "text": "Yerevan",
+                "relevance": 0.519768,
+                "count": 1
+            },
+            {
+                "text": "positive results of the reform",
+                "relevance": 0.518424,
+                "count": 1
+            },
+            {
+                "text": "comparison",
+                "relevance": 0.515765,
+                "count": 1
+            },
+            {
+                "text": "credit system",
+                "relevance": 0.513923,
+                "count": 1
+            },
+            {
+                "text": "prosecution",
+                "relevance": 0.508524,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.508524,
+                "count": 1
+            },
+            {
+                "text": "motorists",
+                "relevance": 0.506644,
+                "count": 1
+            },
+            {
+                "text": "unruly motorists",
+                "relevance": 0.496293,
+                "count": 1
+            },
+            {
+                "text": "suspension of their driving licenses",
+                "relevance": 0.492583,
+                "count": 1
+            },
+            {
+                "text": "rule breaches",
+                "relevance": 0.46536,
+                "count": 1
+            },
+            {
+                "text": "system",
+                "relevance": 0.408478,
+                "count": 1
+            },
+            {
+                "text": "felt",
+                "relevance": 0.407903,
+                "count": 1
+            },
+            {
+                "text": "January",
+                "relevance": 0.407903,
+                "count": 1
+            },
+            {
+                "text": "ARKA",
+                "relevance": 0.407903,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "255545a096de8bbd80ed6c72a2e14737b4370821",
+        "filename": "202006050001ARKA____NEWS_____202006051220_050613ER_170.1.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:01:00-04:00",
+    "title": "'CREDIT SYSTEM' DESIGNED FOR ARMENIAN MOTORISTS, PRODUCES RESULTS, POLICE CHIEF SAYS",
+    "html": "<block><p>TRANSPORT </p>\n<p> <location idsrc=\"xmltag.org\" value=\"LU/am..yervan\">YEREVAN</location>, <chron>June 5</chron>. /ARKA/. The head of the Armenian Police <person>Arman Sargsyan</person> presented today the results of the so-called 'credit system, that was enforced on <chron>January 1, 2020</chron>. Under the system, each motorist is given 9 points at the beginning of the year and unruly motorists risk not only fines but also points deductions that could result in the suspension of their driving licenses and even prosecution.</p>\n<p> According to Sargsyan, over the first five months of 2020, 129,195 points deduction notices were issued to about 900 motorists.</p>\n<p> He said though the deduction of points applies only to traffic rule breaches recorded by technical means, the positive results of the reform are already being felt.</p>\n<p> \"Over the course of five months, 1,405 traffic accidents were registered, in which 102 people died and 2,100 were injured. In comparison with the same period in 2019, the number of accidents decreased by 261, the number of deaths by 20 and the number of injuries by 317,\" Sargsyan said.</p>\n<p> He said the situation has improved the most in <location idsrc=\"xmltag.org\" value=\"LU/am..yervan\">Yerevan</location>, which has most of the speed and surveillance cameras. -0-</p>\n</block>",
+    "geoFocus": [
+        [
+            "GB/was",
+            "Western Asia"
+        ]
+    ]
+}

@@ -1,0 +1,309 @@
+{
+    "id": "aad4f668-024b-4c4c-b8fc-ccf3bc7ed241",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "14425346891973841223",
+    "description": "In today's Daily Dose: FirstRand expects its headline EPS for the year to June 30 to decline more than 20% year over year; First Abu Dhabi Bank will redeem a $750 million bond; and Absa plans to include climate assessment in its reporting.",
+    "serviceName": "Financial News",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": "IS/fin.reports",
+            "relevance_score": "9",
+            "description": "Earnings Guidance",
+            "code": "IS/biz.guidance#9#50#99",
+            "level": 2
+        },
+        {
+            "parent": "IS/biz.guidance",
+            "relevance_score": "9",
+            "description": "Lowered Earnings Guidance",
+            "code": "IS/biz.profwarn#9#99#50",
+            "level": 3
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Finance",
+            "code": "IS/fin#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "9",
+            "description": "Business Finance and Financing",
+            "code": "IS/fin.biz#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "In today's Daily Dose: FirstRand expects its headline EPS for the year to June\n30 to decline more than 20% year over year; First Abu Dhabi Bank will redeem a\n$750 million bond; and Absa plans to include climate assessment in its\nreporting. Industries: Bank, Thrift",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "FirstRand",
+            "First Abu Dhabi Bank"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "First Abu Dhabi Bank",
+            "FirstRand"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050137AMSPIDERFIN_NEWS_SINFIN30_2BEB21443E255D6AD99A6D39800A493E_7.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Abu Dhabi Bank",
+                "relevance": 0.92699,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.504491,
+                    "label": "negative"
+                },
+                "text": "FirstRand",
+                "relevance": 0.448716,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Absa",
+                "relevance": 0.407576,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$750 million",
+                "relevance": 0.407576,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "20%",
+                "relevance": 0.407576,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "FirstRand"
+                },
+                "sentence": "In today's Daily Dose: FirstRand expects its headline EPS for the year to June",
+                "object": {
+                    "text": "its headline EPS for the year to June"
+                },
+                "action": {
+                    "verb": {
+                        "text": "expect",
+                        "tense": "present"
+                    },
+                    "text": "expects",
+                    "normalized": "expect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "First Abu Dhabi Bank"
+                },
+                "sentence": " 30 to decline more than 20% year over year; First Abu Dhabi Bank will redeem a",
+                "object": {
+                    "text": "a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "redeem",
+                        "tense": "future"
+                    },
+                    "text": "will redeem",
+                    "normalized": "will redeem"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Absa"
+                },
+                "sentence": " $750 million bond; and Absa plans to include climate assessment in its",
+                "object": {
+                    "text": "to include climate assessment in its"
+                },
+                "action": {
+                    "verb": {
+                        "text": "plan",
+                        "tense": "present"
+                    },
+                    "text": "plans",
+                    "normalized": "plan"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Absa"
+                },
+                "sentence": " $750 million bond; and Absa plans to include climate assessment in its",
+                "object": {
+                    "text": "climate assessment"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "future"
+                    },
+                    "text": "plans to include",
+                    "normalized": "plan to include"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.920609,
+                "label": "/finance/bank"
+            },
+            {
+                "score": 0.735717,
+                "label": "/finance/financial news"
+            },
+            {
+                "score": 0.713234,
+                "label": "/finance/investing/funds"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "In today's Daily Dose: FirstRand expects its headline EPS for the year to June 30 to decline more than 20% year over year; First Abu Dhabi Bank will redeem a $750 million bond; and Absa plans to include climate assessment in its reporting.",
+                "score": 0.757675,
+                "arguments": [
+                    {
+                        "text": "today",
+                        "location": [
+                            3,
+                            8
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "today"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Daily Dose: FirstRand",
+                        "location": [
+                            11,
+                            32
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Daily Dose: FirstRand"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "today's Daily Dose",
+                "relevance": 0.965163,
+                "count": 1
+            },
+            {
+                "text": "First Abu Dhabi Bank",
+                "relevance": 0.702337,
+                "count": 1
+            },
+            {
+                "text": "Absa plans",
+                "relevance": 0.667917,
+                "count": 1
+            },
+            {
+                "text": "bond",
+                "relevance": 0.617406,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.60455,
+                "count": 3
+            },
+            {
+                "text": "headline EPS",
+                "relevance": 0.579546,
+                "count": 1
+            },
+            {
+                "text": "Industries",
+                "relevance": 0.542697,
+                "count": 1
+            },
+            {
+                "text": "Thrift",
+                "relevance": 0.525107,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.525107,
+                "count": 1
+            },
+            {
+                "text": "Bank",
+                "relevance": 0.520561,
+                "count": 1
+            },
+            {
+                "text": "climate assessment",
+                "relevance": 0.459597,
+                "count": 1
+            },
+            {
+                "text": "FirstRand",
+                "relevance": 0.335264,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "e9cfd28076a177193cbebbeda8c71415444d7cdf",
+        "filename": "202006050137AMSPIDERFIN_NEWS_SINFIN30_2BEB21443E255D6AD99A6D39800A493E_7.json",
+        "file_type": "json"
+    },
+    "companyRecord": "AbuDhabi|FAB|ISIN:AEN000101016|First Abu Dhabi Bank PJSC|extractor|DUNS:644909459;NECOID:7028251;ACORN:5010028251|SIGNIFICANT||||XADS|REFERENCE",
+    "publicationTime": "2020-06-05T01:37:00-04:00",
+    "title": "The Daily Dose MEA: FirstRand issues profit warning; FAB to redeem bonds; Absa climate assessment [SNL Financial]",
+    "html": "<p>In today's Daily Dose: <org idsrc=\"xmltag.org\" value=\"Johannesburg:FSR\">FirstRand</org> expects its headline EPS for the year to <chron>June 30</chron> to decline more than 20% year over year; <org idsrc=\"xmltag.org\" value=\"AbuDhabi:FAB\">First Abu Dhabi Bank</org> will redeem a <money>$750 million</money> bond; and Absa plans to include climate assessment in its reporting. Industries: Bank, Thrift</p>",
+    "geoFocus": []
+}

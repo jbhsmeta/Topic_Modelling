@@ -1,0 +1,621 @@
+{
+    "id": "b09e30b0-d399-4e35-b318-6e7f2deb5de7",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "99533737498657915166",
+    "description": "Due to the coronavirus pandemic, this summer Summit County Library\u2019 s reading program is going virtual thanks to new Beanstack software funded by the Friends of the Library. Starting Monday, June 8, adults, teens and kids will...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#70#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "A child rushes by with his haul at the Main Library during a used book sale.\nThis summer's reading program is virtual.Summit Daily file photoDue to the\ncoronavirus pandemic, this summer Library's reading program is going virtual\nthanks to new Beanstack software funded by the Friends of the Library.\nStarting Monday, June 8, adults, teens and kids will be able log their reading\nhours on the Library Beanstack site or app to earn virtual badges.New this\nyear, young readers can choose the traditional reading option, or complete\nactivities such as building a bridge with Mountain Top Children's Museum,\ncrafting with The Frosted Flamingo, learning a dance with the Silverthorne\nRecreation Center and more.Prizes have returned this year and can be picked up\ncurbside. The more students read, the better their chances of winning gift\ncards and earning entries into grand prize drawings for toys and games.The\nlibrary also has virtual programming that includes magician Ann Lincoln,\nlistening to a Frisco Historic Park lunchtime lecture or enjoying some\nmeditation and yoga with Building Hope .Support Local\n[JournalismVisitSummitCountyLibraries.orgSummitCountyLibraries.Beanstack.org](http://JournalismVisitSummitCountyLibraries.orgSummitCountyLibraries.Beanstack.org)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Main Library",
+            "Summit Daily",
+            "Friends of the Library",
+            "Silverthorne Recreation Center"
+        ],
+        "location": [
+            "Frisco Historic Park",
+            "Building Hope"
+        ],
+        "person": [
+            "Ann Lincoln"
+        ],
+        "companies": [
+            "Main Library",
+            "Silverthorne Recreation Center",
+            "Friends of the Library",
+            "Summit Daily"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050228AMSPIDERNEWS_____SUMDAI03_8C5CE5AA39241C85B59BADE9063766C9_14.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0.860457,
+                    "label": "positive"
+                },
+                "text": "Main Library",
+                "relevance": 0.852936,
+                "type": "Facility",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Erie Federal Courthouse  Main Library  1",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Erie_Federal_Courthouse__Main_Library__1"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mountain Top Children's Museum",
+                "relevance": 0.39817,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.906512,
+                    "label": "positive"
+                },
+                "text": "Frisco Historic Park",
+                "relevance": 0.386251,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.509787,
+                    "label": "positive"
+                },
+                "text": "Silverthorne",
+                "relevance": 0.383533,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Silverthorne, Colorado",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Silverthorne,_Colorado"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.860457,
+                    "label": "positive"
+                },
+                "text": "Beanstack",
+                "relevance": 0.339429,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ann Lincoln",
+                "relevance": 0.317353,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Recreation Center",
+                "relevance": 0.312185,
+                "type": "Facility"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A child"
+                },
+                "sentence": "A child rushes by with his haul at the Main Library during a used book sale.",
+                "object": {
+                    "text": "with his haul"
+                },
+                "action": {
+                    "verb": {
+                        "text": "rush",
+                        "tense": "present"
+                    },
+                    "text": "rushes",
+                    "normalized": "rush"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This summer's reading program"
+                },
+                "sentence": " This summer's reading program is virtual.Summit Daily file photoDue to the",
+                "object": {
+                    "text": "virtual.Summit Daily file photoDue"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the Friends"
+                },
+                "sentence": " thanks to new Beanstack software funded by the Friends of the Library.",
+                "object": {
+                    "text": "new Beanstack software"
+                },
+                "action": {
+                    "verb": {
+                        "text": "fund",
+                        "tense": "past"
+                    },
+                    "text": "funded",
+                    "normalized": "fund"
+                }
+            },
+            {
+                "subject": {
+                    "text": "young readers"
+                },
+                "sentence": " year, young readers can choose the traditional reading option, or complete",
+                "object": {
+                    "text": "the traditional reading option"
+                },
+                "action": {
+                    "verb": {
+                        "text": "choose",
+                        "tense": "future"
+                    },
+                    "text": "can choose",
+                    "normalized": "can choose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "activities"
+                },
+                "sentence": " activities such as building a bridge with Mountain Top Children's Museum,",
+                "object": {
+                    "text": "a bridge with Mountain Top Children's Museum,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "build",
+                        "tense": "present"
+                    },
+                    "text": "building",
+                    "normalized": "build"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Recreation Center and more.Prizes"
+                },
+                "sentence": " Recreation Center and more.Prizes have returned this year and can be picked up",
+                "action": {
+                    "verb": {
+                        "text": "return",
+                        "tense": "past"
+                    },
+                    "text": "have returned",
+                    "normalized": "have return"
+                }
+            },
+            {
+                "subject": {
+                    "text": "library"
+                },
+                "sentence": " library also has virtual programming that includes magician Ann Lincoln,",
+                "object": {
+                    "text": "virtual programming that includes magician Ann Lincoln,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "magician Ann Lincoln,"
+                },
+                "sentence": " library also has virtual programming that includes magician Ann Lincoln,",
+                "object": {
+                    "text": "virtual programming"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.70776,
+                "label": "/family and parenting/children"
+            },
+            {
+                "score": 0.690408,
+                "label": "/education/homework and study tips"
+            },
+            {
+                "score": 0.665847,
+                "label": "/education/teaching and classroom resources"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "New this year, young readers can choose the traditional reading option, or complete activities such as building a bridge with Mountain Top Children's Museum, crafting with The Frosted Flamingo, learning a dance with the Silverthorne Recreation Center and more.",
+                "score": 0.849529,
+                "arguments": [
+                    {
+                        "text": "bridge",
+                        "location": [
+                            559,
+                            565
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "bridge"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mountain Top",
+                        "location": [
+                            571,
+                            583
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mountain Top"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "New this year, young readers can choose the traditional reading option, or complete activities such as building a bridge with Mountain Top Children's Museum, crafting with The Frosted Flamingo, learning a dance with the Silverthorne Recreation Center and more.",
+                "score": 0.875638,
+                "arguments": [
+                    {
+                        "text": "Children's Museum",
+                        "location": [
+                            584,
+                            601
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Children's Museum"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mountain Top",
+                        "location": [
+                            571,
+                            583
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mountain Top"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The library also has virtual programming that includes magician Ann Lincoln, listening to a Frisco Historic Park lunchtime lecture or enjoying some meditation and yoga with Building Hope .Support Local [JournalismVisitSummitCountyLibraries.orgSummitCountyLibraries.Beanstack.org](http://JournalismVisitSummitCountyLibraries.orgSummitCountyLibraries.Beanstack.org)",
+                "score": 0.265142,
+                "arguments": [
+                    {
+                        "text": "Hope",
+                        "location": [
+                            1085,
+                            1089
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Hope"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Building",
+                        "location": [
+                            1076,
+                            1084
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Building"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Main Library",
+                "relevance": 0.743524,
+                "count": 1
+            },
+            {
+                "text": "child rushes",
+                "relevance": 0.653139,
+                "count": 1
+            },
+            {
+                "text": "new Beanstack software",
+                "relevance": 0.61797,
+                "count": 1
+            },
+            {
+                "text": "young readers",
+                "relevance": 0.611854,
+                "count": 1
+            },
+            {
+                "text": "summer's reading program",
+                "relevance": 0.604085,
+                "count": 1
+            },
+            {
+                "text": "Mountain Top Children's Museum",
+                "relevance": 0.588906,
+                "count": 1
+            },
+            {
+                "text": "summer Library's reading program",
+                "relevance": 0.586595,
+                "count": 1
+            },
+            {
+                "text": "Frisco Historic Park lunchtime lecture",
+                "relevance": 0.560775,
+                "count": 1
+            },
+            {
+                "text": "Library Beanstack site",
+                "relevance": 0.55212,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.533299,
+                "count": 2
+            },
+            {
+                "text": "Friends of the Library",
+                "relevance": 0.529717,
+                "count": 1
+            },
+            {
+                "text": "meditation",
+                "relevance": 0.52651,
+                "count": 1
+            },
+            {
+                "text": "Frosted Flamingo",
+                "relevance": 0.523893,
+                "count": 1
+            },
+            {
+                "text": "bridge",
+                "relevance": 0.522291,
+                "count": 1
+            },
+            {
+                "text": "grand prize drawings",
+                "relevance": 0.520539,
+                "count": 1
+            },
+            {
+                "text": "students",
+                "relevance": 0.516976,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.516053,
+                "count": 1
+            },
+            {
+                "text": "yoga",
+                "relevance": 0.514979,
+                "count": 1
+            },
+            {
+                "text": "virtual badges.New",
+                "relevance": 0.514545,
+                "count": 1
+            },
+            {
+                "text": "entries",
+                "relevance": 0.51427,
+                "count": 1
+            },
+            {
+                "text": "adults",
+                "relevance": 0.513664,
+                "count": 1
+            },
+            {
+                "text": "teens",
+                "relevance": 0.512421,
+                "count": 1
+            },
+            {
+                "text": "app",
+                "relevance": 0.511707,
+                "count": 1
+            },
+            {
+                "text": "virtual.Summit Daily file photoDue",
+                "relevance": 0.510255,
+                "count": 1
+            },
+            {
+                "text": "kids",
+                "relevance": 0.510245,
+                "count": 1
+            },
+            {
+                "text": "chances",
+                "relevance": 0.508192,
+                "count": 1
+            },
+            {
+                "text": "toys",
+                "relevance": 0.506757,
+                "count": 1
+            },
+            {
+                "text": "dance",
+                "relevance": 0.506757,
+                "count": 1
+            },
+            {
+                "text": "curbside",
+                "relevance": 0.505573,
+                "count": 1
+            },
+            {
+                "text": "virtual programming",
+                "relevance": 0.503948,
+                "count": 1
+            },
+            {
+                "text": "traditional reading option",
+                "relevance": 0.501005,
+                "count": 1
+            },
+            {
+                "text": "Building Hope",
+                "relevance": 0.499038,
+                "count": 1
+            },
+            {
+                "text": "magician Ann Lincoln",
+                "relevance": 0.492358,
+                "count": 1
+            },
+            {
+                "text": "used book sale",
+                "relevance": 0.492358,
+                "count": 1
+            },
+            {
+                "text": "able log",
+                "relevance": 0.487163,
+                "count": 1
+            },
+            {
+                "text": "Support Local",
+                "relevance": 0.476202,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.471565,
+                "count": 1
+            },
+            {
+                "text": "Monday",
+                "relevance": 0.453612,
+                "count": 1
+            },
+            {
+                "text": "more.Prizes",
+                "relevance": 0.450322,
+                "count": 1
+            },
+            {
+                "text": "haul",
+                "relevance": 0.448813,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "2263efd84f61152d36ad113248843aed73b391c6",
+        "filename": "202006050228AMSPIDERNEWS_____SUMDAI03_8C5CE5AA39241C85B59BADE9063766C9_14.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:28:00-04:00",
+    "title": "Summit County Library summer reading program goes virtual [Summit Daily News]",
+    "html": "<p>A child rushes by with his haul at the  <org>Main Library</org> during a used book sale. This summer&#8217;s reading program is virtual.<org>Summit Daily</org> file photoDue to the coronavirus pandemic, this summer  Library&#8217;s reading program is going virtual thanks to new Beanstack software funded by the <org>Friends of the Library</org>.&#160;Starting <chron>Monday, June 8</chron>, adults, teens and kids will be able log their reading hours on the  Library Beanstack site or app to earn virtual badges.New this year, young readers can choose the traditional reading option, or complete activities such as building a bridge with Mountain Top Children&#8217;s Museum, crafting with The Frosted Flamingo, learning a dance with the <org>Silverthorne Recreation Center</org> and more.Prizes have returned this year and can be picked up curbside. The more students read, the better their chances of winning gift cards and earning entries into grand prize drawings for toys and games.The library also has virtual programming that includes magician <person>Ann Lincoln</person>, listening to a <location>Frisco Historic Park</location> lunchtime lecture or enjoying some meditation and yoga with <location>Building Hope</location> .Support Local <a href=\"http://JournalismVisitSummitCountyLibraries.orgSummitCountyLibraries.Beanstack.org\">JournalismVisitSummitCountyLibraries.orgSummitCountyLibraries.Beanstack.org</a></p>",
+    "geoFocus": []
+}

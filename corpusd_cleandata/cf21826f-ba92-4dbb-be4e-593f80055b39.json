@@ -1,0 +1,327 @@
+{
+    "id": "cf21826f-ba92-4dbb-be4e-593f80055b39",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 Copyright 2020, Longview News-Journal, Longview, TX",
+    "geoOrigin": "Carthage, Texas",
+    "sourceType": "Newspaper",
+    "source": "Panola Watchman, The (Carthage, TX)",
+    "corpus_document_id": "48259595248978661274",
+    "description": "The City of Carthage re-opened its splash pad at Davis Park for the summer on Monday. City officials had hoped to open it sooner, but COVID-19 restrictions kept the amenity closed throughout May. The splash pad's hours are 10 a.m. to 8 p.m. Monday through Saturday and 1 to 6 p.m. on Sunday.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Local Government",
+            "code": "IS/pol.local#9#99#50",
+            "level": 1
+        }
+    ],
+    "text": "The City of Carthage re-opened its splash pad at Davis Park for the summer on\nMonday.\n\nCity officials had hoped to open it sooner, but COVID-19 restrictions kept the\namenity closed throughout May.\n\nThe splash pad's hours are 10 a.m. to 8 p.m. Monday through Saturday and 1 to\n6 p.m. on Sunday.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Davis Park"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.tx.carage",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS9DF7FCBC37A25ECB9CB501817C32AC5.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Davis Park",
+                "relevance": 0.941226,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Carthage",
+                "relevance": 0.873673,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The City of Carthage"
+                },
+                "sentence": "The City of Carthage re-opened its splash pad at Davis Park for the summer on",
+                "object": {
+                    "text": "its splash pad"
+                },
+                "action": {
+                    "verb": {
+                        "text": "re-opened",
+                        "tense": "past"
+                    },
+                    "text": "re-opened",
+                    "normalized": "re-opened"
+                }
+            },
+            {
+                "subject": {
+                    "text": "City officials"
+                },
+                "sentence": " City officials had hoped to open it sooner, but COVID-19 restrictions kept the",
+                "object": {
+                    "text": "hoped to open it sooner"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "City officials"
+                },
+                "sentence": " City officials had hoped to open it sooner, but COVID-19 restrictions kept the",
+                "object": {
+                    "text": "to open it sooner"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hope",
+                        "tense": "past"
+                    },
+                    "text": "hoped",
+                    "normalized": "hope"
+                }
+            },
+            {
+                "subject": {
+                    "text": "City officials"
+                },
+                "sentence": " City officials had hoped to open it sooner, but COVID-19 restrictions kept the",
+                "object": {
+                    "text": "it"
+                },
+                "action": {
+                    "verb": {
+                        "text": "open",
+                        "tense": "past"
+                    },
+                    "text": "had hoped to open",
+                    "normalized": "have hope to open"
+                }
+            },
+            {
+                "subject": {
+                    "text": "amenity"
+                },
+                "sentence": " amenity closed throughout May.",
+                "action": {
+                    "verb": {
+                        "text": "close",
+                        "tense": "past"
+                    },
+                    "text": "closed",
+                    "normalized": "close"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The splash pad's hours"
+                },
+                "sentence": " The splash pad's hours are 10 a.m. to 8 p.m.",
+                "object": {
+                    "text": "10 a.m."
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.742726,
+                "label": "/news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "The City of Carthage re-opened its splash pad at Davis Park for the summer on Monday.",
+                "score": 0.511056,
+                "arguments": [
+                    {
+                        "text": "Davis Park",
+                        "location": [
+                            49,
+                            59
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Davis Park"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "City of Carthage",
+                        "location": [
+                            4,
+                            20
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "City of Carthage"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "City officials had hoped to open it sooner, but COVID-19 restrictions kept the amenity closed throughout May.",
+                "score": 0.952118,
+                "arguments": [
+                    {
+                        "text": "officials",
+                        "location": [
+                            92,
+                            101
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officials"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "City",
+                        "location": [
+                            87,
+                            91
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "City"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "City of Carthage",
+                "relevance": 0.995842,
+                "count": 1
+            },
+            {
+                "text": "City officials",
+                "relevance": 0.97945,
+                "count": 1
+            },
+            {
+                "text": "splash pad",
+                "relevance": 0.961331,
+                "count": 1
+            },
+            {
+                "text": "splash pad's hours",
+                "relevance": 0.583564,
+                "count": 1
+            },
+            {
+                "text": "amenity",
+                "relevance": 0.574606,
+                "count": 1
+            },
+            {
+                "text": "summer",
+                "relevance": 0.528482,
+                "count": 1
+            },
+            {
+                "text": "Davis Park",
+                "relevance": 0.375315,
+                "count": 1
+            },
+            {
+                "text": "COVID-19 restrictions",
+                "relevance": 0.375315,
+                "count": 1
+            },
+            {
+                "text": "Monday",
+                "relevance": 0.188787,
+                "count": 2
+            },
+            {
+                "text": "Sunday",
+                "relevance": 0.185104,
+                "count": 1
+            },
+            {
+                "text": "Saturday",
+                "relevance": 0.185104,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.185104,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "cf05e03b139ec17da4b040a135a84a48f6b5e293",
+        "filename": "202006010000NEWSBANKNEWSPPRS9DF7FCBC37A25ECB9CB501817C32AC5.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Carthage splash pad re-opens this week",
+    "html": "<p>The City of Carthage re-opened its splash pad at <location>Davis Park</location> for the summer on Monday.</p>\n<p>City officials had hoped to open it sooner, but COVID-19 restrictions kept the amenity closed throughout May.</p>\n\n<p>The splash pad's hours are <chron>10 a.m. to 8 p.m. Monday through Saturday</chron> and <chron>1 to 6 p.m. on Sunday</chron>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.tx.carage",
+            "Carthage"
+        ]
+    ]
+}

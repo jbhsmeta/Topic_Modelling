@@ -1,0 +1,268 @@
+{
+    "id": "99e78de5-3ea8-42dc-98a3-5da66007137f",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 2020 Cooke Communications LLC - The Daily Reflector",
+    "geoOrigin": "Greenville, North Carolina",
+    "sourceType": "Newspaper",
+    "source": "Daily Reflector, The (Greenville, NC)",
+    "corpus_document_id": "1952515663453458079",
+    "description": "ALL OTHER CRIME- MISDEMEANOR Bond: $0.00 Type: INCL Status: ACTI. ASSAULT ON A FEMALE- MISDEMEANOR Bond: $0.00 Type: INCL Status: ACTI. COMMUNICATING THREATS- MISDEMEANOR Bond: $0.00 Type: INCL Status: ACTI.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Crime",
+            "code": "IS/lifesoc.crime#9#99#76",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.crime",
+            "relevance_score": "7",
+            "description": "Assault",
+            "code": "IS/lifesoc.assault#7#76#50",
+            "level": 2
+        }
+    ],
+    "text": "DAVIS, COTRELL RAVON 05/31/2020\n\nAge: 32 Sex: M Race: B Height: 510 Weight: 130\n\nALL OTHER CRIME - MISDEMEANOR Bond: $0.00 Type: INCL Status: ACTI\n\nJudicial Status: PRET\n\nASSAULT ON A FEMALE - MISDEMEANOR Bond: $15000.00 Type: SECU Status: ACTI\n\nJudicial Status: PRET\n\nASSAULT ON A FEMALE - MISDEMEANOR Bond: $0.00 Type: INCL Status: ACTI\n\nJudicial Status: PRET\n\nCOMMUNICATING THREATS - MISDEMEANOR Bond: $0.00 Type: INCL Status: ACTI\n\nJudicial Status: PRET",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "COTRELL RAVON"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.nc.grelle",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSECEA928A34169FDF5C1A78770311BC4.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "INCL",
+                "relevance": 0.917674,
+                "type": "HealthCondition",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Infantile neuronal ceroid lipofuscinosis",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Infantile_neuronal_ceroid_lipofuscinosis"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.741791,
+                    "label": "negative"
+                },
+                "text": "ASSAULT",
+                "relevance": 0.369779,
+                "type": "Crime"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.536256,
+                    "label": "positive"
+                },
+                "text": "DAVIS",
+                "relevance": 0.253105,
+                "type": "Person"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$0.00",
+                "relevance": 0.253105,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$15000.00",
+                "relevance": 0.253105,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.922126,
+                "label": "/society/crime/personal offense/assault"
+            },
+            {
+                "score": 0.871551,
+                "label": "/law, govt and politics/government/courts and judiciary"
+            },
+            {
+                "score": 0.603036,
+                "label": "/society/sex"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "DAVIS, COTRELL RAVON 05/31/2020",
+                "score": 0.484498,
+                "arguments": [
+                    {
+                        "text": "COTRELL RAVON",
+                        "location": [
+                            7,
+                            20
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "COTRELL RAVON",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "05/31/2020",
+                        "location": [
+                            21,
+                            31
+                        ],
+                        "entities": [
+                            {
+                                "type": "Web",
+                                "text": "05/31/2020"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "MISDEMEANOR Bond",
+                "relevance": 0.814275,
+                "count": 4
+            },
+            {
+                "text": "M Race",
+                "relevance": 0.722129,
+                "count": 1
+            },
+            {
+                "text": "Age",
+                "relevance": 0.648373,
+                "count": 1
+            },
+            {
+                "text": "INCL Status",
+                "relevance": 0.626978,
+                "count": 3
+            },
+            {
+                "text": "B Height",
+                "relevance": 0.596166,
+                "count": 1
+            },
+            {
+                "text": "Judicial Status",
+                "relevance": 0.594011,
+                "count": 4
+            },
+            {
+                "text": "Sex",
+                "relevance": 0.585791,
+                "count": 1
+            },
+            {
+                "text": "COTRELL RAVON",
+                "relevance": 0.573417,
+                "count": 1
+            },
+            {
+                "text": "Type",
+                "relevance": 0.557189,
+                "count": 4
+            },
+            {
+                "text": "THREATS",
+                "relevance": 0.547882,
+                "count": 1
+            },
+            {
+                "text": "CRIME",
+                "relevance": 0.547882,
+                "count": 1
+            },
+            {
+                "text": "Weight",
+                "relevance": 0.528403,
+                "count": 1
+            },
+            {
+                "text": "SECU Status",
+                "relevance": 0.503935,
+                "count": 1
+            },
+            {
+                "text": "DAVIS",
+                "relevance": 0.402674,
+                "count": 1
+            },
+            {
+                "text": "PRET",
+                "relevance": 0.358833,
+                "count": 2
+            },
+            {
+                "text": "ACTI",
+                "relevance": 0.358833,
+                "count": 4
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "929c6ca997d5f480d0fc935f3a3eca939ed733e3",
+        "filename": "202006050000NEWSBANKNEWSPPRSECEA928A34169FDF5C1A78770311BC4.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "208102 COTRELL DAVIS",
+    "html": "<p>DAVIS, <person>COTRELL RAVON</person> <chron>05/31/2020</chron></p>\n<p>Age: 32 Sex: M Race: B Height: 510 Weight: 130</p>\n\n<p>ALL OTHER CRIME - MISDEMEANOR Bond: <money>$0.00</money> Type: INCL Status: ACTI</p>\n\n<p>Judicial Status: PRET</p>\n\n<p>ASSAULT ON A FEMALE - MISDEMEANOR Bond: <money>$15000.00</money> Type: SECU Status: ACTI</p>\n\n<p>Judicial Status: PRET</p>\n\n<p>ASSAULT ON A FEMALE - MISDEMEANOR Bond: <money>$0.00</money> Type: INCL Status: ACTI</p>\n\n<p>Judicial Status: PRET</p>\n\n<p>COMMUNICATING THREATS - MISDEMEANOR Bond: <money>$0.00</money> Type: INCL Status: ACTI</p>\n\n<p>Judicial Status: PRET</p>",
+    "geoFocus": [
+        [
+            "GU/us.nc.grelle",
+            "Greenville"
+        ],
+        [
+            "GU/us.nc.pitt",
+            "Pitt County"
+        ]
+    ]
+}

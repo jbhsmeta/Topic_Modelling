@@ -1,0 +1,382 @@
+{
+    "id": "3ba41d66-f88f-4e85-9d14-6906c2c372f2",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Norfolk, Virginia",
+    "sourceType": "Broadcast Transcript",
+    "source": "WTKR-TV (Norfolk, VA)",
+    "corpus_document_id": "57110619959601138875",
+    "description": "The North Carolina Department of Health and Human Services released their daily update involving coronavirus cases within the state. A total of 416,289 people in North Carolina have now been tested. 99 counties in North Carolina report having coronavirus cases.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Politics and Government",
+            "code": "IS/pol#6#50#66",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "6",
+            "description": "Government Agencies (U.S.)",
+            "code": "IS/pol.agencies#6#50#66",
+            "level": 1
+        },
+        {
+            "parent": "IS/pol.agencies",
+            "relevance_score": "6",
+            "description": "Department of Health and Human Services",
+            "code": "IS/pol.hhs#6#66#50",
+            "level": 2
+        }
+    ],
+    "text": "The North Carolina Department of Health and Human Services released their\ndaily update involving coronavirus cases within the state.\n\nAs of Sunday, there are now 28,589 cases, 649 people hospitalized and 886\ncoronavirus related deaths.\n\nThat is 916 new cases and 9 additional deaths from Saturday.\n\nA total of 416,289 people in North Carolina have now been tested.\n\n99 counties in North Carolina report having coronavirus cases.\n\nClick here for full coronavirus coverage.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "North Carolina Department of Health and Human Services"
+        ],
+        "location": [
+            "North Carolina"
+        ],
+        "person": [],
+        "companies": [
+            "North Carolina Department of Health and Human Services"
+        ]
+    },
+    "geoOrigin_code": "RU/us.va.norflk",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRS20B7457F1EB9CACE5BA0C075A54681D.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "North Carolina Department of Health and Human Services",
+                "relevance": 0.94812,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentAgency"
+                    ],
+                    "name": "North Carolina Department of Health and Human Services",
+                    "dbpedia_resource": "http://dbpedia.org/resource/North_Carolina_Department_of_Health_and_Human_Services"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "North Carolina",
+                "relevance": 0.800355,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "North Carolina",
+                    "dbpedia_resource": "http://dbpedia.org/resource/North_Carolina"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The North Carolina Department of Health and Human Services"
+                },
+                "sentence": "The North Carolina Department of Health and Human Services released their",
+                "object": {
+                    "text": "their"
+                },
+                "action": {
+                    "verb": {
+                        "text": "release",
+                        "tense": "past"
+                    },
+                    "text": "released",
+                    "normalized": "release"
+                }
+            },
+            {
+                "subject": {
+                    "text": "coronavirus cases within the state"
+                },
+                "sentence": " daily update involving coronavirus cases within the state.",
+                "object": {
+                    "text": "daily update"
+                },
+                "action": {
+                    "verb": {
+                        "text": "involve",
+                        "tense": "present"
+                    },
+                    "text": "involving",
+                    "normalized": "involve"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A total of 416,289 people"
+                },
+                "sentence": " A total of 416,289 people in North Carolina have now been tested.",
+                "object": {
+                    "text": "tested"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A total of 416,289 people in North Carolina"
+                },
+                "sentence": " A total of 416,289 people in North Carolina have now been tested.",
+                "action": {
+                    "verb": {
+                        "text": "test",
+                        "tense": "past"
+                    },
+                    "text": "tested",
+                    "normalized": "test"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.771848,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.709119,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.539156,
+                "label": "/health and fitness/men's health"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "A total of 416,289 people in North Carolina have now been tested.",
+                "score": 0.550919,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            318,
+                            324
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "North Carolina",
+                        "location": [
+                            328,
+                            342
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "North Carolina"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "99 counties in North Carolina report having coronavirus cases.",
+                "score": 0.592533,
+                "arguments": [
+                    {
+                        "text": "counties",
+                        "location": [
+                            369,
+                            377
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "counties"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "North Carolina",
+                        "location": [
+                            381,
+                            395
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "North Carolina"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "North Carolina Department of Health",
+                "relevance": 0.926825,
+                "count": 1
+            },
+            {
+                "text": "North Carolina",
+                "relevance": 0.833894,
+                "count": 1
+            },
+            {
+                "text": "daily update",
+                "relevance": 0.773161,
+                "count": 1
+            },
+            {
+                "text": "coronavirus cases",
+                "relevance": 0.732392,
+                "count": 2
+            },
+            {
+                "text": "Human Services",
+                "relevance": 0.688781,
+                "count": 1
+            },
+            {
+                "text": "North Carolina report",
+                "relevance": 0.604867,
+                "count": 1
+            },
+            {
+                "text": "counties",
+                "relevance": 0.588189,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.579257,
+                "count": 2
+            },
+            {
+                "text": "new cases",
+                "relevance": 0.535809,
+                "count": 1
+            },
+            {
+                "text": "cases",
+                "relevance": 0.533938,
+                "count": 1
+            },
+            {
+                "text": "state",
+                "relevance": 0.520832,
+                "count": 1
+            },
+            {
+                "text": "full coronavirus coverage",
+                "relevance": 0.486202,
+                "count": 1
+            },
+            {
+                "text": "related deaths",
+                "relevance": 0.451617,
+                "count": 1
+            },
+            {
+                "text": "additional deaths",
+                "relevance": 0.43439,
+                "count": 1
+            },
+            {
+                "text": "total",
+                "relevance": 0.368851,
+                "count": 1
+            },
+            {
+                "text": "Sunday",
+                "relevance": 0.364585,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.315961,
+                "count": 1
+            },
+            {
+                "text": "Saturday",
+                "relevance": 0.304974,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "42a6688a02e464a1da62e2042859631e2869f4e3",
+        "filename": "202005310000NEWSBANKNEWSPPRS20B7457F1EB9CACE5BA0C075A54681D.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||North Carolina Department of Health & Human Services|extractor|DUNS:809785363;NECOID:2030960406;ACORN:4156444037;UDUNS:003459047;UACORN:0102586490|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "North Carolina reports 916 new coronavirus cases, bringing state total to 28,589",
+    "html": "<p>The <org idsrc=\"xmltag.org\" value=\"ACORN:4156444037\">North Carolina Department of Health and Human Services</org> released their daily update involving coronavirus cases within the state.</p>\n<p>As of Sunday, there are now 28,589 cases, 649 people hospitalized and 886 coronavirus related deaths.</p>\n\n<p>That is 916 new cases and 9 additional deaths from Saturday.</p>\n\n<p>A total of 416,289 people in <location idsrc=\"xmltag.org\" value=\"LS/us.nc\">North Carolina</location> have now been tested.</p>\n\n<p>99 counties in <location idsrc=\"xmltag.org\" value=\"LS/us.nc\">North Carolina</location> report having coronavirus cases.</p>\n\n<p>Click here for full coronavirus coverage.</p>",
+    "geoFocus": [
+        [
+            "GU/us.va.norflk",
+            "Norfolk"
+        ]
+    ]
+}

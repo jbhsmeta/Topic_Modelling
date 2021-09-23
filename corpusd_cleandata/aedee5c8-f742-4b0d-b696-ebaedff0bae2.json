@@ -1,0 +1,410 @@
+{
+    "id": "aedee5c8-f742-4b0d-b696-ebaedff0bae2",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright, 2020, Journal, The (International Falls, MN).  All Rights Reserved.",
+    "geoOrigin": "Red Wing, Minnesota",
+    "sourceType": "Newspaper",
+    "source": "Journal, The (International Falls, MN)",
+    "corpus_document_id": "57732634751281979282",
+    "description": "' \"Happy\" is a very happy boy. Please continue to support the Borderland Humane Society. Donations can be sent to Borderland Humane Society 1990 Valley Pine Circle Int' l Falls, MN 56649..",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#6#50#63",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.travel",
+            "relevance_score": "6",
+            "description": "Pets",
+            "code": "IS/lifesoc.pets#6#63#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "6",
+            "description": "Travel and Leisure",
+            "code": "IS/lifesoc.travel#6#50#63",
+            "level": 1
+        }
+    ],
+    "text": "'\"Happy\" is a very happy boy.\n\nHe is a grey 2-year-old tabby. Happy loves to play and loves treats.\n\nFor more information, visit the website at\n[www.borderlandhumanesociety.org](http://www.borderlandhumanesociety.org) or\ncall the BHS holding facility at 218-283-9276. Find us on Facebook\n<https://www.facebook.com/BorderlandHumaneSociety/>\n\nPlease continue to support the Borderland Humane Society. Donations can be\nsent to Borderland Humane Society 1990 Valley Pine Circle Int'l Falls, MN\n56649.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Borderland Humane Society"
+        ],
+        "location": [],
+        "person": [
+            "Pine Circle Int"
+        ],
+        "companies": [
+            "Borderland Humane Society"
+        ]
+    },
+    "geoOrigin_code": "RU/us.mn.reding",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS795799E51A2D5BC89045B7414BFE498.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.715051,
+                    "label": "positive"
+                },
+                "text": "Borderland Humane Society",
+                "relevance": 0.984421,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Valley Pine Circle",
+                "relevance": 0.320446,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Facebook",
+                "relevance": 0.301913,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [
+                        "Website",
+                        "VentureFundedCompany"
+                    ],
+                    "name": "Facebook",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Facebook"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "BHS",
+                "relevance": 0.268496,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "MN",
+                "relevance": 0.24128,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "2-year",
+                "relevance": 0.24128,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He is a grey 2-year-old tabby.",
+                "object": {
+                    "text": "a grey 2-year-old tabby"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the BHS holding facility"
+                },
+                "sentence": " call the BHS holding facility at 218-283-9276.",
+                "object": {
+                    "text": "at 218-283-9276"
+                },
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "present"
+                    },
+                    "text": "call",
+                    "normalized": "call"
+                }
+            },
+            {
+                "subject": {
+                    "text": "us"
+                },
+                "sentence": " Find us on Facebook",
+                "action": {
+                    "verb": {
+                        "text": "Find",
+                        "tense": "present"
+                    },
+                    "text": "Find",
+                    "normalized": "Find"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.886106,
+                "label": "/pets/cats"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "He is a grey 2-year-old tabby.",
+                "score": 0.599635,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            31,
+                            33
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "boy"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "2-year-old",
+                        "location": [
+                            44,
+                            54
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "2-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "He is a grey 2-year-old tabby.",
+                "score": 0.890233,
+                "arguments": [
+                    {
+                        "text": "tabby",
+                        "location": [
+                            55,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "tabby"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "2-year-old",
+                        "location": [
+                            44,
+                            54
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "2-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "For more information, visit the website at [www.borderlandhumanesociety.org](http://www.borderlandhumanesociety.org) or call the BHS holding facility at 218-283-9276.",
+                "score": 0.91722,
+                "arguments": [
+                    {
+                        "text": "facility",
+                        "location": [
+                            242,
+                            250
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "facility"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "BHS",
+                        "location": [
+                            230,
+                            233
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "BHS"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "Donations can be sent to Borderland Humane Society 1990 Valley Pine Circle Int'l Falls, MN 56649.",
+                "score": 0.812298,
+                "arguments": [
+                    {
+                        "text": "Circle Int'l Falls, MN\n56649",
+                        "location": [
+                            467,
+                            495
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Circle Int'l Falls, MN\n56649"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Valley Pine",
+                        "location": [
+                            455,
+                            466
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Valley Pine"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "happy boy",
+                "relevance": 0.999248,
+                "count": 1
+            },
+            {
+                "text": "Happy loves",
+                "relevance": 0.954117,
+                "count": 1
+            },
+            {
+                "text": "Borderland Humane Society",
+                "relevance": 0.635552,
+                "count": 2
+            },
+            {
+                "text": "BHS",
+                "relevance": 0.528979,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.528979,
+                "count": 1
+            },
+            {
+                "text": "facility",
+                "relevance": 0.515859,
+                "count": 1
+            },
+            {
+                "text": "Donations",
+                "relevance": 0.515859,
+                "count": 1
+            },
+            {
+                "text": "Facebook",
+                "relevance": 0.515859,
+                "count": 1
+            },
+            {
+                "text": "website",
+                "relevance": 0.515859,
+                "count": 1
+            },
+            {
+                "text": "grey 2-year-old tabby",
+                "relevance": 0.506701,
+                "count": 1
+            },
+            {
+                "text": "Valley Pine Circle Int'l Falls",
+                "relevance": 0.261715,
+                "count": 1
+            },
+            {
+                "text": "MN",
+                "relevance": 0.225368,
+                "count": 1
+            },
+            {
+                "text": "treats",
+                "relevance": 0.225368,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "92b09bd9a0aeecf3f59c966ff15cdc41daff6f21",
+        "filename": "202006010000NEWSBANKNEWSPPRS795799E51A2D5BC89045B7414BFE498.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Pet of the Week",
+    "html": "<p>'\"Happy\" is a very happy boy.</p>\n<p>He is a grey 2-year-old tabby. Happy loves to play and loves treats.</p>\n\n<p>For more information, visit the website at <a href=\"http://www.borderlandhumanesociety.org\">www.borderlandhumanesociety.org</a> or call the BHS holding facility at 218-283-9276. Find us on Facebook <a href=\"https://www.facebook.com/BorderlandHumaneSociety/\">https://www.facebook.com/BorderlandHumaneSociety/</a></p>\n\n<p>Please continue to support the <org>Borderland Humane Society</org>. Donations can be sent to <org>Borderland Humane Society</org> 1990 Valley <person>Pine Circle Int</person>'l Falls, MN 56649.</p>",
+    "geoFocus": [
+        [
+            "GU/gb.eng.london",
+            "London"
+        ],
+        [
+            "GU/us.mn.intlls",
+            "International Falls"
+        ]
+    ]
+}

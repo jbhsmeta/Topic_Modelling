@@ -1,0 +1,363 @@
+{
+    "id": "a0614c24-cb8c-4f53-8805-08f0de26b651",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "2110566997021408902",
+    "description": "Refurbishment of the Berkach sports building- plastering, painting and drywall work more info: Location: GERMANY BidDate: 6/ 10/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Grabfeld commune Tendering Authority Address: Berkach Am Schlosshof 2 98631 Grabfeld Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Sports",
+            "code": "IS/sports#5#58#50",
+            "level": 0
+        }
+    ],
+    "text": "Refurbishment of the Berkach sports building - plastering, painting and\ndrywall work more info : Location : GERMANY BidDate : 6/10/2020 Tender Country\n: GERMANY Tender Type : Tenders Tendering Authority : Grabfeld commune\nTendering Authority Address : Berkach Am Schlosshof 2 98631 Grabfeld Financier\n: Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_54985_176212199_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.887535,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.365301,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.507964,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.277385,
+                    "label": "negative"
+                },
+                "text": "Grabfeld Financier",
+                "relevance": 0.443568,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.277385,
+                    "label": "negative"
+                },
+                "text": "Berkach Am Schlosshof",
+                "relevance": 0.441935,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Berkach",
+                "relevance": 0.295814,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Grabfeld",
+                "relevance": 0.25506,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Grabfeld, Thuringia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Grabfeld,_Thuringia"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Self"
+                },
+                "sentence": " : Self Funded Tearn Money : Not Specified",
+                "object": {
+                    "text": "Tearn Money"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Funded",
+                        "tense": "past"
+                    },
+                    "text": "Funded",
+                    "normalized": "Funded"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Self Funded"
+                },
+                "sentence": " : Self Funded Tearn Money : Not Specified",
+                "object": {
+                    "text": "Money"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Tearn",
+                        "tense": "present"
+                    },
+                    "text": "Tearn",
+                    "normalized": "Tearn"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.804514,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.644236,
+                "label": "/business and industrial/construction"
+            },
+            {
+                "score": 0.603146,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Refurbishment of the Berkach sports building - plastering, painting and drywall work more info : Location : GERMANY BidDate : 6/10/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Grabfeld commune Tendering Authority Address : Berkach Am Schlosshof 2 98631 Grabfeld Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.660303,
+                "arguments": [
+                    {
+                        "text": "6/10/2020 Tender",
+                        "location": [
+                            126,
+                            142
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/10/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : Grabfeld commune\nTendering Authority Address : Berkach Am Schlosshof 2",
+                        "location": [
+                            161,
+                            275
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : Grabfeld commune\nTendering Authority Address : Berkach Am Schlosshof 2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "drywall work",
+                "relevance": 0.949392,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.918593,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.727302,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.71868,
+                "count": 1
+            },
+            {
+                "text": "Refurbishment of the Berkach sports building",
+                "relevance": 0.668403,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.636069,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.5718,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.566545,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.562322,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.559602,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.551327,
+                "count": 1
+            },
+            {
+                "text": "painting",
+                "relevance": 0.517221,
+                "count": 1
+            },
+            {
+                "text": "Authority Address",
+                "relevance": 0.481486,
+                "count": 1
+            },
+            {
+                "text": "Berkach Am Schlosshof",
+                "relevance": 0.447366,
+                "count": 1
+            },
+            {
+                "text": "Grabfeld commune",
+                "relevance": 0.357455,
+                "count": 1
+            },
+            {
+                "text": "Grabfeld Financier",
+                "relevance": 0.317954,
+                "count": 1
+            },
+            {
+                "text": "plastering",
+                "relevance": 0.249232,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "a42b43ccdeb8252cec38c5b76a0a1962a4392a50",
+        "filename": "202006050210ALBA____ME_NA_NE_54985_176212199_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Refurbishment of the Berkach sports building - plastering, painting and drywall work [TenderNews.com - Tenders (India)]",
+    "html": "<p>Refurbishment of the Berkach sports building - plastering, painting and drywall work more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/10/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Grabfeld commune\nTendering Authority Address : Berkach Am Schlosshof 2 98631 Grabfeld\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

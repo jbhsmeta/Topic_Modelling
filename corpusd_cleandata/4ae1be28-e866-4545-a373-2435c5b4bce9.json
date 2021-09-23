@@ -1,0 +1,349 @@
+{
+    "id": "4ae1be28-e866-4545-a373-2435c5b4bce9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 Copyright 2020 The Times-Mail. All rights reserved.",
+    "geoOrigin": "Bedford, Indiana",
+    "sourceType": "Newspaper",
+    "source": "Times-Mail, The (Bedford, IN)",
+    "corpus_document_id": "55504384435969072801",
+    "description": "PAOLI- Gertrude E. Reick, 91, of Paoli, died Friday, May. 29. Arrangements by McAdams Mortuary, Paoli. Private graveside service will be held.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": "IS/lifesoc.spec",
+            "relevance_score": "8",
+            "description": "Obituaries and Funerals",
+            "code": "IS/lifesoc.obit#8#85#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "8",
+            "description": "Structured Life and Society Content",
+            "code": "IS/lifesoc.spec#8#50#85",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Structured Content",
+            "code": "IS/spec#8#50#85",
+            "level": 0
+        }
+    ],
+    "text": "Gertrude Reick, 91\n\nPAOLI - Gertrude E. Reick , 91 , of Paoli, died Friday, May. 29. Arrangements\nby McAdams Mortuary, Paoli. Private graveside service will be held.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Gertrude Reick",
+            "Gertrude E. Reick"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.in.bedfor",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS50CC009015E9E9844C8C4274D949EF4.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "PAOLI",
+                "relevance": 0.919652,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Paoli Township, Orange County, Indiana",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Paoli_Township,_Orange_County,_Indiana"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Gertrude E. Reick",
+                "relevance": 0.574454,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.381982,
+                    "label": "negative"
+                },
+                "text": "McAdams Mortuary",
+                "relevance": 0.389741,
+                "type": "Facility"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "PAOLI - Gertrude E. Reick , 91 , of Paoli,"
+                },
+                "sentence": " PAOLI - Gertrude E. Reick , 91 , of Paoli, died Friday, May. 29.",
+                "action": {
+                    "verb": {
+                        "text": "die",
+                        "tense": "past"
+                    },
+                    "text": "died",
+                    "normalized": "die"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.536003,
+                "label": "/art and entertainment/music/music reference"
+            },
+            {
+                "score": 0.527505,
+                "label": "/automotive and vehicles/road-side assistance"
+            },
+            {
+                "score": 0.525421,
+                "label": "/art and entertainment/shows and events/classical concert"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "Gertrude Reick, 91",
+                "score": 0.994892,
+                "arguments": [
+                    {
+                        "text": "Gertrude Reick",
+                        "location": [
+                            0,
+                            14
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Gertrude Reick"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "91",
+                        "location": [
+                            16,
+                            18
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "91"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "PAOLI - Gertrude E. Reick , 91 , of Paoli, died Friday, May.",
+                "score": 0.993371,
+                "arguments": [
+                    {
+                        "text": "PAOLI - Gertrude E. Reick",
+                        "location": [
+                            20,
+                            45
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "PAOLI - Gertrude E. Reick"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "91",
+                        "location": [
+                            48,
+                            50
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "91"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "PAOLI - Gertrude E. Reick , 91 , of Paoli, died Friday, May.",
+                "score": 0.963522,
+                "arguments": [
+                    {
+                        "text": "PAOLI - Gertrude E. Reick",
+                        "location": [
+                            20,
+                            45
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "PAOLI - Gertrude E. Reick"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Paoli",
+                        "location": [
+                            56,
+                            61
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Paoli"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "diedOn",
+                "sentence": "PAOLI - Gertrude E. Reick , 91 , of Paoli, died Friday, May.",
+                "score": 0.470242,
+                "arguments": [
+                    {
+                        "text": "PAOLI - Gertrude E. Reick",
+                        "location": [
+                            20,
+                            45
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "PAOLI - Gertrude E. Reick"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Friday, May",
+                        "location": [
+                            68,
+                            79
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Friday, May"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Arrangements by McAdams Mortuary, Paoli.",
+                "score": 0.929209,
+                "arguments": [
+                    {
+                        "text": "McAdams Mortuary",
+                        "location": [
+                            101,
+                            117
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "McAdams Mortuary"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Paoli",
+                        "location": [
+                            119,
+                            124
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Paoli"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Gertrude Reick",
+                "relevance": 0.930596,
+                "count": 1
+            },
+            {
+                "text": "McAdams Mortuary",
+                "relevance": 0.831737,
+                "count": 1
+            },
+            {
+                "text": "PAOLI",
+                "relevance": 0.814048,
+                "count": 3
+            },
+            {
+                "text": "Gertrude E. Reick",
+                "relevance": 0.809275,
+                "count": 1
+            },
+            {
+                "text": "Private graveside service",
+                "relevance": 0.684909,
+                "count": 1
+            },
+            {
+                "text": "Arrangements",
+                "relevance": 0.535248,
+                "count": 1
+            },
+            {
+                "text": "Friday",
+                "relevance": 0.128396,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.125074,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "4b62f3195c64744aac4fccd868473a7024f000c3",
+        "filename": "202006010000NEWSBANKNEWSPPRS50CC009015E9E9844C8C4274D949EF4.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Gertrude Reick 91",
+    "html": "<p><person>Gertrude Reick</person>, 91</p>\n<p>PAOLI - <person>Gertrude E. Reick</person> , 91 , of Paoli, died <chron>Friday, May. 29</chron>. Arrangements by McAdams Mortuary, Paoli. Private graveside service will be held.</p>",
+    "geoFocus": [
+        [
+            "GU/us.in.bedfor",
+            "Bedford"
+        ]
+    ]
+}

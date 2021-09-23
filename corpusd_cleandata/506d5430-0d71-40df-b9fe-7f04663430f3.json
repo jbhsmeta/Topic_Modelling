@@ -1,0 +1,556 @@
+{
+    "id": "506d5430-0d71-40df-b9fe-7f04663430f3",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Richmond County, Virginia",
+    "sourceType": "Broadcast Transcript",
+    "source": "WTVR-TV (Richmond, VA)",
+    "corpus_document_id": "36025415558782503216",
+    "description": "RICHMOND, Va.- There's no better time than the present if you're thinking about new carpet or new floors. Our friend of the show, Kerry James from 50 Floor, joins us this morning to tell us about the convenience that 50 Floor offers and the specials offered in the month of May. Don't forget, you can receive an extra $100 off with promo code \"Virginia This Morning\" on their...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "RICHMOND, Va. \\- There's no better time than the present if you're thinking\nabout new carpet or new floors. Our friend of the show, Kerry James from 50\nFloor, joins us this morning to tell us about the convenience that 50 Floor\noffers and the specials offered in the month of May. Through the end of May,\nyou can take advantage of FREE INSTALLATION, which includes carpet, hardwood,\nlaminate and vinyl. Call (877) 50 FLOOR (3-5667) to receive free installation\nfor the month of May. Don't forget, you can receive an extra $100 off with\npromo code \"Virginia This Morning\" on their website.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Consumer Goods",
+            "code": "II/congood#9#50#94",
+            "level": 0
+        },
+        {
+            "parent": "II/congood.homefurn",
+            "relevance_score": "9",
+            "description": "Floor Coverings",
+            "code": "II/congood.flower#9#94#50",
+            "level": 3
+        },
+        {
+            "parent": "II/congood.house",
+            "relevance_score": "9",
+            "description": "Home Furnishings",
+            "code": "II/congood.homefurn#9#50#94",
+            "level": 2
+        },
+        {
+            "parent": "II/congood",
+            "relevance_score": "9",
+            "description": "Household Goods",
+            "code": "II/congood.house#9#50#94",
+            "level": 1
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "RICHMOND, Va."
+        ],
+        "person": [
+            "Kerry James"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.va.rchmnd",
+    "language": "English",
+    "filename": "202005260000NEWSBANKNEWSPPRS380286B54261598967A9DFA3C0553C7.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kerry James",
+                "relevance": 0.787217,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "RICHMOND",
+                "relevance": 0.698775,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Richmond, Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Richmond,_Virginia"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.295425,
+                    "label": "positive"
+                },
+                "text": "Virginia",
+                "relevance": 0.577326,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Virginia"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.454891,
+                    "label": "negative"
+                },
+                "text": "Va.",
+                "relevance": 0.482103,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$100",
+                "relevance": 0.482103,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "RICHMOND, Va. \\- There"
+                },
+                "sentence": "RICHMOND, Va. \\- There's no better time than the present if you're thinking",
+                "object": {
+                    "text": "no better time than the present"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Floor"
+                },
+                "sentence": " Floor, joins us this morning to tell us about the convenience that 50 Floor",
+                "object": {
+                    "text": "us"
+                },
+                "action": {
+                    "verb": {
+                        "text": "join",
+                        "tense": "present"
+                    },
+                    "text": "joins",
+                    "normalized": "join"
+                }
+            },
+            {
+                "subject": {
+                    "text": "about the convenience that 50 Floor"
+                },
+                "sentence": " Floor, joins us this morning to tell us about the convenience that 50 Floor",
+                "object": {
+                    "text": "us"
+                },
+                "action": {
+                    "verb": {
+                        "text": "tell",
+                        "tense": "future"
+                    },
+                    "text": "to tell",
+                    "normalized": "to tell"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the specials"
+                },
+                "sentence": " offers and the specials offered in the month of May.",
+                "action": {
+                    "verb": {
+                        "text": "offer",
+                        "tense": "past"
+                    },
+                    "text": "offered",
+                    "normalized": "offer"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " you can take advantage of FREE INSTALLATION, which includes carpet, hardwood,",
+                "object": {
+                    "text": "advantage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "future"
+                    },
+                    "text": "can take",
+                    "normalized": "can take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "carpet, hardwood,"
+                },
+                "sentence": " you can take advantage of FREE INSTALLATION, which includes carpet, hardwood,",
+                "object": {
+                    "text": "FREE INSTALLATION"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Call (877) 50 FLOOR (3-5667)"
+                },
+                "sentence": " Call (877) 50 FLOOR (3-5667) to receive free installation",
+                "object": {
+                    "text": "free installation"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "future"
+                    },
+                    "text": "to receive",
+                    "normalized": "to receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " Don't forget, you can receive an extra $100 off with",
+                "object": {
+                    "text": "an extra $100"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "future"
+                    },
+                    "text": "can receive",
+                    "normalized": "can receive"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.648403,
+                "label": "/automotive and vehicles/cars/coupe"
+            },
+            {
+                "score": 0.616402,
+                "label": "/automotive and vehicles/cars/sedan"
+            },
+            {
+                "score": 0.594084,
+                "label": "/automotive and vehicles/cars/convertible"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "RICHMOND, Va. \\- There's no better time than the present if you're thinking about new carpet or new floors.",
+                "score": 0.945107,
+                "arguments": [
+                    {
+                        "text": "RICHMOND",
+                        "location": [
+                            0,
+                            8
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "RICHMOND"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Va.",
+                        "location": [
+                            10,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Va."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Our friend of the show, Kerry James from 50 Floor, joins us this morning to tell us about the convenience that 50 Floor offers and the specials offered in the month of May.",
+                "score": 0.592409,
+                "arguments": [
+                    {
+                        "text": "Kerry James",
+                        "location": [
+                            132,
+                            143
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Kerry James"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Floor",
+                        "location": [
+                            152,
+                            157
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Floor"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Our friend of the show, Kerry James from 50 Floor, joins us this morning to tell us about the convenience that 50 Floor offers and the specials offered in the month of May.",
+                "score": 0.668118,
+                "arguments": [
+                    {
+                        "text": "May",
+                        "location": [
+                            276,
+                            279
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "May"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "offered",
+                        "location": [
+                            252,
+                            259
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "offered"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "new floors",
+                "relevance": 0.831364,
+                "count": 1
+            },
+            {
+                "text": "new carpet",
+                "relevance": 0.816755,
+                "count": 1
+            },
+            {
+                "text": "advantage of FREE INSTALLATION",
+                "relevance": 0.705083,
+                "count": 1
+            },
+            {
+                "text": "better time",
+                "relevance": 0.680448,
+                "count": 1
+            },
+            {
+                "text": "friend of the show",
+                "relevance": 0.649546,
+                "count": 1
+            },
+            {
+                "text": "specials",
+                "relevance": 0.610364,
+                "count": 1
+            },
+            {
+                "text": "code",
+                "relevance": 0.549229,
+                "count": 1
+            },
+            {
+                "text": "Floor",
+                "relevance": 0.547385,
+                "count": 2
+            },
+            {
+                "text": "carpet",
+                "relevance": 0.529849,
+                "count": 1
+            },
+            {
+                "text": "Virginia",
+                "relevance": 0.526671,
+                "count": 1
+            },
+            {
+                "text": "laminate",
+                "relevance": 0.525786,
+                "count": 1
+            },
+            {
+                "text": "RICHMOND",
+                "relevance": 0.525786,
+                "count": 1
+            },
+            {
+                "text": "convenience",
+                "relevance": 0.524032,
+                "count": 1
+            },
+            {
+                "text": "free installation",
+                "relevance": 0.516917,
+                "count": 1
+            },
+            {
+                "text": "hardwood",
+                "relevance": 0.513947,
+                "count": 1
+            },
+            {
+                "text": "website",
+                "relevance": 0.513947,
+                "count": 1
+            },
+            {
+                "text": "vinyl",
+                "relevance": 0.513947,
+                "count": 1
+            },
+            {
+                "text": "month of May",
+                "relevance": 0.499481,
+                "count": 2
+            },
+            {
+                "text": "Kerry James",
+                "relevance": 0.499481,
+                "count": 1
+            },
+            {
+                "text": "end of May",
+                "relevance": 0.47296,
+                "count": 1
+            },
+            {
+                "text": "joins",
+                "relevance": 0.432624,
+                "count": 1
+            },
+            {
+                "text": "morning",
+                "relevance": 0.427878,
+                "count": 2
+            },
+            {
+                "text": "present",
+                "relevance": 0.404112,
+                "count": 1
+            },
+            {
+                "text": "Va",
+                "relevance": 0.401259,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "66441ac98ff9793081732c5092c65acb09d92330",
+        "filename": "202005260000NEWSBANKNEWSPPRS380286B54261598967A9DFA3C0553C7.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-26T00:00:00-04:00",
+    "title": "Enhancing your home with new flooring & free installation from 50 Floor",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.va.rchmnd\">RICHMOND, Va.</location> - There's no better time than the present if you're thinking about new carpet or new floors. Our friend of the show, <person>Kerry James</person> from 50 Floor, joins us this morning to tell us about the convenience that 50 Floor offers and the specials offered in the month of May. Through the end of May, you can take advantage of FREE INSTALLATION, which includes carpet, hardwood, laminate and vinyl. Call (877) 50 FLOOR (3-5667) to receive free installation for the month of May. Don't forget, you can receive an extra <money>$100</money> off with promo code \"Virginia This Morning\" on their website.</p>",
+    "geoFocus": [
+        [
+            "GU/us.va.rchmnd",
+            "Richmond County"
+        ]
+    ]
+}

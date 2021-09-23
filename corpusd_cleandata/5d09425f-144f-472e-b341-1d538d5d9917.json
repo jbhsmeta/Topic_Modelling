@@ -1,0 +1,257 @@
+{
+    "id": "5d09425f-144f-472e-b341-1d538d5d9917",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "24671136064379722552",
+    "description": "Ordinary burial of the Bad Bergzabern community more info: Location: GERMANY BidDate: 6/ 19/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Local government administration Bad Bergzabern Tendering Authority Address: Area of the Bad Bergzabern Association Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Ordinary burial of the Bad Bergzabern community more info : Location : GERMANY\nBidDate : 6/19/2020 Tender Country : GERMANY Tender Type : Tenders Tendering\nAuthority : Local government administration Bad Bergzabern Tendering Authority\nAddress : Area of the Bad Bergzabern Association Financier : Self Funded Tearn\nMoney : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_51059_176210466_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Bad Bergzabern Tendering Authority",
+                "relevance": 0.964262,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.232195,
+                    "label": "negative"
+                },
+                "text": "Bad Bergzabern Association",
+                "relevance": 0.551137,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.432415,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.424607,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.864675,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.820926,
+                "label": "/law, govt and politics/government/state and local government"
+            },
+            {
+                "score": 0.647111,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Ordinary burial of the Bad Bergzabern community more info : Location : GERMANY BidDate : 6/19/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Local government administration Bad Bergzabern Tendering Authority Address : Area of the Bad Bergzabern Association Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.502182,
+                "arguments": [
+                    {
+                        "text": "6/19/2020 Tender",
+                        "location": [
+                            89,
+                            105
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/19/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering\nAuthority : Local",
+                        "location": [
+                            124,
+                            173
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering\nAuthority : Local"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Ordinary burial of the Bad Bergzabern community more info : Location : GERMANY BidDate : 6/19/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Local government administration Bad Bergzabern Tendering Authority Address : Area of the Bad Bergzabern Association Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.641154,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            284,
+                            293
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Association",
+                        "location": [
+                            272,
+                            283
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Association"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Ordinary burial of the Bad Bergzabern community",
+                "relevance": 0.932538,
+                "count": 1
+            },
+            {
+                "text": "Area of the Bad Bergzabern Association Financier",
+                "relevance": 0.69503,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.615852,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.543118,
+                "count": 2
+            },
+            {
+                "text": "info",
+                "relevance": 0.526778,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.522091,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.416682,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "475c0f74ee2a8534737c6d6d85df1cd7b9083d54",
+        "filename": "202006050210ALBA____ME_NA_NE_51059_176210466_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Ordinary burial of the Bad Bergzabern community [TenderNews.com - Tenders (India)]",
+    "html": "<p>Ordinary burial of the Bad Bergzabern community more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/19/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Local government administration Bad Bergzabern\nTendering Authority Address : Area of the Bad Bergzabern Association\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

@@ -1,0 +1,2305 @@
+{
+    "id": "3d673ad1-35d5-4beb-bd56-2bcccdc25b9c",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, China Business Day",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "China Business Day",
+    "corpus_document_id": "29308512860086520256",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at China Business Day-- From Washington, D.C., NewsRx journalists report that a patent application by the inventors TANG, Hai, filed on August 2, 2017, was made available online on May 21, 2020. The patent\u2019 s assignee is Guangdong Oppo Mobile Telecommunications Corp. Ltd.. News editors obtained the following quote from...",
+    "serviceName": "Geographic Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Eastern Asia",
+            "code": "LB/eas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eas",
+            "relevance_score": "9",
+            "description": "People's Republic of China",
+            "code": "LC/cn#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business\nDay -- From Washington, D.C., NewsRx journalists report that a patent\napplication by the inventors TANG, Hai (Dongguan, Guangdong, China), filed on\nAugust 2, 2017, was made available online on May 21, 2020.\n\nThe patent's assignee is Guangdong Oppo Mobile Telecommunications Corp. Ltd.\n(Dongguan, Guangdong, People's Republic of China).\n\nNews editors obtained the following quote from the background information\nsupplied by the inventors: \"In the existing discussion of the New Radio (NR),\nit has been agreed to configure for the terminal device a plurality of\nScheduling Requests (SR) configuration information, and the terminal device\nmay indicate to the network device by using the plurality of SR configurations\nwhich type of uplink authorization resource is required by the terminal\ndevice.\n\n\"However, the current discussion does not give a clear definition of the SR\nconfiguration. Therefore, how to implement uplink transmission under a\nplurality of SR configurations is an urgent problem to be solved for the\nterminal device.\"\n\nAs a supplement to the background information on this patent application,\nNewsRx correspondents also obtained the inventors' summary information for\nthis patent application: \"The embodiments of the present application provide a\nmethod for uplink transmission and a terminal device, which can implement\nuplink transmission in a scenario of a plurality of SR configuration\ninformation.\n\n\"In a first aspect, there is provided a method for uplink transmission,\nincluding:\n\n\"receiving, by a terminal device, a plurality of Scheduling Request (SR)\nconfiguration information of a network device, wherein each SR configuration\ninformation includes a maximum number of transmissions of a corresponding SR;\nand\n\n\"processing, by the terminal device, Physical Uplink Control Channel (PUCCH)\nresources corresponding to the plurality of SR configuration information\naccording to the plurality of SR configuration information.\n\n\"Therefore, according to the method for uplink transmission in the embodiments\nof the present application, the terminal device can receive a plurality of SR\nconfiguration information configured by the network device, each SR\nconfiguration information including the maximum number of transmissions of the\ncorresponding SR, and the terminal device can process the PUCCH resources\ncorresponding to the plurality of SR configuration information according to\nthe maximum number of transmissions of the corresponding SR in the plurality\nof SR configuration information to achieve the uplink transmission.\n\n\"Optionally, in the embodiments of the present application, the maximum\nnumbers of transmissions of the corresponding SRs included in individual SR\nconfiguration information may be the same, or may be different.\n\n\"In combination with the first aspect, in some implementation manners of the\nfirst aspect, the plurality of SR configuration information includes first SR\nconfiguration information, the first SR configuration information corresponds\nto a first SR, and the processing, by the terminal device, the Physical Uplink\nControl Channel (PUCCH) resources corresponding to the plurality of SR\nconfiguration information according to the plurality of SR configuration\ninformation includes:\n\n\"when a number of transmissions of the first SR reaches the maximum number of\ntransmissions of the first SR, releasing, by the terminal device, a PUCCH\nresource corresponding to the first SR configuration information.\n\n\"In combination with the first aspect, in some implementation manners of the\nfirst aspect, the method further includes:\n\n\"initiating a random access procedure and requesting to acquire the PUCCH\nresource corresponding to the first SR configuration information, by the\nterminal device.\n\n\"That is, the maximum number of transmissions of the SR included in each SR\nconfiguration information is used to determine the release timing of the PUCCH\nresource corresponding to each SR configuration information, i.e., the maximum\nnumber of transmissions of the first SR included in the first SR configuration\ninformation is used to determine the release timing of the PUCCH resource\ncorresponding to the first SR configuration information, and the maximum\nnumber of transmissions of the second SR included in the second SR\nconfiguration information is used to determine the release timing of the PUCCH\nresource corresponding to the second SR configuration information, that is to\nsay, the release timing of the PUCCH resources corresponding to individual SR\nconfiguration information is separately managed.\n\n\"In combination with the first aspect, in some implementation manners of the\nfirst aspect, the plurality of SR configuration information includes second SR\nconfiguration information, the second SR configuration information corresponds\nto a second SR, and the processing, by the terminal device, the Physical\nUplink Control Channel (PUCCH) resources corresponding to the plurality of SR\nconfiguration information according to the plurality of SR configuration\ninformation includes:\n\n\"when a number of transmissions of the second SR reaches the maximum number of\ntransmissions of the second SR, releasing, by the terminal device, the PUCCH\nresource corresponding to each SR configuration information.\n\n\"In combination with the first aspect, in some implementation manners of the\nfirst aspect, the method further includes:\n\n\"clearing downlink allocation information and uplink authorization information\ndelivered by the network device, and cancelling sending each SR to be sent, by\nthe terminal device; and\n\n\"initiating a random access procedure and reconfiguring each of the SR\nconfiguration information, by the terminal device.\n\n\"That is, the PUCCH resources corresponding to individual SR configuration\ninformation may be considered to be uniformly managed, i.e., as long as the\nnumber of transmissions of the SR corresponding to any SR configuration\ninformation reaches the maximum number of transmissions of any SR, the\nterminal device may be triggered to release the PUCCH resource corresponding\nto each SR configuration information, or the number of transmissions of any of\nthe SRs reaching the maximum number of transmissions of any of the SRs is the\nrelease timing of the PUCCH resource corresponding to each of the SR\nconfiguration information.\n\n\"In combination with the first aspect, in some implementation manners of the\nfirst aspect, the plurality of SR configuration information includes third SR\nconfiguration information, the third SR configuration information has a higher\npriority than other SR configuration information, said other SR configuration\ninformation includes fourth SR configuration information, the fourth SR\nconfiguration information corresponds to a fourth SR, and the processing, by\nthe terminal device, the Physical Uplink Control Channel (PUCCH) resources\ncorresponding to the plurality of SR configuration information according to\nthe plurality of SR configuration information includes:\n\n\"when a number of transmissions of the fourth SR reaches the maximum number of\ntransmissions of the fourth SR, releasing, by the terminal device, a PUCCH\nresource corresponding to the fourth SR configuration information.\n\n\"In combination with the first aspect, in some implementation manners of the\nfirst aspect, the method further includes:\n\n\"sending, by the terminal device, the fourth SR by using the PUCCH resource\ncorresponding to the third SR configuration information.\n\n\"In combination with the first aspect, in some implementation manners of the\nfirst aspect, the plurality of SR configuration information includes third SR\nconfiguration information, the third SR configuration information has a higher\npriority than other SR configuration information, said other SR configuration\ninformation includes fourth SR configuration information, the third\nconfiguration information corresponds to a third SR, and the processing, by\nthe terminal device, the Physical Uplink Control Channel (PUCCH) resources\ncorresponding to the plurality of SR configuration information according to\nthe plurality of SR configuration information includes:\n\n\"when a number of transmissions of the third SR reaches the maximum number of\ntransmissions of the third SR, releasing, by the terminal device, the PUCCH\nresource corresponding to each SR configuration information.\n\n\"In combination with the first aspect, in some implementation manners of the\nfirst aspect, the method further includes:\n\n\"clearing, by the terminal device, downlink allocation information and uplink\nauthorization information delivered by the network device; and\n\n\"initiating a random access procedure and cancelling sending each SR to be\nsent, by the terminal device.\n\n\"In combination with the first aspect, in some implementation manners of the\nfirst aspect, a transmission reliability of the PUCCH resource corresponding\nto the third SR configuration information is higher than a transmission\nreliability of the PUCCH resource corresponding to the fourth SR configuration\ninformation.\n\n\"In general, the maximum number of transmissions of the SR included in each\nnon-default SR configuration information may be used to determine the release\ntiming of the PUCCH resource corresponding to each non-default SR\nconfiguration information, and the maximum number of transmissions of the SR\nincluded in the default SR configuration information may be used to determine\nthe release timing of the PUCCH resource corresponding to each SR\nconfiguration information.\n\n\"In a second aspect, there is provided a method for uplink transmission,\nincluding:\n\n\"receiving, by a terminal device, a plurality of Scheduling Request (SR)\nconfiguration information of a network device, wherein each SR configuration\ninformation includes a maximum number of transmissions of the SR, and the\nmaximum number of transmissions of the SR is used to indicate a cumulative\nmaximum number of transmissions of all the SRs; and\n\n\"processing, by the terminal device, Physical Uplink Control Channel (PUCCH)\nresources corresponding to the plurality of SR configuration information\naccording to the plurality of SR configuration information.\n\n\"In combination with the second aspect, in some implementation manners of the\nsecond aspect, the processing, by the terminal device, the Physical Uplink\nControl Channel (PUCCH) resources corresponding to the plurality of SR\nconfiguration information according to the plurality of SR configuration\ninformation includes:\n\n\"releasing, by the terminal device, the PUCCH resource corresponding to each\nSR configuration information, in a case that a cumulative number of\ntransmissions of all the SRs reaches the maximum number of transmissions of\nthe SR.\n\n\"In the present embodiment, the terminal device may count the number of\ntransmissions of each SR, and processes the PUCCH resource corresponding to\neach SR configuration information according to the cumulative number of\ntransmissions of all SRs, specifically, when the cumulative number of\ntransmissions of all the SRs reaches the maximum number of transmissions of\nthe SR, the terminal device may release the PUCCH resource corresponding to\neach SR configuration information.\n\n\"In combination with the second aspect, in some implementation manners of the\nsecond aspect, the method further includes:\n\n\"clearing, by the terminal device, downlink allocation information and uplink\nauthorization information delivered by the network device; and\n\n\"initiating a random access procedure and cancelling sending each SR to be\nsent, by the terminal device.\n\n\"In a third aspect, there is provided a terminal device for executing the\nmethod in the above first aspect or any possible implementation manners of the\nfirst aspect. In particular, the terminal device includes units for executing\nthe method in the above first aspect or any possible implementation manners of\nthe first aspect.\n\n\"In a fourth aspect, there is provided a terminal device for executing the\nmethod in the above second aspect or any possible implementation manners of\nthe second aspect. In particular, the terminal device includes units for\nexecuting the method in the above second aspect or any possible implementation\nmanners of the second aspect.\n\n\"In a fifth aspect, there is provided a terminal device, including: a memory,\na processor, an input interface, and an output interface. The memory, the\nprocessor, the input interface, and the output interface are connected by a\nbus system. The memory is configured for storing instructions, and the\nprocessor is configured for executing the instructions stored in the memory\nfor executing the method in the above first aspect or any possible\nimplementation manners of the first aspect.\n\n\"In a sixth aspect, there is provided a terminal device, including: a memory,\na processor, an input interface, and an output interface. The memory, the\nprocessor, the input interface, and the output interface are connected by a\nbus system. The memory is configured for storing instructions, and the\nprocessor is configured for executing the instructions stored in the memory\nfor executing the method in the above second aspect or any possible\nimplementation manners of the second aspect.\n\n\"In a seventh aspect, there is provided a computer storage medium for storing\ncomputer software instructions, the computer software instructions are used\nfor executing the method in the above first aspect or any possible\nimplementation manners of the first aspect, or the method in the above second\naspect or any possible implementation manners of the second aspect, and the\ncomputer storage medium includes a program designed to perform the above\naspects.\n\n\"In an eighth aspect, there is provided a computer program product, and when\nthe computer program product is executed in a computer, the computer is\nenabled to execute the method in the above first aspect or any optional\nimplementation manners of the first aspect, or the method in the above second\naspect or any optional implementation manners of the second aspect.\"\n\nThe claims supplied by the inventors are:\n\n\"1\\. A method for uplink transmission, comprising: receiving, by a terminal\ndevice, a plurality of Scheduling Request (SR) configuration information of a\nnetwork device, wherein each SR configuration information comprises a maximum\nnumber of transmissions of a corresponding SR; and processing, by the terminal\ndevice, Physical Uplink Control Channel (PUCCH) resources corresponding to the\nplurality of SR configuration information according to the plurality of SR\nconfiguration information.\n\n\"2\\. The method according to claim 1, wherein the plurality of SR\nconfiguration information comprises first SR configuration information, the\nfirst SR configuration information corresponds to a first SR, and the\nprocessing, by the terminal device, the Physical Uplink Control Channel\n(PUCCH) resources corresponding to the plurality of SR configuration\ninformation according to the plurality of SR configuration information\ncomprises: when a number of transmissions of the first SR reaches the maximum\nnumber of transmissions of the first SR, releasing, by the terminal device, a\nPUCCH resource corresponding to the first SR configuration information.\n\n\"3\\. The method according to claim 2, further comprising: initiating a random\naccess procedure and requesting to acquire the PUCCH resource corresponding to\nthe first SR configuration information, by the terminal device.\n\n\"4\\. The method according to claim 1, wherein the plurality of SR\nconfiguration information comprises second SR configuration information, the\nsecond SR configuration information corresponds to a second SR, and the\nprocessing, by the terminal device, the Physical Uplink Control Channel\n(PUCCH) resources corresponding to the plurality of SR configuration\ninformation according to the plurality of SR configuration information\ncomprises: when a number of transmissions of the second SR reaches the maximum\nnumber of transmissions of the second SR, releasing, by the terminal device,\nthe PUCCH resource corresponding to each SR configuration information.\n\n\"5\\. The method according to claim 4, further comprising: clearing downlink\nallocation information and uplink authorization information delivered by the\nnetwork device, and cancelling sending each SR to be sent, by the terminal\ndevice; and initiating a random access procedure and reconfiguring each of the\nSR configuration information, by the terminal device.\n\n\"6\\. The method according to claim 1, wherein the plurality of SR\nconfiguration information comprises third SR configuration information, the\nthird SR configuration information has a higher priority than other SR\nconfiguration information, said other SR configuration information comprises\nfourth SR configuration information, the fourth SR configuration information\ncorresponds to a fourth SR, and the processing, by the terminal device, the\nPhysical Uplink Control Channel (PUCCH) resources corresponding to the\nplurality of SR configuration information according to the plurality of SR\nconfiguration information comprises: when a number of transmissions of the\nfourth SR reaches the maximum number of transmissions of the fourth SR,\nreleasing, by the terminal device, a PUCCH resource corresponding to the\nfourth SR configuration information.\n\n\"7\\. The method according to claim 6, further comprising: sending, by the\nterminal device, the fourth SR by using the PUCCH resource corresponding to\nthe third SR configuration information.\n\n\"8\\. The method according to claim 1, wherein the plurality of SR\nconfiguration information comprises third SR configuration information, the\nthird SR configuration information has a higher priority than other SR\nconfiguration information, said other SR configuration information comprises\nfourth SR configuration information, the third configuration information\ncorresponds to a third SR, and the processing, by the terminal device, the\nPhysical Uplink Control Channel (PUCCH) resources corresponding to the\nplurality of SR configuration information according to the plurality of SR\nconfiguration information comprises: when a number of transmissions of the\nthird SR reaches the maximum number of transmissions of the third SR,\nreleasing, by the terminal device, the PUCCH resource corresponding to each SR\nconfiguration information.\n\n\"9\\. The method according to claim 8, further comprising: clearing, by the\nterminal device, downlink allocation information and uplink authorization\ninformation delivered by the network device; and initiating a random access\nprocedure and cancelling sending each SR to be sent, by the terminal device.\n\n\"10\\. The method according to claim 6, wherein a transmission reliability of\nthe PUCCH resource corresponding to the third SR configuration information is\nhigher than a transmission reliability of the PUCCH resource corresponding to\nthe fourth SR configuration information.\n\n\"11\\. A method for uplink transmission, comprising: receiving, by a terminal\ndevice, a plurality of Scheduling Request (SR) configuration information of a\nnetwork device, wherein each SR configuration information comprises a maximum\nnumber of transmissions of the SR, and the maximum number of transmissions of\nthe SR is used to indicate a cumulative maximum number of transmissions of all\nthe SRs; and processing, by the terminal device, Physical Uplink Control\nChannel (PUCCH) resources corresponding to the plurality of SR configuration\ninformation according to the plurality of SR configuration information.\n\n\"12\\. The method according to claim 11, wherein the processing, by the\nterminal device, the Physical Uplink Control Channel (PUCCH) resources\ncorresponding to the plurality of SR configuration information according to\nthe plurality of SR configuration information comprises: releasing, by the\nterminal device, the PUCCH resource corresponding to each SR configuration\ninformation, in a case that a cumulative number of transmissions of all the\nSRs reaches the maximum number of transmissions of the SR.\n\n\"13\\. The method according to claim 12, further comprising: clearing, by the\nterminal device, downlink allocation information and uplink authorization\ninformation delivered by the network device; and initiating a random access\nprocedure and cancelling sending each SR to be sent, by the terminal device.\n\n\"14\\. A terminal device, comprising: a memory; a processor; an input\ninterface; and an output interface, wherein the memory, the processor, the\ninput interface, and the output interface are connected by a bus system, the\nmemory is configured for storing instructions, and the processor is configured\nfor executing the instructions stored in the memory to: receive a plurality of\nScheduling Request (SR) configuration information of a network device, wherein\neach SR configuration information comprises a maximum number of transmissions\nof a corresponding SR; and process Physical Uplink Control Channel (PUCCH)\nresources corresponding to the plurality of SR configuration information\naccording to the plurality of SR configuration information.\n\n\"15\\. The terminal device according to claim 14, wherein the plurality of SR\nconfiguration information comprises first SR configuration information, the\nfirst SR configuration information corresponds to the first SR, and the\nprocessor is further configured for executing the instructions stored in the\nmemory to: when a number of transmissions of the first SR reaches the maximum\nnumber of transmissions of the first SR, release a PUCCH resource\ncorresponding to the first SR configuration information.\n\n\"16\\. The terminal device according to claim 15, wherein the processor is\nfurther configured for executing the instructions stored in the memory:\ninitiate a random access procedure, and request to acquire the PUCCH resource\ncorresponding to the first SR configuration information.\n\n\"17\\. The terminal device according to claim 14, wherein the plurality of SR\nconfiguration information comprises second SR configuration information, the\nsecond SR configuration information corresponds to the second SR, and the\nprocessor is further configured for executing the instructions stored in the\nmemory to: when a number of transmissions of the second SR reaches the maximum\nnumber of transmissions of the second SR, release the PUCCH resource\ncorresponding to each SR configuration information.\n\n\"18\\. The terminal device according to claim 17, wherein the processor is\nfurther configured for executing the instructions stored in the memory to:\nclear downlink allocation information and uplink authorization information\ndelivered by the network device, and cancel sending each SR to be sent; and\ninitiate a random access procedure and reconfigure each of the SR\nconfiguration information.\n\n\"19\\. The terminal device according to claim 14, wherein the plurality of SR\nconfiguration information comprises third SR configuration information, the\nthird SR configuration information has a higher priority than other SR\nconfiguration information, and said other SR configuration information\ncomprises fourth SR configuration information, the fourth SR configuration\ninformation corresponds to the fourth SR, and the processor is further\nconfigured for executing the instructions stored in the memory to: when a\nnumber of transmissions of the fourth SR reaches the maximum number of\ntransmissions of the fourth SR, release the PUCCH resource corresponding to\nthe fourth SR configuration information.\n\n\"20\\. The terminal device according to claim 19, wherein the processor is\nfurther configured for executing the instructions stored in the memory to:\nsend the fourth SR by using the PUCCH resource corresponding to the third SR\nconfiguration information.\n\n\"21\\. The terminal device according to claim 14, wherein the plurality of SR\nconfiguration information comprises third SR configuration information, the\nthird SR configuration information has a higher priority than other SR\nconfiguration information, said other SR configuration information comprises\nfourth SR configuration information, the third configuration information\ncorresponds to the third SR, and the processor is further configured for\nexecuting the instructions stored in the memory to: when a number of\ntransmissions of the third SR reaches the maximum number of transmissions of\nthe third SR, release the PUCCH resource corresponding to each SR\nconfiguration information.\n\n\"22\\. The terminal device according to claim 21, wherein the processor is\nfurther configured for executing the instructions stored in the memory to:\nclear downlink allocation information and uplink authorization information\ndelivered by the network device; and initiate a random access procedure and\ncancel sending each SR to be sent.\n\n\"23\\. The terminal device according to claim 19, wherein a transmission\nreliability of the PUCCH resource corresponding to the third SR configuration\ninformation is higher than a transmission reliability of the PUCCH resource\ncorresponding to the fourth SR configuration information.\n\n\"24\\. A terminal device, comprising: a memory; a processor; an input\ninterface; and an output interface, wherein the memory, the processor, the\ninput interface, and the output interface are connected by a bus system, the\nmemory is configured for storing instructions, and the processor is configured\nfor executing the instructions stored in the memory to: receive a plurality of\nScheduling Request (SR) configuration information of a network device, wherein\neach SR configuration information comprises a maximum number of transmissions\nof the SR, and the maximum number of transmissions of the SR is used to\nindicate a cumulative maximum number of transmissions of all the SRs; and\nprocess Physical Uplink Control Channel (PUCCH) resources corresponding to the\nplurality of SR configuration information according to the plurality of SR\nconfiguration information.\n\n\"25\\. The terminal device according to claim 24, wherein the processor is\nfurther configured for executing the instructions stored in the memory to:\nrelease the PUCCH resource corresponding to each SR configuration information\nin a case that a cumulative number of transmissions of all the SRs reaches the\nmaximum number of transmissions of the SR.\n\n\"26\\. The terminal device according to claim 25, wherein the processor is\nfurther configured for executing the instructions stored in the memory to:\nclear downlink allocation information and uplink authorization information\ndelivered by the network device; and initiate a random access procedure and\ncancel sending each SR to be sent.\"\n\nFor additional information on this patent application, see: TANG, Hai. Uplink\nTransmission Method, And Terminal Device. Filed August 2, 2017 and posted May\n21, 2020. Patent URL: [http://appft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220200163110%22.PGNR.&OS=DN/20200163110&RS=DN/20200163110](http://appft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220200163110%22.PGNR.&OS=DN/20200163110&RS=DN/20200163110)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Guangdong Oppo Mobile Telecommunications Corp. Ltd."
+        ],
+        "location": [
+            "Washington, D.C.",
+            "Dongguan",
+            "Guangdong, China",
+            "Guangdong",
+            "Republic of China"
+        ],
+        "person": [],
+        "companies": [
+            "Guangdong Oppo Mobile Telecommunications Corp. Ltd.",
+            "News Reporter-Staff News"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_GEOG_6DAD5BB345441F13.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 68,
+                "sentiment": {
+                    "score": -0.36284,
+                    "label": "negative"
+                },
+                "text": "SRs",
+                "relevance": 0.407624,
+                "type": "Company"
+            },
+            {
+                "count": 7,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "PUCCH",
+                "relevance": 0.237568,
+                "type": "Company"
+            },
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": 0.636502,
+                    "label": "positive"
+                },
+                "text": "PUCCH",
+                "relevance": 0.197207,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dongguan",
+                "relevance": 0.136034,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "City"
+                    ],
+                    "name": "Dongguan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Dongguan"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Washington",
+                "relevance": 0.134054,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "MilitaryPost",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Washington, D.C.",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Washington,_D.C."
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Guangdong Oppo Mobile Telecommunications Corp. Ltd",
+                "relevance": 0.131617,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.130294,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Republic of China",
+                "relevance": 0.127966,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "GeographicFeature",
+                        "Country",
+                        "Island"
+                    ],
+                    "name": "Taiwan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Taiwan"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.441723,
+                    "label": "positive"
+                },
+                "text": "D.C.",
+                "relevance": 0.124031,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "China Business",
+                "relevance": 0.120089,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Guangdong",
+                "relevance": 0.118881,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.373972,
+                    "label": "positive"
+                },
+                "text": "China",
+                "relevance": 0.117758,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GeographicFeature",
+                        "Island",
+                        "Country"
+                    ],
+                    "name": "Taiwan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Taiwan"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "From Washington, D.C., NewsRx journalists"
+                },
+                "sentence": " Day -- From Washington, D.C., NewsRx journalists report that a patent",
+                "object": {
+                    "text": "that a patent"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "present"
+                    },
+                    "text": "report",
+                    "normalized": "report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "August 2, 2017,"
+                },
+                "sentence": " August 2, 2017, was made available online on May 21, 2020.",
+                "object": {
+                    "text": "made available online on May 21, 2020"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "August 2, 2017,"
+                },
+                "sentence": " August 2, 2017, was made available online on May 21, 2020.",
+                "object": {
+                    "text": "available online on May 21, 2020"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "past"
+                    },
+                    "text": "was made",
+                    "normalized": "be make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The patent's assignee"
+                },
+                "sentence": " The patent's assignee is Guangdong Oppo Mobile Telecommunications Corp. Ltd.",
+                "object": {
+                    "text": "Guangdong Oppo Mobile Telecommunications Corp. Ltd"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "News editors"
+                },
+                "sentence": " News editors obtained the following quote from the background information",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " it has been agreed to configure for the terminal device a plurality of",
+                "object": {
+                    "text": "to configure for the terminal device a plurality of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "agree",
+                        "tense": "past"
+                    },
+                    "text": "agreed",
+                    "normalized": "agree"
+                }
+            },
+            {
+                "subject": {
+                    "text": "type of uplink authorization resource"
+                },
+                "sentence": " which type of uplink authorization resource is required by the terminal",
+                "object": {
+                    "text": "required by the terminal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the terminal"
+                },
+                "sentence": " which type of uplink authorization resource is required by the terminal",
+                "object": {
+                    "text": "type of uplink authorization resource"
+                },
+                "action": {
+                    "verb": {
+                        "text": "require",
+                        "tense": "past"
+                    },
+                    "text": "is required",
+                    "normalized": "be require"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the current discussion"
+                },
+                "sentence": " \"However, the current discussion does not give a clear definition of the SR",
+                "object": {
+                    "text": "not give a clear definition of the SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "does",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the current discussion"
+                },
+                "sentence": " \"However, the current discussion does not give a clear definition of the SR",
+                "object": {
+                    "text": "a clear definition of the SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "give",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "give",
+                    "normalized": "give"
+                }
+            },
+            {
+                "subject": {
+                    "text": "plurality of SR configurations"
+                },
+                "sentence": " plurality of SR configurations is an urgent problem to be solved for the",
+                "object": {
+                    "text": "an urgent problem"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "NewsRx correspondents"
+                },
+                "sentence": " NewsRx correspondents also obtained the inventors' summary information for",
+                "object": {
+                    "text": "the inventors' summary information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a maximum number of transmissions of a corresponding SR"
+                },
+                "sentence": " information includes a maximum number of transmissions of a corresponding SR;",
+                "object": {
+                    "text": "information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "resources"
+                },
+                "sentence": " resources corresponding to the plurality of SR configuration information",
+                "object": {
+                    "text": "to the plurality of SR configuration information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the terminal device"
+                },
+                "sentence": " of the present application, the terminal device can receive a plurality of SR",
+                "object": {
+                    "text": "a plurality of SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "future"
+                    },
+                    "text": "can receive",
+                    "normalized": "can receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the maximum number of transmissions of the"
+                },
+                "sentence": " configuration information including the maximum number of transmissions of the",
+                "object": {
+                    "text": "configuration information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the terminal device"
+                },
+                "sentence": " corresponding SR, and the terminal device can process the PUCCH resources",
+                "object": {
+                    "text": "the PUCCH resources"
+                },
+                "action": {
+                    "verb": {
+                        "text": "process",
+                        "tense": "future"
+                    },
+                    "text": "can process",
+                    "normalized": "can process"
+                }
+            },
+            {
+                "subject": {
+                    "text": "SRs"
+                },
+                "sentence": " numbers of transmissions of the corresponding SRs included in individual SR",
+                "object": {
+                    "text": "in individual SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "past"
+                    },
+                    "text": "included",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "configuration information"
+                },
+                "sentence": " configuration information may be the same, or may be different.",
+                "object": {
+                    "text": "the same"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "may be",
+                    "normalized": "may be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "configuration information"
+                },
+                "sentence": " configuration information may be the same, or may be different.",
+                "object": {
+                    "text": "different"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "may be",
+                    "normalized": "may be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "first SR"
+                },
+                "sentence": " first aspect, the plurality of SR configuration information includes first SR",
+                "object": {
+                    "text": "first aspect, the plurality of SR configuration information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Control Channel (PUCCH) resources"
+                },
+                "sentence": " Control Channel (PUCCH) resources corresponding to the plurality of SR",
+                "object": {
+                    "text": "to the plurality of SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "configuration information"
+                },
+                "sentence": " configuration information according to the plurality of SR configuration",
+                "object": {
+                    "text": "to the plurality of SR configuration"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a number of transmissions of the first SR"
+                },
+                "sentence": " \"when a number of transmissions of the first SR reaches the maximum number of",
+                "object": {
+                    "text": "the maximum number of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reach",
+                        "tense": "present"
+                    },
+                    "text": "reaches",
+                    "normalized": "reach"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the maximum number of transmissions of the SR"
+                },
+                "sentence": " \"That is, the maximum number of transmissions of the SR included in each SR",
+                "object": {
+                    "text": "in each SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "past"
+                    },
+                    "text": "included",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "configuration information"
+                },
+                "sentence": " configuration information is used to determine the release timing of the PUCCH",
+                "object": {
+                    "text": "to determine the release timing of the PUCCH"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "is used",
+                    "normalized": "be use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "configuration information"
+                },
+                "sentence": " configuration information is used to determine the release timing of the PUCCH",
+                "object": {
+                    "text": "the release timing of the PUCCH"
+                },
+                "action": {
+                    "verb": {
+                        "text": "determine",
+                        "tense": "future"
+                    },
+                    "text": "to determine",
+                    "normalized": "to determine"
+                }
+            },
+            {
+                "subject": {
+                    "text": "resource"
+                },
+                "sentence": " resource corresponding to each SR configuration information, i.e., the maximum",
+                "object": {
+                    "text": "the maximum"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "information"
+                },
+                "sentence": " information is used to determine the release timing of the PUCCH resource",
+                "object": {
+                    "text": "to determine the release timing of the PUCCH resource"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "is used",
+                    "normalized": "be use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "information"
+                },
+                "sentence": " information is used to determine the release timing of the PUCCH resource",
+                "object": {
+                    "text": "the release timing of the PUCCH resource"
+                },
+                "action": {
+                    "verb": {
+                        "text": "determine",
+                        "tense": "future"
+                    },
+                    "text": "to determine",
+                    "normalized": "to determine"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the maximum"
+                },
+                "sentence": " corresponding to the first SR configuration information, and the maximum",
+                "object": {
+                    "text": "to the first SR configuration information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "number of transmissions of the second SR"
+                },
+                "sentence": " number of transmissions of the second SR included in the second SR",
+                "object": {
+                    "text": "in the second SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "past"
+                    },
+                    "text": "included",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "configuration information"
+                },
+                "sentence": " configuration information is used to determine the release timing of the PUCCH",
+                "object": {
+                    "text": "to determine the release timing of the PUCCH"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "is used",
+                    "normalized": "be use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "configuration information"
+                },
+                "sentence": " configuration information is used to determine the release timing of the PUCCH",
+                "object": {
+                    "text": "the release timing of the PUCCH"
+                },
+                "action": {
+                    "verb": {
+                        "text": "determine",
+                        "tense": "future"
+                    },
+                    "text": "to determine",
+                    "normalized": "to determine"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the release timing of the PUCCH resources"
+                },
+                "sentence": " say, the release timing of the PUCCH resources corresponding to individual SR",
+                "object": {
+                    "text": "to individual SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "second SR"
+                },
+                "sentence": " first aspect, the plurality of SR configuration information includes second SR",
+                "object": {
+                    "text": "first aspect, the plurality of SR configuration information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Uplink Control Channel (PUCCH) resources"
+                },
+                "sentence": " Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR",
+                "object": {
+                    "text": "to the plurality of SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "configuration information"
+                },
+                "sentence": " configuration information according to the plurality of SR configuration",
+                "object": {
+                    "text": "to the plurality of SR configuration"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a number of transmissions of the second SR"
+                },
+                "sentence": " \"when a number of transmissions of the second SR reaches the maximum number of",
+                "object": {
+                    "text": "the maximum number of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reach",
+                        "tense": "present"
+                    },
+                    "text": "reaches",
+                    "normalized": "reach"
+                }
+            },
+            {
+                "subject": {
+                    "text": "That"
+                },
+                "sentence": " \"That is, the PUCCH resources corresponding to individual SR configuration",
+                "object": {
+                    "text": "the PUCCH resources corresponding to individual SR configuration"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "information"
+                },
+                "sentence": " information may be considered to be uniformly managed, i.e., as long as the",
+                "object": {
+                    "text": "to be uniformly managed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "consider",
+                        "tense": "future"
+                    },
+                    "text": "considered",
+                    "normalized": "consider"
+                }
+            },
+            {
+                "subject": {
+                    "text": "information"
+                },
+                "sentence": " information reaches the maximum number of transmissions of any SR, the",
+                "object": {
+                    "text": "the maximum number of transmissions of any SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reach",
+                        "tense": "present"
+                    },
+                    "text": "reaches",
+                    "normalized": "reach"
+                }
+            },
+            {
+                "subject": {
+                    "text": "terminal device"
+                },
+                "sentence": " terminal device may be triggered to release the PUCCH resource corresponding",
+                "object": {
+                    "text": "the PUCCH resource"
+                },
+                "action": {
+                    "verb": {
+                        "text": "release",
+                        "tense": "future"
+                    },
+                    "text": "may be triggered to release",
+                    "normalized": "may be trigger to release"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the SRs"
+                },
+                "sentence": " the SRs reaching the maximum number of transmissions of any of the SRs is the",
+                "object": {
+                    "text": "the maximum number of transmissions of any of the SRs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reach",
+                        "tense": "present"
+                    },
+                    "text": "reaching",
+                    "normalized": "reach"
+                }
+            },
+            {
+                "subject": {
+                    "text": "release timing of the PUCCH resource"
+                },
+                "sentence": " release timing of the PUCCH resource corresponding to each of the SR",
+                "object": {
+                    "text": "to each of the SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "third SR"
+                },
+                "sentence": " first aspect, the plurality of SR configuration information includes third SR",
+                "object": {
+                    "text": "first aspect, the plurality of SR configuration information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the third SR configuration information"
+                },
+                "sentence": " configuration information, the third SR configuration information has a higher",
+                "object": {
+                    "text": "a higher"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "other SR configuration"
+                },
+                "sentence": " priority than other SR configuration information, said other SR configuration",
+                "object": {
+                    "text": "priority than other SR configuration information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "fourth SR configuration information, the fourth SR"
+                },
+                "sentence": " information includes fourth SR configuration information, the fourth SR",
+                "object": {
+                    "text": "information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "configuration information"
+                },
+                "sentence": " configuration information corresponds to a fourth SR, and the processing, by",
+                "object": {
+                    "text": "to a fourth SR"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponds",
+                    "normalized": "correspond"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.980333,
+                "label": "/technology and computing/hardware/computer components/memory"
+            },
+            {
+                "score": 0.937962,
+                "label": "/technology and computing/hardware/computer"
+            },
+            {
+                "score": 0.930376,
+                "label": "/technology and computing/hardware/computer peripherals"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- From Washington, D.C., NewsRx journalists report that a patent application by the inventors TANG, Hai (Dongguan, Guangdong, China), filed on August 2, 2017, was made available online on May 21, 2020.",
+                "score": 0.546396,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "The patent's assignee is Guangdong Oppo Mobile Telecommunications Corp. Ltd. (Dongguan, Guangdong, People's Republic of China).",
+                "score": 0.521869,
+                "arguments": [
+                    {
+                        "text": "People's Republic of China",
+                        "location": [
+                            386,
+                            412
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "People's Republic of China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Guangdong",
+                        "location": [
+                            375,
+                            384
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Guangdong"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "News editors obtained the following quote from the background information supplied by the inventors: \"In the existing discussion of the New Radio (NR), it has been agreed to configure for the terminal device a plurality of Scheduling Requests (SR) configuration information, and the terminal device may indicate to the network device by using the plurality of SR configurations which type of uplink authorization resource is required by the terminal device.",
+                "score": 0.748492,
+                "arguments": [
+                    {
+                        "text": "editors",
+                        "location": [
+                            421,
+                            428
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "editors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "quote",
+                        "location": [
+                            452,
+                            457
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "report"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "As a supplement to the background information on this patent application, NewsRx correspondents also obtained the inventors' summary information for this patent application: \"The embodiments of the present application provide a method for uplink transmission and a terminal device, which can implement uplink transmission in a scenario of a plurality of SR configuration information.",
+                "score": 0.584833,
+                "arguments": [
+                    {
+                        "text": "correspondents",
+                        "location": [
+                            1195,
+                            1209
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "correspondents"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            1188,
+                            1194
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The method according to claim 2, further comprising: initiating a random access procedure and requesting to acquire the PUCCH resource corresponding to the first SR configuration information, by the terminal device.",
+                "score": 0.51567,
+                "arguments": [
+                    {
+                        "text": "requesting",
+                        "location": [
+                            15373,
+                            15383
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "requesting"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            15303,
+                            15308
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The method according to claim 8, further comprising: clearing, by the terminal device, downlink allocation information and uplink authorization information delivered by the network device; and initiating a random access procedure and cancelling sending each SR to be sent, by the terminal device.",
+                "score": 0.444217,
+                "arguments": [
+                    {
+                        "text": "network device",
+                        "location": [
+                            18565,
+                            18579
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "New Radio"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            18462,
+                            18477
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Physical Uplink\nControl Channel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The method according to claim 12, further comprising: clearing, by the terminal device, downlink allocation information and uplink authorization information delivered by the network device; and initiating a random access procedure and cancelling sending each SR to be sent, by the terminal device.",
+                "score": 0.36428,
+                "arguments": [
+                    {
+                        "text": "network device",
+                        "location": [
+                            20262,
+                            20276
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "New Radio"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            20159,
+                            20174
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Physical Uplink\nControl Channel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 14, wherein the plurality of SR configuration information comprises first SR configuration information, the first SR configuration information corresponds to the first SR, and the processor is further configured for executing the instructions stored in the memory to: when a number of transmissions of the first SR reaches the maximum number of transmissions of the first SR, release a PUCCH resource corresponding to the first SR configuration information.",
+                "score": 0.891992,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            21142,
+                            21157
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Physical Uplink\nControl Channel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            21171,
+                            21176
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 14, wherein the plurality of SR configuration information comprises second SR configuration information, the second SR configuration information corresponds to the second SR, and the processor is further configured for executing the instructions stored in the memory to: when a number of transmissions of the second SR reaches the maximum number of transmissions of the second SR, release the PUCCH resource corresponding to each SR configuration information.",
+                "score": 0.942224,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            21928,
+                            21943
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Physical Uplink\nControl Channel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            21957,
+                            21962
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 17, wherein the processor is further configured for executing the instructions stored in the memory to: clear downlink allocation information and uplink authorization information delivered by the network device, and cancel sending each SR to be sent; and initiate a random access procedure and reconfigure each of the SR configuration information.",
+                "score": 0.936433,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            22434,
+                            22449
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Physical Uplink\nControl Channel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            22463,
+                            22468
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 19, wherein a transmission reliability of the PUCCH resource corresponding to the third SR configuration information is higher than a transmission reliability of the PUCCH resource corresponding to the fourth SR configuration information.",
+                "score": 0.549398,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            24809,
+                            24824
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Physical Uplink\nControl Channel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            24838,
+                            24843
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 15, wherein the processor is further configured for executing the instructions stored in the memory: initiate a random access procedure, and request to acquire the PUCCH resource corresponding to the first SR configuration information.",
+                "score": 0.920851,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            21646,
+                            21661
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Physical Uplink Control Channel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            21675,
+                            21680
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 14, wherein the plurality of SR configuration information comprises third SR configuration information, the third SR configuration information has a higher priority than other SR configuration information, and said other SR configuration information comprises fourth SR configuration information, the fourth SR configuration information corresponds to the fourth SR, and the processor is further configured for executing the instructions stored in the memory to: when a number of transmissions of the fourth SR reaches the maximum number of transmissions of the fourth SR, release the PUCCH resource corresponding to the fourth SR configuration information.",
+                "score": 0.692584,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            22828,
+                            22843
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "SR"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            22857,
+                            22862
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 19, wherein the processor is further configured for executing the instructions stored in the memory to: send the fourth SR by using the PUCCH resource corresponding to the third SR configuration information.",
+                "score": 0.94253,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            23532,
+                            23547
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "SR"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            23561,
+                            23566
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 14, wherein the plurality of SR configuration information comprises third SR configuration information, the third SR configuration information has a higher priority than other SR configuration information, said other SR configuration information comprises fourth SR configuration information, the third configuration information corresponds to the third SR, and the processor is further configured for executing the instructions stored in the memory to: when a number of transmissions of the third SR reaches the maximum number of transmissions of the third SR, release the PUCCH resource corresponding to each SR configuration information.",
+                "score": 0.805837,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            23786,
+                            23801
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "SR"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            23815,
+                            23820
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 21, wherein the processor is further configured for executing the instructions stored in the memory to: clear downlink allocation information and uplink authorization information delivered by the network device; and initiate a random access procedure and cancel sending each SR to be sent.",
+                "score": 0.657356,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            24473,
+                            24488
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "SR"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            24502,
+                            24507
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 24, wherein the processor is further configured for executing the instructions stored in the memory to: release the PUCCH resource corresponding to each SR configuration information in a case that a cumulative number of transmissions of all the SRs reaches the maximum number of transmissions of the SR.",
+                "score": 0.645018,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            25958,
+                            25973
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "SR"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            25987,
+                            25992
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The terminal device according to claim 25, wherein the processor is further configured for executing the instructions stored in the memory to: clear downlink allocation information and uplink authorization information delivered by the network device; and initiate a random access procedure and cancel sending each SR to be sent.\"",
+                "score": 0.657356,
+                "arguments": [
+                    {
+                        "text": "terminal device",
+                        "location": [
+                            26308,
+                            26323
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "SR"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            26337,
+                            26342
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Uplink Transmission Method, And Terminal Device.",
+                "score": 0.488854,
+                "arguments": [
+                    {
+                        "text": "Uplink\nTransmission Method",
+                        "location": [
+                            26706,
+                            26732
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Uplink\nTransmission Method"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Terminal Device",
+                        "location": [
+                            26738,
+                            26753
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Terminal Device"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- From Washington, D.C., NewsRx journalists report that a patent application by the inventors TANG, Hai (Dongguan, Guangdong, China), filed on August 2, 2017, was made available online on May 21, 2020.",
+                "score": 0.560873,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Business\nDay",
+                        "location": [
+                            70,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Business\nDay"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- From Washington, D.C., NewsRx journalists report that a patent application by the inventors TANG, Hai (Dongguan, Guangdong, China), filed on August 2, 2017, was made available online on May 21, 2020.",
+                "score": 0.915066,
+                "arguments": [
+                    {
+                        "text": "Business\nDay",
+                        "location": [
+                            70,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Business\nDay"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "China",
+                        "location": [
+                            64,
+                            69
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- From Washington, D.C., NewsRx journalists report that a patent application by the inventors TANG, Hai (Dongguan, Guangdong, China), filed on August 2, 2017, was made available online on May 21, 2020.",
+                "score": 0.96449,
+                "arguments": [
+                    {
+                        "text": "Washington",
+                        "location": [
+                            91,
+                            101
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Washington"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "D.C.",
+                        "location": [
+                            103,
+                            107
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "D.C."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- From Washington, D.C., NewsRx journalists report that a patent application by the inventors TANG, Hai (Dongguan, Guangdong, China), filed on August 2, 2017, was made available online on May 21, 2020.",
+                "score": 0.793209,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            116,
+                            127
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            109,
+                            115
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- From Washington, D.C., NewsRx journalists report that a patent application by the inventors TANG, Hai (Dongguan, Guangdong, China), filed on August 2, 2017, was made available online on May 21, 2020.",
+                "score": 0.979592,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            116,
+                            127
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "report",
+                        "location": [
+                            128,
+                            134
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "report"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- From Washington, D.C., NewsRx journalists report that a patent application by the inventors TANG, Hai (Dongguan, Guangdong, China), filed on August 2, 2017, was made available online on May 21, 2020.",
+                "score": 0.783584,
+                "arguments": [
+                    {
+                        "text": "Guangdong",
+                        "location": [
+                            199,
+                            208
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Guangdong"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "China",
+                        "location": [
+                            210,
+                            215
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's assignee is Guangdong Oppo Mobile Telecommunications Corp. Ltd. (Dongguan, Guangdong, People's Republic of China).",
+                "score": 0.46114,
+                "arguments": [
+                    {
+                        "text": "Guangdong Oppo Mobile Telecommunications Corp. Ltd.",
+                        "location": [
+                            312,
+                            363
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Guangdong Oppo Mobile Telecommunications Corp. Ltd.",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Dongguan",
+                        "location": [
+                            365,
+                            373
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Dongguan"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's assignee is Guangdong Oppo Mobile Telecommunications Corp. Ltd. (Dongguan, Guangdong, People's Republic of China).",
+                "score": 0.976301,
+                "arguments": [
+                    {
+                        "text": "Dongguan",
+                        "location": [
+                            365,
+                            373
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Dongguan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Guangdong",
+                        "location": [
+                            375,
+                            384
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Guangdong"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "background information",
+                "relevance": 0.817659,
+                "count": 2
+            },
+            {
+                "text": "configuration information",
+                "relevance": 0.788121,
+                "count": 3
+            },
+            {
+                "text": "terminal device",
+                "relevance": 0.725775,
+                "count": 69
+            },
+            {
+                "text": "plurality of SR configurations",
+                "relevance": 0.706506,
+                "count": 2
+            },
+            {
+                "text": "first aspect",
+                "relevance": 0.658952,
+                "count": 24
+            },
+            {
+                "text": "uplink transmission",
+                "relevance": 0.628423,
+                "count": 9
+            },
+            {
+                "text": "corresponding SR",
+                "relevance": 0.613432,
+                "count": 2
+            },
+            {
+                "text": "type of uplink authorization resource",
+                "relevance": 0.599215,
+                "count": 1
+            },
+            {
+                "text": "configuration information of a network device",
+                "relevance": 0.579762,
+                "count": 4
+            },
+            {
+                "text": "SR",
+                "relevance": 0.577136,
+                "count": 19
+            },
+            {
+                "text": "plurality of SR configuration information",
+                "relevance": 0.575415,
+                "count": 24
+            },
+            {
+                "text": "patent application",
+                "relevance": 0.572925,
+                "count": 3
+            },
+            {
+                "text": "inventors' summary information",
+                "relevance": 0.560469,
+                "count": 1
+            },
+            {
+                "text": "network device",
+                "relevance": 0.552557,
+                "count": 13
+            },
+            {
+                "text": "transmissions of the second SR",
+                "relevance": 0.548866,
+                "count": 4
+            },
+            {
+                "text": "patent's assignee",
+                "relevance": 0.547532,
+                "count": 1
+            },
+            {
+                "text": "third SR configuration information",
+                "relevance": 0.543446,
+                "count": 14
+            },
+            {
+                "text": "fourth SR configuration information",
+                "relevance": 0.542985,
+                "count": 12
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.540993,
+                "count": 1
+            },
+            {
+                "text": "transmissions of a corresponding SR",
+                "relevance": 0.536525,
+                "count": 1
+            },
+            {
+                "text": "maximum number of transmissions",
+                "relevance": 0.535918,
+                "count": 10
+            },
+            {
+                "text": "SR configuration information",
+                "relevance": 0.532217,
+                "count": 24
+            },
+            {
+                "text": "first SR configuration information",
+                "relevance": 0.531102,
+                "count": 10
+            },
+            {
+                "text": "higher priority",
+                "relevance": 0.529605,
+                "count": 4
+            },
+            {
+                "text": "clear definition",
+                "relevance": 0.52872,
+                "count": 1
+            },
+            {
+                "text": "maximum number",
+                "relevance": 0.528493,
+                "count": 5
+            },
+            {
+                "text": "release timing",
+                "relevance": 0.52465,
+                "count": 2
+            },
+            {
+                "text": "computer storage medium",
+                "relevance": 0.524196,
+                "count": 2
+            },
+            {
+                "text": "Physical Uplink Control Channel",
+                "relevance": 0.524081,
+                "count": 10
+            },
+            {
+                "text": "additional information",
+                "relevance": 0.523267,
+                "count": 1
+            },
+            {
+                "text": "method",
+                "relevance": 0.523233,
+                "count": 32
+            },
+            {
+                "text": "inventors TANG",
+                "relevance": 0.523089,
+                "count": 1
+            },
+            {
+                "text": "plurality",
+                "relevance": 0.520799,
+                "count": 26
+            },
+            {
+                "text": "PUCCH resources",
+                "relevance": 0.520565,
+                "count": 2
+            },
+            {
+                "text": "random access procedure",
+                "relevance": 0.519745,
+                "count": 9
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.519175,
+                "count": 1
+            },
+            {
+                "text": "second SR configuration information",
+                "relevance": 0.519029,
+                "count": 6
+            },
+            {
+                "text": "input interface",
+                "relevance": 0.517641,
+                "count": 6
+            },
+            {
+                "text": "embodiments of the present application",
+                "relevance": 0.516908,
+                "count": 2
+            },
+            {
+                "text": "claims",
+                "relevance": 0.51594,
+                "count": 1
+            },
+            {
+                "text": "implementation manners",
+                "relevance": 0.515575,
+                "count": 11
+            },
+            {
+                "text": "processor",
+                "relevance": 0.513108,
+                "count": 22
+            },
+            {
+                "text": "NewsRx journalists",
+                "relevance": 0.512976,
+                "count": 1
+            },
+            {
+                "text": "Washington",
+                "relevance": 0.511767,
+                "count": 1
+            },
+            {
+                "text": "Parser",
+                "relevance": 0.511472,
+                "count": 2
+            },
+            {
+                "text": "resources",
+                "relevance": 0.510144,
+                "count": 16
+            },
+            {
+                "text": "combination",
+                "relevance": 0.509813,
+                "count": 11
+            },
+            {
+                "text": "memory",
+                "relevance": 0.508808,
+                "count": 26
+            },
+            {
+                "text": "JUN",
+                "relevance": 0.508269,
+                "count": 1
+            },
+            {
+                "text": "instructions",
+                "relevance": 0.507995,
+                "count": 18
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "589d9dd2797baad2a849c7a0292a12af69d2d062",
+        "filename": "202006050000NEWSRX__VRT_GEOG_6DAD5BB345441F13.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Researchers Submit Patent Application, \u201cUplink Transmission Method, And Terminal Device\u201d, for Approval (USPTO 20200163110): Guangdong Oppo Mobile Telecommunications Corp. Ltd.",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at China Business Day -- From <location idsrc=\"xmltag.org\" value=\"LU/us.dc.wash\">Washington, D.C.</location>, NewsRx journalists report that a patent application by the inventors TANG, Hai (<location idsrc=\"xmltag.org\" value=\"LU/cn..dnggun\">Dongguan</location>, <location idsrc=\"xmltag.org\" value=\"LU/cn..gngdng\">Guangdong, China</location>), filed on <chron>August 2, 2017</chron>, was made available online on <chron>May 21, 2020</chron>.</p>\n<p>The patent&#8217;s assignee is <org>Guangdong Oppo Mobile Telecommunications Corp. Ltd.</org> (<location idsrc=\"xmltag.org\" value=\"LU/cn..dnggun\">Dongguan</location>, <location idsrc=\"xmltag.org\" value=\"LU/cn..gngdng\">Guangdong</location>, People&#8217;s <location idsrc=\"xmltag.org\" value=\"LC/cn\">Republic of China</location>).</p>\n<p>News editors obtained the following quote from the background information supplied by the inventors: &#8220;In the existing discussion of the New Radio (NR), it has been agreed to configure for the terminal device a plurality of Scheduling Requests (SR) configuration information, and the terminal device may indicate to the network device by using the plurality of SR configurations which type of uplink authorization resource is required by the terminal device.</p>\n<p>&#8220;However, the current discussion does not give a clear definition of the SR configuration. Therefore, how to implement uplink transmission under a plurality of SR configurations is an urgent problem to be solved for the terminal device.&#8221;</p>\n<p>As a supplement to the background information on this patent application, NewsRx correspondents also obtained the inventors&#8217; summary information for this patent application: &#8220;The embodiments of the present application provide a method for uplink transmission and a terminal device, which can implement uplink transmission in a scenario of a plurality of SR configuration information.</p>\n<p>&#8220;In a first aspect, there is provided a method for uplink transmission, including:</p>\n<p>&#8220;receiving, by a terminal device, a plurality of Scheduling Request (SR) configuration information of a network device, wherein each SR configuration information includes a maximum number of transmissions of a corresponding SR; and</p>\n<p>&#8220;processing, by the terminal device, Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information.</p>\n<p>&#8220;Therefore, according to the method for uplink transmission in the embodiments of the present application, the terminal device can receive a plurality of SR configuration information configured by the network device, each SR configuration information including the maximum number of transmissions of the corresponding SR, and the terminal device can process the PUCCH resources corresponding to the plurality of SR configuration information according to the maximum number of transmissions of the corresponding SR in the plurality of SR configuration information to achieve the uplink transmission.</p>\n<p>&#8220;Optionally, in the embodiments of the present application, the maximum numbers of transmissions of the corresponding SRs included in individual SR configuration information may be the same, or may be different.</p>\n<p>&#8220;In combination with the first aspect, in some implementation manners of the first aspect, the plurality of SR configuration information includes first SR configuration information, the first SR configuration information corresponds to a first SR, and the processing, by the terminal device, the Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information includes:</p>\n<p>&#8220;when a number of transmissions of the first SR reaches the maximum number of transmissions of the first SR, releasing, by the terminal device, a PUCCH resource corresponding to the first SR configuration information.</p>\n<p>&#8220;In combination with the first aspect, in some implementation manners of the first aspect, the method further includes:</p>\n<p>&#8220;initiating a random access procedure and requesting to acquire the PUCCH resource corresponding to the first SR configuration information, by the terminal device.</p>\n<p>&#8220;That is, the maximum number of transmissions of the SR included in each SR configuration information is used to determine the release timing of the PUCCH resource corresponding to each SR configuration information, i.e., the maximum number of transmissions of the first SR included in the first SR configuration information is used to determine the release timing of the PUCCH resource corresponding to the first SR configuration information, and the maximum number of transmissions of the second SR included in the second SR configuration information is used to determine the release timing of the PUCCH resource corresponding to the second SR configuration information, that is to say, the release timing of the PUCCH resources corresponding to individual SR configuration information is separately managed.</p>\n<p>&#8220;In combination with the first aspect, in some implementation manners of the first aspect, the plurality of SR configuration information includes second SR configuration information, the second SR configuration information corresponds to a second SR, and the processing, by the terminal device, the Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information includes:</p>\n<p>&#8220;when a number of transmissions of the second SR reaches the maximum number of transmissions of the second SR, releasing, by the terminal device, the PUCCH resource corresponding to each SR configuration information.</p>\n<p>&#8220;In combination with the first aspect, in some implementation manners of the first aspect, the method further includes:</p>\n<p>&#8220;clearing downlink allocation information and uplink authorization information delivered by the network device, and cancelling sending each SR to be sent, by the terminal device; and</p>\n<p>&#8220;initiating a random access procedure and reconfiguring each of the SR configuration information, by the terminal device.</p>\n<p>&#8220;That is, the PUCCH resources corresponding to individual SR configuration information may be considered to be uniformly managed, i.e., as long as the number of transmissions of the SR corresponding to any SR configuration information reaches the maximum number of transmissions of any SR, the terminal device may be triggered to release the PUCCH resource corresponding to each SR configuration information, or the number of transmissions of any of the SRs reaching the maximum number of transmissions of any of the SRs is the release timing of the PUCCH resource corresponding to each of the SR configuration information.</p>\n<p>&#8220;In combination with the first aspect, in some implementation manners of the first aspect, the plurality of SR configuration information includes third SR configuration information, the third SR configuration information has a higher priority than other SR configuration information, said other SR configuration information includes fourth SR configuration information, the fourth SR configuration information corresponds to a fourth SR, and the processing, by the terminal device, the Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information includes:</p>\n<p>&#8220;when a number of transmissions of the fourth SR reaches the maximum number of transmissions of the fourth SR, releasing, by the terminal device, a PUCCH resource corresponding to the fourth SR configuration information.</p>\n<p>&#8220;In combination with the first aspect, in some implementation manners of the first aspect, the method further includes:</p>\n<p>&#8220;sending, by the terminal device, the fourth SR by using the PUCCH resource corresponding to the third SR configuration information.</p>\n<p>&#8220;In combination with the first aspect, in some implementation manners of the first aspect, the plurality of SR configuration information includes third SR configuration information, the third SR configuration information has a higher priority than other SR configuration information, said other SR configuration information includes fourth SR configuration information, the third configuration information corresponds to a third SR, and the processing, by the terminal device, the Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information includes:</p>\n<p>&#8220;when a number of transmissions of the third SR reaches the maximum number of transmissions of the third SR, releasing, by the terminal device, the PUCCH resource corresponding to each SR configuration information.</p>\n<p>&#8220;In combination with the first aspect, in some implementation manners of the first aspect, the method further includes:</p>\n<p>&#8220;clearing, by the terminal device, downlink allocation information and uplink authorization information delivered by the network device; and</p>\n<p>&#8220;initiating a random access procedure and cancelling sending each SR to be sent, by the terminal device.</p>\n<p>&#8220;In combination with the first aspect, in some implementation manners of the first aspect, a transmission reliability of the PUCCH resource corresponding to the third SR configuration information is higher than a transmission reliability of the PUCCH resource corresponding to the fourth SR configuration information.</p>\n<p>&#8220;In general, the maximum number of transmissions of the SR included in each non-default SR configuration information may be used to determine the release timing of the PUCCH resource corresponding to each non-default SR configuration information, and the maximum number of transmissions of the SR included in the default SR configuration information may be used to determine the release timing of the PUCCH resource corresponding to each SR configuration information.</p>\n<p>&#8220;In a second aspect, there is provided a method for uplink transmission, including:</p>\n<p>&#8220;receiving, by a terminal device, a plurality of Scheduling Request (SR) configuration information of a network device, wherein each SR configuration information includes a maximum number of transmissions of the SR, and the maximum number of transmissions of the SR is used to indicate a cumulative maximum number of transmissions of all the SRs; and</p>\n<p>&#8220;processing, by the terminal device, Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information.</p>\n<p>&#8220;In combination with the second aspect, in some implementation manners of the second aspect, the processing, by the terminal device, the Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information includes:</p>\n<p>&#8220;releasing, by the terminal device, the PUCCH resource corresponding to each SR configuration information, in a case that a cumulative number of transmissions of all the SRs reaches the maximum number of transmissions of the SR.</p>\n<p>&#8220;In the present embodiment, the terminal device may count the number of transmissions of each SR, and processes the PUCCH resource corresponding to each SR configuration information according to the cumulative number of transmissions of all SRs, specifically, when the cumulative number of transmissions of all the SRs reaches the maximum number of transmissions of the SR, the terminal device may release the PUCCH resource corresponding to each SR configuration information.</p>\n<p>&#8220;In combination with the second aspect, in some implementation manners of the second aspect, the method further includes:</p>\n<p>&#8220;clearing, by the terminal device, downlink allocation information and uplink authorization information delivered by the network device; and</p>\n<p>&#8220;initiating a random access procedure and cancelling sending each SR to be sent, by the terminal device.</p>\n<p>&#8220;In a third aspect, there is provided a terminal device for executing the method in the above first aspect or any possible implementation manners of the first aspect. In particular, the terminal device includes units for executing the method in the above first aspect or any possible implementation manners of the first aspect.</p>\n<p>&#8220;In a fourth aspect, there is provided a terminal device for executing the method in the above second aspect or any possible implementation manners of the second aspect. In particular, the terminal device includes units for executing the method in the above second aspect or any possible implementation manners of the second aspect.</p>\n<p>&#8220;In a fifth aspect, there is provided a terminal device, including: a memory, a processor, an input interface, and an output interface. The memory, the processor, the input interface, and the output interface are connected by a bus system. The memory is configured for storing instructions, and the processor is configured for executing the instructions stored in the memory for executing the method in the above first aspect or any possible implementation manners of the first aspect.</p>\n<p>&#8220;In a sixth aspect, there is provided a terminal device, including: a memory, a processor, an input interface, and an output interface. The memory, the processor, the input interface, and the output interface are connected by a bus system. The memory is configured for storing instructions, and the processor is configured for executing the instructions stored in the memory for executing the method in the above second aspect or any possible implementation manners of the second aspect.</p>\n<p>&#8220;In a seventh aspect, there is provided a computer storage medium for storing computer software instructions, the computer software instructions are used for executing the method in the above first aspect or any possible implementation manners of the first aspect, or the method in the above second aspect or any possible implementation manners of the second aspect, and the computer storage medium includes a program designed to perform the above aspects.</p>\n<p>&#8220;In an eighth aspect, there is provided a computer program product, and when the computer program product is executed in a computer, the computer is enabled to execute the method in the above first aspect or any optional implementation manners of the first aspect, or the method in the above second aspect or any optional implementation manners of the second aspect.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;1. A method for uplink transmission, comprising: receiving, by a terminal device, a plurality of Scheduling Request (SR) configuration information of a network device, wherein each SR configuration information comprises a maximum number of transmissions of a corresponding SR; and processing, by the terminal device, Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information.</p>\n<p>&#8220;2. The method according to claim 1, wherein the plurality of SR configuration information comprises first SR configuration information, the first SR configuration information corresponds to a first SR, and the processing, by the terminal device, the Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information comprises: when a number of transmissions of the first SR reaches the maximum number of transmissions of the first SR, releasing, by the terminal device, a PUCCH resource corresponding to the first SR configuration information.</p>\n<p>&#8220;3. The method according to claim 2, further comprising: initiating a random access procedure and requesting to acquire the PUCCH resource corresponding to the first SR configuration information, by the terminal device.</p>\n<p>&#8220;4. The method according to claim 1, wherein the plurality of SR configuration information comprises second SR configuration information, the second SR configuration information corresponds to a second SR, and the processing, by the terminal device, the Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information comprises: when a number of transmissions of the second SR reaches the maximum number of transmissions of the second SR, releasing, by the terminal device, the PUCCH resource corresponding to each SR configuration information.</p>\n<p>&#8220;5. The method according to claim 4, further comprising: clearing downlink allocation information and uplink authorization information delivered by the network device, and cancelling sending each SR to be sent, by the terminal device; and initiating a random access procedure and reconfiguring each of the SR configuration information, by the terminal device.</p>\n<p>&#8220;6. The method according to claim 1, wherein the plurality of SR configuration information comprises third SR configuration information, the third SR configuration information has a higher priority than other SR configuration information, said other SR configuration information comprises fourth SR configuration information, the fourth SR configuration information corresponds to a fourth SR, and the processing, by the terminal device, the Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information comprises: when a number of transmissions of the fourth SR reaches the maximum number of transmissions of the fourth SR, releasing, by the terminal device, a PUCCH resource corresponding to the fourth SR configuration information.</p>\n<p>&#8220;7. The method according to claim 6, further comprising: sending, by the terminal device, the fourth SR by using the PUCCH resource corresponding to the third SR configuration information.</p>\n<p>&#8220;8. The method according to claim 1, wherein the plurality of SR configuration information comprises third SR configuration information, the third SR configuration information has a higher priority than other SR configuration information, said other SR configuration information comprises fourth SR configuration information, the third configuration information corresponds to a third SR, and the processing, by the terminal device, the Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information comprises: when a number of transmissions of the third SR reaches the maximum number of transmissions of the third SR, releasing, by the terminal device, the PUCCH resource corresponding to each SR configuration information.</p>\n<p>&#8220;9. The method according to claim 8, further comprising: clearing, by the terminal device, downlink allocation information and uplink authorization information delivered by the network device; and initiating a random access procedure and cancelling sending each SR to be sent, by the terminal device.</p>\n<p>&#8220;10. The method according to claim 6, wherein a transmission reliability of the PUCCH resource corresponding to the third SR configuration information is higher than a transmission reliability of the PUCCH resource corresponding to the fourth SR configuration information.</p>\n<p>&#8220;11. A method for uplink transmission, comprising: receiving, by a terminal device, a plurality of Scheduling Request (SR) configuration information of a network device, wherein each SR configuration information comprises a maximum number of transmissions of the SR, and the maximum number of transmissions of the SR is used to indicate a cumulative maximum number of transmissions of all the SRs; and processing, by the terminal device, Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information.</p>\n<p>&#8220;12. The method according to claim 11, wherein the processing, by the terminal device, the Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information comprises: releasing, by the terminal device, the PUCCH resource corresponding to each SR configuration information, in a case that a cumulative number of transmissions of all the SRs reaches the maximum number of transmissions of the SR.</p>\n<p>&#8220;13. The method according to claim 12, further comprising: clearing, by the terminal device, downlink allocation information and uplink authorization information delivered by the network device; and initiating a random access procedure and cancelling sending each SR to be sent, by the terminal device.</p>\n<p>&#8220;14. A terminal device, comprising: a memory; a processor; an input interface; and an output interface, wherein the memory, the processor, the input interface, and the output interface are connected by a bus system, the memory is configured for storing instructions, and the processor is configured for executing the instructions stored in the memory to: receive a plurality of Scheduling Request (SR) configuration information of a network device, wherein each SR configuration information comprises a maximum number of transmissions of a corresponding SR; and process Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information.</p>\n<p>&#8220;15. The terminal device according to claim 14, wherein the plurality of SR configuration information comprises first SR configuration information, the first SR configuration information corresponds to the first SR, and the processor is further configured for executing the instructions stored in the memory to: when a number of transmissions of the first SR reaches the maximum number of transmissions of the first SR, release a PUCCH resource corresponding to the first SR configuration information.</p>\n<p>&#8220;16. The terminal device according to claim 15, wherein the processor is further configured for executing the instructions stored in the memory: initiate a random access procedure, and request to acquire the PUCCH resource corresponding to the first SR configuration information.</p>\n<p>&#8220;17. The terminal device according to claim 14, wherein the plurality of SR configuration information comprises second SR configuration information, the second SR configuration information corresponds to the second SR, and the processor is further configured for executing the instructions stored in the memory to: when a number of transmissions of the second SR reaches the maximum number of transmissions of the second SR, release the PUCCH resource corresponding to each SR configuration information.</p>\n<p>&#8220;18. The terminal device according to claim 17, wherein the processor is further configured for executing the instructions stored in the memory to: clear downlink allocation information and uplink authorization information delivered by the network device, and cancel sending each SR to be sent; and initiate a random access procedure and reconfigure each of the SR configuration information.</p>\n<p>&#8220;19. The terminal device according to claim 14, wherein the plurality of SR configuration information comprises third SR configuration information, the third SR configuration information has a higher priority than other SR configuration information, and said other SR configuration information comprises fourth SR configuration information, the fourth SR configuration information corresponds to the fourth SR, and the processor is further configured for executing the instructions stored in the memory to: when a number of transmissions of the fourth SR reaches the maximum number of transmissions of the fourth SR, release the PUCCH resource corresponding to the fourth SR configuration information.</p>\n<p>&#8220;20. The terminal device according to claim 19, wherein the processor is further configured for executing the instructions stored in the memory to: send the fourth SR by using the PUCCH resource corresponding to the third SR configuration information.</p>\n<p>&#8220;21. The terminal device according to claim 14, wherein the plurality of SR configuration information comprises third SR configuration information, the third SR configuration information has a higher priority than other SR configuration information, said other SR configuration information comprises fourth SR configuration information, the third configuration information corresponds to the third SR, and the processor is further configured for executing the instructions stored in the memory to: when a number of transmissions of the third SR reaches the maximum number of transmissions of the third SR, release the PUCCH resource corresponding to each SR configuration information.</p>\n<p>&#8220;22. The terminal device according to claim 21, wherein the processor is further configured for executing the instructions stored in the memory to: clear downlink allocation information and uplink authorization information delivered by the network device; and initiate a random access procedure and cancel sending each SR to be sent.</p>\n<p>&#8220;23. The terminal device according to claim 19, wherein a transmission reliability of the PUCCH resource corresponding to the third SR configuration information is higher than a transmission reliability of the PUCCH resource corresponding to the fourth SR configuration information.</p>\n<p>&#8220;24. A terminal device, comprising: a memory; a processor; an input interface; and an output interface, wherein the memory, the processor, the input interface, and the output interface are connected by a bus system, the memory is configured for storing instructions, and the processor is configured for executing the instructions stored in the memory to: receive a plurality of Scheduling Request (SR) configuration information of a network device, wherein each SR configuration information comprises a maximum number of transmissions of the SR, and the maximum number of transmissions of the SR is used to indicate a cumulative maximum number of transmissions of all the SRs; and process Physical Uplink Control Channel (PUCCH) resources corresponding to the plurality of SR configuration information according to the plurality of SR configuration information.</p>\n<p>&#8220;25. The terminal device according to claim 24, wherein the processor is further configured for executing the instructions stored in the memory to: release the PUCCH resource corresponding to each SR configuration information in a case that a cumulative number of transmissions of all the SRs reaches the maximum number of transmissions of the SR.</p>\n<p>&#8220;26. The terminal device according to claim 25, wherein the processor is further configured for executing the instructions stored in the memory to: clear downlink allocation information and uplink authorization information delivered by the network device; and initiate a random access procedure and cancel sending each SR to be sent.&#8221;</p>\n<p>For additional information on this patent application, see: TANG, Hai. Uplink Transmission Method, And Terminal Device. Filed <chron>August 2, 2017</chron> and posted <chron>May 21, 2020</chron>. Patent URL: <a href=\"http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PG01&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.html&amp;r=1&amp;f=G&amp;l=50&amp;s1=%2220200163110%22.PGNR.&amp;OS=DN/20200163110&amp;RS=DN/20200163110\" target=\"_blank\">http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PG01&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.html&amp;r=1&amp;f=G&amp;l=50&amp;s1=%2220200163110%22.PGNR.&amp;OS=DN/20200163110&amp;RS=DN/20200163110</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GC/cn",
+            "China"
+        ]
+    ]
+}

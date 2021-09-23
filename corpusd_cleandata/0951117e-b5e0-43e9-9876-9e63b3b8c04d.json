@@ -1,0 +1,1855 @@
+{
+    "id": "0951117e-b5e0-43e9-9876-9e63b3b8c04d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, Daily Asia Business",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Daily Asia Business",
+    "corpus_document_id": "29313876380837459674",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at Daily Asia Business-- From Washington, D.C., NewsRx journalists report that a patent application by the inventor MACHIDA, Daisuke, filed on October 17, 2019, was made available online on May 21, 2020. The patent\u2019 s assignee is Ricoh Company Ltd.. News editors obtained the following quote from the background...",
+    "serviceName": "Geographic Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Eastern Asia",
+            "code": "LB/eas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eas",
+            "relevance_score": "9",
+            "description": "Japan",
+            "code": "LC/jp#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Business and Commerce, Finance",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia\nBusiness -- From Washington, D.C., NewsRx journalists report that a patent\napplication by the inventor MACHIDA, Daisuke (Kanagawa, Japan), filed on\nOctober 17, 2019, was made available online on May 21, 2020.\n\nThe patent's assignee is Ricoh Company Ltd.\n\nNews editors obtained the following quote from the background information\nsupplied by the inventors: \"The present invention relates to an information\nprocessing system, an information processing method, and a recording medium.\n\n\"The use of Bring Your Own Device (BYOD) has increased due to the changes in\nwork styles and the spread of mobile terminal apparatuses in recent years.\nBYOD is a form of connecting a mobile terminal apparatus owned by a user to an\nin-house network and the like, for use in business operations. A mobile\nterminal apparatus is a portable terminal device such as a smartphone, a\nmobile phone, a notebook computer and the like. As the use of BYOD increases,\nit is also necessary for an image forming apparatus to operate in cooperation\nwith devices corresponding to BYOD, so as to enhance the convenience. As an\nexample, cooperation of authentication is a keyword that can be used.\n\n\"Patent Document 1 discloses a technique in which authentication information\nonly needs to be input once, when printing with an image forming apparatus. In\nthe related art described in Patent Document 1, user authentication is\nperformed at the mobile terminal apparatus, and accordingly, print data is\ntransmitted from the mobile terminal apparatus, at which user authentication\nhas been performed, to the image forming apparatus. According to this kind of\nrelated art according to Patent Document 1, from a position that is a\nspecified distance away from a server located near the image forming\napparatus, the print data is transmitted from the mobile terminal apparatus at\nwhich user authentication has been performed, and when the distance from the\nmobile terminal apparatus to the server falls below the specified distance,\nthe image forming apparatus can execute the printing based on the print data.\n\n\"Patent Document 1: Japanese Unexamined Patent Application Publication No.\n2014-167664\"\n\nAs a supplement to the background information on this patent application,\nNewsRx correspondents also obtained the inventor's summary information for\nthis patent application: \"According to one aspect of the present invention,\nthere is provided an information processing system including an image forming\napparatus; a server; and a mobile terminal apparatus. The server includes\nprocessing circuitry; and a memory storing computer-executable instructions\nthat cause the processing circuitry to: authenticate a user based on\nauthentication information that indicates the user has been authenticated,\nmeasure a distance between the server and the mobile terminal apparatus,\ndetect the mobile terminal apparatus that is present within a predetermined\nrange from the server by using the measured distance, and transmit, wherein\nupon detecting that the user has been authenticated; that the mobile terminal\napparatus that is present within the predetermined range from the server is\ndetected; and that the server has received input of print data from each of a\nplurality of the mobile terminal apparatuses: a print confirmation report,\nwhich is for confirming whether printing is allowed or rejected, to a first\nmobile terminal apparatus that is the mobile terminal apparatus detected to be\npresent within the predetermined range among the plurality of the mobile\nterminal apparatuses, a report, which indicates that the image forming\napparatus is being used by the user who owns the first mobile terminal\napparatus, to a second mobile terminal apparatus other than the first mobile\nterminal apparatus among the plurality of the mobile terminal apparatuses, and\nthe print data to the image forming apparatus after adding the authentication\ninformation to the print data received from the first mobile terminal\napparatus, only upon detecting that the user of the first mobile terminal\napparatus has approved the printing in response to the print confirmation\nreport. The image forming apparatus includes processing circuitry; and a\nmemory storing computer-executable instructions that cause the processing\ncircuitry of the image forming apparatus to: print a content of the print data\nto which the authentication information is added and transmitted from the\nserver.\"\n\nThe claims supplied by the inventors are:\n\n\"1\\. An information processing system comprising: an image forming apparatus;\na server; and a mobile terminal apparatus, wherein the server includes\nprocessing circuitry; and a memory storing computer-executable instructions\nthat cause the processing circuitry to: authenticate a user based on\nauthentication information that indicates the user has been authenticated,\nmeasure a distance between the server and the mobile terminal apparatus,\ndetect the mobile terminal apparatus that is present within a predetermined\nrange from the server by using the measured distance, and transmit, wherein\nupon detecting that the user has been authenticated; that the mobile terminal\napparatus that is present within the predetermined range from the server is\ndetected; and that the server has received input of print data from each of a\nplurality of the mobile terminal apparatuses: a print confirmation report,\nwhich is for confirming whether printing is allowed or rejected, to a first\nmobile terminal apparatus that is the mobile terminal apparatus detected to be\npresent within the predetermined range among the plurality of the mobile\nterminal apparatuses, a report, which indicates that the image forming\napparatus is being used by the user who owns the first mobile terminal\napparatus, to a second mobile terminal apparatus other than the first mobile\nterminal apparatus among the plurality of the mobile terminal apparatuses, and\nthe print data to the image forming apparatus after adding the authentication\ninformation to the print data received from the first mobile terminal\napparatus, only upon detecting that the user of the first mobile terminal\napparatus has approved the printing in response to the print confirmation\nreport, and wherein the image forming apparatus includes processing circuitry;\nand a memory storing computer-executable instructions that cause the\nprocessing circuitry of the image forming apparatus to: print a content of the\nprint data to which the authentication information is added and transmitted\nfrom the server.\n\n\"2\\. The information processing system according to claim 1, wherein the\nprocessing circuitry of the server detects the mobile terminal apparatus that\nis present within the predetermined range from the server, by using the\nmeasured distance and a second setting value, upon detecting that a first\nsetting value, which is distance information by which the processing circuitry\nof the server is able to detect the mobile terminal apparatus, has been\nchanged by the user to the second setting value that is different from the\nfirst setting value.\n\n\"3\\. The information processing system according to claim 1, wherein the\nprocessing circuitry of the server is caused to calculate a distance\ndifference corresponding to a difference between a first distance and a second\ndistance, upon detecting that the measured first distance is greater than a\nsecond distance in which the processing circuitry of the server is able to\ndetect the mobile terminal apparatus, and the processing circuitry of the\nimage forming apparatus is caused to generate guidance message information for\nprompting the user to approach the image forming apparatus, based on distance\ndifference information indicating the distance difference, and to provide the\nguidance message information to the user.\n\n\"4\\. The information processing system according to claim 1, wherein the\nprocessing circuitry of the server is caused to calculate a distance\ndifference corresponding to a difference between a first distance and a second\ndistance, upon detecting that the measured first distance is greater than the\nsecond distance in which the processing circuitry of the server is able to\ndetect the mobile terminal apparatus, and the processing circuitry of the\nimage forming apparatus is caused to generate remaining distance message\ninformation for reporting, to the user, a distance to the image forming\napparatus, based on distance difference information indicating the distance\ndifference, and to provide the remaining distance message information to the\nuser.\n\n\"5\\. The information processing system according to claim 1, wherein the\nprocessing circuitry of the server is caused to calculate a distance\ndifference corresponding to a difference between a first distance and a second\ndistance, upon detecting that the measured first distance is greater than the\nsecond distance in which the processing circuitry of the server is able to\ndetect the mobile terminal apparatus, and the processing circuitry of the\nimage forming apparatus is caused to generate guidance message information for\nprompting the user to approach the image forming apparatus by a predetermined\ndistance, based on distance difference information indicating the distance\ndifference, and to provide the guidance message information to the user.\n\n\"6\\. An information processing method comprising: authenticating, by a server,\na user based on authentication information that indicates the user has been\nauthenticated; measuring, by the server, a distance between the server and a\nmobile terminal apparatus; detecting, by the server, the mobile terminal\napparatus that is present within a predetermined range from the server by\nusing the measured distance; and transmitting, by the server, wherein upon\ndetecting that the user has been authenticated; that the mobile terminal\napparatus that is present within the predetermined range from the server is\ndetected; and that the server has received input of print data from each of a\nplurality of the mobile terminal apparatuses: a print confirmation report,\nwhich is for confirming whether printing is allowed or rejected, to a first\nmobile terminal apparatus that is the mobile terminal apparatus detected to be\npresent within the predetermined range among the plurality of the mobile\nterminal apparatuses, a report, which indicates that an image forming\napparatus is being used by the user who owns the first mobile terminal\napparatus, to a second mobile terminal apparatus other than the first mobile\nterminal apparatus among the plurality of the mobile terminal apparatuses, and\nthe print data to the image forming apparatus after adding the authentication\ninformation to the print data received from the first mobile terminal\napparatus, only upon detecting that the user of the first mobile terminal\napparatus has approved the printing in response to the print confirmation\nreport; and printing, by the image forming apparatus, a content of the print\ndata to which the authentication information is added and transmitted from the\nserver.\n\n\"7\\. A non-transitory computer-readable recording medium storing a program\nthat causes a computer to execute a process performed in a server and an image\nforming apparatus, the process comprising: authenticating, by a server, a user\nbased on authentication information that indicates the user has been\nauthenticated; measuring, by the server, a distance between the server and a\nmobile terminal apparatus; detecting, by the server, the mobile terminal\napparatus that is present within a predetermined range from the server by\nusing the measured distance; and transmitting, by the server, wherein upon\ndetecting that the user has been authenticated; that the mobile terminal\napparatus that is present within the predetermined range from the server is\ndetected; and that the server has received input of print data from each of a\nplurality of the mobile terminal apparatuses: a print confirmation report,\nwhich is for confirming whether printing is allowed or rejected, to a first\nmobile terminal apparatus that is the mobile terminal apparatus detected to be\npresent within the predetermined range among the plurality of the mobile\nterminal apparatuses, a report, which indicates that an image forming\napparatus is being used by the user who owns the first mobile terminal\napparatus, to a second mobile terminal apparatus other than the first mobile\nterminal apparatus among the plurality of the mobile terminal apparatuses, and\nthe print data to the image forming apparatus after adding the authentication\ninformation to the print data received from the first mobile terminal\napparatus, only upon detecting that the user of the first mobile terminal\napparatus has approved the printing in response to the print confirmation\nreport; and printing, by the image forming apparatus, a content of the print\ndata to which the authentication information is added and transmitted from the\nserver.\"\n\nFor additional information on this patent application, see: MACHIDA, Daisuke.\nInformation Processing System, Information Processing Method, And Recording\nMedium. Filed October 17, 2019 and posted May 21, 2020. Patent URL:\n[http://appft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220200159477%22.PGNR.&OS=DN/20200159477&RS=DN/20200159477](http://appft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220200159477%22.PGNR.&OS=DN/20200159477&RS=DN/20200159477)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Ricoh Company Ltd."
+        ],
+        "location": [
+            "Washington, D.C.",
+            "Japan"
+        ],
+        "person": [],
+        "companies": [
+            "News Reporter-Staff News",
+            "Ricoh Company Ltd."
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_GEOG_9CDFA8E64ACDE290.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Daisuke",
+                "relevance": 0.527574,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Washington",
+                "relevance": 0.426778,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "MilitaryPost",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Washington, D.C.",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Washington,_D.C."
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.418836,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Japan",
+                "relevance": 0.418017,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "MusicalGroup",
+                        "BroadcastArtist",
+                        "MusicalArtist",
+                        "RecordProducer",
+                        "Country"
+                    ],
+                    "name": "Japan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Japan"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ricoh Company Ltd",
+                "relevance": 0.414832,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kanagawa",
+                "relevance": 0.412544,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Kanagawa-ku, Yokohama",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Kanagawa-ku,_Yokohama"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.423252,
+                    "label": "positive"
+                },
+                "text": "D.C.",
+                "relevance": 0.400889,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Daily Asia",
+                "relevance": 0.39247,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "MACHIDA",
+                "relevance": 0.392198,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "167664",
+                "relevance": 0.372933,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Business -- From Washington, D.C., NewsRx journalists"
+                },
+                "sentence": " Business -- From Washington, D.C., NewsRx journalists report that a patent",
+                "object": {
+                    "text": "that a patent"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "present"
+                    },
+                    "text": "report",
+                    "normalized": "report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "October 17, 2019,"
+                },
+                "sentence": " October 17, 2019, was made available online on May 21, 2020.",
+                "object": {
+                    "text": "made available online on May 21, 2020"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "October 17, 2019,"
+                },
+                "sentence": " October 17, 2019, was made available online on May 21, 2020.",
+                "object": {
+                    "text": "available online on May 21, 2020"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "past"
+                    },
+                    "text": "was made",
+                    "normalized": "be make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "News editors"
+                },
+                "sentence": " News editors obtained the following quote from the background information",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the inventors"
+                },
+                "sentence": " supplied by the inventors: \"The present invention relates to an information",
+                "object": {
+                    "text": "The present invention"
+                },
+                "action": {
+                    "verb": {
+                        "text": "supply",
+                        "tense": "past"
+                    },
+                    "text": "supplied",
+                    "normalized": "supply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The present invention"
+                },
+                "sentence": " supplied by the inventors: \"The present invention relates to an information",
+                "object": {
+                    "text": "to an information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "relate",
+                        "tense": "present"
+                    },
+                    "text": "relates",
+                    "normalized": "relate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The use of Bring Your Own Device (BYOD)"
+                },
+                "sentence": " \"The use of Bring Your Own Device (BYOD) has increased due to the changes in",
+                "object": {
+                    "text": "increased due to the changes in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "BYOD"
+                },
+                "sentence": " BYOD is a form of connecting a mobile terminal apparatus owned by a user to an",
+                "object": {
+                    "text": "a mobile terminal apparatus owned by a user"
+                },
+                "action": {
+                    "verb": {
+                        "text": "connect",
+                        "tense": "future"
+                    },
+                    "text": "connecting",
+                    "normalized": "connect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by a user"
+                },
+                "sentence": " BYOD is a form of connecting a mobile terminal apparatus owned by a user to an",
+                "object": {
+                    "text": "a mobile terminal apparatus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "own",
+                        "tense": "past"
+                    },
+                    "text": "owned",
+                    "normalized": "own"
+                }
+            },
+            {
+                "subject": {
+                    "text": "terminal apparatus"
+                },
+                "sentence": " terminal apparatus is a portable terminal device such as a smartphone, a",
+                "object": {
+                    "text": "a portable terminal device such as a smartphone"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an image"
+                },
+                "sentence": " it is also necessary for an image forming apparatus to operate in cooperation",
+                "object": {
+                    "text": "apparatus to operate in cooperation"
+                },
+                "action": {
+                    "verb": {
+                        "text": "form",
+                        "tense": "present"
+                    },
+                    "text": "forming",
+                    "normalized": "form"
+                }
+            },
+            {
+                "subject": {
+                    "text": "devices"
+                },
+                "sentence": " with devices corresponding to BYOD, so as to enhance the convenience.",
+                "object": {
+                    "text": "to BYOD"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cooperation of authentication"
+                },
+                "sentence": " example, cooperation of authentication is a keyword that can be used.",
+                "object": {
+                    "text": "a keyword that can be used"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Patent Document 1"
+                },
+                "sentence": " \"Patent Document 1 discloses a technique in which authentication information",
+                "object": {
+                    "text": "a technique in which authentication information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "disclose",
+                        "tense": "present"
+                    },
+                    "text": "discloses",
+                    "normalized": "disclose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "input"
+                },
+                "sentence": " only needs to be input once, when printing with an image forming apparatus.",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "printing with an image"
+                },
+                "sentence": " only needs to be input once, when printing with an image forming apparatus.",
+                "object": {
+                    "text": "apparatus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "form",
+                        "tense": "present"
+                    },
+                    "text": "forming",
+                    "normalized": "form"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the related art"
+                },
+                "sentence": " the related art described in Patent Document 1, user authentication is",
+                "action": {
+                    "verb": {
+                        "text": "describe",
+                        "tense": "past"
+                    },
+                    "text": "described",
+                    "normalized": "describe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "related art"
+                },
+                "sentence": " related art according to Patent Document 1, from a position that is a",
+                "object": {
+                    "text": "to Patent Document 1"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a position"
+                },
+                "sentence": " related art according to Patent Document 1, from a position that is a",
+                "object": {
+                    "text": "a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the print data"
+                },
+                "sentence": " apparatus, the print data is transmitted from the mobile terminal apparatus at",
+                "object": {
+                    "text": "from the mobile terminal apparatus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "transmit",
+                        "tense": "past"
+                    },
+                    "text": "is transmitted",
+                    "normalized": "be transmit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "user authentication"
+                },
+                "sentence": " which user authentication has been performed, and when the distance from the",
+                "object": {
+                    "text": "performed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image"
+                },
+                "sentence": " the image forming apparatus can execute the printing based on the print data.",
+                "object": {
+                    "text": "apparatus can execute the printing based on the print data"
+                },
+                "action": {
+                    "verb": {
+                        "text": "form",
+                        "tense": "present"
+                    },
+                    "text": "forming",
+                    "normalized": "form"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image forming apparatus"
+                },
+                "sentence": " the image forming apparatus can execute the printing based on the print data.",
+                "object": {
+                    "text": "the printing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "execute",
+                        "tense": "future"
+                    },
+                    "text": "can execute",
+                    "normalized": "can execute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "NewsRx correspondents"
+                },
+                "sentence": " NewsRx correspondents also obtained the inventor's summary information for",
+                "object": {
+                    "text": "the inventor's summary information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an image forming"
+                },
+                "sentence": " there is provided an information processing system including an image forming",
+                "object": {
+                    "text": "an information processing system"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a memory"
+                },
+                "sentence": " processing circuitry; and a memory storing computer-executable instructions",
+                "object": {
+                    "text": "computer-executable instructions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "store",
+                        "tense": "present"
+                    },
+                    "text": "storing",
+                    "normalized": "store"
+                }
+            },
+            {
+                "subject": {
+                    "text": "authentication information"
+                },
+                "sentence": " authentication information that indicates the user has been authenticated,",
+                "object": {
+                    "text": "the user has been authenticated,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "indicate",
+                        "tense": "present"
+                    },
+                    "text": "indicates",
+                    "normalized": "indicate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the mobile terminal apparatus"
+                },
+                "sentence": " detect the mobile terminal apparatus that is present within a predetermined",
+                "object": {
+                    "text": "that is present within a predetermined"
+                },
+                "action": {
+                    "verb": {
+                        "text": "detect",
+                        "tense": "present"
+                    },
+                    "text": "detect",
+                    "normalized": "detect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the mobile terminal apparatus"
+                },
+                "sentence": " detect the mobile terminal apparatus that is present within a predetermined",
+                "object": {
+                    "text": "present within a predetermined"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the user"
+                },
+                "sentence": " upon detecting that the user has been authenticated; that the mobile terminal",
+                "object": {
+                    "text": "authenticated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "apparatus"
+                },
+                "sentence": " apparatus that is present within the predetermined range from the server is",
+                "object": {
+                    "text": "present within the predetermined range"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the server"
+                },
+                "sentence": " detected; and that the server has received input of print data from each of a",
+                "object": {
+                    "text": "received input of print data"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the server"
+                },
+                "sentence": " detected; and that the server has received input of print data from each of a",
+                "object": {
+                    "text": "input of print data"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "past"
+                    },
+                    "text": "has received",
+                    "normalized": "have receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "mobile terminal apparatus"
+                },
+                "sentence": " mobile terminal apparatus that is the mobile terminal apparatus detected to be",
+                "object": {
+                    "text": "the mobile terminal apparatus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "apparatus"
+                },
+                "sentence": " apparatus is being used by the user who owns the first mobile terminal",
+                "object": {
+                    "text": "being used by the user who owns the first mobile terminal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the user who owns the first mobile terminal"
+                },
+                "sentence": " apparatus is being used by the user who owns the first mobile terminal",
+                "object": {
+                    "text": "apparatus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "is being used",
+                    "normalized": "be be use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the user"
+                },
+                "sentence": " apparatus is being used by the user who owns the first mobile terminal",
+                "object": {
+                    "text": "the first mobile terminal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "own",
+                        "tense": "present"
+                    },
+                    "text": "owns",
+                    "normalized": "own"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the print data to the image"
+                },
+                "sentence": " the print data to the image forming apparatus after adding the authentication",
+                "object": {
+                    "text": "apparatus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "form",
+                        "tense": "present"
+                    },
+                    "text": "forming",
+                    "normalized": "form"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the print data"
+                },
+                "sentence": " the print data to the image forming apparatus after adding the authentication",
+                "object": {
+                    "text": "the authentication"
+                },
+                "action": {
+                    "verb": {
+                        "text": "add",
+                        "tense": "present"
+                    },
+                    "text": "adding",
+                    "normalized": "add"
+                }
+            },
+            {
+                "subject": {
+                    "text": "information to the print data"
+                },
+                "sentence": " information to the print data received from the first mobile terminal",
+                "object": {
+                    "text": "from the first mobile terminal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "past"
+                    },
+                    "text": "received",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "apparatus"
+                },
+                "sentence": " apparatus, only upon detecting that the user of the first mobile terminal",
+                "object": {
+                    "text": "that the user of the first mobile terminal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "detect",
+                        "tense": "present"
+                    },
+                    "text": "detecting",
+                    "normalized": "detect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "apparatus"
+                },
+                "sentence": " apparatus has approved the printing in response to the print confirmation",
+                "object": {
+                    "text": "approved the printing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "apparatus"
+                },
+                "sentence": " apparatus has approved the printing in response to the print confirmation",
+                "object": {
+                    "text": "the printing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "approve",
+                        "tense": "past"
+                    },
+                    "text": "has approved",
+                    "normalized": "have approve"
+                }
+            },
+            {
+                "subject": {
+                    "text": "report. The image"
+                },
+                "sentence": " report. The image forming apparatus includes processing circuitry; and a",
+                "object": {
+                    "text": "apparatus includes processing circuitry"
+                },
+                "action": {
+                    "verb": {
+                        "text": "form",
+                        "tense": "present"
+                    },
+                    "text": "forming",
+                    "normalized": "form"
+                }
+            },
+            {
+                "subject": {
+                    "text": "processing circuitry"
+                },
+                "sentence": " report. The image forming apparatus includes processing circuitry; and a",
+                "object": {
+                    "text": "report. The image forming apparatus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "computer-executable instructions"
+                },
+                "sentence": " memory storing computer-executable instructions that cause the processing",
+                "object": {
+                    "text": "the processing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cause",
+                        "tense": "present"
+                    },
+                    "text": "cause",
+                    "normalized": "cause"
+                }
+            },
+            {
+                "subject": {
+                    "text": "circuitry of the image"
+                },
+                "sentence": " circuitry of the image forming apparatus to: print a content of the print data",
+                "object": {
+                    "text": "apparatus to: print a content of the print data"
+                },
+                "action": {
+                    "verb": {
+                        "text": "form",
+                        "tense": "present"
+                    },
+                    "text": "forming",
+                    "normalized": "form"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the inventors"
+                },
+                "sentence": " The claims supplied by the inventors are:",
+                "object": {
+                    "text": "The claims"
+                },
+                "action": {
+                    "verb": {
+                        "text": "supply",
+                        "tense": "past"
+                    },
+                    "text": "supplied",
+                    "normalized": "supply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an image"
+                },
+                "sentence": " \"1\\. An information processing system comprising: an image forming apparatus;",
+                "object": {
+                    "text": "apparatus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "form",
+                        "tense": "present"
+                    },
+                    "text": "forming",
+                    "normalized": "form"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a memory"
+                },
+                "sentence": " processing circuitry; and a memory storing computer-executable instructions",
+                "object": {
+                    "text": "computer-executable instructions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "store",
+                        "tense": "present"
+                    },
+                    "text": "storing",
+                    "normalized": "store"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.959513,
+                "label": "/technology and computing/internet technology/email"
+            },
+            {
+                "score": 0.906535,
+                "label": "/technology and computing/hardware/computer/servers"
+            },
+            {
+                "score": 0.892465,
+                "label": "/technology and computing/hardware/computer components"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia Business -- From Washington, D.C., NewsRx journalists report that a patent application by the inventor MACHIDA, Daisuke (Kanagawa, Japan), filed on October 17, 2019, was made available online on May 21, 2020.",
+                "score": 0.825077,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Daily Asia\nBusiness",
+                        "location": [
+                            64,
+                            83
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Daily Asia\nBusiness",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "to a first mobile terminal apparatus that is the mobile terminal apparatus detected to be present within the predetermined range among the plurality of the mobile terminal apparatuses, a report, which indicates that the image forming apparatus is being used by the user who owns the first mobile terminal apparatus, to a second mobile terminal apparatus other than the first mobile terminal apparatus among the plurality of the mobile terminal apparatuses, and the print data to the image forming apparatus after adding the authentication information to the print data received from the first mobile terminal apparatus, only upon detecting that the user of the first mobile terminal apparatus has approved the printing in response to the print confirmation report.",
+                "score": 0.810337,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            3924,
+                            3933
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "adding",
+                        "location": [
+                            3940,
+                            3946
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "which is for confirming whether printing is allowed or rejected, to a first mobile terminal apparatus that is the mobile terminal apparatus detected to be present within the predetermined range among the plurality of the mobile terminal apparatuses, a report, which indicates that the image forming apparatus is being used by the user who owns the first mobile terminal apparatus, to a second mobile terminal apparatus other than the first mobile terminal apparatus among the plurality of the mobile terminal apparatuses, and the print data to the image forming apparatus after adding the authentication information to the print data received from the first mobile terminal apparatus, only upon detecting that the user of the first mobile terminal apparatus has approved the printing in response to the print confirmation report, and wherein the image forming apparatus includes processing circuitry;",
+                "score": 0.634265,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            6000,
+                            6009
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "adding",
+                        "location": [
+                            6016,
+                            6022
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The information processing system according to claim 1, wherein the processing circuitry of the server is caused to calculate a distance difference corresponding to a difference between a first distance and a second distance, upon detecting that the measured first distance is greater than a second distance in which the processing circuitry of the server is able to detect the mobile terminal apparatus, and the processing circuitry of the image forming apparatus is caused to generate guidance message information for prompting the user to approach the image forming apparatus, based on distance difference information indicating the distance difference, and to provide the guidance message information to the user.",
+                "score": 0.509728,
+                "arguments": [
+                    {
+                        "text": "user",
+                        "location": [
+                            7665,
+                            7669
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "user"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            7700,
+                            7709
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The information processing system according to claim 1, wherein the processing circuitry of the server is caused to calculate a distance difference corresponding to a difference between a first distance and a second distance, upon detecting that the measured first distance is greater than the second distance in which the processing circuitry of the server is able to detect the mobile terminal apparatus, and the processing circuitry of the image forming apparatus is caused to generate guidance message information for prompting the user to approach the image forming apparatus by a predetermined distance, based on distance difference information indicating the distance difference, and to provide the guidance message information to the user.",
+                "score": 0.496544,
+                "arguments": [
+                    {
+                        "text": "user",
+                        "location": [
+                            9144,
+                            9148
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "user"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            9179,
+                            9188
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "to a first mobile terminal apparatus that is the mobile terminal apparatus detected to be present within the predetermined range among the plurality of the mobile terminal apparatuses, a report, which indicates that an image forming apparatus is being used by the user who owns the first mobile terminal apparatus, to a second mobile terminal apparatus other than the first mobile terminal apparatus among the plurality of the mobile terminal apparatuses, and the print data to the image forming apparatus after adding the authentication information to the print data received from the first mobile terminal apparatus, only upon detecting that the user of the first mobile terminal apparatus has approved the printing in response to the print confirmation report; and printing, by the image forming apparatus,",
+                "score": 0.634265,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            10674,
+                            10683
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "adding",
+                        "location": [
+                            10690,
+                            10696
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "and that the server has received input of print data from each of a plurality of the mobile terminal apparatuses: a print confirmation report, which is for confirming whether printing is allowed or rejected, to a first mobile terminal apparatus that is the mobile terminal apparatus detected to be present within the predetermined range among the plurality of the mobile terminal apparatuses, a report, which indicates that an image forming apparatus is being used by the user who owns the first mobile terminal apparatus, to a second mobile terminal apparatus other than the first mobile terminal apparatus among the plurality of the mobile terminal apparatuses, and the print data to the image forming apparatus after adding the authentication information to the print data received from the first mobile terminal apparatus,",
+                "score": 0.852546,
+                "arguments": [
+                    {
+                        "text": "apparatus",
+                        "location": [
+                            12563,
+                            12572
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "apparatus"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "adding",
+                        "location": [
+                            12579,
+                            12585
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia Business -- From Washington, D.C., NewsRx journalists report that a patent application by the inventor MACHIDA, Daisuke (Kanagawa, Japan), filed on October 17, 2019, was made available online on May 21, 2020.",
+                "score": 0.97628,
+                "arguments": [
+                    {
+                        "text": "Washington",
+                        "location": [
+                            92,
+                            102
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Washington"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "D.C.",
+                        "location": [
+                            104,
+                            108
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "D.C."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia Business -- From Washington, D.C., NewsRx journalists report that a patent application by the inventor MACHIDA, Daisuke (Kanagawa, Japan), filed on October 17, 2019, was made available online on May 21, 2020.",
+                "score": 0.832203,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            117,
+                            128
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            110,
+                            116
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia Business -- From Washington, D.C., NewsRx journalists report that a patent application by the inventor MACHIDA, Daisuke (Kanagawa, Japan), filed on October 17, 2019, was made available online on May 21, 2020.",
+                "score": 0.985143,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            117,
+                            128
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "report",
+                        "location": [
+                            129,
+                            135
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "report"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia Business -- From Washington, D.C., NewsRx journalists report that a patent application by the inventor MACHIDA, Daisuke (Kanagawa, Japan), filed on October 17, 2019, was made available online on May 21, 2020.",
+                "score": 0.766891,
+                "arguments": [
+                    {
+                        "text": "Daisuke",
+                        "location": [
+                            187,
+                            194
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Daisuke"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Kanagawa",
+                        "location": [
+                            196,
+                            204
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Kanagawa"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia Business -- From Washington, D.C., NewsRx journalists report that a patent application by the inventor MACHIDA, Daisuke (Kanagawa, Japan), filed on October 17, 2019, was made available online on May 21, 2020.",
+                "score": 0.326755,
+                "arguments": [
+                    {
+                        "text": "Daisuke",
+                        "location": [
+                            187,
+                            194
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Daisuke"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Japan",
+                        "location": [
+                            206,
+                            211
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Japan",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Daily Asia Business -- From Washington, D.C., NewsRx journalists report that a patent application by the inventor MACHIDA, Daisuke (Kanagawa, Japan), filed on October 17, 2019, was made available online on May 21, 2020.",
+                "score": 0.949314,
+                "arguments": [
+                    {
+                        "text": "Kanagawa",
+                        "location": [
+                            196,
+                            204
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Kanagawa"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Japan",
+                        "location": [
+                            206,
+                            211
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Japan",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "News editors obtained the following quote from the background information supplied by the inventors: \"The present invention relates to an information processing system, an information processing method, and a recording medium.",
+                "score": 0.75598,
+                "arguments": [
+                    {
+                        "text": "editors",
+                        "location": [
+                            335,
+                            342
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "editors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "quote",
+                        "location": [
+                            366,
+                            371
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "report"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "As a supplement to the background information on this patent application, NewsRx correspondents also obtained the inventor's summary information for this patent application: \"According to one aspect of the present invention, there is provided an information processing system including an image forming apparatus; a server; and a mobile terminal apparatus.",
+                "score": 0.533591,
+                "arguments": [
+                    {
+                        "text": "correspondents",
+                        "location": [
+                            2314,
+                            2328
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "correspondents"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            2307,
+                            2313
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "spread of mobile terminal apparatuses",
+                "relevance": 0.926047,
+                "count": 1
+            },
+            {
+                "text": "mobile terminal apparatus",
+                "relevance": 0.764663,
+                "count": 22
+            },
+            {
+                "text": "background information",
+                "relevance": 0.688974,
+                "count": 2
+            },
+            {
+                "text": "terminal apparatus",
+                "relevance": 0.653447,
+                "count": 5
+            },
+            {
+                "text": "processing circuitry of the image forming apparatus",
+                "relevance": 0.623128,
+                "count": 1
+            },
+            {
+                "text": "specified distance",
+                "relevance": 0.620206,
+                "count": 2
+            },
+            {
+                "text": "print data",
+                "relevance": 0.594901,
+                "count": 12
+            },
+            {
+                "text": "patent's assignee",
+                "relevance": 0.588873,
+                "count": 1
+            },
+            {
+                "text": "business operations",
+                "relevance": 0.588746,
+                "count": 1
+            },
+            {
+                "text": "mobile phone",
+                "relevance": 0.578103,
+                "count": 1
+            },
+            {
+                "text": "print confirmation report",
+                "relevance": 0.559734,
+                "count": 4
+            },
+            {
+                "text": "related art",
+                "relevance": 0.548467,
+                "count": 2
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.546583,
+                "count": 1
+            },
+            {
+                "text": "present invention",
+                "relevance": 0.545473,
+                "count": 1
+            },
+            {
+                "text": "Patent Document",
+                "relevance": 0.542164,
+                "count": 3
+            },
+            {
+                "text": "processing circuitry of the server",
+                "relevance": 0.541452,
+                "count": 7
+            },
+            {
+                "text": "portable terminal device",
+                "relevance": 0.539566,
+                "count": 1
+            },
+            {
+                "text": "predetermined range",
+                "relevance": 0.539165,
+                "count": 11
+            },
+            {
+                "text": "second mobile terminal apparatus",
+                "relevance": 0.538822,
+                "count": 4
+            },
+            {
+                "text": "house network",
+                "relevance": 0.538425,
+                "count": 1
+            },
+            {
+                "text": "plurality of the mobile terminal apparatuses",
+                "relevance": 0.535628,
+                "count": 8
+            },
+            {
+                "text": "patent application",
+                "relevance": 0.533299,
+                "count": 3
+            },
+            {
+                "text": "image",
+                "relevance": 0.530309,
+                "count": 16
+            },
+            {
+                "text": "first mobile",
+                "relevance": 0.529578,
+                "count": 4
+            },
+            {
+                "text": "server",
+                "relevance": 0.528435,
+                "count": 37
+            },
+            {
+                "text": "apparatus",
+                "relevance": 0.525913,
+                "count": 16
+            },
+            {
+                "text": "difference",
+                "relevance": 0.525386,
+                "count": 3
+            },
+            {
+                "text": "additional information",
+                "relevance": 0.524866,
+                "count": 1
+            },
+            {
+                "text": "user",
+                "relevance": 0.524204,
+                "count": 28
+            },
+            {
+                "text": "Japanese Unexamined Patent Application Publication",
+                "relevance": 0.523524,
+                "count": 1
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.523516,
+                "count": 1
+            },
+            {
+                "text": "form",
+                "relevance": 0.522909,
+                "count": 1
+            },
+            {
+                "text": "distance difference",
+                "relevance": 0.522274,
+                "count": 1
+            },
+            {
+                "text": "use",
+                "relevance": 0.521676,
+                "count": 2
+            },
+            {
+                "text": "user authentication",
+                "relevance": 0.521447,
+                "count": 3
+            },
+            {
+                "text": "measured distance",
+                "relevance": 0.52086,
+                "count": 5
+            },
+            {
+                "text": "mobile",
+                "relevance": 0.520074,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.519741,
+                "count": 9
+            },
+            {
+                "text": "cooperation of authentication",
+                "relevance": 0.519737,
+                "count": 1
+            },
+            {
+                "text": "circuitry",
+                "relevance": 0.517481,
+                "count": 4
+            },
+            {
+                "text": "distance",
+                "relevance": 0.516404,
+                "count": 6
+            },
+            {
+                "text": "authentication information",
+                "relevance": 0.515694,
+                "count": 9
+            },
+            {
+                "text": "Own Device",
+                "relevance": 0.515352,
+                "count": 1
+            },
+            {
+                "text": "processing circuitry",
+                "relevance": 0.514057,
+                "count": 6
+            },
+            {
+                "text": "recent years",
+                "relevance": 0.513698,
+                "count": 1
+            },
+            {
+                "text": "Parser",
+                "relevance": 0.512454,
+                "count": 2
+            },
+            {
+                "text": "notebook computer",
+                "relevance": 0.510713,
+                "count": 1
+            },
+            {
+                "text": "report",
+                "relevance": 0.509789,
+                "count": 4
+            },
+            {
+                "text": "Washington",
+                "relevance": 0.509759,
+                "count": 1
+            },
+            {
+                "text": "JUN",
+                "relevance": 0.50888,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "933b3eb5671295529b6e6099bf23ab12ddbced08",
+        "filename": "202006050000NEWSRX__VRT_GEOG_9CDFA8E64ACDE290.json",
+        "file_type": "json"
+    },
+    "companyRecord": "OTC-PINK|RICOY|CUSIP:765658307;ISIN:US7656583074|Ricoh Company Ltd.|extractor|DUNS:690549118;NECOID:22203;ACORN:2249913793|SIGNIFICANT|ADRTICKER=OTC-PINK:RICOY||ADR|PINX|SYNONYM",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Japan - Researchers Submit Patent Application, \u201cInformation Processing System, Information Processing Method, And Recording Medium\u201d, for Approval (USPTO 20200159477): Ricoh Company Ltd.",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at Daily Asia Business -- From <location idsrc=\"xmltag.org\" value=\"LU/us.dc.wash\">Washington, D.C.</location>, NewsRx journalists report that a patent application by the inventor MACHIDA, Daisuke (Kanagawa, <location idsrc=\"xmltag.org\" value=\"LC/jp\">Japan</location>), filed on <chron>October 17, 2019</chron>, was made available online on <chron>May 21, 2020</chron>.</p>\n<p>The patent&#8217;s assignee is <org idsrc=\"xmltag.org\" value=\"Tokyo:7752\">Ricoh Company Ltd.</org></p>\n<p>News editors obtained the following quote from the background information supplied by the inventors: &#8220;The present invention relates to an information processing system, an information processing method, and a recording medium.</p>\n<p>&#8220;The use of Bring Your Own Device (BYOD) has increased due to the changes in work styles and the spread of mobile terminal apparatuses in recent years. BYOD is a form of connecting a mobile terminal apparatus owned by a user to an in-house network and the like, for use in business operations. A mobile terminal apparatus is a portable terminal device such as a smartphone, a mobile phone, a notebook computer and the like. As the use of BYOD increases, it is also necessary for an image forming apparatus to operate in cooperation with devices corresponding to BYOD, so as to enhance the convenience. As an example, cooperation of authentication is a keyword that can be used.</p>\n<p>&#8220;Patent Document 1 discloses a technique in which authentication information only needs to be input once, when printing with an image forming apparatus. In the related art described in Patent Document 1, user authentication is performed at the mobile terminal apparatus, and accordingly, print data is transmitted from the mobile terminal apparatus, at which user authentication has been performed, to the image forming apparatus. According to this kind of related art according to Patent Document 1, from a position that is a specified distance away from a server located near the image forming apparatus, the print data is transmitted from the mobile terminal apparatus at which user authentication has been performed, and when the distance from the mobile terminal apparatus to the server falls below the specified distance, the image forming apparatus can execute the printing based on the print data.</p>\n<p>&#8220;Patent Document 1: Japanese Unexamined Patent Application Publication No. 2014-167664&#8221;</p>\n<p>As a supplement to the background information on this patent application, NewsRx correspondents also obtained the inventor&#8217;s summary information for this patent application: &#8220;According to one aspect of the present invention, there is provided an information processing system including an image forming apparatus; a server; and a mobile terminal apparatus. The server includes processing circuitry; and a memory storing computer-executable instructions that cause the processing circuitry to: authenticate a user based on authentication information that indicates the user has been authenticated, measure a distance between the server and the mobile terminal apparatus, detect the mobile terminal apparatus that is present within a predetermined range from the server by using the measured distance, and transmit, wherein upon detecting that the user has been authenticated; that the mobile terminal apparatus that is present within the predetermined range from the server is detected; and that the server has received input of print data from each of a plurality of the mobile terminal apparatuses: a print confirmation report, which is for confirming whether printing is allowed or rejected, to a first mobile terminal apparatus that is the mobile terminal apparatus detected to be present within the predetermined range among the plurality of the mobile terminal apparatuses, a report, which indicates that the image forming apparatus is being used by the user who owns the first mobile terminal apparatus, to a second mobile terminal apparatus other than the first mobile terminal apparatus among the plurality of the mobile terminal apparatuses, and the print data to the image forming apparatus after adding the authentication information to the print data received from the first mobile terminal apparatus, only upon detecting that the user of the first mobile terminal apparatus has approved the printing in response to the print confirmation report. The image forming apparatus includes processing circuitry; and a memory storing computer-executable instructions that cause the processing circuitry of the image forming apparatus to: print a content of the print data to which the authentication information is added and transmitted from the server.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;1. An information processing system comprising: an image forming apparatus; a server; and a mobile terminal apparatus, wherein the server includes processing circuitry; and a memory storing computer-executable instructions that cause the processing circuitry to: authenticate a user based on authentication information that indicates the user has been authenticated, measure a distance between the server and the mobile terminal apparatus, detect the mobile terminal apparatus that is present within a predetermined range from the server by using the measured distance, and transmit, wherein upon detecting that the user has been authenticated; that the mobile terminal apparatus that is present within the predetermined range from the server is detected; and that the server has received input of print data from each of a plurality of the mobile terminal apparatuses: a print confirmation report, which is for confirming whether printing is allowed or rejected, to a first mobile terminal apparatus that is the mobile terminal apparatus detected to be present within the predetermined range among the plurality of the mobile terminal apparatuses, a report, which indicates that the image forming apparatus is being used by the user who owns the first mobile terminal apparatus, to a second mobile terminal apparatus other than the first mobile terminal apparatus among the plurality of the mobile terminal apparatuses, and the print data to the image forming apparatus after adding the authentication information to the print data received from the first mobile terminal apparatus, only upon detecting that the user of the first mobile terminal apparatus has approved the printing in response to the print confirmation report, and wherein the image forming apparatus includes processing circuitry; and a memory storing computer-executable instructions that cause the processing circuitry of the image forming apparatus to: print a content of the print data to which the authentication information is added and transmitted from the server.</p>\n<p>&#8220;2. The information processing system according to claim 1, wherein the processing circuitry of the server detects the mobile terminal apparatus that is present within the predetermined range from the server, by using the measured distance and a second setting value, upon detecting that a first setting value, which is distance information by which the processing circuitry of the server is able to detect the mobile terminal apparatus, has been changed by the user to the second setting value that is different from the first setting value.</p>\n<p>&#8220;3. The information processing system according to claim 1, wherein the processing circuitry of the server is caused to calculate a distance difference corresponding to a difference between a first distance and a second distance, upon detecting that the measured first distance is greater than a second distance in which the processing circuitry of the server is able to detect the mobile terminal apparatus, and the processing circuitry of the image forming apparatus is caused to generate guidance message information for prompting the user to approach the image forming apparatus, based on distance difference information indicating the distance difference, and to provide the guidance message information to the user.</p>\n<p>&#8220;4. The information processing system according to claim 1, wherein the processing circuitry of the server is caused to calculate a distance difference corresponding to a difference between a first distance and a second distance, upon detecting that the measured first distance is greater than the second distance in which the processing circuitry of the server is able to detect the mobile terminal apparatus, and the processing circuitry of the image forming apparatus is caused to generate remaining distance message information for reporting, to the user, a distance to the image forming apparatus, based on distance difference information indicating the distance difference, and to provide the remaining distance message information to the user.</p>\n<p>&#8220;5. The information processing system according to claim 1, wherein the processing circuitry of the server is caused to calculate a distance difference corresponding to a difference between a first distance and a second distance, upon detecting that the measured first distance is greater than the second distance in which the processing circuitry of the server is able to detect the mobile terminal apparatus, and the processing circuitry of the image forming apparatus is caused to generate guidance message information for prompting the user to approach the image forming apparatus by a predetermined distance, based on distance difference information indicating the distance difference, and to provide the guidance message information to the user.</p>\n<p>&#8220;6. An information processing method comprising: authenticating, by a server, a user based on authentication information that indicates the user has been authenticated; measuring, by the server, a distance between the server and a mobile terminal apparatus; detecting, by the server, the mobile terminal apparatus that is present within a predetermined range from the server by using the measured distance; and transmitting, by the server, wherein upon detecting that the user has been authenticated; that the mobile terminal apparatus that is present within the predetermined range from the server is detected; and that the server has received input of print data from each of a plurality of the mobile terminal apparatuses: a print confirmation report, which is for confirming whether printing is allowed or rejected, to a first mobile terminal apparatus that is the mobile terminal apparatus detected to be present within the predetermined range among the plurality of the mobile terminal apparatuses, a report, which indicates that an image forming apparatus is being used by the user who owns the first mobile terminal apparatus, to a second mobile terminal apparatus other than the first mobile terminal apparatus among the plurality of the mobile terminal apparatuses, and the print data to the image forming apparatus after adding the authentication information to the print data received from the first mobile terminal apparatus, only upon detecting that the user of the first mobile terminal apparatus has approved the printing in response to the print confirmation report; and printing, by the image forming apparatus, a content of the print data to which the authentication information is added and transmitted from the server.</p>\n<p>&#8220;7. A non-transitory computer-readable recording medium storing a program that causes a computer to execute a process performed in a server and an image forming apparatus, the process comprising: authenticating, by a server, a user based on authentication information that indicates the user has been authenticated; measuring, by the server, a distance between the server and a mobile terminal apparatus; detecting, by the server, the mobile terminal apparatus that is present within a predetermined range from the server by using the measured distance; and transmitting, by the server, wherein upon detecting that the user has been authenticated; that the mobile terminal apparatus that is present within the predetermined range from the server is detected; and that the server has received input of print data from each of a plurality of the mobile terminal apparatuses: a print confirmation report, which is for confirming whether printing is allowed or rejected, to a first mobile terminal apparatus that is the mobile terminal apparatus detected to be present within the predetermined range among the plurality of the mobile terminal apparatuses, a report, which indicates that an image forming apparatus is being used by the user who owns the first mobile terminal apparatus, to a second mobile terminal apparatus other than the first mobile terminal apparatus among the plurality of the mobile terminal apparatuses, and the print data to the image forming apparatus after adding the authentication information to the print data received from the first mobile terminal apparatus, only upon detecting that the user of the first mobile terminal apparatus has approved the printing in response to the print confirmation report; and printing, by the image forming apparatus, a content of the print data to which the authentication information is added and transmitted from the server.&#8221;</p>\n<p>For additional information on this patent application, see: MACHIDA, Daisuke. Information Processing System, Information Processing Method, And Recording Medium. Filed <chron>October 17, 2019</chron> and posted <chron>May 21, 2020</chron>. Patent URL: <a href=\"http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PG01&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.html&amp;r=1&amp;f=G&amp;l=50&amp;s1=%2220200159477%22.PGNR.&amp;OS=DN/20200159477&amp;RS=DN/20200159477\" target=\"_blank\">http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PG01&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.html&amp;r=1&amp;f=G&amp;l=50&amp;s1=%2220200159477%22.PGNR.&amp;OS=DN/20200159477&amp;RS=DN/20200159477</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GR/as",
+            "Asia"
+        ]
+    ]
+}

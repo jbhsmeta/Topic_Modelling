@@ -1,0 +1,718 @@
+{
+    "id": "e063d07f-b1bb-45e3-89f2-c3e9c51eec9d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright, 2020, Columbia Daily Tribune",
+    "geoOrigin": "Columbia, Missouri",
+    "sourceType": "Newspaper",
+    "source": "Columbia Daily Tribune (MO)",
+    "corpus_document_id": "73603610480333736236",
+    "description": "Nearly $5,600 was collected in a virtual food drive by Columbia Board of Realtors to benefit the Food Bank for Central and Northeast Missouri. In light of the loss, members turned to an online fundraiser with a $5,000 goal and exceeded that. Chris Martin, 2020 president of the Columbia Board of Realtors, wrote in the release the efforts show the caring spirit of the...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Ceremonies and Events",
+            "code": "IS/lifesoc.ceremony#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.cluborgs",
+            "relevance_score": "9",
+            "description": "Charitable Organizations",
+            "code": "IS/lifesoc.charity#9#90#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Clubs and Associations",
+            "code": "IS/lifesoc.cluborgs#9#50#90",
+            "level": 1
+        }
+    ],
+    "text": "Nearly $5,600 was collected in a virtual food drive by Columbia Board of\nRealtors to benefit the Food Bank for Central and Northeast Missouri.\n\nThe board's annual golf tournament to benefit the food bank was canceled due\nto coronavirus restrictions, according to a news release. In light of the\nloss, members turned to an online fundraiser with a $5,000 goal and exceeded\nthat.\n\nChris Martin, 2020 president of the Columbia Board of Realtors, wrote in the\nrelease the efforts show the caring spirit of the association.\n\n\"It is great to see so much of our membership step up to support the local\nfood bank with their donations, taking us well over our original goal,\" Martin\nsaid. \"I think it shows the true caring spirit of our association and of all\nrealtors.\"\n\nThe annual golf tournament to benefit local charities has been postponed with\nplans to reschedule in the fall, according to the release.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Columbia Board of Realtors",
+            "Food Bank for Central"
+        ],
+        "location": [
+            "Northeast Missouri"
+        ],
+        "person": [
+            "Chris Martin"
+        ],
+        "companies": [
+            "Food Bank for Central",
+            "Columbia Board of Realtors"
+        ]
+    },
+    "geoOrigin_code": "RU/us.mo.columb",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS4427B0A181C8FB7CE270B8B4F7CD876.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Columbia Board of Realtors",
+                "relevance": 0.576491,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.542081,
+                    "label": "positive"
+                },
+                "text": "Chris Martin",
+                "relevance": 0.461331,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Columbia Board of",
+                "relevance": 0.435312,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Missouri",
+                "relevance": 0.283008,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "president",
+                "relevance": 0.255372,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$5,000",
+                "relevance": 0.255372,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$5,600",
+                "relevance": 0.255372,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "by Columbia Board of"
+                },
+                "sentence": "Nearly $5,600 was collected in a virtual food drive by Columbia Board of",
+                "object": {
+                    "text": "Nearly $5,600"
+                },
+                "action": {
+                    "verb": {
+                        "text": "collect",
+                        "tense": "past"
+                    },
+                    "text": "was collected",
+                    "normalized": "be collect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Realtors"
+                },
+                "sentence": " Realtors to benefit the Food Bank for Central and Northeast Missouri.",
+                "object": {
+                    "text": "the Food Bank"
+                },
+                "action": {
+                    "verb": {
+                        "text": "benefit",
+                        "tense": "future"
+                    },
+                    "text": "to benefit",
+                    "normalized": "to benefit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The board's annual golf tournament"
+                },
+                "sentence": " The board's annual golf tournament to benefit the food bank was canceled due",
+                "object": {
+                    "text": "the food bank"
+                },
+                "action": {
+                    "verb": {
+                        "text": "benefit",
+                        "tense": "future"
+                    },
+                    "text": "to benefit",
+                    "normalized": "to benefit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The board's annual golf tournament to benefit the food bank"
+                },
+                "sentence": " The board's annual golf tournament to benefit the food bank was canceled due",
+                "object": {
+                    "text": "canceled due"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "to coronavirus restrictions"
+                },
+                "sentence": " to coronavirus restrictions, according to a news release.",
+                "object": {
+                    "text": "to a news release"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "members"
+                },
+                "sentence": " loss, members turned to an online fundraiser with a $5,000 goal and exceeded",
+                "object": {
+                    "text": "loss"
+                },
+                "action": {
+                    "verb": {
+                        "text": "exceed",
+                        "tense": "past"
+                    },
+                    "text": "exceeded",
+                    "normalized": "exceed"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the efforts"
+                },
+                "sentence": " release the efforts show the caring spirit of the association.",
+                "object": {
+                    "text": "the caring spirit of the association"
+                },
+                "action": {
+                    "verb": {
+                        "text": "show",
+                        "tense": "present"
+                    },
+                    "text": "show",
+                    "normalized": "show"
+                }
+            },
+            {
+                "subject": {
+                    "text": "food bank"
+                },
+                "sentence": " food bank with their donations, taking us well over our original goal,\" Martin",
+                "object": {
+                    "text": "us"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "present"
+                    },
+                    "text": "taking",
+                    "normalized": "take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " said. \"I think it shows the true caring spirit of our association and of all",
+                "object": {
+                    "text": "it shows the true caring spirit of our association and of all"
+                },
+                "action": {
+                    "verb": {
+                        "text": "think",
+                        "tense": "present"
+                    },
+                    "text": "think",
+                    "normalized": "think"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The annual golf tournament to benefit local charities"
+                },
+                "sentence": " The annual golf tournament to benefit local charities has been postponed with",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.798193,
+                "label": "/food and drink"
+            },
+            {
+                "score": 0.631937,
+                "label": "/real estate/buying and selling homes"
+            },
+            {
+                "score": 0.609333,
+                "label": "/food and drink/food"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "Nearly $5,600 was collected in a virtual food drive by Columbia Board of Realtors to benefit the Food Bank for Central and Northeast Missouri.",
+                "score": 0.498701,
+                "arguments": [
+                    {
+                        "text": "Bank for Central and Northeast Missouri",
+                        "location": [
+                            102,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Bank for Central and Northeast Missouri"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Columbia Board of\nRealtors",
+                        "location": [
+                            55,
+                            81
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Columbia Board of\nRealtors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "The board's annual golf tournament to benefit the food bank was canceled due to coronavirus restrictions, according to a news release.",
+                "score": 0.507212,
+                "arguments": [
+                    {
+                        "text": "board",
+                        "location": [
+                            148,
+                            153
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "association"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "tournament",
+                        "location": [
+                            168,
+                            178
+                        ],
+                        "entities": [
+                            {
+                                "type": "SportingEvent",
+                                "text": "tournament"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "In light of the loss, members turned to an online fundraiser with a $5,000 goal and exceeded that.",
+                "score": 0.380277,
+                "arguments": [
+                    {
+                        "text": "fundraiser",
+                        "location": [
+                            329,
+                            339
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "fundraiser"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "$5,000",
+                        "location": [
+                            347,
+                            353
+                        ],
+                        "entities": [
+                            {
+                                "type": "Money",
+                                "text": "$5,000"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Chris Martin, 2020 president of the Columbia Board of Realtors, wrote in the release the efforts show the caring spirit of the association.",
+                "score": 0.601432,
+                "arguments": [
+                    {
+                        "text": "Chris Martin",
+                        "location": [
+                            379,
+                            391
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Chris Martin"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "wrote",
+                        "location": [
+                            443,
+                            448
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "wrote"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "Chris Martin, 2020 president of the Columbia Board of Realtors, wrote in the release the efforts show the caring spirit of the association.",
+                "score": 0.637991,
+                "arguments": [
+                    {
+                        "text": "president",
+                        "location": [
+                            398,
+                            407
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Chris Martin"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Columbia Board of Realtors",
+                        "location": [
+                            415,
+                            441
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Columbia Board of Realtors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"It is great to see so much of our membership step up to support the local food bank with their donations, taking us well over our original goal,\" Martin said.",
+                "score": 0.99803,
+                "arguments": [
+                    {
+                        "text": "Martin",
+                        "location": [
+                            667,
+                            673
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Chris Martin"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            674,
+                            678
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Columbia Board",
+                "relevance": 0.835417,
+                "count": 1
+            },
+            {
+                "text": "board's annual golf tournament",
+                "relevance": 0.82879,
+                "count": 1
+            },
+            {
+                "text": "Chris Martin",
+                "relevance": 0.782083,
+                "count": 1
+            },
+            {
+                "text": "virtual food drive",
+                "relevance": 0.777114,
+                "count": 1
+            },
+            {
+                "text": "Food Bank",
+                "relevance": 0.762456,
+                "count": 2
+            },
+            {
+                "text": "annual golf tournament",
+                "relevance": 0.718825,
+                "count": 1
+            },
+            {
+                "text": "news release",
+                "relevance": 0.670747,
+                "count": 1
+            },
+            {
+                "text": "president of the Columbia Board of Realtors",
+                "relevance": 0.624038,
+                "count": 1
+            },
+            {
+                "text": "original goal",
+                "relevance": 0.599969,
+                "count": 1
+            },
+            {
+                "text": "local charities",
+                "relevance": 0.581475,
+                "count": 1
+            },
+            {
+                "text": "coronavirus restrictions",
+                "relevance": 0.558402,
+                "count": 1
+            },
+            {
+                "text": "loss",
+                "relevance": 0.54535,
+                "count": 1
+            },
+            {
+                "text": "plans",
+                "relevance": 0.540616,
+                "count": 1
+            },
+            {
+                "text": "Realtors",
+                "relevance": 0.531179,
+                "count": 2
+            },
+            {
+                "text": "donations",
+                "relevance": 0.528204,
+                "count": 1
+            },
+            {
+                "text": "members",
+                "relevance": 0.525596,
+                "count": 1
+            },
+            {
+                "text": "Martin",
+                "relevance": 0.522332,
+                "count": 1
+            },
+            {
+                "text": "efforts",
+                "relevance": 0.518556,
+                "count": 1
+            },
+            {
+                "text": "goal",
+                "relevance": 0.518051,
+                "count": 1
+            },
+            {
+                "text": "release",
+                "relevance": 0.516708,
+                "count": 1
+            },
+            {
+                "text": "light",
+                "relevance": 0.508627,
+                "count": 1
+            },
+            {
+                "text": "online fundraiser",
+                "relevance": 0.457416,
+                "count": 1
+            },
+            {
+                "text": "membership step",
+                "relevance": 0.455195,
+                "count": 1
+            },
+            {
+                "text": "caring spirit of the association",
+                "relevance": 0.453003,
+                "count": 1
+            },
+            {
+                "text": "true caring spirit of our association",
+                "relevance": 0.43801,
+                "count": 1
+            },
+            {
+                "text": "Northeast Missouri",
+                "relevance": 0.428322,
+                "count": 1
+            },
+            {
+                "text": "fall",
+                "relevance": 0.377979,
+                "count": 1
+            },
+            {
+                "text": "Central",
+                "relevance": 0.37539,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "90e94583bcc5474511f22b4b51b8d839af97418d",
+        "filename": "202006010000NEWSBANKNEWSPPRS4427B0A181C8FB7CE270B8B4F7CD876.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Virtual food drive raises over $5K",
+    "html": "<p>Nearly <money>$5,600</money> was collected in a virtual food drive by <org>Columbia Board of Realtors</org> to benefit the <org>Food Bank for Central</org> and <location idsrc=\"xmltag.org\" value=\"LS/us.mo\">Northeast Missouri</location>.</p>\n<p>The board's annual golf tournament to benefit the food bank was canceled due to coronavirus restrictions, according to a news release. In light of the loss, members turned to an online fundraiser with a <money>$5,000</money> goal and exceeded that.</p>\n\n<p><person>Chris Martin</person>, 2020 president of the <org>Columbia Board of Realtors</org>, wrote in the release the efforts show the caring spirit of the association.</p>\n\n<p>\"It is great to see so much of our membership step up to support the local food bank with their donations, taking us well over our original goal,\" Martin said. \"I think it shows the true caring spirit of our association and of all realtors.\"</p>\n\n<p>The annual golf tournament to benefit local charities has been postponed with plans to reschedule in the fall, according to the release.</p>",
+    "geoFocus": [
+        [
+            "GS/us.mo",
+            "Missouri"
+        ],
+        [
+            "GU/us.mo.columb",
+            "Columbia"
+        ]
+    ]
+}

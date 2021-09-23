@@ -1,0 +1,1906 @@
+{
+    "id": "05d51ab6-af35-4ce2-bbaf-c74a87f9b875",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, Entertainment Business Daily",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Entertainment Business Daily",
+    "corpus_document_id": "84517107501761318361",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at Entertainment Business Daily-- Disney Enterprises Inc. has been issued patent number 10,664,973, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors. The patent\u2019 s inventors are Farre Guiu, Miquel Angel; Martin, Marc Junyent; Smolic, Aljoscha. This patent was filed on July 10,...",
+    "serviceName": "Leisure, Travel & Entertainment Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Southern Europe",
+            "code": "LB/seur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Switzerland",
+            "code": "LC/ch#9#50#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Entertainment, Information and Media",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Entertainment\nBusiness Daily \\-- Disney Enterprises Inc. (Burbank, California, United\nStates) has been issued patent number 10,664,973, according to news reporting\noriginating out of Alexandria, Virginia, by NewsRx editors.\n\nThe patent's inventors are Farre Guiu, Miquel Angel (Bern, CH); Martin, Marc\nJunyent (Barcelona, ES); Smolic, Aljoscha (Aarau, CH).\n\nThis patent was filed on July 10, 2018 and was published online on June 8,\n2020.\n\nFrom the background information supplied by the inventors, news correspondents\nobtained the following quote: \"Image and video segmentation is one of the most\nfundamental yet challenging problems in computer vision. Dividing an image\ninto meaningful regions requires a high level interpretation of the image that\ncannot be satisfactorily solved by only looking for homogeneous areas in an\nimage. In the era of big data and vast computing power, one approach to model\nhigh level interpretation of images has been to use powerful machine-learning\ntools on huge annotated databases. While significant advances have been made\nin recent years, automatic image segmentation is still far from providing\naccurate results in a generic scenario. The creator of a video may desire to\nadd information or a link to an object in a video, and may wish the added\ninformation or link to remain associated with that object throughout a video\nsequence.\"\n\nSupplementing the background information on this patent, NewsRx reporters also\nobtained the inventors' summary information for this patent: \"The present\ndisclosure is directed to video object tagging using synthetic objects and\nsegmentation hierarchies, substantially as shown in and/or described in\nconnection with at least one of the figures, as set forth more completely in\nthe claims.\"\n\nThe claims supplied by the inventors are:\n\n\"What is claimed is:\n\n\"1\\. A system comprising: a memory storing an executable code; and a processor\nexecuting the executable code to: obtain a first frame of a video content\nincluding an object and a first region surrounding at least part of the\nobject, the first region having one or more first leak areas; insert a\nsynthetic object obtained from a synthetic object database into the first\nframe of the video content, the synthetic object having a shape stored in the\nsynthetic object database; select a second region at least partially\nsurrounding the synthetic object, the second region having one or more second\nleak areas; provide the first frame including the first region and the second\nregion to a first user for creating a first corrected frame; receive the first\ncorrected frame including one or more first corrections by the first user to\nthe one or more first leak areas of the first region, and one or more second\ncorrections by the first user to the one or more second leak areas of the\nsecond region; determine a quality of the one or more second corrections to\nthe one or more second leak areas of the second region based on the shape of\nthe synthetic object; and accept the one or more first corrections to the one\nor more first leak areas of the first region depending on the quality of the\none or more second corrections to the one or more second leak areas of the\nsecond region.\n\n\"2\\. The system of claim 1, wherein, prior to accepting the one or more first\ncorrections, the hardware processor further executes the executable code to:\nif the quality of the one or more second corrections to the one or more second\nleak areas of the second region is below a threshold, provide the first frame\nincluding the first region and the second region to a second user for creating\na second corrected frame.\n\n\"3\\. The system of claim 1, wherein the first region of the first frame is\npropagated from a previous frame of a plurality of frames of the video\ncontent.\n\n\"4\\. The system of claim 1, wherein the synthetic object is chosen from the\nsynthetic object database based on at least one of a size of the object, a\nlocation of the object in the first frame of the video content, or an area of\nthe first frame of the video content that is not a part of the first region.\n\n\"5\\. The system of claim 1, wherein the quality of the one or more second\ncorrections to the one or more second leak areas of the second region is\ncalculated using a ratio of an area of the shape of the synthetic object and\nan area of the one or more second corrections to the one or more second leak\nareas of the second region.\n\n\"6\\. The system of claim 1, wherein providing the first frame to the first\nuser for creating the first corrected frame includes making the first frame\navailable on a cloud-based platform.\n\n\"7\\. The system of claim 1, wherein the quality of the one or more second\ncorrections to the one or more second leak areas of the second region is saved\nin a profile associated with the first user.\n\n\"8\\. A method for use with a system having a non-transitory memory and a\nhardware processor, the method comprising: obtaining, using the hardware\nprocessor, a first frame of a video content including an object and a first\nregion surrounding at least part of the object, the first region having one or\nmore first leak areas; inserting, using the hardware processor, a synthetic\nobject obtained from a synthetic object database into the first frame of the\nvideo content, the synthetic object having a shape stored in the synthetic\nobject database; selecting, using the hardware processor, a second region at\nleast partially surrounding the synthetic object, the second region having one\nor more second leak areas; providing, using the hardware processor, the first\nframe including the first region and the second region to a first user for\ncreating a first corrected frame; receiving, using the hardware processor, the\nfirst corrected frame including one or more first corrections by the first\nuser to the one or more first leak areas of the first region, and one or more\nsecond corrections by the first user to the one or more second leak areas of\nthe second region; determining, using the hardware processor, a quality of the\none or more second corrections to the one or more second leak areas of the\nsecond region based on the shape of the synthetic object; and accepting, using\nthe hardware processor, the one or more first corrections to the one or more\nfirst leak areas of the first region depending on the quality of the one or\nmore second corrections to the one or more second leak areas of the second\nregion.\n\n\"9\\. The method of claim 8, wherein, prior to accepting the one or more first\ncorrections, the method further comprises: if the quality of the one or more\nsecond corrections to the one or more second leak areas of the second region\nis below a threshold, provide the first frame including the first region and\nthe second region to a second user for creating a second corrected frame.\n\n\"10\\. The method of claim 8, wherein the first region of the first frame is\npropagated from a previous frame of a plurality of frames of the video\ncontent.\n\n\"11\\. The method of claim 8, wherein the synthetic object is chosen from the\nsynthetic object database based on at least one of a size of the object, a\nlocation of the object in the first frame of the video content, or an area of\nthe first frame of the video content that is not a part of the first region.\n\n\"12\\. The method of claim 8, wherein the quality of the one or more second\ncorrections to the one or more second leak areas of the second region is\ncalculated using a ratio of an area of the shape of the synthetic object and\nan area of the one or more second corrections to the one or more second leak\nareas of the second region.\n\n\"13\\. The method of claim 8, wherein providing the first frame for creating\nthe first corrected frame includes making the first frame available on a\ncloud-based platform.\n\n\"14\\. The method of claim 8, wherein the quality of the one or more second\ncorrections to the one or more second leak areas of the second region is saved\nin a profile associated with the first user.\"\n\nFor the URL and additional information on this patent, see: Farre Guiu, Miquel\nAngel; Martin, Marc Junyent; Smolic, Aljoscha. Video Object Tagging Using\nSynthetic Images And Segmentation Hierarchies. U.S. Patent Number 10,664,973,\nfiled July 10, 2018, and published online on June 8, 2020. Patent URL:\n[http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,664,973.PN.&OS=PN/10,664,973RS=PN/10,664,973](http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,664,973.PN.&OS=PN/10,664,973RS=PN/10,664,973)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Entertainment Business Daily",
+            "Disney Enterprises Inc."
+        ],
+        "location": [
+            "Burbank, California",
+            "United States",
+            "Alexandria, Virginia",
+            "Bern",
+            "Barcelona",
+            "U.S."
+        ],
+        "person": [
+            "Miquel Angel",
+            "Marc Junyent"
+        ],
+        "companies": [
+            "News Reporter-Staff News",
+            "Entertainment Business Daily",
+            "Disney Enterprises Inc."
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_LEIS_2220AA2670615B5E.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Marc Junyent",
+                "relevance": 0.734228,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Farre Guiu",
+                "relevance": 0.69387,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.436268,
+                    "label": "positive"
+                },
+                "text": "Miquel Angel",
+                "relevance": 0.643287,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.411678,
+                    "label": "positive"
+                },
+                "text": "Martin",
+                "relevance": 0.566112,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alexandria",
+                "relevance": 0.53555,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Alexandria",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Alexandria"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.503636,
+                    "label": "positive"
+                },
+                "text": "News Editor",
+                "relevance": 0.526667,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Disney Enterprises Inc.",
+                "relevance": 0.52001,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Burbank",
+                "relevance": 0.51677,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "City"
+                    ],
+                    "name": "Burbank, California",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Burbank,_California"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Virginia",
+                "relevance": 0.511813,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Virginia"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "California",
+                "relevance": 0.503546,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "Appellation",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "WineRegion",
+                        "StateOrCounty"
+                    ],
+                    "name": "California",
+                    "dbpedia_resource": "http://dbpedia.org/resource/California"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.486395,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Miquel",
+                "relevance": 0.455882,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.47511,
+                    "label": "positive"
+                },
+                "text": "Aljoscha",
+                "relevance": 0.423454,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "States)"
+                },
+                "sentence": " States) has been issued patent number 10,664,973, according to news reporting",
+                "object": {
+                    "text": "been issued patent number 10,664,973"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "States)"
+                },
+                "sentence": " States) has been issued patent number 10,664,973, according to news reporting",
+                "object": {
+                    "text": "issued patent number 10,664,973"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "States"
+                },
+                "sentence": " States) has been issued patent number 10,664,973, according to news reporting",
+                "object": {
+                    "text": "patent number 10,664,973"
+                },
+                "action": {
+                    "verb": {
+                        "text": "issue",
+                        "tense": "past"
+                    },
+                    "text": "has been issued",
+                    "normalized": "have be issue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "States) has been issued patent number 10,664,973"
+                },
+                "sentence": " States) has been issued patent number 10,664,973, according to news reporting",
+                "object": {
+                    "text": "to news reporting"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent"
+                },
+                "sentence": " This patent was filed on July 10, 2018 and was published online on June 8,",
+                "action": {
+                    "verb": {
+                        "text": "file",
+                        "tense": "past"
+                    },
+                    "text": "was filed",
+                    "normalized": "be file"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent"
+                },
+                "sentence": " This patent was filed on July 10, 2018 and was published online on June 8,",
+                "object": {
+                    "text": "published online"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the inventors, news correspondents"
+                },
+                "sentence": " From the background information supplied by the inventors, news correspondents",
+                "object": {
+                    "text": "the background information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "supply",
+                        "tense": "past"
+                    },
+                    "text": "supplied",
+                    "normalized": "supply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Image and video segmentation"
+                },
+                "sentence": " obtained the following quote: \"Image and video segmentation is one of the most",
+                "object": {
+                    "text": "one of the most"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "into meaningful regions"
+                },
+                "sentence": " into meaningful regions requires a high level interpretation of the image that",
+                "object": {
+                    "text": "a high level interpretation of the image that"
+                },
+                "action": {
+                    "verb": {
+                        "text": "require",
+                        "tense": "present"
+                    },
+                    "text": "requires",
+                    "normalized": "require"
+                }
+            },
+            {
+                "subject": {
+                    "text": "high level interpretation of images"
+                },
+                "sentence": " high level interpretation of images has been to use powerful machine-learning",
+                "object": {
+                    "text": "been to use powerful machine-learning"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "high level interpretation of images"
+                },
+                "sentence": " high level interpretation of images has been to use powerful machine-learning",
+                "object": {
+                    "text": "powerful machine-learning"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "future"
+                    },
+                    "text": "has been to use",
+                    "normalized": "have be to use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "automatic image segmentation"
+                },
+                "sentence": " in recent years, automatic image segmentation is still far from providing",
+                "object": {
+                    "text": "still far from providing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "information or link"
+                },
+                "sentence": " information or link to remain associated with that object throughout a video",
+                "object": {
+                    "text": "with that object throughout a video"
+                },
+                "action": {
+                    "verb": {
+                        "text": "associate",
+                        "tense": "past"
+                    },
+                    "text": "to remain associated",
+                    "normalized": "to remain associate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "NewsRx reporters"
+                },
+                "sentence": " Supplementing the background information on this patent, NewsRx reporters also",
+                "object": {
+                    "text": "the background information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Supplementing",
+                        "tense": "present"
+                    },
+                    "text": "Supplementing",
+                    "normalized": "Supplementing"
+                }
+            },
+            {
+                "subject": {
+                    "text": "disclosure"
+                },
+                "sentence": " disclosure is directed to video object tagging using synthetic objects and",
+                "object": {
+                    "text": "directed to video"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "disclosure"
+                },
+                "sentence": " disclosure is directed to video object tagging using synthetic objects and",
+                "object": {
+                    "text": "to video object tagging using synthetic objects"
+                },
+                "action": {
+                    "verb": {
+                        "text": "direct",
+                        "tense": "past"
+                    },
+                    "text": "is directed",
+                    "normalized": "be direct"
+                }
+            },
+            {
+                "subject": {
+                    "text": "segmentation hierarchies"
+                },
+                "sentence": " segmentation hierarchies, substantially as shown in and/or described in",
+                "action": {
+                    "verb": {
+                        "text": "show",
+                        "tense": "past"
+                    },
+                    "text": "shown",
+                    "normalized": "show"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the inventors"
+                },
+                "sentence": " The claims supplied by the inventors are:",
+                "object": {
+                    "text": "The claims"
+                },
+                "action": {
+                    "verb": {
+                        "text": "supply",
+                        "tense": "past"
+                    },
+                    "text": "supplied",
+                    "normalized": "supply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a memory"
+                },
+                "sentence": " \"1\\. A system comprising: a memory storing an executable code; and a processor",
+                "object": {
+                    "text": "an executable code"
+                },
+                "action": {
+                    "verb": {
+                        "text": "store",
+                        "tense": "present"
+                    },
+                    "text": "storing",
+                    "normalized": "store"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the first region"
+                },
+                "sentence": " object, the first region having one or more first leak areas; insert a",
+                "object": {
+                    "text": "one or more first leak areas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "synthetic object"
+                },
+                "sentence": " synthetic object obtained from a synthetic object database into the first",
+                "object": {
+                    "text": "from a synthetic object database"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the synthetic object"
+                },
+                "sentence": " frame of the video content, the synthetic object having a shape stored in the",
+                "object": {
+                    "text": "a shape stored in the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the second region"
+                },
+                "sentence": " surrounding the synthetic object, the second region having one or more second",
+                "object": {
+                    "text": "one or more second"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the first region"
+                },
+                "sentence": " leak areas; provide the first frame including the first region and the second",
+                "object": {
+                    "text": "the first frame"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "frame"
+                },
+                "sentence": " region to a first user for creating a first corrected frame; receive the first",
+                "action": {
+                    "verb": {
+                        "text": "correct",
+                        "tense": "past"
+                    },
+                    "text": "corrected",
+                    "normalized": "correct"
+                }
+            },
+            {
+                "subject": {
+                    "text": "one or more first corrections by the first user to"
+                },
+                "sentence": " corrected frame including one or more first corrections by the first user to",
+                "object": {
+                    "text": "corrected frame"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the second region"
+                },
+                "sentence": " the one or more second leak areas of the second region based on the shape of",
+                "object": {
+                    "text": "on the shape of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "base",
+                        "tense": "past"
+                    },
+                    "text": "based",
+                    "normalized": "base"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the hardware processor"
+                },
+                "sentence": " corrections, the hardware processor further executes the executable code to:",
+                "object": {
+                    "text": "the executable code"
+                },
+                "action": {
+                    "verb": {
+                        "text": "execute",
+                        "tense": "present"
+                    },
+                    "text": "executes",
+                    "normalized": "execute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "leak areas of the second region"
+                },
+                "sentence": " leak areas of the second region is below a threshold, provide the first frame",
+                "object": {
+                    "text": "below a threshold"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "leak areas of the second region"
+                },
+                "sentence": " leak areas of the second region is below a threshold, provide the first frame",
+                "object": {
+                    "text": "the first frame"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "present"
+                    },
+                    "text": "provide",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "synthetic object database"
+                },
+                "sentence": " synthetic object database based on at least one of a size of the object, a",
+                "object": {
+                    "text": "on at least one of a size of the object"
+                },
+                "action": {
+                    "verb": {
+                        "text": "base",
+                        "tense": "past"
+                    },
+                    "text": "based",
+                    "normalized": "base"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the first frame of the video content"
+                },
+                "sentence": " the first frame of the video content that is not a part of the first region.",
+                "object": {
+                    "text": "not a part of the first region"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the first frame"
+                },
+                "sentence": " \"6\\. The system of claim 1, wherein providing the first frame to the first",
+                "object": {
+                    "text": "to the first"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "present"
+                    },
+                    "text": "providing",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "frame"
+                },
+                "sentence": " user for creating the first corrected frame includes making the first frame",
+                "action": {
+                    "verb": {
+                        "text": "correct",
+                        "tense": "past"
+                    },
+                    "text": "corrected",
+                    "normalized": "correct"
+                }
+            },
+            {
+                "subject": {
+                    "text": "making the first frame"
+                },
+                "sentence": " user for creating the first corrected frame includes making the first frame",
+                "object": {
+                    "text": "user for creating the first corrected frame"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "user for creating the first corrected frame"
+                },
+                "sentence": " user for creating the first corrected frame includes making the first frame",
+                "object": {
+                    "text": "the first frame"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "present"
+                    },
+                    "text": "includes making",
+                    "normalized": "include make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a profile"
+                },
+                "sentence": " in a profile associated with the first user.",
+                "object": {
+                    "text": "with the first user"
+                },
+                "action": {
+                    "verb": {
+                        "text": "associate",
+                        "tense": "past"
+                    },
+                    "text": "associated",
+                    "normalized": "associate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a system"
+                },
+                "sentence": " \"8\\. A method for use with a system having a non-transitory memory and a",
+                "object": {
+                    "text": "a non-transitory memory"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an object"
+                },
+                "sentence": " processor, a first frame of a video content including an object and a first",
+                "object": {
+                    "text": "a video content"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "region"
+                },
+                "sentence": " region surrounding at least part of the object, the first region having one or",
+                "object": {
+                    "text": "at least part of the object"
+                },
+                "action": {
+                    "verb": {
+                        "text": "surround",
+                        "tense": "present"
+                    },
+                    "text": "surrounding",
+                    "normalized": "surround"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the first region"
+                },
+                "sentence": " region surrounding at least part of the object, the first region having one or",
+                "object": {
+                    "text": "one"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "object"
+                },
+                "sentence": " object obtained from a synthetic object database into the first frame of the",
+                "object": {
+                    "text": "from a synthetic object database"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the synthetic object"
+                },
+                "sentence": " video content, the synthetic object having a shape stored in the synthetic",
+                "object": {
+                    "text": "a shape stored in the synthetic"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the second region"
+                },
+                "sentence": " least partially surrounding the synthetic object, the second region having one",
+                "object": {
+                    "text": "one"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the first region and the second region"
+                },
+                "sentence": " frame including the first region and the second region to a first user for",
+                "object": {
+                    "text": "frame"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "frame"
+                },
+                "sentence": " creating a first corrected frame; receiving, using the hardware processor, the",
+                "action": {
+                    "verb": {
+                        "text": "correct",
+                        "tense": "past"
+                    },
+                    "text": "corrected",
+                    "normalized": "correct"
+                }
+            },
+            {
+                "subject": {
+                    "text": "frame"
+                },
+                "sentence": " first corrected frame including one or more first corrections by the first",
+                "action": {
+                    "verb": {
+                        "text": "correct",
+                        "tense": "past"
+                    },
+                    "text": "corrected",
+                    "normalized": "correct"
+                }
+            },
+            {
+                "subject": {
+                    "text": "one or more first corrections by the first"
+                },
+                "sentence": " first corrected frame including one or more first corrections by the first",
+                "object": {
+                    "text": "first corrected frame"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "second region"
+                },
+                "sentence": " second region based on the shape of the synthetic object; and accepting, using",
+                "object": {
+                    "text": "on the shape of the synthetic object"
+                },
+                "action": {
+                    "verb": {
+                        "text": "base",
+                        "tense": "past"
+                    },
+                    "text": "based",
+                    "normalized": "base"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the first region"
+                },
+                "sentence": " is below a threshold, provide the first frame including the first region and",
+                "object": {
+                    "text": "the first frame"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.989225,
+                "label": "/technology and computing/hardware"
+            },
+            {
+                "score": 0.949077,
+                "label": "/technology and computing/operating systems"
+            },
+            {
+                "score": 0.906057,
+                "label": "/technology and computing/hardware/computer components/chips and processors"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Entertainment Business Daily \\-- Disney Enterprises Inc. (Burbank, California, United States) has been issued patent number 10,664,973, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.499015,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The patent's inventors are Farre Guiu, Miquel Angel (Bern, CH); Martin, Marc Junyent (Barcelona, ES); Smolic, Aljoscha (Aarau, CH).",
+                "score": 0.690164,
+                "arguments": [
+                    {
+                        "text": "Marc\nJunyent",
+                        "location": [
+                            361,
+                            373
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Marc\nJunyent"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ES",
+                        "location": [
+                            386,
+                            388
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "ES"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventors are Farre Guiu, Miquel Angel (Bern, CH); Martin, Marc Junyent (Barcelona, ES); Smolic, Aljoscha (Aarau, CH).",
+                "score": 0.79353,
+                "arguments": [
+                    {
+                        "text": "Barcelona",
+                        "location": [
+                            375,
+                            384
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Barcelona"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ES",
+                        "location": [
+                            386,
+                            388
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "ES"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventors are Farre Guiu, Miquel Angel (Bern, CH); Martin, Marc Junyent (Barcelona, ES); Smolic, Aljoscha (Aarau, CH).",
+                "score": 0.830963,
+                "arguments": [
+                    {
+                        "text": "Smolic",
+                        "location": [
+                            391,
+                            397
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Smolic"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Aljoscha",
+                        "location": [
+                            399,
+                            407
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Aljoscha"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "For the URL and additional information on this patent, see: Farre Guiu, Miquel Angel; Martin, Marc Junyent; Smolic, Aljoscha.",
+                "score": 0.986508,
+                "arguments": [
+                    {
+                        "text": "Smolic",
+                        "location": [
+                            8151,
+                            8157
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Smolic"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Aljoscha",
+                        "location": [
+                            8159,
+                            8167
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Aljoscha"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "This patent was filed on July 10, 2018 and was published online on June 8, 2020.",
+                "score": 0.9399,
+                "arguments": [
+                    {
+                        "text": "July 10, 2018",
+                        "location": [
+                            447,
+                            460
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "July 10, 2018"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            438,
+                            443
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "U.S. Patent Number 10,664,973, filed July 10, 2018, and published online on June 8, 2020.",
+                "score": 0.981306,
+                "arguments": [
+                    {
+                        "text": "July 10, 2018",
+                        "location": [
+                            8280,
+                            8293
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "July 10, 2018"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            8274,
+                            8279
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Entertainment Business Daily \\-- Disney Enterprises Inc. (Burbank, California, United States) has been issued patent number 10,664,973, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.385634,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Entertainment\nBusiness Daily \\",
+                        "location": [
+                            64,
+                            94
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Entertainment\nBusiness Daily \\",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Entertainment Business Daily \\-- Disney Enterprises Inc. (Burbank, California, United States) has been issued patent number 10,664,973, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.579315,
+                "arguments": [
+                    {
+                        "text": "Burbank",
+                        "location": [
+                            122,
+                            129
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Disney Enterprises Inc.",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "California",
+                        "location": [
+                            131,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "California"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Entertainment Business Daily \\-- Disney Enterprises Inc. (Burbank, California, United States) has been issued patent number 10,664,973, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.98105,
+                "arguments": [
+                    {
+                        "text": "California",
+                        "location": [
+                            131,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "California"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "United\nStates",
+                        "location": [
+                            143,
+                            156
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "United\nStates",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Entertainment Business Daily \\-- Disney Enterprises Inc. (Burbank, California, United States) has been issued patent number 10,664,973, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.986389,
+                "arguments": [
+                    {
+                        "text": "Alexandria",
+                        "location": [
+                            247,
+                            257
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alexandria"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Virginia",
+                        "location": [
+                            259,
+                            267
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Virginia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The patent's inventors are Farre Guiu, Miquel Angel (Bern, CH); Martin, Marc Junyent (Barcelona, ES); Smolic, Aljoscha (Aarau, CH).",
+                "score": 0.871534,
+                "arguments": [
+                    {
+                        "text": "Miquel Angel",
+                        "location": [
+                            328,
+                            340
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Miquel Angel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Bern",
+                        "location": [
+                            342,
+                            346
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Bern"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The patent's inventors are Farre Guiu, Miquel Angel (Bern, CH); Martin, Marc Junyent (Barcelona, ES); Smolic, Aljoscha (Aarau, CH).",
+                "score": 0.602526,
+                "arguments": [
+                    {
+                        "text": "Miquel Angel",
+                        "location": [
+                            328,
+                            340
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Miquel Angel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "CH",
+                        "location": [
+                            348,
+                            350
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "CH"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventors are Farre Guiu, Miquel Angel (Bern, CH); Martin, Marc Junyent (Barcelona, ES); Smolic, Aljoscha (Aarau, CH).",
+                "score": 0.946473,
+                "arguments": [
+                    {
+                        "text": "Bern",
+                        "location": [
+                            342,
+                            346
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Bern"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "CH",
+                        "location": [
+                            348,
+                            350
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "CH"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The patent's inventors are Farre Guiu, Miquel Angel (Bern, CH); Martin, Marc Junyent (Barcelona, ES); Smolic, Aljoscha (Aarau, CH).",
+                "score": 0.927139,
+                "arguments": [
+                    {
+                        "text": "Marc\nJunyent",
+                        "location": [
+                            361,
+                            373
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Marc\nJunyent"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Barcelona",
+                        "location": [
+                            375,
+                            384
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Barcelona"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "first frame of a video content",
+                "relevance": 0.75971,
+                "count": 2
+            },
+            {
+                "text": "second region",
+                "relevance": 0.750432,
+                "count": 14
+            },
+            {
+                "text": "patent number",
+                "relevance": 0.657078,
+                "count": 1
+            },
+            {
+                "text": "meaningful regions",
+                "relevance": 0.654654,
+                "count": 1
+            },
+            {
+                "text": "background information",
+                "relevance": 0.642392,
+                "count": 2
+            },
+            {
+                "text": "first corrections",
+                "relevance": 0.639916,
+                "count": 4
+            },
+            {
+                "text": "first region",
+                "relevance": 0.629248,
+                "count": 7
+            },
+            {
+                "text": "first leak areas",
+                "relevance": 0.626227,
+                "count": 2
+            },
+            {
+                "text": "homogeneous areas",
+                "relevance": 0.614477,
+                "count": 1
+            },
+            {
+                "text": "synthetic objects",
+                "relevance": 0.599426,
+                "count": 1
+            },
+            {
+                "text": "hardware processor",
+                "relevance": 0.598308,
+                "count": 8
+            },
+            {
+                "text": "second leak areas",
+                "relevance": 0.578011,
+                "count": 6
+            },
+            {
+                "text": "patent's inventors",
+                "relevance": 0.569895,
+                "count": 1
+            },
+            {
+                "text": "second corrections",
+                "relevance": 0.568542,
+                "count": 9
+            },
+            {
+                "text": "first leak areas of the first region",
+                "relevance": 0.555803,
+                "count": 4
+            },
+            {
+                "text": "first frame",
+                "relevance": 0.555494,
+                "count": 8
+            },
+            {
+                "text": "video segmentation",
+                "relevance": 0.553048,
+                "count": 1
+            },
+            {
+                "text": "additional information",
+                "relevance": 0.550168,
+                "count": 1
+            },
+            {
+                "text": "recent years",
+                "relevance": 0.546869,
+                "count": 1
+            },
+            {
+                "text": "second leak areas of the second region",
+                "relevance": 0.544022,
+                "count": 6
+            },
+            {
+                "text": "first user",
+                "relevance": 0.540957,
+                "count": 7
+            },
+            {
+                "text": "object",
+                "relevance": 0.539864,
+                "count": 5
+            },
+            {
+                "text": "second corrected frame",
+                "relevance": 0.538363,
+                "count": 2
+            },
+            {
+                "text": "method",
+                "relevance": 0.531294,
+                "count": 3
+            },
+            {
+                "text": "synthetic object",
+                "relevance": 0.531063,
+                "count": 10
+            },
+            {
+                "text": "era of big data",
+                "relevance": 0.530626,
+                "count": 1
+            },
+            {
+                "text": "use",
+                "relevance": 0.529184,
+                "count": 1
+            },
+            {
+                "text": "video object",
+                "relevance": 0.529048,
+                "count": 2
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.527814,
+                "count": 1
+            },
+            {
+                "text": "video content",
+                "relevance": 0.52681,
+                "count": 2
+            },
+            {
+                "text": "significant advances",
+                "relevance": 0.52457,
+                "count": 1
+            },
+            {
+                "text": "processor",
+                "relevance": 0.522428,
+                "count": 1
+            },
+            {
+                "text": "Miquel Angel",
+                "relevance": 0.518574,
+                "count": 1
+            },
+            {
+                "text": "claims",
+                "relevance": 0.518064,
+                "count": 2
+            },
+            {
+                "text": "system of claim",
+                "relevance": 0.515693,
+                "count": 6
+            },
+            {
+                "text": "synthetic object database",
+                "relevance": 0.515498,
+                "count": 5
+            },
+            {
+                "text": "URL",
+                "relevance": 0.514844,
+                "count": 1
+            },
+            {
+                "text": "Parser",
+                "relevance": 0.51448,
+                "count": 2
+            },
+            {
+                "text": "news reporting",
+                "relevance": 0.513979,
+                "count": 1
+            },
+            {
+                "text": "huge annotated databases",
+                "relevance": 0.513329,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.512913,
+                "count": 1
+            },
+            {
+                "text": "inventors' summary information",
+                "relevance": 0.512641,
+                "count": 1
+            },
+            {
+                "text": "method of claim",
+                "relevance": 0.511954,
+                "count": 6
+            },
+            {
+                "text": "Farre Guiu",
+                "relevance": 0.5114,
+                "count": 2
+            },
+            {
+                "text": "patent",
+                "relevance": 0.510783,
+                "count": 4
+            },
+            {
+                "text": "Marc Junyent",
+                "relevance": 0.510719,
+                "count": 1
+            },
+            {
+                "text": "frame",
+                "relevance": 0.51045,
+                "count": 3
+            },
+            {
+                "text": "high level interpretation of the image",
+                "relevance": 0.509326,
+                "count": 1
+            },
+            {
+                "text": "link",
+                "relevance": 0.50818,
+                "count": 2
+            },
+            {
+                "text": "reports",
+                "relevance": 0.507966,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "b5d41961f8afcefbe6f5aff00797898d6ca7ad13",
+        "filename": "202006050000NEWSRX__VRT_LEIS_2220AA2670615B5E.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NYSE|DIS|CUSIP:254687106;ISIN:US2546871060|The Walt Disney Company|extractor|DUNS:932660376;NECOID:28697;ACORN:0771140689|MENTION||PARENT||XNYS|REFERENCE",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Patent Issued for Video Object Tagging Using Synthetic Images And Segmentation Hierarchies (USPTO 10,664,973): Disney Enterprises Inc.",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at <org>Entertainment Business Daily</org> -- <org idsrc=\"xmltag.org\" value=\"ACORN:0593239960\">Disney Enterprises Inc.</org> (<location idsrc=\"xmltag.org\" value=\"LU/us.ca.burank\">Burbank, California</location>, <location idsrc=\"xmltag.org\" value=\"LC/us\">United States</location>) has been issued patent number 10,664,973, according to news reporting originating out of <location idsrc=\"xmltag.org\" value=\"LU/us.va.alxdra\">Alexandria, Virginia</location>, by NewsRx editors.</p>\n<p>The patent&#8217;s inventors are Farre Guiu, <person>Miquel Angel</person> (<location idsrc=\"xmltag.org\" value=\"LU/ch..bern\">Bern</location>, CH); Martin, <person>Marc Junyent</person> (<location idsrc=\"xmltag.org\" value=\"LU/es..barcel\">Barcelona</location>, ES); Smolic, Aljoscha (Aarau, CH).</p>\n<p>This patent was filed on <chron>July 10, 2018</chron> and was published online on <chron>June 8, 2020</chron>.</p>\n<p>From the background information supplied by the inventors, news correspondents obtained the following quote: &#8220;Image and video segmentation is one of the most fundamental yet challenging problems in computer vision. Dividing an image into meaningful regions requires a high level interpretation of the image that cannot be satisfactorily solved by only looking for homogeneous areas in an image. In the era of big data and vast computing power, one approach to model high level interpretation of images has been to use powerful machine-learning tools on huge annotated databases. While significant advances have been made in recent years, automatic image segmentation is still far from providing accurate results in a generic scenario. The creator of a video may desire to add information or a link to an object in a video, and may wish the added information or link to remain associated with that object throughout a video sequence.&#8221;</p>\n<p>Supplementing the background information on this patent, NewsRx reporters also obtained the inventors&#8217; summary information for this patent: &#8220;The present disclosure is directed to video object tagging using synthetic objects and segmentation hierarchies, substantially as shown in and/or described in connection with at least one of the figures, as set forth more completely in the claims.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;What is claimed is:</p>\n<p>&#8220;1. A system comprising: a memory storing an executable code; and a processor executing the executable code to: obtain a first frame of a video content including an object and a first region surrounding at least part of the object, the first region having one or more first leak areas; insert a synthetic object obtained from a synthetic object database into the first frame of the video content, the synthetic object having a shape stored in the synthetic object database; select a second region at least partially surrounding the synthetic object, the second region having one or more second leak areas; provide the first frame including the first region and the second region to a first user for creating a first corrected frame; receive the first corrected frame including one or more first corrections by the first user to the one or more first leak areas of the first region, and one or more second corrections by the first user to the one or more second leak areas of the second region; determine a quality of the one or more second corrections to the one or more second leak areas of the second region based on the shape of the synthetic object; and accept the one or more first corrections to the one or more first leak areas of the first region depending on the quality of the one or more second corrections to the one or more second leak areas of the second region.</p>\n<p>&#8220;2. The system of claim 1, wherein, prior to accepting the one or more first corrections, the hardware processor further executes the executable code to: if the quality of the one or more second corrections to the one or more second leak areas of the second region is below a threshold, provide the first frame including the first region and the second region to a second user for creating a second corrected frame.</p>\n<p>&#8220;3. The system of claim 1, wherein the first region of the first frame is propagated from a previous frame of a plurality of frames of the video content.</p>\n<p>&#8220;4. The system of claim 1, wherein the synthetic object is chosen from the synthetic object database based on at least one of a size of the object, a location of the object in the first frame of the video content, or an area of the first frame of the video content that is not a part of the first region.</p>\n<p>&#8220;5. The system of claim 1, wherein the quality of the one or more second corrections to the one or more second leak areas of the second region is calculated using a ratio of an area of the shape of the synthetic object and an area of the one or more second corrections to the one or more second leak areas of the second region.</p>\n<p>&#8220;6. The system of claim 1, wherein providing the first frame to the first user for creating the first corrected frame includes making the first frame available on a cloud-based platform.</p>\n<p>&#8220;7. The system of claim 1, wherein the quality of the one or more second corrections to the one or more second leak areas of the second region is saved in a profile associated with the first user.</p>\n<p>&#8220;8. A method for use with a system having a non-transitory memory and a hardware processor, the method comprising: obtaining, using the hardware processor, a first frame of a video content including an object and a first region surrounding at least part of the object, the first region having one or more first leak areas; inserting, using the hardware processor, a synthetic object obtained from a synthetic object database into the first frame of the video content, the synthetic object having a shape stored in the synthetic object database; selecting, using the hardware processor, a second region at least partially surrounding the synthetic object, the second region having one or more second leak areas; providing, using the hardware processor, the first frame including the first region and the second region to a first user for creating a first corrected frame; receiving, using the hardware processor, the first corrected frame including one or more first corrections by the first user to the one or more first leak areas of the first region, and one or more second corrections by the first user to the one or more second leak areas of the second region; determining, using the hardware processor, a quality of the one or more second corrections to the one or more second leak areas of the second region based on the shape of the synthetic object; and accepting, using the hardware processor, the one or more first corrections to the one or more first leak areas of the first region depending on the quality of the one or more second corrections to the one or more second leak areas of the second region.</p>\n<p>&#8220;9. The method of claim 8, wherein, prior to accepting the one or more first corrections, the method further comprises: if the quality of the one or more second corrections to the one or more second leak areas of the second region is below a threshold, provide the first frame including the first region and the second region to a second user for creating a second corrected frame.</p>\n<p>&#8220;10. The method of claim 8, wherein the first region of the first frame is propagated from a previous frame of a plurality of frames of the video content.</p>\n<p>&#8220;11. The method of claim 8, wherein the synthetic object is chosen from the synthetic object database based on at least one of a size of the object, a location of the object in the first frame of the video content, or an area of the first frame of the video content that is not a part of the first region.</p>\n<p>&#8220;12. The method of claim 8, wherein the quality of the one or more second corrections to the one or more second leak areas of the second region is calculated using a ratio of an area of the shape of the synthetic object and an area of the one or more second corrections to the one or more second leak areas of the second region.</p>\n<p>&#8220;13. The method of claim 8, wherein providing the first frame for creating the first corrected frame includes making the first frame available on a cloud-based platform.</p>\n<p>&#8220;14. The method of claim 8, wherein the quality of the one or more second corrections to the one or more second leak areas of the second region is saved in a profile associated with the first user.&#8221;</p>\n<p>For the URL and additional information on this patent, see: Farre Guiu, <person>Miquel Angel</person>; Martin, <person>Marc Junyent</person>; Smolic, Aljoscha. Video Object Tagging Using Synthetic Images And Segmentation Hierarchies. <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> Patent Number 10,664,973, filed <chron>July 10, 2018</chron>, and published online on <chron>June 8, 2020</chron>. Patent URL: <a href=\"http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,664,973.PN.&amp;OS=PN/10,664,973RS=PN/10,664,973\" target=\"_blank\">http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,664,973.PN.&amp;OS=PN/10,664,973RS=PN/10,664,973</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ]
+    ]
+}

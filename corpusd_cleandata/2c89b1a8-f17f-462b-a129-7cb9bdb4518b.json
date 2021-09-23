@@ -1,0 +1,817 @@
+{
+    "id": "2c89b1a8-f17f-462b-a129-7cb9bdb4518b",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "COPYRIGHT 2020 Plus Media Solutions",
+    "geoOrigin": "Lahore, Pakistan",
+    "sourceType": "Government Document",
+    "source": "US Official News",
+    "corpus_document_id": "56747819273306603650",
+    "description": "Trenton: Borough of Essex Fells New Jersey has issued the following news release:. Essex County Executive Joseph N. DiVincenzo, Jr. and the Board of Chosen Freeholders invite children in Pre-Kindergarten to 8th Grade to participate in Summer 2020 Nature Explorers \"Camp on a Box.\" Each box is $50 and will be available for pick-up only.",
+    "serviceName": "Gale All",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Government Agencies (U.S.), Government Policy, Local Government, National Government",
+    "subjectCode": [],
+    "text": "Trenton: Borough of Essex Fells New Jersey has issued the following news\nrelease:\n\nEssex County Executive Joseph N. DiVincenzo, Jr. and the Board of Chosen\nFreeholders invite children in Pre-Kindergarten to 8th Grade to participate in\nSummer 2020 Nature Explorers \"Camp on a Box.\"\n\nA series of themed boxes have been designed to keep children in Pre-K through\nEighth Grade engaged in outdoor activities during the summer while promoting\nactive learning. Each box aligns with our previously scheduled camp themes and\nages. The boxes include a mix of crafts, coloring sheets, activities and\nsummer fun!\n\nEach box is $50 and will be available for pick-up only. Boxes must be ordered\nby Monday, June 15th",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Trenton",
+            "Essex Fells New Jersey",
+            "Essex County"
+        ],
+        "person": [
+            "Joseph N. DiVincenzo"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/pk..lahore",
+    "language": "English",
+    "filename": "202006060000GALE____PUB_ALL_626363204.XML",
+    "providerName": "Gale Group",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Essex Fells New Jersey",
+                "relevance": 0.871044,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Essex County",
+                "relevance": 0.666705,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Essex County, New Jersey",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Essex_County,_New_Jersey"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Trenton",
+                "relevance": 0.575512,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "City"
+                    ],
+                    "name": "Trenton, New Jersey",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Trenton,_New_Jersey"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Board of Chosen",
+                "relevance": 0.499782,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Joseph N. DiVincenzo",
+                "relevance": 0.473507,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Executive",
+                "relevance": 0.439898,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jr.",
+                "relevance": 0.329459,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$50",
+                "relevance": 0.329459,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Borough of Essex Fells New Jersey"
+                },
+                "sentence": "Trenton: Borough of Essex Fells New Jersey has issued the following news",
+                "object": {
+                    "text": "issued the following news"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Borough of Essex Fells New Jersey"
+                },
+                "sentence": "Trenton: Borough of Essex Fells New Jersey has issued the following news",
+                "object": {
+                    "text": "the following news"
+                },
+                "action": {
+                    "verb": {
+                        "text": "issue",
+                        "tense": "past"
+                    },
+                    "text": "has issued",
+                    "normalized": "have issue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Freeholders"
+                },
+                "sentence": " Freeholders invite children in Pre-Kindergarten to 8th Grade to participate in",
+                "object": {
+                    "text": "children"
+                },
+                "action": {
+                    "verb": {
+                        "text": "invite",
+                        "tense": "present"
+                    },
+                    "text": "invite",
+                    "normalized": "invite"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A series of themed boxes"
+                },
+                "sentence": " A series of themed boxes have been designed to keep children in Pre-K through",
+                "object": {
+                    "text": "children"
+                },
+                "action": {
+                    "verb": {
+                        "text": "keep",
+                        "tense": "future"
+                    },
+                    "text": "have been designed to keep",
+                    "normalized": "have be design to keep"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Eighth Grade"
+                },
+                "sentence": " Eighth Grade engaged in outdoor activities during the summer while promoting",
+                "action": {
+                    "verb": {
+                        "text": "engage",
+                        "tense": "past"
+                    },
+                    "text": "engaged",
+                    "normalized": "engage"
+                }
+            },
+            {
+                "subject": {
+                    "text": "camp themes"
+                },
+                "sentence": " Each box aligns with our previously scheduled camp themes and",
+                "action": {
+                    "verb": {
+                        "text": "schedule",
+                        "tense": "past"
+                    },
+                    "text": "scheduled",
+                    "normalized": "schedule"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a mix of crafts, coloring sheets"
+                },
+                "sentence": " ages. The boxes include a mix of crafts, coloring sheets, activities and",
+                "object": {
+                    "text": "ages. The boxes"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "include",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Each box"
+                },
+                "sentence": " Each box is $50 and will be available for pick-up only.",
+                "object": {
+                    "text": "$50"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Each box"
+                },
+                "sentence": " Each box is $50 and will be available for pick-up only.",
+                "object": {
+                    "text": "available"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "will be",
+                    "normalized": "will be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.912087,
+                "label": "/education/special education"
+            },
+            {
+                "score": 0.782844,
+                "label": "/education/high school"
+            },
+            {
+                "score": 0.687529,
+                "label": "/science/mathematics/algebra"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Trenton: Borough of Essex Fells New Jersey has issued the following news release:",
+                "score": 0.805611,
+                "arguments": [
+                    {
+                        "text": "Trenton",
+                        "location": [
+                            0,
+                            7
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Trenton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Borough of Essex Fells",
+                        "location": [
+                            9,
+                            31
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Borough of Essex Fells"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Trenton: Borough of Essex Fells New Jersey has issued the following news release:",
+                "score": 0.864054,
+                "arguments": [
+                    {
+                        "text": "Borough of Essex Fells",
+                        "location": [
+                            9,
+                            31
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Borough of Essex Fells"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "New Jersey",
+                        "location": [
+                            32,
+                            42
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "New Jersey"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Essex County Executive Joseph N. DiVincenzo, Jr. and the Board of Chosen Freeholders invite children in Pre-Kindergarten to 8th Grade to participate in Summer 2020 Nature Explorers \"Camp on a Box.\"",
+                "score": 0.462081,
+                "arguments": [
+                    {
+                        "text": "Executive",
+                        "location": [
+                            96,
+                            105
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Joseph N. DiVincenzo, Jr."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Essex County",
+                        "location": [
+                            83,
+                            95
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Essex County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Essex County Executive Joseph N. DiVincenzo, Jr. and the Board of Chosen Freeholders invite children in Pre-Kindergarten to 8th Grade to participate in Summer 2020 Nature Explorers \"Camp on a Box.\"",
+                "score": 0.379589,
+                "arguments": [
+                    {
+                        "text": "Joseph N. DiVincenzo, Jr.",
+                        "location": [
+                            106,
+                            131
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Joseph N. DiVincenzo, Jr."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Board of Chosen\nFreeholders",
+                        "location": [
+                            140,
+                            167
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Board of Chosen\nFreeholders"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Essex County Executive Joseph N. DiVincenzo, Jr. and the Board of Chosen Freeholders invite children in Pre-Kindergarten to 8th Grade to participate in Summer 2020 Nature Explorers \"Camp on a Box.\"",
+                "score": 0.323181,
+                "arguments": [
+                    {
+                        "text": "children",
+                        "location": [
+                            175,
+                            183
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "children"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Board of Chosen\nFreeholders",
+                        "location": [
+                            140,
+                            167
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Board of Chosen\nFreeholders"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "Essex County Executive Joseph N. DiVincenzo, Jr. and the Board of Chosen Freeholders invite children in Pre-Kindergarten to 8th Grade to participate in Summer 2020 Nature Explorers \"Camp on a Box.\"",
+                "score": 0.563001,
+                "arguments": [
+                    {
+                        "text": "Board of Chosen\nFreeholders",
+                        "location": [
+                            140,
+                            167
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Board of Chosen\nFreeholders"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Pre",
+                        "location": [
+                            187,
+                            190
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Pre"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Essex County Executive Joseph N. DiVincenzo, Jr. and the Board of Chosen Freeholders invite children in Pre-Kindergarten to 8th Grade to participate in Summer 2020 Nature Explorers \"Camp on a Box.\"",
+                "score": 0.527421,
+                "arguments": [
+                    {
+                        "text": "children",
+                        "location": [
+                            175,
+                            183
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "children"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Pre",
+                        "location": [
+                            187,
+                            190
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Pre"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Essex County Executive Joseph N. DiVincenzo, Jr. and the Board of Chosen Freeholders invite children in Pre-Kindergarten to 8th Grade to participate in Summer 2020 Nature Explorers \"Camp on a Box.\"",
+                "score": 0.591086,
+                "arguments": [
+                    {
+                        "text": "children",
+                        "location": [
+                            175,
+                            183
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "children"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Kindergarten",
+                        "location": [
+                            191,
+                            203
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Kindergarten"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Boxes must be ordered by Monday, June 15th",
+                "score": 0.97219,
+                "arguments": [
+                    {
+                        "text": "Monday",
+                        "location": [
+                            683,
+                            689
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "June 15th"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ordered",
+                        "location": [
+                            672,
+                            679
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "ordered"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Boxes must be ordered by Monday, June 15th",
+                "score": 0.758125,
+                "arguments": [
+                    {
+                        "text": "June 15th",
+                        "location": [
+                            691,
+                            700
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "June 15th"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ordered",
+                        "location": [
+                            672,
+                            679
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "ordered"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "series of themed boxes",
+                "relevance": 0.812701,
+                "count": 1
+            },
+            {
+                "text": "Borough of Essex Fells New Jersey",
+                "relevance": 0.786298,
+                "count": 1
+            },
+            {
+                "text": "Eighth Grade",
+                "relevance": 0.742879,
+                "count": 1
+            },
+            {
+                "text": "outdoor activities",
+                "relevance": 0.692622,
+                "count": 1
+            },
+            {
+                "text": "Pre-Kindergarten",
+                "relevance": 0.680939,
+                "count": 1
+            },
+            {
+                "text": "8th Grade",
+                "relevance": 0.667186,
+                "count": 1
+            },
+            {
+                "text": "Nature Explorers",
+                "relevance": 0.621946,
+                "count": 1
+            },
+            {
+                "text": "Box",
+                "relevance": 0.611578,
+                "count": 3
+            },
+            {
+                "text": "Trenton",
+                "relevance": 0.586909,
+                "count": 1
+            },
+            {
+                "text": "Pre-K",
+                "relevance": 0.584254,
+                "count": 1
+            },
+            {
+                "text": "Summer",
+                "relevance": 0.581268,
+                "count": 2
+            },
+            {
+                "text": "children",
+                "relevance": 0.535416,
+                "count": 2
+            },
+            {
+                "text": "boxes",
+                "relevance": 0.528342,
+                "count": 2
+            },
+            {
+                "text": "Camp",
+                "relevance": 0.52587,
+                "count": 1
+            },
+            {
+                "text": "summer fun",
+                "relevance": 0.524624,
+                "count": 1
+            },
+            {
+                "text": "activities",
+                "relevance": 0.513616,
+                "count": 1
+            },
+            {
+                "text": "mix of crafts",
+                "relevance": 0.513547,
+                "count": 1
+            },
+            {
+                "text": "Board",
+                "relevance": 0.509815,
+                "count": 1
+            },
+            {
+                "text": "ages",
+                "relevance": 0.508095,
+                "count": 1
+            },
+            {
+                "text": "coloring sheets",
+                "relevance": 0.468521,
+                "count": 1
+            },
+            {
+                "text": "active learning",
+                "relevance": 0.467289,
+                "count": 1
+            },
+            {
+                "text": "camp themes",
+                "relevance": 0.458559,
+                "count": 1
+            },
+            {
+                "text": "June 15th",
+                "relevance": 0.452727,
+                "count": 1
+            },
+            {
+                "text": "Essex County Executive Joseph N. DiVincenzo",
+                "relevance": 0.431638,
+                "count": 1
+            },
+            {
+                "text": "Monday",
+                "relevance": 0.40464,
+                "count": 1
+            },
+            {
+                "text": "Jr.",
+                "relevance": 0.395577,
+                "count": 1
+            },
+            {
+                "text": "pick-up",
+                "relevance": 0.391943,
+                "count": 1
+            },
+            {
+                "text": "promoting",
+                "relevance": 0.391943,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "313433b6d1268a71f87961266e317f7b23a6b575",
+        "filename": "202006060000GALE____PUB_ALL_626363204.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-06T00:00:00-04:00",
+    "title": "Summer 2020 Nature Explorers \"Camp on a Box\".",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.nj.trentn\">Trenton</location>: Borough of <location idsrc=\"xmltag.org\" value=\"LU/us.nj.esslls\">Essex Fells New Jersey</location> has issued the following\nnews release:</p>\n\n<p><location idsrc=\"xmltag.org\" value=\"LU/us.nj.essex\">Essex County</location> Executive <person>Joseph N. DiVincenzo</person>, Jr. and the <org>Board of\nChosen Freeholders</org> invite children in Pre-Kindergarten to 8th Grade to\nparticipate in Summer 2020 Nature Explorers \"Camp on a Box.\"</p>\n\n<p>A series of themed boxes have been designed to keep children in\nPre-K through Eighth Grade engaged in outdoor activities during the\nsummer while promoting active learning. Each box aligns with our\npreviously scheduled camp themes and ages. The boxes include a mix of\ncrafts, coloring sheets, activities and summer fun!</p>\n\n<p>Each box is <money>$50</money> and will be available for pick-up only. Boxes must\nbe ordered by <chron>Monday, June 15th</chron></p>",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ]
+    ]
+}

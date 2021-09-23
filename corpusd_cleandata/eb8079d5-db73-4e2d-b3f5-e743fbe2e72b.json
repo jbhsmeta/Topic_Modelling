@@ -1,0 +1,509 @@
+{
+    "id": "eb8079d5-db73-4e2d-b3f5-e743fbe2e72b",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) Advocate Publishing, 2020 All Rights Reserved.",
+    "geoOrigin": "Dallas, Texas",
+    "sourceType": "Magazine",
+    "source": "Advocate: Lakewood - East Dallas Edition (Dallas, TX)",
+    "corpus_document_id": "65320810788344228553",
+    "description": "The locations on Greenville Avenue and Royal Lane will be open for takeout only. After a few weeks, the eatery will reopen for regular service, owner Carlo Gattini said in a Facebook post. Although restaurants could remain open for takeout and delivery, the gelateria decided to close March 20 at the onset of the pandemic.",
+    "serviceName": "Magazines",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#6#50#66",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "6",
+            "description": "Food and Dining",
+            "code": "IS/lifesoc.fooddine#6#50#66",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.fooddine",
+            "relevance_score": "6",
+            "description": "Restaurants and Dining Establishments",
+            "code": "IS/lifesoc.restaur#6#66#50",
+            "level": 2
+        }
+    ],
+    "text": "Here's some good news after a tough weekend: Botolino Gelato Artigianale is\nreopening today, more than two months after temporarily closing because of the\ncoronavirus pandemic.\n\nThe locations on Greenville Avenue and Royal Lane will be open for takeout\nonly. After a few weeks, the eatery will reopen for regular service, owner\nCarlo Gattini said in a Facebook post.\n\nAlthough restaurants could remain open for takeout and delivery, the gelateria\ndecided to close March 20 at the onset of the pandemic.\n\n\"We've missed serving you gelato, and we are excited to be back at work,\"\nGattini said.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Greenville Avenue",
+            "Royal Lane"
+        ],
+        "person": [
+            "Carlo Gattini"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.tx.dallas",
+    "language": "English",
+    "filename": "202006010000NEWSBANKMAGS____9A0C1097DEFE195DD43DA3887728A31.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Botolino Gelato Artigianale",
+                "relevance": 0.990661,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.381664,
+                    "label": "negative"
+                },
+                "text": "Carlo Gattini",
+                "relevance": 0.737953,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.381664,
+                    "label": "negative"
+                },
+                "text": "Facebook",
+                "relevance": 0.514676,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [
+                        "Website",
+                        "VentureFundedCompany"
+                    ],
+                    "name": "Facebook",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Facebook"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "two months",
+                "relevance": 0.514676,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "some good news"
+                },
+                "sentence": "Here's some good news after a tough weekend: Botolino Gelato Artigianale is",
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The locations on Greenville Avenue and Royal Lane"
+                },
+                "sentence": " The locations on Greenville Avenue and Royal Lane will be open for takeout",
+                "object": {
+                    "text": "open"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "will be",
+                    "normalized": "will be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the eatery"
+                },
+                "sentence": " only. After a few weeks, the eatery will reopen for regular service, owner",
+                "action": {
+                    "verb": {
+                        "text": "reopen",
+                        "tense": "future"
+                    },
+                    "text": "will reopen",
+                    "normalized": "will reopen"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Carlo Gattini"
+                },
+                "sentence": " Carlo Gattini said in a Facebook post.",
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "to close March 20"
+                },
+                "sentence": " decided to close March 20 at the onset of the pandemic.",
+                "action": {
+                    "verb": {
+                        "text": "decide",
+                        "tense": "past"
+                    },
+                    "text": "decided",
+                    "normalized": "decide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We've missed serving you gelato, and we are excited to be back at work,\"",
+                "object": {
+                    "text": "missed serving you gelato"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We've missed serving you gelato, and we are excited to be back at work,\"",
+                "object": {
+                    "text": "serving you gelato"
+                },
+                "action": {
+                    "verb": {
+                        "text": "miss",
+                        "tense": "past"
+                    },
+                    "text": "missed",
+                    "normalized": "miss"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We've missed serving you gelato, and we are excited to be back at work,\"",
+                "object": {
+                    "text": "gelato"
+                },
+                "action": {
+                    "verb": {
+                        "text": "serve",
+                        "tense": "present"
+                    },
+                    "text": "missed serving",
+                    "normalized": "miss serve"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.767242,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.709712,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.648576,
+                "label": "/food and drink/food"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "The locations on Greenville Avenue and Royal Lane will be open for takeout only.",
+                "score": 0.611789,
+                "arguments": [
+                    {
+                        "text": "locations",
+                        "location": [
+                            182,
+                            191
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "locations"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Greenville Avenue",
+                        "location": [
+                            195,
+                            212
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Greenville Avenue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The locations on Greenville Avenue and Royal Lane will be open for takeout only.",
+                "score": 0.742291,
+                "arguments": [
+                    {
+                        "text": "locations",
+                        "location": [
+                            182,
+                            191
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "locations"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Royal Lane",
+                        "location": [
+                            217,
+                            227
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Royal Lane"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "After a few weeks, the eatery will reopen for regular service, owner Carlo Gattini said in a Facebook post.",
+                "score": 0.992735,
+                "arguments": [
+                    {
+                        "text": "Carlo Gattini",
+                        "location": [
+                            328,
+                            341
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Carlo Gattini"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            342,
+                            346
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"We've missed serving you gelato, and we are excited to be back at work,\" Gattini said.",
+                "score": 0.997911,
+                "arguments": [
+                    {
+                        "text": "Gattini",
+                        "location": [
+                            578,
+                            585
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Carlo Gattini"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            586,
+                            590
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "good news",
+                "relevance": 0.866281,
+                "count": 1
+            },
+            {
+                "text": "Greenville Avenue",
+                "relevance": 0.681136,
+                "count": 1
+            },
+            {
+                "text": "regular service",
+                "relevance": 0.640694,
+                "count": 1
+            },
+            {
+                "text": "tough weekend",
+                "relevance": 0.621782,
+                "count": 1
+            },
+            {
+                "text": "Facebook post",
+                "relevance": 0.617043,
+                "count": 1
+            },
+            {
+                "text": "Botolino Gelato Artigianale",
+                "relevance": 0.594122,
+                "count": 1
+            },
+            {
+                "text": "locations",
+                "relevance": 0.57985,
+                "count": 1
+            },
+            {
+                "text": "Royal Lane",
+                "relevance": 0.576107,
+                "count": 1
+            },
+            {
+                "text": "weeks",
+                "relevance": 0.567966,
+                "count": 1
+            },
+            {
+                "text": "restaurants",
+                "relevance": 0.55016,
+                "count": 1
+            },
+            {
+                "text": "eatery",
+                "relevance": 0.550086,
+                "count": 1
+            },
+            {
+                "text": "today",
+                "relevance": 0.537775,
+                "count": 1
+            },
+            {
+                "text": "March",
+                "relevance": 0.52277,
+                "count": 1
+            },
+            {
+                "text": "months",
+                "relevance": 0.520684,
+                "count": 1
+            },
+            {
+                "text": "delivery",
+                "relevance": 0.518392,
+                "count": 1
+            },
+            {
+                "text": "onset",
+                "relevance": 0.517748,
+                "count": 1
+            },
+            {
+                "text": "work",
+                "relevance": 0.515171,
+                "count": 1
+            },
+            {
+                "text": "gelato",
+                "relevance": 0.513416,
+                "count": 1
+            },
+            {
+                "text": "Gattini",
+                "relevance": 0.44254,
+                "count": 1
+            },
+            {
+                "text": "takeout",
+                "relevance": 0.428102,
+                "count": 2
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.423647,
+                "count": 1
+            },
+            {
+                "text": "gelateria",
+                "relevance": 0.421129,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Monthly",
+    "extracted_metadata": {
+        "sha1": "3d3a2ca427dd3f9fd0da2539fcc9d0c17f6288c9",
+        "filename": "202006010000NEWSBANKMAGS____9A0C1097DEFE195DD43DA3887728A31.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Botolino reopens for takeout if you need a sugary pick-me-up",
+    "html": "<p>Here's some good news after a tough weekend: Botolino Gelato Artigianale is reopening today, more than two months after temporarily closing because of the coronavirus pandemic.</p>\n<p>The locations on <location>Greenville Avenue</location> and <location>Royal Lane</location> will be open for takeout only. After a few weeks, the eatery will reopen for regular service, owner <person>Carlo Gattini</person> said in a Facebook post.</p>\n\n<p>Although restaurants could remain open for takeout and delivery, the gelateria decided to close <chron>March 20</chron> at the onset of the pandemic.</p>\n\n<p>\"We've missed serving you gelato, and we are excited to be back at work,\" Gattini said.</p>",
+    "geoFocus": [
+        [
+            "GU/us.tx.dallas",
+            "Dallas"
+        ]
+    ]
+}

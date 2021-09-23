@@ -1,0 +1,217 @@
+{
+    "id": "a0418fcf-7dff-4f7b-ac92-57c2037a86c0",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "41752084023844001346",
+    "description": "Hong Sang-soo\u2019 s\u201c Yourself and Yours\u201d has a virtual debut. And the artist Lewis Klahr takes part in a virtual Q. and A. about his latest film, which can be streamed.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Culture, Entertainment and the Arts",
+            "code": "IS/culture#6#50#66",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#6#50#66",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "6",
+            "description": "Communications",
+            "code": "IS/lifesoc.comm#6#50#66",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.comm",
+            "relevance_score": "6",
+            "description": "Mass Media",
+            "code": "IS/lifesoc.massmed#6#50#66",
+            "level": 2
+        }
+    ],
+    "text": "Hong Sang-soo's \"Yourself and Yours\" has a virtual debut. And the artist Lewis\nKlahr takes part in a virtual Q. and A. about his latest film, which can be\nstreamed.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Hong Sang",
+            "Lewis Klahr"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050204AMSPIDERNEWS_____NYT__111_7165A7D2CC3AC0385A1204C5EE60CA0A_6.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.560833,
+                    "label": "positive"
+                },
+                "text": "Hong Sang-soo",
+                "relevance": 0.884738,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "AwardNominee",
+                        "AwardWinner",
+                        "FilmDirector",
+                        "FilmWriter"
+                    ],
+                    "name": "Hong Sang-soo",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Hong_Sang-soo"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Lewis",
+                "relevance": 0.699313,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Hong Sang-soo's \"Yourself and Yours\""
+                },
+                "sentence": "Hong Sang-soo's \"Yourself and Yours\" has a virtual debut.",
+                "object": {
+                    "text": "a virtual debut"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Klahr"
+                },
+                "sentence": " Klahr takes part in a virtual Q. and A. about his latest film, which can be",
+                "object": {
+                    "text": "part"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "present"
+                    },
+                    "text": "takes",
+                    "normalized": "take"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.673571,
+                "label": "/technology and computing/operating systems"
+            },
+            {
+                "score": 0.66403,
+                "label": "/technology and computing/hardware"
+            },
+            {
+                "score": 0.615642,
+                "label": "/art and entertainment/movies and tv/movies"
+            }
+        ],
+        "relations": [
+            {
+                "type": "authorOf",
+                "sentence": "and A. about his latest film, which can be streamed.",
+                "score": 0.784551,
+                "arguments": [
+                    {
+                        "text": "his",
+                        "location": [
+                            125,
+                            128
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Lewis\nKlahr"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "film",
+                        "location": [
+                            136,
+                            140
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Yourself and Yours"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Hong Sang-soo",
+                "relevance": 0.994585,
+                "count": 1
+            },
+            {
+                "text": "latest film",
+                "relevance": 0.80007,
+                "count": 1
+            },
+            {
+                "text": "part",
+                "relevance": 0.597431,
+                "count": 1
+            },
+            {
+                "text": "virtual debut",
+                "relevance": 0.510346,
+                "count": 1
+            },
+            {
+                "text": "virtual Q.",
+                "relevance": 0.415368,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "5eb395f69a179efdc771d6481d2935b107629730",
+        "filename": "202006050204AMSPIDERNEWS_____NYT__111_7165A7D2CC3AC0385A1204C5EE60CA0A_6.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:04:00-04:00",
+    "title": "What\u2019s on TV Friday: \u2018Yourself and Yours\u2019 and \u2018Circumstantial Pleasures\u2019 [The New York Times]",
+    "html": "<p><person>Hong Sang</person>-soo&#8217;s &#8220;Yourself and Yours&#8221; has a virtual debut. And the artist <person>Lewis Klahr</person> takes part in a virtual Q. and A. about his latest film, which can be streamed.</p>",
+    "geoFocus": []
+}

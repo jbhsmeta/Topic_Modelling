@@ -1,0 +1,1611 @@
+{
+    "id": "8a42a07b-2371-4d2e-8af1-d3033debdb34",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Lake Saint Louis, Missouri",
+    "sourceType": "Broadcast Transcript",
+    "source": "KTVI-TV (St. Louis, MO)",
+    "corpus_document_id": "31812449659167500970",
+    "description": "CLAYTON, Mo. Today marks one week since the death of George Floyd who died while in police custody in Minneapolis. He said that Black Lives Matter became a national rallying cry after a police officer shot and killed Michael Brown in Ferguson. The protests downtown, in Clayton and in Ferguson have been a peaceful gathering of solidarity over the weekend.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Crime",
+            "code": "IS/lifesoc.crime#9#99#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Politics and Government",
+            "code": "IS/pol#6#50#63",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "6",
+            "description": "Social and Political Protest",
+            "code": "IS/pol.protest#6#63#50",
+            "level": 1
+        }
+    ],
+    "text": "CLAYTON, Mo. \u0096 Today marks one week since the death of George Floyd who died\nwhile in police custody in Minneapolis. There have been protests across our\ncounty and in St. Louis for several days.\n\nSt. Louis County Executive Sam Page addressed the demonstrations during a\nweekly press conference about the economic and health impacts of COVID-19. He\nsaid that Black Lives Matter became a national rallying cry after a police\nofficer shot and killed Michael Brown in Ferguson. The nation is still\nstruggling with inequality and three words in the Pledge of Allegiance,\n\"Justice for All.\"\n\nPage said that the virus is disproportionately affecting African-American\ncommunities. The administration is working on helping those in need. They are\nworking to distribute $173 million in federal CARES Act grants to help fight\nthe virus in all areas of the county. He also announced that all businesses\nmay reopen by the end of the month.\n\nThe protests downtown, in Clayton and in Ferguson have been a peaceful\ngathering of solidarity over the weekend. But as the sun goes down things turn\nviolent.\n\nFerguson Mayor James Knowles imposed a curfew at 8:00 pm Sunday. Protesters\nwere still there after 9:00 pm. Some threw items at officers. One officer was\nhit by a rock.\n\nPolice declared the gathering an \"unlawful assembly\". Officers ordered the\ngroup to leave. Someone threw a large firework at officers and one officer was\ninjured.\n\nOfficers then used tear gas to disperse the crowd. Police say there were also\nshots fired at officers. A police vehicle and some businesses were damaged.\nOfficers made six arrests.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Black Lives Matter",
+            "African-American"
+        ],
+        "location": [
+            "CLAYTON, Mo.",
+            "Minneapolis",
+            "St. Louis",
+            "St. Louis County",
+            "Ferguson",
+            "Clayton"
+        ],
+        "person": [
+            "George Floyd",
+            "Sam Page",
+            "Michael Brown",
+            "James Knowles"
+        ],
+        "companies": [
+            "Black Lives Matter",
+            "African-American"
+        ]
+    },
+    "geoOrigin_code": "RU/us.mo.lakuis",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRSD66740F74419927E03958FC91FFDFBB.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": -0.476595,
+                    "label": "negative"
+                },
+                "text": "officer",
+                "relevance": 0.922352,
+                "type": "JobTitle"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": -0.718353,
+                    "label": "negative"
+                },
+                "text": "Sam Page",
+                "relevance": 0.896023,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ferguson",
+                "relevance": 0.872339,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Ferguson, Missouri",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Ferguson,_Missouri"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.32023,
+                    "label": "positive"
+                },
+                "text": "CLAYTON",
+                "relevance": 0.839354,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Clayton, Missouri",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Clayton,_Missouri"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "St. Louis County",
+                "relevance": 0.688925,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "CityTown",
+                        "StateOrCounty"
+                    ],
+                    "name": "St. Louis County, Missouri",
+                    "dbpedia_resource": "http://dbpedia.org/resource/St._Louis_County,_Missouri"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "St. Louis",
+                "relevance": 0.637272,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "St. Louis",
+                    "dbpedia_resource": "http://dbpedia.org/resource/St._Louis"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.458306,
+                    "label": "negative"
+                },
+                "text": "George Floyd",
+                "relevance": 0.609598,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "FootballPlayer"
+                    ],
+                    "name": "George Floyd",
+                    "dbpedia_resource": "http://dbpedia.org/resource/George_Floyd"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.315839,
+                    "label": "negative"
+                },
+                "text": "Minneapolis",
+                "relevance": 0.587785,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Minneapolis",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Minneapolis"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.213761,
+                    "label": "negative"
+                },
+                "text": "James Knowles",
+                "relevance": 0.571358,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Michael Donald",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Michael_Donald"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.361664,
+                    "label": "negative"
+                },
+                "text": "Michael Brown",
+                "relevance": 0.490559,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.458306,
+                    "label": "negative"
+                },
+                "text": "Mo.",
+                "relevance": 0.469776,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Executive",
+                "relevance": 0.468357,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$173 million",
+                "relevance": 0.468357,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "one week",
+                "relevance": 0.468357,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "St. Louis County Executive Sam Page"
+                },
+                "sentence": " St. Louis County Executive Sam Page addressed the demonstrations during a",
+                "object": {
+                    "text": "the demonstrations"
+                },
+                "action": {
+                    "verb": {
+                        "text": "address",
+                        "tense": "past"
+                    },
+                    "text": "addressed",
+                    "normalized": "address"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Black Lives Matter"
+                },
+                "sentence": " said that Black Lives Matter became a national rallying cry after a police",
+                "object": {
+                    "text": "a national rallying cry after a police"
+                },
+                "action": {
+                    "verb": {
+                        "text": "become",
+                        "tense": "past"
+                    },
+                    "text": "became",
+                    "normalized": "become"
+                }
+            },
+            {
+                "subject": {
+                    "text": "officer"
+                },
+                "sentence": " officer shot and killed Michael Brown in Ferguson.",
+                "object": {
+                    "text": "Michael Brown"
+                },
+                "action": {
+                    "verb": {
+                        "text": "kill",
+                        "tense": "past"
+                    },
+                    "text": "killed",
+                    "normalized": "kill"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The nation"
+                },
+                "sentence": " The nation is still",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Page"
+                },
+                "sentence": " Page said that the virus is disproportionately affecting African-American",
+                "object": {
+                    "text": "that the virus is disproportionately affecting African-American"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the virus"
+                },
+                "sentence": " Page said that the virus is disproportionately affecting African-American",
+                "object": {
+                    "text": "African-American"
+                },
+                "action": {
+                    "verb": {
+                        "text": "affect",
+                        "tense": "present"
+                    },
+                    "text": "affecting",
+                    "normalized": "affect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "communities. The administration"
+                },
+                "sentence": " communities. The administration is working on helping those in need.",
+                "object": {
+                    "text": "those"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "helping",
+                    "normalized": "help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "$173 million in federal CARES Act grants"
+                },
+                "sentence": " working to distribute $173 million in federal CARES Act grants to help fight",
+                "object": {
+                    "text": "fight"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "help",
+                    "normalized": "help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He also announced that all businesses",
+                "object": {
+                    "text": "that all businesses"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "past"
+                    },
+                    "text": "announced",
+                    "normalized": "announce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "of solidarity"
+                },
+                "sentence": " gathering of solidarity over the weekend.",
+                "action": {
+                    "verb": {
+                        "text": "gather",
+                        "tense": "present"
+                    },
+                    "text": "gathering",
+                    "normalized": "gather"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Ferguson Mayor James Knowles"
+                },
+                "sentence": " Ferguson Mayor James Knowles imposed a curfew at 8:00 pm Sunday.",
+                "object": {
+                    "text": "a curfew"
+                },
+                "action": {
+                    "verb": {
+                        "text": "impose",
+                        "tense": "past"
+                    },
+                    "text": "imposed",
+                    "normalized": "impose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Some"
+                },
+                "sentence": " Some threw items at officers.",
+                "object": {
+                    "text": "items"
+                },
+                "action": {
+                    "verb": {
+                        "text": "throw",
+                        "tense": "past"
+                    },
+                    "text": "threw",
+                    "normalized": "throw"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police declared the gathering an \"unlawful assembly\".",
+                "object": {
+                    "text": "the gathering an \"unlawful assembly"
+                },
+                "action": {
+                    "verb": {
+                        "text": "declare",
+                        "tense": "past"
+                    },
+                    "text": "declared",
+                    "normalized": "declare"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Officers"
+                },
+                "sentence": " Officers ordered the",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "order",
+                        "tense": "past"
+                    },
+                    "text": "ordered",
+                    "normalized": "order"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Someone"
+                },
+                "sentence": " Someone threw a large firework at officers and one officer was",
+                "object": {
+                    "text": "a large firework"
+                },
+                "action": {
+                    "verb": {
+                        "text": "throw",
+                        "tense": "past"
+                    },
+                    "text": "threw",
+                    "normalized": "throw"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Officers"
+                },
+                "sentence": " Officers then used tear gas to disperse the crowd.",
+                "object": {
+                    "text": "tear gas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "used",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Officers"
+                },
+                "sentence": " Officers then used tear gas to disperse the crowd.",
+                "object": {
+                    "text": "the crowd"
+                },
+                "action": {
+                    "verb": {
+                        "text": "disperse",
+                        "tense": "future"
+                    },
+                    "text": "to disperse",
+                    "normalized": "to disperse"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police say there were also",
+                "object": {
+                    "text": "there were also"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "say",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "shots"
+                },
+                "sentence": " shots fired at officers.",
+                "action": {
+                    "verb": {
+                        "text": "fire",
+                        "tense": "past"
+                    },
+                    "text": "fired",
+                    "normalized": "fire"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A police vehicle and some businesses"
+                },
+                "sentence": " A police vehicle and some businesses were damaged.",
+                "object": {
+                    "text": "damaged"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Officers"
+                },
+                "sentence": " Officers made six arrests.",
+                "object": {
+                    "text": "six arrests"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "past"
+                    },
+                    "text": "made",
+                    "normalized": "make"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.961992,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.92599,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.881497,
+                "label": "/law, govt and politics/law enforcement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "CLAYTON, Mo. \u0096 Today marks one week since the death of George Floyd who died while in police custody in Minneapolis.",
+                "score": 0.973308,
+                "arguments": [
+                    {
+                        "text": "CLAYTON",
+                        "location": [
+                            0,
+                            7
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "CLAYTON"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mo.",
+                        "location": [
+                            9,
+                            12
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mo."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The protests downtown, in Clayton and in Ferguson have been a peaceful gathering of solidarity over the weekend.",
+                "score": 0.825507,
+                "arguments": [
+                    {
+                        "text": "downtown",
+                        "location": [
+                            941,
+                            949
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "downtown"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Clayton",
+                        "location": [
+                            954,
+                            961
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "CLAYTON"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The protests downtown, in Clayton and in Ferguson have been a peaceful gathering of solidarity over the weekend.",
+                "score": 0.89727,
+                "arguments": [
+                    {
+                        "text": "downtown",
+                        "location": [
+                            941,
+                            949
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "downtown"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Ferguson",
+                        "location": [
+                            969,
+                            977
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Ferguson"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Ferguson Mayor James Knowles imposed a curfew at 8:00 pm Sunday.",
+                "score": 0.465302,
+                "arguments": [
+                    {
+                        "text": "Mayor",
+                        "location": [
+                            1097,
+                            1102
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "James Knowles"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Ferguson",
+                        "location": [
+                            1088,
+                            1096
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Ferguson"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police declared the gathering an \"unlawful assembly\".",
+                "score": 0.945357,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            1258,
+                            1264
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "declared",
+                        "location": [
+                            1265,
+                            1273
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "declared"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Officers ordered the group to leave.",
+                "score": 0.97392,
+                "arguments": [
+                    {
+                        "text": "Officers",
+                        "location": [
+                            1312,
+                            1320
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Officers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ordered",
+                        "location": [
+                            1321,
+                            1328
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "ordered"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Officers ordered the group to leave.",
+                "score": 0.836607,
+                "arguments": [
+                    {
+                        "text": "group",
+                        "location": [
+                            1333,
+                            1338
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "group",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Political"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ordered",
+                        "location": [
+                            1321,
+                            1328
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "ordered"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police say there were also shots fired at officers.",
+                "score": 0.969283,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            1473,
+                            1479
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            1480,
+                            1483
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Officers made six arrests.",
+                "score": 0.495539,
+                "arguments": [
+                    {
+                        "text": "Officers",
+                        "location": [
+                            1576,
+                            1584
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Officers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "arrests",
+                        "location": [
+                            1594,
+                            1601
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCustody",
+                                "text": "arrests"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "CLAYTON, Mo. \u0096 Today marks one week since the death of George Floyd who died while in police custody in Minneapolis.",
+                "score": 0.380969,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            68,
+                            71
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Floyd"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "police custody",
+                        "location": [
+                            86,
+                            100
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "administration"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "CLAYTON, Mo. \u0096 Today marks one week since the death of George Floyd who died while in police custody in Minneapolis.",
+                "score": 0.616701,
+                "arguments": [
+                    {
+                        "text": "police custody",
+                        "location": [
+                            86,
+                            100
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "administration"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Minneapolis",
+                        "location": [
+                            104,
+                            115
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Minneapolis"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "St. Louis County Executive Sam Page addressed the demonstrations during a weekly press conference about the economic and health impacts of COVID-19.",
+                "score": 0.621974,
+                "arguments": [
+                    {
+                        "text": "Executive",
+                        "location": [
+                            213,
+                            222
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Sam Page"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "St. Louis County",
+                        "location": [
+                            196,
+                            212
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "St. Louis County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "St. Louis County Executive Sam Page addressed the demonstrations during a weekly press conference about the economic and health impacts of COVID-19.",
+                "score": 0.99742,
+                "arguments": [
+                    {
+                        "text": "Sam Page",
+                        "location": [
+                            223,
+                            231
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Sam Page"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "addressed",
+                        "location": [
+                            232,
+                            241
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "addressed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "He said that Black Lives Matter became a national rallying cry after a police officer shot and killed Michael Brown in Ferguson.",
+                "score": 0.973677,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            345,
+                            347
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Sam Page"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            348,
+                            352
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "addressed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Page said that the virus is disproportionately affecting African-American communities.",
+                "score": 0.996917,
+                "arguments": [
+                    {
+                        "text": "Page",
+                        "location": [
+                            586,
+                            590
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Sam Page"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            591,
+                            595
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "addressed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "He also announced that all businesses may reopen by the end of the month.",
+                "score": 0.820386,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            853,
+                            855
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Sam Page"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            861,
+                            870
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "addressed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "St. Louis County Executive Sam Page addressed the demonstrations during a weekly press conference about the economic and health impacts of COVID-19.",
+                "score": 0.760081,
+                "arguments": [
+                    {
+                        "text": "addressed",
+                        "location": [
+                            232,
+                            241
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "addressed"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "press conference",
+                        "location": [
+                            277,
+                            293
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "press conference"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "He said that Black Lives Matter became a national rallying cry after a police officer shot and killed Michael Brown in Ferguson.",
+                "score": 0.893741,
+                "arguments": [
+                    {
+                        "text": "officer",
+                        "location": [
+                            423,
+                            430
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "police",
+                        "location": [
+                            416,
+                            422
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "administration"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "He said that Black Lives Matter became a national rallying cry after a police officer shot and killed Michael Brown in Ferguson.",
+                "score": 0.938356,
+                "arguments": [
+                    {
+                        "text": "officer",
+                        "location": [
+                            423,
+                            430
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "shot",
+                        "location": [
+                            431,
+                            435
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "shot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "He said that Black Lives Matter became a national rallying cry after a police officer shot and killed Michael Brown in Ferguson.",
+                "score": 0.554531,
+                "arguments": [
+                    {
+                        "text": "Michael Brown",
+                        "location": [
+                            447,
+                            460
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Michael Brown"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Ferguson",
+                        "location": [
+                            464,
+                            472
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Ferguson"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "St. Louis",
+                "relevance": 0.837423,
+                "count": 1
+            },
+            {
+                "text": "police custody",
+                "relevance": 0.79488,
+                "count": 1
+            },
+            {
+                "text": "Black Lives Matter",
+                "relevance": 0.730036,
+                "count": 1
+            },
+            {
+                "text": "threw items",
+                "relevance": 0.659352,
+                "count": 1
+            },
+            {
+                "text": "areas of the county",
+                "relevance": 0.6457,
+                "count": 1
+            },
+            {
+                "text": "national rallying cry",
+                "relevance": 0.632428,
+                "count": 1
+            },
+            {
+                "text": "county",
+                "relevance": 0.597881,
+                "count": 1
+            },
+            {
+                "text": "police vehicle",
+                "relevance": 0.588093,
+                "count": 1
+            },
+            {
+                "text": "officers",
+                "relevance": 0.556995,
+                "count": 6
+            },
+            {
+                "text": "weekly press conference",
+                "relevance": 0.556937,
+                "count": 1
+            },
+            {
+                "text": "large firework",
+                "relevance": 0.550991,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.548184,
+                "count": 2
+            },
+            {
+                "text": "Michael Brown",
+                "relevance": 0.546927,
+                "count": 1
+            },
+            {
+                "text": "tear gas",
+                "relevance": 0.540839,
+                "count": 1
+            },
+            {
+                "text": "Police",
+                "relevance": 0.533726,
+                "count": 2
+            },
+            {
+                "text": "Ferguson Mayor James Knowles",
+                "relevance": 0.533194,
+                "count": 1
+            },
+            {
+                "text": "Page",
+                "relevance": 0.531421,
+                "count": 1
+            },
+            {
+                "text": "officer",
+                "relevance": 0.52859,
+                "count": 2
+            },
+            {
+                "text": "unlawful assembly",
+                "relevance": 0.526868,
+                "count": 1
+            },
+            {
+                "text": "shots",
+                "relevance": 0.524356,
+                "count": 1
+            },
+            {
+                "text": "administration",
+                "relevance": 0.523504,
+                "count": 1
+            },
+            {
+                "text": "St. Louis County Executive Sam Page",
+                "relevance": 0.523111,
+                "count": 1
+            },
+            {
+                "text": "Ferguson",
+                "relevance": 0.521125,
+                "count": 2
+            },
+            {
+                "text": "protests",
+                "relevance": 0.519985,
+                "count": 1
+            },
+            {
+                "text": "protests downtown",
+                "relevance": 0.517969,
+                "count": 1
+            },
+            {
+                "text": "Today marks",
+                "relevance": 0.517093,
+                "count": 1
+            },
+            {
+                "text": "federal CARES Act grants",
+                "relevance": 0.51178,
+                "count": 1
+            },
+            {
+                "text": "sun",
+                "relevance": 0.511577,
+                "count": 1
+            },
+            {
+                "text": "CLAYTON",
+                "relevance": 0.509624,
+                "count": 2
+            },
+            {
+                "text": "inequality",
+                "relevance": 0.507588,
+                "count": 1
+            },
+            {
+                "text": "week",
+                "relevance": 0.507397,
+                "count": 1
+            },
+            {
+                "text": "group",
+                "relevance": 0.506331,
+                "count": 1
+            },
+            {
+                "text": "words",
+                "relevance": 0.505325,
+                "count": 1
+            },
+            {
+                "text": "curfew",
+                "relevance": 0.505031,
+                "count": 1
+            },
+            {
+                "text": "solidarity",
+                "relevance": 0.504877,
+                "count": 1
+            },
+            {
+                "text": "things",
+                "relevance": 0.504392,
+                "count": 1
+            },
+            {
+                "text": "businesses",
+                "relevance": 0.504392,
+                "count": 2
+            },
+            {
+                "text": "days",
+                "relevance": 0.503422,
+                "count": 1
+            },
+            {
+                "text": "rock",
+                "relevance": 0.503422,
+                "count": 1
+            },
+            {
+                "text": "Minneapolis",
+                "relevance": 0.503422,
+                "count": 1
+            },
+            {
+                "text": "arrests",
+                "relevance": 0.503422,
+                "count": 1
+            },
+            {
+                "text": "crowd",
+                "relevance": 0.503422,
+                "count": 1
+            },
+            {
+                "text": "demonstrations",
+                "relevance": 0.503422,
+                "count": 1
+            },
+            {
+                "text": "Protesters",
+                "relevance": 0.503422,
+                "count": 1
+            },
+            {
+                "text": "weekend",
+                "relevance": 0.503422,
+                "count": 1
+            },
+            {
+                "text": "Justice",
+                "relevance": 0.503422,
+                "count": 1
+            },
+            {
+                "text": "nation",
+                "relevance": 0.503422,
+                "count": 1
+            },
+            {
+                "text": "death of George Floyd",
+                "relevance": 0.489016,
+                "count": 1
+            },
+            {
+                "text": "health impacts of COVID-19",
+                "relevance": 0.481197,
+                "count": 1
+            },
+            {
+                "text": "end of the month",
+                "relevance": 0.474175,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "0ca5accf24b088768f543b44f0c797a1af2f8ad0",
+        "filename": "202006010000NEWSBANKNEWSPPRSD66740F74419927E03958FC91FFDFBB.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "'Justice for All' County Executive reflects on protests during the pandemic",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.mo.clyton\">CLAYTON, Mo.</location> &#150; Today <money>marks one</money> week since the death of <person>George Floyd</person> who died while in police custody in <location idsrc=\"xmltag.org\" value=\"LU/us.mn.minnea\">Minneapolis</location>. There have been protests across our county and in <location idsrc=\"xmltag.org\" value=\"LU/us.mo.stluis\">St. Louis</location> for several days.</p>\n<p><location idsrc=\"xmltag.org\" value=\"LU/us.mo.stluis\">St. Louis County</location> Executive <person>Sam Page</person> addressed the demonstrations during a weekly press conference about the economic and health impacts of COVID-19. He said that <org>Black Lives Matter</org> became a national rallying cry after a police officer shot and killed <person>Michael Brown</person> in <location idsrc=\"xmltag.org\" value=\"LU/us.mo.ferson\">Ferguson</location>. The nation is still struggling with inequality and three words in the Pledge of Allegiance, \"Justice for All.\"</p>\n\n<p>Page said that the virus is disproportionately affecting <org>African-American</org> communities. The administration is working on helping those in need. They are working to distribute <money>$173 million</money> in federal CARES Act grants to help fight the virus in all areas of the county. He also announced that all businesses may reopen by the end of the month.</p>\n\n<p>The protests downtown, in <location idsrc=\"xmltag.org\" value=\"LU/us.mo.clyton\">Clayton</location> and in <location idsrc=\"xmltag.org\" value=\"LU/us.mo.ferson\">Ferguson</location> have been a peaceful gathering of solidarity over the weekend. But as the sun goes down things turn violent.</p>\n\n<p><location idsrc=\"xmltag.org\" value=\"LU/us.mo.ferson\">Ferguson</location> Mayor <person>James Knowles</person> imposed a curfew at <chron>8:00 pm Sunday</chron>. Protesters were still there after <chron>9:00 pm</chron>. Some threw items at officers. One officer was hit by a rock.</p>\n\n<p>Police declared the gathering an \"unlawful assembly\". Officers ordered the group to leave. Someone threw a large firework at officers and one officer was injured.</p>\n\n<p>Officers then used tear gas to disperse the crowd. Police say there were also shots fired at officers. A police vehicle and some businesses were damaged. Officers made six arrests.</p>",
+    "geoFocus": [
+        [
+            "GU/us.mo.lakuis",
+            "Lake Saint Louis"
+        ]
+    ]
+}

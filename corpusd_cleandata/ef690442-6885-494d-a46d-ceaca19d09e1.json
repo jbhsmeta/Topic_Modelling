@@ -1,0 +1,266 @@
+{
+    "id": "ef690442-6885-494d-a46d-ceaca19d09e1",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "62167475356871814364",
+    "description": "New Starkenberg fire station- Lot 15 electrical work more info: Location: GERMANY BidDate: 6/ 26/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Administrative district of Rositz Tendering Authority Address: 04617 Starkenberg, Schmollnsche Strasse Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "New Starkenberg fire station - Lot 15 electrical work more info : Location :\nGERMANY BidDate : 6/26/2020 Tender Country : GERMANY Tender Type : Tenders\nTendering Authority : Administrative district of Rositz Tendering Authority\nAddress : 04617 Starkenberg, Schmollnsche Strasse Financier : Self Funded\nTearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_58604_176210012_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rositz Tendering Authority",
+                "relevance": 0.866748,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Schmollnsche Strasse Financier",
+                "relevance": 0.676832,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.432415,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.499715,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.827089,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.678787,
+                "label": "/law, govt and politics/law enforcement/fire department"
+            },
+            {
+                "score": 0.624808,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "New Starkenberg fire station - Lot 15 electrical work more info : Location : GERMANY BidDate : 6/26/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Administrative district of Rositz Tendering Authority Address : 04617 Starkenberg, Schmollnsche Strasse Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.660303,
+                "arguments": [
+                    {
+                        "text": "6/26/2020 Tender",
+                        "location": [
+                            95,
+                            111
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/26/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders\nTendering Authority : Administrative district of Rositz Tendering Authority\nAddress :",
+                        "location": [
+                            130,
+                            237
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders\nTendering Authority : Administrative district of Rositz Tendering Authority\nAddress :"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.990916,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.954972,
+                "count": 1
+            },
+            {
+                "text": "New Starkenberg fire station",
+                "relevance": 0.794393,
+                "count": 1
+            },
+            {
+                "text": "Administrative district",
+                "relevance": 0.739405,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.67493,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.628903,
+                "count": 1
+            },
+            {
+                "text": "Self Funded",
+                "relevance": 0.602897,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.560959,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.549929,
+                "count": 1
+            },
+            {
+                "text": "Lot",
+                "relevance": 0.531946,
+                "count": 1
+            },
+            {
+                "text": "Money",
+                "relevance": 0.51892,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.516101,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.51328,
+                "count": 1
+            },
+            {
+                "text": "Schmollnsche Strasse Financier",
+                "relevance": 0.417687,
+                "count": 1
+            },
+            {
+                "text": "electrical work",
+                "relevance": 0.388934,
+                "count": 1
+            },
+            {
+                "text": "Starkenberg",
+                "relevance": 0.262259,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "1bcc62e95fa4c1fc11c3490e8e7548df023c28b0",
+        "filename": "202006050210ALBA____ME_NA_NE_58604_176210012_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "New Starkenberg fire station - Lot 15 electrical work [TenderNews.com - Tenders (India)]",
+    "html": "<p>New Starkenberg fire station - Lot 15 electrical work more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/26/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Administrative district of Rositz\nTendering Authority Address : 04617 Starkenberg, Schmollnsche Strasse\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

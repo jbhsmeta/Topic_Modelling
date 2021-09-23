@@ -1,0 +1,562 @@
+{
+    "id": "4b059d49-9506-4ab5-9c59-cfd1660b5f1c",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 1998-2020 WRBL, Nexstar Broadcasting, Inc. All rights reserved.",
+    "geoOrigin": "Columbus, Georgia",
+    "sourceType": "Broadcast Transcript",
+    "source": "CBS - 3 WRBL (Columbus, GA)",
+    "corpus_document_id": "25233035888298873355",
+    "description": "Amid a heavy police presence, a Black Lives Matter protest is underway along Victory Drive near the Walmart on Monday afternoon. George Floyd died in police custody and his death has sparked protests across the nation. There were between 40-50 protestors just after 5:30 p.m. The event was scheduled to start at 4, but began late.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Amid a heavy police presence, a Black Lives Matter protest is underway along\nVictory Drive near the Walmart on Monday afternoon.\n\nThe event had been promoted on social media for a couple of days and was a\nColumbus response to the death of an unarmed black man last week in\nMinneapolis.George Floyd died in police custody and his death has sparked\nprotests across the nation.\n\nThere were between 40-50 protestors just after 5:30 p.m. The event was\nscheduled to start at 4, but began late.\n\nMost of the protestors were gathered on the right of way in front of the\nWalmart. Protestors were holding signs that read \"No Justice; No Peace\" and \"I\ncan't breathe,\" the words Floyd was using as the police officer had a knee on\nhis neck.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Black Lives Matter"
+        ],
+        "location": [
+            "Victory Drive"
+        ],
+        "person": [
+            "George Floyd"
+        ],
+        "companies": [
+            "Black Lives Matter"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.colbus",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS53CC7073CA2322766C90914AE50FFB4.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.613419,
+                    "label": "negative"
+                },
+                "text": "Floyd",
+                "relevance": 0.88858,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Walmart",
+                "relevance": 0.879893,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.729185,
+                    "label": "negative"
+                },
+                "text": "Columbus",
+                "relevance": 0.47995,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.504133,
+                    "label": "negative"
+                },
+                "text": "officer",
+                "relevance": 0.453758,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Walmart.",
+                "relevance": 0.366924,
+                "type": "Company"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Matter protest"
+                },
+                "sentence": "Amid a heavy police presence, a Black Lives Matter protest is underway along",
+                "action": {
+                    "verb": {
+                        "text": "Lives",
+                        "tense": "present"
+                    },
+                    "text": "Lives",
+                    "normalized": "Lives"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a Black Lives Matter protest"
+                },
+                "sentence": "Amid a heavy police presence, a Black Lives Matter protest is underway along",
+                "object": {
+                    "text": "underway along"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The event"
+                },
+                "sentence": " The event had been promoted on social media for a couple of days and was a",
+                "object": {
+                    "text": "been promoted on social media"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The event"
+                },
+                "sentence": " The event had been promoted on social media for a couple of days and was a",
+                "object": {
+                    "text": "promoted on social media"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The event"
+                },
+                "sentence": " The event had been promoted on social media for a couple of days and was a",
+                "action": {
+                    "verb": {
+                        "text": "promote",
+                        "tense": "past"
+                    },
+                    "text": "had been promoted",
+                    "normalized": "have be promote"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Minneapolis.George Floyd"
+                },
+                "sentence": " Minneapolis.George Floyd died in police custody and his death has sparked",
+                "action": {
+                    "verb": {
+                        "text": "die",
+                        "tense": "past"
+                    },
+                    "text": "died",
+                    "normalized": "die"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Minneapolis.George Floyd"
+                },
+                "sentence": " Minneapolis.George Floyd died in police custody and his death has sparked",
+                "object": {
+                    "text": "his death"
+                },
+                "action": {
+                    "verb": {
+                        "text": "spark",
+                        "tense": "past"
+                    },
+                    "text": "has sparked",
+                    "normalized": "have spark"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Walmart. Protestors"
+                },
+                "sentence": " Walmart. Protestors were holding signs that read \"No Justice; No Peace\" and \"I",
+                "object": {
+                    "text": "holding signs that read \"No Justice"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Walmart. Protestors"
+                },
+                "sentence": " Walmart. Protestors were holding signs that read \"No Justice; No Peace\" and \"I",
+                "object": {
+                    "text": "signs that read \"No Justice"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hold",
+                        "tense": "past"
+                    },
+                    "text": "were holding",
+                    "normalized": "be hold"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the words Floyd"
+                },
+                "sentence": " can't breathe,\" the words Floyd was using as the police officer had a knee on",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was using",
+                    "normalized": "be use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Floyd"
+                },
+                "sentence": " can't breathe,\" the words Floyd was using as the police officer had a knee on",
+                "object": {
+                    "text": "the words"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "was using",
+                    "normalized": "be use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the police officer"
+                },
+                "sentence": " can't breathe,\" the words Floyd was using as the police officer had a knee on",
+                "object": {
+                    "text": "a knee on"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.82785,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.815526,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.685464,
+                "label": "/law, govt and politics/law enforcement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "The event had been promoted on social media for a couple of days and was a Columbus response to the death of an unarmed black man last week in Minneapolis.George Floyd died in police custody and his death has sparked protests across the nation.",
+                "score": 0.33261,
+                "arguments": [
+                    {
+                        "text": "protests",
+                        "location": [
+                            347,
+                            355
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventDemonstration",
+                                "text": "protests"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "nation",
+                        "location": [
+                            367,
+                            373
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "nation",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Most of the protestors were gathered on the right of way in front of the Walmart.",
+                "score": 0.977832,
+                "arguments": [
+                    {
+                        "text": "Most",
+                        "location": [
+                            489,
+                            493
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "Most"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "protestors",
+                        "location": [
+                            501,
+                            511
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "protestors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Protestors were holding signs that read \"No Justice; No Peace\" and \"I can't breathe,\" the words Floyd was using as the police officer had a knee on his neck.",
+                "score": 0.870681,
+                "arguments": [
+                    {
+                        "text": "officer",
+                        "location": [
+                            697,
+                            704
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "police",
+                        "location": [
+                            690,
+                            696
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "heavy police presence",
+                "relevance": 0.813896,
+                "count": 1
+            },
+            {
+                "text": "Minneapolis.George Floyd",
+                "relevance": 0.736103,
+                "count": 1
+            },
+            {
+                "text": "Columbus response",
+                "relevance": 0.670547,
+                "count": 1
+            },
+            {
+                "text": "police custody",
+                "relevance": 0.659545,
+                "count": 1
+            },
+            {
+                "text": "Victory Drive",
+                "relevance": 0.642171,
+                "count": 1
+            },
+            {
+                "text": "words Floyd",
+                "relevance": 0.641415,
+                "count": 1
+            },
+            {
+                "text": "Black Lives Matter protest",
+                "relevance": 0.634816,
+                "count": 1
+            },
+            {
+                "text": "social media",
+                "relevance": 0.631532,
+                "count": 1
+            },
+            {
+                "text": "police officer",
+                "relevance": 0.621919,
+                "count": 1
+            },
+            {
+                "text": "protestors",
+                "relevance": 0.594295,
+                "count": 3
+            },
+            {
+                "text": "event",
+                "relevance": 0.553422,
+                "count": 2
+            },
+            {
+                "text": "death",
+                "relevance": 0.529195,
+                "count": 2
+            },
+            {
+                "text": "signs",
+                "relevance": 0.521237,
+                "count": 1
+            },
+            {
+                "text": "Walmart",
+                "relevance": 0.517519,
+                "count": 2
+            },
+            {
+                "text": "Justice",
+                "relevance": 0.513653,
+                "count": 1
+            },
+            {
+                "text": "protests",
+                "relevance": 0.511613,
+                "count": 1
+            },
+            {
+                "text": "neck",
+                "relevance": 0.511262,
+                "count": 1
+            },
+            {
+                "text": "nation",
+                "relevance": 0.511262,
+                "count": 1
+            },
+            {
+                "text": "knee",
+                "relevance": 0.511262,
+                "count": 1
+            },
+            {
+                "text": "Peace",
+                "relevance": 0.511262,
+                "count": 1
+            },
+            {
+                "text": "front",
+                "relevance": 0.511262,
+                "count": 1
+            },
+            {
+                "text": "black man",
+                "relevance": 0.499202,
+                "count": 1
+            },
+            {
+                "text": "right of way",
+                "relevance": 0.490922,
+                "count": 1
+            },
+            {
+                "text": "last week",
+                "relevance": 0.472142,
+                "count": 1
+            },
+            {
+                "text": "couple of days",
+                "relevance": 0.472142,
+                "count": 1
+            },
+            {
+                "text": "Monday afternoon",
+                "relevance": 0.472142,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "d93e7bba4d6dd7d1c8809b80a99f72930b428093",
+        "filename": "202006010000NEWSBANKNEWSPPRS53CC7073CA2322766C90914AE50FFB4.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Happening now: Black Lives Matter protest underway in front of Victory Drive Walmart",
+    "html": "<p>Amid a heavy police presence, a <org>Black Lives Matter</org> protest is underway along <location>Victory Drive</location> near the Walmart on Monday afternoon.</p>\n<p>The event had been promoted on social media for a couple of days and was a Columbus response to the death of an unarmed black man last week in Minneapolis.<person>George Floyd</person> died in police custody and his death has sparked protests across the nation.</p>\n\n<p>There were between 40-50 protestors just after <chron>5:30 p.m.</chron> The event was scheduled to start at 4, but began late.</p>\n\n<p>Most of the protestors were gathered on the right of way in front of the Walmart. Protestors were holding signs that read \"No Justice; No Peace\" and \"I can't breathe,\" the words Floyd was using as the police officer had a knee on his neck.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ga.colbus",
+            "Columbus"
+        ]
+    ]
+}

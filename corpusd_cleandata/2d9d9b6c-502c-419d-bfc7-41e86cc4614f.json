@@ -1,0 +1,991 @@
+{
+    "id": "2d9d9b6c-502c-419d-bfc7-41e86cc4614f",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright Mirror Regional Newspapers Jun 5, 2020",
+    "geoOrigin": "Birmingham, England, United Kingdom",
+    "sourceType": "Newspaper",
+    "source": "Birmingham Mail (UK)",
+    "corpus_document_id": "68298895598997124692",
+    "description": "FRENCH troops will not march on the Champs-Elysees avenue on Bastille Day this year. French President Emmanuel Macron has said he wants Bastille Day to honour both the military and health care workers who have been on the front line of France's outbreak. French health authorities have reported at least 29,000 virusrelated deaths in hospitals and nursing...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "France",
+            "code": "LC/fr#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LS/fr#9#50#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Health and Wellness",
+            "code": "IS/haw#8#50#84",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.practice",
+            "relevance_score": "8",
+            "description": "Nursing",
+            "code": "IS/haw.nursing#8#84#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "8",
+            "description": "Medical Specialties and Practices",
+            "code": "IS/haw.practice#8#50#84",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Politics and Government",
+            "code": "IS/pol#8#50#87",
+            "level": 0
+        }
+    ],
+    "text": "FRENCH troops will not march on the Champs-Elysees avenue on Bastille Day this\nyear.\n\nThe French presidency says the traditional military parade will be replaced\nwith a Paris ceremony where health precautions will be observed due to the\ncoronavirus pandemic. French President Emmanuel Macron has said he wants\nBastille Day to honour both the military and health care workers who have been\non the front line of France's outbreak.\n\nThe French presidency says the July 14 ceremony will take place on the Place\nde la Concorde square and thousands of participants and guests will be\nrequested to keep physical distance from each other.\n\nIt will include the traditional fly-over by the French air force.\n\nThe presidency says authorities do not plan to open the celebration to the\ngeneral public at the moment but will reassess the situation later.\n\nFrench health authorities have reported at least 29,000 virusrelated deaths in\nhospitals and nursing homes since France's first cases emerged.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Paris",
+            "France's"
+        ],
+        "person": [
+            "Emmanuel Macron"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/gb.eng.birmhm",
+    "language": "English",
+    "filename": "202006050000PROQUESTNEWPAPER_2409450381.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.373387,
+                    "label": "negative"
+                },
+                "text": "France",
+                "relevance": 0.493164,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmDirector",
+                        "Country"
+                    ],
+                    "name": "France",
+                    "dbpedia_resource": "http://dbpedia.org/resource/France"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Emmanuel Macron",
+                "relevance": 0.488721,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.456317,
+                    "label": "positive"
+                },
+                "text": "Paris",
+                "relevance": 0.32561,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "FrenchDepartment",
+                        "GovernmentalJurisdiction",
+                        "OlympicBiddingCity",
+                        "OlympicHostCity",
+                        "PlaceWithNeighborhoods",
+                        "City"
+                    ],
+                    "name": "Paris",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Paris"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "FRENCH troops"
+                },
+                "sentence": "FRENCH troops will not march on the Champs-Elysees avenue on Bastille Day this",
+                "action": {
+                    "verb": {
+                        "text": "march",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "march",
+                    "normalized": "march"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The French presidency"
+                },
+                "sentence": " The French presidency says the traditional military parade will be replaced",
+                "object": {
+                    "text": "the traditional military parade will be replaced"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "says",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "health precautions"
+                },
+                "sentence": " with a Paris ceremony where health precautions will be observed due to the",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "will be observed",
+                    "normalized": "will be observe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "French President Emmanuel Macron"
+                },
+                "sentence": " French President Emmanuel Macron has said he wants",
+                "object": {
+                    "text": "he wants"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "has said",
+                    "normalized": "have say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Bastille Day"
+                },
+                "sentence": " Bastille Day to honour both the military and health care workers who have been",
+                "object": {
+                    "text": "both the military and health care workers who have been"
+                },
+                "action": {
+                    "verb": {
+                        "text": "honour",
+                        "tense": "future"
+                    },
+                    "text": "to honour",
+                    "normalized": "to honour"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The French presidency"
+                },
+                "sentence": " The French presidency says the July 14 ceremony will take place on the Place",
+                "object": {
+                    "text": "the July 14 ceremony will take place on the Place"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "says",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "physical distance"
+                },
+                "sentence": " requested to keep physical distance from each other.",
+                "object": {
+                    "text": "from each other"
+                },
+                "action": {
+                    "verb": {
+                        "text": "keep",
+                        "tense": "future"
+                    },
+                    "text": "requested to keep",
+                    "normalized": "request to keep"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the traditional fly-over by the French air force"
+                },
+                "sentence": " It will include the traditional fly-over by the French air force.",
+                "object": {
+                    "text": "It"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "future"
+                    },
+                    "text": "will include",
+                    "normalized": "will include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The presidency"
+                },
+                "sentence": " The presidency says authorities do not plan to open the celebration to the",
+                "object": {
+                    "text": "authorities do not plan to open the celebration to the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "says",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "authorities"
+                },
+                "sentence": " The presidency says authorities do not plan to open the celebration to the",
+                "object": {
+                    "text": "to open the celebration"
+                },
+                "action": {
+                    "verb": {
+                        "text": "plan",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "plan",
+                    "normalized": "plan"
+                }
+            },
+            {
+                "subject": {
+                    "text": "general public"
+                },
+                "sentence": " general public at the moment but will reassess the situation later.",
+                "object": {
+                    "text": "the situation"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reassess",
+                        "tense": "future"
+                    },
+                    "text": "will reassess",
+                    "normalized": "will reassess"
+                }
+            },
+            {
+                "subject": {
+                    "text": "French health authorities"
+                },
+                "sentence": " French health authorities have reported at least 29,000 virusrelated deaths in",
+                "object": {
+                    "text": "reported at least 29,000 virusrelated deaths in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "French health authorities"
+                },
+                "sentence": " French health authorities have reported at least 29,000 virusrelated deaths in",
+                "object": {
+                    "text": "at least 29,000 virusrelated deaths in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "past"
+                    },
+                    "text": "have reported",
+                    "normalized": "have report"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.737149,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.733797,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.718063,
+                "label": "/health and fitness/men's health"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "The French presidency says the traditional military parade will be replaced with a Paris ceremony where health precautions will be observed due to the coronavirus pandemic.",
+                "score": 0.54747,
+                "arguments": [
+                    {
+                        "text": "French",
+                        "location": [
+                            90,
+                            96
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "French",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "says",
+                        "location": [
+                            108,
+                            112
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "says"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "It will include the traditional fly-over by the French air force.",
+                "score": 0.948076,
+                "arguments": [
+                    {
+                        "text": "air force",
+                        "location": [
+                            687,
+                            696
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "air force"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "French",
+                        "location": [
+                            680,
+                            686
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "French",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "French health authorities have reported at least 29,000 virusrelated deaths in hospitals and nursing homes since France's first cases emerged.",
+                "score": 0.97213,
+                "arguments": [
+                    {
+                        "text": "health authorities",
+                        "location": [
+                            850,
+                            868
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "health authorities",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "French",
+                        "location": [
+                            843,
+                            849
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "French",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "French health authorities have reported at least 29,000 virusrelated deaths in hospitals and nursing homes since France's first cases emerged.",
+                "score": 0.579396,
+                "arguments": [
+                    {
+                        "text": "health authorities",
+                        "location": [
+                            850,
+                            868
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "health authorities",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            874,
+                            882
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The French presidency says the traditional military parade will be replaced with a Paris ceremony where health precautions will be observed due to the coronavirus pandemic.",
+                "score": 0.615395,
+                "arguments": [
+                    {
+                        "text": "ceremony",
+                        "location": [
+                            175,
+                            183
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "ceremony"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Paris",
+                        "location": [
+                            169,
+                            174
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Paris"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "French President Emmanuel Macron has said he wants Bastille Day to honour both the military and health care workers who have been on the front line of France's outbreak.",
+                "score": 0.586916,
+                "arguments": [
+                    {
+                        "text": "President",
+                        "location": [
+                            266,
+                            275
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Emmanuel Macron"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "French",
+                        "location": [
+                            259,
+                            265
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "French",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "French President Emmanuel Macron has said he wants Bastille Day to honour both the military and health care workers who have been on the front line of France's outbreak.",
+                "score": 0.991439,
+                "arguments": [
+                    {
+                        "text": "Emmanuel Macron",
+                        "location": [
+                            276,
+                            291
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Emmanuel Macron"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            296,
+                            300
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "says"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "French President Emmanuel Macron has said he wants Bastille Day to honour both the military and health care workers who have been on the front line of France's outbreak.",
+                "score": 0.445182,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            301,
+                            303
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Emmanuel Macron"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            296,
+                            300
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "says"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "French President Emmanuel Macron has said he wants Bastille Day to honour both the military and health care workers who have been on the front line of France's outbreak.",
+                "score": 0.374468,
+                "arguments": [
+                    {
+                        "text": "France",
+                        "location": [
+                            410,
+                            416
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "French",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "outbreak",
+                        "location": [
+                            419,
+                            427
+                        ],
+                        "entities": [
+                            {
+                                "type": "NaturalDisaster",
+                                "text": "outbreak"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The French presidency says the July 14 ceremony will take place on the Place de la Concorde square and thousands of participants and guests will be requested to keep physical distance from each other.",
+                "score": 0.968944,
+                "arguments": [
+                    {
+                        "text": "July 14",
+                        "location": [
+                            461,
+                            468
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "July 14"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ceremony",
+                        "location": [
+                            469,
+                            477
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "ceremony"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The French presidency says the July 14 ceremony will take place on the Place de la Concorde square and thousands of participants and guests will be requested to keep physical distance from each other.",
+                "score": 0.69232,
+                "arguments": [
+                    {
+                        "text": "ceremony",
+                        "location": [
+                            469,
+                            477
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "ceremony"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Place\nde la Concorde square",
+                        "location": [
+                            501,
+                            528
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Place\nde la Concorde square"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The French presidency says the July 14 ceremony will take place on the Place de la Concorde square and thousands of participants and guests will be requested to keep physical distance from each other.",
+                "score": 0.481776,
+                "arguments": [
+                    {
+                        "text": "guests",
+                        "location": [
+                            563,
+                            569
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "guests"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "requested",
+                        "location": [
+                            578,
+                            587
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "requested"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "FRENCH troops",
+                "relevance": 0.983765,
+                "count": 1
+            },
+            {
+                "text": "French presidency",
+                "relevance": 0.859881,
+                "count": 2
+            },
+            {
+                "text": "traditional military parade",
+                "relevance": 0.813129,
+                "count": 1
+            },
+            {
+                "text": "traditional fly",
+                "relevance": 0.749938,
+                "count": 1
+            },
+            {
+                "text": "French President Emmanuel Macron",
+                "relevance": 0.713576,
+                "count": 1
+            },
+            {
+                "text": "French air force",
+                "relevance": 0.698302,
+                "count": 1
+            },
+            {
+                "text": "health care workers",
+                "relevance": 0.580056,
+                "count": 1
+            },
+            {
+                "text": "de la Concorde",
+                "relevance": 0.577844,
+                "count": 1
+            },
+            {
+                "text": "physical distance",
+                "relevance": 0.567288,
+                "count": 1
+            },
+            {
+                "text": "hospitals",
+                "relevance": 0.534089,
+                "count": 1
+            },
+            {
+                "text": "French health authorities",
+                "relevance": 0.532237,
+                "count": 1
+            },
+            {
+                "text": "presidency",
+                "relevance": 0.521556,
+                "count": 1
+            },
+            {
+                "text": "Champs-Elysees avenue",
+                "relevance": 0.519353,
+                "count": 1
+            },
+            {
+                "text": "authorities",
+                "relevance": 0.519026,
+                "count": 1
+            },
+            {
+                "text": "homes",
+                "relevance": 0.514641,
+                "count": 1
+            },
+            {
+                "text": "Bastille Day",
+                "relevance": 0.511509,
+                "count": 2
+            },
+            {
+                "text": "moment",
+                "relevance": 0.510679,
+                "count": 1
+            },
+            {
+                "text": "ceremony",
+                "relevance": 0.508517,
+                "count": 1
+            },
+            {
+                "text": "participants",
+                "relevance": 0.508322,
+                "count": 1
+            },
+            {
+                "text": "place",
+                "relevance": 0.507679,
+                "count": 2
+            },
+            {
+                "text": "situation",
+                "relevance": 0.506863,
+                "count": 1
+            },
+            {
+                "text": "guests",
+                "relevance": 0.506863,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.506863,
+                "count": 1
+            },
+            {
+                "text": "celebration",
+                "relevance": 0.506863,
+                "count": 1
+            },
+            {
+                "text": "outbreak",
+                "relevance": 0.506863,
+                "count": 1
+            },
+            {
+                "text": "front line of France",
+                "relevance": 0.489864,
+                "count": 1
+            },
+            {
+                "text": "health precautions",
+                "relevance": 0.479432,
+                "count": 1
+            },
+            {
+                "text": "Paris ceremony",
+                "relevance": 0.470832,
+                "count": 1
+            },
+            {
+                "text": "France's first cases",
+                "relevance": 0.427143,
+                "count": 1
+            },
+            {
+                "text": "virusrelated deaths",
+                "relevance": 0.407256,
+                "count": 1
+            },
+            {
+                "text": "July",
+                "relevance": 0.368587,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.368122,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-F",
+    "extracted_metadata": {
+        "sha1": "b2198f0f13c7cef211acc1378b11868b3429ec2d",
+        "filename": "202006050000PROQUESTNEWPAPER_2409450381.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "France's Bastille Day military parade cancelled due to virus",
+    "html": "<p>FRENCH troops will not march on the Champs-Elysees avenue on <chron>Bastille Day</chron> this year.</p>\n<p>The French presidency says the traditional military parade will be replaced with a <location idsrc=\"xmltag.org\" value=\"LU/fr..paris\">Paris</location> ceremony where health precautions will be observed due to the coronavirus pandemic. French President <person>Emmanuel Macron</person> has said he wants <chron>Bastille Day</chron> to honour both the military and health care workers who have been on the front line of <location idsrc=\"xmltag.org\" value=\"LC/fr\">France's</location> outbreak.</p>\n<p>The French presidency says the <chron>July 14</chron> ceremony will take place on the Place de la Concorde square and thousands of participants and guests will be requested to keep physical distance from each other.</p>\n<p>It will include the traditional fly-over by the French air force.</p>\n<p>The presidency says authorities do not plan to open the celebration to the general public at the moment but will reassess the situation later.</p>\n<p>French health authorities have reported at least 29,000 virusrelated deaths in hospitals and nursing homes since <location idsrc=\"xmltag.org\" value=\"LC/fr\">France's</location> first cases emerged.</p><p />",
+    "geoFocus": [
+        [
+            "GU/gb.eng.birmhm",
+            "Birmingham"
+        ]
+    ]
+}

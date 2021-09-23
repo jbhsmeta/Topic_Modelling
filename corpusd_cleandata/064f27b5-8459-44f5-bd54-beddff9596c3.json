@@ -1,0 +1,1684 @@
+{
+    "id": "064f27b5-8459-44f5-bd54-beddff9596c3",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "San Francisco, California",
+    "sourceType": "Newspaper",
+    "source": "San Francisco Chronicle (CA)",
+    "corpus_document_id": "45754514203932436260",
+    "description": null,
+    "serviceName": "Newspaper",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Business and Commerce",
+            "code": "IS/biz#9#50#96",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.laboremp",
+            "relevance_score": "9",
+            "description": "Labor Relations",
+            "code": "IS/biz.labor#9#96#50",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#78#99",
+            "level": 4
+        }
+    ],
+    "text": "DENVER \\- After scraping by for weeks on unemployment checks and peanut butter\nsandwiches, Jake Lyon recently received the call that many who temporarily\nlost their jobs because of the coronavirus pandemic have anticipated: The\ncollege-town tea shop where he worked was reopening, and it was time to go\nback.\n\nBut Lyon, 23, and his co-workers in Fort Collins, Colo., who were temporarily\nlaid off, worried about contracting the virus, so they asked the shop's owners\nto delay reopening and meet with them to discuss safety measures. The\nreluctance cost them. Six of them permanently lost their jobs in May, and\ntheir former employer reported them to the state's unemployment office to have\ntheir benefits potentially revoked.\n\nAs people across the United States are told to return to work, employees who\nbalk at the health risks say they are being confronted with painful reprisals:\nSome are losing their jobs if they try to stay home, and thousands more are\nbeing reported to the state to have their unemployment benefits cut off.\n\nBusinesses want to bring back customers and profits. But workers now worry\nabout contracting the coronavirus once they return to cramped restaurant\nkitchens, dental offices or conference rooms where few colleagues are wearing\nmasks.\n\nLabor advocates and unions say the push to recall workers and kick reluctant\nemployees off unemployment benefits carries grave risks in the age of the\ncoronavirus, when infections have rampaged through meatpacking plants, call\ncenters, factories and other confined spaces where co-workers spend hours\ntouching the same surfaces and breathing the same air.\n\n_Jack Healy is a New York Times writer._",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "New York Times"
+        ],
+        "location": [
+            "DENVER",
+            "But Lyon, 23, and his co-workers in <location idsrc=\"xmltag.org\" value=\"LU/us.co.forins\">Fort Collins, Colo.",
+            "As people across <location idsrc=\"xmltag.org\" value=\"LC/us\">the United States"
+        ],
+        "person": [
+            "Jake Lyon",
+            "<em><person>Jack Healy"
+        ],
+        "companies": [
+            "New York Times"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ca.sanfrn",
+    "language": "English",
+    "filename": "202006042133SFC_____NEWS_____B614176069Z.XML",
+    "providerName": "San Francisco Chronicle",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jake Lyon",
+                "relevance": 0.837728,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.701078,
+                    "label": "negative"
+                },
+                "text": "coronavirus",
+                "relevance": 0.702869,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.657203,
+                    "label": "negative"
+                },
+                "text": "DENVER",
+                "relevance": 0.440044,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Denver",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Denver"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.438309,
+                    "label": "positive"
+                },
+                "text": "sandwiches",
+                "relevance": 0.419408,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Fort Collins",
+                "relevance": 0.415711,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Fort Collins, Colorado",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Fort_Collins,_Colorado"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "_Jack Healy",
+                "relevance": 0.411237,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.421626,
+                    "label": "negative"
+                },
+                "text": "United States",
+                "relevance": 0.395612,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "New York Times",
+                "relevance": 0.38199,
+                "type": "PrintMedia",
+                "disambiguation": {
+                    "subtype": [
+                        "Organization",
+                        "Company",
+                        "AwardPresentingOrganization",
+                        "AwardWinner",
+                        "CompanyShareholder",
+                        "Newspaper"
+                    ],
+                    "name": "The New York Times",
+                    "dbpedia_resource": "http://dbpedia.org/resource/The_New_York_Times"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Colo.",
+                "relevance": 0.354777,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Colorado",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Colorado"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "writer",
+                "relevance": 0.315254,
+                "type": "JobTitle"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "on unemployment checks and peanut butter"
+                },
+                "sentence": "DENVER \\- After scraping by for weeks on unemployment checks and peanut butter",
+                "action": {
+                    "verb": {
+                        "text": "scrape",
+                        "tense": "present"
+                    },
+                    "text": "scraping",
+                    "normalized": "scrape"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the coronavirus pandemic"
+                },
+                "sentence": " lost their jobs because of the coronavirus pandemic have anticipated: The",
+                "object": {
+                    "text": "anticipated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " college-town tea shop where he worked was reopening, and it was time to go",
+                "object": {
+                    "text": "college-town tea shop"
+                },
+                "action": {
+                    "verb": {
+                        "text": "work",
+                        "tense": "past"
+                    },
+                    "text": "worked",
+                    "normalized": "work"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Lyon, 23, and his co-workers in Fort Collins, Colo."
+                },
+                "sentence": " But Lyon, 23, and his co-workers in Fort Collins, Colo., who were temporarily",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "them"
+                },
+                "sentence": " to delay reopening and meet with them to discuss safety measures.",
+                "object": {
+                    "text": "safety measures"
+                },
+                "action": {
+                    "verb": {
+                        "text": "discuss",
+                        "tense": "future"
+                    },
+                    "text": "to discuss",
+                    "normalized": "to discuss"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Six of them"
+                },
+                "sentence": " Six of them permanently lost their jobs in May, and",
+                "object": {
+                    "text": "their jobs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lose",
+                        "tense": "past"
+                    },
+                    "text": "lost",
+                    "normalized": "lose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "their former employer"
+                },
+                "sentence": " their former employer reported them to the state's unemployment office to have",
+                "object": {
+                    "text": "them"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "past"
+                    },
+                    "text": "reported",
+                    "normalized": "report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "people across the United States"
+                },
+                "sentence": " As people across the United States are told to return to work, employees who",
+                "object": {
+                    "text": "told to return to work"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "balk at the health risks"
+                },
+                "sentence": " balk at the health risks say they are being confronted with painful reprisals:",
+                "object": {
+                    "text": "they are being confronted with painful reprisals"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "say",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " balk at the health risks say they are being confronted with painful reprisals:",
+                "object": {
+                    "text": "confronted with painful reprisals"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "being",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Some"
+                },
+                "sentence": " Some are losing their jobs if they try to stay home, and thousands more are",
+                "object": {
+                    "text": "losing their jobs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Some"
+                },
+                "sentence": " Some are losing their jobs if they try to stay home, and thousands more are",
+                "object": {
+                    "text": "their jobs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lose",
+                        "tense": "present"
+                    },
+                    "text": "are losing",
+                    "normalized": "be lose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " Some are losing their jobs if they try to stay home, and thousands more are",
+                "object": {
+                    "text": "to stay home"
+                },
+                "action": {
+                    "verb": {
+                        "text": "try",
+                        "tense": "present"
+                    },
+                    "text": "try",
+                    "normalized": "try"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Businesses"
+                },
+                "sentence": " Businesses want to bring back customers and profits.",
+                "object": {
+                    "text": "to bring back customers and profits"
+                },
+                "action": {
+                    "verb": {
+                        "text": "want",
+                        "tense": "present"
+                    },
+                    "text": "want",
+                    "normalized": "want"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Businesses"
+                },
+                "sentence": " Businesses want to bring back customers and profits.",
+                "object": {
+                    "text": "customers and profits"
+                },
+                "action": {
+                    "verb": {
+                        "text": "bring",
+                        "tense": "future"
+                    },
+                    "text": "want to bring",
+                    "normalized": "want to bring"
+                }
+            },
+            {
+                "subject": {
+                    "text": "workers"
+                },
+                "sentence": " But workers now worry",
+                "action": {
+                    "verb": {
+                        "text": "worry",
+                        "tense": "present"
+                    },
+                    "text": "worry",
+                    "normalized": "worry"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the coronavirus"
+                },
+                "sentence": " about contracting the coronavirus once they return to cramped restaurant",
+                "action": {
+                    "verb": {
+                        "text": "contract",
+                        "tense": "present"
+                    },
+                    "text": "contracting",
+                    "normalized": "contract"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Labor advocates and unions"
+                },
+                "sentence": " Labor advocates and unions say the push to recall workers and kick reluctant",
+                "object": {
+                    "text": "the push to recall workers and kick reluctant"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "say",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "employees off unemployment benefits"
+                },
+                "sentence": " employees off unemployment benefits carries grave risks in the age of the",
+                "object": {
+                    "text": "grave risks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "carry",
+                        "tense": "present"
+                    },
+                    "text": "carries",
+                    "normalized": "carry"
+                }
+            },
+            {
+                "subject": {
+                    "text": "infections"
+                },
+                "sentence": " coronavirus, when infections have rampaged through meatpacking plants, call",
+                "object": {
+                    "text": "rampaged through meatpacking plants"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "_Jack Healy"
+                },
+                "sentence": " _Jack Healy is a New York Times writer._",
+                "object": {
+                    "text": "a New York Times writer"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.949621,
+                "label": "/society/work"
+            },
+            {
+                "score": 0.93208,
+                "label": "/society/work/unemployment"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "DENVER \\- After scraping by for weeks on unemployment checks and peanut butter sandwiches, Jake Lyon recently received the call that many who temporarily lost their jobs because of the coronavirus pandemic have anticipated: The college-town tea shop where he worked was reopening, and it was time to go back.",
+                "score": 0.94132,
+                "arguments": [
+                    {
+                        "text": "Jake Lyon",
+                        "location": [
+                            91,
+                            100
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jake Lyon"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "call",
+                        "location": [
+                            123,
+                            127
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "call"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "DENVER \\- After scraping by for weeks on unemployment checks and peanut butter sandwiches, Jake Lyon recently received the call that many who temporarily lost their jobs because of the coronavirus pandemic have anticipated: The college-town tea shop where he worked was reopening, and it was time to go back.",
+                "score": 0.379975,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            138,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jake Lyon"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "call",
+                        "location": [
+                            123,
+                            127
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "call"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Six of them permanently lost their jobs in May, and their former employer reported them to the state's unemployment office to have their benefits potentially revoked.",
+                "score": 0.913104,
+                "arguments": [
+                    {
+                        "text": "them",
+                        "location": [
+                            642,
+                            646
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "owners"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            633,
+                            641
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "As people across the United States are told to return to work, employees who balk at the health risks say they are being confronted with painful reprisals: Some are losing their jobs if they try to stay home, and thousands more are being reported to the state to have their unemployment benefits cut off.",
+                "score": 0.503444,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            730,
+                            736
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "United States",
+                        "location": [
+                            748,
+                            761
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "United States",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "As people across the United States are told to return to work, employees who balk at the health risks say they are being confronted with painful reprisals: Some are losing their jobs if they try to stay home, and thousands more are being reported to the state to have their unemployment benefits cut off.",
+                "score": 0.503361,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            730,
+                            736
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "told",
+                        "location": [
+                            766,
+                            770
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "told"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "As people across the United States are told to return to work, employees who balk at the health risks say they are being confronted with painful reprisals: Some are losing their jobs if they try to stay home, and thousands more are being reported to the state to have their unemployment benefits cut off.",
+                "score": 0.829416,
+                "arguments": [
+                    {
+                        "text": "employees",
+                        "location": [
+                            790,
+                            799
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "employees"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            829,
+                            832
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "As people across the United States are told to return to work, employees who balk at the health risks say they are being confronted with painful reprisals: Some are losing their jobs if they try to stay home, and thousands more are being reported to the state to have their unemployment benefits cut off.",
+                "score": 0.768992,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            800,
+                            803
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "employees"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            829,
+                            832
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "As people across the United States are told to return to work, employees who balk at the health risks say they are being confronted with painful reprisals: Some are losing their jobs if they try to stay home, and thousands more are being reported to the state to have their unemployment benefits cut off.",
+                "score": 0.637581,
+                "arguments": [
+                    {
+                        "text": "they",
+                        "location": [
+                            833,
+                            837
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "employees"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            829,
+                            832
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "But workers now worry about contracting the coronavirus once they return to cramped restaurant kitchens, dental offices or conference rooms where few colleagues are wearing masks.",
+                "score": 0.558552,
+                "arguments": [
+                    {
+                        "text": "conference",
+                        "location": [
+                            1209,
+                            1219
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "conference"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "rooms",
+                        "location": [
+                            1220,
+                            1225
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "rooms"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "But workers now worry about contracting the coronavirus once they return to cramped restaurant kitchens, dental offices or conference rooms where few colleagues are wearing masks.",
+                "score": 0.412313,
+                "arguments": [
+                    {
+                        "text": "conference",
+                        "location": [
+                            1209,
+                            1219
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "conference"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "where",
+                        "location": [
+                            1226,
+                            1231
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "rooms"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "But workers now worry about contracting the coronavirus once they return to cramped restaurant kitchens, dental offices or conference rooms where few colleagues are wearing masks.",
+                "score": 0.621,
+                "arguments": [
+                    {
+                        "text": "colleagues",
+                        "location": [
+                            1236,
+                            1246
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "colleagues"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "conference",
+                        "location": [
+                            1209,
+                            1219
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "conference"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "But workers now worry about contracting the coronavirus once they return to cramped restaurant kitchens, dental offices or conference rooms where few colleagues are wearing masks.",
+                "score": 0.242333,
+                "arguments": [
+                    {
+                        "text": "colleagues",
+                        "location": [
+                            1236,
+                            1246
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "colleagues"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "where",
+                        "location": [
+                            1226,
+                            1231
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "rooms"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "memberOf",
+                "sentence": "Labor advocates and unions say the push to recall workers and kick reluctant employees off unemployment benefits carries grave risks in the age of the coronavirus, when infections have rampaged through meatpacking plants, call centers, factories and other confined spaces where co-workers spend hours touching the same surfaces and breathing the same air.",
+                "score": 0.617536,
+                "arguments": [
+                    {
+                        "text": "advocates",
+                        "location": [
+                            1273,
+                            1282
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "advocates"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Labor",
+                        "location": [
+                            1267,
+                            1272
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Labor",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Political"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Labor advocates and unions say the push to recall workers and kick reluctant employees off unemployment benefits carries grave risks in the age of the coronavirus, when infections have rampaged through meatpacking plants, call centers, factories and other confined spaces where co-workers spend hours touching the same surfaces and breathing the same air.",
+                "score": 0.925215,
+                "arguments": [
+                    {
+                        "text": "unions",
+                        "location": [
+                            1287,
+                            1293
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "unions"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            1294,
+                            1297
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "But Lyon, 23, and his co-workers in Fort Collins, Colo., who were temporarily laid off, worried about contracting the virus, so they asked the shop's owners to delay reopening and meet with them to discuss safety measures.",
+                "score": 0.989555,
+                "arguments": [
+                    {
+                        "text": "Lyon",
+                        "location": [
+                            314,
+                            318
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jake Lyon"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "23",
+                        "location": [
+                            320,
+                            322
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "23"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "_Jack Healy is a New York Times writer._",
+                "score": 0.541617,
+                "arguments": [
+                    {
+                        "text": "writer",
+                        "location": [
+                            1656,
+                            1662
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "writer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "New York Times",
+                        "location": [
+                            1641,
+                            1655
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "New York Times",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "But Lyon, 23, and his co-workers in Fort Collins, Colo., who were temporarily laid off, worried about contracting the virus, so they asked the shop's owners to delay reopening and meet with them to discuss safety measures.",
+                "score": 0.418234,
+                "arguments": [
+                    {
+                        "text": "his",
+                        "location": [
+                            328,
+                            331
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jake Lyon"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Fort Collins",
+                        "location": [
+                            346,
+                            358
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fort Collins"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "But Lyon, 23, and his co-workers in Fort Collins, Colo., who were temporarily laid off, worried about contracting the virus, so they asked the shop's owners to delay reopening and meet with them to discuss safety measures.",
+                "score": 0.983493,
+                "arguments": [
+                    {
+                        "text": "Fort Collins",
+                        "location": [
+                            346,
+                            358
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Fort Collins"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Colo.",
+                        "location": [
+                            360,
+                            365
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Colo."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "But Lyon, 23, and his co-workers in Fort Collins, Colo., who were temporarily laid off, worried about contracting the virus, so they asked the shop's owners to delay reopening and meet with them to discuss safety measures.",
+                "score": 0.918014,
+                "arguments": [
+                    {
+                        "text": "they",
+                        "location": [
+                            438,
+                            442
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "their"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "asked",
+                        "location": [
+                            443,
+                            448
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "asked"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "But Lyon, 23, and his co-workers in Fort Collins, Colo., who were temporarily laid off, worried about contracting the virus, so they asked the shop's owners to delay reopening and meet with them to discuss safety measures.",
+                "score": 0.622052,
+                "arguments": [
+                    {
+                        "text": "owners",
+                        "location": [
+                            460,
+                            466
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "owners"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "asked",
+                        "location": [
+                            443,
+                            448
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "asked"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "But Lyon, 23, and his co-workers in Fort Collins, Colo., who were temporarily laid off, worried about contracting the virus, so they asked the shop's owners to delay reopening and meet with them to discuss safety measures.",
+                "score": 0.617222,
+                "arguments": [
+                    {
+                        "text": "owners",
+                        "location": [
+                            460,
+                            466
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "owners"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meet",
+                        "location": [
+                            490,
+                            494
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meet"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "But Lyon, 23, and his co-workers in Fort Collins, Colo., who were temporarily laid off, worried about contracting the virus, so they asked the shop's owners to delay reopening and meet with them to discuss safety measures.",
+                "score": 0.731186,
+                "arguments": [
+                    {
+                        "text": "them",
+                        "location": [
+                            500,
+                            504
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "owners"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meet",
+                        "location": [
+                            490,
+                            494
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meet"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "But Lyon, 23, and his co-workers in Fort Collins, Colo., who were temporarily laid off, worried about contracting the virus, so they asked the shop's owners to delay reopening and meet with them to discuss safety measures.",
+                "score": 0.65504,
+                "arguments": [
+                    {
+                        "text": "discuss",
+                        "location": [
+                            508,
+                            515
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "conference"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meet",
+                        "location": [
+                            490,
+                            494
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meet"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Six of them permanently lost their jobs in May, and their former employer reported them to the state's unemployment office to have their benefits potentially revoked.",
+                "score": 0.53771,
+                "arguments": [
+                    {
+                        "text": "their",
+                        "location": [
+                            611,
+                            616
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "owners"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            633,
+                            641
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "former employer",
+                "relevance": 0.682429,
+                "count": 1
+            },
+            {
+                "text": "Labor advocates",
+                "relevance": 0.639431,
+                "count": 1
+            },
+            {
+                "text": "college-town tea shop",
+                "relevance": 0.62544,
+                "count": 1
+            },
+            {
+                "text": "state's unemployment office",
+                "relevance": 0.619836,
+                "count": 1
+            },
+            {
+                "text": "United States",
+                "relevance": 0.599002,
+                "count": 1
+            },
+            {
+                "text": "unemployment checks",
+                "relevance": 0.58714,
+                "count": 1
+            },
+            {
+                "text": "health risks",
+                "relevance": 0.586675,
+                "count": 1
+            },
+            {
+                "text": "Jack Healy",
+                "relevance": 0.585565,
+                "count": 1
+            },
+            {
+                "text": "Jake Lyon",
+                "relevance": 0.575273,
+                "count": 1
+            },
+            {
+                "text": "conference rooms",
+                "relevance": 0.570372,
+                "count": 1
+            },
+            {
+                "text": "unemployment benefits",
+                "relevance": 0.560255,
+                "count": 2
+            },
+            {
+                "text": "Fort Collins",
+                "relevance": 0.549716,
+                "count": 1
+            },
+            {
+                "text": "safety measures",
+                "relevance": 0.539657,
+                "count": 1
+            },
+            {
+                "text": "dental offices",
+                "relevance": 0.535843,
+                "count": 1
+            },
+            {
+                "text": "jobs",
+                "relevance": 0.528873,
+                "count": 3
+            },
+            {
+                "text": "people",
+                "relevance": 0.526414,
+                "count": 1
+            },
+            {
+                "text": "DENVER",
+                "relevance": 0.525509,
+                "count": 1
+            },
+            {
+                "text": "New York Times writer",
+                "relevance": 0.522589,
+                "count": 1
+            },
+            {
+                "text": "balk",
+                "relevance": 0.521248,
+                "count": 1
+            },
+            {
+                "text": "Businesses",
+                "relevance": 0.520734,
+                "count": 1
+            },
+            {
+                "text": "factories",
+                "relevance": 0.518766,
+                "count": 1
+            },
+            {
+                "text": "benefits",
+                "relevance": 0.517677,
+                "count": 1
+            },
+            {
+                "text": "unions",
+                "relevance": 0.514691,
+                "count": 1
+            },
+            {
+                "text": "employees",
+                "relevance": 0.513877,
+                "count": 1
+            },
+            {
+                "text": "co-workers",
+                "relevance": 0.513588,
+                "count": 2
+            },
+            {
+                "text": "infections",
+                "relevance": 0.512656,
+                "count": 1
+            },
+            {
+                "text": "work",
+                "relevance": 0.512469,
+                "count": 1
+            },
+            {
+                "text": "surfaces",
+                "relevance": 0.511757,
+                "count": 1
+            },
+            {
+                "text": "workers",
+                "relevance": 0.511731,
+                "count": 2
+            },
+            {
+                "text": "reluctance cost",
+                "relevance": 0.511651,
+                "count": 1
+            },
+            {
+                "text": "weeks",
+                "relevance": 0.510931,
+                "count": 1
+            },
+            {
+                "text": "spaces",
+                "relevance": 0.509744,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.509189,
+                "count": 1
+            },
+            {
+                "text": "grave risks",
+                "relevance": 0.508993,
+                "count": 1
+            },
+            {
+                "text": "state",
+                "relevance": 0.508878,
+                "count": 1
+            },
+            {
+                "text": "Lyon",
+                "relevance": 0.508586,
+                "count": 1
+            },
+            {
+                "text": "home",
+                "relevance": 0.507434,
+                "count": 1
+            },
+            {
+                "text": "colleagues",
+                "relevance": 0.506131,
+                "count": 1
+            },
+            {
+                "text": "kick",
+                "relevance": 0.506131,
+                "count": 1
+            },
+            {
+                "text": "customers",
+                "relevance": 0.506131,
+                "count": 1
+            },
+            {
+                "text": "plants",
+                "relevance": 0.505708,
+                "count": 1
+            },
+            {
+                "text": "hours",
+                "relevance": 0.505057,
+                "count": 1
+            },
+            {
+                "text": "air",
+                "relevance": 0.505057,
+                "count": 1
+            },
+            {
+                "text": "profits",
+                "relevance": 0.505057,
+                "count": 1
+            },
+            {
+                "text": "age",
+                "relevance": 0.505057,
+                "count": 1
+            },
+            {
+                "text": "masks",
+                "relevance": 0.505057,
+                "count": 1
+            },
+            {
+                "text": "painful reprisals",
+                "relevance": 0.498218,
+                "count": 1
+            },
+            {
+                "text": "shop's owners",
+                "relevance": 0.497563,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.488592,
+                "count": 3
+            },
+            {
+                "text": "push",
+                "relevance": 0.47055,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "f4ec5267152c58521a9c5f3f345bb5de77baba2b",
+        "filename": "202006042133SFC_____NEWS_____B614176069Z.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NYSE|NYT|CUSIP:650111107;ISIN:US6501111073|The New York Times Company|extractor|DUNS:001315613;NECOID:18638;ACORN:3914275281|MENTION||||XNYS|REFERENCE",
+    "publicationTime": "2020-06-04T21:33:00-04:00",
+    "title": "Workers fearful of virus being fired, losing benefits",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.co.denver\">DENVER</location> - After scraping by for weeks on unemployment checks and peanut butter sandwiches, <person>Jake Lyon</person> recently received the call that many who temporarily lost their jobs because of the coronavirus pandemic have anticipated: The college-town tea shop where he worked was reopening, and it was time to go back.</p>\n\n      <p>But Lyon, 23, and his co-workers in <location idsrc=\"xmltag.org\" value=\"LU/us.co.forins\">Fort Collins, Colo.</location>, who were temporarily laid off, worried about contracting the virus, so they asked the shop's owners to delay reopening and meet with them to discuss safety measures. The reluctance cost them. Six of them permanently lost their jobs in May, and their former employer reported them to the state's unemployment office to have their benefits potentially revoked.</p>\n\n      <p>As people across <location idsrc=\"xmltag.org\" value=\"LC/us\">the United States</location> are told to return to work, employees who balk at the health risks say they are being confronted with painful reprisals: Some are losing their jobs if they try to stay home, and thousands more are being reported to the state to have their unemployment benefits cut off.</p>\n\n      <p>Businesses want to bring back customers and profits. But workers now worry about contracting the coronavirus once they return to cramped restaurant kitchens, dental offices or conference rooms where few colleagues are wearing masks.</p>\n\n      <p>Labor advocates and unions say the push to recall workers and kick reluctant employees off unemployment benefits carries grave risks in the age of the coronavirus, when infections have rampaged through meatpacking plants, call centers, factories and other confined spaces where co-workers spend hours touching the same surfaces and breathing the same air.</p>\n\n      <p><em><person>Jack Healy</person> is a <org idsrc=\"xmltag.org\" value=\"NYSE:NYT\">New York Times</org> writer.</em></p>",
+    "geoFocus": [
+        [
+            "GU/us.ca.sanfrn",
+            "San Francisco"
+        ]
+    ]
+}

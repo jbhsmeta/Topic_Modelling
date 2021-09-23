@@ -1,0 +1,724 @@
+{
+    "id": "2ef07ccc-3213-4c74-be47-69cd25036a75",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Milwaukee, Wisconsin",
+    "sourceType": "Broadcast Transcript",
+    "source": "WITI-TV (Milwaukee, WI)",
+    "corpus_document_id": "54243674406255881555",
+    "description": "MILWAUKEE- Two women were arrested in connection with a burglary at Value Beauty near Teutonia Avenue and Florist Avenue early Monday, June 1. Police said the women, ages 26 and 19, entered the business and removed property. FOX6's cameras found shattered glass and merchandise scattered outside the business Monday morning.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.crime",
+            "relevance_score": "9",
+            "description": "Burglary",
+            "code": "IS/lifesoc.burglary#9#98#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Crime",
+            "code": "IS/lifesoc.crime#9#99#98",
+            "level": 1
+        }
+    ],
+    "text": "MILWAUKEE \\- Two women were arrested in connection with a burglary at Value\nBeauty near Teutonia Avenue and Florist Avenue early Monday, June 1.\n\nIt happened around 2:30 a.m.\n\nPolice said the women, ages 26 and 19, entered the business and removed\nproperty.\n\nFOX6's cameras found shattered glass and merchandise scattered outside the\nbusiness Monday morning.\n\nPolice said charges were being referred to the district attorney's office.\n\n43.127140 -87.953353",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#8#50#86",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "8",
+            "description": "Government Services",
+            "code": "II/gov.govserve#8#50#86",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "8",
+            "description": "Police Services",
+            "code": "II/gov.police#8#86#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "8",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#8#50#86",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "MILWAUKEE",
+            "Teutonia Avenue",
+            "Florist Avenue"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.wi.milkee",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS5875A391D2DA06D0CA77384794A0751.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.624687,
+                    "label": "negative"
+                },
+                "text": "burglary",
+                "relevance": 0.921634,
+                "type": "Crime"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.624687,
+                    "label": "negative"
+                },
+                "text": "MILWAUKEE",
+                "relevance": 0.812708,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "MILWAUKEE \\- Two women"
+                },
+                "sentence": "MILWAUKEE \\- Two women were arrested in connection with a burglary at Value",
+                "object": {
+                    "text": "arrested in connection with a burglary at Value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "MILWAUKEE \\- Two women"
+                },
+                "sentence": "MILWAUKEE \\- Two women were arrested in connection with a burglary at Value",
+                "object": {
+                    "text": "in connection with a burglary at Value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "arrest",
+                        "tense": "past"
+                    },
+                    "text": "were arrested",
+                    "normalized": "be arrest"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It happened around 2:30 a.m.",
+                "action": {
+                    "verb": {
+                        "text": "happen",
+                        "tense": "past"
+                    },
+                    "text": "happened",
+                    "normalized": "happen"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police said the women, ages 26 and 19, entered the business and removed",
+                "object": {
+                    "text": "the women, ages 26 and 19, entered the business and removed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police said charges were being referred to the district attorney's office.",
+                "object": {
+                    "text": "charges were being referred to the district attorney's office"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "charges"
+                },
+                "sentence": " Police said charges were being referred to the district attorney's office.",
+                "object": {
+                    "text": "referred to the district attorney's office"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "being",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.933136,
+                "label": "/society/crime/property crime/burglary"
+            },
+            {
+                "score": 0.80645,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.789042,
+                "label": "/law, govt and politics/law enforcement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "MILWAUKEE \\- Two women were arrested in connection with a burglary at Value Beauty near Teutonia Avenue and Florist Avenue early Monday, June 1.",
+                "score": 0.471378,
+                "arguments": [
+                    {
+                        "text": "women",
+                        "location": [
+                            17,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "women"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "MILWAUKEE",
+                        "location": [
+                            0,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "MILWAUKEE"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "MILWAUKEE \\- Two women were arrested in connection with a burglary at Value Beauty near Teutonia Avenue and Florist Avenue early Monday, June 1.",
+                "score": 0.663597,
+                "arguments": [
+                    {
+                        "text": "women",
+                        "location": [
+                            17,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "women"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "arrested",
+                        "location": [
+                            28,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCustody",
+                                "text": "arrested"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "MILWAUKEE \\- Two women were arrested in connection with a burglary at Value Beauty near Teutonia Avenue and Florist Avenue early Monday, June 1.",
+                "score": 0.881168,
+                "arguments": [
+                    {
+                        "text": "early Monday",
+                        "location": [
+                            123,
+                            135
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "early Monday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "arrested",
+                        "location": [
+                            28,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCustody",
+                                "text": "arrested"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "MILWAUKEE \\- Two women were arrested in connection with a burglary at Value Beauty near Teutonia Avenue and Florist Avenue early Monday, June 1.",
+                "score": 0.512384,
+                "arguments": [
+                    {
+                        "text": "Value\nBeauty",
+                        "location": [
+                            70,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Value\nBeauty",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Teutonia Avenue",
+                        "location": [
+                            88,
+                            103
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Teutonia Avenue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police said the women, ages 26 and 19, entered the business and removed property.",
+                "score": 0.966819,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            176,
+                            182
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            183,
+                            187
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police said charges were being referred to the district attorney's office.",
+                "score": 0.845027,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            360,
+                            366
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            367,
+                            371
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police said charges were being referred to the district attorney's office.",
+                "score": 0.378755,
+                "arguments": [
+                    {
+                        "text": "office",
+                        "location": [
+                            427,
+                            433
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "office",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "charges",
+                        "location": [
+                            372,
+                            379
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "charges"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Police said charges were being referred to the district attorney's office.",
+                "score": 0.816559,
+                "arguments": [
+                    {
+                        "text": "attorney",
+                        "location": [
+                            416,
+                            424
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "attorney"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "district",
+                        "location": [
+                            407,
+                            415
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "district"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Police said charges were being referred to the district attorney's office.",
+                "score": 0.898503,
+                "arguments": [
+                    {
+                        "text": "office",
+                        "location": [
+                            427,
+                            433
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "office",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "district",
+                        "location": [
+                            407,
+                            415
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "district"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "Police said charges were being referred to the district attorney's office.",
+                "score": 0.922908,
+                "arguments": [
+                    {
+                        "text": "attorney",
+                        "location": [
+                            416,
+                            424
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "attorney"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "office",
+                        "location": [
+                            427,
+                            433
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "office",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "FOX6's cameras",
+                "relevance": 0.867018,
+                "count": 1
+            },
+            {
+                "text": "Teutonia Avenue",
+                "relevance": 0.736109,
+                "count": 1
+            },
+            {
+                "text": "Police",
+                "relevance": 0.67532,
+                "count": 2
+            },
+            {
+                "text": "Florist Avenue",
+                "relevance": 0.606925,
+                "count": 1
+            },
+            {
+                "text": "district attorney's office",
+                "relevance": 0.583458,
+                "count": 1
+            },
+            {
+                "text": "women",
+                "relevance": 0.579601,
+                "count": 2
+            },
+            {
+                "text": "MILWAUKEE",
+                "relevance": 0.569526,
+                "count": 1
+            },
+            {
+                "text": "charges",
+                "relevance": 0.543527,
+                "count": 1
+            },
+            {
+                "text": "ages",
+                "relevance": 0.53739,
+                "count": 1
+            },
+            {
+                "text": "business",
+                "relevance": 0.536481,
+                "count": 1
+            },
+            {
+                "text": "business Monday morning",
+                "relevance": 0.532376,
+                "count": 1
+            },
+            {
+                "text": "glass",
+                "relevance": 0.528014,
+                "count": 1
+            },
+            {
+                "text": "connection",
+                "relevance": 0.528014,
+                "count": 1
+            },
+            {
+                "text": "merchandise",
+                "relevance": 0.523112,
+                "count": 1
+            },
+            {
+                "text": "burglary",
+                "relevance": 0.523112,
+                "count": 1
+            },
+            {
+                "text": "property",
+                "relevance": 0.519066,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.519066,
+                "count": 1
+            },
+            {
+                "text": "Monday",
+                "relevance": 0.411176,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "365552df98a98d9d7828cbb2bef988d334ee7641",
+        "filename": "202006010000NEWSBANKNEWSPPRS5875A391D2DA06D0CA77384794A0751.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Police: 2 arrested in burglary at Value Beauty near Teutonia and Florist",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.wi.milkee\">MILWAUKEE</location> - Two women were arrested in connection with a burglary at Value Beauty near <location>Teutonia Avenue</location> and <location>Florist Avenue</location> early <chron>Monday, June 1</chron>.</p>\n<p>It happened around <chron>2:30 a.m.</chron></p>\n\n<p>Police said the women, ages 26 and 19, entered the business and removed property.</p>\n\n<p>FOX6's cameras found shattered glass and merchandise scattered outside the business Monday morning.</p>\n\n<p>Police said charges were being referred to the district attorney's office.</p>\n\n<p>43.127140 -87.953353</p>",
+    "geoFocus": [
+        [
+            "GU/us.wi.milkee",
+            "Milwaukee"
+        ]
+    ]
+}

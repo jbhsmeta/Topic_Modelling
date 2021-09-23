@@ -1,0 +1,440 @@
+{
+    "id": "1e5f5a6a-2d9e-4364-a8a7-c23de0abde09",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, The Advocate / Capital City Press LLC, All Rights Reserved.",
+    "geoOrigin": "New Orleans, Louisiana",
+    "sourceType": "Newspaper",
+    "source": "New Orleans Advocate, The (LA)",
+    "corpus_document_id": "33602517624390471706",
+    "description": "Things are heating up in the garden this weekend, both literally and figuratively. Sure, it will be pushing 90 degrees, but Dan Gill tackles the hottest topic: hurricane prep in the landscape. If vegetables aren't your thing, start planning now to shop at the June online edition of the New Orleans Botanical Garden's plant sale, which will include all kinds of annuals,...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#6#50#63",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.homegard",
+            "relevance_score": "6",
+            "description": "Gardening",
+            "code": "IS/lifesoc.garden#6#63#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "6",
+            "description": "Home and Garden",
+            "code": "IS/lifesoc.homegard#6#50#63",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "6",
+            "description": "Weather",
+            "code": "IS/lifesoc.weather#6#63#58",
+            "level": 1
+        }
+    ],
+    "text": "Things are heating up in the garden this weekend, both literally and\nfiguratively. Sure, it will be pushing 90 degrees, but Dan Gill tackles the\nhottest topic: hurricane prep in the landscape.\n\nAlso, Sprout NOLA wants to help you grow your own vegetables, and it's\noffering more than just seeds.\n\nIf vegetables aren't your thing, start planning now to shop at the June online\nedition of the New Orleans Botanical Garden's plant sale, which will include\nall kinds of annuals, perennials and native plants.\n\nIf shade trees are on your shopping list, there are some things you need to\nknow before buying.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "New Orleans Botanical Garden's"
+        ],
+        "person": [
+            "Dan Gill"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.la.nworln",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSA6076DE7180F14EB6A122A3B13D7ECA.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "New Orleans Botanical Garden",
+                "relevance": 0.997342,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.247034,
+                    "label": "positive"
+                },
+                "text": "Dan Gill",
+                "relevance": 0.799466,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "NOLA",
+                "relevance": 0.683044,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PlaceWithNeighborhoods",
+                        "City"
+                    ],
+                    "name": "New Orleans",
+                    "dbpedia_resource": "http://dbpedia.org/resource/New_Orleans"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "90 degrees",
+                "relevance": 0.683044,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Things"
+                },
+                "sentence": "Things are heating up in the garden this weekend, both literally and",
+                "object": {
+                    "text": "heating up in the garden"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Things"
+                },
+                "sentence": "Things are heating up in the garden this weekend, both literally and",
+                "object": {
+                    "text": "in the garden"
+                },
+                "action": {
+                    "verb": {
+                        "text": "heat",
+                        "tense": "present"
+                    },
+                    "text": "are heating",
+                    "normalized": "be heat"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " figuratively. Sure, it will be pushing 90 degrees, but Dan Gill tackles the",
+                "object": {
+                    "text": "pushing 90 degrees"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " figuratively. Sure, it will be pushing 90 degrees, but Dan Gill tackles the",
+                "object": {
+                    "text": "90 degrees"
+                },
+                "action": {
+                    "verb": {
+                        "text": "push",
+                        "tense": "future"
+                    },
+                    "text": "will be pushing",
+                    "normalized": "will be push"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Sprout NOLA"
+                },
+                "sentence": " Also, Sprout NOLA wants to help you grow your own vegetables, and it's",
+                "object": {
+                    "text": "to help you grow your own vegetables"
+                },
+                "action": {
+                    "verb": {
+                        "text": "want",
+                        "tense": "present"
+                    },
+                    "text": "wants",
+                    "normalized": "want"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Sprout NOLA"
+                },
+                "sentence": " Also, Sprout NOLA wants to help you grow your own vegetables, and it's",
+                "object": {
+                    "text": "you grow your own vegetables"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "wants to help",
+                    "normalized": "want to help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "vegetables"
+                },
+                "sentence": " If vegetables aren't your thing, start planning now to shop at the June online",
+                "object": {
+                    "text": "n't your thing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "shade trees"
+                },
+                "sentence": " If shade trees are on your shopping list, there are some things you need to",
+                "object": {
+                    "text": "on your shopping list"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " If shade trees are on your shopping list, there are some things you need to",
+                "object": {
+                    "text": "some things"
+                },
+                "action": {
+                    "verb": {
+                        "text": "need",
+                        "tense": "present"
+                    },
+                    "text": "need",
+                    "normalized": "need"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.908497,
+                "label": "/science/weather"
+            },
+            {
+                "score": 0.722113,
+                "label": "/business and industrial/agriculture and forestry/crops and seed"
+            },
+            {
+                "score": 0.688293,
+                "label": "/home and garden/gardening and landscaping/gardening"
+            }
+        ],
+        "relations": [
+            {
+                "type": "ownerOf",
+                "sentence": "If vegetables aren't your thing, start planning now to shop at the June online edition of the New Orleans Botanical Garden's plant sale, which will include all kinds of annuals, perennials and native plants.",
+                "score": 0.311908,
+                "arguments": [
+                    {
+                        "text": "New Orleans Botanical Garden",
+                        "location": [
+                            391,
+                            419
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "New Orleans Botanical Garden"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "plant",
+                        "location": [
+                            422,
+                            427
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "plant"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "shade trees",
+                "relevance": 0.903936,
+                "count": 1
+            },
+            {
+                "text": "Sprout NOLA",
+                "relevance": 0.811767,
+                "count": 1
+            },
+            {
+                "text": "edition of the New",
+                "relevance": 0.723869,
+                "count": 1
+            },
+            {
+                "text": "hottest topic",
+                "relevance": 0.647409,
+                "count": 1
+            },
+            {
+                "text": "kinds of annuals",
+                "relevance": 0.63393,
+                "count": 1
+            },
+            {
+                "text": "shopping list",
+                "relevance": 0.605051,
+                "count": 1
+            },
+            {
+                "text": "native plants",
+                "relevance": 0.5916,
+                "count": 1
+            },
+            {
+                "text": "own vegetables",
+                "relevance": 0.585988,
+                "count": 1
+            },
+            {
+                "text": "Things",
+                "relevance": 0.564229,
+                "count": 2
+            },
+            {
+                "text": "thing",
+                "relevance": 0.532248,
+                "count": 1
+            },
+            {
+                "text": "degrees",
+                "relevance": 0.529952,
+                "count": 1
+            },
+            {
+                "text": "Botanical Garden's plant sale",
+                "relevance": 0.529515,
+                "count": 1
+            },
+            {
+                "text": "garden",
+                "relevance": 0.525804,
+                "count": 1
+            },
+            {
+                "text": "vegetables",
+                "relevance": 0.522218,
+                "count": 1
+            },
+            {
+                "text": "perennials",
+                "relevance": 0.520056,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.513521,
+                "count": 1
+            },
+            {
+                "text": "seeds",
+                "relevance": 0.513521,
+                "count": 1
+            },
+            {
+                "text": "landscape",
+                "relevance": 0.513521,
+                "count": 1
+            },
+            {
+                "text": "weekend",
+                "relevance": 0.513521,
+                "count": 1
+            },
+            {
+                "text": "hurricane prep",
+                "relevance": 0.470035,
+                "count": 1
+            },
+            {
+                "text": "Dan Gill",
+                "relevance": 0.470035,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "4aca235cf84412439848c4e09dc21d517af1ca2e",
+        "filename": "202006050000NEWSBANKNEWSPPRSA6076DE7180F14EB6A122A3B13D7ECA.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "It's busy weekend for gardeners, from storm prep to finding free seeds and choosing shade trees",
+    "html": "<p>Things are heating up in the garden this weekend, both literally and figuratively. Sure, it will be pushing 90 degrees, but <person>Dan Gill</person> tackles the hottest topic: hurricane prep in the landscape.</p>\n<p>Also, Sprout NOLA wants to help you grow your own vegetables, and it's offering more than just seeds.</p>\n\n<p>If vegetables aren't your thing, start planning now to shop at the June online edition of the <location>New Orleans Botanical Garden's</location> plant sale, which will include all kinds of annuals, perennials and native plants.</p>\n\n<p>If shade trees are on your shopping list, there are some things you need to know before buying.</p>",
+    "geoFocus": [
+        [
+            "GU/us.la.nworln",
+            "New Orleans"
+        ]
+    ]
+}

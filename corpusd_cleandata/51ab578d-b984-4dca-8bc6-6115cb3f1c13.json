@@ -1,0 +1,543 @@
+{
+    "id": "51ab578d-b984-4dca-8bc6-6115cb3f1c13",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Daily Journal Online, All rights reserved.",
+    "geoOrigin": "Park Hills, Missouri",
+    "sourceType": "Newspaper",
+    "source": "Daily Journal (Park Hills, MO)",
+    "corpus_document_id": "68199990959280134383",
+    "description": "Between 80 to 100 people gathered Monday evening at the St. Francois County Courthouse Annex in downtown Farmington for a \"Justice for George\" sit-in. The peaceful protest was one of hundreds taking place across America in recent days in response to George Floyd's death on May 25 while handcuffed and lying face down in police custody on a Minneapolis, Minnesota,...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Between 80 to 100 people gathered Monday evening at the St. Francois County\nCourthouse Annex in downtown Farmington for a \"Justice for George\" sit-in.\n\nThe peaceful protest was one of hundreds taking place across America in recent\ndays in response to George Floyd's death on May 25 while handcuffed and lying\nface down in police custody on a Minneapolis, Minnesota, city street.\n\nThe four arresting officers have since been fired from the MPD.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Farmington",
+            "Minneapolis, Minnesota"
+        ],
+        "person": [
+            "George Floyd's"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.mo.parlls",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS498EF5F81636F0A25672D32D79DA405.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "George Floyd",
+                "relevance": 0.866027,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "FootballPlayer"
+                    ],
+                    "name": "George Floyd",
+                    "dbpedia_resource": "http://dbpedia.org/resource/George_Floyd"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "St. Francois County",
+                "relevance": 0.515538,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "MPD",
+                "relevance": 0.424062,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Farmington",
+                "relevance": 0.419002,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Farmington, Missouri",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Farmington,_Missouri"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.100765,
+                    "label": "negative"
+                },
+                "text": "Minneapolis",
+                "relevance": 0.365225,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Minneapolis",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Minneapolis"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.519455,
+                    "label": "negative"
+                },
+                "text": "Minnesota",
+                "relevance": 0.318683,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "America",
+                "relevance": 0.313117,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Continent"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "100 people"
+                },
+                "sentence": "Between 80 to 100 people gathered Monday evening at the St. Francois County",
+                "action": {
+                    "verb": {
+                        "text": "gather",
+                        "tense": "past"
+                    },
+                    "text": "gathered",
+                    "normalized": "gather"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The peaceful protest"
+                },
+                "sentence": " The peaceful protest was one of hundreds taking place across America in recent",
+                "object": {
+                    "text": "one of hundreds taking place across America in recent"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The four arresting officers"
+                },
+                "sentence": " The four arresting officers have since been fired from the MPD.",
+                "object": {
+                    "text": "fired from the MPD"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.589591,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.563681,
+                "label": "/law, govt and politics/law enforcement"
+            },
+            {
+                "score": 0.551629,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "basedIn",
+                "sentence": "Between 80 to 100 people gathered Monday evening at the St. Francois County Courthouse Annex in downtown Farmington for a \"Justice for George\" sit-in.",
+                "score": 0.498623,
+                "arguments": [
+                    {
+                        "text": "St. Francois County\nCourthouse Annex",
+                        "location": [
+                            56,
+                            92
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "St. Francois County\nCourthouse Annex"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "downtown",
+                        "location": [
+                            96,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "downtown"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Between 80 to 100 people gathered Monday evening at the St. Francois County Courthouse Annex in downtown Farmington for a \"Justice for George\" sit-in.",
+                "score": 0.960189,
+                "arguments": [
+                    {
+                        "text": "downtown",
+                        "location": [
+                            96,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "downtown"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Farmington",
+                        "location": [
+                            105,
+                            115
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Farmington"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "The peaceful protest was one of hundreds taking place across America in recent days in response to George Floyd's death on May 25 while handcuffed and lying face down in police custody on a Minneapolis, Minnesota, city street.",
+                "score": 0.432622,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            322,
+                            328
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Minneapolis",
+                        "location": [
+                            342,
+                            353
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Minneapolis"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The peaceful protest was one of hundreds taking place across America in recent days in response to George Floyd's death on May 25 while handcuffed and lying face down in police custody on a Minneapolis, Minnesota, city street.",
+                "score": 0.591867,
+                "arguments": [
+                    {
+                        "text": "street",
+                        "location": [
+                            371,
+                            377
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "street"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Minneapolis",
+                        "location": [
+                            342,
+                            353
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Minneapolis"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The peaceful protest was one of hundreds taking place across America in recent days in response to George Floyd's death on May 25 while handcuffed and lying face down in police custody on a Minneapolis, Minnesota, city street.",
+                "score": 0.832729,
+                "arguments": [
+                    {
+                        "text": "street",
+                        "location": [
+                            371,
+                            377
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "street"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "city",
+                        "location": [
+                            366,
+                            370
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Minnesota"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "The four arresting officers have since been fired from the MPD.",
+                "score": 0.468104,
+                "arguments": [
+                    {
+                        "text": "officers",
+                        "location": [
+                            399,
+                            407
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "fired",
+                        "location": [
+                            424,
+                            429
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPersonnel",
+                                "text": "fired"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "peaceful protest",
+                "relevance": 0.879527,
+                "count": 1
+            },
+            {
+                "text": "police custody",
+                "relevance": 0.772967,
+                "count": 1
+            },
+            {
+                "text": "Monday evening",
+                "relevance": 0.717573,
+                "count": 1
+            },
+            {
+                "text": "downtown Farmington",
+                "relevance": 0.666536,
+                "count": 1
+            },
+            {
+                "text": "city street",
+                "relevance": 0.62371,
+                "count": 1
+            },
+            {
+                "text": "Floyd's death",
+                "relevance": 0.608649,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.585635,
+                "count": 1
+            },
+            {
+                "text": "George",
+                "relevance": 0.548579,
+                "count": 1
+            },
+            {
+                "text": "response",
+                "relevance": 0.543823,
+                "count": 1
+            },
+            {
+                "text": "Justice",
+                "relevance": 0.5305,
+                "count": 1
+            },
+            {
+                "text": "officers",
+                "relevance": 0.529365,
+                "count": 1
+            },
+            {
+                "text": "Minneapolis",
+                "relevance": 0.528625,
+                "count": 1
+            },
+            {
+                "text": "Minnesota",
+                "relevance": 0.523617,
+                "count": 1
+            },
+            {
+                "text": "place",
+                "relevance": 0.523617,
+                "count": 1
+            },
+            {
+                "text": "America",
+                "relevance": 0.519482,
+                "count": 1
+            },
+            {
+                "text": "MPD",
+                "relevance": 0.51607,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.409846,
+                "count": 1
+            },
+            {
+                "text": "in",
+                "relevance": 0.402553,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "2aa9e841d591e7b60ba0c3641b5bd95e8483da44",
+        "filename": "202006010000NEWSBANKNEWSPPRS498EF5F81636F0A25672D32D79DA405.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Dozens turn out for peaceful protest",
+    "html": "<p>Between 80 to 100 people gathered Monday evening at the St. Francois County Courthouse Annex in downtown <location idsrc=\"xmltag.org\" value=\"LU/us.mn.farton\">Farmington</location> for a \"Justice for George\" sit-in.</p>\n<p>The peaceful protest was one of hundreds taking place across America in recent days in response to <person>George Floyd's</person> death on <chron>May 25</chron> while handcuffed and lying face down in police custody on a <location idsrc=\"xmltag.org\" value=\"LU/us.mn.minnea\">Minneapolis, Minnesota</location>, city street.</p>\n\n<p>The four arresting officers have since been fired from the MPD.</p>",
+    "geoFocus": [
+        [
+            "GU/us.mo.saiois",
+            "Saint Francois County"
+        ]
+    ]
+}

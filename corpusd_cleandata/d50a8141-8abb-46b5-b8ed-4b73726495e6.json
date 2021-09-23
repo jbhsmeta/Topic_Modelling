@@ -1,0 +1,201 @@
+{
+    "id": "d50a8141-8abb-46b5-b8ed-4b73726495e6",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "30012745420312939335",
+    "description": "We asked six of Britain's most successful black founders to share their experiences.",
+    "serviceName": "Business Blogs",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Northern Europe",
+            "code": "LB/neur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/neur",
+            "relevance_score": "9",
+            "description": "United Kingdom",
+            "code": "LC/gb#9#90#49",
+            "level": 2
+        },
+        {
+            "code": "LC/uk#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#5#50#58",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.socissue",
+            "relevance_score": "5",
+            "description": "Race",
+            "code": "IS/lifesoc.race#5#58#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "5",
+            "description": "Social Issues",
+            "code": "IS/lifesoc.socissue#5#50#58",
+            "level": 1
+        }
+    ],
+    "text": "'Success, struggle and survival': Black founders speak out powerfully on the\nfight against everyday racism in the UK",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "UK"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050312AMSPIDERBLG_BIZ__BUSINSDR_D72AF9E84CE3CE35BD9B97303A4E9D57_6.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.792708,
+                    "label": "negative"
+                },
+                "text": "UK",
+                "relevance": 0.980723,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Black founders"
+                },
+                "sentence": "'Success, struggle and survival': Black founders speak out powerfully on the",
+                "object": {
+                    "text": "on the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "speak",
+                        "tense": "present"
+                    },
+                    "text": "speak",
+                    "normalized": "speak"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 1,
+                "label": "/society/racism"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "'Success, struggle and survival': Black founders speak out powerfully on the fight against everyday racism in the UK",
+                "score": 0.979615,
+                "arguments": [
+                    {
+                        "text": "founders",
+                        "location": [
+                            40,
+                            48
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "founders"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "speak",
+                        "location": [
+                            49,
+                            54
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "speak"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "everyday racism",
+                "relevance": 0.852491,
+                "count": 1
+            },
+            {
+                "text": "Success",
+                "relevance": 0.801003,
+                "count": 1
+            },
+            {
+                "text": "Black founders",
+                "relevance": 0.781417,
+                "count": 1
+            },
+            {
+                "text": "struggle",
+                "relevance": 0.687044,
+                "count": 1
+            },
+            {
+                "text": "survival",
+                "relevance": 0.634556,
+                "count": 1
+            },
+            {
+                "text": "UK",
+                "relevance": 0.22787,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "af39798499a47f7e722e3b0b32e0fdcea079cc7d",
+        "filename": "202006050312AMSPIDERBLG_BIZ__BUSINSDR_D72AF9E84CE3CE35BD9B97303A4E9D57_6.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:12:00-04:00",
+    "title": "'Success, struggle and survival': Black founders speak out powerfully on the fight against everyday racism in the UK [The Business Insider]",
+    "html": "<p>'Success, struggle and survival': Black founders speak out powerfully on the fight against everyday racism in the <location idsrc=\"xmltag.org\" value=\"LC/gb\">UK</location></p>",
+    "geoFocus": []
+}

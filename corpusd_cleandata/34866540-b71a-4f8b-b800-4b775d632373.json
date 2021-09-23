@@ -1,0 +1,356 @@
+{
+    "id": "34866540-b71a-4f8b-b800-4b775d632373",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2000 - 2020 Al Bawaba. All Rights Reserved. Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "Dubai, United Arab Emirates",
+    "sourceType": "General Newswire",
+    "source": "Tenders Monitor Africa-Asia",
+    "corpus_document_id": "39179848960592982791",
+    "description": "Company: HA NAM MATERNITY HOSPITAL.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "South-Eastern Asia",
+            "code": "LB/seas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/seas",
+            "relevance_score": "9",
+            "description": "Vietnam",
+            "code": "LC/vn#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Business and Commerce",
+            "code": "IS/biz#8#50#82",
+            "level": 0
+        },
+        {
+            "parent": "IS/biz",
+            "relevance_score": "8",
+            "description": "Outsourcing",
+            "code": "IS/biz.out#8#82#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Health and Wellness",
+            "code": "IS/haw#8#50#80",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.practice",
+            "relevance_score": "8",
+            "description": "Pediatrics",
+            "code": "IS/haw.child#8#80#50",
+            "level": 2
+        }
+    ],
+    "text": "Company : HA NAM MATERNITY HOSPITAL\n\nAddress : 0972176335 - 0912598525\n\nCountry : Vietnam\n\nLocation : Vietnam\n\nTender_No : 20200611734-01\n\nValue : VND 251042000\n\nDead line : 2020-06-11\n\nLocal International : International\n\nFunding Agency : No\n\nDescription : Tenders are invited for Providing Outsourcing Services outside\nthe Hospital to the Obstetric - Pediatric Hospital Bid Security Amount:\n3,500,000 VND Duration of Contract: 12 Month [Disclaimer: The above text is\nmachine translated. For accurate information kindly refer the original\ndocument.]\n\nDocument : [\nhttp://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20742049.html](http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20742049.html)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "HA NAM",
+            "Vietnam"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/ae..dubai",
+    "language": "English",
+    "filename": "202006050058ALBA____ME_NA_NE_41542_176205692_138.930.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.456084,
+                    "label": "negative"
+                },
+                "text": "NAM MATERNITY HOSPITAL",
+                "relevance": 0.822688,
+                "type": "Facility"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.458686,
+                    "label": "positive"
+                },
+                "text": "Vietnam",
+                "relevance": 0.55907,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Vietnam",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Vietnam"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.456084,
+                    "label": "negative"
+                },
+                "text": "Obstetric - Pediatric Hospital",
+                "relevance": 0.492804,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "12 Month",
+                "relevance": 0.492804,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Tenders"
+                },
+                "sentence": " Description : Tenders are invited for Providing Outsourcing Services outside",
+                "object": {
+                    "text": "for Providing Outsourcing Services outside"
+                },
+                "action": {
+                    "verb": {
+                        "text": "invite",
+                        "tense": "past"
+                    },
+                    "text": "are invited",
+                    "normalized": "be invite"
+                }
+            },
+            {
+                "subject": {
+                    "text": "accurate information"
+                },
+                "sentence": " For accurate information kindly refer the original",
+                "object": {
+                    "text": "the original"
+                },
+                "action": {
+                    "verb": {
+                        "text": "refer",
+                        "tense": "present"
+                    },
+                    "text": "refer",
+                    "normalized": "refer"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.597676,
+                "label": "/business and industrial/business operations"
+            },
+            {
+                "score": 0.590225,
+                "label": "/education/special education"
+            },
+            {
+                "score": 0.553895,
+                "label": "/law, govt and politics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOfMany",
+                "sentence": "Country : Vietnam",
+                "score": 0.149385,
+                "arguments": [
+                    {
+                        "text": "Country",
+                        "location": [
+                            72,
+                            79
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Country"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Vietnam",
+                        "location": [
+                            82,
+                            89
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Vietnam",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "accurate information",
+                "relevance": 0.779975,
+                "count": 1
+            },
+            {
+                "text": "Pediatric Hospital Bid Security Amount",
+                "relevance": 0.778146,
+                "count": 1
+            },
+            {
+                "text": "VND Duration of Contract",
+                "relevance": 0.741933,
+                "count": 1
+            },
+            {
+                "text": "Hospital",
+                "relevance": 0.624207,
+                "count": 1
+            },
+            {
+                "text": "Value",
+                "relevance": 0.590682,
+                "count": 1
+            },
+            {
+                "text": "Company",
+                "relevance": 0.589765,
+                "count": 1
+            },
+            {
+                "text": "Description",
+                "relevance": 0.589261,
+                "count": 1
+            },
+            {
+                "text": "Local International",
+                "relevance": 0.566651,
+                "count": 1
+            },
+            {
+                "text": "Obstetric",
+                "relevance": 0.56356,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.557959,
+                "count": 1
+            },
+            {
+                "text": "Dead line",
+                "relevance": 0.553095,
+                "count": 1
+            },
+            {
+                "text": "machine",
+                "relevance": 0.530401,
+                "count": 1
+            },
+            {
+                "text": "Disclaimer",
+                "relevance": 0.52417,
+                "count": 1
+            },
+            {
+                "text": "Country",
+                "relevance": 0.523429,
+                "count": 1
+            },
+            {
+                "text": "Document",
+                "relevance": 0.516447,
+                "count": 1
+            },
+            {
+                "text": "Agency",
+                "relevance": 0.516447,
+                "count": 1
+            },
+            {
+                "text": "above text",
+                "relevance": 0.509587,
+                "count": 1
+            },
+            {
+                "text": "Outsourcing Services",
+                "relevance": 0.509587,
+                "count": 1
+            },
+            {
+                "text": "VND",
+                "relevance": 0.468853,
+                "count": 1
+            },
+            {
+                "text": "Month",
+                "relevance": 0.410594,
+                "count": 1
+            },
+            {
+                "text": "International",
+                "relevance": 0.393431,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "d1e975782e0c4c8ec7ae00478a186a7f49e6aed4",
+        "filename": "202006050058ALBA____ME_NA_NE_41542_176205692_138.930.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:58:00-04:00",
+    "title": "Providing Outsourcing Services outside the Hospital to the Obstetric - Pediatric Hospital",
+    "html": "<p>Company : <location idsrc=\"xmltag.org\" value=\"LS/vn.hn\">HA NAM</location> MATERNITY HOSPITAL</p>\n<p>Address : 0972176335 - 0912598525</p>\n<p>Country : <location idsrc=\"xmltag.org\" value=\"LC/vn\">Vietnam</location></p>\n<p>Location : <location idsrc=\"xmltag.org\" value=\"LC/vn\">Vietnam</location></p>\n<p>Tender_No : 20200611734-01</p>\n<p>Value : VND 251042000</p>\n<p>Dead line : 2020-06-11</p>\n<p>Local International : International</p>\n<p>Funding Agency : No</p>\n<p>Description : Tenders are invited for Providing Outsourcing Services outside the Hospital to the Obstetric - Pediatric Hospital Bid Security Amount: <money>3,500,000 VND</money> Duration of Contract: 12 Month [Disclaimer: The above text is machine translated. For accurate information kindly refer the original document.]</p>\n<p>Document : <a href=\"http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20742049.html\"> http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20742049.html</a></p>",
+    "geoFocus": [
+        [
+            "GR/afr",
+            "Africa"
+        ],
+        [
+            "GR/as",
+            "Asia"
+        ]
+    ]
+}

@@ -1,0 +1,349 @@
+{
+    "id": "17a3da04-f4ef-41a3-91e0-4e563046705c",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "1754375564431092628",
+    "description": "Tiling work in the teaching kitchen- Nelson Mandela School more info: Location: GERMANY BidDate: 6/ 9/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: City of Rheine Tendering Authority Address: 48429 Rheine North Rhine-Westphalia Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Tiling work in the teaching kitchen - Nelson Mandela School more info :\nLocation : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type :\nTenders Tendering Authority : City of Rheine Tendering Authority Address :\n48429 Rheine North Rhine-Westphalia Financier : Self Funded Tearn Money : Not\nSpecified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Nelson Mandela School"
+        ],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": [
+            "Nelson Mandela School"
+        ]
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_29075_176212715_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rheine Tendering Authority",
+                "relevance": 0.880553,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.434595,
+                    "label": "negative"
+                },
+                "text": "Nelson Mandela School",
+                "relevance": 0.604586,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rheine North Rhine-Westphalia",
+                "relevance": 0.567542,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.372781,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.536316,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.667336,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.554394,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.551058,
+                "label": "/education/school"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "Tiling work in the teaching kitchen - Nelson Mandela School more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Rheine Tendering Authority Address : 48429 Rheine North Rhine-Westphalia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.283132,
+                "arguments": [
+                    {
+                        "text": "Nelson Mandela",
+                        "location": [
+                            38,
+                            52
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Nelson Mandela"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "School",
+                        "location": [
+                            53,
+                            59
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "School",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Educational"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Tiling work in the teaching kitchen - Nelson Mandela School more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Rheine Tendering Authority Address : 48429 Rheine North Rhine-Westphalia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.639042,
+                "arguments": [
+                    {
+                        "text": "6/9/2020 Tender",
+                        "location": [
+                            101,
+                            116
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/9/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type :\nTenders Tendering Authority : City of Rheine Tendering Authority Address :",
+                        "location": [
+                            135,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type :\nTenders Tendering Authority : City of Rheine Tendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Tiling work in the teaching kitchen - Nelson Mandela School more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Rheine Tendering Authority Address : 48429 Rheine North Rhine-Westphalia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.469748,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            260,
+                            269
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rheine North",
+                        "location": [
+                            230,
+                            242
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Rheine North"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.953205,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.884447,
+                "count": 1
+            },
+            {
+                "text": "City of Rheine Tendering Authority Address",
+                "relevance": 0.794243,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.681304,
+                "count": 1
+            },
+            {
+                "text": "Rheine North Rhine-Westphalia Financier",
+                "relevance": 0.651102,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.61225,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.573147,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.569248,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.569115,
+                "count": 1
+            },
+            {
+                "text": "work",
+                "relevance": 0.552842,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.514237,
+                "count": 1
+            },
+            {
+                "text": "teaching kitchen",
+                "relevance": 0.428646,
+                "count": 1
+            },
+            {
+                "text": "Nelson Mandela School",
+                "relevance": 0.390498,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.365761,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "bbca3bda7041403537e2eeefb2df4e191fb66cc0",
+        "filename": "202006050210ALBA____ME_NA_NE_29075_176212715_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Tiling work in the teaching kitchen - Nelson Mandela School [TenderNews.com - Tenders (India)]",
+    "html": "<p>Tiling work in the teaching kitchen - <org>Nelson Mandela School</org> more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/9/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : City of Rheine\nTendering Authority Address : 48429 Rheine North Rhine-Westphalia\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

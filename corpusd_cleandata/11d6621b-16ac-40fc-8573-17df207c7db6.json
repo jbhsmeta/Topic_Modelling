@@ -1,0 +1,714 @@
+{
+    "id": "11d6621b-16ac-40fc-8573-17df207c7db6",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 Albuquerque Journal",
+    "geoOrigin": "Albuquerque, New Mexico",
+    "sourceType": "Newspaper",
+    "source": "Albuquerque Journal (NM)",
+    "corpus_document_id": "36858338345261068309",
+    "description": "Congratulations, students of the Rio Rancho High School graduating senior Class of 2020! All the years I was teaching at RRHS, one of the best things I looked forward to was participating in the graduation ceremony. It isn't fair that this was not afforded to you in the traditional manner this year.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#92",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Education",
+            "code": "IS/lifesoc.edu#9#92#78",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.publop",
+            "relevance_score": "7",
+            "description": "Letters to the Editor",
+            "code": "IS/lifesoc.edletter#7#78#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/lifesoc.edu",
+            "relevance_score": "7",
+            "description": "Academic Levels",
+            "code": "IS/lifesoc.edlevels#7#50#78",
+            "level": 2
+        }
+    ],
+    "text": "Editor:\n\nCongratulations, students of the Rio Rancho High School graduating senior\nClass of 2020!\n\nAll the years I was teaching at RRHS, one of the best things I looked forward\nto was participating in the graduation ceremony. It isn't fair that this was\nnot afforded to you in the traditional manner this year.\n\nHowever, the circumstances make this year unique to all of you, something that\nyou will have experienced together and be able to share for the rest of your\nlives.\n\nThroughout our history, there have been catastrophic events that some people\nthought we could not recover from. But we did.\n\nThis virus event is no different. It's an opportunity to discover something\ngreat. To start a new process. To turn the direction of an economy. To help\nthe world and find a new way.\n\nTake it on with enthusiasm and promise. You are the pioneers of a new age.\nRemember, the only constant in life is change.\n\nHave dreams and goals, and do not give up on them. Keep on keeping on. Again,\nkudos to your splendid accomplishment and the very best of fortune to each one\nof you.\n\nGordon Douglas\n\nFormer teacher and coach, RRHS\n\nRio Rancho",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Rio Rancho High School"
+        ],
+        "location": [],
+        "person": [
+            "Gordon Douglas"
+        ],
+        "companies": [
+            "Rio Rancho High School"
+        ]
+    },
+    "geoOrigin_code": "RU/us.nm.albque",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRSF4E948F851CF5316E1BE9F0942720AD.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rio Rancho High School",
+                "relevance": 0.839941,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "School"
+                    ],
+                    "name": "Rio Rancho High School",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Rio_Rancho_High_School"
+                }
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0.710896,
+                    "label": "positive"
+                },
+                "text": "RRHS",
+                "relevance": 0.724352,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "FieldOfStudy",
+                        "Degree"
+                    ],
+                    "name": "High school",
+                    "dbpedia_resource": "http://dbpedia.org/resource/High_school"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rio Rancho",
+                "relevance": 0.706427,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Rio Rancho, New Mexico",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Rio_Rancho,_New_Mexico"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.699413,
+                    "label": "positive"
+                },
+                "text": "Gordon Douglas",
+                "relevance": 0.464031,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.456686,
+                    "label": "positive"
+                },
+                "text": "Editor",
+                "relevance": 0.445719,
+                "type": "JobTitle"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "students of the Rio Rancho High School"
+                },
+                "sentence": " Congratulations, students of the Rio Rancho High School graduating senior",
+                "object": {
+                    "text": "senior"
+                },
+                "action": {
+                    "verb": {
+                        "text": "graduate",
+                        "tense": "present"
+                    },
+                    "text": "graduating",
+                    "normalized": "graduate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " All the years I was teaching at RRHS, one of the best things I looked forward",
+                "object": {
+                    "text": "teaching at RRHS"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " All the years I was teaching at RRHS, one of the best things I looked forward",
+                "action": {
+                    "verb": {
+                        "text": "teach",
+                        "tense": "past"
+                    },
+                    "text": "was teaching",
+                    "normalized": "be teach"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " All the years I was teaching at RRHS, one of the best things I looked forward",
+                "object": {
+                    "text": "the best things"
+                },
+                "action": {
+                    "verb": {
+                        "text": "look",
+                        "tense": "past"
+                    },
+                    "text": "looked",
+                    "normalized": "look"
+                }
+            },
+            {
+                "subject": {
+                    "text": "participating"
+                },
+                "sentence": " to was participating in the graduation ceremony.",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the circumstances"
+                },
+                "sentence": " However, the circumstances make this year unique to all of you, something that",
+                "object": {
+                    "text": "this year"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "present"
+                    },
+                    "text": "make",
+                    "normalized": "make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " you will have experienced together and be able to share for the rest of your",
+                "object": {
+                    "text": "experienced together and be able to share"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "future"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This virus event"
+                },
+                "sentence": " This virus event is no different.",
+                "object": {
+                    "text": "no different"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It's an opportunity to discover something",
+                "object": {
+                    "text": "an opportunity to discover something"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It's an opportunity to discover something",
+                "object": {
+                    "text": "something"
+                },
+                "action": {
+                    "verb": {
+                        "text": "discover",
+                        "tense": "future"
+                    },
+                    "text": "to discover",
+                    "normalized": "to discover"
+                }
+            },
+            {
+                "subject": {
+                    "text": "You"
+                },
+                "sentence": " You are the pioneers of a new age.",
+                "object": {
+                    "text": "the pioneers of a new age"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the only constant in life"
+                },
+                "sentence": " Remember, the only constant in life is change.",
+                "object": {
+                    "text": "change"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.681708,
+                "label": "/art and entertainment/shows and events"
+            },
+            {
+                "score": 0.621878,
+                "label": "/education/teaching and classroom resources"
+            },
+            {
+                "score": 0.618228,
+                "label": "/education/homework and study tips"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Congratulations, students of the Rio Rancho High School graduating senior Class of 2020!",
+                "score": 0.497666,
+                "arguments": [
+                    {
+                        "text": "students",
+                        "location": [
+                            26,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rio Rancho High School",
+                        "location": [
+                            42,
+                            64
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Rio Rancho High School"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Congratulations, students of the Rio Rancho High School graduating senior Class of 2020!",
+                "score": 0.606163,
+                "arguments": [
+                    {
+                        "text": "students",
+                        "location": [
+                            26,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "graduating",
+                        "location": [
+                            65,
+                            75
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventEducation",
+                                "text": "graduating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Congratulations, students of the Rio Rancho High School graduating senior Class of 2020!",
+                "score": 0.594534,
+                "arguments": [
+                    {
+                        "text": "Rio Rancho High School",
+                        "location": [
+                            42,
+                            64
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Rio Rancho High School"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "graduating",
+                        "location": [
+                            65,
+                            75
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventEducation",
+                                "text": "graduating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Congratulations, students of the Rio Rancho High School graduating senior Class of 2020!",
+                "score": 0.891752,
+                "arguments": [
+                    {
+                        "text": "2020",
+                        "location": [
+                            92,
+                            96
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "2020"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "graduating",
+                        "location": [
+                            65,
+                            75
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventEducation",
+                                "text": "graduating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "All the years I was teaching at RRHS, one of the best things I looked forward to was participating in the graduation ceremony.",
+                "score": 0.387899,
+                "arguments": [
+                    {
+                        "text": "I",
+                        "location": [
+                            160,
+                            161
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Editor"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "graduation ceremony",
+                        "location": [
+                            205,
+                            224
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "graduation ceremony"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "students of the Rio Rancho High School",
+                "relevance": 0.6992,
+                "count": 1
+            },
+            {
+                "text": "traditional manner",
+                "relevance": 0.642496,
+                "count": 1
+            },
+            {
+                "text": "Former teacher",
+                "relevance": 0.628847,
+                "count": 1
+            },
+            {
+                "text": "catastrophic events",
+                "relevance": 0.622547,
+                "count": 1
+            },
+            {
+                "text": "best things",
+                "relevance": 0.61438,
+                "count": 1
+            },
+            {
+                "text": "splendid accomplishment",
+                "relevance": 0.587749,
+                "count": 1
+            },
+            {
+                "text": "graduation ceremony",
+                "relevance": 0.587679,
+                "count": 1
+            },
+            {
+                "text": "only constant",
+                "relevance": 0.571431,
+                "count": 1
+            },
+            {
+                "text": "Congratulations",
+                "relevance": 0.559974,
+                "count": 1
+            },
+            {
+                "text": "new process",
+                "relevance": 0.553759,
+                "count": 1
+            },
+            {
+                "text": "pioneers of a new age",
+                "relevance": 0.548096,
+                "count": 1
+            },
+            {
+                "text": "kudos",
+                "relevance": 0.544544,
+                "count": 1
+            },
+            {
+                "text": "Gordon Douglas",
+                "relevance": 0.540995,
+                "count": 1
+            },
+            {
+                "text": "virus event",
+                "relevance": 0.540411,
+                "count": 1
+            },
+            {
+                "text": "circumstances",
+                "relevance": 0.536419,
+                "count": 1
+            },
+            {
+                "text": "history",
+                "relevance": 0.533231,
+                "count": 1
+            },
+            {
+                "text": "world",
+                "relevance": 0.532655,
+                "count": 1
+            },
+            {
+                "text": "dreams",
+                "relevance": 0.526807,
+                "count": 1
+            },
+            {
+                "text": "direction of an economy",
+                "relevance": 0.522643,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.519573,
+                "count": 2
+            },
+            {
+                "text": "opportunity",
+                "relevance": 0.518821,
+                "count": 1
+            },
+            {
+                "text": "goals",
+                "relevance": 0.5145,
+                "count": 1
+            },
+            {
+                "text": "enthusiasm",
+                "relevance": 0.5145,
+                "count": 1
+            },
+            {
+                "text": "coach",
+                "relevance": 0.513195,
+                "count": 1
+            },
+            {
+                "text": "fortune",
+                "relevance": 0.512339,
+                "count": 1
+            },
+            {
+                "text": "lives",
+                "relevance": 0.512339,
+                "count": 1
+            },
+            {
+                "text": "Editor",
+                "relevance": 0.510177,
+                "count": 1
+            },
+            {
+                "text": "change",
+                "relevance": 0.510177,
+                "count": 1
+            },
+            {
+                "text": "promise",
+                "relevance": 0.510177,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.510177,
+                "count": 1
+            },
+            {
+                "text": "rest",
+                "relevance": 0.510177,
+                "count": 1
+            },
+            {
+                "text": "new way",
+                "relevance": 0.508472,
+                "count": 1
+            },
+            {
+                "text": "life",
+                "relevance": 0.50617,
+                "count": 1
+            },
+            {
+                "text": "years",
+                "relevance": 0.473256,
+                "count": 1
+            },
+            {
+                "text": "RRHS",
+                "relevance": 0.451974,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "8dab61191b6c33ac03b609eb33784d67f23258a6",
+        "filename": "202005310000NEWSBANKNEWSPPRSF4E948F851CF5316E1BE9F0942720AD.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "Letter to the editor: 2020 graduates can unite in unique times",
+    "html": "<p>Editor:</p>\n<p>Congratulations, students of the <org>Rio Rancho High School</org> graduating senior Class of 2020!</p>\n\n<p>All the years I was teaching at RRHS, one of the best things I looked forward to was participating in the graduation ceremony. It isn't fair that this was not afforded to you in the traditional manner this year.</p>\n\n<p>However, the circumstances make this year unique to all of you, something that you will have experienced together and be able to share for the rest of your lives.</p>\n\n<p>Throughout our history, there have been catastrophic events that some people thought we could not recover from. But we did.</p>\n\n<p>This virus event is no different. It's an opportunity to discover something great. To start a new process. To turn the direction of an economy. To help the world and find a new way.</p>\n\n<p>Take it on with enthusiasm and promise. You are the pioneers of a new age. Remember, the only constant in life is change.</p>\n\n<p>Have dreams and goals, and do not give up on them. Keep on keeping on. Again, kudos to your splendid accomplishment and the very best of fortune to each one of you.</p>\n\n<p><person>Gordon Douglas</person></p>\n\n<p>Former teacher and coach, RRHS</p>\n\n<p>Rio Rancho</p>",
+    "geoFocus": [
+        [
+            "GU/us.nm.albque",
+            "Albuquerque"
+        ]
+    ]
+}

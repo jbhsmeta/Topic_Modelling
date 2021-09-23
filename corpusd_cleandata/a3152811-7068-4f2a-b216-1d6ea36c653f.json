@@ -1,0 +1,792 @@
+{
+    "id": "a3152811-7068-4f2a-b216-1d6ea36c653f",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright 2020 The Associated Press.  All rights reserved. This material may not be published, broadcast, rewritten or redistributed.",
+    "geoOrigin": "New York City, New York",
+    "sourceType": "General Newswire",
+    "source": "AP General News International",
+    "corpus_document_id": "25356031168662037943",
+    "description": "George Floyd\u2019 s death an American tragedy with global echoes Despite reopening, some jobs lost to virus are gone for good On sad anniversary, few to mourn the D-Day dead in Normandy Japan\u2019 s pandemic deaths low, but future success uncertain The Latest: Turkey announces weekend curfew Surgical or homemade, masks mark a major shift in thinking Sri Lankan cafe owner...",
+    "serviceName": "Associated Press News",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": "IS/spec",
+            "relevance_score": "6",
+            "description": "Newsbriefs",
+            "code": "IS/lifesoc.briefs#6#64#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Structured Content",
+            "code": "IS/spec#6#50#64",
+            "level": 0
+        }
+    ],
+    "text": "### George Floyd's death an American tragedy with global echoes\n\n### Despite reopening, some jobs lost to virus are gone for good\n\n### On sad anniversary, few to mourn the D-Day dead in Normandy\n\n### Japan's pandemic deaths low, but future success uncertain\n\n### The Latest: Turkey announces weekend curfew\n\n### Surgical or homemade, masks mark a major shift in thinking\n\n### Sri Lankan cafe owner feeds and shelters stranded tourists\n\n### Police try to stop Floyd rally in Sydney due to virus fears\n\n### Malaysia's ex-PM to hear verdict in 1st graft case in July\n\n### Germany's Merkel dismisses talk she might seek 5th term",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ny.nyc",
+    "language": "English",
+    "filename": "202006050338AP______APNEWS___989BB102CA1977E3E13B019A182F5440.XML",
+    "providerName": "Associated Press, The",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "George Floyd",
+                "relevance": 0.906698,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "FootballPlayer"
+                    ],
+                    "name": "George Floyd",
+                    "dbpedia_resource": "http://dbpedia.org/resource/George_Floyd"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Merkel",
+                "relevance": 0.523229,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.494713,
+                    "label": "negative"
+                },
+                "text": "Normandy",
+                "relevance": 0.468034,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "EnglishCivilParish",
+                        "City"
+                    ],
+                    "name": "Normandy, Surrey",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Normandy,_Surrey"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.3899,
+                    "label": "negative"
+                },
+                "text": "Malaysia",
+                "relevance": 0.409822,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.434667,
+                    "label": "negative"
+                },
+                "text": "Japan",
+                "relevance": 0.396541,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Germany",
+                "relevance": 0.395369,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Sydney",
+                "relevance": 0.360912,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 10,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "#",
+                "relevance": 0.360912,
+                "type": "Hashtag"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "some jobs"
+                },
+                "sentence": " ### Despite reopening, some jobs lost to virus are gone for good",
+                "object": {
+                    "text": "to virus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lose",
+                        "tense": "past"
+                    },
+                    "text": "lost",
+                    "normalized": "lose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "some jobs lost to virus"
+                },
+                "sentence": " ### Despite reopening, some jobs lost to virus are gone for good",
+                "object": {
+                    "text": "for good"
+                },
+                "action": {
+                    "verb": {
+                        "text": "go",
+                        "tense": "past"
+                    },
+                    "text": "are gone",
+                    "normalized": "be go"
+                }
+            },
+            {
+                "subject": {
+                    "text": "few"
+                },
+                "sentence": " ### On sad anniversary, few to mourn the D-Day dead in Normandy",
+                "object": {
+                    "text": "the D-Day dead in Normandy"
+                },
+                "action": {
+                    "verb": {
+                        "text": "mourn",
+                        "tense": "future"
+                    },
+                    "text": "to mourn",
+                    "normalized": "to mourn"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Turkey"
+                },
+                "sentence": " ### The Latest: Turkey announces weekend curfew",
+                "object": {
+                    "text": "weekend curfew"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "present"
+                    },
+                    "text": "announces",
+                    "normalized": "announce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Lankan cafe owner"
+                },
+                "sentence": " ### Sri Lankan cafe owner feeds and shelters stranded tourists",
+                "object": {
+                    "text": "shelters"
+                },
+                "action": {
+                    "verb": {
+                        "text": "feed",
+                        "tense": "present"
+                    },
+                    "text": "feeds",
+                    "normalized": "feed"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Lankan cafe owner"
+                },
+                "sentence": " ### Sri Lankan cafe owner feeds and shelters stranded tourists",
+                "object": {
+                    "text": "stranded tourists"
+                },
+                "action": {
+                    "verb": {
+                        "text": "shelter",
+                        "tense": "present"
+                    },
+                    "text": "shelters",
+                    "normalized": "shelter"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Lankan cafe owner feeds and shelters"
+                },
+                "sentence": " ### Sri Lankan cafe owner feeds and shelters stranded tourists",
+                "object": {
+                    "text": "tourists"
+                },
+                "action": {
+                    "verb": {
+                        "text": "strand",
+                        "tense": "past"
+                    },
+                    "text": "stranded",
+                    "normalized": "strand"
+                }
+            },
+            {
+                "subject": {
+                    "text": "### Police"
+                },
+                "sentence": " ### Police try to stop Floyd rally in Sydney due to virus fears",
+                "object": {
+                    "text": "to stop Floyd rally in Sydney due to virus fears"
+                },
+                "action": {
+                    "verb": {
+                        "text": "try",
+                        "tense": "present"
+                    },
+                    "text": "try",
+                    "normalized": "try"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " ### Police try to stop Floyd rally in Sydney due to virus fears",
+                "object": {
+                    "text": "Floyd rally"
+                },
+                "action": {
+                    "verb": {
+                        "text": "stop",
+                        "tense": "future"
+                    },
+                    "text": "try to stop",
+                    "normalized": "try to stop"
+                }
+            },
+            {
+                "subject": {
+                    "text": "### Germany's Merkel"
+                },
+                "sentence": " ### Germany's Merkel dismisses talk she might seek 5th term",
+                "object": {
+                    "text": "talk she might seek 5th term"
+                },
+                "action": {
+                    "verb": {
+                        "text": "dismiss",
+                        "tense": "present"
+                    },
+                    "text": "dismisses",
+                    "normalized": "dismiss"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.944535,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.833328,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.769574,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "### The Latest: Turkey announces weekend curfew",
+                "score": 0.988183,
+                "arguments": [
+                    {
+                        "text": "Turkey",
+                        "location": [
+                            275,
+                            281
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Turkey",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announces",
+                        "location": [
+                            282,
+                            291
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announces"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "### The Latest: Turkey announces weekend curfew",
+                "score": 0.907386,
+                "arguments": [
+                    {
+                        "text": "weekend",
+                        "location": [
+                            292,
+                            299
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "weekend"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announces",
+                        "location": [
+                            282,
+                            291
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announces"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "### Sri Lankan cafe owner feeds and shelters stranded tourists",
+                "score": 0.937627,
+                "arguments": [
+                    {
+                        "text": "cafe",
+                        "location": [
+                            387,
+                            391
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "cafe"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Sri Lankan",
+                        "location": [
+                            376,
+                            386
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Sri Lankan",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "### Sri Lankan cafe owner feeds and shelters stranded tourists",
+                "score": 0.513723,
+                "arguments": [
+                    {
+                        "text": "owner",
+                        "location": [
+                            392,
+                            397
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Floyd"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cafe",
+                        "location": [
+                            387,
+                            391
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "cafe"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "### Sri Lankan cafe owner feeds and shelters stranded tourists",
+                "score": 0.377952,
+                "arguments": [
+                    {
+                        "text": "owner",
+                        "location": [
+                            392,
+                            397
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Floyd"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "shelters",
+                        "location": [
+                            408,
+                            416
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "shelters"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "### Police try to stop Floyd rally in Sydney due to virus fears",
+                "score": 0.479313,
+                "arguments": [
+                    {
+                        "text": "Floyd",
+                        "location": [
+                            459,
+                            464
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Floyd"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Sydney",
+                        "location": [
+                            474,
+                            480
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Sydney"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "### Malaysia's ex-PM to hear verdict in 1st graft case in July",
+                "score": 0.921148,
+                "arguments": [
+                    {
+                        "text": "July",
+                        "location": [
+                            559,
+                            563
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "July"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "case",
+                        "location": [
+                            551,
+                            555
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "case"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "### Germany's Merkel dismisses talk she might seek 5th term",
+                "score": 0.611679,
+                "arguments": [
+                    {
+                        "text": "Merkel",
+                        "location": [
+                            579,
+                            585
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Merkel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Germany",
+                        "location": [
+                            569,
+                            576
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Germany",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Malaysia's ex-PM",
+                "relevance": 0.738932,
+                "count": 1
+            },
+            {
+                "text": "Sri Lankan cafe owner feeds",
+                "relevance": 0.732586,
+                "count": 1
+            },
+            {
+                "text": "sad anniversary",
+                "relevance": 0.695891,
+                "count": 1
+            },
+            {
+                "text": "George Floyd's death",
+                "relevance": 0.673908,
+                "count": 1
+            },
+            {
+                "text": "Germany's Merkel",
+                "relevance": 0.668951,
+                "count": 1
+            },
+            {
+                "text": "Japan's pandemic deaths",
+                "relevance": 0.66181,
+                "count": 1
+            },
+            {
+                "text": "D-Day",
+                "relevance": 0.604506,
+                "count": 1
+            },
+            {
+                "text": "major shift",
+                "relevance": 0.586598,
+                "count": 1
+            },
+            {
+                "text": "future success",
+                "relevance": 0.586598,
+                "count": 1
+            },
+            {
+                "text": "Police",
+                "relevance": 0.558912,
+                "count": 1
+            },
+            {
+                "text": "jobs",
+                "relevance": 0.521893,
+                "count": 1
+            },
+            {
+                "text": "masks",
+                "relevance": 0.52099,
+                "count": 1
+            },
+            {
+                "text": "Turkey",
+                "relevance": 0.520346,
+                "count": 1
+            },
+            {
+                "text": "verdict",
+                "relevance": 0.519833,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.515444,
+                "count": 1
+            },
+            {
+                "text": "shelters",
+                "relevance": 0.513494,
+                "count": 1
+            },
+            {
+                "text": "Sydney",
+                "relevance": 0.513005,
+                "count": 1
+            },
+            {
+                "text": "1st graft case",
+                "relevance": 0.511817,
+                "count": 1
+            },
+            {
+                "text": "Floyd rally",
+                "relevance": 0.511634,
+                "count": 1
+            },
+            {
+                "text": "tourists",
+                "relevance": 0.50918,
+                "count": 1
+            },
+            {
+                "text": "Normandy",
+                "relevance": 0.50918,
+                "count": 1
+            },
+            {
+                "text": "American tragedy",
+                "relevance": 0.498102,
+                "count": 1
+            },
+            {
+                "text": "5th term",
+                "relevance": 0.464243,
+                "count": 1
+            },
+            {
+                "text": "weekend curfew",
+                "relevance": 0.464243,
+                "count": 1
+            },
+            {
+                "text": "global echoes",
+                "relevance": 0.464243,
+                "count": 1
+            },
+            {
+                "text": "virus fears",
+                "relevance": 0.452171,
+                "count": 1
+            },
+            {
+                "text": "talk",
+                "relevance": 0.40941,
+                "count": 1
+            },
+            {
+                "text": "July",
+                "relevance": 0.40248,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "aa6b33657e0060170a568adb4ed344354be19ad4",
+        "filename": "202006050338AP______APNEWS___989BB102CA1977E3E13B019A182F5440.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:38:00-04:00",
+    "title": "AP Top International News at 3:38 a.m. EDT",
+    "html": "<h3>George Floyd&#8217;s death an American tragedy with global echoes</h3>\n\n\n                  <h3>Despite reopening, some jobs lost to virus are gone for good</h3>\n\n\n                  <h3>On sad anniversary, few to mourn the D-Day dead in Normandy</h3>\n\n\n                  <h3>Japan&#8217;s pandemic deaths low, but future success uncertain</h3>\n\n\n                  <h3>The Latest: Turkey announces weekend curfew</h3>\n\n\n                  <h3>Surgical or homemade, masks mark a major shift in thinking</h3>\n\n\n                  <h3>Sri Lankan cafe owner feeds and shelters stranded tourists</h3>\n\n\n                  <h3>Police try to stop Floyd rally in Sydney due to virus fears</h3>\n\n\n                  <h3>Malaysia's ex-PM to hear verdict in 1st graft case in July</h3>\n\n\n                  <h3>Germany's Merkel dismisses talk she might seek 5th term</h3>",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

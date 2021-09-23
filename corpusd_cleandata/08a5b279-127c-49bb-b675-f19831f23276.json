@@ -1,0 +1,317 @@
+{
+    "id": "08a5b279-127c-49bb-b675-f19831f23276",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "46203053122380941950",
+    "description": "Building FLI 5 VE 3 scaffolding more info: Location: GERMANY BidDate: 6/ 10/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Leibniz Institute for Aging Research- FLI e.V.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Building FLI 5 VE 3 scaffolding more info : Location : GERMANY BidDate :\n6/10/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority :\nLeibniz Institute for Aging Research \\- FLI e.V. Tendering Authority Address :\n07745 Jena Thuringen Financier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            " : <org>Leibniz Institute for Aging Research"
+        ],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": [
+            " : <org>Leibniz Institute for Aging Research"
+        ]
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_51350_176211942_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.990331,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.450433,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.543622,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Leibniz Institute for Aging Research",
+                "relevance": 0.541437,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jena Thuringen",
+                "relevance": 0.399792,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.916287,
+                "label": "/health and fitness/aging"
+            },
+            {
+                "score": 0.82411,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Building FLI 5 VE 3 scaffolding more info : Location : GERMANY BidDate : 6/10/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Leibniz Institute for Aging Research \\- FLI e.V. Tendering Authority Address : 07745 Jena Thuringen Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.534126,
+                "arguments": [
+                    {
+                        "text": "6/10/2020 Tender",
+                        "location": [
+                            73,
+                            89
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/10/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority :\nLeibniz Institute",
+                        "location": [
+                            108,
+                            169
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority :\nLeibniz Institute"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Building FLI 5 VE 3 scaffolding more info : Location : GERMANY BidDate : 6/10/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Leibniz Institute for Aging Research \\- FLI e.V. Tendering Authority Address : 07745 Jena Thuringen Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.444857,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            252,
+                            261
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Aging Research \\- FLI e.V. Tendering Authority Address :\n07745 Jena",
+                        "location": [
+                            174,
+                            241
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Aging Research \\- FLI e.V. Tendering Authority Address :\n07745 Jena"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Leibniz Institute",
+                "relevance": 0.925543,
+                "count": 1
+            },
+            {
+                "text": "Jena Thuringen Financier",
+                "relevance": 0.868413,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.853547,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.623649,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.588915,
+                "count": 1
+            },
+            {
+                "text": "FLI e",
+                "relevance": 0.555112,
+                "count": 1
+            },
+            {
+                "text": "Research",
+                "relevance": 0.552483,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.542202,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.542167,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.537535,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.530976,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.526376,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.523518,
+                "count": 1
+            },
+            {
+                "text": "Authority Address",
+                "relevance": 0.377089,
+                "count": 1
+            },
+            {
+                "text": "FLI",
+                "relevance": 0.36189,
+                "count": 1
+            },
+            {
+                "text": "VE",
+                "relevance": 0.32669,
+                "count": 1
+            },
+            {
+                "text": "scaffolding",
+                "relevance": 0.320548,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "5adcbee8078be06e5ea1e96cb4e4edca7186da45",
+        "filename": "202006050210ALBA____ME_NA_NE_51350_176211942_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Building FLI 5 VE 3 scaffolding [TenderNews.com - Tenders (India)]",
+    "html": "<p>Building FLI 5 VE 3 scaffolding more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/10/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : <org>Leibniz Institute for Aging Research</org> - FLI e.V.\nTendering Authority Address : 07745 Jena Thuringen\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

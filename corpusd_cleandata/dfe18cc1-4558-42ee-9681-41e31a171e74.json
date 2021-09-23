@@ -1,0 +1,915 @@
+{
+    "id": "dfe18cc1-4558-42ee-9681-41e31a171e74",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright, 2020, The Grand Island Independent, All Rights Reserved.",
+    "geoOrigin": "Grand Island, Nebraska",
+    "sourceType": "Newspaper",
+    "source": "Grand Island Independent, The (NE)",
+    "corpus_document_id": "5043126770237178069",
+    "description": "KEARNEY Seven new cases of COVID-19 were reported in the Two Rivers Public Health Department by the Nebraska Department of Health and Human Services over the weekend. That included four cases as of 5:45 p.m. Sunday, with three of those in Dawson County, and one in Buffalo County. DHHS confirmed three new cases in Buffalo County at 5:45 p.m. Saturday evening.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#90",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#70#90",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#90#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#90",
+            "level": 1
+        }
+    ],
+    "text": "KEARNEY \u0096 Seven new cases of COVID-19 were reported in the Two Rivers Public\nHealth Department by the Nebraska Department of Health and Human Services over\nthe weekend.\n\nThat included four cases as of 5:45 p.m. Sunday, with three of those in Dawson\nCounty, and one in Buffalo County. DHHS confirmed three new cases in Buffalo\nCounty at 5:45 p.m. Saturday evening.\n\nThe DHHS figures show 1,045 total cases in the seven-county Two Rivers area as\nof Sunday evening, along with eight deaths in the region, but no deaths have\nbeen reported recently.\n\nTwo Rivers no longer releases numbers on weekends. Its next report will come\nMonday.\n\nAs of Sunday, totals for Two Rivers, by county, include:\n\n\\- Dawson \\- 838\n\n\\- Buffalo \\- 157\n\n\\- Phelps \\- 20\n\n\\- Kearney \\- 13\n\n\\- Gosper \\- 11\n\n\\- Franklin - 6\n\n\\- Harlan - 0\n\nTwo Rivers' Friday figures showed 851 cases in Dawson County. Discrepancies do\nsometimes occur, Two Rivers has said.\n\nStatewide, there have been 14,101 confirmed cases of COVID-19 in Nebraska, and\n170 deaths. No new statewide deaths were reported Sunday.\n\nFor more information, contact\n[dhhs.ne.gov/coronavirus](http://dhhs.ne.gov/coronavirus) or call 402-552-6645\nfrom 8 a.m. to 8 p.m. seven days a week.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Two Rivers Public Health Department",
+            "Nebraska Department of Health and Human Services"
+        ],
+        "location": [
+            "KEARNEY",
+            "Dawson County",
+            "Buffalo County",
+            "Dawson",
+            "Buffalo",
+            "Phelps",
+            "Kearney",
+            "Gosper",
+            "Nebraska"
+        ],
+        "person": [],
+        "companies": [
+            "Two Rivers Public Health Department",
+            "Nebraska Department of Health and Human Services"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ne.graand",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRSA4CF3F4BE3230DF3230C92C570A56F1.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Two Rivers",
+                "relevance": 0.888677,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Two Rivers Public",
+                "relevance": 0.458212,
+                "type": "Organization"
+            },
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Buffalo County",
+                "relevance": 0.429988,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Buffalo County, Nebraska",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Buffalo_County,_Nebraska"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "DHHS",
+                "relevance": 0.272899,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "United States Department of Health and Human Services",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States_Department_of_Health_and_Human_Services"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dawson",
+                "relevance": 0.267828,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Dawson, Nebraska",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Dawson,_Nebraska"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dawson County",
+                "relevance": 0.251505,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Dawson County, Nebraska",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Dawson_County,_Nebraska"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.461488,
+                    "label": "positive"
+                },
+                "text": "Buffalo",
+                "relevance": 0.224885,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.463189,
+                    "label": "positive"
+                },
+                "text": "Nebraska Department of Health and Human Services",
+                "relevance": 0.223026,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Nebraska Department of Health & Human Services",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Nebraska_Department_of_Health_&_Human_Services"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "KEARNEY",
+                "relevance": 0.197383,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.463189,
+                    "label": "positive"
+                },
+                "text": "Health Department",
+                "relevance": 0.173487,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Nebraska",
+                "relevance": 0.14506,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Phelps",
+                "relevance": 0.141093,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Harlan",
+                "relevance": 0.13967,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "seven days",
+                "relevance": 0.13967,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "KEARNEY \u0096 Seven new cases of COVID-19"
+                },
+                "sentence": "KEARNEY \u0096 Seven new cases of COVID-19 were reported in the Two Rivers Public",
+                "object": {
+                    "text": "reported in the Two Rivers Public"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "KEARNEY \u0096 Seven new cases of COVID-19"
+                },
+                "sentence": "KEARNEY \u0096 Seven new cases of COVID-19 were reported in the Two Rivers Public",
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "past"
+                    },
+                    "text": "were reported",
+                    "normalized": "be report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "DHHS"
+                },
+                "sentence": " DHHS confirmed three new cases in Buffalo",
+                "object": {
+                    "text": "three new cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "confirm",
+                        "tense": "past"
+                    },
+                    "text": "confirmed",
+                    "normalized": "confirm"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The DHHS figures"
+                },
+                "sentence": " The DHHS figures show 1,045 total cases in the seven-county Two Rivers area as",
+                "object": {
+                    "text": "1,045 total cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "show",
+                        "tense": "present"
+                    },
+                    "text": "show",
+                    "normalized": "show"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Two Rivers"
+                },
+                "sentence": " Two Rivers no longer releases numbers on weekends.",
+                "object": {
+                    "text": "numbers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "release",
+                        "tense": "present"
+                    },
+                    "text": "releases",
+                    "normalized": "release"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Two Rivers' Friday figures"
+                },
+                "sentence": " Two Rivers' Friday figures showed 851 cases in Dawson County.",
+                "object": {
+                    "text": "851 cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "show",
+                        "tense": "past"
+                    },
+                    "text": "showed",
+                    "normalized": "show"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Two Rivers"
+                },
+                "sentence": " sometimes occur, Two Rivers has said.",
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "has said",
+                    "normalized": "have say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "14,101"
+                },
+                "sentence": " Statewide, there have been 14,101 confirmed cases of COVID-19 in Nebraska, and",
+                "object": {
+                    "text": "cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "confirm",
+                        "tense": "past"
+                    },
+                    "text": "confirmed",
+                    "normalized": "confirm"
+                }
+            },
+            {
+                "subject": {
+                    "text": "No new statewide deaths"
+                },
+                "sentence": " No new statewide deaths were reported Sunday.",
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "past"
+                    },
+                    "text": "were reported",
+                    "normalized": "be report"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.822743,
+                "label": "/news"
+            },
+            {
+                "score": 0.755021,
+                "label": "/science/weather"
+            },
+            {
+                "score": 0.727972,
+                "label": "/health and fitness/disease/cold and flu"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "KEARNEY \u0096 Seven new cases of COVID-19 were reported in the Two Rivers Public Health Department by the Nebraska Department of Health and Human Services over the weekend.",
+                "score": 0.496644,
+                "arguments": [
+                    {
+                        "text": "COVID-19",
+                        "location": [
+                            29,
+                            37
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "COVID-19"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            43,
+                            51
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "KEARNEY \u0096 Seven new cases of COVID-19 were reported in the Two Rivers Public Health Department by the Nebraska Department of Health and Human Services over the weekend.",
+                "score": 0.550825,
+                "arguments": [
+                    {
+                        "text": "Public\nHealth Department",
+                        "location": [
+                            70,
+                            94
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Public\nHealth Department"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            43,
+                            51
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "KEARNEY \u0096 Seven new cases of COVID-19 were reported in the Two Rivers Public Health Department by the Nebraska Department of Health and Human Services over the weekend.",
+                "score": 0.642896,
+                "arguments": [
+                    {
+                        "text": "Nebraska Department of Health and Human Services",
+                        "location": [
+                            102,
+                            150
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Nebraska Department of Health and Human Services"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Public\nHealth Department",
+                        "location": [
+                            70,
+                            94
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Public\nHealth Department"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "That included four cases as of 5:45 p.m. Sunday, with three of those in Dawson County, and one in Buffalo County.",
+                "score": 0.50259,
+                "arguments": [
+                    {
+                        "text": "Dawson\nCounty",
+                        "location": [
+                            242,
+                            255
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Dawson\nCounty"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Buffalo County",
+                        "location": [
+                            268,
+                            282
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Buffalo County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The DHHS figures show 1,045 total cases in the seven-county Two Rivers area as of Sunday evening, along with eight deaths in the region, but no deaths have been reported recently.",
+                "score": 0.735575,
+                "arguments": [
+                    {
+                        "text": "area",
+                        "location": [
+                            436,
+                            440
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "area"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rivers",
+                        "location": [
+                            429,
+                            435
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeographicFeature",
+                                "text": "Rivers"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "\\- Buffalo \\- 157",
+                "score": 0.500879,
+                "arguments": [
+                    {
+                        "text": "157",
+                        "location": [
+                            722,
+                            725
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "157"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Buffalo",
+                        "location": [
+                            711,
+                            718
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Buffalo County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "No new statewide deaths were reported Sunday.",
+                "score": 0.993492,
+                "arguments": [
+                    {
+                        "text": "Sunday",
+                        "location": [
+                            1058,
+                            1064
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Sunday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            1049,
+                            1057
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "new cases of COVID-19",
+                "relevance": 0.860516,
+                "count": 1
+            },
+            {
+                "text": "Rivers area",
+                "relevance": 0.822293,
+                "count": 1
+            },
+            {
+                "text": "Nebraska Department of Health",
+                "relevance": 0.788922,
+                "count": 1
+            },
+            {
+                "text": "new statewide deaths",
+                "relevance": 0.687898,
+                "count": 1
+            },
+            {
+                "text": "DHHS figures",
+                "relevance": 0.682454,
+                "count": 1
+            },
+            {
+                "text": "Buffalo County",
+                "relevance": 0.639375,
+                "count": 1
+            },
+            {
+                "text": "new cases",
+                "relevance": 0.637873,
+                "count": 1
+            },
+            {
+                "text": "Sunday evening",
+                "relevance": 0.63583,
+                "count": 1
+            },
+            {
+                "text": "Saturday evening",
+                "relevance": 0.631157,
+                "count": 1
+            },
+            {
+                "text": "Rivers' Friday figures",
+                "relevance": 0.626189,
+                "count": 1
+            },
+            {
+                "text": "total cases",
+                "relevance": 0.608225,
+                "count": 1
+            },
+            {
+                "text": "seven-county",
+                "relevance": 0.601822,
+                "count": 1
+            },
+            {
+                "text": "KEARNEY",
+                "relevance": 0.579218,
+                "count": 2
+            },
+            {
+                "text": "Human Services",
+                "relevance": 0.572284,
+                "count": 1
+            },
+            {
+                "text": "next report",
+                "relevance": 0.566494,
+                "count": 1
+            },
+            {
+                "text": "Rivers",
+                "relevance": 0.54829,
+                "count": 3
+            },
+            {
+                "text": "deaths",
+                "relevance": 0.531013,
+                "count": 3
+            },
+            {
+                "text": "cases",
+                "relevance": 0.530874,
+                "count": 2
+            },
+            {
+                "text": "totals",
+                "relevance": 0.519901,
+                "count": 1
+            },
+            {
+                "text": "Nebraska",
+                "relevance": 0.518559,
+                "count": 1
+            },
+            {
+                "text": "Discrepancies",
+                "relevance": 0.51713,
+                "count": 1
+            },
+            {
+                "text": "county",
+                "relevance": 0.515921,
+                "count": 1
+            },
+            {
+                "text": "region",
+                "relevance": 0.514527,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.513197,
+                "count": 1
+            },
+            {
+                "text": "days",
+                "relevance": 0.513197,
+                "count": 1
+            },
+            {
+                "text": "Dawson",
+                "relevance": 0.512385,
+                "count": 1
+            },
+            {
+                "text": "numbers",
+                "relevance": 0.511886,
+                "count": 1
+            },
+            {
+                "text": "week",
+                "relevance": 0.509262,
+                "count": 1
+            },
+            {
+                "text": "Franklin",
+                "relevance": 0.509262,
+                "count": 1
+            },
+            {
+                "text": "weekend",
+                "relevance": 0.509262,
+                "count": 1
+            },
+            {
+                "text": "contact",
+                "relevance": 0.509262,
+                "count": 1
+            },
+            {
+                "text": "Harlan",
+                "relevance": 0.509262,
+                "count": 1
+            },
+            {
+                "text": "Phelps",
+                "relevance": 0.509262,
+                "count": 1
+            },
+            {
+                "text": "Buffalo",
+                "relevance": 0.506193,
+                "count": 1
+            },
+            {
+                "text": "weekends",
+                "relevance": 0.504631,
+                "count": 1
+            },
+            {
+                "text": "cases of COVID-19",
+                "relevance": 0.48161,
+                "count": 1
+            },
+            {
+                "text": "DHHS",
+                "relevance": 0.473785,
+                "count": 1
+            },
+            {
+                "text": "Dawson County",
+                "relevance": 0.463712,
+                "count": 1
+            },
+            {
+                "text": "Sunday",
+                "relevance": 0.447792,
+                "count": 3
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.414363,
+                "count": 1
+            },
+            {
+                "text": "call",
+                "relevance": 0.406741,
+                "count": 1
+            },
+            {
+                "text": "Gosper",
+                "relevance": 0.406741,
+                "count": 1
+            },
+            {
+                "text": "Monday",
+                "relevance": 0.406741,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "cb252edc1559a8347072e71a859879459f9b2c52",
+        "filename": "202006010000NEWSBANKNEWSPPRSA4CF3F4BE3230DF3230C92C570A56F1.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Nebraska Department of Health & Human Services|extractor|DUNS:808819957;NECOID:521150346;ACORN:0510150346;UDUNS:007496631;UACORN:3648204862|MENTION||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Four more local COVID-19 cases reported Sunday by DHHS",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.ne.keaney\">KEARNEY</location> &#150; Seven new cases of COVID-19 were reported in the <org>Two Rivers Public Health Department</org> by the <org idsrc=\"xmltag.org\" value=\"ACORN:0510150346\">Nebraska Department of Health and Human Services</org> over the weekend.</p>\n<p>That included four cases as of <chron>5:45 p.m. Sunday</chron>, with three of those in <location idsrc=\"xmltag.org\" value=\"LU/us.ne.dawson\">Dawson County</location>, and one in <location idsrc=\"xmltag.org\" value=\"LU/us.ne.buffal\">Buffalo County</location>. DHHS confirmed three new cases in <location idsrc=\"xmltag.org\" value=\"LU/us.ne.buffal\">Buffalo County</location> at <chron>5:45 p.m. Saturday evening</chron>.</p>\n\n<p>The DHHS figures show 1,045 total cases in the seven-county Two Rivers area as of Sunday evening, along with eight deaths in the region, but no deaths have been reported recently.</p>\n\n<p>Two Rivers no longer releases numbers on weekends. Its next report will come Monday.</p>\n\n<p>As of Sunday, totals for Two Rivers, by county, include:</p>\n\n<p>- <location idsrc=\"xmltag.org\" value=\"LU/us.ne.dawson\">Dawson</location> - 838</p>\n\n<p>- <location idsrc=\"xmltag.org\" value=\"LU/us.ne.buffal\">Buffalo</location> - 157</p>\n\n<p>- <location idsrc=\"xmltag.org\" value=\"LU/us.ne.phelps\">Phelps</location> - 20</p>\n\n<p>- <location idsrc=\"xmltag.org\" value=\"LU/us.ne.keaney\">Kearney</location> - 13</p>\n\n<p>- <location idsrc=\"xmltag.org\" value=\"LU/us.ne.gosper\">Gosper</location> - 11</p>\n\n<p>- Franklin - 6</p>\n\n<p>- Harlan - 0</p>\n\n<p>Two Rivers' Friday figures showed 851 cases in <location idsrc=\"xmltag.org\" value=\"LU/us.ne.dawson\">Dawson County</location>. Discrepancies do sometimes occur, Two Rivers has said.</p>\n\n<p>Statewide, there have been 14,101 confirmed cases of COVID-19 in <location idsrc=\"xmltag.org\" value=\"LS/us.ne\">Nebraska</location>, and 170 deaths. No new statewide deaths were reported Sunday.</p>\n\n<p>For more information, contact <a href=\"http://dhhs.ne.gov/coronavirus\">dhhs.ne.gov/coronavirus</a> or call 402-552-6645 from <chron>8 a.m. to 8 p.m.</chron> seven days a week.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ne.graand",
+            "Grand Island"
+        ]
+    ]
+}

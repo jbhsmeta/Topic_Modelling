@@ -1,0 +1,409 @@
+{
+    "id": "211d8fff-9118-4248-89c7-38e3bfe1273f",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 The Journal Gazette",
+    "geoOrigin": "Fort Wayne, Indiana",
+    "sourceType": "Newspaper",
+    "source": "Journal Gazette (Fort Wayne, IN)",
+    "corpus_document_id": "84219041596137352846",
+    "description": "Clayton Harris, son of Jason and Jennifer Harris. Austin Agler, son of Ryan and Andrea Agler. Plans to attend Indiana University to study biochemistry and physics.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Science and Technology",
+            "code": "IS/appsci#9#50#95",
+            "level": 0
+        },
+        {
+            "parent": "IS/appsci",
+            "relevance_score": "9",
+            "description": "Scientific Research",
+            "code": "IS/appsci.research#9#95#50",
+            "level": 1
+        }
+    ],
+    "text": "Valedictorian\n\nClayton Harris, son of Jason and Jennifer Harris. Plans to attend Wright State\nLake Campus to study crime and justice studies.\n\nSalutatorian\n\nAustin Agler, son of Ryan and Andrea Agler. Plans to attend Indiana University\nto study biochemistry and physics.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Indiana  University"
+        ],
+        "location": [
+            "Lake Campus"
+        ],
+        "person": [
+            "Clayton Harris",
+            "Jennifer Harris",
+            "Austin Agler",
+            "Andrea Agler"
+        ],
+        "companies": [
+            "Indiana  University"
+        ]
+    },
+    "geoOrigin_code": "RU/us.in.ftwyne",
+    "language": "English",
+    "filename": "202006070000NEWSBANKNEWSPPRS30D0D09C2D724504B1BC03214A1CD72.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.652144,
+                    "label": "positive"
+                },
+                "text": "Clayton Harris",
+                "relevance": 0.933591,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.682909,
+                    "label": "positive"
+                },
+                "text": "Jennifer Harris",
+                "relevance": 0.895579,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "BasketballPlayer"
+                    ],
+                    "name": "Jennifer Harris",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Jennifer_Harris"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Lake Campus",
+                "relevance": 0.571037,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Andrea Agler",
+                "relevance": 0.520898,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Indiana University",
+                "relevance": 0.508708,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "Company",
+                        "AcademicInstitution",
+                        "PeriodicalPublisher",
+                        "CollegeUniversity",
+                        "University"
+                    ],
+                    "name": "Indiana University",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Indiana_University"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Austin Agler",
+                "relevance": 0.499213,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.682909,
+                    "label": "positive"
+                },
+                "text": "Jason",
+                "relevance": 0.419176,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ryan",
+                "relevance": 0.37456,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Plans"
+                },
+                "sentence": " Plans to attend Wright State",
+                "object": {
+                    "text": "Wright State"
+                },
+                "action": {
+                    "verb": {
+                        "text": "attend",
+                        "tense": "future"
+                    },
+                    "text": "to attend",
+                    "normalized": "to attend"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Lake Campus"
+                },
+                "sentence": " Lake Campus to study crime and justice studies.",
+                "object": {
+                    "text": "crime and justice studies"
+                },
+                "action": {
+                    "verb": {
+                        "text": "study",
+                        "tense": "future"
+                    },
+                    "text": "to study",
+                    "normalized": "to study"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.865281,
+                "label": "/education/homework and study tips"
+            },
+            {
+                "score": 0.829061,
+                "label": "/science/physics"
+            },
+            {
+                "score": 0.714868,
+                "label": "/society/crime"
+            }
+        ],
+        "relations": [
+            {
+                "type": "parentOf",
+                "sentence": "Clayton Harris, son of Jason and Jennifer Harris.",
+                "score": 0.640504,
+                "arguments": [
+                    {
+                        "text": "Jason",
+                        "location": [
+                            38,
+                            43
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jason"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "son",
+                        "location": [
+                            31,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Clayton Harris"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "parentOf",
+                "sentence": "Clayton Harris, son of Jason and Jennifer Harris.",
+                "score": 0.522229,
+                "arguments": [
+                    {
+                        "text": "son",
+                        "location": [
+                            31,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Clayton Harris"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jennifer Harris",
+                        "location": [
+                            48,
+                            63
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jennifer Harris"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "parentOf",
+                "sentence": "Austin Agler, son of Ryan and Andrea Agler.",
+                "score": 0.651793,
+                "arguments": [
+                    {
+                        "text": "Ryan",
+                        "location": [
+                            178,
+                            182
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Ryan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "son",
+                        "location": [
+                            171,
+                            174
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Austin Agler"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "parentOf",
+                "sentence": "Austin Agler, son of Ryan and Andrea Agler.",
+                "score": 0.530288,
+                "arguments": [
+                    {
+                        "text": "son",
+                        "location": [
+                            171,
+                            174
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Austin Agler"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Andrea Agler",
+                        "location": [
+                            187,
+                            199
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Andrea Agler"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "justice studies",
+                "relevance": 0.765181,
+                "count": 1
+            },
+            {
+                "text": "son of Jason",
+                "relevance": 0.751504,
+                "count": 1
+            },
+            {
+                "text": "Indiana University",
+                "relevance": 0.705827,
+                "count": 1
+            },
+            {
+                "text": "Andrea Agler",
+                "relevance": 0.677143,
+                "count": 1
+            },
+            {
+                "text": "Jennifer Harris",
+                "relevance": 0.677143,
+                "count": 1
+            },
+            {
+                "text": "Plans",
+                "relevance": 0.629238,
+                "count": 2
+            },
+            {
+                "text": "son of Ryan",
+                "relevance": 0.56441,
+                "count": 1
+            },
+            {
+                "text": "crime",
+                "relevance": 0.551351,
+                "count": 1
+            },
+            {
+                "text": "biochemistry",
+                "relevance": 0.538254,
+                "count": 1
+            },
+            {
+                "text": "physics",
+                "relevance": 0.526871,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "68bb433b7b0833b856ae357388c14f48ed4b5be6",
+        "filename": "202006070000NEWSBANKNEWSPPRS30D0D09C2D724504B1BC03214A1CD72.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Indiana University|extractor|DUNS:006046700;NECOID:5235412;ACORN:0843346334|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-07T00:00:00-04:00",
+    "title": "Lincolnview",
+    "html": "<p>Valedictorian</p>\n<p><person>Clayton Harris</person>, son of Jason and <person>Jennifer Harris</person>. Plans to attend  Wright State <location>Lake Campus</location> to study crime and justice studies.</p>\n\n<p>Salutatorian</p>\n\n<p><person>Austin Agler</person>, son of Ryan and <person>Andrea Agler</person>. Plans to attend <org idsrc=\"xmltag.org\" value=\"ACORN:0843346334\">Indiana  University</org> to study biochemistry and physics.</p>",
+    "geoFocus": [
+        [
+            "GU/us.in.ftwyne",
+            "Fort Wayne"
+        ]
+    ]
+}

@@ -1,0 +1,532 @@
+{
+    "id": "b921e4a4-c985-4f9a-a7c0-7b585ae7b1ff",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 1998-2020 WKRG, Nexstar Broadcasting, Inc. All rights reserved.",
+    "geoOrigin": "Mobile, Alabama",
+    "sourceType": "Broadcast Transcript",
+    "source": "CBS - 5 WKRG (Mobile, AL)",
+    "corpus_document_id": "97153726153311233858",
+    "description": "Senator Doug Jones will discuss the recent demonstrations across the state and the country as well as share updates about COVID-19 in Alabama. According to the Alabama Department of Public Health, there are 18,766 confirmed cases and 651 coronavirus-related deaths in the state. For more information regarding the COVID-19 in Alabama visit.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#94#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "Senator Doug Jones (D-Ala.) will discuss the recent demonstrations across the\nstate and the country as well as share updates about COVID-19 in Alabama.\n\nAccording to the Alabama Department of Public Health, there are 18,766\nconfirmed cases and 651 coronavirus-related deaths in the state. Health\nofficials say that 1,929 are being treated in hospitals around the state for\nthe virus. So far 11,395 people have recovered and 234,993 have been tested.\n\nFor more information regarding the COVID-19 in Alabama visit.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Alabama Department of Public Health"
+        ],
+        "location": [
+            "Alabama"
+        ],
+        "person": [
+            "Doug Jones"
+        ],
+        "companies": [
+            "Alabama Department of Public Health"
+        ]
+    },
+    "geoOrigin_code": "RU/us.al.mobile",
+    "language": "English",
+    "filename": "202006040000NEWSBANKNEWSPPRSD82C20B1AE698CCDD48A5CBBAA08D74.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alabama Department of Public Health",
+                "relevance": 0.945802,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentAgency"
+                    ],
+                    "name": "Alabama Department of Public Health",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Alabama_Department_of_Public_Health"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alabama",
+                "relevance": 0.89975,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.427052,
+                    "label": "positive"
+                },
+                "text": "Senator Doug Jones",
+                "relevance": 0.716502,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Senator Doug Jones (D-Ala.)"
+                },
+                "sentence": "Senator Doug Jones (D-Ala.) will discuss the recent demonstrations across the",
+                "object": {
+                    "text": "the recent demonstrations across the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "discuss",
+                        "tense": "future"
+                    },
+                    "text": "will discuss",
+                    "normalized": "will discuss"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cases and 651 coronavirus-related deaths"
+                },
+                "sentence": " confirmed cases and 651 coronavirus-related deaths in the state.",
+                "action": {
+                    "verb": {
+                        "text": "confirm",
+                        "tense": "past"
+                    },
+                    "text": "confirmed",
+                    "normalized": "confirm"
+                }
+            },
+            {
+                "subject": {
+                    "text": "officials"
+                },
+                "sentence": " officials say that 1,929 are being treated in hospitals around the state for",
+                "object": {
+                    "text": "that 1,929 are being treated in hospitals around the state for"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "say",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "11,395 people"
+                },
+                "sentence": " So far 11,395 people have recovered and 234,993 have been tested.",
+                "object": {
+                    "text": "recovered"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "11,395 people"
+                },
+                "sentence": " So far 11,395 people have recovered and 234,993 have been tested.",
+                "action": {
+                    "verb": {
+                        "text": "recover",
+                        "tense": "past"
+                    },
+                    "text": "have recovered",
+                    "normalized": "have recover"
+                }
+            },
+            {
+                "subject": {
+                    "text": "234,993"
+                },
+                "sentence": " So far 11,395 people have recovered and 234,993 have been tested.",
+                "object": {
+                    "text": "tested"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "more information"
+                },
+                "sentence": " For more information regarding the COVID-19 in Alabama visit.",
+                "object": {
+                    "text": "the COVID-19 in Alabama visit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "regard",
+                        "tense": "present"
+                    },
+                    "text": "regarding",
+                    "normalized": "regard"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.909434,
+                "label": "/health and fitness/men's health"
+            },
+            {
+                "score": 0.852062,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.808916,
+                "label": "/health and fitness/disease/epidemic"
+            }
+        ],
+        "relations": [
+            {
+                "type": "participantIn",
+                "sentence": "Senator Doug Jones (D-Ala.) will discuss the recent demonstrations across the state and the country as well as share updates about COVID-19 in Alabama.",
+                "score": 0.883759,
+                "arguments": [
+                    {
+                        "text": "Doug Jones",
+                        "location": [
+                            8,
+                            18
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Doug Jones"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "discuss",
+                        "location": [
+                            33,
+                            40
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "discuss"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Senator Doug Jones (D-Ala.) will discuss the recent demonstrations across the state and the country as well as share updates about COVID-19 in Alabama.",
+                "score": 0.218171,
+                "arguments": [
+                    {
+                        "text": "state",
+                        "location": [
+                            78,
+                            83
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Department of Public Health"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "demonstrations",
+                        "location": [
+                            52,
+                            66
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventDemonstration",
+                                "text": "demonstrations"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "According to the Alabama Department of Public Health, there are 18,766 confirmed cases and 651 coronavirus-related deaths in the state.",
+                "score": 0.995875,
+                "arguments": [
+                    {
+                        "text": "Department of Public Health",
+                        "location": [
+                            178,
+                            205
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Department of Public Health"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Alabama",
+                        "location": [
+                            170,
+                            177
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alabama"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Health officials say that 1,929 are being treated in hospitals around the state for the virus.",
+                "score": 0.992675,
+                "arguments": [
+                    {
+                        "text": "Health\nofficials",
+                        "location": [
+                            289,
+                            305
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Health\nofficials"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            306,
+                            309
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Health officials say that 1,929 are being treated in hospitals around the state for the virus.",
+                "score": 0.534934,
+                "arguments": [
+                    {
+                        "text": "hospitals",
+                        "location": [
+                            342,
+                            351
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospitals"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "state",
+                        "location": [
+                            363,
+                            368
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alabama"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Senator Doug Jones",
+                "relevance": 0.785287,
+                "count": 1
+            },
+            {
+                "text": "coronavirus-related deaths",
+                "relevance": 0.669353,
+                "count": 1
+            },
+            {
+                "text": "Alabama Department of Public Health",
+                "relevance": 0.645736,
+                "count": 1
+            },
+            {
+                "text": "share updates",
+                "relevance": 0.590494,
+                "count": 1
+            },
+            {
+                "text": "state",
+                "relevance": 0.587842,
+                "count": 3
+            },
+            {
+                "text": "cases",
+                "relevance": 0.561944,
+                "count": 1
+            },
+            {
+                "text": "Alabama",
+                "relevance": 0.553893,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.550568,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.549007,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.545063,
+                "count": 1
+            },
+            {
+                "text": "recent demonstrations",
+                "relevance": 0.528096,
+                "count": 1
+            },
+            {
+                "text": "hospitals",
+                "relevance": 0.528051,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.518641,
+                "count": 1
+            },
+            {
+                "text": "D-Ala",
+                "relevance": 0.512345,
+                "count": 1
+            },
+            {
+                "text": "Alabama visit",
+                "relevance": 0.495509,
+                "count": 1
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.399992,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "a4a06b294e8a8c326a8be267ea15ffb733ea2a30",
+        "filename": "202006040000NEWSBANKNEWSPPRSD82C20B1AE698CCDD48A5CBBAA08D74.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Alabama Department of Public Health|extractor|DUNS:613842061;NECOID:1780436459;ACORN:1769436459;UDUNS:004027553;UACORN:0225500962|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-04T00:00:00-04:00",
+    "title": "WATCH: Sen. Doug Jones to speak about demonstrations across the state, COVID-19 updates",
+    "html": "<p>Senator <person>Doug Jones</person> (D-Ala.) will discuss the recent demonstrations across the state and the country as well as share updates about COVID-19 in <location idsrc=\"xmltag.org\" value=\"LS/us.al\">Alabama</location>.</p>\n<p>According to the <org idsrc=\"xmltag.org\" value=\"ACORN:1769436459\">Alabama Department of Public Health</org>, there are 18,766 confirmed cases and 651 coronavirus-related deaths in the state. Health officials say that 1,929 are being treated in hospitals around the state for the virus. So far 11,395 people have recovered and 234,993 have been tested.</p>\n\n<p>For more information regarding the COVID-19 in <location idsrc=\"xmltag.org\" value=\"LS/us.al\">Alabama</location> visit.</p>",
+    "geoFocus": [
+        [
+            "GU/us.al.mobile",
+            "Mobile"
+        ]
+    ]
+}

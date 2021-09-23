@@ -1,0 +1,275 @@
+{
+    "id": "3dc4ea50-2c67-4670-8f20-97d04093ca0b",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 1998-2020 WJHL, Nexstar Broadcasting, Inc. All rights reserved.",
+    "geoOrigin": "Johnson City, Tennessee",
+    "sourceType": "Broadcast Transcript",
+    "source": "CBS - 11 WJHL (Johnson City, TN)",
+    "corpus_document_id": "14110201106378119586",
+    "description": "The Storm Team 11 Forecast calls for passing clouds overnight with a low near 52 degrees. Tuesday will be partly cloudy and warm with a slight chance of a mountain shower or stray thunderstorm. Partly cloudy skies are forecast for Tuesday night with a low near 62 degrees,.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Weather",
+            "code": "IS/lifesoc.weather#9#99#66",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.weather",
+            "relevance_score": "6",
+            "description": "Storms",
+            "code": "IS/lifesoc.storm#6#66#50",
+            "level": 2
+        }
+    ],
+    "text": "The Storm Team 11 Forecast calls for passing clouds overnight with a low near\n52 degrees.\n\nTuesday will be partly cloudy and warm with a slight chance of a mountain\nshower or stray thunderstorm. High 84.\n\nPartly cloudy skies are forecast for Tuesday night with a low near 62 degrees,\n\nLook for a mix of sun and clouds Wednesday with a 30% chance of a few\nscattered showers and thunderstorms. High 86.\n\nRain chances will increase Thursday through Friday with high temperatures in\nthe middle 80's.\n\nHave a great night!",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.tn.johity",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS8A3ECBC7D6906D516D27F69347159AD.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.777267,
+                    "label": "negative"
+                },
+                "text": "Storm Team",
+                "relevance": 0.781727,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "52 degrees",
+                "relevance": 0.781727,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "62 degrees",
+                "relevance": 0.781727,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "30%",
+                "relevance": 0.781727,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The Storm Team 11 Forecast"
+                },
+                "sentence": "The Storm Team 11 Forecast calls for passing clouds overnight with a low near",
+                "object": {
+                    "text": "for passing clouds overnight with a low near"
+                },
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "present"
+                    },
+                    "text": "calls",
+                    "normalized": "call"
+                }
+            },
+            {
+                "subject": {
+                    "text": "for a mix of sun and clouds"
+                },
+                "sentence": " Look for a mix of sun and clouds Wednesday with a 30% chance of a few",
+                "action": {
+                    "verb": {
+                        "text": "Look",
+                        "tense": "present"
+                    },
+                    "text": "Look",
+                    "normalized": "Look"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Rain chances"
+                },
+                "sentence": " Rain chances will increase Thursday through Friday with high temperatures in",
+                "action": {
+                    "verb": {
+                        "text": "increase",
+                        "tense": "future"
+                    },
+                    "text": "will increase",
+                    "normalized": "will increase"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.983298,
+                "label": "/science/weather"
+            },
+            {
+                "score": 0.964476,
+                "label": "/science/weather/meteorological disaster/hurricane"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "cloudy skies",
+                "relevance": 0.99141,
+                "count": 1
+            },
+            {
+                "text": "Tuesday night",
+                "relevance": 0.906308,
+                "count": 1
+            },
+            {
+                "text": "Forecast calls",
+                "relevance": 0.776134,
+                "count": 1
+            },
+            {
+                "text": "Storm Team",
+                "relevance": 0.768187,
+                "count": 1
+            },
+            {
+                "text": "high temperatures",
+                "relevance": 0.602713,
+                "count": 1
+            },
+            {
+                "text": "great night",
+                "relevance": 0.592277,
+                "count": 1
+            },
+            {
+                "text": "slight chance",
+                "relevance": 0.534552,
+                "count": 1
+            },
+            {
+                "text": "showers",
+                "relevance": 0.532514,
+                "count": 1
+            },
+            {
+                "text": "clouds",
+                "relevance": 0.529556,
+                "count": 1
+            },
+            {
+                "text": "chance",
+                "relevance": 0.523004,
+                "count": 1
+            },
+            {
+                "text": "mix of sun",
+                "relevance": 0.51821,
+                "count": 1
+            },
+            {
+                "text": "degrees",
+                "relevance": 0.513256,
+                "count": 2
+            },
+            {
+                "text": "Tuesday",
+                "relevance": 0.506799,
+                "count": 1
+            },
+            {
+                "text": "thunderstorms",
+                "relevance": 0.506629,
+                "count": 1
+            },
+            {
+                "text": "Rain chances",
+                "relevance": 0.50324,
+                "count": 1
+            },
+            {
+                "text": "middle 80's",
+                "relevance": 0.422805,
+                "count": 1
+            },
+            {
+                "text": "clouds Wednesday",
+                "relevance": 0.409864,
+                "count": 1
+            },
+            {
+                "text": "low near",
+                "relevance": 0.399561,
+                "count": 1
+            },
+            {
+                "text": "stray thunderstorm",
+                "relevance": 0.388846,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.315527,
+                "count": 1
+            },
+            {
+                "text": "Friday",
+                "relevance": 0.31196,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "850fa4753d662d9a57634941e58cd4c07bd3ded3",
+        "filename": "202006010000NEWSBANKNEWSPPRS8A3ECBC7D6906D516D27F69347159AD.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Storm Team 11 Forecast: Passing clouds and mild overnight, warm temperatures Tuesday",
+    "html": "<p>The Storm Team 11 Forecast calls for passing clouds overnight with a low near 52 degrees.</p>\n<p>Tuesday will be partly cloudy and warm with a slight chance of a mountain shower or stray thunderstorm. High 84.</p>\n\n<p>Partly cloudy skies are forecast for Tuesday night with a low near 62 degrees,</p>\n\n<p>Look for a mix of sun and clouds Wednesday with a 30% chance of a few scattered showers and thunderstorms. High 86.</p>\n\n<p>Rain chances will increase Thursday through Friday with high temperatures in the middle 80's.</p>\n\n<p>Have a great night!</p>",
+    "geoFocus": [
+        [
+            "GU/us.tn.johity",
+            "Johnson City"
+        ]
+    ]
+}

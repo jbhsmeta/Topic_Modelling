@@ -1,0 +1,436 @@
+{
+    "id": "1e0f5ead-e96a-479e-a94e-e9227d3cc563",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright Telegraph Herald Jun 5, 2020",
+    "geoOrigin": "Dubuque, Iowa",
+    "sourceType": "Newspaper",
+    "source": "Telegraph-Herald (Dubuque, IA)",
+    "corpus_document_id": "96041940522172418747",
+    "description": "JESSICA REILLY Telegraph Herald file. Items are displayed at 1090 Colleen Court in Platteville, Wis., during a garage sale on May 11, 2019. Platteville has canceled its citywide garage sale this year, but some area communities will hold theirs.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "JESSICA REILLY Telegraph Herald file\n\nItems are displayed at 1090 Colleen Court in Platteville, Wis., during a\ngarage sale on May 11, 2019. Platteville has canceled its citywide garage sale\nthis year, but some area communities will hold theirs.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "REILLY",
+            "1090 Colleen Court",
+            "Platteville, Wis.",
+            "Platteville"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ia.dubque",
+    "language": "English",
+    "filename": "202006050000PROQUESTNEWPAPER_2409766228.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.757551,
+                    "label": "negative"
+                },
+                "text": "Platteville",
+                "relevance": 0.931984,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.613717,
+                    "label": "positive"
+                },
+                "text": "Telegraph Herald",
+                "relevance": 0.658961,
+                "type": "PrintMedia",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Telegraph Herald",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Telegraph_Herald"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.613717,
+                    "label": "positive"
+                },
+                "text": "JESSICA REILLY",
+                "relevance": 0.635958,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Colleen Court",
+                "relevance": 0.555761,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Wis.",
+                "relevance": 0.20381,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Wisconsin",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Wisconsin"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Items"
+                },
+                "sentence": " Items are displayed at 1090 Colleen Court in Platteville, Wis., during a",
+                "object": {
+                    "text": "at 1090 Colleen Court in Platteville, Wis.,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "display",
+                        "tense": "past"
+                    },
+                    "text": "are displayed",
+                    "normalized": "be display"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Platteville"
+                },
+                "sentence": " Platteville has canceled its citywide garage sale",
+                "object": {
+                    "text": "canceled its citywide garage sale"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Platteville"
+                },
+                "sentence": " Platteville has canceled its citywide garage sale",
+                "object": {
+                    "text": "its citywide garage sale"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cancel",
+                        "tense": "past"
+                    },
+                    "text": "has canceled",
+                    "normalized": "have cancel"
+                }
+            },
+            {
+                "subject": {
+                    "text": "some area communities"
+                },
+                "sentence": " this year, but some area communities will hold theirs.",
+                "object": {
+                    "text": "theirs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hold",
+                        "tense": "future"
+                    },
+                    "text": "will hold",
+                    "normalized": "will hold"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.606333,
+                "label": "/real estate/buying and selling homes"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Items are displayed at 1090 Colleen Court in Platteville, Wis., during a garage sale on May 11, 2019.",
+                "score": 0.923408,
+                "arguments": [
+                    {
+                        "text": "Colleen Court",
+                        "location": [
+                            66,
+                            79
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Colleen Court"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Platteville",
+                        "location": [
+                            83,
+                            94
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Platteville"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Items are displayed at 1090 Colleen Court in Platteville, Wis., during a garage sale on May 11, 2019.",
+                "score": 0.974995,
+                "arguments": [
+                    {
+                        "text": "Platteville",
+                        "location": [
+                            83,
+                            94
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Platteville"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Wis.",
+                        "location": [
+                            96,
+                            100
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Wis."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Platteville has canceled its citywide garage sale this year, but some area communities will hold theirs.",
+                "score": 0.828636,
+                "arguments": [
+                    {
+                        "text": "garage",
+                        "location": [
+                            178,
+                            184
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "garage"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Platteville",
+                        "location": [
+                            140,
+                            151
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Platteville"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Platteville has canceled its citywide garage sale this year, but some area communities will hold theirs.",
+                "score": 0.331345,
+                "arguments": [
+                    {
+                        "text": "sale",
+                        "location": [
+                            185,
+                            189
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventBusiness",
+                                "text": "sale"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "garage",
+                        "location": [
+                            178,
+                            184
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "garage"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Platteville has canceled its citywide garage sale this year, but some area communities will hold theirs.",
+                "score": 0.909093,
+                "arguments": [
+                    {
+                        "text": "this year",
+                        "location": [
+                            190,
+                            199
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "this year"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "sale",
+                        "location": [
+                            185,
+                            189
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventBusiness",
+                                "text": "sale"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Colleen Court",
+                "relevance": 0.785082,
+                "count": 1
+            },
+            {
+                "text": "garage sale",
+                "relevance": 0.623442,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.602401,
+                "count": 1
+            },
+            {
+                "text": "area communities",
+                "relevance": 0.601808,
+                "count": 1
+            },
+            {
+                "text": "citywide garage sale",
+                "relevance": 0.588564,
+                "count": 1
+            },
+            {
+                "text": "Wis",
+                "relevance": 0.530663,
+                "count": 1
+            },
+            {
+                "text": "Platteville",
+                "relevance": 0.412075,
+                "count": 2
+            },
+            {
+                "text": "May",
+                "relevance": 0.302376,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "96ae55130f8162b98cea8d96d62b848e799f1583",
+        "filename": "202006050000PROQUESTNEWPAPER_2409766228.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "05112019 GarageSale4 jr",
+    "html": "<p>JESSICA <location idsrc=\"xmltag.org\" value=\"LU/us.pa.reilly\">REILLY</location>  Telegraph Herald file</p>\n<p>Items are displayed at <location>1090 Colleen Court</location> in <location idsrc=\"xmltag.org\" value=\"LU/us.wi.plalle\">Platteville, Wis.</location>, during a garage sale on <chron>May 11, 2019</chron>. <location idsrc=\"xmltag.org\" value=\"LU/us.wi.plalle\">Platteville</location> has canceled its citywide garage sale this year, but some area communities will hold theirs.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ia.dubque",
+            "Dubuque"
+        ]
+    ]
+}

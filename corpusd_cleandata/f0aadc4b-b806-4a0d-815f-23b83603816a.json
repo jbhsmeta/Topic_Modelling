@@ -1,0 +1,1277 @@
+{
+    "id": "f0aadc4b-b806-4a0d-815f-23b83603816a",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 The Vicksburg Post, Boone Newspapers Inc., All rights reserved.",
+    "geoOrigin": "Northport, Alabama",
+    "sourceType": "Newspaper",
+    "source": "Vicksburg Post, The (MS)",
+    "corpus_document_id": "97470331525046868677",
+    "description": "A juvenile curfew for the city of Vicksburg that was put in place April 2 has been lifted. Monday, Mayor George Flaggs said he decided to lift the curfew after receiving a call from a 17- year-old girl who asked him to lift the juvenile curfew. Under the city's code of ordinances, the curfew for people under age 18 is from midnight to 6 a.m. When school is in session the...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Local Government",
+            "code": "IS/pol.local#9#99#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Health and Wellness",
+            "code": "IS/haw#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "7",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#7#63#75",
+            "level": 4
+        }
+    ],
+    "text": "A juvenile curfew for the city of Vicksburg that was put in place April 2 has\nbeen lifted.\n\nThe curfew, which was part of the city's response to the spread of the\nCOVID-19 virus, had prohibited individuals under the age of 18 to be out\nunsupervised between 7:30 p.m. and 7:30 a.m.\n\nMonday, Mayor George Flaggs said he decided to lift the curfew after receiving\na call from a 17-year-old girl who asked him to lift the juvenile curfew.\n\n\"She was a young lady who had graduated from high school and said she was now\nready for college,\" he said after the meeting.\n\nFlaggs said she asked him why the juveniles were being singled out and if\nthings could return to normal.\n\n\"That (the juvenile curfew) was the only thing left; everyone else was open,\nthe bars and everybody. That's what happened,\" he said, adding the city will\nreturn to the juvenile curfew outlined in the city's ordinances.\n\nUnder the city's code of ordinances, the curfew for people under age 18 is\nfrom midnight to 6 a.m. When school is in session the curfew is from 10 p.m.\nto 6 a.m. Monday through Thursday.\n\nA citywide curfew, for all individuals, was also part of some of the early\nrestrictions put in place. It was lifted on May 21 to coincide with the\nreopening of casinos.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "George Flaggs"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.al.norort",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS94043B0A0339A4FB7DEF578C6470FA7.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": -0.46057,
+                    "label": "negative"
+                },
+                "text": "Mayor George Flaggs",
+                "relevance": 0.884968,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.797813,
+                    "label": "negative"
+                },
+                "text": "Vicksburg",
+                "relevance": 0.492882,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Vicksburg, Mississippi",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Vicksburg,_Mississippi"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "17-year",
+                "relevance": 0.492882,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A juvenile curfew for the city of Vicksburg"
+                },
+                "sentence": "A juvenile curfew for the city of Vicksburg that was put in place April 2 has",
+                "object": {
+                    "text": "put in place April 2 has"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A juvenile curfew for the city of Vicksburg"
+                },
+                "sentence": "A juvenile curfew for the city of Vicksburg that was put in place April 2 has",
+                "object": {
+                    "text": "in place April 2"
+                },
+                "action": {
+                    "verb": {
+                        "text": "put",
+                        "tense": "past"
+                    },
+                    "text": "was put",
+                    "normalized": "be put"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The curfew"
+                },
+                "sentence": " The curfew, which was part of the city's response to the spread of the",
+                "object": {
+                    "text": "part of the city's response to the spread of the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "prohibited individuals"
+                },
+                "sentence": " COVID-19 virus, had prohibited individuals under the age of 18 to be out",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "individuals"
+                },
+                "sentence": " COVID-19 virus, had prohibited individuals under the age of 18 to be out",
+                "object": {
+                    "text": "under the age of 18 to be out"
+                },
+                "action": {
+                    "verb": {
+                        "text": "prohibit",
+                        "tense": "past"
+                    },
+                    "text": "had prohibited",
+                    "normalized": "have prohibit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mayor George Flaggs"
+                },
+                "sentence": " Monday, Mayor George Flaggs said he decided to lift the curfew after receiving",
+                "object": {
+                    "text": "he decided to lift the curfew after receiving"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a 17-year-old girl"
+                },
+                "sentence": " a call from a 17-year-old girl who asked him to lift the juvenile curfew.",
+                "object": {
+                    "text": "to lift the juvenile curfew"
+                },
+                "action": {
+                    "verb": {
+                        "text": "ask",
+                        "tense": "past"
+                    },
+                    "text": "asked",
+                    "normalized": "ask"
+                }
+            },
+            {
+                "subject": {
+                    "text": "him"
+                },
+                "sentence": " a call from a 17-year-old girl who asked him to lift the juvenile curfew.",
+                "object": {
+                    "text": "the juvenile curfew"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lift",
+                        "tense": "future"
+                    },
+                    "text": "to lift",
+                    "normalized": "to lift"
+                }
+            },
+            {
+                "subject": {
+                    "text": "She"
+                },
+                "sentence": " \"She was a young lady who had graduated from high school and said she was now",
+                "object": {
+                    "text": "a young lady who had graduated from high school and said she was now"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a young lady"
+                },
+                "sentence": " \"She was a young lady who had graduated from high school and said she was now",
+                "object": {
+                    "text": "graduated from high school"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a young lady"
+                },
+                "sentence": " \"She was a young lady who had graduated from high school and said she was now",
+                "object": {
+                    "text": "from high school"
+                },
+                "action": {
+                    "verb": {
+                        "text": "graduate",
+                        "tense": "past"
+                    },
+                    "text": "had graduated",
+                    "normalized": "have graduate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": " \"She was a young lady who had graduated from high school and said she was now",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " ready for college,\" he said after the meeting.",
+                "object": {
+                    "text": "ready for college"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Flaggs"
+                },
+                "sentence": " Flaggs said she asked him why the juveniles were being singled out and if",
+                "object": {
+                    "text": "she asked him why the juveniles were being singled out and if"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": " Flaggs said she asked him why the juveniles were being singled out and if",
+                "object": {
+                    "text": "why the juveniles were being singled out and if"
+                },
+                "action": {
+                    "verb": {
+                        "text": "ask",
+                        "tense": "past"
+                    },
+                    "text": "asked",
+                    "normalized": "ask"
+                }
+            },
+            {
+                "subject": {
+                    "text": "That (the juvenile curfew)"
+                },
+                "sentence": " \"That (the juvenile curfew) was the only thing left; everyone else was open,",
+                "object": {
+                    "text": "the only thing left"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "That"
+                },
+                "sentence": " That's what happened,\" he said, adding the city will",
+                "object": {
+                    "text": "what happened"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " That's what happened,\" he said, adding the city will",
+                "object": {
+                    "text": "That's what happened"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " That's what happened,\" he said, adding the city will",
+                "object": {
+                    "text": "the city will"
+                },
+                "action": {
+                    "verb": {
+                        "text": "add",
+                        "tense": "present"
+                    },
+                    "text": "adding",
+                    "normalized": "add"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the juvenile curfew"
+                },
+                "sentence": " return to the juvenile curfew outlined in the city's ordinances.",
+                "action": {
+                    "verb": {
+                        "text": "outline",
+                        "tense": "past"
+                    },
+                    "text": "outlined",
+                    "normalized": "outline"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the curfew for people under age 18"
+                },
+                "sentence": " Under the city's code of ordinances, the curfew for people under age 18 is",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the curfew"
+                },
+                "sentence": " When school is in session the curfew is from 10 p.m.",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "restrictions"
+                },
+                "sentence": " restrictions put in place.",
+                "object": {
+                    "text": "in place"
+                },
+                "action": {
+                    "verb": {
+                        "text": "put",
+                        "tense": "past"
+                    },
+                    "text": "put",
+                    "normalized": "put"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It was lifted on May 21 to coincide with the",
+                "action": {
+                    "verb": {
+                        "text": "lift",
+                        "tense": "past"
+                    },
+                    "text": "was lifted",
+                    "normalized": "be lift"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.746038,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.726823,
+                "label": "/news"
+            },
+            {
+                "score": 0.667581,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "The curfew, which was part of the city's response to the spread of the COVID-19 virus, had prohibited individuals under the age of 18 to be out unsupervised between 7:30 p.m. and 7:30 a.m.",
+                "score": 0.323063,
+                "arguments": [
+                    {
+                        "text": "individuals",
+                        "location": [
+                            194,
+                            205
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "individuals"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "city",
+                        "location": [
+                            126,
+                            130
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "city of Vicksburg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "\"She was a young lady who had graduated from high school and said she was now ready for college,\" he said after the meeting.",
+                "score": 0.866864,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            534,
+                            536
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Flaggs"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meeting",
+                        "location": [
+                            552,
+                            559
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meeting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "\"She was a young lady who had graduated from high school and said she was now ready for college,\" he said after the meeting.",
+                "score": 0.61407,
+                "arguments": [
+                    {
+                        "text": "said",
+                        "location": [
+                            537,
+                            541
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "meeting",
+                        "location": [
+                            552,
+                            559
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "meeting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Flaggs said she asked him why the juveniles were being singled out and if things could return to normal.",
+                "score": 0.979301,
+                "arguments": [
+                    {
+                        "text": "she",
+                        "location": [
+                            574,
+                            577
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "girl"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "asked",
+                        "location": [
+                            578,
+                            583
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "asked"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Flaggs said she asked him why the juveniles were being singled out and if things could return to normal.",
+                "score": 0.921297,
+                "arguments": [
+                    {
+                        "text": "him",
+                        "location": [
+                            584,
+                            587
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Flaggs"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "asked",
+                        "location": [
+                            578,
+                            583
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "asked"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The curfew, which was part of the city's response to the spread of the COVID-19 virus, had prohibited individuals under the age of 18 to be out unsupervised between 7:30 p.m. and 7:30 a.m.",
+                "score": 0.565364,
+                "arguments": [
+                    {
+                        "text": "individuals",
+                        "location": [
+                            194,
+                            205
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "individuals"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "18",
+                        "location": [
+                            223,
+                            225
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "18"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Monday, Mayor George Flaggs said he decided to lift the curfew after receiving a call from a 17-year-old girl who asked him to lift the juvenile curfew.",
+                "score": 0.993005,
+                "arguments": [
+                    {
+                        "text": "George Flaggs",
+                        "location": [
+                            296,
+                            309
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Flaggs"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            310,
+                            314
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"She was a young lady who had graduated from high school and said she was now ready for college,\" he said after the meeting.",
+                "score": 0.968703,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            534,
+                            536
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Flaggs"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            537,
+                            541
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Flaggs said she asked him why the juveniles were being singled out and if things could return to normal.",
+                "score": 0.994775,
+                "arguments": [
+                    {
+                        "text": "Flaggs",
+                        "location": [
+                            562,
+                            568
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Flaggs"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            569,
+                            573
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "That's what happened,\" he said, adding the city will return to the juvenile curfew outlined in the city's ordinances.",
+                "score": 0.968409,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            792,
+                            794
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Flaggs"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            795,
+                            799
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Monday, Mayor George Flaggs said he decided to lift the curfew after receiving a call from a 17-year-old girl who asked him to lift the juvenile curfew.",
+                "score": 0.649813,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            315,
+                            317
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Flaggs"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "17-year-old",
+                        "location": [
+                            375,
+                            386
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "17-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Monday, Mayor George Flaggs said he decided to lift the curfew after receiving a call from a 17-year-old girl who asked him to lift the juvenile curfew.",
+                "score": 0.90236,
+                "arguments": [
+                    {
+                        "text": "girl",
+                        "location": [
+                            387,
+                            391
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "girl"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "17-year-old",
+                        "location": [
+                            375,
+                            386
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "17-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Monday, Mayor George Flaggs said he decided to lift the curfew after receiving a call from a 17-year-old girl who asked him to lift the juvenile curfew.",
+                "score": 0.595546,
+                "arguments": [
+                    {
+                        "text": "girl",
+                        "location": [
+                            387,
+                            391
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "girl"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "asked",
+                        "location": [
+                            396,
+                            401
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "asked"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Monday, Mayor George Flaggs said he decided to lift the curfew after receiving a call from a 17-year-old girl who asked him to lift the juvenile curfew.",
+                "score": 0.928679,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            392,
+                            395
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "girl"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "asked",
+                        "location": [
+                            396,
+                            401
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "asked"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Monday, Mayor George Flaggs said he decided to lift the curfew after receiving a call from a 17-year-old girl who asked him to lift the juvenile curfew.",
+                "score": 0.898363,
+                "arguments": [
+                    {
+                        "text": "him",
+                        "location": [
+                            402,
+                            405
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Flaggs"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "asked",
+                        "location": [
+                            396,
+                            401
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "asked"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"She was a young lady who had graduated from high school and said she was now ready for college,\" he said after the meeting.",
+                "score": 0.789916,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            458,
+                            461
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "girl"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "graduated",
+                        "location": [
+                            466,
+                            475
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventEducation",
+                                "text": "graduated"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"She was a young lady who had graduated from high school and said she was now ready for college,\" he said after the meeting.",
+                "score": 0.52505,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            458,
+                            461
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "girl"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            497,
+                            501
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "adding"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "juvenile curfew",
+                "relevance": 0.856733,
+                "count": 4
+            },
+            {
+                "text": "young lady",
+                "relevance": 0.727194,
+                "count": 1
+            },
+            {
+                "text": "Mayor George Flaggs",
+                "relevance": 0.712447,
+                "count": 1
+            },
+            {
+                "text": "17-year-old girl",
+                "relevance": 0.686674,
+                "count": 1
+            },
+            {
+                "text": "city of Vicksburg",
+                "relevance": 0.655801,
+                "count": 1
+            },
+            {
+                "text": "high school",
+                "relevance": 0.608865,
+                "count": 1
+            },
+            {
+                "text": "only thing",
+                "relevance": 0.586413,
+                "count": 1
+            },
+            {
+                "text": "COVID-19 virus",
+                "relevance": 0.585332,
+                "count": 1
+            },
+            {
+                "text": "part of the city",
+                "relevance": 0.563351,
+                "count": 1
+            },
+            {
+                "text": "midnight",
+                "relevance": 0.55054,
+                "count": 1
+            },
+            {
+                "text": "things",
+                "relevance": 0.541944,
+                "count": 1
+            },
+            {
+                "text": "curfew",
+                "relevance": 0.540022,
+                "count": 4
+            },
+            {
+                "text": "citywide curfew",
+                "relevance": 0.525426,
+                "count": 1
+            },
+            {
+                "text": "juveniles",
+                "relevance": 0.522726,
+                "count": 1
+            },
+            {
+                "text": "city",
+                "relevance": 0.51516,
+                "count": 1
+            },
+            {
+                "text": "individuals",
+                "relevance": 0.51402,
+                "count": 2
+            },
+            {
+                "text": "college",
+                "relevance": 0.513186,
+                "count": 1
+            },
+            {
+                "text": "city's code",
+                "relevance": 0.512136,
+                "count": 1
+            },
+            {
+                "text": "session",
+                "relevance": 0.511243,
+                "count": 1
+            },
+            {
+                "text": "city's ordinances",
+                "relevance": 0.510455,
+                "count": 1
+            },
+            {
+                "text": "response",
+                "relevance": 0.509499,
+                "count": 1
+            },
+            {
+                "text": "school",
+                "relevance": 0.508781,
+                "count": 1
+            },
+            {
+                "text": "part",
+                "relevance": 0.508685,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.508667,
+                "count": 1
+            },
+            {
+                "text": "casinos",
+                "relevance": 0.507835,
+                "count": 1
+            },
+            {
+                "text": "bars",
+                "relevance": 0.507835,
+                "count": 1
+            },
+            {
+                "text": "age",
+                "relevance": 0.507835,
+                "count": 2
+            },
+            {
+                "text": "ordinances",
+                "relevance": 0.506959,
+                "count": 1
+            },
+            {
+                "text": "place",
+                "relevance": 0.505759,
+                "count": 1
+            },
+            {
+                "text": "place April",
+                "relevance": 0.495239,
+                "count": 1
+            },
+            {
+                "text": "Monday",
+                "relevance": 0.490307,
+                "count": 2
+            },
+            {
+                "text": "call",
+                "relevance": 0.484964,
+                "count": 1
+            },
+            {
+                "text": "Flaggs",
+                "relevance": 0.440017,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.432169,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.428903,
+                "count": 1
+            },
+            {
+                "text": "meeting",
+                "relevance": 0.428903,
+                "count": 1
+            },
+            {
+                "text": "receiving",
+                "relevance": 0.428903,
+                "count": 1
+            },
+            {
+                "text": "spread",
+                "relevance": 0.428903,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "8ecdf12e4870211c60b6078db1d8bf97da97f0ae",
+        "filename": "202006010000NEWSBANKNEWSPPRS94043B0A0339A4FB7DEF578C6470FA7.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Mayor, alderman lift city's COVID-19 juvenile curfew",
+    "html": "<p>A juvenile curfew for the city of Vicksburg that was put in place <chron>April 2</chron> has been lifted.</p>\n<p>The curfew, which was part of the city's response to the spread of the COVID-19 virus, had prohibited individuals under the age of 18 to be out unsupervised <chron>between 7:30 p.m. and 7:30 a.m.</chron></p>\n\n<p>Monday, Mayor <person>George Flaggs</person> said he decided to lift the curfew after receiving a call from a 17-year-old girl who asked him to lift the juvenile curfew.</p>\n\n<p>\"She was a young lady who had graduated from high school and said she was now ready for college,\" he said after the meeting.</p>\n\n<p>Flaggs said she asked him why the juveniles were being singled out and if things could return to normal.</p>\n\n<p>\"That (the juvenile curfew) was the only thing left; everyone else was open, the bars and everybody. That's what happened,\" he said, adding the city will return to the juvenile curfew outlined in the city's ordinances.</p>\n\n<p>Under the city's code of ordinances, the curfew for people under age 18 is from <chron>midnight to 6 a.m.</chron> When school is in session the curfew is from <chron>10 p.m. to 6 a.m. Monday through Thursday</chron>.</p>\n\n<p>A citywide curfew, for all individuals, was also part of some of the early restrictions put in place. It was lifted on <chron>May 21</chron> to coincide with the reopening of casinos.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ms.vicurg",
+            "Vicksburg"
+        ]
+    ]
+}

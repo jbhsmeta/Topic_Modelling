@@ -1,0 +1,560 @@
+{
+    "id": "d8f7ec53-9b73-4288-9d7f-716f48d267fc",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "71379736959976842407",
+    "description": "The mayor of Rio de Janeiro allowed more than 10,000 street vendors to go back to work on Thursday and Brazil's president pressed for legal action to force local governments to reopen beaches, as the coronavirus death toll in the country quickly approached that of Italy.",
+    "serviceName": "Health Pharma News",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Northern Europe",
+            "code": "LB/neur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "South America",
+            "code": "LB/sam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Southern Europe",
+            "code": "LB/seur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sam",
+            "relevance_score": "9",
+            "description": "Brazil",
+            "code": "LC/br#9#90#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#90",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Local Government",
+            "code": "IS/pol.local#9#90#50",
+            "level": 1
+        }
+    ],
+    "text": "The mayor of Rio de Janeiro allowed more than 10,000 street vendors to go back\nto work on Thursday and Brazil's president pressed for legal action to force\nlocal governments to reopen beaches, as the coronavirus death toll in the\ncountry quickly approached that of Italy. (Source: Reuters: Health) MedWorm\nMessage: If you are looking to buy something in the January Sales please visit\n[TheJanuarySales.com](http://TheJanuarySales.com) for a directory of all the\nbest sales in the UK. Any income gained via affiliate links keeps MedWorm\nrunning.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Rio de Janeiro",
+            "Brazil's",
+            "Italy",
+            "UK"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050126AMSPIDERHEPHNEWS_MEDWRM04_1B78705CF7569E1B9D9A6F72994457EA_77.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rio de Janeiro",
+                "relevance": 0.956974,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Rio de Janeiro",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Rio_de_Janeiro"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Reuters",
+                "relevance": 0.666885,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Reuters",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Reuters"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.705877,
+                    "label": "negative"
+                },
+                "text": "Brazil",
+                "relevance": 0.605957,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.705877,
+                    "label": "negative"
+                },
+                "text": "president",
+                "relevance": 0.600282,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.722769,
+                    "label": "positive"
+                },
+                "text": "UK",
+                "relevance": 0.485013,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "Kingdom",
+                        "MeteorologicalService",
+                        "Country"
+                    ],
+                    "name": "United Kingdom",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_Kingdom"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Italy.",
+                "relevance": 0.398908,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The mayor of Rio de Janeiro"
+                },
+                "sentence": "The mayor of Rio de Janeiro allowed more than 10,000 street vendors to go back",
+                "object": {
+                    "text": "more than 10,000 street vendors to go back"
+                },
+                "action": {
+                    "verb": {
+                        "text": "allow",
+                        "tense": "past"
+                    },
+                    "text": "allowed",
+                    "normalized": "allow"
+                }
+            },
+            {
+                "subject": {
+                    "text": "local governments"
+                },
+                "sentence": " local governments to reopen beaches, as the coronavirus death toll in the",
+                "object": {
+                    "text": "beaches"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reopen",
+                        "tense": "future"
+                    },
+                    "text": "to reopen",
+                    "normalized": "to reopen"
+                }
+            },
+            {
+                "subject": {
+                    "text": "that of Italy. (Source: Reuters: Health) MedWorm"
+                },
+                "sentence": " country quickly approached that of Italy. (Source: Reuters: Health) MedWorm",
+                "object": {
+                    "text": "country"
+                },
+                "action": {
+                    "verb": {
+                        "text": "approach",
+                        "tense": "past"
+                    },
+                    "text": "approached",
+                    "normalized": "approach"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " Message: If you are looking to buy something in the January Sales please visit",
+                "object": {
+                    "text": "to buy something in the January Sales please visit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "look",
+                        "tense": "present"
+                    },
+                    "text": "looking",
+                    "normalized": "look"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " Message: If you are looking to buy something in the January Sales please visit",
+                "object": {
+                    "text": "something"
+                },
+                "action": {
+                    "verb": {
+                        "text": "buy",
+                        "tense": "future"
+                    },
+                    "text": "are looking to buy",
+                    "normalized": "be look to buy"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.635262,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.592064,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.591884,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "The mayor of Rio de Janeiro allowed more than 10,000 street vendors to go back to work on Thursday and Brazil's president pressed for legal action to force local governments to reopen beaches, as the coronavirus death toll in the country quickly approached that of Italy.",
+                "score": 0.823968,
+                "arguments": [
+                    {
+                        "text": "mayor",
+                        "location": [
+                            4,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "president"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rio de Janeiro",
+                        "location": [
+                            13,
+                            27
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Rio de Janeiro"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The mayor of Rio de Janeiro allowed more than 10,000 street vendors to go back to work on Thursday and Brazil's president pressed for legal action to force local governments to reopen beaches, as the coronavirus death toll in the country quickly approached that of Italy.",
+                "score": 0.406569,
+                "arguments": [
+                    {
+                        "text": "mayor",
+                        "location": [
+                            4,
+                            9
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "president"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "street",
+                        "location": [
+                            53,
+                            59
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "street"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The mayor of Rio de Janeiro allowed more than 10,000 street vendors to go back to work on Thursday and Brazil's president pressed for legal action to force local governments to reopen beaches, as the coronavirus death toll in the country quickly approached that of Italy.",
+                "score": 0.530473,
+                "arguments": [
+                    {
+                        "text": "vendors",
+                        "location": [
+                            60,
+                            67
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "vendors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "street",
+                        "location": [
+                            53,
+                            59
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "street"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "The mayor of Rio de Janeiro allowed more than 10,000 street vendors to go back to work on Thursday and Brazil's president pressed for legal action to force local governments to reopen beaches, as the coronavirus death toll in the country quickly approached that of Italy.",
+                "score": 0.5346,
+                "arguments": [
+                    {
+                        "text": "president",
+                        "location": [
+                            112,
+                            121
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "president"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Brazil",
+                        "location": [
+                            103,
+                            109
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Brazil",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The mayor of Rio de Janeiro allowed more than 10,000 street vendors to go back to work on Thursday and Brazil's president pressed for legal action to force local governments to reopen beaches, as the coronavirus death toll in the country quickly approached that of Italy.",
+                "score": 0.880278,
+                "arguments": [
+                    {
+                        "text": "president",
+                        "location": [
+                            112,
+                            121
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "president"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "pressed",
+                        "location": [
+                            122,
+                            129
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "pressed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "mayor of Rio de Janeiro",
+                "relevance": 0.879932,
+                "count": 1
+            },
+            {
+                "text": "local governments",
+                "relevance": 0.864581,
+                "count": 1
+            },
+            {
+                "text": "legal action",
+                "relevance": 0.639078,
+                "count": 1
+            },
+            {
+                "text": "street vendors",
+                "relevance": 0.639078,
+                "count": 1
+            },
+            {
+                "text": "Brazil's president",
+                "relevance": 0.619263,
+                "count": 1
+            },
+            {
+                "text": "income",
+                "relevance": 0.566743,
+                "count": 1
+            },
+            {
+                "text": "Source",
+                "relevance": 0.544204,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.539438,
+                "count": 1
+            },
+            {
+                "text": "January Sales",
+                "relevance": 0.536329,
+                "count": 1
+            },
+            {
+                "text": "affiliate links",
+                "relevance": 0.536157,
+                "count": 1
+            },
+            {
+                "text": "coronavirus death toll",
+                "relevance": 0.531672,
+                "count": 1
+            },
+            {
+                "text": "beaches",
+                "relevance": 0.526697,
+                "count": 1
+            },
+            {
+                "text": "Reuters",
+                "relevance": 0.523938,
+                "count": 1
+            },
+            {
+                "text": "Health",
+                "relevance": 0.516805,
+                "count": 1
+            },
+            {
+                "text": "directory",
+                "relevance": 0.514987,
+                "count": 1
+            },
+            {
+                "text": "Italy",
+                "relevance": 0.514987,
+                "count": 1
+            },
+            {
+                "text": "best sales",
+                "relevance": 0.512061,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.421899,
+                "count": 1
+            },
+            {
+                "text": "MedWorm",
+                "relevance": 0.387358,
+                "count": 1
+            },
+            {
+                "text": "UK",
+                "relevance": 0.387358,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "139537a331c93d0dbf137834dbf7da84127148d3",
+        "filename": "202006050126AMSPIDERHEPHNEWS_MEDWRM04_1B78705CF7569E1B9D9A6F72994457EA_77.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T01:26:00-04:00",
+    "title": "Rio looks to reopen as Brazil approaches Italy in coronavirus deaths [MedWorm News]",
+    "html": "<p>The mayor of <location idsrc=\"xmltag.org\" value=\"LU/br..riodjn\">Rio de Janeiro</location> allowed more than 10,000 street vendors to go back to work on Thursday and <location idsrc=\"xmltag.org\" value=\"LC/br\">Brazil's</location> president pressed for legal action to force local governments to reopen beaches, as the coronavirus death toll in the country quickly approached that of <location idsrc=\"xmltag.org\" value=\"LC/it\">Italy</location>. (Source: Reuters: Health) MedWorm Message: If you are looking to buy something in the January Sales please visit <a href=\"http://TheJanuarySales.com\">TheJanuarySales.com</a> for a directory of all the best sales in the <location idsrc=\"xmltag.org\" value=\"LC/gb\">UK</location>. Any income gained via affiliate links keeps MedWorm running.</p>",
+    "geoFocus": []
+}

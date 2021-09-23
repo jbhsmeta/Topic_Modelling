@@ -1,0 +1,2532 @@
+{
+    "id": "680fe221-6543-4980-91f8-1efb96f9379b",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, Information Technology Business Daily",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Information Technology Business Daily",
+    "corpus_document_id": "16820586637062372178",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at Information Technology Business Daily-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun; Kwon, Jung Hyun; Shin, Won Gyu; Jeong, Seung Gyu, filed on December 28, 2018, was published online on June 8, 2020. The patent\u2019 s assignee for patent number 10,665,297 is SK Hynix Inc..",
+    "serviceName": "Technology Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Eastern Asia",
+            "code": "LB/eas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eas",
+            "relevance_score": "9",
+            "description": "South Korea",
+            "code": "LC/kr#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#70#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Computers and Networking",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information\nTechnology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists\nreport that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea);\nKwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea);\nJeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was\npublished online on June 8, 2020.\n\nThe patent's assignee for patent number 10,665,297 is SK Hynix Inc. (Icheon-\nsi, Gyeonggi-do, South Korea).\n\nNews editors obtained the following quote from the background information\nsupplied by the inventors: \"Various embodiments of the present disclosure\ngenerally relate to memory systems and, more particularly, to memory systems\nand methods of operating the memory systems.\n\n\"Logic levels of data stored in phase change memory (PCM) devices may be\ndetermined according to a phase state of a phase changeable material (e.g., a\nchalcogenide compound material such as a germanium-stibium-tellurium (GST)\nmaterial) included in each of memory cells of the PCM devices. For example, a\ncertain memory cell may be regarded as a memory cell having a logic 'high(1)'\nlevel if a phase changeable material included in the certain memory cell has a\ncrystalline state, and the certain memory cell may be regarded as a memory\ncell having a logic 'low(0)' level if the phase changeable material included\nin the certain memory cell has an amorphous state. The PCM devices exhibit a\nrelatively high operation speed with a high integration density. Thus, the PCM\ndevices may be attractive as a candidate for replacing dynamic random access\nmemory (DRAM) devices in computers or other digital systems. The PCM devices\nmay have a limited lifetime and a limited durability like other nonvolatile\nmemory devices. In particular, the number of write cycles of the PCM devices\nmay be restricted due to a characteristic of the phase changeable material and\nlimitation of design, and the probability of error occurrence may increase as\nthe number of write cycles of the PCM devices increases. Accordingly, it may\nbe important to detect and verify errors that occur during a write operation\nand a read operation of the PCM devices.\n\n\"An error correction code (ECC) mechanism is widely used to detect and verify\nthe errors that occur while the PCM devices operate. While the write operation\nis performed in the PCM devices, write data may be changed into a codeword\nincluding parity data by an ECC encoding operation and the codeword may be\nstored into the memory cells. The codeword stored in the memory cells may be\nrestored into a shape of the original data by an ECC decoding operation while\nthe read operation is performed, During the ECC decoding operation, erroneous\ndata may be detected using the parity data included in the codeword and the\nerroneous data may be corrected in some cases.\"\n\nAs a supplement to the background information on this patent, NewsRx\ncorrespondents also obtained the inventors' summary information for this\npatent: \"According to an embodiment, there is provided a memory system. The\nmemory system includes a memory device and a memory controller. The memory\ndevice has a plurality of memory regions. The memory controller is configured\nto generate a read command for a first memory region corresponding to one of\nthe plurality of memory regions when the number of write commands successively\ngenerated for the first memory region reaches a reference value.\n\n\"According to an embodiment, there is provided a memory system. The memory\nsystem includes a memory device and a memory controller. The memory device has\na plurality of memory regions. The memory controller is configured to generate\na read command for data stored in a first memory region corresponding to one\nof the plurality of memory regions whenever a write command for the first\nmemory region is generated from a point of time that the number of the write\ncommand repeatedly generated for the first memory region is equal to or\ngreater than a reference value.\n\n\"According to an embodiment, there is provided a method of operating a memory\nsystem including a memory device having a plurality of memory regions. The\nmethod includes counting a current write counting value for a first memory\nregion corresponding to one of the plurality of memory regions to change the\ncurrent write counting value into an updated write counting value when a write\ncommand for the first memory region is generated. The updated write counting\nvalue is compared with a reference value, and a read command for the first\nmemory region is generated when the updated write counting value reaches a\nreference value.\n\n\"According to an embodiment, there is provided a method of operating a memory\nsystem including a memory device having a plurality of memory regions. The\nmethod includes counting a current write counting value for a first memory\nregion corresponding to one of the plurality of memory regions to change the\ncurrent write counting value into an updated write counting value when a write\ncommand for the first memory region is generated. The updated write counting\nvalue is compared with a reference value, and a read command for the first\nmemory region is generated whenever the write command for the first memory\nregion is generated from a point of time that the updated write counting value\nis equal to or greater than a reference value.\"\n\nThe claims supplied by the inventors are:\n\n\"What is claimed is:\n\n\"1\\. A memory system comprising: a memory device having a plurality of memory\nregions; and a memory controller configured to generate a read command for a\nfirst memory region corresponding to one of the plurality of memory regions\nwhen a number of write commands successively generated for the first memory\nregion reaches a reference value, wherein the memory controller includes: a\ncommand processing circuit configured to process a command outputted from a\nhost and configured to generate the read command for the first memory region\nregardless of the host in response to a read command generation control\nsignal; and a write counting circuit configured to output the read command\ngeneration control signal to the command processing circuit when the number of\nthe write commands successively generated for the first memory region reaches\nthe reference value.\n\n\"2\\. The memory system of claim 1, wherein the memory device includes a phase\nchange memory (PCM) device.\n\n\"3\\. The memory system of claim 1, wherein the plurality of memory regions\ninclude a plurality of memory blocks.\n\n\"4\\. The memory system of claim 1, wherein the plurality of memory regions\ninclude a plurality of pages.\n\n\"5\\. The memory system of claim 1, wherein the command processing circuit\nincludes a read command generator that receives the read command generation\ncontrol signal and an address of the first memory region from the write\ncounting circuit to generate the read command for the first memory region.\n\n\"6\\. The memory system of claim 1, wherein the command processing circuit\ntransmits both of the command and an address of the first memory region to the\nwrite counting circuit and the memory device when the command is generated by\nthe host.\n\n\"7\\. The memory system of claim 1, wherein the write counting circuit\nincludes: a write counting value storage circuit configured to store a counted\nvalue of the write commands successively generated for each of the memory\nregions and configured to change and store a current write counting value for\nthe first memory region into an updated write counting value when the write\ncommand for the first memory region is transmitted from the command processing\ncircuit to the write counting value storage circuit; a write counter\nconfigured to count the current write counting value outputted from the write\ncounting value storage circuit to generate and output the updated write\ncounting value to the write counting value storage circuit; and a write\ncounting value checker configured to compare the updated write counting value\nwith the reference value and configured to output the read command generation\ncontrol signal for the first memory region to the command processing circuit\nwhen the updated write counting value is equal to the reference value.\n\n\"8\\. The memory system of claim 7, wherein the write counting circuit further\nincludes a write counting value reset circuit that outputs a reset signal for\nthe first memory region when the read command for the first memory region is\ntransmitted from the command processing circuit to the write counting value\nreset circuit; and wherein the write counting value storage circuit is\nconfigured to reset a write counting value for the first memory region when\nthe reset signal is transmitted from the write counting value reset circuit to\nthe write counting value storage circuit.\n\n\"9\\. The memory system of claim 1, wherein the memory controller further\nincludes an error correction code (ECC) circuit that detects and corrects\nerroneous data during a read operation of the memory device.\n\n\"10\\. The memory system of claim 9, wherein the ECC circuit includes: an ECC\nencoder configured to generate codeword-type write data including original\nwrite data and parity data during a write operation of the memory device; and\nan ECC decoder configured to detect and correct codeword-type read data\noutputted from the memory device during the read operation.\n\n\"11\\. A memory system comprising: a memory device having a plurality of memory\nregions; and a memory controller configured to generate a read command for\ndata stored in a first memory region corresponding to one of the plurality of\nmemory regions whenever a write command for the first memory region is\ngenerated from a point of time that a number of the write command repeatedly\ngenerated for the first memory region is equal to or greater than a reference\nvalue, wherein the memory controller includes: a command processing circuit\nconfigured to process a command outputted from a host and configured to\ngenerate the read command for the first memory region regardless of the host\nin response to a read command generation control signal; and a write counting\ncircuit configured to output the read command generation control signal to the\ncommand processing circuit whenever the write command for the first memory\nregion is generated when the number of the write command repeatedly generated\nfor the first memory region is equal to or greater than the reference value.\n\n\"12\\. The memory system of claim 11, wherein the memory device includes a\nphase change memory (PCM) device.\n\n\"13\\. The memory system of claim 11, wherein the plurality of memory regions\ninclude a plurality of memory blocks.\n\n\"14\\. The memory system of claim 11, wherein the plurality of memory regions\ninclude a plurality of pages.\n\n\"15\\. The memory system of claim 11, wherein the command processing circuit\nincludes a read command generator that receives the read command generation\ncontrol signal and an address of the first memory region from the write\ncounting circuit to generate the read command for the first memory region.\n\n\"16\\. The memory system of claim 11, wherein the command processing circuit\ntransmits both of the command and an address of the first memory region to the\nwrite counting circuit and the memory device when the command is generated by\nthe host.\n\n\"17\\. The memory system of claim 11, wherein the write counting circuit\nincludes: a write counting value storage circuit configured to store a counted\nvalue of the write commands generated for each of the memory regions and\nconfigured to change and store a current write counting value for the first\nmemory region into an updated write counting value when the write command for\nthe first memory region is transmitted from the command processing circuit to\nthe write counting value storage circuit; a write counter configured to count\nthe current write counting value outputted from the write counting value\nstorage circuit to generate and output the updated write counting value to the\nwrite counting value storage circuit; and a write counting value checker\nconfigured to compare the updated write counting value with the reference\nvalue and configured to output the read command generation control signal for\nthe first memory region to the command processing circuit when the updated\nwrite counting value is equal to or greater than the reference value.\n\n\"18\\. The memory system of claim 11, wherein the memory controller further\nincludes an error correction code (ECC) circuit that detects and corrects\nerroneous data during a read operation of the memory device.\n\n\"19\\. The memory system of claim 18, wherein the ECC circuit includes: an ECC\nencoder configured to generate codeword-type write data including original\nwrite data and parity data during a write operation of the memory device; and\nan ECC decoder configured to detect and correct codeword-type read data\noutputted from the memory device during the read operation.\"\n\nFor additional information on this patent, see: Hong, Do-Sun; Kwon, Jung Hyun;\nShin, Won Gyu; Jeong, Seung Gyu. Memory Systems For Memory Devices And Methods\nOf Operating The Memory Systems. U.S. Patent Number 10,665,297, filed December\n28, 2018, and published online on June 8, 2020. Patent URL:\n[http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,665,297.PN.&OS=PN/10,665,297RS=PN/10,665,297](http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,665,297.PN.&OS=PN/10,665,297RS=PN/10,665,297)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Information Technology Business Daily",
+            "Do-Sun",
+            "SK Hynix Inc."
+        ],
+        "location": [
+            "Alexandria, Virginia",
+            "South Korea",
+            "Seoul, South Korea",
+            "U.S."
+        ],
+        "person": [
+            "Jung Hyun",
+            "Won Gyu",
+            "Seung Gyu"
+        ],
+        "companies": [
+            "News Reporter-Staff News",
+            "Information Technology Business Daily",
+            "SK Hynix Inc.",
+            "Do-Sun"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_TECH_7FE2F4BE3988C305.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": 0.320081,
+                    "label": "positive"
+                },
+                "text": "South Korea",
+                "relevance": 0.121028,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "South Korea",
+                    "dbpedia_resource": "http://dbpedia.org/resource/South_Korea"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.244735,
+                    "label": "negative"
+                },
+                "text": "Kwon",
+                "relevance": 0.105386,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.104231,
+                "type": "JobTitle"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Shin",
+                "relevance": 0.103933,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Virginia",
+                "relevance": 0.103862,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Virginia"
+                }
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Seung Gyu",
+                "relevance": 0.103045,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jung Hyun",
+                "relevance": 0.101868,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jeong",
+                "relevance": 0.100835,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.348995,
+                    "label": "positive"
+                },
+                "text": "Hong",
+                "relevance": 0.098849,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Seoul",
+                "relevance": 0.098587,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "OlympicHostCity",
+                        "City"
+                    ],
+                    "name": "Seoul",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Seoul"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "SK Hynix Inc.",
+                "relevance": 0.096202,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alexandria",
+                "relevance": 0.092917,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.091954,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Icheon",
+                "relevance": 0.087081,
+                "type": "Company"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Kwon, Jung Hyun (Seoul, South Korea); Shin,"
+                },
+                "sentence": " Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea);",
+                "object": {
+                    "text": "Gyu (Icheon-si, South Korea"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Won",
+                        "tense": "past"
+                    },
+                    "text": "Won",
+                    "normalized": "Won"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Seung Gyu (Icheon-si, South Korea),"
+                },
+                "sentence": " Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was",
+                "action": {
+                    "verb": {
+                        "text": "file",
+                        "tense": "past"
+                    },
+                    "text": "filed",
+                    "normalized": "file"
+                }
+            },
+            {
+                "subject": {
+                    "text": "online"
+                },
+                "sentence": " published online on June 8, 2020.",
+                "action": {
+                    "verb": {
+                        "text": "publish",
+                        "tense": "past"
+                    },
+                    "text": "published",
+                    "normalized": "publish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The patent's assignee for patent number 10,665,297"
+                },
+                "sentence": " The patent's assignee for patent number 10,665,297 is SK Hynix Inc. (Icheon-",
+                "object": {
+                    "text": "SK Hynix Inc. (Icheon-"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "News editors"
+                },
+                "sentence": " News editors obtained the following quote from the background information",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "material)"
+                },
+                "sentence": " material) included in each of memory cells of the PCM devices.",
+                "object": {
+                    "text": "in each of memory cells of the PCM devices"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "past"
+                    },
+                    "text": "included",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "certain memory cell"
+                },
+                "sentence": " certain memory cell may be regarded as a memory cell having a logic 'high(1)'",
+                "object": {
+                    "text": "regarded as a memory cell having a logic 'high(1)'"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "certain memory cell"
+                },
+                "sentence": " certain memory cell may be regarded as a memory cell having a logic 'high(1)'",
+                "object": {
+                    "text": "as a memory cell having a logic 'high(1)'"
+                },
+                "action": {
+                    "verb": {
+                        "text": "regard",
+                        "tense": "future"
+                    },
+                    "text": "may be regarded",
+                    "normalized": "may be regard"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a phase changeable material"
+                },
+                "sentence": " level if a phase changeable material included in the certain memory cell has a",
+                "object": {
+                    "text": "in the certain memory cell"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "past"
+                    },
+                    "text": "included",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the certain memory cell"
+                },
+                "sentence": " crystalline state, and the certain memory cell may be regarded as a memory",
+                "object": {
+                    "text": "regarded as a memory"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the certain memory cell"
+                },
+                "sentence": " crystalline state, and the certain memory cell may be regarded as a memory",
+                "object": {
+                    "text": "as a memory"
+                },
+                "action": {
+                    "verb": {
+                        "text": "regard",
+                        "tense": "future"
+                    },
+                    "text": "may be regarded",
+                    "normalized": "may be regard"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cell"
+                },
+                "sentence": " cell having a logic 'low(0)' level if the phase changeable material included",
+                "object": {
+                    "text": "a logic 'low(0)' level"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an amorphous state"
+                },
+                "sentence": " in the certain memory cell has an amorphous state.",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "devices"
+                },
+                "sentence": " devices may be attractive as a candidate for replacing dynamic random access",
+                "object": {
+                    "text": "attractive"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "may be",
+                    "normalized": "may be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "errors"
+                },
+                "sentence": " be important to detect and verify errors that occur during a write operation",
+                "action": {
+                    "verb": {
+                        "text": "occur",
+                        "tense": "present"
+                    },
+                    "text": "occur",
+                    "normalized": "occur"
+                }
+            },
+            {
+                "subject": {
+                    "text": "An error correction code (ECC) mechanism"
+                },
+                "sentence": " \"An error correction code (ECC) mechanism is widely used to detect and verify",
+                "object": {
+                    "text": "widely used to detect and verify"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "An error correction code (ECC) mechanism"
+                },
+                "sentence": " \"An error correction code (ECC) mechanism is widely used to detect and verify",
+                "object": {
+                    "text": "to detect and verify"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "used",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "data"
+                },
+                "sentence": " is performed in the PCM devices, write data may be changed into a codeword",
+                "object": {
+                    "text": "changed into a codeword"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "data"
+                },
+                "sentence": " is performed in the PCM devices, write data may be changed into a codeword",
+                "object": {
+                    "text": "into a codeword"
+                },
+                "action": {
+                    "verb": {
+                        "text": "change",
+                        "tense": "future"
+                    },
+                    "text": "may be changed",
+                    "normalized": "may be change"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The codeword"
+                },
+                "sentence": " The codeword stored in the memory cells may be",
+                "action": {
+                    "verb": {
+                        "text": "store",
+                        "tense": "past"
+                    },
+                    "text": "stored",
+                    "normalized": "store"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the parity data"
+                },
+                "sentence": " data may be detected using the parity data included in the codeword and the",
+                "object": {
+                    "text": "in the codeword"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "past"
+                    },
+                    "text": "included",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "erroneous data"
+                },
+                "sentence": " erroneous data may be corrected in some cases.\"",
+                "object": {
+                    "text": "corrected"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "erroneous data"
+                },
+                "sentence": " erroneous data may be corrected in some cases.\"",
+                "action": {
+                    "verb": {
+                        "text": "correct",
+                        "tense": "future"
+                    },
+                    "text": "may be corrected",
+                    "normalized": "may be correct"
+                }
+            },
+            {
+                "subject": {
+                    "text": "correspondents"
+                },
+                "sentence": " correspondents also obtained the inventors' summary information for this",
+                "object": {
+                    "text": "the inventors' summary information for this"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "patent"
+                },
+                "sentence": " patent: \"According to an embodiment, there is provided a memory system.",
+                "object": {
+                    "text": "to an embodiment"
+                },
+                "action": {
+                    "verb": {
+                        "text": "According",
+                        "tense": "present"
+                    },
+                    "text": "According",
+                    "normalized": "According"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a memory device and a memory controller"
+                },
+                "sentence": " memory system includes a memory device and a memory controller.",
+                "object": {
+                    "text": "memory system"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "device"
+                },
+                "sentence": " device has a plurality of memory regions.",
+                "object": {
+                    "text": "a plurality of memory regions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a first memory region"
+                },
+                "sentence": " to generate a read command for a first memory region corresponding to one of",
+                "object": {
+                    "text": "to one of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the first memory region"
+                },
+                "sentence": " generated for the first memory region reaches a reference value.",
+                "object": {
+                    "text": "a reference value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reach",
+                        "tense": "present"
+                    },
+                    "text": "reaches",
+                    "normalized": "reach"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a memory device and a memory controller"
+                },
+                "sentence": " system includes a memory device and a memory controller.",
+                "object": {
+                    "text": "system"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The memory controller"
+                },
+                "sentence": " The memory controller is configured to generate",
+                "object": {
+                    "text": "configured to generate"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "data"
+                },
+                "sentence": " a read command for data stored in a first memory region corresponding to one",
+                "action": {
+                    "verb": {
+                        "text": "store",
+                        "tense": "past"
+                    },
+                    "text": "stored",
+                    "normalized": "store"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a read command for data stored in a first memory region"
+                },
+                "sentence": " a read command for data stored in a first memory region corresponding to one",
+                "object": {
+                    "text": "to one"
+                },
+                "action": {
+                    "verb": {
+                        "text": "correspond",
+                        "tense": "present"
+                    },
+                    "text": "corresponding",
+                    "normalized": "correspond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "memory region"
+                },
+                "sentence": " memory region is generated from a point of time that the number of the write",
+                "object": {
+                    "text": "generated from a point of time"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "from a point of time that the number of the write"
+                },
+                "sentence": " memory region is generated from a point of time that the number of the write",
+                "object": {
+                    "text": "memory region"
+                },
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "past"
+                    },
+                    "text": "is generated",
+                    "normalized": "be generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "command"
+                },
+                "sentence": " command repeatedly generated for the first memory region is equal to or",
+                "object": {
+                    "text": "for the first memory region"
+                },
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "past"
+                    },
+                    "text": "generated",
+                    "normalized": "generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "command repeatedly generated for the first memory region"
+                },
+                "sentence": " command repeatedly generated for the first memory region is equal to or",
+                "object": {
+                    "text": "equal to or"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "system"
+                },
+                "sentence": " system including a memory device having a plurality of memory regions.",
+                "object": {
+                    "text": "a memory device having a plurality of memory regions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "counting a current write counting value for a first memory"
+                },
+                "sentence": " method includes counting a current write counting value for a first memory",
+                "object": {
+                    "text": "method"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "value"
+                },
+                "sentence": " value is compared with a reference value, and a read command for the first",
+                "object": {
+                    "text": "compared with a reference value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "value"
+                },
+                "sentence": " value is compared with a reference value, and a read command for the first",
+                "object": {
+                    "text": "with a reference value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "compare",
+                        "tense": "past"
+                    },
+                    "text": "is compared",
+                    "normalized": "be compare"
+                }
+            },
+            {
+                "subject": {
+                    "text": "memory region"
+                },
+                "sentence": " memory region is generated when the updated write counting value reaches a",
+                "object": {
+                    "text": "generated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "memory region"
+                },
+                "sentence": " memory region is generated when the updated write counting value reaches a",
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "past"
+                    },
+                    "text": "is generated",
+                    "normalized": "be generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the updated"
+                },
+                "sentence": " memory region is generated when the updated write counting value reaches a",
+                "object": {
+                    "text": "counting value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "write",
+                        "tense": "present"
+                    },
+                    "text": "write",
+                    "normalized": "write"
+                }
+            },
+            {
+                "subject": {
+                    "text": "system"
+                },
+                "sentence": " system including a memory device having a plurality of memory regions.",
+                "object": {
+                    "text": "a memory device having a plurality of memory regions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "counting a current write counting value for a first memory"
+                },
+                "sentence": " method includes counting a current write counting value for a first memory",
+                "object": {
+                    "text": "method"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "value"
+                },
+                "sentence": " value is compared with a reference value, and a read command for the first",
+                "object": {
+                    "text": "compared with a reference value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "value"
+                },
+                "sentence": " value is compared with a reference value, and a read command for the first",
+                "object": {
+                    "text": "with a reference value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "compare",
+                        "tense": "past"
+                    },
+                    "text": "is compared",
+                    "normalized": "be compare"
+                }
+            },
+            {
+                "subject": {
+                    "text": "memory region"
+                },
+                "sentence": " memory region is generated whenever the write command for the first memory",
+                "object": {
+                    "text": "generated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "memory region"
+                },
+                "sentence": " memory region is generated whenever the write command for the first memory",
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "past"
+                    },
+                    "text": "is generated",
+                    "normalized": "be generate"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.996294,
+                "label": "/technology and computing/hardware/computer components/memory"
+            },
+            {
+                "score": 0.907652,
+                "label": "/technology and computing/hardware/computer components/chips and processors"
+            },
+            {
+                "score": 0.880805,
+                "label": "/technology and computing/hardware/computer peripherals"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.499015,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.942277,
+                "arguments": [
+                    {
+                        "text": "Shin",
+                        "location": [
+                            267,
+                            271
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Shin"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "inventors",
+                        "location": [
+                            180,
+                            189
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inventors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.913624,
+                "arguments": [
+                    {
+                        "text": "Icheon-si",
+                        "location": [
+                            204,
+                            213
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Icheon-si"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "South Korea",
+                        "location": [
+                            215,
+                            226
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "South Korea",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.921666,
+                "arguments": [
+                    {
+                        "text": "Icheon-si",
+                        "location": [
+                            325,
+                            334
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Icheon-si"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "South Korea",
+                        "location": [
+                            336,
+                            347
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "South Korea",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.875538,
+                "arguments": [
+                    {
+                        "text": "Jung Hyun",
+                        "location": [
+                            235,
+                            244
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jung Hyun"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Seoul",
+                        "location": [
+                            246,
+                            251
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Seoul"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.757607,
+                "arguments": [
+                    {
+                        "text": "Seoul",
+                        "location": [
+                            246,
+                            251
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Seoul"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "South Korea",
+                        "location": [
+                            253,
+                            264
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "South Korea",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.432783,
+                "arguments": [
+                    {
+                        "text": "Shin",
+                        "location": [
+                            267,
+                            271
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Shin"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "South Korea",
+                        "location": [
+                            293,
+                            304
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "South Korea",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.748043,
+                "arguments": [
+                    {
+                        "text": "Won Gyu",
+                        "location": [
+                            273,
+                            280
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Won Gyu"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Icheon-si",
+                        "location": [
+                            282,
+                            291
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Icheon-si"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.955297,
+                "arguments": [
+                    {
+                        "text": "Icheon-si",
+                        "location": [
+                            282,
+                            291
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Icheon-si"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "South Korea",
+                        "location": [
+                            293,
+                            304
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "South Korea",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.75233,
+                "arguments": [
+                    {
+                        "text": "Seung Gyu",
+                        "location": [
+                            314,
+                            323
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Seung Gyu"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Icheon-si",
+                        "location": [
+                            325,
+                            334
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Icheon-si"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.343067,
+                "arguments": [
+                    {
+                        "text": "Seung Gyu",
+                        "location": [
+                            314,
+                            323
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Seung Gyu"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "South Korea",
+                        "location": [
+                            336,
+                            347
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "South Korea",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "The patent's assignee for patent number 10,665,297 is SK Hynix Inc. (Icheon- si, Gyeonggi-do, South Korea).",
+                "score": 0.455276,
+                "arguments": [
+                    {
+                        "text": "SK Hynix Inc.",
+                        "location": [
+                            471,
+                            484
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "SK Hynix Inc.",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Icheon-\nsi",
+                        "location": [
+                            486,
+                            496
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Icheon-\nsi",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.82909,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Information\nTechnology Business Daily \\",
+                        "location": [
+                            64,
+                            103
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Information\nTechnology Business Daily \\",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's assignee for patent number 10,665,297 is SK Hynix Inc. (Icheon- si, Gyeonggi-do, South Korea).",
+                "score": 0.485777,
+                "arguments": [
+                    {
+                        "text": "Icheon-\nsi",
+                        "location": [
+                            486,
+                            496
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Icheon-\nsi",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Gyeonggi-do",
+                        "location": [
+                            498,
+                            509
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Gyeonggi-do"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's assignee for patent number 10,665,297 is SK Hynix Inc. (Icheon- si, Gyeonggi-do, South Korea).",
+                "score": 0.984107,
+                "arguments": [
+                    {
+                        "text": "Gyeonggi-do",
+                        "location": [
+                            498,
+                            509
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Gyeonggi-do"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "South Korea",
+                        "location": [
+                            511,
+                            522
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "South Korea",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "News editors obtained the following quote from the background information supplied by the inventors: \"Various embodiments of the present disclosure generally relate to memory systems and, more particularly, to memory systems and methods of operating the memory systems.",
+                "score": 0.75598,
+                "arguments": [
+                    {
+                        "text": "editors",
+                        "location": [
+                            531,
+                            538
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "editors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "quote",
+                        "location": [
+                            562,
+                            567
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "report"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Thus, the PCM devices may be attractive as a candidate for replacing dynamic random access memory (DRAM) devices in computers or other digital systems.",
+                "score": 0.616213,
+                "arguments": [
+                    {
+                        "text": "candidate",
+                        "location": [
+                            1597,
+                            1606
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "controller"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "replacing",
+                        "location": [
+                            1611,
+                            1620
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPersonnel",
+                                "text": "replacing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "As a supplement to the background information on this patent, NewsRx correspondents also obtained the inventors' summary information for this patent: \"According to an embodiment, there is provided a memory system.",
+                "score": 0.454993,
+                "arguments": [
+                    {
+                        "text": "correspondents",
+                        "location": [
+                            2960,
+                            2974
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "correspondents"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            2953,
+                            2959
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "A memory system comprising: a memory device having a plurality of memory regions; and a memory controller configured to generate a read command for data stored in a first memory region corresponding to one of the plurality of memory regions whenever a write command for the first memory region is generated from a point of time that a number of the write command repeatedly generated for the first memory region is equal to or greater than a reference value, wherein the memory controller includes: a command processing circuit configured to process a command outputted from a host and configured to generate the read command for the first memory region regardless of the host in response to a read command generation control signal;",
+                "score": 0.659753,
+                "arguments": [
+                    {
+                        "text": "command",
+                        "location": [
+                            9678,
+                            9685
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "command"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "region",
+                        "location": [
+                            9707,
+                            9713
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "regions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "A memory system comprising: a memory device having a plurality of memory regions; and a memory controller configured to generate a read command for data stored in a first memory region corresponding to one of the plurality of memory regions whenever a write command for the first memory region is generated from a point of time that a number of the write command repeatedly generated for the first memory region is equal to or greater than a reference value, wherein the memory controller includes: a command processing circuit configured to process a command outputted from a host and configured to generate the read command for the first memory region regardless of the host in response to a read command generation control signal;",
+                "score": 0.810841,
+                "arguments": [
+                    {
+                        "text": "controller",
+                        "location": [
+                            9898,
+                            9908
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "controller"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "command",
+                        "location": [
+                            9921,
+                            9928
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "command"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "A memory system comprising: a memory device having a plurality of memory regions; and a memory controller configured to generate a read command for data stored in a first memory region corresponding to one of the plurality of memory regions whenever a write command for the first memory region is generated from a point of time that a number of the write command repeatedly generated for the first memory region is equal to or greater than a reference value, wherein the memory controller includes: a command processing circuit configured to process a command outputted from a host and configured to generate the read command for the first memory region regardless of the host in response to a read command generation control signal;",
+                "score": 0.446374,
+                "arguments": [
+                    {
+                        "text": "generation",
+                        "location": [
+                            10127,
+                            10137
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "generation"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "region",
+                        "location": [
+                            10067,
+                            10073
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "regions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "A memory system comprising: a memory device having a plurality of memory regions; and a memory controller configured to generate a read command for data stored in a first memory region corresponding to one of the plurality of memory regions whenever a write command for the first memory region is generated from a point of time that a number of the write command repeatedly generated for the first memory region is equal to or greater than a reference value, wherein the memory controller includes: a command processing circuit configured to process a command outputted from a host and configured to generate the read command for the first memory region regardless of the host in response to a read command generation control signal;",
+                "score": 0.862339,
+                "arguments": [
+                    {
+                        "text": "generation",
+                        "location": [
+                            10127,
+                            10137
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "generation"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "command",
+                        "location": [
+                            10119,
+                            10126
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "command"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "and a write counting circuit configured to output the read command generation control signal to the command processing circuit whenever the write command for the first memory region is generated when the number of the write command repeatedly generated for the first memory region is equal to or greater than the reference value.",
+                "score": 0.869122,
+                "arguments": [
+                    {
+                        "text": "generation",
+                        "location": [
+                            10221,
+                            10231
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "generation"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "command",
+                        "location": [
+                            10213,
+                            10220
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "command"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The memory system of claim 11, wherein the command processing circuit includes a read command generator that receives the read command generation control signal and an address of the first memory region from the write counting circuit to generate the read command for the first memory region.",
+                "score": 0.876029,
+                "arguments": [
+                    {
+                        "text": "generation",
+                        "location": [
+                            10959,
+                            10969
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "generation"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "command",
+                        "location": [
+                            10951,
+                            10958
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "command"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "and a write counting value checker configured to compare the updated write counting value with the reference value and configured to output the read command generation control signal for the first memory region to the command processing circuit when the updated write counting value is equal to or greater than the reference value.",
+                "score": 0.881484,
+                "arguments": [
+                    {
+                        "text": "generation",
+                        "location": [
+                            12243,
+                            12253
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "generation"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "command",
+                        "location": [
+                            12235,
+                            12242
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "command"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "U.S. Patent Number 10,665,297, filed December 28, 2018, and published online on June 8, 2020.",
+                "score": 0.977206,
+                "arguments": [
+                    {
+                        "text": "December\n28, 2018",
+                        "location": [
+                            13223,
+                            13240
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "December\n28, 2018"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            13217,
+                            13222
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.509344,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "report",
+                        "location": [
+                            152,
+                            158
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "report"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.403095,
+                "arguments": [
+                    {
+                        "text": "Information\nTechnology Business Daily \\",
+                        "location": [
+                            64,
+                            103
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Information\nTechnology Business Daily \\",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Alexandria",
+                        "location": [
+                            111,
+                            121
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alexandria"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.944616,
+                "arguments": [
+                    {
+                        "text": "Alexandria",
+                        "location": [
+                            111,
+                            121
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alexandria"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Virginia",
+                        "location": [
+                            123,
+                            131
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Virginia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.8783,
+                "arguments": [
+                    {
+                        "text": "Virginia",
+                        "location": [
+                            123,
+                            131
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Virginia"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            133,
+                            139
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "NewsRx"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.464038,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            140,
+                            151
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            133,
+                            139
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "NewsRx"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.939459,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            140,
+                            151
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "report",
+                        "location": [
+                            152,
+                            158
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "report"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Information Technology Business Daily \\-- From Alexandria, Virginia, NewsRx journalists report that a patent by the inventors Hong, Do-Sun (Icheon-si, South Korea); Kwon, Jung Hyun (Seoul, South Korea); Shin, Won Gyu (Icheon-si, South Korea); Jeong, Seung Gyu (Icheon-si, South Korea), filed on December 28, 2018, was published online on June 8, 2020.",
+                "score": 0.633263,
+                "arguments": [
+                    {
+                        "text": "Jung Hyun",
+                        "location": [
+                            235,
+                            244
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jung Hyun"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "inventors",
+                        "location": [
+                            180,
+                            189
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inventors"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "memory systems",
+                "relevance": 0.87317,
+                "count": 5
+            },
+            {
+                "text": "number of write cycles of the PCM devices",
+                "relevance": 0.691264,
+                "count": 1
+            },
+            {
+                "text": "read command",
+                "relevance": 0.636417,
+                "count": 11
+            },
+            {
+                "text": "current write counting value",
+                "relevance": 0.635097,
+                "count": 8
+            },
+            {
+                "text": "reference value",
+                "relevance": 0.618665,
+                "count": 12
+            },
+            {
+                "text": "plurality of memory regions",
+                "relevance": 0.616418,
+                "count": 13
+            },
+            {
+                "text": "first memory region",
+                "relevance": 0.602351,
+                "count": 23
+            },
+            {
+                "text": "phase change memory",
+                "relevance": 0.600357,
+                "count": 2
+            },
+            {
+                "text": "memory cells of the PCM devices",
+                "relevance": 0.593623,
+                "count": 1
+            },
+            {
+                "text": "command processing circuit",
+                "relevance": 0.583422,
+                "count": 4
+            },
+            {
+                "text": "read operation of the PCM devices",
+                "relevance": 0.579774,
+                "count": 1
+            },
+            {
+                "text": "Logic levels of data",
+                "relevance": 0.574562,
+                "count": 1
+            },
+            {
+                "text": "patent number",
+                "relevance": 0.562962,
+                "count": 1
+            },
+            {
+                "text": "number of write commands",
+                "relevance": 0.562498,
+                "count": 2
+            },
+            {
+                "text": "background information",
+                "relevance": 0.560443,
+                "count": 2
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.558201,
+                "count": 1
+            },
+            {
+                "text": "memory cell",
+                "relevance": 0.551693,
+                "count": 5
+            },
+            {
+                "text": "write operation",
+                "relevance": 0.547554,
+                "count": 2
+            },
+            {
+                "text": "updated write counting value",
+                "relevance": 0.546384,
+                "count": 10
+            },
+            {
+                "text": "memory cells",
+                "relevance": 0.545351,
+                "count": 2
+            },
+            {
+                "text": "memory controller",
+                "relevance": 0.54418,
+                "count": 10
+            },
+            {
+                "text": "digital systems",
+                "relevance": 0.54224,
+                "count": 1
+            },
+            {
+                "text": "patent's assignee",
+                "relevance": 0.541498,
+                "count": 1
+            },
+            {
+                "text": "South Korea",
+                "relevance": 0.539871,
+                "count": 5
+            },
+            {
+                "text": "additional information",
+                "relevance": 0.537877,
+                "count": 1
+            },
+            {
+                "text": "patent",
+                "relevance": 0.52858,
+                "count": 4
+            },
+            {
+                "text": "high operation speed",
+                "relevance": 0.527004,
+                "count": 1
+            },
+            {
+                "text": "probability of error occurrence",
+                "relevance": 0.52642,
+                "count": 1
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.525329,
+                "count": 1
+            },
+            {
+                "text": "write counting circuit",
+                "relevance": 0.525038,
+                "count": 6
+            },
+            {
+                "text": "devices",
+                "relevance": 0.523422,
+                "count": 2
+            },
+            {
+                "text": "write command",
+                "relevance": 0.522616,
+                "count": 5
+            },
+            {
+                "text": "read operation",
+                "relevance": 0.521839,
+                "count": 3
+            },
+            {
+                "text": "claims",
+                "relevance": 0.520692,
+                "count": 1
+            },
+            {
+                "text": "memory system of claim",
+                "relevance": 0.520477,
+                "count": 17
+            },
+            {
+                "text": "inventors Hong",
+                "relevance": 0.518633,
+                "count": 1
+            },
+            {
+                "text": "Various embodiments of the present disclosure",
+                "relevance": 0.517557,
+                "count": 1
+            },
+            {
+                "text": "ECC",
+                "relevance": 0.516236,
+                "count": 6
+            },
+            {
+                "text": "reports",
+                "relevance": 0.516091,
+                "count": 1
+            },
+            {
+                "text": "memory system",
+                "relevance": 0.514605,
+                "count": 5
+            },
+            {
+                "text": "error correction code",
+                "relevance": 0.514574,
+                "count": 3
+            },
+            {
+                "text": "changeable material",
+                "relevance": 0.514559,
+                "count": 4
+            },
+            {
+                "text": "limitation of design",
+                "relevance": 0.514551,
+                "count": 1
+            },
+            {
+                "text": "write counting value storage circuit",
+                "relevance": 0.512866,
+                "count": 8
+            },
+            {
+                "text": "Parser",
+                "relevance": 0.511132,
+                "count": 2
+            },
+            {
+                "text": "parity data",
+                "relevance": 0.510513,
+                "count": 4
+            },
+            {
+                "text": "chalcogenide compound material",
+                "relevance": 0.510265,
+                "count": 1
+            },
+            {
+                "text": "data",
+                "relevance": 0.509906,
+                "count": 7
+            },
+            {
+                "text": "store",
+                "relevance": 0.508417,
+                "count": 2
+            },
+            {
+                "text": "Won Gyu",
+                "relevance": 0.507944,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "19100c32935cfc1d7ca47e3426a5a3d4c7bb9c0d",
+        "filename": "202006050000NEWSRX__VRT_TECH_7FE2F4BE3988C305.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NASDAQ-OTCBB|HXSCL|CUSIP:78392B107;ISIN:US78392B1070|SK Hynix Inc.|extractor|DUNS:687761023;NECOID:853343468;ACORN:0842343468|SIGNIFICANT|ADRTICKER=NASDAQ-OTCBB:HXSCL||ADR|XOTC|SYNONYM",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Patent Issued for Memory Systems For Memory Devices And Methods Of Operating The Memory Systems (USPTO 10,665,297): SK Hynix Inc.",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at <org>Information Technology Business Daily</org> -- From <location idsrc=\"xmltag.org\" value=\"LU/us.va.alxdra\">Alexandria, Virginia</location>, NewsRx journalists report that a patent by the inventors Hong, <org>Do-Sun</org> (Icheon-si, <location idsrc=\"xmltag.org\" value=\"LC/kr\">South Korea</location>); Kwon, <person>Jung Hyun</person> (<location idsrc=\"xmltag.org\" value=\"LU/kr..seoul\">Seoul, South Korea</location>); Shin, <person>Won Gyu</person> (Icheon-si, <location idsrc=\"xmltag.org\" value=\"LC/kr\">South Korea</location>); Jeong, <person>Seung Gyu</person> (Icheon-si, <location idsrc=\"xmltag.org\" value=\"LC/kr\">South Korea</location>), filed on <chron>December 28, 2018</chron>, was published online on <chron>June 8, 2020</chron>.</p>\n<p>The patent&#8217;s assignee for patent number 10,665,297 is <org idsrc=\"xmltag.org\" value=\"Korea:000660\">SK Hynix Inc.</org> (Icheon-si, Gyeonggi-do, <location idsrc=\"xmltag.org\" value=\"LC/kr\">South Korea</location>).</p>\n<p>News editors obtained the following quote from the background information supplied by the inventors: &#8220;Various embodiments of the present disclosure generally relate to memory systems and, more particularly, to memory systems and methods of operating the memory systems.</p>\n<p>&#8220;Logic levels of data stored in phase change memory (PCM) devices may be determined according to a phase state of a phase changeable material (e.g., a chalcogenide compound material such as a germanium-stibium-tellurium (GST) material) included in each of memory cells of the PCM devices. For example, a certain memory cell may be regarded as a memory cell having a logic &#8216;high(1)&#8217; level if a phase changeable material included in the certain memory cell has a crystalline state, and the certain memory cell may be regarded as a memory cell having a logic &#8216;low(0)&#8217; level if the phase changeable material included in the certain memory cell has an amorphous state. The PCM devices exhibit a relatively high operation speed with a high integration density. Thus, the PCM devices may be attractive as a candidate for replacing dynamic random access memory (DRAM) devices in computers or other digital systems. The PCM devices may have a limited lifetime and a limited durability like other nonvolatile memory devices. In particular, the number of write cycles of the PCM devices may be restricted due to a characteristic of the phase changeable material and limitation of design, and the probability of error occurrence may increase as the number of write cycles of the PCM devices increases. Accordingly, it may be important to detect and verify errors that occur during a write operation and a read operation of the PCM devices.</p>\n<p>&#8220;An error correction code (ECC) mechanism is widely used to detect and verify the errors that occur while the PCM devices operate. While the write operation is performed in the PCM devices, write data may be changed into a codeword including parity data by an ECC encoding operation and the codeword may be stored into the memory cells. The codeword stored in the memory cells may be restored into a shape of the original data by an ECC decoding operation while the read operation is performed, During the ECC decoding operation, erroneous data may be detected using the parity data included in the codeword and the erroneous data may be corrected in some cases.&#8221;</p>\n<p>As a supplement to the background information on this patent, NewsRx correspondents also obtained the inventors&#8217; summary information for this patent: &#8220;According to an embodiment, there is provided a memory system. The memory system includes a memory device and a memory controller. The memory device has a plurality of memory regions. The memory controller is configured to generate a read command for a first memory region corresponding to one of the plurality of memory regions when the number of write commands successively generated for the first memory region reaches a reference value.</p>\n<p>&#8220;According to an embodiment, there is provided a memory system. The memory system includes a memory device and a memory controller. The memory device has a plurality of memory regions. The memory controller is configured to generate a read command for data stored in a first memory region corresponding to one of the plurality of memory regions whenever a write command for the first memory region is generated from a point of time that the number of the write command repeatedly generated for the first memory region is equal to or greater than a reference value.</p>\n<p>&#8220;According to an embodiment, there is provided a method of operating a memory system including a memory device having a plurality of memory regions. The method includes counting a current write counting value for a first memory region corresponding to one of the plurality of memory regions to change the current write counting value into an updated write counting value when a write command for the first memory region is generated. The updated write counting value is compared with a reference value, and a read command for the first memory region is generated when the updated write counting value reaches a reference value.</p>\n<p>&#8220;According to an embodiment, there is provided a method of operating a memory system including a memory device having a plurality of memory regions. The method includes counting a current write counting value for a first memory region corresponding to one of the plurality of memory regions to change the current write counting value into an updated write counting value when a write command for the first memory region is generated. The updated write counting value is compared with a reference value, and a read command for the first memory region is generated whenever the write command for the first memory region is generated from a point of time that the updated write counting value is equal to or greater than a reference value.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;What is claimed is:</p>\n<p>&#8220;1. A memory system comprising: a memory device having a plurality of memory regions; and a memory controller configured to generate a read command for a first memory region corresponding to one of the plurality of memory regions when a number of write commands successively generated for the first memory region reaches a reference value, wherein the memory controller includes: a command processing circuit configured to process a command outputted from a host and configured to generate the read command for the first memory region regardless of the host in response to a read command generation control signal; and a write counting circuit configured to output the read command generation control signal to the command processing circuit when the number of the write commands successively generated for the first memory region reaches the reference value.</p>\n<p>&#8220;2. The memory system of claim 1, wherein the memory device includes a phase change memory (PCM) device.</p>\n<p>&#8220;3. The memory system of claim 1, wherein the plurality of memory regions include a plurality of memory blocks.</p>\n<p>&#8220;4. The memory system of claim 1, wherein the plurality of memory regions include a plurality of pages.</p>\n<p>&#8220;5. The memory system of claim 1, wherein the command processing circuit includes a read command generator that receives the read command generation control signal and an address of the first memory region from the write counting circuit to generate the read command for the first memory region.</p>\n<p>&#8220;6. The memory system of claim 1, wherein the command processing circuit transmits both of the command and an address of the first memory region to the write counting circuit and the memory device when the command is generated by the host.</p>\n<p>&#8220;7. The memory system of claim 1, wherein the write counting circuit includes: a write counting value storage circuit configured to store a counted value of the write commands successively generated for each of the memory regions and configured to change and store a current write counting value for the first memory region into an updated write counting value when the write command for the first memory region is transmitted from the command processing circuit to the write counting value storage circuit; a write counter configured to count the current write counting value outputted from the write counting value storage circuit to generate and output the updated write counting value to the write counting value storage circuit; and a write counting value checker configured to compare the updated write counting value with the reference value and configured to output the read command generation control signal for the first memory region to the command processing circuit when the updated write counting value is equal to the reference value.</p>\n<p>&#8220;8. The memory system of claim 7, wherein the write counting circuit further includes a write counting value reset circuit that outputs a reset signal for the first memory region when the read command for the first memory region is transmitted from the command processing circuit to the write counting value reset circuit; and wherein the write counting value storage circuit is configured to reset a write counting value for the first memory region when the reset signal is transmitted from the write counting value reset circuit to the write counting value storage circuit.</p>\n<p>&#8220;9. The memory system of claim 1, wherein the memory controller further includes an error correction code (ECC) circuit that detects and corrects erroneous data during a read operation of the memory device.</p>\n<p>&#8220;10. The memory system of claim 9, wherein the ECC circuit includes: an ECC encoder configured to generate codeword-type write data including original write data and parity data during a write operation of the memory device; and an ECC decoder configured to detect and correct codeword-type read data outputted from the memory device during the read operation.</p>\n<p>&#8220;11. A memory system comprising: a memory device having a plurality of memory regions; and a memory controller configured to generate a read command for data stored in a first memory region corresponding to one of the plurality of memory regions whenever a write command for the first memory region is generated from a point of time that a number of the write command repeatedly generated for the first memory region is equal to or greater than a reference value, wherein the memory controller includes: a command processing circuit configured to process a command outputted from a host and configured to generate the read command for the first memory region regardless of the host in response to a read command generation control signal; and a write counting circuit configured to output the read command generation control signal to the command processing circuit whenever the write command for the first memory region is generated when the number of the write command repeatedly generated for the first memory region is equal to or greater than the reference value.</p>\n<p>&#8220;12. The memory system of claim 11, wherein the memory device includes a phase change memory (PCM) device.</p>\n<p>&#8220;13. The memory system of claim 11, wherein the plurality of memory regions include a plurality of memory blocks.</p>\n<p>&#8220;14. The memory system of claim 11, wherein the plurality of memory regions include a plurality of pages.</p>\n<p>&#8220;15. The memory system of claim 11, wherein the command processing circuit includes a read command generator that receives the read command generation control signal and an address of the first memory region from the write counting circuit to generate the read command for the first memory region.</p>\n<p>&#8220;16. The memory system of claim 11, wherein the command processing circuit transmits both of the command and an address of the first memory region to the write counting circuit and the memory device when the command is generated by the host.</p>\n<p>&#8220;17. The memory system of claim 11, wherein the write counting circuit includes: a write counting value storage circuit configured to store a counted value of the write commands generated for each of the memory regions and configured to change and store a current write counting value for the first memory region into an updated write counting value when the write command for the first memory region is transmitted from the command processing circuit to the write counting value storage circuit; a write counter configured to count the current write counting value outputted from the write counting value storage circuit to generate and output the updated write counting value to the write counting value storage circuit; and a write counting value checker configured to compare the updated write counting value with the reference value and configured to output the read command generation control signal for the first memory region to the command processing circuit when the updated write counting value is equal to or greater than the reference value.</p>\n<p>&#8220;18. The memory system of claim 11, wherein the memory controller further includes an error correction code (ECC) circuit that detects and corrects erroneous data during a read operation of the memory device.</p>\n<p>&#8220;19. The memory system of claim 18, wherein the ECC circuit includes: an ECC encoder configured to generate codeword-type write data including original write data and parity data during a write operation of the memory device; and an ECC decoder configured to detect and correct codeword-type read data outputted from the memory device during the read operation.&#8221;</p>\n<p>For additional information on this patent, see: Hong, <org>Do-Sun</org>; Kwon, <person>Jung Hyun</person>; Shin, <person>Won Gyu</person>; Jeong, <person>Seung Gyu</person>. Memory Systems For Memory Devices And Methods Of Operating The Memory Systems. <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> Patent Number 10,665,297, filed <chron>December 28, 2018</chron>, and published online on <chron>June 8, 2020</chron>. Patent URL: <a href=\"http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,665,297.PN.&amp;OS=PN/10,665,297RS=PN/10,665,297\" target=\"_blank\">http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,665,297.PN.&amp;OS=PN/10,665,297RS=PN/10,665,297</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

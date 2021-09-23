@@ -1,0 +1,1571 @@
+{
+    "id": "768ab945-5126-4540-b59a-f77c8e51bb7d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, Mayo Free Press, The / CNHI, LLC. All Rights Reserved.",
+    "geoOrigin": "Mayo, Florida",
+    "sourceType": "Newspaper",
+    "source": "Mayo Free Press, The (FL)",
+    "corpus_document_id": "67271105632517385656",
+    "description": "JASPER- Ten new confirmed cases of the COVID-19 coronavirus were announced Saturday in Hamilton County by the Florida Department of Health, raising the county's total to 230 known cases. Hamilton Correctional Institution still has 201 cases in inmates with six staff members having tested positive as well, according to data from the Florida Department of...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#75#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "JASPER - Ten new confirmed cases of the COVID-19 coronavirus were announced\nSaturday in Hamilton County by the Florida Department of Health, raising the\ncounty's total to 230 known cases.\n\nThe new cases involve three 17-year-old males, a 16-year-old female, a\n54-year-old male, a 36-year-old male, a 24-year-old male, a 20-year-old\nfemale, a 40-year-old male and a 24-year-old.\n\nHamilton Correctional Institution still has 201 cases in inmates with six\nstaff members having tested positive as well, according to data from the\nFlorida Department of Corrections. One test is still pending, while 1,085\ntests of inmates at Hamilton CI have returned negative.\n\nTotal, there have been 2,037 tests conducted in Hamilton County with 1,806\nnegative results, an 11.3 positive test rate.\n\nSuwannee County had an additional case confirmed Saturday, too, a 76-year-old\nmale who is currently hospitalized. It is the county's 167th known case with\n39 hospitalizations and 18 deaths.\n\nAccording to the health department, Suwannee Health and Rehabilitation Center\nis the lone long-term care facility with positive cases as of Friday\nafternoon. Suwannee Health has 52 positive residents, 33 of which have been\ntransferred out of the facility, and one positive staff member.\n\nIn all, 119 of the county's cases were staff and residents of long-term care\nfacilities\n\nThere have been 2,392 people tested in Suwannee County with 2,223 negative\nresults, a 7% positive test rate.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "9",
+            "description": "Corrections",
+            "code": "II/gov.correct#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "9",
+            "description": "Government Services",
+            "code": "II/gov.govserve#9#50#99",
+            "level": 1
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Florida Department of Health",
+            "Hamilton Correctional Institution",
+            "Florida Department of Corrections",
+            "Suwannee Health and Rehabilitation Center",
+            "Suwannee Health"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "Hamilton Correctional Institution",
+            "Florida Department of Health",
+            "Florida Department of Corrections",
+            "Suwannee Health and Rehabilitation Center",
+            "Suwannee Health"
+        ]
+    },
+    "geoOrigin_code": "RU/us.fl.mayo",
+    "language": "English",
+    "filename": "202005300000NEWSBANKNEWSPPRSA42125A52391534F790BAF13B4CB7D2.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 7,
+                "sentiment": {
+                    "score": -0.391803,
+                    "label": "negative"
+                },
+                "text": "Hamilton County",
+                "relevance": 0.953335,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.611743,
+                    "label": "positive"
+                },
+                "text": "Suwannee Health and Rehabilitation Center",
+                "relevance": 0.501828,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Florida Department of Health",
+                "relevance": 0.334855,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Florida Department of Health",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Florida_Department_of_Health"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hamilton Correctional Institution",
+                "relevance": 0.320321,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Florida Department of Corrections",
+                "relevance": 0.283392,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentAgency"
+                    ],
+                    "name": "Florida Department of Corrections",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Florida_Department_of_Corrections"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "24-year",
+                "relevance": 0.283392,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "three 17-year",
+                "relevance": 0.283392,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "16-year",
+                "relevance": 0.283392,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "20-year",
+                "relevance": 0.283392,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "36-year",
+                "relevance": 0.283392,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "40-year",
+                "relevance": 0.283392,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "54-year",
+                "relevance": 0.283392,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "76-year",
+                "relevance": 0.283392,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "7%",
+                "relevance": 0.283392,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Ten new"
+                },
+                "sentence": "JASPER - Ten new confirmed cases of the COVID-19 coronavirus were announced",
+                "object": {
+                    "text": "cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "confirm",
+                        "tense": "past"
+                    },
+                    "text": "confirmed",
+                    "normalized": "confirm"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Saturday in Hamilton County by the Florida Department of Health"
+                },
+                "sentence": " Saturday in Hamilton County by the Florida Department of Health, raising the",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "raise",
+                        "tense": "present"
+                    },
+                    "text": "raising",
+                    "normalized": "raise"
+                }
+            },
+            {
+                "subject": {
+                    "text": "three 17-year-old males, a 16-year-old female, a"
+                },
+                "sentence": " The new cases involve three 17-year-old males, a 16-year-old female, a",
+                "object": {
+                    "text": "The new cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "involve",
+                        "tense": "present"
+                    },
+                    "text": "involve",
+                    "normalized": "involve"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Hamilton Correctional Institution"
+                },
+                "sentence": " Hamilton Correctional Institution still has 201 cases in inmates with six",
+                "object": {
+                    "text": "201 cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "staff members"
+                },
+                "sentence": " staff members having tested positive as well, according to data from the",
+                "object": {
+                    "text": "tested positive as well"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "staff members"
+                },
+                "sentence": " staff members having tested positive as well, according to data from the",
+                "object": {
+                    "text": "positive"
+                },
+                "action": {
+                    "verb": {
+                        "text": "test",
+                        "tense": "past"
+                    },
+                    "text": "having tested",
+                    "normalized": "have test"
+                }
+            },
+            {
+                "subject": {
+                    "text": "staff members"
+                },
+                "sentence": " staff members having tested positive as well, according to data from the",
+                "object": {
+                    "text": "to data from the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "One test"
+                },
+                "sentence": " One test is still pending, while 1,085",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "One test"
+                },
+                "sentence": " One test is still pending, while 1,085",
+                "action": {
+                    "verb": {
+                        "text": "pending",
+                        "tense": "present"
+                    },
+                    "text": "pending",
+                    "normalized": "pending"
+                }
+            },
+            {
+                "subject": {
+                    "text": "tests of inmates at Hamilton CI"
+                },
+                "sentence": " tests of inmates at Hamilton CI have returned negative.",
+                "object": {
+                    "text": "negative"
+                },
+                "action": {
+                    "verb": {
+                        "text": "return",
+                        "tense": "past"
+                    },
+                    "text": "have returned",
+                    "normalized": "have return"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Total"
+                },
+                "sentence": " Total, there have been 2,037 tests conducted in Hamilton County with 1,806",
+                "object": {
+                    "text": "2,037 tests conducted in Hamilton County with 1,806"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "have been",
+                    "normalized": "have be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "2,037 tests"
+                },
+                "sentence": " Total, there have been 2,037 tests conducted in Hamilton County with 1,806",
+                "action": {
+                    "verb": {
+                        "text": "conduct",
+                        "tense": "past"
+                    },
+                    "text": "conducted",
+                    "normalized": "conduct"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Suwannee County"
+                },
+                "sentence": " Suwannee County had an additional case confirmed Saturday, too, a 76-year-old",
+                "object": {
+                    "text": "an additional case"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Suwannee County had an additional case"
+                },
+                "sentence": " Suwannee County had an additional case confirmed Saturday, too, a 76-year-old",
+                "object": {
+                    "text": "Saturday, too, a 76-year-old"
+                },
+                "action": {
+                    "verb": {
+                        "text": "confirm",
+                        "tense": "past"
+                    },
+                    "text": "confirmed",
+                    "normalized": "confirm"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It is the county's 167th known case with",
+                "object": {
+                    "text": "the county's 167th known case with"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the lone long-term care facility"
+                },
+                "sentence": " is the lone long-term care facility with positive cases as of Friday",
+                "object": {
+                    "text": "with positive cases as of Friday"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "afternoon. Suwannee Health"
+                },
+                "sentence": " afternoon. Suwannee Health has 52 positive residents, 33 of which have been",
+                "object": {
+                    "text": "52 positive residents"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "2,392 people"
+                },
+                "sentence": " There have been 2,392 people tested in Suwannee County with 2,223 negative",
+                "action": {
+                    "verb": {
+                        "text": "test",
+                        "tense": "past"
+                    },
+                    "text": "tested",
+                    "normalized": "test"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.72425,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.696708,
+                "label": "/health and fitness/men's health"
+            },
+            {
+                "score": 0.681561,
+                "label": "/health and fitness/disease/epidemic"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "JASPER - Ten new confirmed cases of the COVID-19 coronavirus were announced Saturday in Hamilton County by the Florida Department of Health, raising the county's total to 230 known cases.",
+                "score": 0.987165,
+                "arguments": [
+                    {
+                        "text": "Saturday",
+                        "location": [
+                            76,
+                            84
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Saturday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            66,
+                            75
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The new cases involve three 17-year-old males, a 16-year-old female, a 54-year-old male, a 36-year-old male, a 24-year-old male, a 20-year-old female, a 40-year-old male and a 24-year-old.",
+                "score": 0.47835,
+                "arguments": [
+                    {
+                        "text": "male",
+                        "location": [
+                            312,
+                            316
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "male"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "20-year-old",
+                        "location": [
+                            320,
+                            331
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "20-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Hamilton Correctional Institution still has 201 cases in inmates with six staff members having tested positive as well, according to data from the Florida Department of Corrections.",
+                "score": 0.37608,
+                "arguments": [
+                    {
+                        "text": "inmates",
+                        "location": [
+                            436,
+                            443
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inmates"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "members",
+                        "location": [
+                            459,
+                            466
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "members"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Hamilton Correctional Institution still has 201 cases in inmates with six staff members having tested positive as well, according to data from the Florida Department of Corrections.",
+                "score": 0.914194,
+                "arguments": [
+                    {
+                        "text": "members",
+                        "location": [
+                            459,
+                            466
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "members"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "staff",
+                        "location": [
+                            453,
+                            458
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "staff"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Hamilton Correctional Institution still has 201 cases in inmates with six staff members having tested positive as well, according to data from the Florida Department of Corrections.",
+                "score": 0.996943,
+                "arguments": [
+                    {
+                        "text": "Department of Corrections",
+                        "location": [
+                            534,
+                            559
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Department of Corrections"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Florida",
+                        "location": [
+                            526,
+                            533
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Florida"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "One test is still pending, while 1,085 tests of inmates at Hamilton CI have returned negative.",
+                "score": 0.522281,
+                "arguments": [
+                    {
+                        "text": "inmates",
+                        "location": [
+                            609,
+                            616
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inmates"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Hamilton CI",
+                        "location": [
+                            620,
+                            631
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Hamilton CI"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Suwannee County had an additional case confirmed Saturday, too, a 76-year-old male who is currently hospitalized.",
+                "score": 0.899886,
+                "arguments": [
+                    {
+                        "text": "Saturday",
+                        "location": [
+                            828,
+                            836
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Saturday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "case",
+                        "location": [
+                            813,
+                            817
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "cases"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Suwannee County had an additional case confirmed Saturday, too, a 76-year-old male who is currently hospitalized.",
+                "score": 0.946522,
+                "arguments": [
+                    {
+                        "text": "male",
+                        "location": [
+                            857,
+                            861
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "male"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "76-year-old",
+                        "location": [
+                            845,
+                            856
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "76-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "It is the county's 167th known case with 39 hospitalizations and 18 deaths.",
+                "score": 0.782721,
+                "arguments": [
+                    {
+                        "text": "county",
+                        "location": [
+                            903,
+                            909
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Suwannee County"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "case",
+                        "location": [
+                            924,
+                            928
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "cases"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "In all, 119 of the county's cases were staff and residents of long-term care facilities",
+                "score": 0.933182,
+                "arguments": [
+                    {
+                        "text": "county",
+                        "location": [
+                            1277,
+                            1283
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Suwannee County"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cases",
+                        "location": [
+                            1286,
+                            1291
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "cases"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "According to the health department, Suwannee Health and Rehabilitation Center is the lone long-term care facility with positive cases as of Friday afternoon.",
+                "score": 0.704405,
+                "arguments": [
+                    {
+                        "text": "Suwannee Health and Rehabilitation Center",
+                        "location": [
+                            1006,
+                            1047
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Suwannee Health and Rehabilitation Center",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cases",
+                        "location": [
+                            1098,
+                            1103
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "cases"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Suwannee Health has 52 positive residents, 33 of which have been transferred out of the facility, and one positive staff member.",
+                "score": 0.581302,
+                "arguments": [
+                    {
+                        "text": "member",
+                        "location": [
+                            1249,
+                            1255
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "member"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "staff",
+                        "location": [
+                            1243,
+                            1248
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "staff"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "JASPER - Ten new confirmed cases of the COVID-19 coronavirus were announced Saturday in Hamilton County by the Florida Department of Health, raising the county's total to 230 known cases.",
+                "score": 0.457582,
+                "arguments": [
+                    {
+                        "text": "announced",
+                        "location": [
+                            66,
+                            75
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Hamilton County",
+                        "location": [
+                            88,
+                            103
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Hamilton County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "In all, 119 of the county's cases were staff and residents of long-term care facilities",
+                "score": 0.436693,
+                "arguments": [
+                    {
+                        "text": "staff",
+                        "location": [
+                            1297,
+                            1302
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "staff"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cases",
+                        "location": [
+                            1286,
+                            1291
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "cases"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "In all, 119 of the county's cases were staff and residents of long-term care facilities",
+                "score": 0.508362,
+                "arguments": [
+                    {
+                        "text": "residents",
+                        "location": [
+                            1307,
+                            1316
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "residents"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "facilities",
+                        "location": [
+                            1335,
+                            1345
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "facilities"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "There have been 2,392 people tested in Suwannee County with 2,223 negative results, a 7% positive test rate.",
+                "score": 0.592843,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            1369,
+                            1375
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Suwannee County",
+                        "location": [
+                            1386,
+                            1401
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Suwannee County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "JASPER - Ten new confirmed cases of the COVID-19 coronavirus were announced Saturday in Hamilton County by the Florida Department of Health, raising the county's total to 230 known cases.",
+                "score": 0.515441,
+                "arguments": [
+                    {
+                        "text": "Department of Health",
+                        "location": [
+                            119,
+                            139
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Department of Health"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Hamilton County",
+                        "location": [
+                            88,
+                            103
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Hamilton County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "JASPER - Ten new confirmed cases of the COVID-19 coronavirus were announced Saturday in Hamilton County by the Florida Department of Health, raising the county's total to 230 known cases.",
+                "score": 0.974177,
+                "arguments": [
+                    {
+                        "text": "Department of Health",
+                        "location": [
+                            119,
+                            139
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Department of Health"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Florida",
+                        "location": [
+                            111,
+                            118
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Florida"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "The new cases involve three 17-year-old males, a 16-year-old female, a 54-year-old male, a 36-year-old male, a 24-year-old male, a 20-year-old female, a 40-year-old male and a 24-year-old.",
+                "score": 0.495504,
+                "arguments": [
+                    {
+                        "text": "males",
+                        "location": [
+                            229,
+                            234
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "males"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cases",
+                        "location": [
+                            197,
+                            202
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "cases"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The new cases involve three 17-year-old males, a 16-year-old female, a 54-year-old male, a 36-year-old male, a 24-year-old male, a 20-year-old female, a 40-year-old male and a 24-year-old.",
+                "score": 0.846068,
+                "arguments": [
+                    {
+                        "text": "males",
+                        "location": [
+                            229,
+                            234
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "males"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "17-year-old",
+                        "location": [
+                            217,
+                            228
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "17-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The new cases involve three 17-year-old males, a 16-year-old female, a 54-year-old male, a 36-year-old male, a 24-year-old male, a 20-year-old female, a 40-year-old male and a 24-year-old.",
+                "score": 0.891861,
+                "arguments": [
+                    {
+                        "text": "male",
+                        "location": [
+                            272,
+                            276
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "male"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "54-year-old",
+                        "location": [
+                            260,
+                            271
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "54-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The new cases involve three 17-year-old males, a 16-year-old female, a 54-year-old male, a 36-year-old male, a 24-year-old male, a 20-year-old female, a 40-year-old male and a 24-year-old.",
+                "score": 0.891861,
+                "arguments": [
+                    {
+                        "text": "male",
+                        "location": [
+                            292,
+                            296
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "male"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "36-year-old",
+                        "location": [
+                            280,
+                            291
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "36-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The new cases involve three 17-year-old males, a 16-year-old female, a 54-year-old male, a 36-year-old male, a 24-year-old male, a 20-year-old female, a 40-year-old male and a 24-year-old.",
+                "score": 0.907619,
+                "arguments": [
+                    {
+                        "text": "male",
+                        "location": [
+                            312,
+                            316
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "male"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "24-year-old",
+                        "location": [
+                            300,
+                            311
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "24-year-old"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Hamilton County",
+                "relevance": 0.946952,
+                "count": 2
+            },
+            {
+                "text": "staff members",
+                "relevance": 0.735172,
+                "count": 1
+            },
+            {
+                "text": "Suwannee County",
+                "relevance": 0.708981,
+                "count": 2
+            },
+            {
+                "text": "negative results",
+                "relevance": 0.678422,
+                "count": 1
+            },
+            {
+                "text": "tests of inmates",
+                "relevance": 0.645016,
+                "count": 1
+            },
+            {
+                "text": "cases of the COVID-19 coronavirus",
+                "relevance": 0.644037,
+                "count": 1
+            },
+            {
+                "text": "Hamilton Correctional Institution",
+                "relevance": 0.639965,
+                "count": 1
+            },
+            {
+                "text": "Florida Department of Health",
+                "relevance": 0.638826,
+                "count": 1
+            },
+            {
+                "text": "17-year-old males",
+                "relevance": 0.619755,
+                "count": 1
+            },
+            {
+                "text": "lone long-term care facility",
+                "relevance": 0.611085,
+                "count": 1
+            },
+            {
+                "text": "health department",
+                "relevance": 0.606299,
+                "count": 1
+            },
+            {
+                "text": "test",
+                "relevance": 0.602365,
+                "count": 1
+            },
+            {
+                "text": "positive test rate",
+                "relevance": 0.561,
+                "count": 2
+            },
+            {
+                "text": "county",
+                "relevance": 0.557868,
+                "count": 2
+            },
+            {
+                "text": "Suwannee Health",
+                "relevance": 0.547736,
+                "count": 2
+            },
+            {
+                "text": "Rehabilitation Center",
+                "relevance": 0.546403,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.539741,
+                "count": 1
+            },
+            {
+                "text": "Hamilton CI",
+                "relevance": 0.535762,
+                "count": 1
+            },
+            {
+                "text": "tests",
+                "relevance": 0.534556,
+                "count": 1
+            },
+            {
+                "text": "JASPER",
+                "relevance": 0.531763,
+                "count": 1
+            },
+            {
+                "text": "inmates",
+                "relevance": 0.528483,
+                "count": 1
+            },
+            {
+                "text": "cases",
+                "relevance": 0.526188,
+                "count": 2
+            },
+            {
+                "text": "new cases",
+                "relevance": 0.521561,
+                "count": 1
+            },
+            {
+                "text": "positive staff member",
+                "relevance": 0.516875,
+                "count": 1
+            },
+            {
+                "text": "staff",
+                "relevance": 0.514126,
+                "count": 1
+            },
+            {
+                "text": "facility",
+                "relevance": 0.513189,
+                "count": 1
+            },
+            {
+                "text": "hospitalizations",
+                "relevance": 0.510954,
+                "count": 1
+            },
+            {
+                "text": "case",
+                "relevance": 0.508736,
+                "count": 1
+            },
+            {
+                "text": "residents",
+                "relevance": 0.50718,
+                "count": 1
+            },
+            {
+                "text": "data",
+                "relevance": 0.505922,
+                "count": 1
+            },
+            {
+                "text": "deaths",
+                "relevance": 0.505922,
+                "count": 1
+            },
+            {
+                "text": "additional case",
+                "relevance": 0.494085,
+                "count": 1
+            },
+            {
+                "text": "16-year-old female",
+                "relevance": 0.493402,
+                "count": 1
+            },
+            {
+                "text": "county's cases",
+                "relevance": 0.482389,
+                "count": 1
+            },
+            {
+                "text": "positive residents",
+                "relevance": 0.474645,
+                "count": 1
+            },
+            {
+                "text": "Florida Department of Corrections",
+                "relevance": 0.474325,
+                "count": 1
+            },
+            {
+                "text": "54-year-old male",
+                "relevance": 0.474288,
+                "count": 1
+            },
+            {
+                "text": "positive cases",
+                "relevance": 0.470242,
+                "count": 1
+            },
+            {
+                "text": "36-year-old male",
+                "relevance": 0.447282,
+                "count": 1
+            },
+            {
+                "text": "24-year-old male",
+                "relevance": 0.43272,
+                "count": 1
+            },
+            {
+                "text": "positive",
+                "relevance": 0.429746,
+                "count": 1
+            },
+            {
+                "text": "negative",
+                "relevance": 0.42447,
+                "count": 1
+            },
+            {
+                "text": "40-year-old male",
+                "relevance": 0.423545,
+                "count": 1
+            },
+            {
+                "text": "Saturday",
+                "relevance": 0.419675,
+                "count": 2
+            },
+            {
+                "text": "24-year-old",
+                "relevance": 0.410231,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "eb1ad4e1b583063bf6a9e0ba64a9b3c7041e14ee",
+        "filename": "202005300000NEWSBANKNEWSPPRSA42125A52391534F790BAF13B4CB7D2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Florida Department of Corrections|extractor|DUNS:809396468;NECOID:250699913;ACORN:2376183544;UDUNS:004078374;UACORN:0073453584|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-05-30T00:00:00-04:00",
+    "title": "Ten new cases confirmed for Hamilton County",
+    "html": "<p>JASPER - Ten new confirmed cases of the COVID-19 coronavirus were announced Saturday in Hamilton County by the <org idsrc=\"xmltag.org\" value=\"ACORN:3693279297\">Florida Department of Health</org>, raising the county's total to 230 known cases.</p>\n<p>The new cases involve three 17-year-old males, a 16-year-old female, a 54-year-old male, a 36-year-old male, a 24-year-old male, a 20-year-old female, a 40-year-old male and a 24-year-old.</p>\n\n<p><org>Hamilton Correctional Institution</org> still has 201 cases in inmates with six staff members having tested positive as well, according to data from the <org idsrc=\"xmltag.org\" value=\"ACORN:2376183544\">Florida Department of Corrections</org>. One test is still pending, while 1,085 tests of inmates at Hamilton CI have returned negative.</p>\n\n<p>Total, there have been 2,037 tests conducted in Hamilton County with 1,806 negative results, an 11.3 positive test rate.</p>\n\n<p>Suwannee County had an additional case confirmed Saturday, too, a 76-year-old male who is currently hospitalized. It is the county's 167th known case with 39 hospitalizations and 18 deaths.</p>\n\n<p>According to the health department, <org>Suwannee Health and Rehabilitation Center</org> is the lone long-term care facility with positive cases as of Friday afternoon. <org>Suwannee Health</org> has 52 positive residents, 33 of which have been transferred out of the facility, and one positive staff member.</p>\n\n<p>In all, 119 of the county's cases were staff and residents of long-term care facilities</p>\n\n<p>There have been 2,392 people tested in Suwannee County with 2,223 negative results, a 7% positive test rate.</p>",
+    "geoFocus": [
+        [
+            "GU/us.fl.mayo",
+            "Mayo"
+        ]
+    ]
+}

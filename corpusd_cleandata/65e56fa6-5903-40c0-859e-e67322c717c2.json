@@ -1,0 +1,780 @@
+{
+    "id": "65e56fa6-5903-40c0-859e-e67322c717c2",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 2020 dpa",
+    "geoOrigin": "Hamburg, Germany",
+    "sourceType": "General Newswire",
+    "source": "dpa English",
+    "corpus_document_id": "59719371763957312519",
+    "description": "Frankfurt- Police and fire brigades were preparing to defuse a 500- kilogram World War II bomb on Friday after its discovery at the Frankfurt exhibition centre. Around 2,700 people had been evacuated from their homes by 9 am, after which surrounding roads were closed.  \"We are currently waiting for everyone to leave the area,\" a spokesperson for the Frankfurt fire...",
+    "serviceName": "dpa English",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LS/de#9#50#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Trading Impact (ICE Codes) Important Corporate Events",
+            "code": "IS/impact#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Politics and Government",
+            "code": "IS/pol#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "7",
+            "description": "Conflicts, Unrest and Wars",
+            "code": "IS/pol.confwar#7#50#75",
+            "level": 1
+        },
+        {
+            "parent": "IS/impact",
+            "relevance_score": "7",
+            "description": "War",
+            "code": "IS/pol.war#7#75#50",
+            "level": 1
+        }
+    ],
+    "text": "Frankfurt (dpa) - Police and fire brigades were preparing to defuse a\n500-kilogram World War II bomb on Friday after its discovery at the Frankfurt\nexhibition centre.\n\nAround 2,700 people had been evacuated from their homes by 9 am (700 GMT),\nafter which surrounding roads were closed. Public transport was suspended in\nthe western German city.\n\n\"We are currently waiting for everyone to leave the area,\" a spokesperson for\nthe Frankfurt fire brigade said.\n\nPolice will then check to make sure an evacuation area of 500 metres\nsurrounding the site is clear before the bomb disposal can begin.\n\n\"We hope that defusing can begin on time at noon,\" the spokesperson added.\n\nWeapons disposal experts have been deployed to the site. All being well,\nrestrictions around the site will be lifted around 6 pm.\n\n# Notebook",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Frankfurt"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/de..hambrg",
+    "language": "English",
+    "filename": "202006050406DPA_____NEWS_____ECA0032.XML",
+    "providerName": "dpa Deutsche Presse-Agentur GmbH",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Frankfurt",
+                "relevance": 0.958216,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Frankfurt fire brigade",
+                "relevance": 0.731278,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "dpa",
+                "relevance": 0.499305,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Drug Policy Alliance",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Drug_Policy_Alliance"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "500-kilogram",
+                "relevance": 0.499305,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "500 metres",
+                "relevance": 0.499305,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "#",
+                "relevance": 0.499305,
+                "type": "Hashtag"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "2,700 people"
+                },
+                "sentence": " Around 2,700 people had been evacuated from their homes by 9 am (700 GMT),",
+                "object": {
+                    "text": "from their homes"
+                },
+                "action": {
+                    "verb": {
+                        "text": "evacuate",
+                        "tense": "past"
+                    },
+                    "text": "had been evacuated",
+                    "normalized": "have be evacuate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Around 2,700 people had been evacuated from their homes by 9"
+                },
+                "sentence": " Around 2,700 people had been evacuated from their homes by 9 am (700 GMT),",
+                "object": {
+                    "text": "(700 GMT),"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "am",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "roads"
+                },
+                "sentence": " after which surrounding roads were closed.",
+                "object": {
+                    "text": "closed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We are currently waiting for everyone to leave the area,\" a spokesperson for",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We are currently waiting for everyone to leave the area,\" a spokesperson for",
+                "object": {
+                    "text": "for everyone to leave the area,\" a spokesperson for"
+                },
+                "action": {
+                    "verb": {
+                        "text": "wait",
+                        "tense": "present"
+                    },
+                    "text": "waiting",
+                    "normalized": "wait"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police will then check to make sure an evacuation area of 500 metres",
+                "action": {
+                    "verb": {
+                        "text": "check",
+                        "tense": "future"
+                    },
+                    "text": "check",
+                    "normalized": "check"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police will then check to make sure an evacuation area of 500 metres",
+                "object": {
+                    "text": "sure"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "future"
+                    },
+                    "text": "to make",
+                    "normalized": "to make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "surrounding the site"
+                },
+                "sentence": " surrounding the site is clear before the bomb disposal can begin.",
+                "object": {
+                    "text": "clear"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We hope that defusing can begin on time at noon,\" the spokesperson added.",
+                "object": {
+                    "text": "that defusing can begin on time at noon"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hope",
+                        "tense": "present"
+                    },
+                    "text": "hope",
+                    "normalized": "hope"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the spokesperson"
+                },
+                "sentence": " \"We hope that defusing can begin on time at noon,\" the spokesperson added.",
+                "object": {
+                    "text": "We hope that defusing can begin on time at noon"
+                },
+                "action": {
+                    "verb": {
+                        "text": "add",
+                        "tense": "past"
+                    },
+                    "text": "added",
+                    "normalized": "add"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Weapons disposal experts"
+                },
+                "sentence": " Weapons disposal experts have been deployed to the site.",
+                "object": {
+                    "text": "deployed to the site"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.776475,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.735886,
+                "label": "/science/weather"
+            },
+            {
+                "score": 0.703709,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Around 2,700 people had been evacuated from their homes by 9 am (700 GMT), after which surrounding roads were closed.",
+                "score": 0.348545,
+                "arguments": [
+                    {
+                        "text": "their",
+                        "location": [
+                            212,
+                            217
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "homes",
+                        "location": [
+                            218,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "homes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Public transport was suspended in the western German city.",
+                "score": 0.875126,
+                "arguments": [
+                    {
+                        "text": "western",
+                        "location": [
+                            324,
+                            331
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "western"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "German",
+                        "location": [
+                            332,
+                            338
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "German",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Public transport was suspended in the western German city.",
+                "score": 0.514817,
+                "arguments": [
+                    {
+                        "text": "city",
+                        "location": [
+                            339,
+                            343
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "western"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "German",
+                        "location": [
+                            332,
+                            338
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "German",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"We are currently waiting for everyone to leave the area,\" a spokesperson for the Frankfurt fire brigade said.",
+                "score": 0.58071,
+                "arguments": [
+                    {
+                        "text": "We",
+                        "location": [
+                            347,
+                            349
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "area",
+                        "location": [
+                            398,
+                            402
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "western"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\"We are currently waiting for everyone to leave the area,\" a spokesperson for the Frankfurt fire brigade said.",
+                "score": 0.662749,
+                "arguments": [
+                    {
+                        "text": "everyone",
+                        "location": [
+                            376,
+                            384
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "everyone"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "area",
+                        "location": [
+                            398,
+                            402
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "western"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "\"We are currently waiting for everyone to leave the area,\" a spokesperson for the Frankfurt fire brigade said.",
+                "score": 0.674971,
+                "arguments": [
+                    {
+                        "text": "spokesperson",
+                        "location": [
+                            407,
+                            419
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "spokesperson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Frankfurt",
+                        "location": [
+                            428,
+                            437
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Frankfurt\nexhibition centre"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"We are currently waiting for everyone to leave the area,\" a spokesperson for the Frankfurt fire brigade said.",
+                "score": 0.666873,
+                "arguments": [
+                    {
+                        "text": "spokesperson",
+                        "location": [
+                            407,
+                            419
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "spokesperson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            451,
+                            455
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "added"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"We hope that defusing can begin on time at noon,\" the spokesperson added.",
+                "score": 0.990416,
+                "arguments": [
+                    {
+                        "text": "spokesperson",
+                        "location": [
+                            649,
+                            661
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "spokesperson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "added",
+                        "location": [
+                            662,
+                            667
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "added"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "500-kilogram World War",
+                "relevance": 0.897585,
+                "count": 1
+            },
+            {
+                "text": "bomb disposal",
+                "relevance": 0.711815,
+                "count": 1
+            },
+            {
+                "text": "Frankfurt fire brigade",
+                "relevance": 0.666338,
+                "count": 1
+            },
+            {
+                "text": "Public transport",
+                "relevance": 0.653019,
+                "count": 1
+            },
+            {
+                "text": "Weapons disposal experts",
+                "relevance": 0.631315,
+                "count": 1
+            },
+            {
+                "text": "Frankfurt",
+                "relevance": 0.603103,
+                "count": 1
+            },
+            {
+                "text": "Police",
+                "relevance": 0.569731,
+                "count": 2
+            },
+            {
+                "text": "fire brigades",
+                "relevance": 0.565325,
+                "count": 1
+            },
+            {
+                "text": "western German city",
+                "relevance": 0.56464,
+                "count": 1
+            },
+            {
+                "text": "bomb",
+                "relevance": 0.557046,
+                "count": 1
+            },
+            {
+                "text": "dpa",
+                "relevance": 0.551799,
+                "count": 1
+            },
+            {
+                "text": "site",
+                "relevance": 0.548174,
+                "count": 3
+            },
+            {
+                "text": "people",
+                "relevance": 0.543171,
+                "count": 1
+            },
+            {
+                "text": "discovery",
+                "relevance": 0.53273,
+                "count": 1
+            },
+            {
+                "text": "restrictions",
+                "relevance": 0.526116,
+                "count": 1
+            },
+            {
+                "text": "homes",
+                "relevance": 0.516411,
+                "count": 1
+            },
+            {
+                "text": "roads",
+                "relevance": 0.51503,
+                "count": 1
+            },
+            {
+                "text": "noon",
+                "relevance": 0.514342,
+                "count": 1
+            },
+            {
+                "text": "area",
+                "relevance": 0.514342,
+                "count": 1
+            },
+            {
+                "text": "spokesperson",
+                "relevance": 0.51279,
+                "count": 2
+            },
+            {
+                "text": "Notebook",
+                "relevance": 0.510549,
+                "count": 1
+            },
+            {
+                "text": "metres",
+                "relevance": 0.510549,
+                "count": 1
+            },
+            {
+                "text": "evacuation area",
+                "relevance": 0.480704,
+                "count": 1
+            },
+            {
+                "text": "Friday",
+                "relevance": 0.438407,
+                "count": 1
+            },
+            {
+                "text": "time",
+                "relevance": 0.416533,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "972f23568470bb4eec6c0945e65441e40b18326e",
+        "filename": "202006050406DPA_____NEWS_____ECA0032.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:06:00-04:00",
+    "title": "Emergency services prepare to defuse World War II\u00a0bomb in Frankfurt",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/de..frankf\">Frankfurt</location> (dpa) - Police and fire brigades were preparing to defuse a\n500-kilogram World War II bomb on Friday after its discovery at the\n<location idsrc=\"xmltag.org\" value=\"LU/de..frankf\">Frankfurt</location> exhibition centre.</p>\n<p>Around 2,700 people had been evacuated from their homes by <chron>9 am</chron> (<chron>700\nGMT</chron>), after which surrounding roads were closed. Public transport was\nsuspended in the western German city.</p>\n<p>\"We are currently waiting for everyone to leave the area,\" a\nspokesperson for the <location idsrc=\"xmltag.org\" value=\"LU/de..frankf\">Frankfurt</location> fire brigade said.</p>\n<p>Police will then check to make sure an evacuation area of 500 metres\nsurrounding the site is clear before the bomb disposal can begin.</p>\n<p>\"We hope that defusing can begin on time at noon,\" the spokesperson\nadded.</p>\n<p>Weapons disposal experts have been deployed to the site. All being\nwell, restrictions around the site will be lifted around <chron>6 pm</chron>.</p>\n<p># Notebook</p>",
+    "geoFocus": [
+        [
+            "GR/eur",
+            "Europe"
+        ],
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

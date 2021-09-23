@@ -1,0 +1,981 @@
+{
+    "id": "d2ee472c-36b8-47ea-b280-d37aa8a52705",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, Daily Freeman (Kingston, NY) - a Journal Register Company Property, All Rights Reserved.",
+    "geoOrigin": "Kingston, New York",
+    "sourceType": "Newspaper",
+    "source": "Daily Freeman (Kingston, NY)",
+    "corpus_document_id": "62023188928723324649",
+    "description": "SAUGERTIES, N.Y.- The Saugerties Fourth of July parade has been pushed pack by a day and will be a motorcade-style event, with no marchers, because of the COVID-19 pandemic. In a press release issued Sunday, parade Co-Chairmen Scott Campbell and Stan O'Dell said the parade will be held on Sunday, July 5, and that certain \"restrictions\" will be in effect, though they...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#98",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#75#98",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#98#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#98",
+            "level": 1
+        }
+    ],
+    "text": "SAUGERTIES, N.Y. \\- The Saugerties Fourth of July parade has been pushed pack\nby a day and will be a motorcade-style event, with no marchers, because of the\nCOVID-19 pandemic.\n\nIn a press release issued Sunday, parade Co-Chairmen Scott Campbell and Stan\nO'Dell said the parade will be held on Sunday, July 5, and that certain\n\"restrictions\" will be in effect, though they didn't immediately say what\nthose might be beyond not having marchers.\n\nA start time also was not announced.\n\n\"This change of date will allow us all to celebrate the patriotic day of July\n4th at home with your families to avoid exposures to crowds,\" the press\nrelease stated.\n\n\"We are making the needed changes in order to proceed in the safest manner\npossible to protect each other,\" it also said.\n\nAdditional details are to be announced at a later date.\n\nFor local stories about the coronavirus, go to bit.ly/DFCOVID19. For live\nupdates, visit bit.ly/DFcovid19live.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "SAUGERTIES, N.Y."
+        ],
+        "person": [
+            "Scott Campbell",
+            "Stan O'Dell"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ny.kingsn",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRSE0091C380BE6E1B01C980146EC1D722.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.39325,
+                    "label": "positive"
+                },
+                "text": "SAUGERTIES",
+                "relevance": 0.948402,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "O'Dell",
+                "relevance": 0.637692,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.443047,
+                    "label": "positive"
+                },
+                "text": "Scott Campbell",
+                "relevance": 0.617874,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.443047,
+                    "label": "positive"
+                },
+                "text": "Stan",
+                "relevance": 0.537366,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "N.Y.",
+                "relevance": 0.519727,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "GovernmentalJurisdiction",
+                        "PlaceWithNeighborhoods",
+                        "WineRegion",
+                        "CityTown",
+                        "FilmScreeningVenue",
+                        "StateOrCounty"
+                    ],
+                    "name": "New York",
+                    "dbpedia_resource": "http://dbpedia.org/resource/New_York"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "SAUGERTIES, N.Y. \\- The Saugerties Fourth of July parade"
+                },
+                "sentence": "SAUGERTIES, N.Y. \\- The Saugerties Fourth of July parade has been pushed pack",
+                "object": {
+                    "text": "been pushed pack"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "SAUGERTIES, N.Y. \\- The Saugerties Fourth of July parade"
+                },
+                "sentence": "SAUGERTIES, N.Y. \\- The Saugerties Fourth of July parade has been pushed pack",
+                "object": {
+                    "text": "pushed pack"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "SAUGERTIES, N.Y. \\- The Saugerties Fourth of July parade"
+                },
+                "sentence": "SAUGERTIES, N.Y. \\- The Saugerties Fourth of July parade has been pushed pack",
+                "object": {
+                    "text": "pack"
+                },
+                "action": {
+                    "verb": {
+                        "text": "push",
+                        "tense": "past"
+                    },
+                    "text": "has been pushed",
+                    "normalized": "have be push"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a press release"
+                },
+                "sentence": " In a press release issued Sunday, parade Co-Chairmen Scott Campbell and Stan",
+                "action": {
+                    "verb": {
+                        "text": "issue",
+                        "tense": "past"
+                    },
+                    "text": "issued",
+                    "normalized": "issue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "O'Dell"
+                },
+                "sentence": " O'Dell said the parade will be held on Sunday, July 5, and that certain",
+                "object": {
+                    "text": "the parade will be held on Sunday, July 5, and that certain"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the parade"
+                },
+                "sentence": " O'Dell said the parade will be held on Sunday, July 5, and that certain",
+                "object": {
+                    "text": "held"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the parade"
+                },
+                "sentence": " O'Dell said the parade will be held on Sunday, July 5, and that certain",
+                "action": {
+                    "verb": {
+                        "text": "hold",
+                        "tense": "future"
+                    },
+                    "text": "will be held",
+                    "normalized": "will be hold"
+                }
+            },
+            {
+                "subject": {
+                    "text": "restrictions\""
+                },
+                "sentence": " \"restrictions\" will be in effect, though they didn't immediately say what",
+                "object": {
+                    "text": "in effect"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "will be",
+                    "normalized": "will be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " \"restrictions\" will be in effect, though they didn't immediately say what",
+                "object": {
+                    "text": "immediately say what"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "did",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " \"restrictions\" will be in effect, though they didn't immediately say what",
+                "object": {
+                    "text": "what"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "say",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "those"
+                },
+                "sentence": " those might be beyond not having marchers.",
+                "object": {
+                    "text": "marchers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This change of date"
+                },
+                "sentence": " \"This change of date will allow us all to celebrate the patriotic day of July",
+                "object": {
+                    "text": "all to celebrate the patriotic day of July"
+                },
+                "action": {
+                    "verb": {
+                        "text": "allow",
+                        "tense": "future"
+                    },
+                    "text": "will allow",
+                    "normalized": "will allow"
+                }
+            },
+            {
+                "subject": {
+                    "text": "us"
+                },
+                "sentence": " \"This change of date will allow us all to celebrate the patriotic day of July",
+                "object": {
+                    "text": "the patriotic day of July"
+                },
+                "action": {
+                    "verb": {
+                        "text": "celebrate",
+                        "tense": "future"
+                    },
+                    "text": "to celebrate",
+                    "normalized": "to celebrate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We are making the needed changes in order to proceed in the safest manner",
+                "object": {
+                    "text": "making the needed changes in order to proceed in the safest manner"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We are making the needed changes in order to proceed in the safest manner",
+                "object": {
+                    "text": "the needed changes"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "present"
+                    },
+                    "text": "are making",
+                    "normalized": "be make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " possible to protect each other,\" it also said.",
+                "object": {
+                    "text": "each other"
+                },
+                "action": {
+                    "verb": {
+                        "text": "protect",
+                        "tense": "future"
+                    },
+                    "text": "to protect",
+                    "normalized": "to protect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " possible to protect each other,\" it also said.",
+                "object": {
+                    "text": "possible to protect each other"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Additional details"
+                },
+                "sentence": " Additional details are to be announced at a later date.",
+                "object": {
+                    "text": "announced"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Additional details"
+                },
+                "sentence": " Additional details are to be announced at a later date.",
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "past"
+                    },
+                    "text": "are to be announced",
+                    "normalized": "be to be announce"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.648964,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.581552,
+                "label": "/art and entertainment/shows and events"
+            },
+            {
+                "score": 0.568008,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "SAUGERTIES, N.Y. \\- The Saugerties Fourth of July parade has been pushed pack by a day and will be a motorcade-style event, with no marchers, because of the COVID-19 pandemic.",
+                "score": 0.842777,
+                "arguments": [
+                    {
+                        "text": "SAUGERTIES",
+                        "location": [
+                            0,
+                            10
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "SAUGERTIES"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "N.Y.",
+                        "location": [
+                            12,
+                            16
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "N.Y."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "SAUGERTIES, N.Y. \\- The Saugerties Fourth of July parade has been pushed pack by a day and will be a motorcade-style event, with no marchers, because of the COVID-19 pandemic.",
+                "score": 0.961736,
+                "arguments": [
+                    {
+                        "text": "Fourth of July",
+                        "location": [
+                            35,
+                            49
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Fourth of July"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "parade",
+                        "location": [
+                            50,
+                            56
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "parade"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "In a press release issued Sunday, parade Co-Chairmen Scott Campbell and Stan O'Dell said the parade will be held on Sunday, July 5, and that certain \"restrictions\" will be in effect, though they didn't immediately say what those might be beyond not having marchers.",
+                "score": 0.442866,
+                "arguments": [
+                    {
+                        "text": "Co-Chairmen",
+                        "location": [
+                            218,
+                            229
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Scott Campbell"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "parade",
+                        "location": [
+                            211,
+                            217
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "parade"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "In a press release issued Sunday, parade Co-Chairmen Scott Campbell and Stan O'Dell said the parade will be held on Sunday, July 5, and that certain \"restrictions\" will be in effect, though they didn't immediately say what those might be beyond not having marchers.",
+                "score": 0.498855,
+                "arguments": [
+                    {
+                        "text": "Stan\nO",
+                        "location": [
+                            249,
+                            255
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Stan\nO"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Dell",
+                        "location": [
+                            256,
+                            260
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Dell",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "In a press release issued Sunday, parade Co-Chairmen Scott Campbell and Stan O'Dell said the parade will be held on Sunday, July 5, and that certain \"restrictions\" will be in effect, though they didn't immediately say what those might be beyond not having marchers.",
+                "score": 0.537186,
+                "arguments": [
+                    {
+                        "text": "Stan\nO",
+                        "location": [
+                            249,
+                            255
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Stan\nO"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            261,
+                            265
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "In a press release issued Sunday, parade Co-Chairmen Scott Campbell and Stan O'Dell said the parade will be held on Sunday, July 5, and that certain \"restrictions\" will be in effect, though they didn't immediately say what those might be beyond not having marchers.",
+                "score": 0.502787,
+                "arguments": [
+                    {
+                        "text": "Sunday",
+                        "location": [
+                            293,
+                            299
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Sunday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            261,
+                            265
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "In a press release issued Sunday, parade Co-Chairmen Scott Campbell and Stan O'Dell said the parade will be held on Sunday, July 5, and that certain \"restrictions\" will be in effect, though they didn't immediately say what those might be beyond not having marchers.",
+                "score": 0.633976,
+                "arguments": [
+                    {
+                        "text": "Sunday",
+                        "location": [
+                            293,
+                            299
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Sunday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "parade",
+                        "location": [
+                            270,
+                            276
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "parade"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "In a press release issued Sunday, parade Co-Chairmen Scott Campbell and Stan O'Dell said the parade will be held on Sunday, July 5, and that certain \"restrictions\" will be in effect, though they didn't immediately say what those might be beyond not having marchers.",
+                "score": 0.860345,
+                "arguments": [
+                    {
+                        "text": "they",
+                        "location": [
+                            367,
+                            371
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "they"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            391,
+                            394
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "\"This change of date will allow us all to celebrate the patriotic day of July 4th at home with your families to avoid exposures to crowds,\" the press release stated.",
+                "score": 0.398985,
+                "arguments": [
+                    {
+                        "text": "your",
+                        "location": [
+                            577,
+                            581
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "your"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "families",
+                        "location": [
+                            582,
+                            590
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "families"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Saugerties Fourth of July parade",
+                "relevance": 0.804855,
+                "count": 1
+            },
+            {
+                "text": "press release",
+                "relevance": 0.748791,
+                "count": 1
+            },
+            {
+                "text": "Additional details",
+                "relevance": 0.732435,
+                "count": 1
+            },
+            {
+                "text": "change of date",
+                "relevance": 0.666761,
+                "count": 1
+            },
+            {
+                "text": "start time",
+                "relevance": 0.605095,
+                "count": 1
+            },
+            {
+                "text": "needed changes",
+                "relevance": 0.604925,
+                "count": 1
+            },
+            {
+                "text": "local stories",
+                "relevance": 0.602157,
+                "count": 1
+            },
+            {
+                "text": "later date",
+                "relevance": 0.602071,
+                "count": 1
+            },
+            {
+                "text": "SAUGERTIES",
+                "relevance": 0.573614,
+                "count": 1
+            },
+            {
+                "text": "parade Co-Chairmen Scott Campbell",
+                "relevance": 0.558994,
+                "count": 1
+            },
+            {
+                "text": "home",
+                "relevance": 0.536412,
+                "count": 1
+            },
+            {
+                "text": "families",
+                "relevance": 0.53236,
+                "count": 1
+            },
+            {
+                "text": "day",
+                "relevance": 0.530598,
+                "count": 1
+            },
+            {
+                "text": "patriotic day of July",
+                "relevance": 0.522998,
+                "count": 1
+            },
+            {
+                "text": "exposures",
+                "relevance": 0.520813,
+                "count": 1
+            },
+            {
+                "text": "motorcade-style event",
+                "relevance": 0.519884,
+                "count": 1
+            },
+            {
+                "text": "restrictions",
+                "relevance": 0.517422,
+                "count": 1
+            },
+            {
+                "text": "crowds",
+                "relevance": 0.517169,
+                "count": 1
+            },
+            {
+                "text": "order",
+                "relevance": 0.51332,
+                "count": 1
+            },
+            {
+                "text": "parade",
+                "relevance": 0.509796,
+                "count": 1
+            },
+            {
+                "text": "effect",
+                "relevance": 0.50942,
+                "count": 1
+            },
+            {
+                "text": "marchers",
+                "relevance": 0.507473,
+                "count": 2
+            },
+            {
+                "text": "pack",
+                "relevance": 0.507473,
+                "count": 1
+            },
+            {
+                "text": "N.Y.",
+                "relevance": 0.496257,
+                "count": 1
+            },
+            {
+                "text": "visit bit.ly",
+                "relevance": 0.478075,
+                "count": 1
+            },
+            {
+                "text": "safest manner",
+                "relevance": 0.471638,
+                "count": 1
+            },
+            {
+                "text": "DFcovid19live",
+                "relevance": 0.456684,
+                "count": 1
+            },
+            {
+                "text": "Sunday",
+                "relevance": 0.434242,
+                "count": 2
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.427222,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.426463,
+                "count": 1
+            },
+            {
+                "text": "bit.ly",
+                "relevance": 0.424714,
+                "count": 1
+            },
+            {
+                "text": "DFCOVID19",
+                "relevance": 0.422565,
+                "count": 1
+            },
+            {
+                "text": "July",
+                "relevance": 0.420967,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "5f2d8bedbc67fb79aad021dcd8e08d24ba9b4ba7",
+        "filename": "202006010000NEWSBANKNEWSPPRSE0091C380BE6E1B01C980146EC1D722.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "No marchers in this year's Saugerties Fourth of July parade, which has been moved to July 5",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.ny.sauies\">SAUGERTIES, N.Y.</location> - The Saugerties <chron>Fourth of July</chron> parade has been pushed pack by a day and will be a motorcade-style event, with no marchers, because of the COVID-19 pandemic.</p>\n<p>In a press release issued Sunday, parade Co-Chairmen <person>Scott Campbell</person> and <person>Stan O'Dell</person> said the parade will be held on <chron>Sunday, July 5</chron>, and that certain \"restrictions\" will be in effect, though they didn't immediately say what those might be beyond not having marchers.</p>\n\n<p>A start time also was not announced.</p>\n\n<p>\"This change of date will allow us all to celebrate the patriotic day of <chron>July 4th</chron> at home with your families to avoid exposures to crowds,\" the press release stated.</p>\n\n<p>\"We are making the needed changes in order to proceed in the safest manner possible to protect each other,\" it also said.</p>\n\n<p>Additional details are to be announced at a later date.</p>\n\n<p>For local stories about the coronavirus, go to bit.ly/DFCOVID19. For live updates, visit bit.ly/DFcovid19live.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ny.kingsn",
+            "Kingston"
+        ]
+    ]
+}

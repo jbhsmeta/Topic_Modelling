@@ -1,0 +1,378 @@
+{
+    "id": "4edfb266-a312-409f-983b-58e925d49e05",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "71015095353707417016",
+    "description": "These days, Germany cherishes free speech and freedom of the press.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Western Asia",
+            "code": "LB/was#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/was",
+            "relevance_score": "9",
+            "description": "Israel",
+            "code": "LC/il#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/mde#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "The Jerusalem Post Customer Service Center can be contacted with any questions\nor requests:\n\n    \n    \n    \n                Telephone: *2421 * Extension 4 Jerusalem Post or 03-7619056 \n\nFax: 03-5613699E-mail: [subs@jpost.com](mailto:subs@jpost.com)\n\n    \n    \n    \n                The center is staffed and provides answers on Sundays through \n\nThursdays between 07:00 and 14:00 and Fridays only handles distribution\nrequests between 7:00 and\n\n    \n    \n                13:00\n    \n                For international customers: The center is staffed and provides \n\nanswers on Sundays through Thursdays between 7AM and 6PM\n\n    \n    \n    \n                Toll Free number in Israel only 1-800-574-574\u00a0\n                Telephone +972-3-761-9056\n                Fax: 972-3-561-3699\n                E-mail: [subs@jpost.com](mailto:subs@jpost.com)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "The Jerusalem Post Customer Service Center",
+            "Jerusalem Post"
+        ],
+        "location": [
+            "Israel"
+        ],
+        "person": [],
+        "companies": [
+            "Jerusalem Post",
+            "The Jerusalem Post Customer Service Center"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050258AMSPIDERNEWS_____JEPOEN02_973B5E49F39B66C3B3D4513C426EC8CD_12.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jerusalem",
+                "relevance": 0.480332,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Israel",
+                "relevance": 0.285246,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "subs@jpost.com",
+                "relevance": 0.285246,
+                "type": "EmailAddress"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The Jerusalem Post Customer Service Center"
+                },
+                "sentence": "The Jerusalem Post Customer Service Center can be contacted with any questions",
+                "object": {
+                    "text": "contacted with any questions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The center"
+                },
+                "sentence": " The center is staffed and provides answers on Sundays through",
+                "object": {
+                    "text": "answers on Sundays through"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "present"
+                    },
+                    "text": "provides",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "00 and Fridays"
+                },
+                "sentence": " Thursdays between 07:00 and 14:00 and Fridays only handles distribution",
+                "object": {
+                    "text": "distribution"
+                },
+                "action": {
+                    "verb": {
+                        "text": "handle",
+                        "tense": "present"
+                    },
+                    "text": "handles",
+                    "normalized": "handle"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.622932,
+                "label": "/technology and computing/internet technology"
+            },
+            {
+                "score": 0.61264,
+                "label": "/technology and computing/networking/network monitoring and management"
+            },
+            {
+                "score": 0.60096,
+                "label": "/business and industrial/business news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "Toll Free number in Israel only 1-800-574-574                  Telephone +972-3-761-9056                 Fax: 972-3-561-3699                 E-mail: [subs@jpost.com](mailto:subs@jpost.com)",
+                "score": 0.403235,
+                "arguments": [
+                    {
+                        "text": "Toll Free",
+                        "location": [
+                            652,
+                            661
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Toll Free"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Israel",
+                        "location": [
+                            672,
+                            678
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Israel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "Toll Free number in Israel only 1-800-574-574                  Telephone +972-3-761-9056                 Fax: 972-3-561-3699                 E-mail: [subs@jpost.com](mailto:subs@jpost.com)",
+                "score": 0.415899,
+                "arguments": [
+                    {
+                        "text": "1-800-574-574",
+                        "location": [
+                            684,
+                            697
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "1-800-574-574"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Israel",
+                        "location": [
+                            672,
+                            678
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Israel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Toll Free number in Israel only 1-800-574-574                  Telephone +972-3-761-9056                 Fax: 972-3-561-3699                 E-mail: [subs@jpost.com](mailto:subs@jpost.com)",
+                "score": 0.627826,
+                "arguments": [
+                    {
+                        "text": "Fax",
+                        "location": [
+                            757,
+                            760
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Fax"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Israel",
+                        "location": [
+                            672,
+                            678
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Israel"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Jerusalem Post Customer Service Center",
+                "relevance": 0.958024,
+                "count": 1
+            },
+            {
+                "text": "international customers",
+                "relevance": 0.774966,
+                "count": 1
+            },
+            {
+                "text": "Jerusalem Post",
+                "relevance": 0.768366,
+                "count": 1
+            },
+            {
+                "text": "Telephone",
+                "relevance": 0.647281,
+                "count": 2
+            },
+            {
+                "text": "answers",
+                "relevance": 0.578364,
+                "count": 2
+            },
+            {
+                "text": "Thursdays",
+                "relevance": 0.571419,
+                "count": 2
+            },
+            {
+                "text": "Free number",
+                "relevance": 0.562239,
+                "count": 1
+            },
+            {
+                "text": "Sundays",
+                "relevance": 0.558695,
+                "count": 2
+            },
+            {
+                "text": "Extension",
+                "relevance": 0.557318,
+                "count": 1
+            },
+            {
+                "text": "center",
+                "relevance": 0.550446,
+                "count": 2
+            },
+            {
+                "text": "Fax",
+                "relevance": 0.547592,
+                "count": 2
+            },
+            {
+                "text": "Fridays",
+                "relevance": 0.533334,
+                "count": 1
+            },
+            {
+                "text": "Israel",
+                "relevance": 0.518247,
+                "count": 1
+            },
+            {
+                "text": "requests",
+                "relevance": 0.518247,
+                "count": 1
+            },
+            {
+                "text": "questions",
+                "relevance": 0.518247,
+                "count": 1
+            },
+            {
+                "text": "E-mail",
+                "relevance": 0.514296,
+                "count": 1
+            },
+            {
+                "text": "03-5613699E-mail",
+                "relevance": 0.389118,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.379328,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "8993f785c0163c8705816b3970ab5a874f486a4f",
+        "filename": "202006050258AMSPIDERNEWS_____JEPOEN02_973B5E49F39B66C3B3D4513C426EC8CD_12.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:58:00-04:00",
+    "title": "Germany can carry the banner of free expression without flag burning [Jerusalem Post (Israel)]",
+    "html": "<p><org>The Jerusalem Post Customer Service Center</org> can be contacted with any questions or requests:</p>\n<pre>\n\n            Telephone: *2421 * Extension 4 <org>Jerusalem Post</org> or 03-7619056 </pre>\n<p>Fax: 03-5613699E-mail: <a href=\"mailto:subs@jpost.com\">subs@jpost.com</a></p>\n<pre>\n\n            The center is staffed and provides answers on Sundays through </pre>\n<p>Thursdays between 07:00 and 14:00 and Fridays only handles distribution requests between 7:00 and&#160;</p>\n<pre>\n            13:00\n\n            For international customers: The center is staffed and provides </pre>\n<p>answers on Sundays through Thursdays between <chron>7AM</chron> and 6PM&#160;</p>\n<pre>\n\n            Toll Free number in <location idsrc=\"xmltag.org\" value=\"LC/il\">Israel</location> only 1-800-574-574&#160;\n            Telephone +972-3-761-9056\n            Fax: 972-3-561-3699\n            E-mail: <a href=\"mailto:subs@jpost.com\">subs@jpost.com</a>\n</pre>",
+    "geoFocus": []
+}

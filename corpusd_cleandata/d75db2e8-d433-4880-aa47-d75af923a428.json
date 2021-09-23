@@ -1,0 +1,729 @@
+{
+    "id": "d75db2e8-d433-4880-aa47-d75af923a428",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020 Legal Monitor Worldwide. All Rights Reserved. Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "Amman, Jordan",
+    "sourceType": "General Newswire",
+    "source": "Legal Monitor Worldwide",
+    "corpus_document_id": "82756005495268879367",
+    "description": "A 32- year-old St Andrew woman is facing a charge of murder in the death of a taxi driver. Melissa Sinclair of East King's House Road was charged after a domestic dispute led her to allegedly poured hot oil on 38- year-old Orville Pitter, also of East King's House Road. The police say on May 14, Sinclair got into an argument with Pitter around 11:30 in the morning.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [],
+    "sourceClass": "Law",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Crime",
+            "code": "IS/lifesoc.crime#9#99#69",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.crime",
+            "relevance_score": "6",
+            "description": "Homicide",
+            "code": "IS/lifesoc.homicide#6#69#50",
+            "level": 2
+        }
+    ],
+    "text": "A 32-year-old St Andrew woman is facing a charge of murder in the death of a\ntaxi driver.\n\nMelissa Sinclair of East King's House Road was charged after a domestic\ndispute led her to allegedly poured hot oil on 38-year-old Orville Pitter,\nalso of East King's House Road.\n\nThe police say on May 14, Sinclair got into an argument with Pitter around\n11:30 in the morning.\n\nAccording to the police, during the incident, Sinclair doused Pitters with hot\noil causing severe burns.\n\nHe was transported to hospital and passed away just over a week later on May\n25.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "East King's House Road"
+        ],
+        "person": [
+            "St Andrew",
+            "Melissa Sinclair",
+            "Orville Pitter"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/jo..amman",
+    "language": "English",
+    "filename": "202006050251ALBA____ME_NA_NE_56276_176218696_138.374.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": 0.536217,
+                    "label": "positive"
+                },
+                "text": "Melissa Sinclair",
+                "relevance": 0.913885,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Orville Pitter",
+                "relevance": 0.57241,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.8785,
+                    "label": "negative"
+                },
+                "text": "murder",
+                "relevance": 0.245778,
+                "type": "Crime"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "32-year",
+                "relevance": 0.245778,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "38-year",
+                "relevance": 0.245778,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "A 32-year-old St Andrew woman"
+                },
+                "sentence": "A 32-year-old St Andrew woman is facing a charge of murder in the death of a",
+                "object": {
+                    "text": "a charge of murder"
+                },
+                "action": {
+                    "verb": {
+                        "text": "face",
+                        "tense": "present"
+                    },
+                    "text": "is facing",
+                    "normalized": "be face"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Melissa Sinclair of East King's House Road"
+                },
+                "sentence": " Melissa Sinclair of East King's House Road was charged after a domestic",
+                "action": {
+                    "verb": {
+                        "text": "charge",
+                        "tense": "past"
+                    },
+                    "text": "was charged",
+                    "normalized": "be charge"
+                }
+            },
+            {
+                "subject": {
+                    "text": "dispute"
+                },
+                "sentence": " dispute led her to allegedly poured hot oil on 38-year-old Orville Pitter,",
+                "object": {
+                    "text": "her"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lead",
+                        "tense": "past"
+                    },
+                    "text": "led",
+                    "normalized": "lead"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The police"
+                },
+                "sentence": " The police say on May 14, Sinclair got into an argument with Pitter around",
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "say",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Sinclair"
+                },
+                "sentence": " According to the police, during the incident, Sinclair doused Pitters with hot",
+                "object": {
+                    "text": "Pitters"
+                },
+                "action": {
+                    "verb": {
+                        "text": "douse",
+                        "tense": "past"
+                    },
+                    "text": "doused",
+                    "normalized": "douse"
+                }
+            },
+            {
+                "subject": {
+                    "text": "oil"
+                },
+                "sentence": " oil causing severe burns.",
+                "object": {
+                    "text": "severe burns"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cause",
+                        "tense": "present"
+                    },
+                    "text": "causing",
+                    "normalized": "cause"
+                }
+            },
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He was transported to hospital and passed away just over a week later on May",
+                "action": {
+                    "verb": {
+                        "text": "pass",
+                        "tense": "past"
+                    },
+                    "text": "passed",
+                    "normalized": "pass"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.827767,
+                "label": "/society/crime/personal offense/homicide"
+            },
+            {
+                "score": 0.736822,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.696167,
+                "label": "/news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "A 32-year-old St Andrew woman is facing a charge of murder in the death of a taxi driver.",
+                "score": 0.760618,
+                "arguments": [
+                    {
+                        "text": "woman",
+                        "location": [
+                            24,
+                            29
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Melissa Sinclair"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "32-year-old",
+                        "location": [
+                            2,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "32-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "He was transported to hospital and passed away just over a week later on May 25.",
+                "score": 0.702584,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            475,
+                            477
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Sinclair doused Pitters"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hospital",
+                        "location": [
+                            497,
+                            505
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospital",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "A 32-year-old St Andrew woman is facing a charge of murder in the death of a taxi driver.",
+                "score": 0.950992,
+                "arguments": [
+                    {
+                        "text": "woman",
+                        "location": [
+                            24,
+                            29
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Melissa Sinclair"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "murder",
+                        "location": [
+                            52,
+                            58
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "murder"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Melissa Sinclair of East King's House Road was charged after a domestic dispute led her to allegedly poured hot oil on 38-year-old Orville Pitter, also of East King's House Road.",
+                "score": 0.815075,
+                "arguments": [
+                    {
+                        "text": "Melissa Sinclair",
+                        "location": [
+                            91,
+                            107
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Melissa Sinclair"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "East King",
+                        "location": [
+                            111,
+                            120
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "East King"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Melissa Sinclair of East King's House Road was charged after a domestic dispute led her to allegedly poured hot oil on 38-year-old Orville Pitter, also of East King's House Road.",
+                "score": 0.49688,
+                "arguments": [
+                    {
+                        "text": "Melissa Sinclair",
+                        "location": [
+                            91,
+                            107
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Melissa Sinclair"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "House Road",
+                        "location": [
+                            123,
+                            133
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "House Road"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Melissa Sinclair of East King's House Road was charged after a domestic dispute led her to allegedly poured hot oil on 38-year-old Orville Pitter, also of East King's House Road.",
+                "score": 0.624427,
+                "arguments": [
+                    {
+                        "text": "Melissa Sinclair",
+                        "location": [
+                            91,
+                            107
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Melissa Sinclair"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "charged",
+                        "location": [
+                            138,
+                            145
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "charged"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Melissa Sinclair of East King's House Road was charged after a domestic dispute led her to allegedly poured hot oil on 38-year-old Orville Pitter, also of East King's House Road.",
+                "score": 0.77142,
+                "arguments": [
+                    {
+                        "text": "House Road",
+                        "location": [
+                            123,
+                            133
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "House Road"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "East King",
+                        "location": [
+                            111,
+                            120
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "East King"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Melissa Sinclair of East King's House Road was charged after a domestic dispute led her to allegedly poured hot oil on 38-year-old Orville Pitter, also of East King's House Road.",
+                "score": 0.800444,
+                "arguments": [
+                    {
+                        "text": "House Road",
+                        "location": [
+                            258,
+                            268
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "House Road"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "East King",
+                        "location": [
+                            246,
+                            255
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "East King"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Melissa Sinclair of East King's House Road was charged after a domestic dispute led her to allegedly poured hot oil on 38-year-old Orville Pitter, also of East King's House Road.",
+                "score": 0.980904,
+                "arguments": [
+                    {
+                        "text": "Orville Pitter",
+                        "location": [
+                            222,
+                            236
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Orville Pitter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "38-year-old",
+                        "location": [
+                            210,
+                            221
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "38-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The police say on May 14, Sinclair got into an argument with Pitter around 11:30 in the morning.",
+                "score": 0.957198,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            275,
+                            281
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            282,
+                            285
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The police say on May 14, Sinclair got into an argument with Pitter around 11:30 in the morning.",
+                "score": 0.67123,
+                "arguments": [
+                    {
+                        "text": "May 14",
+                        "location": [
+                            289,
+                            295
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "May 14"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "say",
+                        "location": [
+                            282,
+                            285
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "say"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "32-year-old St Andrew woman",
+                "relevance": 0.798709,
+                "count": 1
+            },
+            {
+                "text": "Melissa Sinclair of East King",
+                "relevance": 0.791983,
+                "count": 1
+            },
+            {
+                "text": "hot oil",
+                "relevance": 0.774834,
+                "count": 1
+            },
+            {
+                "text": "taxi driver",
+                "relevance": 0.632698,
+                "count": 1
+            },
+            {
+                "text": "severe burns",
+                "relevance": 0.603653,
+                "count": 1
+            },
+            {
+                "text": "38-year-old Orville Pitter",
+                "relevance": 0.592312,
+                "count": 1
+            },
+            {
+                "text": "police",
+                "relevance": 0.586615,
+                "count": 2
+            },
+            {
+                "text": "incident",
+                "relevance": 0.536087,
+                "count": 1
+            },
+            {
+                "text": "Sinclair",
+                "relevance": 0.532016,
+                "count": 2
+            },
+            {
+                "text": "hospital",
+                "relevance": 0.53107,
+                "count": 1
+            },
+            {
+                "text": "week",
+                "relevance": 0.517005,
+                "count": 1
+            },
+            {
+                "text": "House Road",
+                "relevance": 0.516123,
+                "count": 1
+            },
+            {
+                "text": "argument",
+                "relevance": 0.514299,
+                "count": 1
+            },
+            {
+                "text": "death",
+                "relevance": 0.512927,
+                "count": 1
+            },
+            {
+                "text": "East King's House Road",
+                "relevance": 0.511868,
+                "count": 1
+            },
+            {
+                "text": "charge of murder",
+                "relevance": 0.506729,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.40272,
+                "count": 2
+            },
+            {
+                "text": "Pitters",
+                "relevance": 0.393595,
+                "count": 1
+            },
+            {
+                "text": "morning",
+                "relevance": 0.387536,
+                "count": 1
+            },
+            {
+                "text": "Pitter",
+                "relevance": 0.381416,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "94aa0a144b8a8659657c00c772183b3b0ebc3a0a",
+        "filename": "202006050251ALBA____ME_NA_NE_56276_176218696_138.374.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:51:00-04:00",
+    "title": "St Andrew woman charged with murder of taxi driver in domestic dispute [Legal Monitor Worldwide]",
+    "html": "<p>A 32-year-old <person>St Andrew</person> woman is facing a charge of murder in the death of a taxi driver.</p>\n<p><person>Melissa Sinclair</person> of <location>East King's House Road</location> was charged after a domestic dispute led her to allegedly poured hot oil on 38-year-old <person>Orville Pitter</person>, also of <location>East King's House Road</location>.</p>\n<p>The police say on <chron>May 14</chron>, Sinclair got into an argument with Pitter around 11:30 in the morning.</p>\n<p>According to the police, during the incident, Sinclair doused Pitters with hot oil causing severe burns.</p>\n<p>He was transported to hospital and passed away just over a week later on <chron>May 25</chron>.</p>",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

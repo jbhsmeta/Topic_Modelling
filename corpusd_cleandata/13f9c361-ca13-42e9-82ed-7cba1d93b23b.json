@@ -1,0 +1,967 @@
+{
+    "id": "13f9c361-ca13-42e9-82ed-7cba1d93b23b",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c) 2020 Australian Associated Press",
+    "geoOrigin": "New South Wales, Australia",
+    "sourceType": "General Newswire",
+    "source": "AAP Australian General News",
+    "corpus_document_id": "39825614050417793497",
+    "description": "Organisers of Melbourne's Black Lives Matter rally could face police fines under coronavirus rules, as authorities continue to ask protesters not to attend the civil rights protest. Thousands of protesters are expected at the rally on Saturday, and Deputy Commissioner Shane Patton says if that happens, each organiser will be fined $1651 because of COVID-19...",
+    "serviceName": "Newswire",
+    "locationCode": [
+        {
+            "parent": "LR/oc",
+            "relevance_score": "9",
+            "description": "Australia and New Zealand",
+            "code": "LB/anz#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/anz",
+            "relevance_score": "9",
+            "description": "Australia",
+            "code": "LC/au#9#50#90",
+            "level": 2
+        },
+        {
+            "code": "LR/anz#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Oceania",
+            "code": "LR/oc#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "Business and Commerce, General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#75#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "Organisers of Melbourne's Black Lives Matter rally could face police fines\nunder coronavirus rules, as authorities continue to ask protesters not to\nattend the civil rights protest.\n\nThousands of protesters are expected at the rally on Saturday, and Deputy\nCommissioner Shane Patton says if that happens, each organiser will be fined\n$1651 because of COVID-19 restrictions.\n\nFines could also be issued to individuals, according to a police statement.\n\n\"In the exercise of police discretion, those who intentionally break the law\nwill be held to account,\" the statement said.\n\nPolice previously had said they were unlikely to fine individual protesters\nwho attend the rally.\n\n\"We will be issuing infringements to the organisers if this goes ahead and if\nit's greater than 20 people in breach of the chief health officer's\nguidelines,\" Mr Patton said on Friday.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Black Lives Matter"
+        ],
+        "location": [
+            "Melbourne's"
+        ],
+        "person": [
+            "Shane Patton",
+            "Mr Patton"
+        ],
+        "companies": [
+            "Black Lives Matter"
+        ]
+    },
+    "geoOrigin_code": "RU/au..nwswls",
+    "language": "English",
+    "filename": "202006050357AAP_____NEWS_____A576E468_803F_49DC_A5CA_0A68D057D5D7_112.2.XML",
+    "providerName": "Australian Associated Press",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.647171,
+                    "label": "negative"
+                },
+                "text": "Commissioner Shane Patton",
+                "relevance": 0.83667,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.541117,
+                    "label": "negative"
+                },
+                "text": "Melbourne",
+                "relevance": 0.341772,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "chief health",
+                "relevance": 0.314072,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "officer",
+                "relevance": 0.264433,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$1651",
+                "relevance": 0.264433,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Organisers of Melbourne's Black"
+                },
+                "sentence": "Organisers of Melbourne's Black Lives Matter rally could face police fines",
+                "object": {
+                    "text": "Matter rally"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Lives",
+                        "tense": "present"
+                    },
+                    "text": "Lives",
+                    "normalized": "Lives"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Organisers of Melbourne's Black Lives Matter rally"
+                },
+                "sentence": "Organisers of Melbourne's Black Lives Matter rally could face police fines",
+                "object": {
+                    "text": "police fines"
+                },
+                "action": {
+                    "verb": {
+                        "text": "face",
+                        "tense": "future"
+                    },
+                    "text": "could face",
+                    "normalized": "could face"
+                }
+            },
+            {
+                "subject": {
+                    "text": "authorities"
+                },
+                "sentence": " under coronavirus rules, as authorities continue to ask protesters not to",
+                "action": {
+                    "verb": {
+                        "text": "continue",
+                        "tense": "present"
+                    },
+                    "text": "continue to ask",
+                    "normalized": "continue to ask"
+                }
+            },
+            {
+                "subject": {
+                    "text": "authorities"
+                },
+                "sentence": " under coronavirus rules, as authorities continue to ask protesters not to",
+                "object": {
+                    "text": "protesters"
+                },
+                "action": {
+                    "verb": {
+                        "text": "ask",
+                        "tense": "future"
+                    },
+                    "text": "continue to ask",
+                    "normalized": "continue to ask"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Commissioner Shane Patton"
+                },
+                "sentence": " Commissioner Shane Patton says if that happens, each organiser will be fined",
+                "object": {
+                    "text": "if that happens, each organiser will be fined"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "says",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Fines"
+                },
+                "sentence": " Fines could also be issued to individuals, according to a police statement.",
+                "object": {
+                    "text": "issued to individuals"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Fines could also be issued to individuals"
+                },
+                "sentence": " Fines could also be issued to individuals, according to a police statement.",
+                "object": {
+                    "text": "to a police statement"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "those"
+                },
+                "sentence": " \"In the exercise of police discretion, those who intentionally break the law",
+                "object": {
+                    "text": "the law"
+                },
+                "action": {
+                    "verb": {
+                        "text": "break",
+                        "tense": "present"
+                    },
+                    "text": "break",
+                    "normalized": "break"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the statement"
+                },
+                "sentence": " will be held to account,\" the statement said.",
+                "object": {
+                    "text": "will be held to account"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police previously had said they were unlikely to fine individual protesters",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had said",
+                    "normalized": "have say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police"
+                },
+                "sentence": " Police previously had said they were unlikely to fine individual protesters",
+                "object": {
+                    "text": "they were unlikely to fine individual protesters"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "had said",
+                    "normalized": "have say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " Police previously had said they were unlikely to fine individual protesters",
+                "object": {
+                    "text": "individual protesters"
+                },
+                "action": {
+                    "verb": {
+                        "text": "fine",
+                        "tense": "past"
+                    },
+                    "text": "to fine",
+                    "normalized": "to fine"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We will be issuing infringements to the organisers if this goes ahead and if",
+                "object": {
+                    "text": "issuing infringements to the organisers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " \"We will be issuing infringements to the organisers if this goes ahead and if",
+                "object": {
+                    "text": "infringements to the organisers if this goes ahead and if"
+                },
+                "action": {
+                    "verb": {
+                        "text": "issue",
+                        "tense": "future"
+                    },
+                    "text": "will be issuing",
+                    "normalized": "will be issue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " it's greater than 20 people in breach of the chief health officer's",
+                "object": {
+                    "text": "greater than 20 people"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mr Patton"
+                },
+                "sentence": " guidelines,\" Mr Patton said on Friday.",
+                "object": {
+                    "text": "guidelines"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.905204,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.785471,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.754857,
+                "label": "/law, govt and politics/law enforcement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Organisers of Melbourne's Black Lives Matter rally could face police fines under coronavirus rules, as authorities continue to ask protesters not to attend the civil rights protest.",
+                "score": 0.949523,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            62,
+                            68
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "authorities",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "fines",
+                        "location": [
+                            69,
+                            74
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "fines"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "\"We will be issuing infringements to the organisers if this goes ahead and if it's greater than 20 people in breach of the chief health officer's guidelines,\" Mr Patton said on Friday.",
+                "score": 0.976565,
+                "arguments": [
+                    {
+                        "text": "Friday",
+                        "location": [
+                            852,
+                            858
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Friday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            844,
+                            848
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Organisers of Melbourne's Black Lives Matter rally could face police fines under coronavirus rules, as authorities continue to ask protesters not to attend the civil rights protest.",
+                "score": 0.432571,
+                "arguments": [
+                    {
+                        "text": "authorities",
+                        "location": [
+                            103,
+                            114
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "authorities",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "fines",
+                        "location": [
+                            69,
+                            74
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "fines"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Organisers of Melbourne's Black Lives Matter rally could face police fines under coronavirus rules, as authorities continue to ask protesters not to attend the civil rights protest.",
+                "score": 0.682905,
+                "arguments": [
+                    {
+                        "text": "authorities",
+                        "location": [
+                            103,
+                            114
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "authorities",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ask",
+                        "location": [
+                            127,
+                            130
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "ask"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Organisers of Melbourne's Black Lives Matter rally could face police fines under coronavirus rules, as authorities continue to ask protesters not to attend the civil rights protest.",
+                "score": 0.691651,
+                "arguments": [
+                    {
+                        "text": "protesters",
+                        "location": [
+                            131,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "protesters"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "ask",
+                        "location": [
+                            127,
+                            130
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "ask"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Thousands of protesters are expected at the rally on Saturday, and Deputy Commissioner Shane Patton says if that happens, each organiser will be fined $1651 because of COVID-19 restrictions.",
+                "score": 0.998237,
+                "arguments": [
+                    {
+                        "text": "Shane Patton",
+                        "location": [
+                            270,
+                            282
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Shane Patton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "says",
+                        "location": [
+                            283,
+                            287
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"We will be issuing infringements to the organisers if this goes ahead and if it's greater than 20 people in breach of the chief health officer's guidelines,\" Mr Patton said on Friday.",
+                "score": 0.995803,
+                "arguments": [
+                    {
+                        "text": "Patton",
+                        "location": [
+                            837,
+                            843
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Shane Patton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            844,
+                            848
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Thousands of protesters are expected at the rally on Saturday, and Deputy Commissioner Shane Patton says if that happens, each organiser will be fined $1651 because of COVID-19 restrictions.",
+                "score": 0.884033,
+                "arguments": [
+                    {
+                        "text": "organiser",
+                        "location": [
+                            310,
+                            319
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "organiser"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "fined",
+                        "location": [
+                            328,
+                            333
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "fined"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Thousands of protesters are expected at the rally on Saturday, and Deputy Commissioner Shane Patton says if that happens, each organiser will be fined $1651 because of COVID-19 restrictions.",
+                "score": 0.506416,
+                "arguments": [
+                    {
+                        "text": "organiser",
+                        "location": [
+                            310,
+                            319
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "organiser"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "$",
+                        "location": [
+                            334,
+                            335
+                        ],
+                        "entities": [
+                            {
+                                "type": "Money",
+                                "text": "$"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Fines could also be issued to individuals, according to a police statement.",
+                "score": 0.461669,
+                "arguments": [
+                    {
+                        "text": "individuals",
+                        "location": [
+                            405,
+                            416
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "individuals"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Fines",
+                        "location": [
+                            375,
+                            380
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "fines"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police previously had said they were unlikely to fine individual protesters who attend the rally.",
+                "score": 0.850931,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            576,
+                            582
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "authorities",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            598,
+                            602
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "police fines",
+                "relevance": 0.823539,
+                "count": 1
+            },
+            {
+                "text": "Organisers of Melbourne",
+                "relevance": 0.806463,
+                "count": 1
+            },
+            {
+                "text": "Black Lives Matter rally",
+                "relevance": 0.685896,
+                "count": 1
+            },
+            {
+                "text": "coronavirus rules",
+                "relevance": 0.663447,
+                "count": 1
+            },
+            {
+                "text": "Mr Patton",
+                "relevance": 0.651098,
+                "count": 1
+            },
+            {
+                "text": "exercise of police discretion",
+                "relevance": 0.569979,
+                "count": 1
+            },
+            {
+                "text": "guidelines",
+                "relevance": 0.550402,
+                "count": 1
+            },
+            {
+                "text": "police statement",
+                "relevance": 0.543679,
+                "count": 1
+            },
+            {
+                "text": "organiser",
+                "relevance": 0.542074,
+                "count": 1
+            },
+            {
+                "text": "Fines",
+                "relevance": 0.541424,
+                "count": 1
+            },
+            {
+                "text": "breach of the chief health officer",
+                "relevance": 0.530928,
+                "count": 1
+            },
+            {
+                "text": "organisers",
+                "relevance": 0.528086,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.527424,
+                "count": 1
+            },
+            {
+                "text": "protesters",
+                "relevance": 0.526114,
+                "count": 2
+            },
+            {
+                "text": "individuals",
+                "relevance": 0.525083,
+                "count": 1
+            },
+            {
+                "text": "infringements",
+                "relevance": 0.52503,
+                "count": 1
+            },
+            {
+                "text": "authorities",
+                "relevance": 0.519719,
+                "count": 1
+            },
+            {
+                "text": "rally",
+                "relevance": 0.515671,
+                "count": 2
+            },
+            {
+                "text": "Police",
+                "relevance": 0.513951,
+                "count": 1
+            },
+            {
+                "text": "law",
+                "relevance": 0.510209,
+                "count": 1
+            },
+            {
+                "text": "civil rights protest",
+                "relevance": 0.509814,
+                "count": 1
+            },
+            {
+                "text": "statement",
+                "relevance": 0.507607,
+                "count": 1
+            },
+            {
+                "text": "COVID-19 restrictions",
+                "relevance": 0.492216,
+                "count": 1
+            },
+            {
+                "text": "individual protesters",
+                "relevance": 0.461329,
+                "count": 1
+            },
+            {
+                "text": "Saturday",
+                "relevance": 0.398657,
+                "count": 1
+            },
+            {
+                "text": "Friday",
+                "relevance": 0.396578,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "ae838642eecf2f45c82a57e5dada1b5562adaf18",
+        "filename": "202006050357AAP_____NEWS_____A576E468_803F_49DC_A5CA_0A68D057D5D7_112.2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:57:00-04:00",
+    "title": "Vic: Protest to go ahead despite fines threat",
+    "html": "<block>\n<p>Organisers of <location idsrc=\"xmltag.org\" value=\"LU/au..melbou\">Melbourne's</location> <org>Black Lives Matter</org> rally could face police fines under coronavirus rules, as authorities continue to ask protesters not to attend the civil rights protest.</p>\n<p>Thousands of protesters are expected at the rally on Saturday, and Deputy Commissioner <person>Shane Patton</person> says if that happens, each organiser will be fined <money>$1651</money> because of COVID-19 restrictions.</p>\n<p>Fines could also be issued to individuals, according to a police statement.</p>\n<p>\"In the exercise of police discretion, those who intentionally break the law will be held to account,\" the statement said.</p>\n<p>Police previously had said they were unlikely to fine individual protesters who attend the rally.</p>\n<p>\"We will be issuing infringements to the organisers if this goes ahead and if it's greater than 20 people in breach of the chief health officer's guidelines,\" <person>Mr Patton</person> said on Friday.</p>\n<p />\n</block>",
+    "geoFocus": [
+        [
+            "GC/au",
+            "Australia"
+        ]
+    ]
+}

@@ -1,0 +1,628 @@
+{
+    "id": "64179ead-c3b5-431e-b72e-b5b75f5b656a",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 Independent.co.ukk. All rights reserved.",
+    "geoOrigin": "London, England, United Kingdom",
+    "sourceType": "Newspaper",
+    "source": "Evening Standard (UK)",
+    "corpus_document_id": "51079505185401835149",
+    "description": "CATE Blanchett has admitted she has had a run-in with a chainsaw. The film star, who is at her house in East Sussex, told Australia's former prime minister Julia Gillard, on Gillard's podcast: \"I had a bit of a chainsaw accident yesterday, which sounds very, very exciting, but it wasn't Apart from the little nick to the head.\" Chainsaw to the head\u2014 no biggie.",
+    "serviceName": "Independent Print - UK",
+    "locationCode": [
+        {
+            "parent": "LR/oc",
+            "relevance_score": "9",
+            "description": "Australia and New Zealand",
+            "code": "LB/anz#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/anz",
+            "relevance_score": "9",
+            "description": "Australia",
+            "code": "LC/au#9#90#49",
+            "level": 2
+        },
+        {
+            "code": "LR/anz#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Oceania",
+            "code": "LR/oc#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "CATE Blanchett has admitted she has had a run-in with a chainsaw. The film\nstar, who is at her house in East Sussex, told Australia's former prime\nminister Julia Gillard, on Gillard's podcast: \"I had a bit of a chainsaw\naccident yesterday, which sounds very, very exciting, but it wasn't Apart from\nthe little nick to the head.\" Chainsaw to the head -- no biggie.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Australia's"
+        ],
+        "person": [
+            "Julia Gillard"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/gb.eng.london",
+    "language": "English",
+    "filename": "202006050001INDPRINTNEWS__UK_2427237863_3194074007.XML",
+    "providerName": "Independent Digital News and Media",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.551131,
+                    "label": "positive"
+                },
+                "text": "minister Julia Gillard",
+                "relevance": 0.930641,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Politician",
+                        "OfficeHolder"
+                    ],
+                    "name": "Julia Gillard",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Julia_Gillard"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.587389,
+                    "label": "positive"
+                },
+                "text": "CATE Blanchett",
+                "relevance": 0.645763,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Actor",
+                        "AwardNominee",
+                        "AwardWinner",
+                        "Celebrity",
+                        "FilmActor",
+                        "TheaterActor",
+                        "TheaterDirector",
+                        "TVActor"
+                    ],
+                    "name": "Cate Blanchett",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Cate_Blanchett"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "East Sussex",
+                "relevance": 0.336532,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "star",
+                "relevance": 0.237805,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Australia",
+                "relevance": 0.236212,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Kingdom",
+                        "Country"
+                    ],
+                    "name": "Australia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Australia"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "CATE Blanchett"
+                },
+                "sentence": "CATE Blanchett has admitted she has had a run-in with a chainsaw.",
+                "object": {
+                    "text": "she has had a run-in with a chainsaw"
+                },
+                "action": {
+                    "verb": {
+                        "text": "admit",
+                        "tense": "past"
+                    },
+                    "text": "has admitted",
+                    "normalized": "have admit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "star"
+                },
+                "sentence": " star, who is at her house in East Sussex, told Australia's former prime",
+                "object": {
+                    "text": "at her house in East Sussex"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " minister Julia Gillard, on Gillard's podcast: \"I had a bit of a chainsaw",
+                "object": {
+                    "text": "a bit of a chainsaw"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "accident"
+                },
+                "sentence": " accident yesterday, which sounds very, very exciting, but it wasn't Apart from",
+                "object": {
+                    "text": "very, very exciting"
+                },
+                "action": {
+                    "verb": {
+                        "text": "sound",
+                        "tense": "present"
+                    },
+                    "text": "sounds",
+                    "normalized": "sound"
+                }
+            },
+            {
+                "subject": {
+                    "text": "accident"
+                },
+                "sentence": " accident yesterday, which sounds very, very exciting, but it wasn't Apart from",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.683623,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.673873,
+                "label": "/law, govt and politics/government/heads of state"
+            },
+            {
+                "score": 0.670113,
+                "label": "/law, govt and politics/government/parliament"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "CATE Blanchett has admitted she has had a run-in with a chainsaw.",
+                "score": 0.993628,
+                "arguments": [
+                    {
+                        "text": "CATE Blanchett",
+                        "location": [
+                            0,
+                            14
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "CATE Blanchett"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "admitted",
+                        "location": [
+                            19,
+                            27
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "admitted"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "CATE Blanchett has admitted she has had a run-in with a chainsaw.",
+                "score": 0.643975,
+                "arguments": [
+                    {
+                        "text": "she",
+                        "location": [
+                            28,
+                            31
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "CATE Blanchett"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "admitted",
+                        "location": [
+                            19,
+                            27
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "admitted"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "authorOf",
+                "sentence": "The film star, who is at her house in East Sussex, told Australia's former prime minister Julia Gillard, on Gillard's podcast: \"I had a bit of a chainsaw accident yesterday, which sounds very, very exciting, but it wasn't Apart from the little nick to the head.",
+                "score": 0.543012,
+                "arguments": [
+                    {
+                        "text": "star",
+                        "location": [
+                            75,
+                            79
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "CATE Blanchett"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "film",
+                        "location": [
+                            70,
+                            74
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "film"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The film star, who is at her house in East Sussex, told Australia's former prime minister Julia Gillard, on Gillard's podcast: \"I had a bit of a chainsaw accident yesterday, which sounds very, very exciting, but it wasn't Apart from the little nick to the head.",
+                "score": 0.282108,
+                "arguments": [
+                    {
+                        "text": "her",
+                        "location": [
+                            91,
+                            94
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "CATE Blanchett"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "house",
+                        "location": [
+                            95,
+                            100
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "house"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The film star, who is at her house in East Sussex, told Australia's former prime minister Julia Gillard, on Gillard's podcast: \"I had a bit of a chainsaw accident yesterday, which sounds very, very exciting, but it wasn't Apart from the little nick to the head.",
+                "score": 0.475278,
+                "arguments": [
+                    {
+                        "text": "her",
+                        "location": [
+                            91,
+                            94
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "CATE Blanchett"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "told",
+                        "location": [
+                            117,
+                            121
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "told"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The film star, who is at her house in East Sussex, told Australia's former prime minister Julia Gillard, on Gillard's podcast: \"I had a bit of a chainsaw accident yesterday, which sounds very, very exciting, but it wasn't Apart from the little nick to the head.",
+                "score": 0.946216,
+                "arguments": [
+                    {
+                        "text": "house",
+                        "location": [
+                            95,
+                            100
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "house"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "East Sussex",
+                        "location": [
+                            104,
+                            115
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "East Sussex"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "The film star, who is at her house in East Sussex, told Australia's former prime minister Julia Gillard, on Gillard's podcast: \"I had a bit of a chainsaw accident yesterday, which sounds very, very exciting, but it wasn't Apart from the little nick to the head.",
+                "score": 0.495169,
+                "arguments": [
+                    {
+                        "text": "prime\nminister",
+                        "location": [
+                            141,
+                            155
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Julia Gillard"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "told",
+                        "location": [
+                            117,
+                            121
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "told"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "The film star, who is at her house in East Sussex, told Australia's former prime minister Julia Gillard, on Gillard's podcast: \"I had a bit of a chainsaw accident yesterday, which sounds very, very exciting, but it wasn't Apart from the little nick to the head.",
+                "score": 0.485395,
+                "arguments": [
+                    {
+                        "text": "prime\nminister",
+                        "location": [
+                            141,
+                            155
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Julia Gillard"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Australia",
+                        "location": [
+                            122,
+                            131
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Australia",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The film star, who is at her house in East Sussex, told Australia's former prime minister Julia Gillard, on Gillard's podcast: \"I had a bit of a chainsaw accident yesterday, which sounds very, very exciting, but it wasn't Apart from the little nick to the head.",
+                "score": 0.922948,
+                "arguments": [
+                    {
+                        "text": "yesterday",
+                        "location": [
+                            229,
+                            238
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "yesterday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "accident",
+                        "location": [
+                            220,
+                            228
+                        ],
+                        "entities": [
+                            {
+                                "type": "NaturalDisaster",
+                                "text": "accident"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "CATE Blanchett",
+                "relevance": 0.914036,
+                "count": 1
+            },
+            {
+                "text": "East Sussex",
+                "relevance": 0.836211,
+                "count": 1
+            },
+            {
+                "text": "Gillard's podcast",
+                "relevance": 0.751586,
+                "count": 1
+            },
+            {
+                "text": "little nick",
+                "relevance": 0.661591,
+                "count": 1
+            },
+            {
+                "text": "house",
+                "relevance": 0.581766,
+                "count": 1
+            },
+            {
+                "text": "chainsaw",
+                "relevance": 0.544364,
+                "count": 2
+            },
+            {
+                "text": "Australia",
+                "relevance": 0.535698,
+                "count": 1
+            },
+            {
+                "text": "head",
+                "relevance": 0.534605,
+                "count": 2
+            },
+            {
+                "text": "bit",
+                "relevance": 0.529016,
+                "count": 1
+            },
+            {
+                "text": "biggie",
+                "relevance": 0.524303,
+                "count": 1
+            },
+            {
+                "text": "run",
+                "relevance": 0.343108,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-F",
+    "extracted_metadata": {
+        "sha1": "5a3061634012a7f0f97815bb57608bbaa8aebbdd",
+        "filename": "202006050001INDPRINTNEWS__UK_2427237863_3194074007.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:01:00-04:00",
+    "title": "CATE Blanchett has admitted she [ ]",
+    "html": "<p>CATE Blanchett has admitted she has had a run-in with a chainsaw. The film star, who is at her house in East Sussex, told <location idsrc=\"xmltag.org\" value=\"LC/au\">Australia's</location> former prime minister <person>Julia Gillard</person>, on Gillard's podcast: \"I had a bit of a chainsaw accident yesterday, which sounds very, very exciting, but it wasn't  Apart from the little nick to the head.\" Chainsaw to the head &#8212; no biggie.</p>",
+    "geoFocus": [
+        [
+            "GC/gb",
+            "United Kingdom"
+        ],
+        [
+            "GU/gb.eng.london",
+            "London"
+        ]
+    ]
+}

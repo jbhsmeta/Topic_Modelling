@@ -1,0 +1,318 @@
+{
+    "id": "f88126e7-dc79-49b2-9fc6-dd6f1a1f64d4",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "32871048482999131047",
+    "description": "Goa police have deployed personnel 24 x7 at Mangor Hill, Vasco, so that there is no movement of people inside and outside the containment zone.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Southern Asia",
+            "code": "LB/sas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sas",
+            "relevance_score": "9",
+            "description": "India",
+            "code": "LC/in#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "Goa police have deployed personnel 24x7 at Mangor Hill, Vasco, so that there\nis no movement of people inside and outside the containment zone.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Goa"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050407AMSPIDERNEWS_____FTYBZKFJ_A91E8B720A240F9F02BFA7A84353DE83_2.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Goa",
+                "relevance": 0.88461,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mangor Hill",
+                "relevance": 0.738817,
+                "type": "Facility"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Goa police"
+                },
+                "sentence": "Goa police have deployed personnel 24x7 at Mangor Hill, Vasco, so that there",
+                "object": {
+                    "text": "deployed personnel"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Goa police"
+                },
+                "sentence": "Goa police have deployed personnel 24x7 at Mangor Hill, Vasco, so that there",
+                "object": {
+                    "text": "personnel"
+                },
+                "action": {
+                    "verb": {
+                        "text": "deploy",
+                        "tense": "past"
+                    },
+                    "text": "have deployed",
+                    "normalized": "have deploy"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.750485,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.67997,
+                "label": "/law, govt and politics/armed forces/air force"
+            },
+            {
+                "score": 0.640411,
+                "label": "/society/crime/personal offense/assault"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "Goa police have deployed personnel 24x7 at Mangor Hill, Vasco, so that there is no movement of people inside and outside the containment zone.",
+                "score": 0.997606,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            4,
+                            10
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Goa",
+                        "location": [
+                            0,
+                            3
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Goa"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Goa police have deployed personnel 24x7 at Mangor Hill, Vasco, so that there is no movement of people inside and outside the containment zone.",
+                "score": 0.624154,
+                "arguments": [
+                    {
+                        "text": "personnel",
+                        "location": [
+                            25,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "personnel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mangor Hill",
+                        "location": [
+                            43,
+                            54
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mangor Hill"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Goa police have deployed personnel 24x7 at Mangor Hill, Vasco, so that there is no movement of people inside and outside the containment zone.",
+                "score": 0.630406,
+                "arguments": [
+                    {
+                        "text": "personnel",
+                        "location": [
+                            25,
+                            34
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "personnel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Vasco",
+                        "location": [
+                            56,
+                            61
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Vasco"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Goa police have deployed personnel 24x7 at Mangor Hill, Vasco, so that there is no movement of people inside and outside the containment zone.",
+                "score": 0.830861,
+                "arguments": [
+                    {
+                        "text": "Mangor Hill",
+                        "location": [
+                            43,
+                            54
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mangor Hill"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Vasco",
+                        "location": [
+                            56,
+                            61
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Vasco"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Goa police",
+                "relevance": 0.992257,
+                "count": 1
+            },
+            {
+                "text": "movement of people",
+                "relevance": 0.868939,
+                "count": 1
+            },
+            {
+                "text": "personnel",
+                "relevance": 0.611055,
+                "count": 1
+            },
+            {
+                "text": "Vasco",
+                "relevance": 0.56302,
+                "count": 1
+            },
+            {
+                "text": "Mangor Hill",
+                "relevance": 0.361963,
+                "count": 1
+            },
+            {
+                "text": "containment zone",
+                "relevance": 0.284954,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "d9d8d7b86becf9ea746a57b444cda533d84c08f9",
+        "filename": "202006050407AMSPIDERNEWS_____FTYBZKFJ_A91E8B720A240F9F02BFA7A84353DE83_2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:07:00-04:00",
+    "title": "225 Goa cops deployed in three shifts to monitor Mangor containment zone [Times of India, The (English)]",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/in..goa\">Goa</location> police have deployed personnel 24x7 at Mangor Hill, Vasco, so that there is no movement of people inside and outside the containment zone.</p>",
+    "geoFocus": []
+}

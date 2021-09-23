@@ -1,0 +1,145 @@
+{
+    "id": "c690c19f-713f-4b83-9f8a-f2815aef7ec3",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "22487918161980763961",
+    "description": "Lemon slams Trump's answer to question about police violence",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "Lemon slams Trump's answer to question about police violence",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#7#50#70",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "7",
+            "description": "Government Services",
+            "code": "II/gov.govserve#7#50#70",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "7",
+            "description": "Police Services",
+            "code": "II/gov.police#7#70#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "7",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#7#50#70",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050410AMSPIDERNEWS_____HERALD01_2E4890A889C65BB6404E22953AB1A9F9_31.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.662974,
+                    "label": "positive"
+                },
+                "text": "Trump",
+                "relevance": 0.33,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Lemon"
+                },
+                "sentence": "Lemon slams Trump's answer to question about police violence",
+                "object": {
+                    "text": "Trump"
+                },
+                "action": {
+                    "verb": {
+                        "text": "slam",
+                        "tense": "present"
+                    },
+                    "text": "slams",
+                    "normalized": "slam"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Trump"
+                },
+                "sentence": "Lemon slams Trump's answer to question about police violence",
+                "object": {
+                    "text": "about police violence"
+                },
+                "action": {
+                    "verb": {
+                        "text": "question",
+                        "tense": "future"
+                    },
+                    "text": "to question",
+                    "normalized": "to question"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.844861,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.772909,
+                "label": "/law, govt and politics/law enforcement"
+            },
+            {
+                "score": 0.682572,
+                "label": "/society/crime"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "Lemon slams Trump's answer",
+                "relevance": 0.992417,
+                "count": 1
+            },
+            {
+                "text": "police violence",
+                "relevance": 0.948538,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "ea32b51ce6956371029f2e88d6f8d89d9456abc2",
+        "filename": "202006050410AMSPIDERNEWS_____HERALD01_2E4890A889C65BB6404E22953AB1A9F9_31.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:10:00-04:00",
+    "title": "Lemon slams Trump's answer to question about police violence [Herald-Times (Bloomington, IN)]",
+    "html": "<p>Lemon slams Trump's answer to question about police violence</p>",
+    "geoFocus": []
+}

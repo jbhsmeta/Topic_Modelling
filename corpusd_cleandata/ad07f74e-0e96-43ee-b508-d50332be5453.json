@@ -1,0 +1,288 @@
+{
+    "id": "ad07f74e-0e96-43ee-b508-d50332be5453",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "57174292516603170700",
+    "description": "Yoursbach Bridge more info: Location: GERMANY BidDate: 6/ 9/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Stadt Heilbronn- Office for Roads- Tendering Authority Address: 74081 Heilbronn Baden-Wuerttemberg Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#7#50#70",
+            "level": 0
+        }
+    ],
+    "text": "Yoursbach Bridge more info : Location : GERMANY BidDate : 6/9/2020 Tender\nCountry : GERMANY Tender Type : Tenders Tendering Authority : Stadt Heilbronn\n- Office for Roads \\- Tendering Authority Address : 74081 Heilbronn (Sontheim)\nBaden-Wuerttemberg Financier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Yoursbach Bridge",
+            "GERMANY",
+            " : Stadt Heilbronn - <location>Office for Roads"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_59487_176212864_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.955662,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.257255,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.48959,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Stadt Heilbronn",
+                "relevance": 0.432625,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Yoursbach Bridge",
+                "relevance": 0.3423,
+                "type": "Facility"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.79583,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.615442,
+                "label": "/business and industrial/construction"
+            },
+            {
+                "score": 0.606267,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Yoursbach Bridge more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Stadt Heilbronn - Office for Roads \\- Tendering Authority Address : 74081 Heilbronn (Sontheim) Baden-Wuerttemberg Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.602269,
+                "arguments": [
+                    {
+                        "text": "6/9/2020 Tender",
+                        "location": [
+                            58,
+                            73
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/9/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : Stadt Heilbronn\n- Office",
+                        "location": [
+                            92,
+                            160
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : Stadt Heilbronn\n- Office"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Yoursbach Bridge",
+                "relevance": 0.939206,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.820587,
+                "count": 1
+            },
+            {
+                "text": "Wuerttemberg Financier",
+                "relevance": 0.758271,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.67435,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.640043,
+                "count": 1
+            },
+            {
+                "text": "Office",
+                "relevance": 0.580932,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.5578,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.555528,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.547905,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.547738,
+                "count": 1
+            },
+            {
+                "text": "Roads",
+                "relevance": 0.545685,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.533764,
+                "count": 1
+            },
+            {
+                "text": "Heilbronn",
+                "relevance": 0.514598,
+                "count": 1
+            },
+            {
+                "text": "Authority Address",
+                "relevance": 0.475265,
+                "count": 1
+            },
+            {
+                "text": "Stadt Heilbronn",
+                "relevance": 0.473467,
+                "count": 1
+            },
+            {
+                "text": "Sontheim",
+                "relevance": 0.308338,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "27cf742ff7fa13f7b16d9dc354f03304f78602d5",
+        "filename": "202006050210ALBA____ME_NA_NE_59487_176212864_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Yoursbach Bridge [TenderNews.com - Tenders (India)]",
+    "html": "<p><location>Yoursbach Bridge</location> more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/9/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Stadt Heilbronn - <location>Office for Roads</location> -\nTendering Authority Address : 74081 Heilbronn (Sontheim) Baden-Wuerttemberg\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

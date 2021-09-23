@@ -1,0 +1,598 @@
+{
+    "id": "bf2e7f57-3256-4c9b-a11c-c02803416762",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 Beloit Daily News, Hagadone Corporation. All rights reserved.",
+    "geoOrigin": "Beloit, Wisconsin",
+    "sourceType": "Newspaper",
+    "source": "Beloit Daily News (WI)",
+    "corpus_document_id": "47871739989822474724",
+    "description": "Great is the divide in this country over the wearing of masks to slow the spread of the Covid-19 virus. Perhaps a review of what the wearing of a cloth mask in public spaces accomplishes and what it does not accomplish would help to clarify the issue. Cloth masks do not protect the person wearing the mask from exposure to the virus, at least not in any substantial way.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#94",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#94#90",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#90#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#94",
+            "level": 1
+        }
+    ],
+    "text": "Great is the divide in this country over the wearing of masks to slow the\nspread of the Covid-19 virus. Perhaps a review of what the wearing of a cloth\nmask in public spaces accomplishes and what it does not accomplish would help\nto clarify the issue.\n\nCloth masks do not protect the person wearing the mask from exposure to the\nvirus, at least not in any substantial way. The virus particles are far too\nsmall for standard cloth to filter out. That requires an N95 Approved\nRespirator.\n\nSo, what does a cloth mask do? It helps protect everyone else from an\nasymptomatic person that may be shedding virus and not even know that they are\ncarrying the disease. In other words, when you see someone wearing a mask you\ncan feel secure in knowing that they care enough about you to protect you from\nthemselves as possible carriers of the virus.\n\nIt can also be said when you see someone not wearing a mask in the grocery\nstore, pharmacy and interior work spaces, is that they care less about anyone\nand everyone else around them than they do their own personal self-interests.\nI would hope that those that come in contact with their loved ones exercise\ngreater care, greater compassion and greater love for their fellow man.\n\nRick Brunton\n\nBeloit",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Rick Brunton"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.wi.beloit",
+    "language": "English",
+    "filename": "202005260000NEWSBANKNEWSPPRS0931ECC13C66CE00DFAEF7A3732B589.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.654855,
+                    "label": "positive"
+                },
+                "text": "Rick Brunton",
+                "relevance": 0.939813,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.806296,
+                    "label": "negative"
+                },
+                "text": "asymptomatic",
+                "relevance": 0.860148,
+                "type": "HealthCondition"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Beloit",
+                "relevance": 0.79246,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Great"
+                },
+                "sentence": "Great is the divide in this country over the wearing of masks to slow the",
+                "object": {
+                    "text": "the divide in this country"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Cloth masks"
+                },
+                "sentence": " Cloth masks do not protect the person wearing the mask from exposure to the",
+                "object": {
+                    "text": "the person"
+                },
+                "action": {
+                    "verb": {
+                        "text": "protect",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "protect",
+                    "normalized": "protect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the person"
+                },
+                "sentence": " Cloth masks do not protect the person wearing the mask from exposure to the",
+                "object": {
+                    "text": "the mask"
+                },
+                "action": {
+                    "verb": {
+                        "text": "wear",
+                        "tense": "present"
+                    },
+                    "text": "wearing",
+                    "normalized": "wear"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The virus particles"
+                },
+                "sentence": " The virus particles are far too",
+                "object": {
+                    "text": "far too"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "That"
+                },
+                "sentence": " That requires an N95 Approved",
+                "object": {
+                    "text": "an N95 Approved"
+                },
+                "action": {
+                    "verb": {
+                        "text": "require",
+                        "tense": "present"
+                    },
+                    "text": "requires",
+                    "normalized": "require"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It helps protect everyone else from an",
+                "object": {
+                    "text": "protect everyone else from an"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "present"
+                    },
+                    "text": "helps",
+                    "normalized": "help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "everyone else"
+                },
+                "sentence": " It helps protect everyone else from an",
+                "object": {
+                    "text": "from an"
+                },
+                "action": {
+                    "verb": {
+                        "text": "protect",
+                        "tense": "present"
+                    },
+                    "text": "helps protect",
+                    "normalized": "help protect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "asymptomatic person"
+                },
+                "sentence": " asymptomatic person that may be shedding virus and not even know that they are",
+                "object": {
+                    "text": "shedding virus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "asymptomatic person"
+                },
+                "sentence": " asymptomatic person that may be shedding virus and not even know that they are",
+                "object": {
+                    "text": "virus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "shed",
+                        "tense": "future"
+                    },
+                    "text": "may be shedding",
+                    "normalized": "may be shed"
+                }
+            },
+            {
+                "subject": {
+                    "text": "asymptomatic person"
+                },
+                "sentence": " asymptomatic person that may be shedding virus and not even know that they are",
+                "object": {
+                    "text": "that they are"
+                },
+                "action": {
+                    "verb": {
+                        "text": "know",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "even know",
+                    "normalized": "even know"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " In other words, when you see someone wearing a mask you",
+                "object": {
+                    "text": "someone wearing a mask you"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "present"
+                    },
+                    "text": "see",
+                    "normalized": "see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " can feel secure in knowing that they care enough about you to protect you from",
+                "object": {
+                    "text": "enough about you to protect you from"
+                },
+                "action": {
+                    "verb": {
+                        "text": "care",
+                        "tense": "present"
+                    },
+                    "text": "care",
+                    "normalized": "care"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It can also be said when you see someone not wearing a mask in the grocery",
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "future"
+                    },
+                    "text": "can also be said",
+                    "normalized": "can also be say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " It can also be said when you see someone not wearing a mask in the grocery",
+                "object": {
+                    "text": "someone not wearing a mask in the grocery"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "present"
+                    },
+                    "text": "see",
+                    "normalized": "see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " and everyone else around them than they do their own personal self-interests.",
+                "object": {
+                    "text": "their own personal self-interests"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "do",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I would hope that those that come in contact with their loved ones exercise",
+                "object": {
+                    "text": "that those that come in contact with their loved ones exercise"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hope",
+                        "tense": "future"
+                    },
+                    "text": "would hope",
+                    "normalized": "would hope"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.866502,
+                "label": "/health and fitness/disease"
+            },
+            {
+                "score": 0.831326,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.745603,
+                "label": "/health and fitness/disease/epidemic"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "It helps protect everyone else from an asymptomatic person that may be shedding virus and not even know that they are carrying the disease.",
+                "score": 0.7301,
+                "arguments": [
+                    {
+                        "text": "they",
+                        "location": [
+                            628,
+                            632
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "themselves"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "disease",
+                        "location": [
+                            650,
+                            657
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "disease"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "greater care",
+                "relevance": 0.929396,
+                "count": 1
+            },
+            {
+                "text": "greater compassion",
+                "relevance": 0.746133,
+                "count": 1
+            },
+            {
+                "text": "wearing of masks",
+                "relevance": 0.693447,
+                "count": 1
+            },
+            {
+                "text": "public spaces",
+                "relevance": 0.667731,
+                "count": 1
+            },
+            {
+                "text": "greater love",
+                "relevance": 0.620216,
+                "count": 1
+            },
+            {
+                "text": "Cloth masks",
+                "relevance": 0.610178,
+                "count": 1
+            },
+            {
+                "text": "spread of the Covid-19 virus",
+                "relevance": 0.57929,
+                "count": 1
+            },
+            {
+                "text": "interior work spaces",
+                "relevance": 0.573457,
+                "count": 1
+            },
+            {
+                "text": "virus particles",
+                "relevance": 0.564014,
+                "count": 1
+            },
+            {
+                "text": "pharmacy",
+                "relevance": 0.532857,
+                "count": 1
+            },
+            {
+                "text": "asymptomatic person",
+                "relevance": 0.531575,
+                "count": 1
+            },
+            {
+                "text": "person",
+                "relevance": 0.526945,
+                "count": 1
+            },
+            {
+                "text": "review",
+                "relevance": 0.519353,
+                "count": 1
+            },
+            {
+                "text": "words",
+                "relevance": 0.518459,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.516897,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.515174,
+                "count": 2
+            },
+            {
+                "text": "possible carriers of the virus",
+                "relevance": 0.511096,
+                "count": 1
+            },
+            {
+                "text": "exposure",
+                "relevance": 0.507957,
+                "count": 1
+            },
+            {
+                "text": "disease",
+                "relevance": 0.507957,
+                "count": 1
+            },
+            {
+                "text": "Respirator",
+                "relevance": 0.507957,
+                "count": 1
+            },
+            {
+                "text": "issue",
+                "relevance": 0.507957,
+                "count": 1
+            },
+            {
+                "text": "standard cloth",
+                "relevance": 0.506224,
+                "count": 1
+            },
+            {
+                "text": "own personal self-interests",
+                "relevance": 0.498835,
+                "count": 1
+            },
+            {
+                "text": "cloth mask",
+                "relevance": 0.479422,
+                "count": 1
+            },
+            {
+                "text": "loved ones exercise",
+                "relevance": 0.470621,
+                "count": 1
+            },
+            {
+                "text": "Rick Brunton",
+                "relevance": 0.468673,
+                "count": 1
+            },
+            {
+                "text": "substantial way",
+                "relevance": 0.454352,
+                "count": 1
+            },
+            {
+                "text": "fellow man",
+                "relevance": 0.447685,
+                "count": 1
+            },
+            {
+                "text": "divide",
+                "relevance": 0.410033,
+                "count": 1
+            },
+            {
+                "text": "mask",
+                "relevance": 0.406294,
+                "count": 3
+            },
+            {
+                "text": "N95",
+                "relevance": 0.397757,
+                "count": 1
+            },
+            {
+                "text": "wearing",
+                "relevance": 0.396409,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-Sa",
+    "extracted_metadata": {
+        "sha1": "65dd2c1d207ecf9340c5d69a2039805c212c7726",
+        "filename": "202005260000NEWSBANKNEWSPPRS0931ECC13C66CE00DFAEF7A3732B589.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-26T00:00:00-04:00",
+    "title": "'Wear the mask to help others'",
+    "html": "<p>Great is the divide in this country over the wearing of masks to slow the spread of the Covid-19 virus. Perhaps a review of what the wearing of a cloth mask in public spaces accomplishes and what it does not accomplish would help to clarify the issue.</p>\n<p>Cloth masks do not protect the person wearing the mask from exposure to the virus, at least not in any substantial way. The virus particles are far too small for standard cloth to filter out. That requires an N95 Approved Respirator.</p>\n\n<p>So, what does a cloth mask do? It helps protect everyone else from an asymptomatic person that may be shedding virus and not even know that they are carrying the disease. In other words, when you see someone wearing a mask you can feel secure in knowing that they care enough about you to protect you from themselves as possible carriers of the virus.</p>\n\n<p>It can also be said when you see someone not wearing a mask in the grocery store, pharmacy and interior work spaces, is that they care less about anyone and everyone else around them than they do their own personal self-interests. I would hope that those that come in contact with their loved ones exercise greater care, greater compassion and greater love for their fellow man.</p>\n\n<p><person>Rick Brunton</person></p>\n\n<p>Beloit</p>",
+    "geoFocus": [
+        [
+            "GU/us.wi.beloit",
+            "Beloit"
+        ]
+    ]
+}

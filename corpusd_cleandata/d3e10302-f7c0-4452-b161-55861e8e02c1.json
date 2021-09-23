@@ -1,0 +1,438 @@
+{
+    "id": "d3e10302-f7c0-4452-b161-55861e8e02c1",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright Sandusky Newspaper Group, Kingsport Times-News, 2020. All Rights Reserved.",
+    "geoOrigin": "Sandusky County, Ohio",
+    "sourceType": "Newspaper",
+    "source": "Kingsport Times-News (TN)",
+    "corpus_document_id": "8941386972232402699",
+    "description": "JONESBOROUGH- Marie Kauffman Megee, 78, of Jonesborough, TN passed away Tuesday, May 26, 2020, at her residence.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "JONESBOROUGH \\- Marie Kauffman Megee, 78, of Jonesborough, TN passed away\nTuesday, May 26, 2020, at her residence.\n\nArrangements will be announced by Oak Hill Funeral & Cremation Services.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Oak Hill Funeral &amp; Cremation Services"
+        ],
+        "location": [
+            "JONESBOROUGH",
+            "Jonesborough, TN"
+        ],
+        "person": [
+            "Marie Kauffman Megee"
+        ],
+        "companies": [
+            "Oak Hill Funeral &amp; Cremation Services"
+        ]
+    },
+    "geoOrigin_code": "RU/us.oh.sansky",
+    "language": "English",
+    "filename": "202005270000NEWSBANKNEWSPPRS61D882B3D84143338E6FF4106F10EB4.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "JONESBOROUGH",
+                "relevance": 0.893552,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Jonesborough, County Armagh",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Jonesborough,_County_Armagh"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Oak Hill Funeral & Cremation Services",
+                "relevance": 0.738191,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Marie Kauffman Megee",
+                "relevance": 0.591557,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.270128,
+                    "label": "negative"
+                },
+                "text": "TN",
+                "relevance": 0.298042,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Arrangements"
+                },
+                "sentence": " Arrangements will be announced by Oak Hill Funeral & Cremation Services.",
+                "object": {
+                    "text": "announced by Oak Hill Funeral & Cremation Services"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by Oak Hill Funeral & Cremation Services"
+                },
+                "sentence": " Arrangements will be announced by Oak Hill Funeral & Cremation Services.",
+                "object": {
+                    "text": "Arrangements"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "future"
+                    },
+                    "text": "will be announced",
+                    "normalized": "will be announce"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.5333,
+                "label": "/style and fashion"
+            },
+            {
+                "score": 0.529569,
+                "label": "/style and fashion/clothing"
+            },
+            {
+                "score": 0.523826,
+                "label": "/society/social institution/divorce"
+            }
+        ],
+        "relations": [
+            {
+                "type": "diedAt",
+                "sentence": "JONESBOROUGH \\- Marie Kauffman Megee, 78, of Jonesborough, TN passed away Tuesday, May 26, 2020, at her residence.",
+                "score": 0.356179,
+                "arguments": [
+                    {
+                        "text": "JONESBOROUGH",
+                        "location": [
+                            0,
+                            12
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "JONESBOROUGH"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "residence",
+                        "location": [
+                            104,
+                            113
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "residence"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "JONESBOROUGH \\- Marie Kauffman Megee, 78, of Jonesborough, TN passed away Tuesday, May 26, 2020, at her residence.",
+                "score": 0.981849,
+                "arguments": [
+                    {
+                        "text": "Marie Kauffman Megee",
+                        "location": [
+                            16,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Marie Kauffman Megee"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "78",
+                        "location": [
+                            38,
+                            40
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "78"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "JONESBOROUGH \\- Marie Kauffman Megee, 78, of Jonesborough, TN passed away Tuesday, May 26, 2020, at her residence.",
+                "score": 0.837596,
+                "arguments": [
+                    {
+                        "text": "Marie Kauffman Megee",
+                        "location": [
+                            16,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Marie Kauffman Megee"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jonesborough",
+                        "location": [
+                            45,
+                            57
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jonesborough"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "diedOn",
+                "sentence": "JONESBOROUGH \\- Marie Kauffman Megee, 78, of Jonesborough, TN passed away Tuesday, May 26, 2020, at her residence.",
+                "score": 0.48389,
+                "arguments": [
+                    {
+                        "text": "Marie Kauffman Megee",
+                        "location": [
+                            16,
+                            36
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Marie Kauffman Megee"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tuesday, May 26, 2020",
+                        "location": [
+                            74,
+                            95
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Tuesday, May 26, 2020"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "JONESBOROUGH \\- Marie Kauffman Megee, 78, of Jonesborough, TN passed away Tuesday, May 26, 2020, at her residence.",
+                "score": 0.679112,
+                "arguments": [
+                    {
+                        "text": "her",
+                        "location": [
+                            100,
+                            103
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Marie Kauffman Megee"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "residence",
+                        "location": [
+                            104,
+                            113
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "residence"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Arrangements will be announced by Oak Hill Funeral & Cremation Services.",
+                "score": 0.941562,
+                "arguments": [
+                    {
+                        "text": "Oak Hill Funeral & Cremation Services",
+                        "location": [
+                            150,
+                            187
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Oak Hill Funeral & Cremation Services",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            137,
+                            146
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Marie Kauffman Megee",
+                "relevance": 0.991718,
+                "count": 1
+            },
+            {
+                "text": "Arrangements",
+                "relevance": 0.628811,
+                "count": 1
+            },
+            {
+                "text": "JONESBOROUGH",
+                "relevance": 0.60483,
+                "count": 2
+            },
+            {
+                "text": "Oak Hill Funeral",
+                "relevance": 0.586078,
+                "count": 1
+            },
+            {
+                "text": "residence",
+                "relevance": 0.524474,
+                "count": 1
+            },
+            {
+                "text": "Cremation Services",
+                "relevance": 0.3834,
+                "count": 1
+            },
+            {
+                "text": "Tuesday",
+                "relevance": 0.271548,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.248719,
+                "count": 1
+            },
+            {
+                "text": "TN",
+                "relevance": 0.244849,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "f6c3c5635258bf5963662f0f1ca551bfe2e3afe7",
+        "filename": "202005270000NEWSBANKNEWSPPRS61D882B3D84143338E6FF4106F10EB4.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-27T00:00:00-04:00",
+    "title": "Marie Kauffman Megee",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.tn.jonugh\">JONESBOROUGH</location> - <person>Marie Kauffman Megee</person>, 78, of <location idsrc=\"xmltag.org\" value=\"LU/us.tn.jonugh\">Jonesborough, TN</location> passed away <chron>Tuesday, May 26, 2020</chron>, at her residence.</p>\n<p>Arrangements will be announced by <org>Oak Hill Funeral &amp; Cremation Services</org>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.tn.kinort",
+            "Kingsport"
+        ]
+    ]
+}

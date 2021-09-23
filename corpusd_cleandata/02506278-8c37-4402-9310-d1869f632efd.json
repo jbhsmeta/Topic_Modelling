@@ -1,0 +1,524 @@
+{
+    "id": "02506278-8c37-4402-9310-d1869f632efd",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 Copyright 2020, Statesville Record & Landmark, Statesville, NC",
+    "geoOrigin": "Statesville, North Carolina",
+    "sourceType": "Newspaper",
+    "source": "Statesville Record & Landmark (NC)",
+    "corpus_document_id": "11936279705414492684",
+    "description": "The parade will start at the Iredell County Agricultural Fairgrounds on North Main Street at 11 a.m.. It will travel down Main Street, ending at the American Legion building. The fireworks that are also held in conjunction with the Independence Day parade are also being postponed until Aug. 15.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "An annual tradition for the past 15 years, the Troutman Independence Day\nParade is the latest postponement due to the coronavirus pandemic.\n\nThe parade, traditionally held the Saturday before July 4, has been postponed\nuntil Aug. 15.\n\nThe parade will start at the Iredell County Agricultural Fairgrounds on North\nMain Street at 11 a.m.\n\nIt will travel down Main Street, ending at the American Legion building.\n\nThe decision was made to postpone the parade due to the restrictions on large\ngatherings that are still in place due to the pandemic.\n\nThe fireworks that are also held in conjunction with the Independence Day\nparade are also being postponed until Aug. 15.\n\nThe fireworks will be held at dark, around 9:30 p.m. and will be shot off from\nthe fairgrounds.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "American Legion"
+        ],
+        "location": [
+            "Iredell County Agricultural Fairgrounds",
+            "North Main Street",
+            "Main Street"
+        ],
+        "person": [],
+        "companies": [
+            "American Legion"
+        ]
+    },
+    "geoOrigin_code": "RU/us.nc.stalle",
+    "language": "English",
+    "filename": "202006020000NEWSBANKNEWSPPRS0F1851E7BFAB261BFBA5AF5590C3ABC.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Iredell County Agricultural Fairgrounds",
+                "relevance": 0.97592,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.430866,
+                    "label": "negative"
+                },
+                "text": "American Legion",
+                "relevance": 0.379735,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "American Legion",
+                    "dbpedia_resource": "http://dbpedia.org/resource/American_Legion"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "15 years",
+                "relevance": 0.379735,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Parade"
+                },
+                "sentence": " Parade is the latest postponement due to the coronavirus pandemic.",
+                "object": {
+                    "text": "the latest postponement due to the coronavirus pandemic"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The parade"
+                },
+                "sentence": " The parade, traditionally held the Saturday before July 4, has been postponed",
+                "action": {
+                    "verb": {
+                        "text": "hold",
+                        "tense": "past"
+                    },
+                    "text": "held",
+                    "normalized": "hold"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The parade"
+                },
+                "sentence": " The parade, traditionally held the Saturday before July 4, has been postponed",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "has been postponed",
+                    "normalized": "have be postpone"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The parade"
+                },
+                "sentence": " The parade will start at the Iredell County Agricultural Fairgrounds on North",
+                "action": {
+                    "verb": {
+                        "text": "start",
+                        "tense": "future"
+                    },
+                    "text": "will start",
+                    "normalized": "will start"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It will travel down Main Street, ending at the American Legion building.",
+                "object": {
+                    "text": "down Main Street"
+                },
+                "action": {
+                    "verb": {
+                        "text": "travel",
+                        "tense": "future"
+                    },
+                    "text": "will travel",
+                    "normalized": "will travel"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Main Street"
+                },
+                "sentence": " It will travel down Main Street, ending at the American Legion building.",
+                "action": {
+                    "verb": {
+                        "text": "end",
+                        "tense": "present"
+                    },
+                    "text": "ending",
+                    "normalized": "end"
+                }
+            },
+            {
+                "subject": {
+                    "text": "gatherings that"
+                },
+                "sentence": " gatherings that are still in place due to the pandemic.",
+                "object": {
+                    "text": "still in place"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "parade"
+                },
+                "sentence": " parade are also being postponed until Aug. 15.",
+                "action": {
+                    "verb": {
+                        "text": "postpone",
+                        "tense": "past"
+                    },
+                    "text": "are also being postponed",
+                    "normalized": "be also be postpone"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The fireworks"
+                },
+                "sentence": " The fireworks will be held at dark, around 9:30 p.m. and will be shot off from",
+                "object": {
+                    "text": "held at dark"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The fireworks"
+                },
+                "sentence": " The fireworks will be held at dark, around 9:30 p.m. and will be shot off from",
+                "object": {
+                    "text": "at dark"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hold",
+                        "tense": "future"
+                    },
+                    "text": "will be held",
+                    "normalized": "will be hold"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.720256,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.672265,
+                "label": "/health and fitness/disease/epidemic"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "The parade, traditionally held the Saturday before July 4, has been postponed until Aug. 15.",
+                "score": 0.80872,
+                "arguments": [
+                    {
+                        "text": "Saturday before July 4",
+                        "location": [
+                            176,
+                            198
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Saturday before July 4"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "parade",
+                        "location": [
+                            145,
+                            151
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "parade"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The parade will start at the Iredell County Agricultural Fairgrounds on North Main Street at 11 a.m.",
+                "score": 0.515908,
+                "arguments": [
+                    {
+                        "text": "11 a.m.",
+                        "location": [
+                            328,
+                            335
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "11 a.m."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "parade",
+                        "location": [
+                            239,
+                            245
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "parade"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The parade will start at the Iredell County Agricultural Fairgrounds on North Main Street at 11 a.m.",
+                "score": 0.820193,
+                "arguments": [
+                    {
+                        "text": "Iredell County Agricultural Fairgrounds",
+                        "location": [
+                            264,
+                            303
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Iredell County Agricultural Fairgrounds"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "North\nMain Street",
+                        "location": [
+                            307,
+                            324
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "North\nMain Street"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "It will travel down Main Street, ending at the American Legion building.",
+                "score": 0.471342,
+                "arguments": [
+                    {
+                        "text": "American Legion",
+                        "location": [
+                            384,
+                            399
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "American Legion"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "building",
+                        "location": [
+                            400,
+                            408
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "North\nMain Street"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The fireworks that are also held in conjunction with the Independence Day parade are also being postponed until Aug. 15.",
+                "score": 0.593959,
+                "arguments": [
+                    {
+                        "text": "Aug. 15",
+                        "location": [
+                            658,
+                            665
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Aug. 15",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Ending"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "parade",
+                        "location": [
+                            620,
+                            626
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "parade"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "annual tradition",
+                "relevance": 0.825504,
+                "count": 1
+            },
+            {
+                "text": "Main Street",
+                "relevance": 0.798386,
+                "count": 1
+            },
+            {
+                "text": "parade",
+                "relevance": 0.670581,
+                "count": 3
+            },
+            {
+                "text": "decision",
+                "relevance": 0.640702,
+                "count": 1
+            },
+            {
+                "text": "Iredell County Agricultural Fairgrounds",
+                "relevance": 0.626661,
+                "count": 1
+            },
+            {
+                "text": "fireworks",
+                "relevance": 0.573028,
+                "count": 2
+            },
+            {
+                "text": "latest postponement",
+                "relevance": 0.564077,
+                "count": 1
+            },
+            {
+                "text": "American Legion building",
+                "relevance": 0.536178,
+                "count": 1
+            },
+            {
+                "text": "conjunction",
+                "relevance": 0.517726,
+                "count": 1
+            },
+            {
+                "text": "restrictions",
+                "relevance": 0.517147,
+                "count": 1
+            },
+            {
+                "text": "place",
+                "relevance": 0.516146,
+                "count": 1
+            },
+            {
+                "text": "fairgrounds",
+                "relevance": 0.508576,
+                "count": 1
+            },
+            {
+                "text": "Saturday",
+                "relevance": 0.414112,
+                "count": 1
+            },
+            {
+                "text": "July",
+                "relevance": 0.40786,
+                "count": 1
+            },
+            {
+                "text": "years",
+                "relevance": 0.406619,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.401466,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "1d4101641247a8bd9b5f0aee680d9be3fea9e451",
+        "filename": "202006020000NEWSBANKNEWSPPRS0F1851E7BFAB261BFBA5AF5590C3ABC.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-02T00:00:00-04:00",
+    "title": "Troutman Independence Day Parade postponed until August",
+    "html": "<p>An annual tradition for the past 15 years, the Troutman <chron>Independence Day</chron> Parade is the latest postponement due to the coronavirus pandemic.</p>\n<p>The parade, traditionally held the Saturday before <chron>July 4</chron>, has been postponed until <chron>Aug. 15</chron>.</p>\n\n<p>The parade will start at the <location>Iredell County Agricultural Fairgrounds</location> on <location>North Main Street</location> at <chron>11 a.m.</chron></p>\n\n<p>It will travel down <location>Main Street</location>, ending at the <org>American Legion</org> building.</p>\n\n<p>The decision was made to postpone the parade due to the restrictions on large gatherings that are still in place due to the pandemic.</p>\n\n<p>The fireworks that are also held in conjunction with the <chron>Independence Day</chron> parade are also being postponed until <chron>Aug. 15</chron>.</p>\n\n<p>The fireworks will be held at dark, around <chron>9:30 p.m.</chron> and will be shot off from the fairgrounds.</p>",
+    "geoFocus": [
+        [
+            "GU/us.nc.ireell",
+            "Iredell County"
+        ],
+        [
+            "GU/us.nc.moolle",
+            "Mooresville"
+        ],
+        [
+            "GU/us.nc.stalle",
+            "Statesville"
+        ],
+        [
+            "GU/us.nc.troman",
+            "Troutman"
+        ]
+    ]
+}

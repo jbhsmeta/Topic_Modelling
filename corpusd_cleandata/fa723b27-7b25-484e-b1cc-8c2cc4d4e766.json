@@ -1,0 +1,415 @@
+{
+    "id": "fa723b27-7b25-484e-b1cc-8c2cc4d4e766",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c) 2020 HT Digital Content Services",
+    "geoOrigin": "Australia",
+    "sourceType": "General Newswire",
+    "source": "Australian Government",
+    "corpus_document_id": "60417316579716274643",
+    "description": "Althea Group Holdings Ltd. has reported gross short sales of 17,349 FPO shares on June 3. The percent of issued capital of the company reported as short sales is 0.01 percent. The issued capital of the company is 161,719,639 shares.",
+    "serviceName": "Australian Government",
+    "locationCode": [
+        {
+            "code": "LP/au#9#99#50",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "National Government",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Business and Commerce",
+            "code": "IS/biz#9#99#50",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Finance",
+            "code": "IS/fin#5#50#58",
+            "level": 0
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "5",
+            "description": "Market News and Updates",
+            "code": "IS/fin.markets#5#50#58",
+            "level": 1
+        },
+        {
+            "parent": "IS/fin.markets",
+            "relevance_score": "5",
+            "description": "Short Selling",
+            "code": "IS/fin.shortsel#5#58#50",
+            "level": 2
+        }
+    ],
+    "text": "Australia, June 4 \\-- Althea Group Holdings Ltd. (AGH) has reported gross\nshort sales of 17,349 FPO shares on June 3. The percent of issued capital of\nthe company reported as short sales is 0.01 percent. The issued capital of the\ncompany is 161,719,639 shares. For any query with respect to this article or\nany other content requirement, please contact Editor at\n[contentservices@htlive.com](mailto:contentservices@htlive.com)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Althea Group Holdings Ltd."
+        ],
+        "location": [
+            "Australia"
+        ],
+        "person": [],
+        "companies": [
+            "Althea Group Holdings Ltd."
+        ]
+    },
+    "geoOrigin_code": "RC/au",
+    "language": "English",
+    "filename": "202006032359HIND____AUSTGOVT_SEC-2912865_810.90.XML",
+    "providerName": "HT Media",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Althea Group Holdings Ltd.",
+                "relevance": 0.949031,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.688087,
+                    "label": "negative"
+                },
+                "text": "17,349 FPO",
+                "relevance": 0.558151,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Editor",
+                "relevance": 0.498688,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Australia",
+                "relevance": 0.482162,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "contentservices@htlive.com",
+                "relevance": 0.482162,
+                "type": "EmailAddress"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "0.01 percent",
+                "relevance": 0.482162,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Australia, June 4 \\-- Althea Group Holdings Ltd. (AGH)"
+                },
+                "sentence": "Australia, June 4 \\-- Althea Group Holdings Ltd. (AGH) has reported gross",
+                "object": {
+                    "text": "reported gross"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Australia, June 4 \\-- Althea Group Holdings Ltd. (AGH)"
+                },
+                "sentence": "Australia, June 4 \\-- Althea Group Holdings Ltd. (AGH) has reported gross",
+                "object": {
+                    "text": "gross"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "past"
+                    },
+                    "text": "has reported",
+                    "normalized": "have report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "short sales"
+                },
+                "sentence": " the company reported as short sales is 0.01 percent.",
+                "object": {
+                    "text": "0.01 percent"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "company"
+                },
+                "sentence": " company is 161,719,639 shares.",
+                "object": {
+                    "text": "161,719,639 shares"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "contact Editor at"
+                },
+                "sentence": " any other content requirement, please contact Editor at",
+                "object": {
+                    "text": "any other content requirement"
+                },
+                "action": {
+                    "verb": {
+                        "text": "please",
+                        "tense": "present"
+                    },
+                    "text": "please",
+                    "normalized": "please"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.728913,
+                "label": "/business and industrial/company"
+            },
+            {
+                "score": 0.724128,
+                "label": "/real estate/buying and selling homes"
+            },
+            {
+                "score": 0.65734,
+                "label": "/business and industrial/company/earnings"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Australia, June 4 \\-- Althea Group Holdings Ltd. (AGH) has reported gross short sales of 17,349 FPO shares on June 3.",
+                "score": 0.569936,
+                "arguments": [
+                    {
+                        "text": "June 3",
+                        "location": [
+                            110,
+                            116
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "June 3"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            59,
+                            67
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The percent of issued capital of the company reported as short sales is 0.01 percent.",
+                "score": 0.886487,
+                "arguments": [
+                    {
+                        "text": "company",
+                        "location": [
+                            155,
+                            162
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Althea Group Holdings Ltd.",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            163,
+                            171
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "short sales",
+                "relevance": 0.88302,
+                "count": 2
+            },
+            {
+                "text": "Althea Group Holdings Ltd.",
+                "relevance": 0.867081,
+                "count": 1
+            },
+            {
+                "text": "FPO shares",
+                "relevance": 0.637054,
+                "count": 1
+            },
+            {
+                "text": "content requirement",
+                "relevance": 0.620229,
+                "count": 1
+            },
+            {
+                "text": "company",
+                "relevance": 0.615535,
+                "count": 2
+            },
+            {
+                "text": "Australia",
+                "relevance": 0.602212,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.598287,
+                "count": 2
+            },
+            {
+                "text": "query",
+                "relevance": 0.553128,
+                "count": 1
+            },
+            {
+                "text": "respect",
+                "relevance": 0.528795,
+                "count": 1
+            },
+            {
+                "text": "Editor",
+                "relevance": 0.520218,
+                "count": 1
+            },
+            {
+                "text": "article",
+                "relevance": 0.520218,
+                "count": 1
+            },
+            {
+                "text": "capital",
+                "relevance": 0.520218,
+                "count": 1
+            },
+            {
+                "text": "shares",
+                "relevance": 0.518571,
+                "count": 1
+            },
+            {
+                "text": "issued capital",
+                "relevance": 0.514972,
+                "count": 1
+            },
+            {
+                "text": "AGH",
+                "relevance": 0.391492,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.371794,
+                "count": 1
+            },
+            {
+                "text": "gross",
+                "relevance": 0.371794,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "51279ac0bcb015d45f64bd07ecd2361370406a1b",
+        "filename": "202006032359HIND____AUSTGOVT_SEC-2912865_810.90.json",
+        "file_type": "json"
+    },
+    "companyRecord": "Australia|AGH|ISIN:AU0000022774|Althea Group Holdings Limited|extractor|NECOID:8409633;ACORN:5011409633|SIGNIFICANT||||XASX|REFERENCE",
+    "publicationTime": "2020-06-03T23:59:00-04:00",
+    "title": "Althea Group Holdings Reports Daily Gross Short Sales (Australia) [Australian Government]",
+    "html": "<block>\n<p><location idsrc=\"xmltag.org\" value=\"LC/au\">Australia</location>, <chron>June 4</chron> -- <org idsrc=\"xmltag.org\" value=\"Australia:AGH\">Althea Group Holdings Ltd.</org> (AGH) has reported gross short sales of 17,349 FPO shares on <chron>June 3</chron>. The percent of issued capital of the company reported as short sales is 0.01 percent. The issued capital of the company is 161,719,639 shares. For any query with respect to this article or any other content requirement, please contact Editor at <a href=\"mailto:contentservices@htlive.com\">contentservices@htlive.com</a></p>\n</block>",
+    "geoFocus": [
+        [
+            "GC/au",
+            "Australia"
+        ]
+    ]
+}

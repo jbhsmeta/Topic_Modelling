@@ -1,0 +1,615 @@
+{
+    "id": "f53e50d7-c11b-4f0b-85b8-853810f949ea",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 Beloit Daily News, Hagadone Corporation. All rights reserved.",
+    "geoOrigin": "Beloit, Wisconsin",
+    "sourceType": "Newspaper",
+    "source": "Beloit Daily News (WI)",
+    "corpus_document_id": "21431020978486347892",
+    "description": "ROCKFORD The Rockford Park District is \"playing it safe\" this summer due to the ongoing restrictions in place from the State of Illinois and local health officials to help mitigate the spread of Coronavirus. Due to these limitations, Alpine Pool, Harkins Aquatic Center and Sand Park Pool will be closed for the season and the District's free summer concert series \"...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "ROCKFORD The Rockford Park District is \"playing it safe\" this summer due to\nthe ongoing restrictions in place from the State of Illinois and local health\nofficials to help mitigate the spread of Coronavirus.\n\nDue to these limitations, Alpine Pool, Harkins Aquatic Center and Sand Park\nPool will be closed for the season and the District's free summer concert\nseries \"Sounds of Summer\" has also been cancelled for the season.\n\nSince the start of this health emergency, the Rockford Park District has\nfollowed and supported guidelines and requirements established by the Center\nfor Disease Control (CDC), Illinois Department of Public Health (IDPH), State\nof Illinois, and Winnebago County Health Department (WCHD) and will continue\nto do so in order to help eliminate this virus from the community.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Rockford Park District",
+            "Center for Disease Control",
+            "CDC",
+            "Illinois Department of Public Health",
+            "Winnebago County Health Department"
+        ],
+        "location": [
+            "ROCKFORD",
+            "State of Illinois",
+            "Alpine Pool",
+            "Sand Park Pool"
+        ],
+        "person": [],
+        "companies": [
+            "CDC",
+            "Center for Disease Control",
+            "Winnebago County Health Department",
+            "Illinois Department of Public Health",
+            "Rockford Park District"
+        ]
+    },
+    "geoOrigin_code": "RU/us.wi.beloit",
+    "language": "English",
+    "filename": "202005250000NEWSBANKNEWSPPRS0FA5AF7BCB0AAB133C69E9EC1691F11.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0.663848,
+                    "label": "positive"
+                },
+                "text": "Rockford Park District",
+                "relevance": 0.859996,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.453504,
+                    "label": "positive"
+                },
+                "text": "Harkins Aquatic Center",
+                "relevance": 0.391384,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Illinois Department of Public Health",
+                "relevance": 0.377977,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Illinois Department of Public Health",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Illinois_Department_of_Public_Health"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "ROCKFORD",
+                "relevance": 0.375927,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Rockford, Illinois",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Rockford,_Illinois"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Illinois",
+                "relevance": 0.368479,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Illinois",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Illinois"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.38049,
+                    "label": "positive"
+                },
+                "text": "Winnebago County Health Department",
+                "relevance": 0.345479,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.453504,
+                    "label": "positive"
+                },
+                "text": "Sand Park",
+                "relevance": 0.246053,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Coronavirus",
+                "relevance": 0.229276,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "CDC",
+                "relevance": 0.188873,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentAgency",
+                        "GovernmentalBody"
+                    ],
+                    "name": "Centers for Disease Control and Prevention",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Centers_for_Disease_Control_and_Prevention"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "WCHD",
+                "relevance": 0.148578,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "ROCKFORD The Rockford Park District"
+                },
+                "sentence": "ROCKFORD The Rockford Park District is \"playing it safe\" this summer due to",
+                "object": {
+                    "text": "playing it safe\""
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "ROCKFORD The Rockford Park District"
+                },
+                "sentence": "ROCKFORD The Rockford Park District is \"playing it safe\" this summer due to",
+                "object": {
+                    "text": "it"
+                },
+                "action": {
+                    "verb": {
+                        "text": "play",
+                        "tense": "present"
+                    },
+                    "text": "playing",
+                    "normalized": "play"
+                }
+            },
+            {
+                "subject": {
+                    "text": "officials"
+                },
+                "sentence": " officials to help mitigate the spread of Coronavirus.",
+                "object": {
+                    "text": "mitigate the spread of Coronavirus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "help",
+                    "normalized": "help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "officials"
+                },
+                "sentence": " officials to help mitigate the spread of Coronavirus.",
+                "object": {
+                    "text": "the spread of Coronavirus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "mitigate",
+                        "tense": "present"
+                    },
+                    "text": "to help mitigate",
+                    "normalized": "to help mitigate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Pool"
+                },
+                "sentence": " Pool will be closed for the season and the District's free summer concert",
+                "action": {
+                    "verb": {
+                        "text": "close",
+                        "tense": "future"
+                    },
+                    "text": "will be closed",
+                    "normalized": "will be close"
+                }
+            },
+            {
+                "subject": {
+                    "text": "series"
+                },
+                "sentence": " series \"Sounds of Summer\" has also been cancelled for the season.",
+                "object": {
+                    "text": "of Summer"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Sounds",
+                        "tense": "present"
+                    },
+                    "text": "Sounds",
+                    "normalized": "Sounds"
+                }
+            },
+            {
+                "subject": {
+                    "text": "series \"Sounds of Summer"
+                },
+                "sentence": " series \"Sounds of Summer\" has also been cancelled for the season.",
+                "object": {
+                    "text": "cancelled"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "series \"Sounds of Summer\""
+                },
+                "sentence": " series \"Sounds of Summer\" has also been cancelled for the season.",
+                "action": {
+                    "verb": {
+                        "text": "cancel",
+                        "tense": "past"
+                    },
+                    "text": "has also been cancelled",
+                    "normalized": "have also be cancel"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the Rockford Park District"
+                },
+                "sentence": " Since the start of this health emergency, the Rockford Park District has",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the Center"
+                },
+                "sentence": " followed and supported guidelines and requirements established by the Center",
+                "object": {
+                    "text": "guidelines and requirements"
+                },
+                "action": {
+                    "verb": {
+                        "text": "establish",
+                        "tense": "past"
+                    },
+                    "text": "established",
+                    "normalized": "establish"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.880084,
+                "label": "/health and fitness/men's health"
+            },
+            {
+                "score": 0.804931,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.776171,
+                "label": "/health and fitness/disease/cold and flu"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Due to these limitations, Alpine Pool, Harkins Aquatic Center and Sand Park Pool will be closed for the season and the District's free summer concert series \"Sounds of Summer\" has also been cancelled for the season.",
+                "score": 0.966162,
+                "arguments": [
+                    {
+                        "text": "Sand Park\nPool",
+                        "location": [
+                            275,
+                            289
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Sand Park\nPool"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "District",
+                        "location": [
+                            328,
+                            336
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Rockford Park District"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Since the start of this health emergency, the Rockford Park District has followed and supported guidelines and requirements established by the Center for Disease Control (CDC), Illinois Department of Public Health (IDPH), State of Illinois, and Winnebago County Health Department (WCHD) and will continue to do so in order to help eliminate this virus from the community.",
+                "score": 0.966149,
+                "arguments": [
+                    {
+                        "text": "Department of Public Health",
+                        "location": [
+                            612,
+                            639
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Department of Public Health"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Illinois",
+                        "location": [
+                            603,
+                            611
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Illinois"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Disease Control",
+                "relevance": 0.829885,
+                "count": 1
+            },
+            {
+                "text": "ongoing restrictions",
+                "relevance": 0.743519,
+                "count": 1
+            },
+            {
+                "text": "State of Illinois",
+                "relevance": 0.742443,
+                "count": 1
+            },
+            {
+                "text": "start of this health emergency",
+                "relevance": 0.70699,
+                "count": 1
+            },
+            {
+                "text": "Alpine Pool",
+                "relevance": 0.699436,
+                "count": 1
+            },
+            {
+                "text": "Illinois Department of Public Health",
+                "relevance": 0.659089,
+                "count": 1
+            },
+            {
+                "text": "Winnebago County Health Department",
+                "relevance": 0.596387,
+                "count": 1
+            },
+            {
+                "text": "Rockford Park District",
+                "relevance": 0.59634,
+                "count": 2
+            },
+            {
+                "text": "limitations",
+                "relevance": 0.576801,
+                "count": 1
+            },
+            {
+                "text": "ROCKFORD",
+                "relevance": 0.544147,
+                "count": 1
+            },
+            {
+                "text": "Harkins Aquatic Center",
+                "relevance": 0.536906,
+                "count": 1
+            },
+            {
+                "text": "CDC",
+                "relevance": 0.530123,
+                "count": 1
+            },
+            {
+                "text": "order",
+                "relevance": 0.529107,
+                "count": 1
+            },
+            {
+                "text": "place",
+                "relevance": 0.528859,
+                "count": 1
+            },
+            {
+                "text": "Illinois",
+                "relevance": 0.523913,
+                "count": 1
+            },
+            {
+                "text": "season",
+                "relevance": 0.519774,
+                "count": 2
+            },
+            {
+                "text": "summer",
+                "relevance": 0.519345,
+                "count": 1
+            },
+            {
+                "text": "guidelines",
+                "relevance": 0.518916,
+                "count": 1
+            },
+            {
+                "text": "requirements",
+                "relevance": 0.514743,
+                "count": 1
+            },
+            {
+                "text": "District",
+                "relevance": 0.513543,
+                "count": 1
+            },
+            {
+                "text": "State",
+                "relevance": 0.512879,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.51277,
+                "count": 1
+            },
+            {
+                "text": "community",
+                "relevance": 0.510533,
+                "count": 1
+            },
+            {
+                "text": "Center",
+                "relevance": 0.507661,
+                "count": 1
+            },
+            {
+                "text": "Sounds of Summer",
+                "relevance": 0.48885,
+                "count": 1
+            },
+            {
+                "text": "spread of Coronavirus",
+                "relevance": 0.466133,
+                "count": 1
+            },
+            {
+                "text": "IDPH",
+                "relevance": 0.398395,
+                "count": 1
+            },
+            {
+                "text": "WCHD",
+                "relevance": 0.397542,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-Sa",
+    "extracted_metadata": {
+        "sha1": "44f647b68452a8b3e5826492178b06c02d0c50a3",
+        "filename": "202005250000NEWSBANKNEWSPPRS0FA5AF7BCB0AAB133C69E9EC1691F11.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Illinois Department of Public Health|extractor|DUNS:806660296;NECOID:337088340;ACORN:2462571971;UDUNS:065232498;UACORN:0761200709|MENTION||||XXXX|REFERENCE",
+    "publicationTime": "2020-05-25T00:00:00-04:00",
+    "title": "Rockford Park District announces summer closures, cancellations",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.il.rockfd\">ROCKFORD</location> The <org idsrc=\"xmltag.org\" value=\"ACORN:3314825069\">Rockford Park District</org> is \"playing it safe\" this summer due to the ongoing restrictions in place from the <location idsrc=\"xmltag.org\" value=\"LS/us.il\">State of Illinois</location> and local health officials to help mitigate the spread of Coronavirus.</p>\n<p>Due to these limitations, <location>Alpine Pool</location>, Harkins Aquatic Center and <location>Sand Park Pool</location> will be closed for the season and the District's free summer concert series \"Sounds of Summer\" has also been cancelled for the season.</p>\n\n<p>Since the start of this health emergency, the <org idsrc=\"xmltag.org\" value=\"ACORN:3314825069\">Rockford Park District</org> has followed and supported guidelines and requirements established by the <org>Center for Disease Control</org> (<org idsrc=\"xmltag.org\" value=\"ACORN:1432072899\">CDC</org>), <org idsrc=\"xmltag.org\" value=\"ACORN:2462571971\">Illinois Department of Public Health</org> (IDPH), <location idsrc=\"xmltag.org\" value=\"LS/us.il\">State of Illinois</location>, and <org>Winnebago County Health Department</org> (WCHD) and will continue to do so in order to help eliminate this virus from the community.</p>",
+    "geoFocus": [
+        [
+            "GU/us.wi.beloit",
+            "Beloit"
+        ]
+    ]
+}

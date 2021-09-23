@@ -1,0 +1,1404 @@
+{
+    "id": "c78eaced-2aac-4c79-8844-a51e6da3abf9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, Robotics & Machine Learning Daily News",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Robotics & Machine Learning Daily News",
+    "corpus_document_id": "34921189357738634867",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at Robotics& Machine Learning Daily News Daily News-- Investigators publish new report on Pattern Analysis. According to news reporting originating in Nanjing, People\u2019 s Republic of China, by NewsRx journalists, research stated,\u201c In this paper, we address the fusion of image and point cloud data for road detection.",
+    "serviceName": "Science Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Eastern Asia",
+            "code": "LB/eas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Northern Europe",
+            "code": "LB/neur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eas",
+            "relevance_score": "9",
+            "description": "People's Republic of China",
+            "code": "LC/cn#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": "LB/neur",
+            "relevance_score": "9",
+            "description": "United Kingdom",
+            "code": "LC/gb#9#50#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Robotics Technology",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics &\nMachine Learning Daily News Daily News \\-- Investigators publish new report on\nPattern Analysis. According to news reporting originating in Nanjing, People's\nRepublic of China, by NewsRx journalists, research stated, \"In this paper, we\naddress the fusion of image and point cloud data for road detection. To take\nadvantage of both deep network and multi-modal data fusion, we propose an end-\nto-end road segmentation network called SPSTFN (Spatial Propagation and\nSpatial Transformation Fusion Network).\"\n\nFinancial support for this research came from National Natural Science\nFoundation of China.\n\nThe news reporters obtained a quote from the research from the Nanjing\nUniversity of Science and Technology, \"Our method considers the model-level\nfusion and dual-view fusion in the network simultaneously for the first time.\nSpecifically, the proposed SPSTFN contains three parts: the point cloud\nbranch, the image branch, and the fusion block. Firstly, we design a simple\nbut efficient lightweight network to handle the unordered and sparse point\ncloud to obtain a coarse representation of the road area. Then, an equal-\nresolution convolutional block is adopted to capture the low-level features of\nthe image which are used to produce the heat diffusion coefficients of the\njoint anisotropic diffusion based spatial propagation model. Thirdly, we\nconduct the diffusion process on the coarse representation under the guidance\nof the learned low-level image features, both in the perspective and bird\nviews, via the spatial transformation in the network. Finally, the diffusion\nresults of the two views are then integrated to generate the final refined\nrepresentation of the road area. The proposed fusion method is totally data-\ndriven and parameter-free, and the whole fusion network can be trained with\nthe standard BP (Back Propagation) algorithm.\"\n\nAccording to the news reporters, the research concluded: \"Without any\nadditional process steps and pre-training, the proposed method obtains\ncompetitive results on the KITTI Road Benchmark.\"\n\nFor more information on this research see: A Fusion Network for Road Detection\nVia Spatial Propagation and Spatial Transformation. _Pattern Recognition_ ,\n2020;100():. _Pattern Recognition_ can be contacted at: Elsevier Sci Ltd, The\nBoulevard, Langford Lane, Kidlington, Oxford OX5 1GB, Oxon, England. (Elsevier\n\\- [www.elsevier.com](http://www.elsevier.com); Pattern Recognition -\n<http://www.journals.elsevier.com/pattern-recognition/>)\n\nOur news correspondents report that additional information may be obtained by\ncontacting Z. Jin, Nanjing University of Science and Technology, School of\nComputing Science and Engineering, Nanjing 210094, People's Republic of China.\nAdditional authors for this research include F. Yang and H. Wang.\n\nThe direct object identifier (DOI) for that additional information is:\n<https://doi.org/10.1016/j.patcog.2019.107141>. This DOI is a link to an\nonline electronic document that is either free or for purchase, and can be\nyour direct source for a journal article and its citation.\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Robotics &amp; Machine Learning Daily News Daily News",
+            "National Natural Science Foundation of China",
+            "Nanjing University",
+            "Fusion Network for Road Detection Via Spatial Propagation and Spatial Transformation",
+            "Elsevier Sci Ltd",
+            "Elsevier",
+            "School of Computing Science and Engineering"
+        ],
+        "location": [
+            "Nanjing",
+            "Republic of China",
+            "Langford Lane",
+            "Oxford",
+            "Oxon, England"
+        ],
+        "person": [
+            "Z. Jin",
+            "F. Yang",
+            "H. Wang"
+        ],
+        "companies": [
+            "Robotics &amp; Machine Learning Daily News Daily News",
+            "National Natural Science Foundation of China",
+            "News Reporter-Staff News",
+            "School of Computing Science and Engineering",
+            "Elsevier Sci Ltd",
+            "Nanjing University",
+            "Fusion Network for Road Detection Via Spatial Propagation and Spatial Transformation",
+            "Elsevier"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_SCNC_94A5B5D01037667C.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Spatial Transformation Fusion Network",
+                "relevance": 0.885282,
+                "type": "Company"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Nanjing",
+                "relevance": 0.846162,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "City"
+                    ],
+                    "name": "Nanjing",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Nanjing"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Nanjing University of Science and Technology",
+                "relevance": 0.481362,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Nanjing University of Science and Technology",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Nanjing_University_of_Science_and_Technology"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.440146,
+                    "label": "positive"
+                },
+                "text": "News Editor",
+                "relevance": 0.464494,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "University of Science and Technology",
+                "relevance": 0.436452,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "CollegeUniversity",
+                        "University"
+                    ],
+                    "name": "Harrisburg University of Science and Technology",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Harrisburg_University_of_Science_and_Technology"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "China",
+                "relevance": 0.415196,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.553902,
+                    "label": "positive"
+                },
+                "text": "National Natural Science",
+                "relevance": 0.412947,
+                "type": "PrintMedia"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Elsevier Sci Ltd",
+                "relevance": 0.390666,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.435334,
+                    "label": "positive"
+                },
+                "text": "Foundation of China",
+                "relevance": 0.388425,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Republic of China",
+                "relevance": 0.382321,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Republic of China (1912\u20131949)",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Republic_of_China_(1912\u20131949)"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "F. Yang",
+                "relevance": 0.333238,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Z. Jin",
+                "relevance": 0.320273,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.389607,
+                    "label": "positive"
+                },
+                "text": "England.",
+                "relevance": 0.311574,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "H. Wang",
+                "relevance": 0.308623,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "School of",
+                "relevance": 0.263014,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Investigators"
+                },
+                "sentence": " Machine Learning Daily News Daily News \\-- Investigators publish new report on",
+                "object": {
+                    "text": "new report"
+                },
+                "action": {
+                    "verb": {
+                        "text": "publish",
+                        "tense": "present"
+                    },
+                    "text": "publish",
+                    "normalized": "publish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "news reporting"
+                },
+                "sentence": " According to news reporting originating in Nanjing, People's",
+                "action": {
+                    "verb": {
+                        "text": "originate",
+                        "tense": "present"
+                    },
+                    "text": "originating",
+                    "normalized": "originate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " advantage of both deep network and multi-modal data fusion, we propose an end-",
+                "object": {
+                    "text": "an end-"
+                },
+                "action": {
+                    "verb": {
+                        "text": "propose",
+                        "tense": "present"
+                    },
+                    "text": "propose",
+                    "normalized": "propose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The news reporters"
+                },
+                "sentence": " The news reporters obtained a quote from the research from the Nanjing",
+                "object": {
+                    "text": "a quote"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the proposed SPSTFN"
+                },
+                "sentence": " Specifically, the proposed SPSTFN contains three parts: the point cloud",
+                "object": {
+                    "text": "three parts"
+                },
+                "action": {
+                    "verb": {
+                        "text": "contain",
+                        "tense": "present"
+                    },
+                    "text": "contains",
+                    "normalized": "contain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " Firstly, we design a simple",
+                "object": {
+                    "text": "a simple"
+                },
+                "action": {
+                    "verb": {
+                        "text": "design",
+                        "tense": "present"
+                    },
+                    "text": "design",
+                    "normalized": "design"
+                }
+            },
+            {
+                "subject": {
+                    "text": "efficient lightweight network"
+                },
+                "sentence": " but efficient lightweight network to handle the unordered and sparse point",
+                "object": {
+                    "text": "the unordered and sparse point"
+                },
+                "action": {
+                    "verb": {
+                        "text": "handle",
+                        "tense": "future"
+                    },
+                    "text": "to handle",
+                    "normalized": "to handle"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cloud"
+                },
+                "sentence": " cloud to obtain a coarse representation of the road area.",
+                "object": {
+                    "text": "a coarse representation of the road area"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "future"
+                    },
+                    "text": "to obtain",
+                    "normalized": "to obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "resolution convolutional block"
+                },
+                "sentence": " resolution convolutional block is adopted to capture the low-level features of",
+                "object": {
+                    "text": "the low-level features of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "capture",
+                        "tense": "future"
+                    },
+                    "text": "to capture",
+                    "normalized": "to capture"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image"
+                },
+                "sentence": " the image which are used to produce the heat diffusion coefficients of the",
+                "object": {
+                    "text": "to produce the heat diffusion coefficients of the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "are used",
+                    "normalized": "be use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the image"
+                },
+                "sentence": " the image which are used to produce the heat diffusion coefficients of the",
+                "object": {
+                    "text": "the heat diffusion coefficients of the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "produce",
+                        "tense": "future"
+                    },
+                    "text": "to produce",
+                    "normalized": "to produce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "integrated"
+                },
+                "sentence": " results of the two views are then integrated to generate the final refined",
+                "object": {
+                    "text": "the final refined"
+                },
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "future"
+                    },
+                    "text": "generate",
+                    "normalized": "generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The proposed fusion method"
+                },
+                "sentence": " The proposed fusion method is totally data-",
+                "object": {
+                    "text": "totally data-"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the whole fusion network"
+                },
+                "sentence": " driven and parameter-free, and the whole fusion network can be trained with",
+                "object": {
+                    "text": "trained with"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "F. Yang and H. Wang"
+                },
+                "sentence": " Additional authors for this research include F. Yang and H. Wang.",
+                "object": {
+                    "text": "Additional authors for this research"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "include",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "<https://doi.org/10.1016/j.patcog.2019.107141>. This DOI"
+                },
+                "sentence": " <https://doi.org/10.1016/j.patcog.2019.107141>. This DOI is a link to an",
+                "object": {
+                    "text": "a link"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "online electronic document that"
+                },
+                "sentence": " online electronic document that is either free or for purchase, and can be",
+                "object": {
+                    "text": "either free"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Our reports"
+                },
+                "sentence": " (Our reports deliver fact-based news of research and discoveries from around",
+                "object": {
+                    "text": "fact-based news of research and discoveries"
+                },
+                "action": {
+                    "verb": {
+                        "text": "deliver",
+                        "tense": "present"
+                    },
+                    "text": "deliver",
+                    "normalized": "deliver"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.790192,
+                "label": "/technology and computing"
+            },
+            {
+                "score": 0.760091,
+                "label": "/news/national news"
+            },
+            {
+                "score": 0.754964,
+                "label": "/business and industrial/business operations/management/business process"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- Investigators publish new report on Pattern Analysis.",
+                "score": 0.496824,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "_Pattern Recognition_ can be contacted at: Elsevier Sci Ltd, The Boulevard, Langford Lane, Kidlington, Oxford OX5 1GB, Oxon, England.",
+                "score": 0.492454,
+                "arguments": [
+                    {
+                        "text": "OX5 1GB",
+                        "location": [
+                            2398,
+                            2405
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "OX5 1GB"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "England",
+                        "location": [
+                            2413,
+                            2420
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "England",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "_Pattern Recognition_ can be contacted at: Elsevier Sci Ltd, The Boulevard, Langford Lane, Kidlington, Oxford OX5 1GB, Oxon, England.",
+                "score": 0.96285,
+                "arguments": [
+                    {
+                        "text": "Oxon",
+                        "location": [
+                            2407,
+                            2411
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Oxon"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "England",
+                        "location": [
+                            2413,
+                            2420
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "England",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "educatedAt",
+                "sentence": "Jin, Nanjing University of Science and Technology, School of Computing Science and Engineering, Nanjing 210094, People's Republic of China.",
+                "score": 0.605642,
+                "arguments": [
+                    {
+                        "text": "Jin",
+                        "location": [
+                            2652,
+                            2655
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jin"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Nanjing University of Science and Technology",
+                        "location": [
+                            2657,
+                            2701
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Nanjing University of Science and Technology",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Educational"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "educatedAt",
+                "sentence": "Jin, Nanjing University of Science and Technology, School of Computing Science and Engineering, Nanjing 210094, People's Republic of China.",
+                "score": 0.526866,
+                "arguments": [
+                    {
+                        "text": "Jin",
+                        "location": [
+                            2652,
+                            2655
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jin"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "School of\nComputing Science and Engineering",
+                        "location": [
+                            2703,
+                            2746
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "School of\nComputing Science and Engineering",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Educational"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "Jin, Nanjing University of Science and Technology, School of Computing Science and Engineering, Nanjing 210094, People's Republic of China.",
+                "score": 0.525008,
+                "arguments": [
+                    {
+                        "text": "School of\nComputing Science and Engineering",
+                        "location": [
+                            2703,
+                            2746
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "School of\nComputing Science and Engineering",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Educational"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Nanjing",
+                        "location": [
+                            2748,
+                            2755
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Nanjing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "Jin, Nanjing University of Science and Technology, School of Computing Science and Engineering, Nanjing 210094, People's Republic of China.",
+                "score": 0.636142,
+                "arguments": [
+                    {
+                        "text": "210094",
+                        "location": [
+                            2756,
+                            2762
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "210094"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Nanjing",
+                        "location": [
+                            2748,
+                            2755
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Nanjing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- Investigators publish new report on Pattern Analysis.",
+                "score": 0.658527,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Robotics &\nMachine Learning Daily News Daily News \\",
+                        "location": [
+                            64,
+                            115
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Robotics &\nMachine Learning Daily News Daily News \\",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Robotics & Machine Learning Daily News Daily News \\-- Investigators publish new report on Pattern Analysis.",
+                "score": 0.620061,
+                "arguments": [
+                    {
+                        "text": "Investigators",
+                        "location": [
+                            118,
+                            131
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Investigators"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Robotics &\nMachine Learning Daily News Daily News \\",
+                        "location": [
+                            64,
+                            115
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Robotics &\nMachine Learning Daily News Daily News \\",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "According to news reporting originating in Nanjing, People's Republic of China, by NewsRx journalists, research stated, \"In this paper, we address the fusion of image and point cloud data for road detection.",
+                "score": 0.503704,
+                "arguments": [
+                    {
+                        "text": "People's\nRepublic of China",
+                        "location": [
+                            224,
+                            250
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "People's\nRepublic of China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Nanjing",
+                        "location": [
+                            215,
+                            222
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Nanjing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "According to news reporting originating in Nanjing, People's Republic of China, by NewsRx journalists, research stated, \"In this paper, we address the fusion of image and point cloud data for road detection.",
+                "score": 0.726821,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            262,
+                            273
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            255,
+                            261
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "According to news reporting originating in Nanjing, People's Republic of China, by NewsRx journalists, research stated, \"In this paper, we address the fusion of image and point cloud data for road detection.",
+                "score": 0.443456,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            262,
+                            273
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "we",
+                        "location": [
+                            308,
+                            310
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "we"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "_Pattern Recognition_ can be contacted at: Elsevier Sci Ltd, The Boulevard, Langford Lane, Kidlington, Oxford OX5 1GB, Oxon, England.",
+                "score": 0.873045,
+                "arguments": [
+                    {
+                        "text": "Langford Lane",
+                        "location": [
+                            2364,
+                            2377
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Langford Lane"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Kidlington",
+                        "location": [
+                            2379,
+                            2389
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Kidlington"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "_Pattern Recognition_ can be contacted at: Elsevier Sci Ltd, The Boulevard, Langford Lane, Kidlington, Oxford OX5 1GB, Oxon, England.",
+                "score": 0.986519,
+                "arguments": [
+                    {
+                        "text": "Kidlington",
+                        "location": [
+                            2379,
+                            2389
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Kidlington"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Oxford",
+                        "location": [
+                            2391,
+                            2397
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Oxford"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "_Pattern Recognition_ can be contacted at: Elsevier Sci Ltd, The Boulevard, Langford Lane, Kidlington, Oxford OX5 1GB, Oxon, England.",
+                "score": 0.787714,
+                "arguments": [
+                    {
+                        "text": "OX5 1GB",
+                        "location": [
+                            2398,
+                            2405
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "OX5 1GB"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Oxon",
+                        "location": [
+                            2407,
+                            2411
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Oxon"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.757645,
+                "count": 1
+            },
+            {
+                "text": "fusion of image",
+                "relevance": 0.682515,
+                "count": 1
+            },
+            {
+                "text": "direct object identifier",
+                "relevance": 0.632979,
+                "count": 1
+            },
+            {
+                "text": "Daily News Daily News",
+                "relevance": 0.614424,
+                "count": 1
+            },
+            {
+                "text": "image branch",
+                "relevance": 0.590036,
+                "count": 1
+            },
+            {
+                "text": "new report",
+                "relevance": 0.58976,
+                "count": 1
+            },
+            {
+                "text": "additional process steps",
+                "relevance": 0.585097,
+                "count": 1
+            },
+            {
+                "text": "advantage of both deep network",
+                "relevance": 0.575021,
+                "count": 1
+            },
+            {
+                "text": "learned low-level image features",
+                "relevance": 0.573615,
+                "count": 1
+            },
+            {
+                "text": "Financial support",
+                "relevance": 0.573585,
+                "count": 1
+            },
+            {
+                "text": "Pattern Recognition",
+                "relevance": 0.57331,
+                "count": 3
+            },
+            {
+                "text": "competitive results",
+                "relevance": 0.565883,
+                "count": 1
+            },
+            {
+                "text": "additional information",
+                "relevance": 0.564973,
+                "count": 2
+            },
+            {
+                "text": "news reporters",
+                "relevance": 0.558488,
+                "count": 2
+            },
+            {
+                "text": "Pattern Analysis",
+                "relevance": 0.552814,
+                "count": 1
+            },
+            {
+                "text": "modal data fusion",
+                "relevance": 0.550868,
+                "count": 1
+            },
+            {
+                "text": "dual-view fusion",
+                "relevance": 0.54616,
+                "count": 1
+            },
+            {
+                "text": "direct source",
+                "relevance": 0.541211,
+                "count": 1
+            },
+            {
+                "text": "Republic of China",
+                "relevance": 0.533123,
+                "count": 1
+            },
+            {
+                "text": "joint anisotropic diffusion",
+                "relevance": 0.529739,
+                "count": 1
+            },
+            {
+                "text": "Spatial Transformation Fusion Network",
+                "relevance": 0.529698,
+                "count": 1
+            },
+            {
+                "text": "low-level features",
+                "relevance": 0.529497,
+                "count": 1
+            },
+            {
+                "text": "Machine",
+                "relevance": 0.529366,
+                "count": 1
+            },
+            {
+                "text": "journal article",
+                "relevance": 0.528858,
+                "count": 1
+            },
+            {
+                "text": "proposed SPSTFN",
+                "relevance": 0.526418,
+                "count": 1
+            },
+            {
+                "text": "end road segmentation network",
+                "relevance": 0.522288,
+                "count": 1
+            },
+            {
+                "text": "efficient lightweight network",
+                "relevance": 0.52171,
+                "count": 1
+            },
+            {
+                "text": "Langford Lane",
+                "relevance": 0.521417,
+                "count": 1
+            },
+            {
+                "text": "heat diffusion coefficients",
+                "relevance": 0.520164,
+                "count": 1
+            },
+            {
+                "text": "research",
+                "relevance": 0.520101,
+                "count": 6
+            },
+            {
+                "text": "Boulevard",
+                "relevance": 0.519064,
+                "count": 1
+            },
+            {
+                "text": "Z. Jin",
+                "relevance": 0.518022,
+                "count": 1
+            },
+            {
+                "text": "point cloud data",
+                "relevance": 0.516477,
+                "count": 1
+            },
+            {
+                "text": "diffusion process",
+                "relevance": 0.516335,
+                "count": 1
+            },
+            {
+                "text": "resolution",
+                "relevance": 0.5156,
+                "count": 1
+            },
+            {
+                "text": "news correspondents",
+                "relevance": 0.51553,
+                "count": 1
+            },
+            {
+                "text": "Spatial Propagation",
+                "relevance": 0.515406,
+                "count": 2
+            },
+            {
+                "text": "Science",
+                "relevance": 0.514266,
+                "count": 2
+            },
+            {
+                "text": "reports",
+                "relevance": 0.513473,
+                "count": 1
+            },
+            {
+                "text": "JUN",
+                "relevance": 0.513164,
+                "count": 1
+            },
+            {
+                "text": "standard BP",
+                "relevance": 0.512061,
+                "count": 1
+            },
+            {
+                "text": "road detection",
+                "relevance": 0.511871,
+                "count": 2
+            },
+            {
+                "text": "news",
+                "relevance": 0.511547,
+                "count": 1
+            },
+            {
+                "text": "University of Science",
+                "relevance": 0.511278,
+                "count": 1
+            },
+            {
+                "text": "image",
+                "relevance": 0.510916,
+                "count": 1
+            },
+            {
+                "text": "electronic document",
+                "relevance": 0.510167,
+                "count": 1
+            },
+            {
+                "text": "parameter-free",
+                "relevance": 0.509875,
+                "count": 1
+            },
+            {
+                "text": "fusion block",
+                "relevance": 0.509709,
+                "count": 1
+            },
+            {
+                "text": "Additional authors",
+                "relevance": 0.509001,
+                "count": 1
+            },
+            {
+                "text": "Engineering",
+                "relevance": 0.508849,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "22fbf20163647bd746725f560d43c6ac16f87430",
+        "filename": "202006050000NEWSRX__VRT_SCNC_94A5B5D01037667C.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Nanjing University|extractor|DUNS:529666109;NECOID:40141694;ACORN:0029141694;UDUNS:654267350;UACORN:3551384426|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Study Data from Nanjing University of Science and Technology Provide New Insights into Pattern Analysis (A Fusion Network for Road Detection Via Spatial Propagation and Spatial Transformation): Pattern Analysis",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at <org>Robotics &amp; Machine Learning Daily News Daily News</org> -- Investigators publish new report on Pattern Analysis. According to news reporting originating in <location idsrc=\"xmltag.org\" value=\"LU/cn..nanjng\">Nanjing</location>, People&#8217;s <location idsrc=\"xmltag.org\" value=\"LC/cn\">Republic of China</location>, by NewsRx journalists, research stated, &#8220;In this paper, we address the fusion of image and point cloud data for road detection. To take advantage of both deep network and multi-modal data fusion, we propose an end-to-end road segmentation network called SPSTFN (Spatial Propagation and Spatial Transformation Fusion Network).&#8221;</p>\n<p>Financial support for this research came from <org>National Natural Science Foundation of China</org>.</p>\n<p>The news reporters obtained a quote from the research from the <org idsrc=\"xmltag.org\" value=\"ACORN:0029141694\">Nanjing University</org> of Science and Technology, &#8220;Our method considers the model-level fusion and dual-view fusion in the network simultaneously for the first time. Specifically, the proposed SPSTFN contains three parts: the point cloud branch, the image branch, and the fusion block. Firstly, we design a simple but efficient lightweight network to handle the unordered and sparse point cloud to obtain a coarse representation of the road area. Then, an equal-resolution convolutional block is adopted to capture the low-level features of the image which are used to produce the heat diffusion coefficients of the joint anisotropic diffusion based spatial propagation model. Thirdly, we conduct the diffusion process on the coarse representation under the guidance of the learned low-level image features, both in the perspective and bird views, via the spatial transformation in the network. Finally, the diffusion results of the two views are then integrated to generate the final refined representation of the road area. The proposed fusion method is totally data-driven and parameter-free, and the whole fusion network can be trained with the standard BP (Back Propagation) algorithm.&#8221;</p>\n<p>According to the news reporters, the research concluded: &#8220;Without any additional process steps and pre-training, the proposed method obtains competitive results on the KITTI Road Benchmark.&#8221;</p>\n<p>For more information on this research see: A <org>Fusion Network for Road Detection Via Spatial Propagation and Spatial Transformation</org>. <em>Pattern Recognition</em>, 2020;100():. <em>Pattern Recognition</em> can be contacted at: <org>Elsevier Sci Ltd</org>, The Boulevard, <location>Langford Lane</location>, Kidlington, <location idsrc=\"xmltag.org\" value=\"LU/gb.eng.oxford\">Oxford</location> OX5 1GB, <location idsrc=\"xmltag.org\" value=\"LT/gb.eng.oxfshr\">Oxon, England</location>. (<org>Elsevier</org> - <a href=\"http://www.elsevier.com\">www.elsevier.com</a>; Pattern Recognition - <a href=\"http://www.journals.elsevier.com/pattern-recognition/\" target=\"_blank\">http://www.journals.elsevier.com/pattern-recognition/</a>)</p>\n<p>Our news correspondents report that additional information may be obtained by contacting <person>Z. Jin</person>, <org idsrc=\"xmltag.org\" value=\"ACORN:0029141694\">Nanjing University</org> of Science and Technology, <org>School of Computing Science and Engineering</org>, <location idsrc=\"xmltag.org\" value=\"LU/cn..nanjng\">Nanjing</location> 210094, People&#8217;s <location idsrc=\"xmltag.org\" value=\"LC/cn\">Republic of China</location>. Additional authors for this research include <person>F. Yang</person> and <person>H. Wang</person>.</p>\n<p>The direct object identifier (DOI) for that additional information is: <a href=\"https://doi.org/10.1016/j.patcog.2019.107141\" target=\"_blank\">https://doi.org/10.1016/j.patcog.2019.107141</a>. This DOI is a link to an online electronic document that is either free or for purchase, and can be your direct source for a journal article and its citation.</p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

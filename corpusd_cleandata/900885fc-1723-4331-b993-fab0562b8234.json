@@ -1,0 +1,760 @@
+{
+    "id": "900885fc-1723-4331-b993-fab0562b8234",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright 2020 Indian National Press (Bombay) Pvt. Ltd., distributed by Contify.com",
+    "geoOrigin": "Mumbai, India",
+    "sourceType": "Newspaper",
+    "source": "Free Press Journal (India)",
+    "corpus_document_id": "27711522129010012278",
+    "description": "Amidst the COVID-19 pandemic, the Union Ministry of Health and Family Welfare, on Wednesday, released guidelines for safe Ear, Nose and Throat practice. Health officials said the guidelines are aimed at minimising the spread of the virus among ENT doctors, nursing staff, support staff, patients and their attendants. This comes after a 61- year-old ENT surgeon...",
+    "serviceName": "Contify News",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#63#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#94#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "Amidst the COVID-19 pandemic, the Union Ministry of Health and Family Welfare,\non Wednesday, released guidelines for safe Ear, Nose and Throat (ENT)\npractice. Health officials said the guidelines are aimed at minimising the\nspread of the virus among ENT doctors, nursing staff, support staff, patients\nand their attendants.\n\nThis comes after a 61-year-old ENT surgeon contracted the virus while treating\npatients and succumbed to his illness on May 31. However, ENT specialists have\nwelcomed this move stating that it was the need of the hour.\n\nAccording to the guidelines, all patients entering the ENT OPD shall be\nthermal screened to minimise exposure to staff and patients. The ministry said\nthat patients having symptoms suggestive of COVID-19, whether ENT or\nrespiratory symptoms, should be seen in a separate COVID-19 screening clinic\nand not in the ENT OPD.\n\nAt the entry point of the OPD, it has been suggested to regulate the entry of\npatients and to ensure the use of mask, hand hygiene and social distancing. It\nalso advised that tele-consultation will be preferable and prior tele-\nconsultation can be done to identify patients requiring physical examination\nin a clinic.\n\nMoreover, positive patients are to be operated only for emergency indications\nin designated operation theatres for COVID-19 patients.\n\n\"Suspected patients should be treated in a separate ward set up for patients,\nand should be shifted to the ENT ward only after being confirmed negative. It\nmust be ensured that suspected and confirmed patients are kept separately,\"\nread the guidelines.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Union Ministry of Health and Family Welfare"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "Union Ministry of Health and Family Welfare"
+        ]
+    },
+    "geoOrigin_code": "RU/in..bombay",
+    "language": "English",
+    "filename": "202006042348CONTIFY_NEWS____0053455767.XML",
+    "providerName": "Information Solutions",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": -0.560425,
+                    "label": "negative"
+                },
+                "text": "OPD",
+                "relevance": 0.924202,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Union Ministry of Health and Family Welfare",
+                "relevance": 0.59032,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "61-year",
+                "relevance": 0.59032,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "practice. Health officials"
+                },
+                "sentence": " practice. Health officials said the guidelines are aimed at minimising the",
+                "object": {
+                    "text": "the guidelines are aimed at minimising the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This"
+                },
+                "sentence": " This comes after a 61-year-old ENT surgeon contracted the virus while treating",
+                "action": {
+                    "verb": {
+                        "text": "come",
+                        "tense": "present"
+                    },
+                    "text": "comes",
+                    "normalized": "come"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a 61-year-old ENT surgeon"
+                },
+                "sentence": " This comes after a 61-year-old ENT surgeon contracted the virus while treating",
+                "object": {
+                    "text": "the virus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "contract",
+                        "tense": "past"
+                    },
+                    "text": "contracted",
+                    "normalized": "contract"
+                }
+            },
+            {
+                "subject": {
+                    "text": "to his illness"
+                },
+                "sentence": " patients and succumbed to his illness on May 31.",
+                "action": {
+                    "verb": {
+                        "text": "succumb",
+                        "tense": "past"
+                    },
+                    "text": "succumbed",
+                    "normalized": "succumb"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this move"
+                },
+                "sentence": " welcomed this move stating that it was the need of the hour.",
+                "object": {
+                    "text": "that it was the need of the hour"
+                },
+                "action": {
+                    "verb": {
+                        "text": "state",
+                        "tense": "present"
+                    },
+                    "text": "stating",
+                    "normalized": "state"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " welcomed this move stating that it was the need of the hour.",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "all patients"
+                },
+                "sentence": " According to the guidelines, all patients entering the ENT OPD shall be",
+                "object": {
+                    "text": "the ENT OPD"
+                },
+                "action": {
+                    "verb": {
+                        "text": "enter",
+                        "tense": "present"
+                    },
+                    "text": "entering",
+                    "normalized": "enter"
+                }
+            },
+            {
+                "subject": {
+                    "text": "patients"
+                },
+                "sentence": " that patients having symptoms suggestive of COVID-19, whether ENT or",
+                "object": {
+                    "text": "symptoms suggestive of COVID-19"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "respiratory symptoms,"
+                },
+                "sentence": " respiratory symptoms, should be seen in a separate COVID-19 screening clinic",
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "future"
+                    },
+                    "text": "should be seen",
+                    "normalized": "should be see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " At the entry point of the OPD, it has been suggested to regulate the entry of",
+                "action": {
+                    "verb": {
+                        "text": "suggest",
+                        "tense": "past"
+                    },
+                    "text": "has been suggested to regulate",
+                    "normalized": "have be suggest to regulate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "tele-consultation"
+                },
+                "sentence": " also advised that tele-consultation will be preferable and prior tele-",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "will be",
+                    "normalized": "will be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "consultation"
+                },
+                "sentence": " consultation can be done to identify patients requiring physical examination",
+                "object": {
+                    "text": "done to identify patients requiring physical examination"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Suspected patients"
+                },
+                "sentence": " \"Suspected patients should be treated in a separate ward set up for patients,",
+                "object": {
+                    "text": "in a separate ward set up for patients,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "treat",
+                        "tense": "future"
+                    },
+                    "text": "should be treated",
+                    "normalized": "should be treat"
+                }
+            },
+            {
+                "subject": {
+                    "text": "suspected and confirmed patients"
+                },
+                "sentence": " must be ensured that suspected and confirmed patients are kept separately,\"",
+                "object": {
+                    "text": "kept separately"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.902888,
+                "label": "/health and fitness"
+            },
+            {
+                "score": 0.878408,
+                "label": "/health and fitness/disease"
+            },
+            {
+                "score": 0.820287,
+                "label": "/health and fitness/disease/cold and flu"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Health officials said the guidelines are aimed at minimising the spread of the virus among ENT doctors, nursing staff, support staff, patients and their attendants.",
+                "score": 0.983207,
+                "arguments": [
+                    {
+                        "text": "Health officials",
+                        "location": [
+                            159,
+                            175
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Health officials"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            176,
+                            180
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Health officials said the guidelines are aimed at minimising the spread of the virus among ENT doctors, nursing staff, support staff, patients and their attendants.",
+                "score": 0.336841,
+                "arguments": [
+                    {
+                        "text": "staff",
+                        "location": [
+                            271,
+                            276
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "staff"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "nursing",
+                        "location": [
+                            263,
+                            270
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "nursing",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "However, ENT specialists have welcomed this move stating that it was the need of the hour.",
+                "score": 0.973214,
+                "arguments": [
+                    {
+                        "text": "specialists",
+                        "location": [
+                            466,
+                            477
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "specialists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "welcomed",
+                        "location": [
+                            483,
+                            491
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "welcomed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The ministry said that patients having symptoms suggestive of COVID-19, whether ENT or respiratory symptoms, should be seen in a separate COVID-19 screening clinic and not in the ENT OPD.",
+                "score": 0.982248,
+                "arguments": [
+                    {
+                        "text": "ministry",
+                        "location": [
+                            682,
+                            690
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "ministry",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            691,
+                            695
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "It also advised that tele-consultation will be preferable and prior tele- consultation can be done to identify patients requiring physical examination in a clinic.",
+                "score": 0.909481,
+                "arguments": [
+                    {
+                        "text": "patients",
+                        "location": [
+                            1132,
+                            1140
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "patients"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "clinic",
+                        "location": [
+                            1177,
+                            1183
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "clinic"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Union Ministry of Health",
+                "relevance": 0.626187,
+                "count": 1
+            },
+            {
+                "text": "entry point of the OPD",
+                "relevance": 0.623986,
+                "count": 1
+            },
+            {
+                "text": "patients",
+                "relevance": 0.610114,
+                "count": 9
+            },
+            {
+                "text": "Health officials",
+                "relevance": 0.602956,
+                "count": 1
+            },
+            {
+                "text": "61-year-old ENT surgeon",
+                "relevance": 0.587972,
+                "count": 1
+            },
+            {
+                "text": "respiratory symptoms",
+                "relevance": 0.58742,
+                "count": 1
+            },
+            {
+                "text": "ENT doctors",
+                "relevance": 0.576304,
+                "count": 1
+            },
+            {
+                "text": "separate COVID-19 screening clinic",
+                "relevance": 0.574515,
+                "count": 1
+            },
+            {
+                "text": "support staff",
+                "relevance": 0.569867,
+                "count": 1
+            },
+            {
+                "text": "spread of the virus",
+                "relevance": 0.55576,
+                "count": 1
+            },
+            {
+                "text": "positive patients",
+                "relevance": 0.552693,
+                "count": 1
+            },
+            {
+                "text": "operation theatres",
+                "relevance": 0.550698,
+                "count": 1
+            },
+            {
+                "text": "ENT",
+                "relevance": 0.54857,
+                "count": 2
+            },
+            {
+                "text": "ENT OPD",
+                "relevance": 0.54179,
+                "count": 2
+            },
+            {
+                "text": "physical examination",
+                "relevance": 0.539659,
+                "count": 1
+            },
+            {
+                "text": "Family Welfare",
+                "relevance": 0.539659,
+                "count": 1
+            },
+            {
+                "text": "consultation",
+                "relevance": 0.536218,
+                "count": 2
+            },
+            {
+                "text": "COVID-19 patients",
+                "relevance": 0.535698,
+                "count": 1
+            },
+            {
+                "text": "symptoms",
+                "relevance": 0.528864,
+                "count": 1
+            },
+            {
+                "text": "guidelines",
+                "relevance": 0.528666,
+                "count": 4
+            },
+            {
+                "text": "safe Ear",
+                "relevance": 0.524122,
+                "count": 1
+            },
+            {
+                "text": "use of mask",
+                "relevance": 0.52386,
+                "count": 1
+            },
+            {
+                "text": "ENT specialists",
+                "relevance": 0.52305,
+                "count": 1
+            },
+            {
+                "text": "separate ward",
+                "relevance": 0.521593,
+                "count": 1
+            },
+            {
+                "text": "staff",
+                "relevance": 0.519561,
+                "count": 2
+            },
+            {
+                "text": "entry",
+                "relevance": 0.515472,
+                "count": 1
+            },
+            {
+                "text": "exposure",
+                "relevance": 0.510102,
+                "count": 1
+            },
+            {
+                "text": "Nose",
+                "relevance": 0.508921,
+                "count": 1
+            },
+            {
+                "text": "ministry",
+                "relevance": 0.50844,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.508182,
+                "count": 1
+            },
+            {
+                "text": "Throat",
+                "relevance": 0.507358,
+                "count": 1
+            },
+            {
+                "text": "illness",
+                "relevance": 0.50649,
+                "count": 1
+            },
+            {
+                "text": "attendants",
+                "relevance": 0.505057,
+                "count": 1
+            },
+            {
+                "text": "practice",
+                "relevance": 0.505057,
+                "count": 1
+            },
+            {
+                "text": "clinic",
+                "relevance": 0.502529,
+                "count": 1
+            },
+            {
+                "text": "hand hygiene",
+                "relevance": 0.49756,
+                "count": 1
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.492447,
+                "count": 2
+            },
+            {
+                "text": "ENT ward",
+                "relevance": 0.484579,
+                "count": 1
+            },
+            {
+                "text": "emergency indications",
+                "relevance": 0.478887,
+                "count": 1
+            },
+            {
+                "text": "prior tele",
+                "relevance": 0.478887,
+                "count": 1
+            },
+            {
+                "text": "social distancing",
+                "relevance": 0.478887,
+                "count": 1
+            },
+            {
+                "text": "need of the hour",
+                "relevance": 0.478887,
+                "count": 1
+            },
+            {
+                "text": "Wednesday",
+                "relevance": 0.467719,
+                "count": 1
+            },
+            {
+                "text": "move",
+                "relevance": 0.450509,
+                "count": 1
+            },
+            {
+                "text": "negative",
+                "relevance": 0.44442,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.44442,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "fa8be0ccf7895cb6d896061628ccc0ffe3113eb2",
+        "filename": "202006042348CONTIFY_NEWS____0053455767.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-04T23:48:00-04:00",
+    "title": "Union Health Ministry issues guidelines for ENT practice",
+    "html": "<p>Amidst the COVID-19 pandemic, the <org>Union Ministry of Health and Family Welfare</org>, on Wednesday, released guidelines for safe Ear, Nose and Throat (ENT) practice. Health officials said the guidelines are aimed at minimising the spread of the virus among ENT doctors, nursing staff, support staff, patients and their attendants.</p><p>This comes after a 61-year-old ENT surgeon contracted the virus while treating patients and succumbed to his illness on <chron>May 31</chron>. However, ENT specialists have welcomed this move stating that it was the need of the hour.</p><p>According to the guidelines, all patients entering the ENT OPD shall be thermal screened to minimise exposure to staff and patients. The ministry said that patients having symptoms suggestive of COVID-19, whether ENT or respiratory symptoms, should be seen in a separate COVID-19 screening clinic and not in the ENT OPD.</p><p>At the entry point of the OPD, it has been suggested to regulate the entry of patients and to ensure the use of mask, hand hygiene and social distancing. It also advised that tele-consultation will be preferable and prior tele-consultation can be done to identify patients requiring physical examination in a clinic.</p><p>Moreover, positive patients are to be operated only for emergency indications in designated operation theatres for COVID-19 patients.</p><p>&#8220;Suspected patients should be treated in a separate ward set up for patients, and should be shifted to the ENT ward only after being confirmed negative. It must be ensured that suspected and confirmed patients are kept separately,&#8221; read the guidelines.</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ],
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

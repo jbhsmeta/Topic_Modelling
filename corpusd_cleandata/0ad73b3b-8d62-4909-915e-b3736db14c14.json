@@ -1,0 +1,404 @@
+{
+    "id": "0ad73b3b-8d62-4909-915e-b3736db14c14",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "36097821200837971603",
+    "description": "New Delhi, June 4 HP Inc on Thursday said it has partnered with Redington 3 D in India to produce 1.2 lakh ventilator parts for AgVa Healthcare.",
+    "serviceName": "Health Pharma News",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Southern Asia",
+            "code": "LB/sas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sas",
+            "relevance_score": "9",
+            "description": "India",
+            "code": "LC/in#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Business and Commerce",
+            "code": "IS/biz#5#50#58",
+            "level": 0
+        },
+        {
+            "parent": "IS/biz.man",
+            "relevance_score": "5",
+            "description": "Additive Manufacturing",
+            "code": "IS/biz.additive#5#58#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/biz",
+            "relevance_score": "5",
+            "description": "Manufacturing Operations",
+            "code": "IS/biz.man#5#50#58",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Health and Wellness",
+            "code": "IS/haw#5#50#58",
+            "level": 0
+        }
+    ],
+    "text": "New Delhi, June 4 () HP Inc on Thursday said it has partnered with Redington\n3D in India to produce 1.2 lakh ventilator parts for AgVa Healthcare. (Source:\nThe Economic Times)",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Healthcare",
+            "code": "II/hcare#7#50#77",
+            "level": 0
+        },
+        {
+            "parent": "II/man.meddevic",
+            "relevance_score": "7",
+            "description": "Medical Treatment Devices",
+            "code": "II/hcare.noimplant#7#50#77",
+            "level": 3
+        },
+        {
+            "parent": "II/hcare.noimplant",
+            "relevance_score": "7",
+            "description": "Respiratory Equipment",
+            "code": "II/hcare.respeq#7#77#50",
+            "level": 4
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Manufacturing",
+            "code": "II/man#7#50#77",
+            "level": 0
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "HP Inc",
+            "AgVa Healthcare"
+        ],
+        "location": [
+            "New Delhi",
+            "India"
+        ],
+        "person": [],
+        "companies": [
+            "HP Inc",
+            "AgVa Healthcare"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050128AMSPIDERHEPHNEWS_MEDWRM04_8C1EE1F48212114F1320E15DC97D9E07_253.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.448693,
+                    "label": "positive"
+                },
+                "text": "New Delhi",
+                "relevance": 0.855054,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "City"
+                    ],
+                    "name": "New Delhi",
+                    "dbpedia_resource": "http://dbpedia.org/resource/New_Delhi"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Redington",
+                "relevance": 0.767922,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "HP Inc",
+                "relevance": 0.755766,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "The Economic Times",
+                "relevance": 0.62924,
+                "type": "PrintMedia",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "The Economic Times",
+                    "dbpedia_resource": "http://dbpedia.org/resource/The_Economic_Times"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "India",
+                "relevance": 0.535159,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "HumanLanguage",
+                        "Region",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "India",
+                    "dbpedia_resource": "http://dbpedia.org/resource/India"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "AgVa Healthcare.",
+                "relevance": 0.379734,
+                "type": "Company"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "New Delhi, June 4 () HP Inc on Thursday"
+                },
+                "sentence": "New Delhi, June 4 () HP Inc on Thursday said it has partnered with Redington",
+                "object": {
+                    "text": "it has partnered with Redington"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.890224,
+                "label": "/sports/dog sled"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "New Delhi, June 4 () HP Inc on Thursday said it has partnered with Redington 3D in India to produce 1.2 lakh ventilator parts for AgVa Healthcare.",
+                "score": 0.970092,
+                "arguments": [
+                    {
+                        "text": "Thursday",
+                        "location": [
+                            31,
+                            39
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Thursday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            40,
+                            44
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "New Delhi, June 4 () HP Inc on Thursday said it has partnered with Redington 3D in India to produce 1.2 lakh ventilator parts for AgVa Healthcare.",
+                "score": 0.384762,
+                "arguments": [
+                    {
+                        "text": "Redington\n3D",
+                        "location": [
+                            67,
+                            79
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Redington\n3D"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "it",
+                        "location": [
+                            45,
+                            47
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "HP Inc",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "New Delhi, June 4 () HP Inc on Thursday said it has partnered with Redington 3D in India to produce 1.2 lakh ventilator parts for AgVa Healthcare.",
+                "score": 0.50826,
+                "arguments": [
+                    {
+                        "text": "Redington\n3D",
+                        "location": [
+                            67,
+                            79
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Redington\n3D"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "India",
+                        "location": [
+                            83,
+                            88
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "India",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "New Delhi",
+                "relevance": 0.96925,
+                "count": 1
+            },
+            {
+                "text": "Economic Times",
+                "relevance": 0.795253,
+                "count": 1
+            },
+            {
+                "text": "HP Inc",
+                "relevance": 0.667895,
+                "count": 1
+            },
+            {
+                "text": "lakh ventilator parts",
+                "relevance": 0.657523,
+                "count": 1
+            },
+            {
+                "text": "India",
+                "relevance": 0.607718,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.590384,
+                "count": 1
+            },
+            {
+                "text": "Source",
+                "relevance": 0.532216,
+                "count": 1
+            },
+            {
+                "text": "AgVa Healthcare",
+                "relevance": 0.407314,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.238827,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "19266e6e23eb59a659d5a9cbff7307030b686006",
+        "filename": "202006050128AMSPIDERHEPHNEWS_MEDWRM04_8C1EE1F48212114F1320E15DC97D9E07_253.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NYSE|HPQ|CUSIP:40434L105;ISIN:US40434L1052|HP Inc.|extractor|DUNS:009122532;NECOID:1640134076;ACORN:1629134076|SIGNIFICANT||||XNYS|REFERENCE",
+    "publicationTime": "2020-06-05T01:28:00-04:00",
+    "title": "HP's 3D printing tech helps manufacture ventilator parts for COVID-19 treatment in India [MedWorm News]",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/in..newdel\">New Delhi</location>, <chron>June 4</chron> () <org idsrc=\"xmltag.org\" value=\"NYSE:HPQ\">HP Inc</org> on Thursday said it has partnered with Redington 3D in <location idsrc=\"xmltag.org\" value=\"LC/in\">India</location> to produce 1.2 lakh ventilator parts for <org>AgVa Healthcare</org>. (Source: The Economic Times)</p>",
+    "geoFocus": []
+}

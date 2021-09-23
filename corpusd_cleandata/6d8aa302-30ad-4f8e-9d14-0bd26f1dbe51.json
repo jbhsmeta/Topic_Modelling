@@ -1,0 +1,435 @@
+{
+    "id": "6d8aa302-30ad-4f8e-9d14-0bd26f1dbe51",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "76738749486392800529",
+    "description": "A video posted by Donald Trump\u2019 s 2020 election campaign\u2014 decrying civil unrest in the wake of the killing of George Floyd\u2014 was removed Thursday by Twitter, citing a copyright-infringement claim. A June 3 tweet by the@ TeamTrump account with the video now displays the message:\u201c This media has been",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Trading Impact (ICE Codes) Important Corporate Events",
+            "code": "IS/impact#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/impact",
+            "relevance_score": "9",
+            "description": "Civil Unrest",
+            "code": "IS/pol.civilun#9#99#50",
+            "level": 1
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Conflicts, Unrest and Wars",
+            "code": "IS/pol.confwar#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "A video posted by Donald Trump's 2020 election campaign -- decrying civil\nunrest in the wake of the killing of George Floyd -- was removed Thursday by\nTwitter, citing a copyright-infringement claim. A June 3 tweet by the\n@TeamTrump account with the video now displays the message: \"This media has\nbeen disabled in response to...",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "George Floyd"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050320AMSPIDERNEWS_____NWYRKPS2_461D10CE514961780A02615F14FBEFEC_1.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Donald Trump",
+                "relevance": 0.873713,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "AwardNominee",
+                        "AwardWinner",
+                        "Celebrity",
+                        "CompanyFounder",
+                        "TVPersonality",
+                        "TVProducer",
+                        "FilmActor",
+                        "TVActor"
+                    ],
+                    "name": "Donald Trump",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Donald_Trump"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.305457,
+                    "label": "negative"
+                },
+                "text": "George Floyd",
+                "relevance": 0.727306,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "FootballPlayer"
+                    ],
+                    "name": "George Floyd",
+                    "dbpedia_resource": "http://dbpedia.org/resource/George_Floyd"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.388493,
+                    "label": "positive"
+                },
+                "text": "Twitter",
+                "relevance": 0.591352,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [
+                        "Website",
+                        "VentureFundedCompany"
+                    ],
+                    "name": "Twitter",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Twitter"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "@TeamTrump",
+                "relevance": 0.591352,
+                "type": "TwitterHandle"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "by Donald Trump"
+                },
+                "sentence": "A video posted by Donald Trump's 2020 election campaign -- decrying civil",
+                "object": {
+                    "text": "A video"
+                },
+                "action": {
+                    "verb": {
+                        "text": "post",
+                        "tense": "past"
+                    },
+                    "text": "posted",
+                    "normalized": "post"
+                }
+            },
+            {
+                "subject": {
+                    "text": "unrest in the wake of the killing of George Floyd --"
+                },
+                "sentence": " unrest in the wake of the killing of George Floyd -- was removed Thursday by",
+                "object": {
+                    "text": "removed Thursday by"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "unrest in the wake of the killing of George Floyd --"
+                },
+                "sentence": " unrest in the wake of the killing of George Floyd -- was removed Thursday by",
+                "action": {
+                    "verb": {
+                        "text": "remove",
+                        "tense": "past"
+                    },
+                    "text": "was removed",
+                    "normalized": "be remove"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Twitter"
+                },
+                "sentence": " Twitter, citing a copyright-infringement claim.",
+                "object": {
+                    "text": "a copyright-infringement claim"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cite",
+                        "tense": "present"
+                    },
+                    "text": "citing",
+                    "normalized": "cite"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the message"
+                },
+                "sentence": " @TeamTrump account with the video now displays the message: \"This media has",
+                "object": {
+                    "text": "@TeamTrump account with the video"
+                },
+                "action": {
+                    "verb": {
+                        "text": "display",
+                        "tense": "present"
+                    },
+                    "text": "displays",
+                    "normalized": "display"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.990297,
+                "label": "/technology and computing/internet technology/social network"
+            }
+        ],
+        "relations": [
+            {
+                "type": "affectedBy",
+                "sentence": "A video posted by Donald Trump's 2020 election campaign -- decrying civil unrest in the wake of the killing of George Floyd -- was removed Thursday by Twitter, citing a copyright-infringement claim.",
+                "score": 0.485548,
+                "arguments": [
+                    {
+                        "text": "Donald Trump",
+                        "location": [
+                            18,
+                            30
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Donald Trump"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "election campaign",
+                        "location": [
+                            38,
+                            55
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventElection",
+                                "text": "election campaign"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "A video posted by Donald Trump's 2020 election campaign -- decrying civil unrest in the wake of the killing of George Floyd -- was removed Thursday by Twitter, citing a copyright-infringement claim.",
+                "score": 0.563032,
+                "arguments": [
+                    {
+                        "text": "Donald Trump",
+                        "location": [
+                            18,
+                            30
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Donald Trump"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "killing",
+                        "location": [
+                            100,
+                            107
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "killing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "A video posted by Donald Trump's 2020 election campaign -- decrying civil unrest in the wake of the killing of George Floyd -- was removed Thursday by Twitter, citing a copyright-infringement claim.",
+                "score": 0.925476,
+                "arguments": [
+                    {
+                        "text": "2020",
+                        "location": [
+                            33,
+                            37
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "2020"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "election campaign",
+                        "location": [
+                            38,
+                            55
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventElection",
+                                "text": "election campaign"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "diedOf",
+                "sentence": "A video posted by Donald Trump's 2020 election campaign -- decrying civil unrest in the wake of the killing of George Floyd -- was removed Thursday by Twitter, citing a copyright-infringement claim.",
+                "score": 0.531818,
+                "arguments": [
+                    {
+                        "text": "George Floyd",
+                        "location": [
+                            111,
+                            123
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Floyd"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "killing",
+                        "location": [
+                            100,
+                            107
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "killing"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Donald Trump",
+                "relevance": 0.815176,
+                "count": 1
+            },
+            {
+                "text": "wake of the killing of George Floyd",
+                "relevance": 0.79588,
+                "count": 1
+            },
+            {
+                "text": "election campaign",
+                "relevance": 0.735587,
+                "count": 1
+            },
+            {
+                "text": "account",
+                "relevance": 0.688965,
+                "count": 1
+            },
+            {
+                "text": "video",
+                "relevance": 0.663213,
+                "count": 2
+            },
+            {
+                "text": "copyright-infringement claim",
+                "relevance": 0.590684,
+                "count": 1
+            },
+            {
+                "text": "Twitter",
+                "relevance": 0.589837,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.540868,
+                "count": 1
+            },
+            {
+                "text": "message",
+                "relevance": 0.532504,
+                "count": 1
+            },
+            {
+                "text": "media",
+                "relevance": 0.52682,
+                "count": 1
+            },
+            {
+                "text": "response",
+                "relevance": 0.522126,
+                "count": 1
+            },
+            {
+                "text": "tweet",
+                "relevance": 0.522126,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.371921,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "70b27bd86654295751498c4b70c2cf13526b2a2e",
+        "filename": "202006050320AMSPIDERNEWS_____NWYRKPS2_461D10CE514961780A02615F14FBEFEC_1.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:20:00-04:00",
+    "title": "Twitter pulls Trump campaign\u2019s George Floyd video over copyright infringement claim [New York Post (NY)]",
+    "html": "<p>A video posted by Donald Trump&#8217;s 2020 election campaign &#8212; decrying civil unrest in the wake of the killing of <person>George Floyd</person> &#8212; was removed Thursday by Twitter, citing a copyright-infringement claim. A <chron>June 3</chron> tweet by the @TeamTrump account with the video now displays the message: &#8220;This media has been disabled in response to...</p>",
+    "geoFocus": []
+}

@@ -1,0 +1,308 @@
+{
+    "id": "3a9e47ad-5c68-40cb-91a7-b60ed6e8ab2b",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "86106897295551971872",
+    "description": "Technical gases more info: Location: GERMANY BidDate: 6/ 22/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: State enterprise Saxon real estate and Tendering Authority Address: TU BAF, Clemens-Winkler-Bau, new laboratory wing south Leipziger Str. 29, 09599 Freiberg Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Technical gases more info : Location : GERMANY BidDate : 6/22/2020 Tender\nCountry : GERMANY Tender Type : Tenders Tendering Authority : State enterprise\nSaxon real estate and Tendering Authority Address : TU BAF, Clemens-Winkler-\nBau, new laboratory wing south Leipziger Str. 29, 09599 Freiberg Financier :\nSelf Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_3457_176210427_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.874336,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tendering Authority",
+                "relevance": 0.644139,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Freiberg Financier",
+                "relevance": 0.486389,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.257255,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.475341,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Leipziger Str.",
+                "relevance": 0.345273,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.335693,
+                    "label": "positive"
+                },
+                "text": "Bau",
+                "relevance": 0.344042,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Saxon",
+                "relevance": 0.286439,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.754486,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "29, 09599 Freiberg Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.585706,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            295,
+                            304
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Leipziger Str"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Freiberg",
+                        "location": [
+                            286,
+                            294
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Freiberg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Saxon real estate",
+                "relevance": 0.875758,
+                "count": 1
+            },
+            {
+                "text": "Technical gases",
+                "relevance": 0.86682,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.690581,
+                "count": 1
+            },
+            {
+                "text": "State enterprise",
+                "relevance": 0.639698,
+                "count": 1
+            },
+            {
+                "text": "new laboratory wing",
+                "relevance": 0.599129,
+                "count": 1
+            },
+            {
+                "text": "Tendering Authority Address",
+                "relevance": 0.59701,
+                "count": 1
+            },
+            {
+                "text": "Bau",
+                "relevance": 0.58609,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.558321,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.552374,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.544432,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.538396,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.536676,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.526255,
+                "count": 1
+            },
+            {
+                "text": "TU BAF",
+                "relevance": 0.48286,
+                "count": 1
+            },
+            {
+                "text": "Tearn Money",
+                "relevance": 0.475887,
+                "count": 1
+            },
+            {
+                "text": "Freiberg Financier",
+                "relevance": 0.463955,
+                "count": 1
+            },
+            {
+                "text": "Leipziger Str",
+                "relevance": 0.416176,
+                "count": 1
+            },
+            {
+                "text": "Clemens-Winkler",
+                "relevance": 0.416176,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "6c5c58fb1feadd7e65c1d09f684b0be8949ab9c3",
+        "filename": "202006050210ALBA____ME_NA_NE_3457_176210427_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Technical gases [TenderNews.com - Tenders (India)]",
+    "html": "<p>Technical gases more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/22/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : State enterprise Saxon real estate and\nTendering Authority Address : TU BAF, Clemens-Winkler-Bau, new laboratory wing south Leipziger Str. 29, 09599 Freiberg\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

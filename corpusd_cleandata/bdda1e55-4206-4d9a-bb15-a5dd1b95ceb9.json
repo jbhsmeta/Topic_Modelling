@@ -1,0 +1,658 @@
+{
+    "id": "bdda1e55-4206-4d9a-bb15-a5dd1b95ceb9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright 2020 SeeNews. All rights reserved.",
+    "geoOrigin": "Sofia, Bulgaria",
+    "sourceType": "General Newswire",
+    "source": "SeeNews Renewables",
+    "corpus_document_id": "58786788843503311614",
+    "description": "June 5- Wind, solar and other renewable energy plants in California produced 184,355 MWh of power on June 3, which is up from 136,140 MWh a day earlier. Statistics by the California Independent System Operator Corp show that wind farms in the US state generated 31,246 MWh, or 89.77% more power than in the previous day. California' s solar thermal power generation...",
+    "serviceName": "ADP Renewable Energy Track",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Renewable Energy",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Business and Commerce",
+            "code": "IS/biz#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/biz",
+            "relevance_score": "9",
+            "description": "Manufacturing Operations",
+            "code": "IS/biz.man#9#99#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#8#50#89",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.natres",
+            "relevance_score": "8",
+            "description": "Energy Resources",
+            "code": "IS/lifesoc.envener#8#50#89",
+            "level": 2
+        }
+    ],
+    "text": "June 5 (Renewables Now) - Wind, solar and other renewable energy plants in\nCalifornia produced 184,355 MWh of power on June 3, which is up from 136,140\nMWh a day earlier.\n\nStatistics by the California Independent System Operator Corp (ISO) show that\nwind farms in the US state generated 31,246 MWh, or 89.77% more power than in\nthe previous day. The rise in solar photovoltaic (PV) output was even greater\nas PV parks produced 108,461 MWh, compared to 76,326 MWh on June 2.\n\nCalifornia's solar thermal power generation jumped by 151.79% on the day to\n1,692 MWh.\n\nSmall hydropower plants (SHPPs) produced 8,926 MWh and geothermal plants\ngenerated 21,674 MWh.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Energy",
+            "code": "II/energy#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "II/energy",
+            "relevance_score": "9",
+            "description": "Renewable Energy",
+            "code": "II/energy.alt#9#99#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Utilities",
+            "code": "II/utility#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "II/utility.electric",
+            "relevance_score": "9",
+            "description": "Renewable Electricity Generation",
+            "code": "II/utility.altelec#9#99#89",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "<p>Statistics by the <org idsrc=\"xmltag.org\" value=\"ACORN:0882526879\">California Independent System Operator Corp"
+        ],
+        "location": [
+            "California",
+            "<p><location idsrc=\"xmltag.org\" value=\"LS/us.ca\">California"
+        ],
+        "person": [],
+        "companies": [
+            "<p>Statistics by the <org idsrc=\"xmltag.org\" value=\"ACORN:0882526879\">California Independent System Operator Corp"
+        ]
+    },
+    "geoOrigin_code": "RU/bg..sofia",
+    "language": "English",
+    "filename": "202006050410ADPR____ADP_RENW_REN_3379874.XML",
+    "providerName": "SeeNews",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "MWh",
+                "relevance": 0.911231,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "MWH Global",
+                    "dbpedia_resource": "http://dbpedia.org/resource/MWH_Global"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "California Independent System Operator Corp",
+                "relevance": 0.869948,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "California",
+                "relevance": 0.8372,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "Appellation",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "WineRegion",
+                        "StateOrCounty"
+                    ],
+                    "name": "California",
+                    "dbpedia_resource": "http://dbpedia.org/resource/California"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "US",
+                "relevance": 0.485304,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "151.79%",
+                "relevance": 0.485304,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "89.77%",
+                "relevance": 0.485304,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "California"
+                },
+                "sentence": " California produced 184,355 MWh of power on June 3, which is up from 136,140",
+                "object": {
+                    "text": "184,355 MWh of power on June 3, which is up from 136,140"
+                },
+                "action": {
+                    "verb": {
+                        "text": "produce",
+                        "tense": "past"
+                    },
+                    "text": "produced",
+                    "normalized": "produce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "June 3"
+                },
+                "sentence": " California produced 184,355 MWh of power on June 3, which is up from 136,140",
+                "object": {
+                    "text": "up from 136,140"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "wind farms in the US state"
+                },
+                "sentence": " wind farms in the US state generated 31,246 MWh, or 89.77% more power than in",
+                "object": {
+                    "text": "31,246 MWh, or 89.77% more power than in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "past"
+                    },
+                    "text": "generated",
+                    "normalized": "generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The rise in solar photovoltaic (PV) output"
+                },
+                "sentence": " The rise in solar photovoltaic (PV) output was even greater",
+                "object": {
+                    "text": "even greater"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "PV parks"
+                },
+                "sentence": " as PV parks produced 108,461 MWh, compared to 76,326 MWh on June 2.",
+                "object": {
+                    "text": "108,461 MWh"
+                },
+                "action": {
+                    "verb": {
+                        "text": "produce",
+                        "tense": "past"
+                    },
+                    "text": "produced",
+                    "normalized": "produce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "California's solar thermal power generation"
+                },
+                "sentence": " California's solar thermal power generation jumped by 151.79% on the day to",
+                "object": {
+                    "text": "by 151.79%"
+                },
+                "action": {
+                    "verb": {
+                        "text": "jump",
+                        "tense": "past"
+                    },
+                    "text": "jumped",
+                    "normalized": "jump"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Small hydropower plants (SHPPs)"
+                },
+                "sentence": " Small hydropower plants (SHPPs) produced 8,926 MWh and geothermal plants",
+                "object": {
+                    "text": "8,926 MWh and geothermal plants"
+                },
+                "action": {
+                    "verb": {
+                        "text": "produce",
+                        "tense": "past"
+                    },
+                    "text": "produced",
+                    "normalized": "produce"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.99996,
+                "label": "/business and industrial/energy/renewable energy"
+            },
+            {
+                "score": 0.999601,
+                "label": "/business and industrial/energy/electricity"
+            },
+            {
+                "score": 0.998065,
+                "label": "/business and industrial/energy/renewable energy/solar energy"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "June 5 (Renewables Now) - Wind, solar and other renewable energy plants in California produced 184,355 MWh of power on June 3, which is up from 136,140 MWh a day earlier.",
+                "score": 0.984102,
+                "arguments": [
+                    {
+                        "text": "plants",
+                        "location": [
+                            65,
+                            71
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "hydropower plants"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "California",
+                        "location": [
+                            75,
+                            85
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "California"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Statistics by the California Independent System Operator Corp (ISO) show that wind farms in the US state generated 31,246 MWh, or 89.77% more power than in the previous day.",
+                "score": 0.972446,
+                "arguments": [
+                    {
+                        "text": "Independent System Operator Corp",
+                        "location": [
+                            201,
+                            233
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Independent System Operator Corp"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "California",
+                        "location": [
+                            190,
+                            200
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "California"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Statistics by the California Independent System Operator Corp (ISO) show that wind farms in the US state generated 31,246 MWh, or 89.77% more power than in the previous day.",
+                "score": 0.685015,
+                "arguments": [
+                    {
+                        "text": "state",
+                        "location": [
+                            271,
+                            276
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "California"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "US",
+                        "location": [
+                            268,
+                            270
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "US",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Statistics by the California Independent System Operator Corp (ISO) show that wind farms in the US state generated 31,246 MWh, or 89.77% more power than in the previous day.",
+                "score": 0.744857,
+                "arguments": [
+                    {
+                        "text": "MWh",
+                        "location": [
+                            294,
+                            297
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "MWh"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "state",
+                        "location": [
+                            271,
+                            276
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "California"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The rise in solar photovoltaic (PV) output was even greater as PV parks produced 108,461 MWh, compared to 76,326 MWh on June 2.",
+                "score": 0.707338,
+                "arguments": [
+                    {
+                        "text": "parks",
+                        "location": [
+                            412,
+                            417
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "parks"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "MWh",
+                        "location": [
+                            435,
+                            438
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "MWh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "California's solar thermal power generation",
+                "relevance": 0.768456,
+                "count": 1
+            },
+            {
+                "text": "wind farms",
+                "relevance": 0.768172,
+                "count": 1
+            },
+            {
+                "text": "MWh of power",
+                "relevance": 0.749057,
+                "count": 1
+            },
+            {
+                "text": "Small hydropower plants",
+                "relevance": 0.693828,
+                "count": 1
+            },
+            {
+                "text": "California Independent System Operator Corp",
+                "relevance": 0.671198,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.624187,
+                "count": 3
+            },
+            {
+                "text": "Statistics",
+                "relevance": 0.609127,
+                "count": 1
+            },
+            {
+                "text": "Wind",
+                "relevance": 0.59056,
+                "count": 1
+            },
+            {
+                "text": "PV parks",
+                "relevance": 0.58066,
+                "count": 1
+            },
+            {
+                "text": "Renewables",
+                "relevance": 0.569979,
+                "count": 1
+            },
+            {
+                "text": "PV",
+                "relevance": 0.559994,
+                "count": 1
+            },
+            {
+                "text": "renewable energy plants",
+                "relevance": 0.558708,
+                "count": 1
+            },
+            {
+                "text": "US state",
+                "relevance": 0.553071,
+                "count": 1
+            },
+            {
+                "text": "MWh",
+                "relevance": 0.537921,
+                "count": 7
+            },
+            {
+                "text": "power",
+                "relevance": 0.515704,
+                "count": 1
+            },
+            {
+                "text": "output",
+                "relevance": 0.512957,
+                "count": 1
+            },
+            {
+                "text": "ISO",
+                "relevance": 0.512957,
+                "count": 1
+            },
+            {
+                "text": "day",
+                "relevance": 0.510687,
+                "count": 2
+            },
+            {
+                "text": "California",
+                "relevance": 0.454141,
+                "count": 1
+            },
+            {
+                "text": "geothermal plants",
+                "relevance": 0.449654,
+                "count": 1
+            },
+            {
+                "text": "previous day",
+                "relevance": 0.429346,
+                "count": 1
+            },
+            {
+                "text": "rise",
+                "relevance": 0.420535,
+                "count": 1
+            },
+            {
+                "text": "SHPPs",
+                "relevance": 0.391996,
+                "count": 1
+            },
+            {
+                "text": "show",
+                "relevance": 0.375614,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "34e2f8e359f4e8556a33ddf50fab623b91f22e26",
+        "filename": "202006050410ADPR____ADP_RENW_REN_3379874.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||California Independent System Operator Corporation|extractor|DUNS:969528850;NECOID:5600086;ACORN:0882526879|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T04:10:00-04:00",
+    "title": "California produces 184.4 GWh renewable power on June 3",
+    "html": "<p><chron>June 5</chron> (Renewables Now) - Wind, solar and other renewable energy plants in <location idsrc=\"xmltag.org\" value=\"LS/us.ca\">California</location> produced 184,355 MWh of power on <chron>June 3</chron>, which is up from 136,140 MWh a day earlier.</p><p>Statistics by the <org idsrc=\"xmltag.org\" value=\"ACORN:0882526879\">California Independent System Operator Corp</org> (ISO) show that wind farms in the US state generated 31,246 MWh, or 89.77% more power than in the previous day. The rise in solar photovoltaic (PV) output was even greater as PV parks produced 108,461 MWh, compared to 76,326 MWh on <chron>June 2</chron>.</p><p><location idsrc=\"xmltag.org\" value=\"LS/us.ca\">California</location>'s solar thermal power generation jumped by 151.79% on the day to 1,692 MWh.</p><p>Small hydropower plants (SHPPs) produced 8,926 MWh and geothermal plants generated 21,674 MWh.</p>",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

@@ -1,0 +1,287 @@
+{
+    "id": "9272a993-fb59-4fd2-a96d-46941ab6678e",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "98169550076393253142",
+    "description": "Lot 05 scaffolding more info: Location: GERMANY BidDate: 6/ 15/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: District Office Hildburghausen Tendering Authority Address: 98646 Hildburghausen Thuringia Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Lot 05 scaffolding more info : Location : GERMANY BidDate : 6/15/2020 Tender\nCountry : GERMANY Tender Type : Tenders Tendering Authority : District Office\nHildburghausen Tendering Authority Address : 98646 Hildburghausen Thuringia\nFinancier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_5855_176211449_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.927722,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hildburghausen Tendering Authority",
+                "relevance": 0.899467,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.257255,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.516846,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hildburghausen Thuringia",
+                "relevance": 0.420828,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "District Office",
+                "relevance": 0.28049,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.862277,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.644237,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.565914,
+                "label": "/business and industrial/construction"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Lot 05 scaffolding more info : Location : GERMANY BidDate : 6/15/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : District Office Hildburghausen Tendering Authority Address : 98646 Hildburghausen Thuringia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.660303,
+                "arguments": [
+                    {
+                        "text": "6/15/2020 Tender",
+                        "location": [
+                            60,
+                            76
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/15/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : District Office\nHildburghausen Tendering Authority Address :",
+                        "location": [
+                            95,
+                            199
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : District Office\nHildburghausen Tendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Lot 05 scaffolding more info : Location : GERMANY BidDate : 6/15/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : District Office Hildburghausen Tendering Authority Address : 98646 Hildburghausen Thuringia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.489404,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            231,
+                            240
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Hildburghausen Thuringia",
+                        "location": [
+                            206,
+                            230
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Hildburghausen Thuringia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Type",
+                "relevance": 0.853111,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.694727,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.673968,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.589173,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.557812,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.556141,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.546364,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.535359,
+                "count": 1
+            },
+            {
+                "text": "scaffolding",
+                "relevance": 0.388829,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "67680250f0690e7af2acd506a44777b4463a99c8",
+        "filename": "202006050210ALBA____ME_NA_NE_5855_176211449_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Lot 05 scaffolding [TenderNews.com - Tenders (India)]",
+    "html": "<p>Lot 05 scaffolding more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/15/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : District Office Hildburghausen\nTendering Authority Address : 98646 Hildburghausen Thuringia\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

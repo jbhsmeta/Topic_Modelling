@@ -1,0 +1,242 @@
+{
+    "id": "e5201bb5-cad1-48db-ac49-94519c2d305c",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 \u00a9 Copyright 2020 The Times-Mail. All rights reserved.",
+    "geoOrigin": "Bedford, Indiana",
+    "sourceType": "Newspaper",
+    "source": "Times-Mail, The (Bedford, IN)",
+    "corpus_document_id": "40187161164893272070",
+    "description": "The following are the Indiana State Department of Health as of noon Sunday:.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Health and Wellness",
+            "code": "IS/haw#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "7",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#7#63#75",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "7",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#7#75#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "7",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#7#50#75",
+            "level": 1
+        }
+    ],
+    "text": "The following are the Indiana State Department of Health as of noon Sunday:\n\nIndiana\n\nTotal cases: 34,574\n\nTotal deaths: 1,967\n\nTotal tested: 261,546\n\nNew cases: 1,016\n\nNew deaths: 21\n\nLawrence County\n\nTotal cases: 163\n\nTotal deaths: 24\n\nTotal tested: 1,363\n\nNew cases: 9\n\nNew deaths: 1\n\nLawrence County COVID-19 hotline is 812-545-0008.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Indiana State Department of Health"
+        ],
+        "location": [
+            "Indiana",
+            "Lawrence County"
+        ],
+        "person": [],
+        "companies": [
+            "Indiana State Department of Health"
+        ]
+    },
+    "geoOrigin_code": "RU/us.in.bedfor",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRS86D6855965356F05E64B5D3912C6BF3.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Lawrence County",
+                "relevance": 0.951022,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Lawrence County, Indiana",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Lawrence_County,_Indiana"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Indiana State Department of Health",
+                "relevance": 0.731901,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Indiana",
+                "relevance": 0.524516,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Indiana",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Indiana"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Lawrence County COVID-19 hotline"
+                },
+                "sentence": " Lawrence County COVID-19 hotline is 812-545-0008.",
+                "object": {
+                    "text": "812-545-0008"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.794579,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.774969,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.70195,
+                "label": "/science/weather"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "Lawrence County",
+                "relevance": 0.975752,
+                "count": 1
+            },
+            {
+                "text": "Indiana State Department of Health",
+                "relevance": 0.893064,
+                "count": 1
+            },
+            {
+                "text": "Total deaths",
+                "relevance": 0.83398,
+                "count": 2
+            },
+            {
+                "text": "Total cases",
+                "relevance": 0.647319,
+                "count": 2
+            },
+            {
+                "text": "Indiana",
+                "relevance": 0.572676,
+                "count": 1
+            },
+            {
+                "text": "Lawrence County COVID-19 hotline",
+                "relevance": 0.564883,
+                "count": 1
+            },
+            {
+                "text": "New cases",
+                "relevance": 0.421211,
+                "count": 2
+            },
+            {
+                "text": "noon Sunday",
+                "relevance": 0.343218,
+                "count": 1
+            },
+            {
+                "text": "New deaths",
+                "relevance": 0.240717,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "de869c5502df88de16b0e2da8d3b89f4dff98af1",
+        "filename": "202005310000NEWSBANKNEWSPPRS86D6855965356F05E64B5D3912C6BF3.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "Lawrence County's COVID-19 statistics for June 1, 2020",
+    "html": "<p>The following are the <org>Indiana State Department of Health</org> as of noon Sunday:</p>\n<p><location idsrc=\"xmltag.org\" value=\"LS/us.in\">Indiana</location></p>\n\n<p>Total cases: 34,574</p>\n\n<p>Total deaths: 1,967</p>\n\n<p>Total tested: 261,546</p>\n\n<p>New cases: 1,016</p>\n\n<p>New deaths: 21</p>\n\n<p><location idsrc=\"xmltag.org\" value=\"LU/us.in.lawnce\">Lawrence County</location></p>\n\n<p>Total cases: 163</p>\n\n<p>Total deaths: 24</p>\n\n<p>Total tested: 1,363</p>\n\n<p>New cases: 9</p>\n\n<p>New deaths: 1</p>\n\n<p>Lawrence County COVID-19 hotline is 812-545-0008.</p>",
+    "geoFocus": [
+        [
+            "GU/us.in.bedfor",
+            "Bedford"
+        ]
+    ]
+}

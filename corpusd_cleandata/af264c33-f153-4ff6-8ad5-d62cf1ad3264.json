@@ -1,0 +1,920 @@
+{
+    "id": "af264c33-f153-4ff6-8ad5-d62cf1ad3264",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Kansas City, Missouri",
+    "sourceType": "Broadcast Transcript",
+    "source": "WDAF-TV (Kansas City, MO)",
+    "corpus_document_id": "6825670815772247552",
+    "description": "JEFFERSON CITY, Mo.- Missouri Governor Mike Parson will hold a news conference Monday at 2 p.m. to address the recent protests and civil unrest across the entire state. *Department of Elementary and Secondary Education Commissioner Margie Vandeven. *Department of Higher Education and Workforce Development Commissioner Zora Mulligan.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Trading Impact (ICE Codes) Important Corporate Events",
+            "code": "IS/impact#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/impact",
+            "relevance_score": "9",
+            "description": "Civil Unrest",
+            "code": "IS/pol.civilun#9#99#50",
+            "level": 1
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Conflicts, Unrest and Wars",
+            "code": "IS/pol.confwar#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "JEFFERSON CITY, Mo. \\- Missouri Governor Mike Parson will hold a news\nconference Monday at 2 p.m. to address the recent protests and civil unrest\nacross the entire state.\n\nDuring that news conference, he's also expected to announce how COVID-19 has\nimpacted the state's budget.\n\nThe following individuals will all be present at the news conference:\n\n* Department of Elementary and Secondary Education Commissioner Margie Vandeven\n\n* Department of Higher Education and Workforce Development Commissioner Zora Mulligan\n\n* Department of Health and Senior Services Director Dr. Randall Williams.\n\nYou can watch this news conference live on [FOX4KC.com](http://FOX4KC.com)\nwhen it happens.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Department of Elementary and Secondary Education Commissioner Margie Vandeven",
+            "Department of Higher Education and Workforce Development Commissioner Zora Mulligan",
+            "Department of Health and Senior Services"
+        ],
+        "location": [
+            "JEFFERSON CITY, Mo.",
+            "Missouri"
+        ],
+        "person": [
+            "Mike Parson",
+            "Randall Williams"
+        ],
+        "companies": [
+            "Department of Higher Education and Workforce Development Commissioner Zora Mulligan",
+            "Department of Health and Senior Services",
+            "Department of Elementary and Secondary Education Commissioner Margie Vandeven"
+        ]
+    },
+    "geoOrigin_code": "RU/us.mo.kancty",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS453C3E35FF16BE02738F83BAA193FCC.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Governor Mike Parson",
+                "relevance": 0.924511,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Mike Parson",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Mike_Parson"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Department of Elementary and Secondary Education",
+                "relevance": 0.732921,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Commissioner",
+                "relevance": 0.708666,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Department of Higher Education",
+                "relevance": 0.640236,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.44968,
+                    "label": "positive"
+                },
+                "text": "Department of Health",
+                "relevance": 0.520575,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "United States Department of Health and Human Services",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States_Department_of_Health_and_Human_Services"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Zora Mulligan",
+                "relevance": 0.511803,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "JEFFERSON CITY",
+                "relevance": 0.506587,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Jefferson City, Missouri",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Jefferson_City,_Missouri"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Margie Vandeven",
+                "relevance": 0.443389,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.44968,
+                    "label": "positive"
+                },
+                "text": "Dr. Randall Williams",
+                "relevance": 0.423471,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.44968,
+                    "label": "positive"
+                },
+                "text": "Senior Services Director",
+                "relevance": 0.403272,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Missouri",
+                "relevance": 0.372729,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Missouri",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Missouri"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "COVID-19",
+                "relevance": 0.344326,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mo.",
+                "relevance": 0.292469,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "JEFFERSON CITY, Mo. \\- Missouri Governor Mike Parson"
+                },
+                "sentence": "JEFFERSON CITY, Mo. \\- Missouri Governor Mike Parson will hold a news",
+                "object": {
+                    "text": "a news"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hold",
+                        "tense": "future"
+                    },
+                    "text": "will hold",
+                    "normalized": "will hold"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " During that news conference, he's also expected to announce how COVID-19 has",
+                "object": {
+                    "text": "to announce"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " During that news conference, he's also expected to announce how COVID-19 has",
+                "object": {
+                    "text": "to announce how COVID-19 has"
+                },
+                "action": {
+                    "verb": {
+                        "text": "expect",
+                        "tense": "past"
+                    },
+                    "text": "expected",
+                    "normalized": "expect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " During that news conference, he's also expected to announce how COVID-19 has",
+                "object": {
+                    "text": "how COVID-19 has"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "future"
+                    },
+                    "text": "expected to announce",
+                    "normalized": "expect to announce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The following individuals will all"
+                },
+                "sentence": " The following individuals will all be present at the news conference:",
+                "action": {
+                    "verb": {
+                        "text": "present",
+                        "tense": "future"
+                    },
+                    "text": "present",
+                    "normalized": "present"
+                }
+            },
+            {
+                "subject": {
+                    "text": "You"
+                },
+                "sentence": " You can watch this news conference live on [FOX4KC.com](http://FOX4KC.com)",
+                "object": {
+                    "text": "this news conference"
+                },
+                "action": {
+                    "verb": {
+                        "text": "watch",
+                        "tense": "future"
+                    },
+                    "text": "can watch",
+                    "normalized": "can watch"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.990264,
+                "label": "/education/special education"
+            },
+            {
+                "score": 0.880137,
+                "label": "/finance/grants, scholarships and financial aid/government grants"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "JEFFERSON CITY, Mo. \\- Missouri Governor Mike Parson will hold a news conference Monday at 2 p.m. to address the recent protests and civil unrest across the entire state.",
+                "score": 0.874292,
+                "arguments": [
+                    {
+                        "text": "JEFFERSON CITY",
+                        "location": [
+                            0,
+                            14
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "JEFFERSON CITY"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Mo.",
+                        "location": [
+                            16,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Mo."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "* Department of Elementary and Secondary Education Commissioner Margie Vandeven",
+                "score": 0.692591,
+                "arguments": [
+                    {
+                        "text": "Commissioner",
+                        "location": [
+                            401,
+                            413
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Margie Vandeven"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Department of Elementary and Secondary Education",
+                        "location": [
+                            352,
+                            400
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Department of Elementary and Secondary Education",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "* Department of Higher Education and Workforce Development Commissioner Zora Mulligan",
+                "score": 0.688713,
+                "arguments": [
+                    {
+                        "text": "Commissioner",
+                        "location": [
+                            490,
+                            502
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Zora Mulligan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Department of Higher Education and Workforce Development",
+                        "location": [
+                            433,
+                            489
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Department of Higher Education and Workforce Development",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "* Department of Health and Senior Services Director Dr. Randall Williams.",
+                "score": 0.605913,
+                "arguments": [
+                    {
+                        "text": "Director",
+                        "location": [
+                            561,
+                            569
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Randall Williams"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Department of Health and Senior Services",
+                        "location": [
+                            520,
+                            560
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Department of Health and Senior Services",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "You can watch this news conference live on [FOX4KC.com](http://FOX4KC.com) when it happens.",
+                "score": 0.842652,
+                "arguments": [
+                    {
+                        "text": "http://FOX4KC.com",
+                        "location": [
+                            649,
+                            666
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "http://FOX4KC.com"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "news conference",
+                        "location": [
+                            612,
+                            627
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "news conference"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "JEFFERSON CITY, Mo. \\- Missouri Governor Mike Parson will hold a news conference Monday at 2 p.m. to address the recent protests and civil unrest across the entire state.",
+                "score": 0.33082,
+                "arguments": [
+                    {
+                        "text": "Governor",
+                        "location": [
+                            32,
+                            40
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mike Parson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Missouri",
+                        "location": [
+                            23,
+                            31
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Missouri"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "JEFFERSON CITY, Mo. \\- Missouri Governor Mike Parson will hold a news conference Monday at 2 p.m. to address the recent protests and civil unrest across the entire state.",
+                "score": 0.758742,
+                "arguments": [
+                    {
+                        "text": "Mike Parson",
+                        "location": [
+                            41,
+                            52
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mike Parson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "news\nconference",
+                        "location": [
+                            65,
+                            80
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "news\nconference"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "JEFFERSON CITY, Mo. \\- Missouri Governor Mike Parson will hold a news conference Monday at 2 p.m. to address the recent protests and civil unrest across the entire state.",
+                "score": 0.938793,
+                "arguments": [
+                    {
+                        "text": "Monday",
+                        "location": [
+                            81,
+                            87
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Monday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "news\nconference",
+                        "location": [
+                            65,
+                            80
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "news\nconference"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "JEFFERSON CITY, Mo. \\- Missouri Governor Mike Parson will hold a news conference Monday at 2 p.m. to address the recent protests and civil unrest across the entire state.",
+                "score": 0.90516,
+                "arguments": [
+                    {
+                        "text": "2 p.m.",
+                        "location": [
+                            91,
+                            97
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "2 p.m."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "news\nconference",
+                        "location": [
+                            65,
+                            80
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "news\nconference"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "JEFFERSON CITY, Mo. \\- Missouri Governor Mike Parson will hold a news conference Monday at 2 p.m. to address the recent protests and civil unrest across the entire state.",
+                "score": 0.794239,
+                "arguments": [
+                    {
+                        "text": "2 p.m.",
+                        "location": [
+                            91,
+                            97
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "2 p.m."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "address",
+                        "location": [
+                            101,
+                            108
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "address"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "During that news conference, he's also expected to announce how COVID-19 has impacted the state's budget.",
+                "score": 0.673406,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            201,
+                            203
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mike Parson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "news conference",
+                        "location": [
+                            184,
+                            199
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "news conference"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "During that news conference, he's also expected to announce how COVID-19 has impacted the state's budget.",
+                "score": 0.803648,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            201,
+                            203
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mike Parson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announce",
+                        "location": [
+                            223,
+                            231
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announce"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "The following individuals will all be present at the news conference:",
+                "score": 0.611571,
+                "arguments": [
+                    {
+                        "text": "individuals",
+                        "location": [
+                            293,
+                            304
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "individuals"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "news conference",
+                        "location": [
+                            332,
+                            347
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "news conference"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Department of Elementary",
+                "relevance": 0.917131,
+                "count": 1
+            },
+            {
+                "text": "news conference",
+                "relevance": 0.905788,
+                "count": 3
+            },
+            {
+                "text": "following individuals",
+                "relevance": 0.862045,
+                "count": 1
+            },
+            {
+                "text": "Department of Higher Education",
+                "relevance": 0.685481,
+                "count": 1
+            },
+            {
+                "text": "Missouri Governor Mike Parson",
+                "relevance": 0.683567,
+                "count": 1
+            },
+            {
+                "text": "JEFFERSON CITY",
+                "relevance": 0.677374,
+                "count": 1
+            },
+            {
+                "text": "entire state",
+                "relevance": 0.629798,
+                "count": 1
+            },
+            {
+                "text": "civil unrest",
+                "relevance": 0.596043,
+                "count": 1
+            },
+            {
+                "text": "Department of Health",
+                "relevance": 0.580092,
+                "count": 1
+            },
+            {
+                "text": "Secondary Education Commissioner Margie Vandeven",
+                "relevance": 0.506948,
+                "count": 1
+            },
+            {
+                "text": "Workforce Development Commissioner Zora Mulligan",
+                "relevance": 0.426368,
+                "count": 1
+            },
+            {
+                "text": "recent protests",
+                "relevance": 0.372581,
+                "count": 1
+            },
+            {
+                "text": "state's budget",
+                "relevance": 0.312351,
+                "count": 1
+            },
+            {
+                "text": "Senior Services Director Dr. Randall Williams",
+                "relevance": 0.286375,
+                "count": 1
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.262495,
+                "count": 1
+            },
+            {
+                "text": "Mo",
+                "relevance": 0.260464,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "0cd7f51c65cd975c83033ff3ab546bea641c2964",
+        "filename": "202006010000NEWSBANKNEWSPPRS453C3E35FF16BE02738F83BAA193FCC.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Governor Mike Parson to address civil unrest, and how COVID-19 has impacted the state budget",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.mo.jefcty\">JEFFERSON CITY, Mo.</location> - <location idsrc=\"xmltag.org\" value=\"LS/us.mo\">Missouri</location> Governor <person>Mike Parson</person> will hold a news conference Monday at <chron>2 p.m.</chron> to address the recent protests and civil unrest across the entire state.</p>\n<p>During that news conference, he's also expected to announce how COVID-19 has impacted the state's budget.</p>\n\n<p>The following individuals will all be present at the news conference:</p>\n\n<p>* <org>Department of Elementary and Secondary Education Commissioner Margie Vandeven</org></p>\n\n<p>* <org>Department of Higher Education and Workforce Development Commissioner Zora Mulligan</org></p>\n\n<p>* <org>Department of Health and Senior Services</org> Director Dr. <person>Randall Williams</person>.</p>\n\n<p>You can watch this news conference live on <a href=\"http://FOX4KC.com\">FOX4KC.com</a> when it happens.</p>",
+    "geoFocus": [
+        [
+            "GU/us.mo.kancty",
+            "Kansas City"
+        ]
+    ]
+}

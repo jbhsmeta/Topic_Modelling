@@ -1,0 +1,460 @@
+{
+    "id": "4519355d-12ff-42f1-a7f9-72d08d4eac16",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright 2020 Indian National Press (Bombay) Pvt. Ltd., distributed by Contify.com",
+    "geoOrigin": "Mumbai, India",
+    "sourceType": "Newspaper",
+    "source": "Free Press Journal (India)",
+    "corpus_document_id": "32039658708094313868",
+    "description": "Amaravati: In a move to help auto and taxi drivers affected due to the COVID-19 lockdown, the Andhra Pradesh government on Thursday disbursed four months in advance an annual financial assistance of Rs 10,000 to each of the 2.62 lakh beneficiaries under a state welfare scheme.",
+    "serviceName": "Contify News",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Southern Asia",
+            "code": "LB/sas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sas",
+            "relevance_score": "9",
+            "description": "India",
+            "code": "LC/in#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Amaravati: In a move to help auto and taxi drivers affected due to the\nCOVID-19 lockdown, the Andhra Pradesh government on Thursday disbursed four\nmonths in advance an annual financial assistance of Rs 10,000 to each of the\n2.62 lakh beneficiaries under a state welfare scheme. Chief Minister Y S Jagan\nMohan Reddy announced the transfer of a total amount of Rs 262.49 crores to\n2,62,493 beneficiaries under the YSR Vahana Mitra scheme during a digital\nconference with district collectors and beneficiaries, an official statement\nsaid.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Andhra Pradesh"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..bombay",
+    "language": "English",
+    "filename": "202006050425CONTIFY_NEWS____0053458424.XML",
+    "providerName": "Information Solutions",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Andhra Pradesh",
+                "relevance": 0.988209,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mohan Reddy",
+                "relevance": 0.914041,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.678469,
+                    "label": "positive"
+                },
+                "text": "Chief Minister Y S Jagan",
+                "relevance": 0.82636,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "official",
+                "relevance": 0.48089,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "four\nmonths",
+                "relevance": 0.48089,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "the Andhra Pradesh government on Thursday"
+                },
+                "sentence": " COVID-19 lockdown, the Andhra Pradesh government on Thursday disbursed four",
+                "object": {
+                    "text": "four"
+                },
+                "action": {
+                    "verb": {
+                        "text": "disburse",
+                        "tense": "past"
+                    },
+                    "text": "disbursed",
+                    "normalized": "disburse"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mohan Reddy"
+                },
+                "sentence": " Mohan Reddy announced the transfer of a total amount of Rs 262.49 crores to",
+                "object": {
+                    "text": "the transfer of a total amount of Rs 262.49 crores to"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "past"
+                    },
+                    "text": "announced",
+                    "normalized": "announce"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.65648,
+                "label": "/society/welfare"
+            },
+            {
+                "score": 0.649991,
+                "label": "/finance/investing/funds"
+            },
+            {
+                "score": 0.641007,
+                "label": "/law, govt and politics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "Amaravati: In a move to help auto and taxi drivers affected due to the COVID-19 lockdown, the Andhra Pradesh government on Thursday disbursed four months in advance an annual financial assistance of Rs 10,000 to each of the 2.62 lakh beneficiaries under a state welfare scheme.",
+                "score": 0.515251,
+                "arguments": [
+                    {
+                        "text": "government",
+                        "location": [
+                            109,
+                            119
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "government",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Andhra Pradesh",
+                        "location": [
+                            94,
+                            108
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Andhra Pradesh",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Chief Minister Y S Jagan Mohan Reddy announced the transfer of a total amount of Rs 262.49 crores to 2,62,493 beneficiaries under the YSR Vahana Mitra scheme during a digital conference with district collectors and beneficiaries, an official statement said.",
+                "score": 0.957098,
+                "arguments": [
+                    {
+                        "text": "Y S Jagan\nMohan Reddy",
+                        "location": [
+                            293,
+                            314
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Y S Jagan\nMohan Reddy"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            315,
+                            324
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Chief Minister Y S Jagan Mohan Reddy announced the transfer of a total amount of Rs 262.49 crores to 2,62,493 beneficiaries under the YSR Vahana Mitra scheme during a digital conference with district collectors and beneficiaries, an official statement said.",
+                "score": 0.42068,
+                "arguments": [
+                    {
+                        "text": "crores",
+                        "location": [
+                            369,
+                            375
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "crores"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rs",
+                        "location": [
+                            359,
+                            361
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Rs",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "Chief Minister Y S Jagan Mohan Reddy announced the transfer of a total amount of Rs 262.49 crores to 2,62,493 beneficiaries under the YSR Vahana Mitra scheme during a digital conference with district collectors and beneficiaries, an official statement said.",
+                "score": 0.844751,
+                "arguments": [
+                    {
+                        "text": "collectors",
+                        "location": [
+                            478,
+                            488
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "collectors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "conference",
+                        "location": [
+                            453,
+                            463
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "conference"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Chief Minister Y S Jagan Mohan Reddy announced the transfer of a total amount of Rs 262.49 crores to 2,62,493 beneficiaries under the YSR Vahana Mitra scheme during a digital conference with district collectors and beneficiaries, an official statement said.",
+                "score": 0.956031,
+                "arguments": [
+                    {
+                        "text": "collectors",
+                        "location": [
+                            478,
+                            488
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "collectors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "district",
+                        "location": [
+                            469,
+                            477
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "district"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "lakh beneficiaries",
+                "relevance": 0.786437,
+                "count": 1
+            },
+            {
+                "text": "COVID-19 lockdown",
+                "relevance": 0.759007,
+                "count": 1
+            },
+            {
+                "text": "district collectors",
+                "relevance": 0.675029,
+                "count": 1
+            },
+            {
+                "text": "taxi drivers",
+                "relevance": 0.632931,
+                "count": 1
+            },
+            {
+                "text": "official statement",
+                "relevance": 0.61048,
+                "count": 1
+            },
+            {
+                "text": "YSR Vahana Mitra scheme",
+                "relevance": 0.582745,
+                "count": 1
+            },
+            {
+                "text": "Andhra Pradesh government",
+                "relevance": 0.576671,
+                "count": 1
+            },
+            {
+                "text": "Amaravati",
+                "relevance": 0.576304,
+                "count": 1
+            },
+            {
+                "text": "months",
+                "relevance": 0.55837,
+                "count": 1
+            },
+            {
+                "text": "beneficiaries",
+                "relevance": 0.541785,
+                "count": 2
+            },
+            {
+                "text": "advance",
+                "relevance": 0.531654,
+                "count": 1
+            },
+            {
+                "text": "transfer of a total amount",
+                "relevance": 0.53135,
+                "count": 1
+            },
+            {
+                "text": "auto",
+                "relevance": 0.525459,
+                "count": 1
+            },
+            {
+                "text": "crores",
+                "relevance": 0.514291,
+                "count": 1
+            },
+            {
+                "text": "annual financial assistance",
+                "relevance": 0.502963,
+                "count": 1
+            },
+            {
+                "text": "state welfare scheme",
+                "relevance": 0.502179,
+                "count": 1
+            },
+            {
+                "text": "move",
+                "relevance": 0.390264,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.365606,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "63d38b633d9eeca36160bed0c194212709acbe94",
+        "filename": "202006050425CONTIFY_NEWS____0053458424.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:25:00-04:00",
+    "title": "AP releases Rs 10k allowance to 2.62 lakh auto & taxi drivers",
+    "html": "<p>Amaravati: In a move to help auto and taxi drivers affected due to the COVID-19 lockdown, the <location idsrc=\"xmltag.org\" value=\"LS/in.ap\">Andhra Pradesh</location> government on Thursday disbursed four months in advance an annual financial assistance of <money>Rs 10,000</money> to each of the 2.62 lakh beneficiaries under a state welfare scheme. Chief Minister Y S Jagan Mohan Reddy announced the transfer of a total amount of <money>Rs 262.49 crores</money> to 2,62,493 beneficiaries under the YSR Vahana Mitra scheme during a digital conference with district collectors and beneficiaries, an official statement said.</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ],
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

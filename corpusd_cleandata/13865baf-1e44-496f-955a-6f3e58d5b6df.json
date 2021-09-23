@@ -1,0 +1,197 @@
+{
+    "id": "13865baf-1e44-496f-955a-6f3e58d5b6df",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Napa Valley Register, All rights reserved.",
+    "geoOrigin": "Napa County, California",
+    "sourceType": "Newspaper",
+    "source": "Napa Valley Register (CA)",
+    "corpus_document_id": "28049939367562353501",
+    "description": "Parents' names: Marlene Gomez and Luis Garcia.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "School: Napa High School\n\nParents' names: Marlene Gomez and Luis Garcia",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Napa High School"
+        ],
+        "location": [],
+        "person": [
+            "Marlene Gomez",
+            "Luis Garcia"
+        ],
+        "companies": [
+            "Napa High School"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ca.napa",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRSA5586EF73FF91233198F9B45998F7B8.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Napa High School",
+                "relevance": 0.958768,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "School"
+                    ],
+                    "name": "Napa High School",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Napa_High_School"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Marlene Gomez",
+                "relevance": 0.689847,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Luis Garcia",
+                "relevance": 0.550157,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.8262,
+                "label": "/education/school"
+            },
+            {
+                "score": 0.780495,
+                "label": "/education/high school"
+            },
+            {
+                "score": 0.72684,
+                "label": "/education/special education"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOfMany",
+                "sentence": "Parents' names: Marlene Gomez and Luis Garcia",
+                "score": 0.580845,
+                "arguments": [
+                    {
+                        "text": "Marlene Gomez",
+                        "location": [
+                            42,
+                            55
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Marlene Gomez"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Parents",
+                        "location": [
+                            26,
+                            33
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Parents"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Parents' names: Marlene Gomez and Luis Garcia",
+                "score": 0.918869,
+                "arguments": [
+                    {
+                        "text": "Luis Garcia",
+                        "location": [
+                            60,
+                            71
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Luis Garcia"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Parents",
+                        "location": [
+                            26,
+                            33
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Parents"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "School",
+                "relevance": 0.86909,
+                "count": 1
+            },
+            {
+                "text": "Marlene Gomez",
+                "relevance": 0.663187,
+                "count": 1
+            },
+            {
+                "text": "names",
+                "relevance": 0.619766,
+                "count": 1
+            },
+            {
+                "text": "Luis Garcia",
+                "relevance": 0.483086,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "bf9d8133ff665d9987c26c244213aa02bafc2037",
+        "filename": "202006010000NEWSBANKNEWSPPRSA5586EF73FF91233198F9B45998F7B8.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Garcia, Nadia",
+    "html": "<p>School: <org>Napa High School</org></p>\n<p>Parents' names: <person>Marlene Gomez</person> and <person>Luis Garcia</person></p>",
+    "geoFocus": [
+        [
+            "GU/us.ca.napa",
+            "Napa County"
+        ]
+    ]
+}

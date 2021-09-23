@@ -1,0 +1,346 @@
+{
+    "id": "fe71bbbf-facd-4c7e-821e-62785e7d6e6d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 ET Net Limited. All rights reserved.",
+    "geoOrigin": "Hong Kong",
+    "sourceType": "Business & Financial Newswire",
+    "source": "ET Net News (China)",
+    "corpus_document_id": "82084410287557031010",
+    "description": "CSC Financial Co., Ltd. said for May 2020,. its revenue was RMB777.91 million, a year-on-year increase of 14.25%. As at 31 May 2020, its net assets were RMB58.1 billion.",
+    "serviceName": "Financial News",
+    "locationCode": [],
+    "sourceClass": "Business and Commerce, Finance",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Finance",
+            "code": "IS/fin#9#50#90",
+            "level": 0
+        },
+        {
+            "parent": "IS/fin",
+            "relevance_score": "9",
+            "description": "Business Finance and Financing",
+            "code": "IS/fin.biz#9#50#90",
+            "level": 1
+        },
+        {
+            "parent": "IS/impact",
+            "relevance_score": "9",
+            "description": "Corporate Earnings",
+            "code": "IS/fin.reports#9#90#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Trading Impact (ICE Codes) Important Corporate Events",
+            "code": "IS/impact#9#50#90",
+            "level": 0
+        }
+    ],
+    "text": "[ET Net News Agency, 5 June 2020] CSC Financial Co., Ltd. (06066) said for May\n2020,\n\nits revenue was RMB777.91 million, a year-on-year increase of 14.25%. Its net\nprofit was\n\nRMB313.44 million, a year-on-year increase of 897.77%.\n\nAs at 31 May 2020, its net assets were RMB58.1 billion. (RC)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "ET Net News Agency",
+            "CSC Financial Co., Ltd."
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "CSC Financial Co., Ltd.",
+            "ET Net News Agency"
+        ]
+    },
+    "geoOrigin_code": "RC/hk",
+    "language": "English",
+    "filename": "202006050206ETNETNEWNEWS__EN300605206.XML",
+    "providerName": "ET Net News",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Net News Agency",
+                "relevance": 0.938683,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "CSC Financial Co.",
+                "relevance": 0.626721,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "897.77%",
+                "relevance": 0.626721,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "14.25%",
+                "relevance": 0.626721,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "its revenue"
+                },
+                "sentence": " its revenue was RMB777.91 million, a year-on-year increase of 14.25%.",
+                "object": {
+                    "text": "RMB777.91 million, a year-on-year increase of 14.25%"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "its net assets"
+                },
+                "sentence": " As at 31 May 2020, its net assets were RMB58.1 billion.",
+                "object": {
+                    "text": "RMB58.1 billion"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.854703,
+                "label": "/finance/financial news"
+            },
+            {
+                "score": 0.810174,
+                "label": "/finance/investing"
+            },
+            {
+                "score": 0.810174,
+                "label": "/finance/investing/beginning investing"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "[ET Net News Agency, 5 June 2020] CSC Financial Co., Ltd. (06066) said for May 2020,",
+                "score": 0.837848,
+                "arguments": [
+                    {
+                        "text": "06066",
+                        "location": [
+                            59,
+                            64
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "06066"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            66,
+                            70
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "[ET Net News Agency, 5 June 2020] CSC Financial Co., Ltd. (06066) said for May 2020,",
+                "score": 0.725004,
+                "arguments": [
+                    {
+                        "text": "May\n2020",
+                        "location": [
+                            75,
+                            83
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "May\n2020"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            66,
+                            70
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "As at 31 May 2020, its net assets were RMB58.1 billion.",
+                "score": 0.722235,
+                "arguments": [
+                    {
+                        "text": "its",
+                        "location": [
+                            251,
+                            254
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "News Agency"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "RMB58.1 billion",
+                        "location": [
+                            271,
+                            286
+                        ],
+                        "entities": [
+                            {
+                                "type": "Money",
+                                "text": "RMB58.1 billion",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Gainloss"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "ET Net News Agency",
+                "relevance": 0.992901,
+                "count": 1
+            },
+            {
+                "text": "CSC Financial Co.",
+                "relevance": 0.874669,
+                "count": 1
+            },
+            {
+                "text": "net assets",
+                "relevance": 0.700919,
+                "count": 1
+            },
+            {
+                "text": "year increase",
+                "relevance": 0.659296,
+                "count": 2
+            },
+            {
+                "text": "June",
+                "relevance": 0.592675,
+                "count": 1
+            },
+            {
+                "text": "revenue",
+                "relevance": 0.550726,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.542894,
+                "count": 2
+            },
+            {
+                "text": "RMB",
+                "relevance": 0.537306,
+                "count": 1
+            },
+            {
+                "text": "RC",
+                "relevance": 0.525025,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.370228,
+                "count": 2
+            },
+            {
+                "text": "RMB777.91",
+                "relevance": 0.318904,
+                "count": 1
+            },
+            {
+                "text": "Ltd.",
+                "relevance": 0.309881,
+                "count": 1
+            },
+            {
+                "text": "RMB58.1",
+                "relevance": 0.277249,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "c55d9ec3d2bc973174ffb8857bffed6e286fad0c",
+        "filename": "202006050206ETNETNEWNEWS__EN300605206.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:06:00-04:00",
+    "title": "CSC (06066) May net profit up 898% to RMB313.44m",
+    "html": "<p>  [<org>ET Net News Agency</org>, <chron>5 June 2020</chron>]  <org>CSC Financial Co., Ltd.</org> (06066) said for <chron>May 2020</chron>,\n</p>\n<p>its revenue was <money>RMB777.91 million</money>, a year-on-year increase of 14.25%. Its net profit was\n</p>\n<p><money>RMB313.44 million</money>, a year-on-year increase of 897.77%.\n</p>\n<p>  As at <chron>31 May 2020</chron>, its net assets were <money>RMB58.1 billion</money>. (RC)\n</p>",
+    "geoFocus": [
+        [
+            "GC/cn",
+            "China"
+        ]
+    ]
+}

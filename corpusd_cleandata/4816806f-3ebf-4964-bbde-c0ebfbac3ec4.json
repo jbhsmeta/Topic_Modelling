@@ -1,0 +1,164 @@
+{
+    "id": "4816806f-3ebf-4964-bbde-c0ebfbac3ec4",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "19306461744562140589",
+    "description": "While offices will open from next week, returning will be on a voluntary basis.",
+    "serviceName": "Industry News",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#49",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "Freshfields, Hengeler to Reopen Offices in Germany While offices will open\nfrom next week, returning will be on a voluntary basis.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Freshfields"
+        ],
+        "location": [
+            "Germany"
+        ],
+        "person": [],
+        "companies": [
+            "Freshfields"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050319AMSPIDERNEWSINDU_LEGWEE13_FD0083168E22BC3FE8E056335F0AADAF_2.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Germany",
+                "relevance": 0.936267,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Freshfields",
+                "relevance": 0.582824,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "returning"
+                },
+                "sentence": " from next week, returning will be on a voluntary basis.",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "will be",
+                    "normalized": "will be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.715599,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.632041,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.570227,
+                "label": "/law, govt and politics/government"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "next week",
+                "relevance": 0.984009,
+                "count": 1
+            },
+            {
+                "text": "voluntary basis",
+                "relevance": 0.87887,
+                "count": 1
+            },
+            {
+                "text": "Offices",
+                "relevance": 0.621897,
+                "count": 2
+            },
+            {
+                "text": "Germany",
+                "relevance": 0.59054,
+                "count": 1
+            },
+            {
+                "text": "Freshfields",
+                "relevance": 0.356662,
+                "count": 1
+            },
+            {
+                "text": "Hengeler",
+                "relevance": 0.250695,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "3e9a37680494235b0e1aae76038e3fd95bb2cd20",
+        "filename": "202006050319AMSPIDERNEWSINDU_LEGWEE13_FD0083168E22BC3FE8E056335F0AADAF_2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Freshfields (Holdings) Limited|extractor|DUNS:718983245;NECOID:980002033;ACORN:0969002033;UDUNS:211082856;UACORN:0106504099|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T03:19:00-04:00",
+    "title": "Freshfields, Hengeler to Reopen Offices in Germany [legalweek.com (UK)]",
+    "html": "<p><org idsrc=\"xmltag.org\" value=\"ACORN:0969002033\">Freshfields</org>, Hengeler to Reopen Offices in <location idsrc=\"xmltag.org\" value=\"LC/de\">Germany</location> While offices will open from next week, returning will be on a voluntary basis.</p>",
+    "geoFocus": []
+}

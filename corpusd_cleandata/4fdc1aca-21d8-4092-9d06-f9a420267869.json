@@ -1,0 +1,1639 @@
+{
+    "id": "4fdc1aca-21d8-4092-9d06-f9a420267869",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, Japan Daily Report",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Japan Daily Report",
+    "corpus_document_id": "56463266169683481279",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at Japan Daily Report-- According to news reporting originating from Washington, D.C., by NewsRx journalists, a patent application by the inventor Tsutsui, Ryo, filed on November 14, 2019, was made available online on May 21, 2020. The assignee for this patent application is STMicroelectronics.",
+    "serviceName": "Geographic Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Eastern Asia",
+            "code": "LB/eas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eas",
+            "relevance_score": "9",
+            "description": "Japan",
+            "code": "LC/jp#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Japan Daily\nReport -- According to news reporting originating from Washington, D.C., by\nNewsRx journalists, a patent application by the inventor Tsutsui, Ryo (Matsudo\nCity, Japan), filed on November 14, 2019, was made available online on May 21,\n2020.\n\nThe assignee for this patent application is STMicroelectronics (Tokyo, Japan).\n\nReporters obtained the following quote from the background information\nsupplied by the inventors: \"Infinite impulse response filters (IIR) filters\nare widely used for signal processing. Compared with finite impulse response\n(FIR) filters, IIR filters usually provide better frequency response at the\nsame computational cost. However, IIR filters are more precision-sensitive.\nConsequently, IIR filters can suffer from inaccuracy problems or, in some\ncases, divergence if improperly implemented. This risk is particularly true\nfor IIR filter implemented with fixed-point processors and with fixed-point\nhardware IPs.\"\n\nIn addition to obtaining background information on this patent application,\nNewsRx editors also obtained the inventor's summary information for this\npatent application: \"In accordance with an embodiment of the invention, a\nmethod of filtering includes generating a random value by a random number\ngenerator circuit, filtering a first signal by a first filter to form a\nfiltered first signal, dithering the filtered first signal using the random\nvalue to form a dithered first signal, filtering a second signal by a second\nfilter to form a filtered second signal, and dithering the filtered second\nsignal using the random value to form a dithered second signal.\n\n\"In accordance with another embodiment of the invention, an IIR filter\nincludes a plurality of lower order filter stages and a random number\ngenerator circuit. The plurality of lower order filter stages includes a first\nfilter stage coupled to a second filter stage. The random number generator\ncircuit includes a first output coupled to the first filter stage and a second\noutput coupled to the second filter stage. The random number generator circuit\nis configured to generate a random value at both the first output and the\nsecond output. The IIR filter is an nth order filter and a respective order of\neach of the lower order filter stages is less than n.\n\n\"In accordance with still another embodiment of the invention, a multichannel\nIIR filter includes a plurality of channels and a random number generator\ncircuit. The plurality of channels includes a first channel and a second\nchannel. The random number generator circuit includes a first output coupled\nto a first filter of the first channel and a second output coupled to a second\nfilter of the second channel. The random number generator circuit is\nconfigured to generate a random value at both the first output and the second\noutput.\"\n\nThe claims supplied by the inventors are:\n\n\"1\\. A method of filtering comprising: generating a random value by a random\nnumber generator circuit; filtering a first signal by a first filter to form a\nfiltered first signal; dithering the filtered first signal using the random\nvalue to form a dithered first signal; filtering a second signal by a second\nfilter to form a filtered second signal; and dithering the filtered second\nsignal using the random value to form a dithered second signal.\n\n\"2\\. The method according to claim 1, wherein the second signal is the\ndithered first signal.\n\n\"3\\. The method according to claim 1, wherein generating the random value\ncomprises: simultaneously generating the random value by the random number\ngenerator circuit at a first output of the random number generator circuit and\na second output of the random number generator circuit, the first output being\ncoupled to the first filter and the second output being coupled to the second\nfilter.\n\n\"4\\. The method according to claim 1, wherein the first signal and the second\nsignal are digital signals.\n\n\"5\\. The method according to claim 1, wherein the first signal and second\nsignal are analog signals.\n\n\"6\\. The method according to claim 1, wherein the first signal and the second\nsignal are audio signals.\n\n\"7\\. The method according to claim 1, wherein the first signal and the second\nsignal are video signals.\n\n\"8\\. An infinite impulse response (IIR) filter comprising: a plurality of\nlower order filter stages comprising a first filter stage coupled to a second\nfilter stage; and a random number generator circuit comprising a first output\ncoupled to the first filter stage and a second output coupled to the second\nfilter stage, the random number generator circuit configured to generate a\nrandom value at both the first output and the second output, wherein the IIR\nfilter is an nth order filter, and wherein a respective order of each of the\nlower order filter stages is less than n.\n\n\"9\\. The IIR filter according to claim 8, wherein each of the plurality of\nlower order filter stages comprises a biquadratic filter.\n\n\"10\\. The IIR filter according to claim 8, wherein the plurality of lower\norder filter stages comprises a plurality of filters connected in a cascade\nconfiguration.\n\n\"11\\. The IIR filter according to claim 8, wherein the plurality of lower\norder filter stages comprises a plurality of filters connected in a parallel\nconfiguration.\n\n\"12\\. The IIR filter according to claim 8, wherein the IIR filter is a fixed\npoint IIR filter.\n\n\"13\\. The IIR filter according to claim 8, wherein the plurality of lower\norder filter stages comprises a plurality of parametric equalizers.\n\n\"14\\. A multichannel infinite impulse response (IIR) filter comprising: a\nplurality of channels comprising a first channel and a second channel; and a\nrandom number generator circuit comprising a first output coupled to a first\nfilter of the first channel and a second output coupled to a second filter of\nthe second channel, the random number generator circuit configured to generate\na random value at both the first output and the second output.\n\n\"15\\. The multichannel IIR filter according to claim 14, wherein each of the\nplurality of channels comprises a plurality of lower order filter stages that\naltogether reconstruct the multichannel IIR filter.\n\n\"16\\. The multichannel IIR filter according to claim 14, wherein each of the\nplurality of channels comprises a string of biquadratic filters.\n\n\"17\\. The multichannel IIR filter according to claim 14, wherein each of the\nplurality of channels comprises a plurality of filters connected in a cascade\nconfiguration.\n\n\"18\\. The multichannel IIR filter according to claim 14, wherein each of the\nplurality of channels comprises a plurality of filters connected in a parallel\nconfiguration.\n\n\"19\\. The multichannel IIR filter according to claim 14, wherein the\nmultichannel IIR filter is a fixed point multichannel IIR filter.\n\n\"20\\. The multichannel IIR filter according to claim 14, wherein each of the\nplurality of channels is a parametric equalizer.\"\n\nFor more information, see this patent application: Tsutsui, Ryo. Infinite\nImpulse Response Filters With Dithering And Methods Of Operation Thereof.\nFiled November 14, 2019 and posted May 21, 2020. Patent URL:\n[http://appft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220200162098%22.PGNR.&OS=DN/20200162098&RS=DN/20200162098](http://appft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220200162098%22.PGNR.&OS=DN/20200162098&RS=DN/20200162098)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "STMicroelectronics"
+        ],
+        "location": [
+            "Washington, D.C.",
+            "Japan",
+            "Tokyo, Japan"
+        ],
+        "person": [],
+        "companies": [
+            "News Reporter-Staff News",
+            "STMicroelectronics"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_GEOG_8568DD3C3BC1AAAA.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "IIR",
+                "relevance": 0.821904,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Japan",
+                "relevance": 0.248793,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "MusicalGroup",
+                        "BroadcastArtist",
+                        "MusicalArtist",
+                        "RecordProducer",
+                        "Country"
+                    ],
+                    "name": "Japan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Japan"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Japan Daily",
+                "relevance": 0.208551,
+                "type": "PrintMedia"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Matsudo",
+                "relevance": 0.206843,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Matsudo, Chiba",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Matsudo,_Chiba"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.206827,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tsutsui",
+                "relevance": 0.20514,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.399575,
+                    "label": "positive"
+                },
+                "text": "Tokyo",
+                "relevance": 0.199394,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Washington",
+                "relevance": 0.197837,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.423252,
+                    "label": "positive"
+                },
+                "text": "D.C.",
+                "relevance": 0.196748,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ryo",
+                "relevance": 0.18752,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Report"
+                },
+                "sentence": " Report -- According to news reporting originating from Washington, D.C., by",
+                "object": {
+                    "text": "to news reporting originating from Washington, D.C., by"
+                },
+                "action": {
+                    "verb": {
+                        "text": "According",
+                        "tense": "present"
+                    },
+                    "text": "According",
+                    "normalized": "According"
+                }
+            },
+            {
+                "subject": {
+                    "text": "City, Japan), filed on November 14, 2019,"
+                },
+                "sentence": " City, Japan), filed on November 14, 2019, was made available online on May 21,",
+                "object": {
+                    "text": "made available online on May 21,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "City, Japan), filed on November 14, 2019,"
+                },
+                "sentence": " City, Japan), filed on November 14, 2019, was made available online on May 21,",
+                "object": {
+                    "text": "available online"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "past"
+                    },
+                    "text": "was made",
+                    "normalized": "be make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The assignee for this patent application"
+                },
+                "sentence": " The assignee for this patent application is STMicroelectronics (Tokyo, Japan).",
+                "object": {
+                    "text": "STMicroelectronics (Tokyo, Japan)"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Reporters"
+                },
+                "sentence": " Reporters obtained the following quote from the background information",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "IIR"
+                },
+                "sentence": " (FIR) filters, IIR filters usually provide better frequency response at the",
+                "action": {
+                    "verb": {
+                        "text": "filter",
+                        "tense": "present"
+                    },
+                    "text": "filters",
+                    "normalized": "filter"
+                }
+            },
+            {
+                "subject": {
+                    "text": "IIR filters"
+                },
+                "sentence": " (FIR) filters, IIR filters usually provide better frequency response at the",
+                "object": {
+                    "text": "better frequency response"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "present"
+                    },
+                    "text": "provide",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "IIR filters"
+                },
+                "sentence": " However, IIR filters are more precision-sensitive.",
+                "object": {
+                    "text": "more precision-sensitive"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "IIR filters"
+                },
+                "sentence": " Consequently, IIR filters can suffer from inaccuracy problems or, in some",
+                "object": {
+                    "text": "from inaccuracy problems"
+                },
+                "action": {
+                    "verb": {
+                        "text": "suffer",
+                        "tense": "future"
+                    },
+                    "text": "can suffer",
+                    "normalized": "can suffer"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This risk"
+                },
+                "sentence": " This risk is particularly true",
+                "object": {
+                    "text": "particularly true"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "NewsRx editors"
+                },
+                "sentence": " NewsRx editors also obtained the inventor's summary information for this",
+                "object": {
+                    "text": "the inventor's summary information for this"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "generating a random value by a random number"
+                },
+                "sentence": " method of filtering includes generating a random value by a random number",
+                "object": {
+                    "text": "method of filtering"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "signal"
+                },
+                "sentence": " signal using the random value to form a dithered second signal.",
+                "object": {
+                    "text": "the random value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "present"
+                    },
+                    "text": "using",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a first"
+                },
+                "sentence": " The plurality of lower order filter stages includes a first",
+                "object": {
+                    "text": "The plurality of lower order filter stages"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "filter stage"
+                },
+                "sentence": " filter stage coupled to a second filter stage.",
+                "object": {
+                    "text": "to a second filter stage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "couple",
+                        "tense": "past"
+                    },
+                    "text": "coupled",
+                    "normalized": "couple"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a first output coupled to the first filter stage and a second"
+                },
+                "sentence": " circuit includes a first output coupled to the first filter stage and a second",
+                "object": {
+                    "text": "circuit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a first output"
+                },
+                "sentence": " circuit includes a first output coupled to the first filter stage and a second",
+                "object": {
+                    "text": "to the first filter stage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "couple",
+                        "tense": "past"
+                    },
+                    "text": "coupled",
+                    "normalized": "couple"
+                }
+            },
+            {
+                "subject": {
+                    "text": "output"
+                },
+                "sentence": " output coupled to the second filter stage.",
+                "object": {
+                    "text": "to the second filter stage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "couple",
+                        "tense": "past"
+                    },
+                    "text": "coupled",
+                    "normalized": "couple"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a random value"
+                },
+                "sentence": " is configured to generate a random value at both the first output and the",
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "future"
+                    },
+                    "text": "is configured to generate",
+                    "normalized": "be configure to generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The IIR filter"
+                },
+                "sentence": " The IIR filter is an nth order filter and a respective order of",
+                "object": {
+                    "text": "an nth order filter"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "each of the lower order filter stages"
+                },
+                "sentence": " each of the lower order filter stages is less than n.",
+                "object": {
+                    "text": "less than n"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a plurality of channels and a random number generator"
+                },
+                "sentence": " IIR filter includes a plurality of channels and a random number generator",
+                "object": {
+                    "text": "IIR filter"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a first channel"
+                },
+                "sentence": " circuit. The plurality of channels includes a first channel and a second",
+                "object": {
+                    "text": "circuit. The plurality of channels"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a first output coupled"
+                },
+                "sentence": " channel. The random number generator circuit includes a first output coupled",
+                "object": {
+                    "text": "channel. The random number generator circuit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a second output"
+                },
+                "sentence": " to a first filter of the first channel and a second output coupled to a second",
+                "object": {
+                    "text": "to a second"
+                },
+                "action": {
+                    "verb": {
+                        "text": "couple",
+                        "tense": "past"
+                    },
+                    "text": "coupled",
+                    "normalized": "couple"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a random value"
+                },
+                "sentence": " configured to generate a random value at both the first output and the second",
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "future"
+                    },
+                    "text": "configured to generate",
+                    "normalized": "configure to generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the inventors"
+                },
+                "sentence": " The claims supplied by the inventors are:",
+                "object": {
+                    "text": "The claims"
+                },
+                "action": {
+                    "verb": {
+                        "text": "supply",
+                        "tense": "past"
+                    },
+                    "text": "supplied",
+                    "normalized": "supply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "signal"
+                },
+                "sentence": " signal using the random value to form a dithered second signal.",
+                "object": {
+                    "text": "the random value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "present"
+                    },
+                    "text": "using",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "2\\. The method"
+                },
+                "sentence": " \"2\\. The method according to claim 1, wherein the second signal is the",
+                "object": {
+                    "text": "to claim 1, wherein the second signal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "3\\. The method"
+                },
+                "sentence": " \"3\\. The method according to claim 1, wherein generating the random value",
+                "object": {
+                    "text": "to claim 1, wherein generating the random value"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the random value"
+                },
+                "sentence": " comprises: simultaneously generating the random value by the random number",
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "present"
+                    },
+                    "text": "generating",
+                    "normalized": "generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the second output"
+                },
+                "sentence": " coupled to the first filter and the second output being coupled to the second",
+                "object": {
+                    "text": "to the second"
+                },
+                "action": {
+                    "verb": {
+                        "text": "couple",
+                        "tense": "past"
+                    },
+                    "text": "being coupled",
+                    "normalized": "be couple"
+                }
+            },
+            {
+                "subject": {
+                    "text": "4\\. The method"
+                },
+                "sentence": " \"4\\. The method according to claim 1, wherein the first signal and the second",
+                "object": {
+                    "text": "to claim 1, wherein the first signal and the second"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "5\\. The method"
+                },
+                "sentence": " \"5\\. The method according to claim 1, wherein the first signal and second",
+                "object": {
+                    "text": "to claim 1, wherein the first signal and second"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "6\\. The method"
+                },
+                "sentence": " \"6\\. The method according to claim 1, wherein the first signal and the second",
+                "object": {
+                    "text": "to claim 1, wherein the first signal and the second"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "7\\. The method"
+                },
+                "sentence": " \"7\\. The method according to claim 1, wherein the first signal and the second",
+                "object": {
+                    "text": "to claim 1, wherein the first signal and the second"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a first filter stage"
+                },
+                "sentence": " lower order filter stages comprising a first filter stage coupled to a second",
+                "object": {
+                    "text": "to a second"
+                },
+                "action": {
+                    "verb": {
+                        "text": "couple",
+                        "tense": "past"
+                    },
+                    "text": "coupled",
+                    "normalized": "couple"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a random number generator circuit"
+                },
+                "sentence": " filter stage; and a random number generator circuit comprising a first output",
+                "object": {
+                    "text": "a first output"
+                },
+                "action": {
+                    "verb": {
+                        "text": "comprise",
+                        "tense": "present"
+                    },
+                    "text": "comprising",
+                    "normalized": "comprise"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a second output"
+                },
+                "sentence": " coupled to the first filter stage and a second output coupled to the second",
+                "object": {
+                    "text": "to the second"
+                },
+                "action": {
+                    "verb": {
+                        "text": "couple",
+                        "tense": "past"
+                    },
+                    "text": "coupled",
+                    "normalized": "couple"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the random number generator circuit"
+                },
+                "sentence": " filter stage, the random number generator circuit configured to generate a",
+                "object": {
+                    "text": "a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "generate",
+                        "tense": "future"
+                    },
+                    "text": "configured to generate",
+                    "normalized": "configure to generate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "filter"
+                },
+                "sentence": " filter is an nth order filter, and wherein a respective order of each of the",
+                "object": {
+                    "text": "an nth order filter"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "lower order filter stages"
+                },
+                "sentence": " lower order filter stages is less than n.",
+                "object": {
+                    "text": "less than n"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "9\\. The IIR filter"
+                },
+                "sentence": " \"9\\. The IIR filter according to claim 8, wherein each of the plurality of",
+                "object": {
+                    "text": "to claim 8, wherein each of the plurality of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "10\\. The IIR filter"
+                },
+                "sentence": " \"10\\. The IIR filter according to claim 8, wherein the plurality of lower",
+                "object": {
+                    "text": "to claim 8, wherein the plurality of lower"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "order filter stages"
+                },
+                "sentence": " order filter stages comprises a plurality of filters connected in a cascade",
+                "object": {
+                    "text": "a plurality of filters connected in a cascade"
+                },
+                "action": {
+                    "verb": {
+                        "text": "comprise",
+                        "tense": "present"
+                    },
+                    "text": "comprises",
+                    "normalized": "comprise"
+                }
+            },
+            {
+                "subject": {
+                    "text": "filters"
+                },
+                "sentence": " order filter stages comprises a plurality of filters connected in a cascade",
+                "action": {
+                    "verb": {
+                        "text": "connect",
+                        "tense": "past"
+                    },
+                    "text": "connected",
+                    "normalized": "connect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "11\\. The IIR filter"
+                },
+                "sentence": " \"11\\. The IIR filter according to claim 8, wherein the plurality of lower",
+                "object": {
+                    "text": "to claim 8, wherein the plurality of lower"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "order filter stages"
+                },
+                "sentence": " order filter stages comprises a plurality of filters connected in a parallel",
+                "object": {
+                    "text": "a plurality of filters connected in a parallel"
+                },
+                "action": {
+                    "verb": {
+                        "text": "comprise",
+                        "tense": "present"
+                    },
+                    "text": "comprises",
+                    "normalized": "comprise"
+                }
+            },
+            {
+                "subject": {
+                    "text": "filters"
+                },
+                "sentence": " order filter stages comprises a plurality of filters connected in a parallel",
+                "action": {
+                    "verb": {
+                        "text": "connect",
+                        "tense": "past"
+                    },
+                    "text": "connected",
+                    "normalized": "connect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "12\\. The IIR filter"
+                },
+                "sentence": " \"12\\. The IIR filter according to claim 8, wherein the IIR filter is a fixed",
+                "object": {
+                    "text": "to claim 8, wherein the IIR filter is a fixed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.805706,
+                "label": "/technology and computing/consumer electronics/audio equipment/speakers"
+            },
+            {
+                "score": 0.766881,
+                "label": "/technology and computing/hardware/computer components"
+            },
+            {
+                "score": 0.708632,
+                "label": "/technology and computing/consumer electronics/audio equipment/stereo systems and components"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Japan Daily Report -- According to news reporting originating from Washington, D.C., by NewsRx journalists, a patent application by the inventor Tsutsui, Ryo (Matsudo City, Japan), filed on November 14, 2019, was made available online on May 21, 2020.",
+                "score": 0.499015,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Japan Daily Report -- According to news reporting originating from Washington, D.C., by NewsRx journalists, a patent application by the inventor Tsutsui, Ryo (Matsudo City, Japan), filed on November 14, 2019, was made available online on May 21, 2020.",
+                "score": 0.783041,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Japan Daily\nReport",
+                        "location": [
+                            64,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Japan Daily\nReport",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Japan Daily Report -- According to news reporting originating from Washington, D.C., by NewsRx journalists, a patent application by the inventor Tsutsui, Ryo (Matsudo City, Japan), filed on November 14, 2019, was made available online on May 21, 2020.",
+                "score": 0.98353,
+                "arguments": [
+                    {
+                        "text": "Washington",
+                        "location": [
+                            131,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Washington"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "D.C.",
+                        "location": [
+                            143,
+                            147
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "D.C."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Japan Daily Report -- According to news reporting originating from Washington, D.C., by NewsRx journalists, a patent application by the inventor Tsutsui, Ryo (Matsudo City, Japan), filed on November 14, 2019, was made available online on May 21, 2020.",
+                "score": 0.821968,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            159,
+                            170
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            152,
+                            158
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "playsRoleOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Japan Daily Report -- According to news reporting originating from Washington, D.C., by NewsRx journalists, a patent application by the inventor Tsutsui, Ryo (Matsudo City, Japan), filed on November 14, 2019, was made available online on May 21, 2020.",
+                "score": 0.272926,
+                "arguments": [
+                    {
+                        "text": "Matsudo\nCity",
+                        "location": [
+                            223,
+                            235
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Matsudo\nCity"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Ryo",
+                        "location": [
+                            218,
+                            221
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Ryo"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The assignee for this patent application is STMicroelectronics (Tokyo, Japan).",
+                "score": 0.977507,
+                "arguments": [
+                    {
+                        "text": "Tokyo",
+                        "location": [
+                            381,
+                            386
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Tokyo"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Japan",
+                        "location": [
+                            388,
+                            393
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Japan",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Reporters obtained the following quote from the background information supplied by the inventors: \"Infinite impulse response filters (IIR) filters are widely used for signal processing.",
+                "score": 0.668324,
+                "arguments": [
+                    {
+                        "text": "Reporters",
+                        "location": [
+                            397,
+                            406
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporters"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "quote",
+                        "location": [
+                            430,
+                            435
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "quote"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "In addition to obtaining background information on this patent application, NewsRx editors also obtained the inventor's summary information for this patent application: \"In accordance with an embodiment of the invention, a method of filtering includes generating a random value by a random number generator circuit, filtering a first signal by a first filter to form a filtered first signal, dithering the filtered first signal using the random value to form a dithered first signal, filtering a second signal by a second filter to form a filtered second signal, and dithering the filtered second signal using the random value to form a dithered second signal.",
+                "score": 0.88706,
+                "arguments": [
+                    {
+                        "text": "editors",
+                        "location": [
+                            1098,
+                            1105
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "editors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            1091,
+                            1097
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The IIR filter according to claim 8, wherein each of the plurality of lower order filter stages comprises a biquadratic filter.",
+                "score": 0.729779,
+                "arguments": [
+                    {
+                        "text": "IIR filter",
+                        "location": [
+                            4863,
+                            4873
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "IIR filter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            4887,
+                            4892
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Infinite impulse response filters",
+                "relevance": 0.899256,
+                "count": 1
+            },
+            {
+                "text": "IIR filters",
+                "relevance": 0.694358,
+                "count": 3
+            },
+            {
+                "text": "plurality of lower order filter stages",
+                "relevance": 0.680405,
+                "count": 3
+            },
+            {
+                "text": "patent application",
+                "relevance": 0.651733,
+                "count": 5
+            },
+            {
+                "text": "signal processing",
+                "relevance": 0.650185,
+                "count": 1
+            },
+            {
+                "text": "multichannel infinite impulse response",
+                "relevance": 0.639204,
+                "count": 1
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.636172,
+                "count": 1
+            },
+            {
+                "text": "first signal",
+                "relevance": 0.635512,
+                "count": 12
+            },
+            {
+                "text": "random value",
+                "relevance": 0.603842,
+                "count": 10
+            },
+            {
+                "text": "IIR filter",
+                "relevance": 0.599592,
+                "count": 9
+            },
+            {
+                "text": "random number generator circuit",
+                "relevance": 0.594845,
+                "count": 7
+            },
+            {
+                "text": "fixed point",
+                "relevance": 0.575465,
+                "count": 1
+            },
+            {
+                "text": "background information",
+                "relevance": 0.571418,
+                "count": 2
+            },
+            {
+                "text": "finite impulse response",
+                "relevance": 0.571038,
+                "count": 1
+            },
+            {
+                "text": "first filter",
+                "relevance": 0.562047,
+                "count": 3
+            },
+            {
+                "text": "plurality of channels",
+                "relevance": 0.561604,
+                "count": 8
+            },
+            {
+                "text": "IIR",
+                "relevance": 0.558158,
+                "count": 3
+            },
+            {
+                "text": "filters",
+                "relevance": 0.557368,
+                "count": 2
+            },
+            {
+                "text": "multichannel IIR filter",
+                "relevance": 0.546966,
+                "count": 9
+            },
+            {
+                "text": "second signal",
+                "relevance": 0.545302,
+                "count": 7
+            },
+            {
+                "text": "JUN",
+                "relevance": 0.536966,
+                "count": 1
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.536279,
+                "count": 1
+            },
+            {
+                "text": "NewsRx journalists",
+                "relevance": 0.535053,
+                "count": 1
+            },
+            {
+                "text": "reports",
+                "relevance": 0.532486,
+                "count": 1
+            },
+            {
+                "text": "first output",
+                "relevance": 0.53208,
+                "count": 8
+            },
+            {
+                "text": "claims",
+                "relevance": 0.52635,
+                "count": 1
+            },
+            {
+                "text": "second channel",
+                "relevance": 0.52265,
+                "count": 3
+            },
+            {
+                "text": "computational cost",
+                "relevance": 0.522025,
+                "count": 1
+            },
+            {
+                "text": "inventor Tsutsui",
+                "relevance": 0.521178,
+                "count": 1
+            },
+            {
+                "text": "embodiment of the invention",
+                "relevance": 0.519348,
+                "count": 3
+            },
+            {
+                "text": "method",
+                "relevance": 0.518248,
+                "count": 8
+            },
+            {
+                "text": "Parser",
+                "relevance": 0.51808,
+                "count": 2
+            },
+            {
+                "text": "point processors",
+                "relevance": 0.517883,
+                "count": 1
+            },
+            {
+                "text": "accordance",
+                "relevance": 0.516682,
+                "count": 3
+            },
+            {
+                "text": "digital signals",
+                "relevance": 0.516637,
+                "count": 1
+            },
+            {
+                "text": "analog signals",
+                "relevance": 0.516212,
+                "count": 1
+            },
+            {
+                "text": "audio signals",
+                "relevance": 0.51589,
+                "count": 1
+            },
+            {
+                "text": "nth order filter",
+                "relevance": 0.513226,
+                "count": 2
+            },
+            {
+                "text": "second filter stage",
+                "relevance": 0.512006,
+                "count": 2
+            },
+            {
+                "text": "addition",
+                "relevance": 0.510058,
+                "count": 1
+            },
+            {
+                "text": "news",
+                "relevance": 0.50939,
+                "count": 1
+            },
+            {
+                "text": "Japan",
+                "relevance": 0.509059,
+                "count": 2
+            },
+            {
+                "text": "Reporters",
+                "relevance": 0.508462,
+                "count": 1
+            },
+            {
+                "text": "infinite impulse response",
+                "relevance": 0.508292,
+                "count": 1
+            },
+            {
+                "text": "first filter stage",
+                "relevance": 0.508056,
+                "count": 3
+            },
+            {
+                "text": "fact",
+                "relevance": 0.507339,
+                "count": 1
+            },
+            {
+                "text": "NewsRx editors",
+                "relevance": 0.507057,
+                "count": 1
+            },
+            {
+                "text": "cases",
+                "relevance": 0.507053,
+                "count": 1
+            },
+            {
+                "text": "inventors",
+                "relevance": 0.50687,
+                "count": 2
+            },
+            {
+                "text": "s1",
+                "relevance": 0.506492,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "e7ad880d72dcccb690c5551b7e77e50917f7b459",
+        "filename": "202006050000NEWSRX__VRT_GEOG_8568DD3C3BC1AAAA.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NYSE|STM|CUSIP:861012102;ISIN:US8610121027|STMicroelectronics N.V.|extractor|DUNS:411189202;NECOID:25163;ACORN:3843325570|SIGNIFICANT|ADRTICKER=NYSE:STM||ADR|XNYS|SYNONYM",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Patent Application Titled \u201cInfinite Impulse Response Filters With Dithering And Methods Of Operation Thereof\u201d Published Online (USPTO 20200162098): STMicroelectronics",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at Japan Daily Report -- According to news reporting originating from <location idsrc=\"xmltag.org\" value=\"LU/us.dc.wash\">Washington, D.C.</location>, by NewsRx journalists, a patent application by the inventor Tsutsui, Ryo (Matsudo City, <location idsrc=\"xmltag.org\" value=\"LC/jp\">Japan</location>), filed on <chron>November 14, 2019</chron>, was made available online on <chron>May 21, 2020</chron>.</p>\n<p>The assignee for this patent application is <org idsrc=\"xmltag.org\" value=\"EuronextAmsterdam:STMA\">STMicroelectronics</org> (<location idsrc=\"xmltag.org\" value=\"LU/jp..tokyo\">Tokyo, Japan</location>).</p>\n<p>Reporters obtained the following quote from the background information supplied by the inventors: &#8220;Infinite impulse response filters (IIR) filters are widely used for signal processing. Compared with finite impulse response (FIR) filters, IIR filters usually provide better frequency response at the same computational cost. However, IIR filters are more precision-sensitive. Consequently, IIR filters can suffer from inaccuracy problems or, in some cases, divergence if improperly implemented. This risk is particularly true for IIR filter implemented with fixed-point processors and with fixed-point hardware IPs.&#8221;</p>\n<p>In addition to obtaining background information on this patent application, NewsRx editors also obtained the inventor&#8217;s summary information for this patent application: &#8220;In accordance with an embodiment of the invention, a method of filtering includes generating a random value by a random number generator circuit, filtering a first signal by a first filter to form a filtered first signal, dithering the filtered first signal using the random value to form a dithered first signal, filtering a second signal by a second filter to form a filtered second signal, and dithering the filtered second signal using the random value to form a dithered second signal.</p>\n<p>&#8220;In accordance with another embodiment of the invention, an IIR filter includes a plurality of lower order filter stages and a random number generator circuit. The plurality of lower order filter stages includes a first filter stage coupled to a second filter stage. The random number generator circuit includes a first output coupled to the first filter stage and a second output coupled to the second filter stage. The random number generator circuit is configured to generate a random value at both the first output and the second output. The IIR filter is an nth order filter and a respective order of each of the lower order filter stages is less than n.</p>\n<p>&#8220;In accordance with still another embodiment of the invention, a multichannel IIR filter includes a plurality of channels and a random number generator circuit. The plurality of channels includes a first channel and a second channel. The random number generator circuit includes a first output coupled to a first filter of the first channel and a second output coupled to a second filter of the second channel. The random number generator circuit is configured to generate a random value at both the first output and the second output.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;1. A method of filtering comprising: generating a random value by a random number generator circuit; filtering a first signal by a first filter to form a filtered first signal; dithering the filtered first signal using the random value to form a dithered first signal; filtering a second signal by a second filter to form a filtered second signal; and dithering the filtered second signal using the random value to form a dithered second signal.</p>\n<p>&#8220;2. The method according to claim 1, wherein the second signal is the dithered first signal.</p>\n<p>&#8220;3. The method according to claim 1, wherein generating the random value comprises: simultaneously generating the random value by the random number generator circuit at a first output of the random number generator circuit and a second output of the random number generator circuit, the first output being coupled to the first filter and the second output being coupled to the second filter.</p>\n<p>&#8220;4. The method according to claim 1, wherein the first signal and the second signal are digital signals.</p>\n<p>&#8220;5. The method according to claim 1, wherein the first signal and second signal are analog signals.</p>\n<p>&#8220;6. The method according to claim 1, wherein the first signal and the second signal are audio signals.</p>\n<p>&#8220;7. The method according to claim 1, wherein the first signal and the second signal are video signals.</p>\n<p>&#8220;8. An infinite impulse response (IIR) filter comprising: a plurality of lower order filter stages comprising a first filter stage coupled to a second filter stage; and a random number generator circuit comprising a first output coupled to the first filter stage and a second output coupled to the second filter stage, the random number generator circuit configured to generate a random value at both the first output and the second output, wherein the IIR filter is an nth order filter, and wherein a respective order of each of the lower order filter stages is less than n.</p>\n<p>&#8220;9. The IIR filter according to claim 8, wherein each of the plurality of lower order filter stages comprises a biquadratic filter.</p>\n<p>&#8220;10. The IIR filter according to claim 8, wherein the plurality of lower order filter stages comprises a plurality of filters connected in a cascade configuration.</p>\n<p>&#8220;11. The IIR filter according to claim 8, wherein the plurality of lower order filter stages comprises a plurality of filters connected in a parallel configuration.</p>\n<p>&#8220;12. The IIR filter according to claim 8, wherein the IIR filter is a fixed point IIR filter.</p>\n<p>&#8220;13. The IIR filter according to claim 8, wherein the plurality of lower order filter stages comprises a plurality of parametric equalizers.</p>\n<p>&#8220;14. A multichannel infinite impulse response (IIR) filter comprising: a plurality of channels comprising a first channel and a second channel; and a random number generator circuit comprising a first output coupled to a first filter of the first channel and a second output coupled to a second filter of the second channel, the random number generator circuit configured to generate a random value at both the first output and the second output.</p>\n<p>&#8220;15. The multichannel IIR filter according to claim 14, wherein each of the plurality of channels comprises a plurality of lower order filter stages that altogether reconstruct the multichannel IIR filter.</p>\n<p>&#8220;16. The multichannel IIR filter according to claim 14, wherein each of the plurality of channels comprises a string of biquadratic filters.</p>\n<p>&#8220;17. The multichannel IIR filter according to claim 14, wherein each of the plurality of channels comprises a plurality of filters connected in a cascade configuration.</p>\n<p>&#8220;18. The multichannel IIR filter according to claim 14, wherein each of the plurality of channels comprises a plurality of filters connected in a parallel configuration.</p>\n<p>&#8220;19. The multichannel IIR filter according to claim 14, wherein the multichannel IIR filter is a fixed point multichannel IIR filter.</p>\n<p>&#8220;20. The multichannel IIR filter according to claim 14, wherein each of the plurality of channels is a parametric equalizer.&#8221;</p>\n<p>For more information, see this patent application: Tsutsui, Ryo. Infinite Impulse Response Filters With Dithering And Methods Of Operation Thereof. Filed <chron>November 14, 2019</chron> and posted <chron>May 21, 2020</chron>. Patent URL: <a href=\"http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PG01&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.html&amp;r=1&amp;f=G&amp;l=50&amp;s1=%2220200162098%22.PGNR.&amp;OS=DN/20200162098&amp;RS=DN/20200162098\" target=\"_blank\">http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PG01&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.html&amp;r=1&amp;f=G&amp;l=50&amp;s1=%2220200162098%22.PGNR.&amp;OS=DN/20200162098&amp;RS=DN/20200162098</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GC/jp",
+            "Japan"
+        ]
+    ]
+}

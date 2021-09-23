@@ -1,0 +1,642 @@
+{
+    "id": "c640f972-fc47-47ca-a8c6-956efb3f818a",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Lake Saint Louis, Missouri",
+    "sourceType": "Broadcast Transcript",
+    "source": "KTVI-TV (St. Louis, MO)",
+    "corpus_document_id": "83385940880587257495",
+    "description": "ODESSA, Texas A prayer vigil for George Floyd's family in Odessa hosted by the Black Chamber of Commerce. Many showed up to lend their support including Odessa Police. Odessa Police Chief Mike Gerke spoke stating he believes there is strong unity in the Odessa community.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "ODESSA, Texas (Big 2/Fox 24) \u0096 A prayer vigil for George Floyd's family in\nOdessa hosted by the Black Chamber of Commerce.\n\nMany showed up to lend their support including Odessa Police.\n\nOdessa Police Chief Mike Gerke spoke stating he believes there is strong unity\nin the Odessa community.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Government and Nonprofits",
+            "code": "II/gov#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "II/gov",
+            "relevance_score": "9",
+            "description": "Government Services",
+            "code": "II/gov.govserve#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "II/gov.pubsafe",
+            "relevance_score": "9",
+            "description": "Police Services",
+            "code": "II/gov.police#9#99#50",
+            "level": 3
+        },
+        {
+            "parent": "II/gov.govserve",
+            "relevance_score": "9",
+            "description": "Public Safety Services",
+            "code": "II/gov.pubsafe#9#50#99",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Black Chamber of Commerce",
+            "Odessa Police"
+        ],
+        "location": [
+            "ODESSA, Texas",
+            "Odessa"
+        ],
+        "person": [
+            "George Floyd's",
+            "Mike Gerke"
+        ],
+        "companies": [
+            "Odessa Police",
+            "Black Chamber of Commerce"
+        ]
+    },
+    "geoOrigin_code": "RU/us.mo.lakuis",
+    "language": "English",
+    "filename": "202005300000NEWSBANKNEWSPPRS279D0374F37ED934EBFB76B76F2D2B3.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Odessa Police",
+                "relevance": 0.945425,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "ODESSA",
+                "relevance": 0.93819,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AwardWinner",
+                        "City"
+                    ],
+                    "name": "Odessa",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Odessa"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mike Gerke",
+                "relevance": 0.333562,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Black Chamber of Commerce",
+                "relevance": 0.281772,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "George Floyd",
+                "relevance": 0.251009,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "FootballPlayer"
+                    ],
+                    "name": "George Floyd",
+                    "dbpedia_resource": "http://dbpedia.org/resource/George_Floyd"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.369138,
+                    "label": "positive"
+                },
+                "text": "Texas",
+                "relevance": 0.160407,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Texas",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Texas"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "by the Black Chamber of Commerce"
+                },
+                "sentence": " Odessa hosted by the Black Chamber of Commerce.",
+                "object": {
+                    "text": "Odessa"
+                },
+                "action": {
+                    "verb": {
+                        "text": "host",
+                        "tense": "past"
+                    },
+                    "text": "hosted",
+                    "normalized": "host"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Many"
+                },
+                "sentence": " Many showed up to lend their support including Odessa Police.",
+                "object": {
+                    "text": "to lend their support including Odessa Police"
+                },
+                "action": {
+                    "verb": {
+                        "text": "show",
+                        "tense": "past"
+                    },
+                    "text": "showed",
+                    "normalized": "show"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Many"
+                },
+                "sentence": " Many showed up to lend their support including Odessa Police.",
+                "object": {
+                    "text": "their support including Odessa Police"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lend",
+                        "tense": "future"
+                    },
+                    "text": "to lend",
+                    "normalized": "to lend"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Odessa Police"
+                },
+                "sentence": " Many showed up to lend their support including Odessa Police.",
+                "object": {
+                    "text": "their support"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Odessa Police Chief Mike Gerke"
+                },
+                "sentence": " Odessa Police Chief Mike Gerke spoke stating he believes there is strong unity",
+                "object": {
+                    "text": "stating he believes there is strong unity"
+                },
+                "action": {
+                    "verb": {
+                        "text": "speak",
+                        "tense": "past"
+                    },
+                    "text": "spoke",
+                    "normalized": "speak"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.697472,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.626498,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.597489,
+                "label": "/religion and spirituality/judaism"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "ODESSA, Texas (Big 2/Fox 24) \u0096 A prayer vigil for George Floyd's family in Odessa hosted by the Black Chamber of Commerce.",
+                "score": 0.940434,
+                "arguments": [
+                    {
+                        "text": "ODESSA",
+                        "location": [
+                            0,
+                            6
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "ODESSA"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Texas",
+                        "location": [
+                            8,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Texas"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "ODESSA, Texas (Big 2/Fox 24) \u0096 A prayer vigil for George Floyd's family in Odessa hosted by the Black Chamber of Commerce.",
+                "score": 0.584825,
+                "arguments": [
+                    {
+                        "text": "George Floyd",
+                        "location": [
+                            50,
+                            62
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "George Floyd"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "family",
+                        "location": [
+                            65,
+                            71
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "family"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Many showed up to lend their support including Odessa Police.",
+                "score": 0.997544,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            178,
+                            184
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Odessa",
+                        "location": [
+                            171,
+                            177
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Odessa"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Odessa Police Chief Mike Gerke spoke stating he believes there is strong unity in the Odessa community.",
+                "score": 0.998081,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            194,
+                            200
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Odessa",
+                        "location": [
+                            187,
+                            193
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Odessa"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Odessa Police Chief Mike Gerke spoke stating he believes there is strong unity in the Odessa community.",
+                "score": 0.473802,
+                "arguments": [
+                    {
+                        "text": "Chief",
+                        "location": [
+                            201,
+                            206
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mike Gerke"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Police",
+                        "location": [
+                            194,
+                            200
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Odessa Police Chief Mike Gerke spoke stating he believes there is strong unity in the Odessa community.",
+                "score": 0.993239,
+                "arguments": [
+                    {
+                        "text": "Mike Gerke",
+                        "location": [
+                            207,
+                            217
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mike Gerke"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "spoke",
+                        "location": [
+                            218,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "spoke"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Odessa Police Chief Mike Gerke spoke stating he believes there is strong unity in the Odessa community.",
+                "score": 0.844804,
+                "arguments": [
+                    {
+                        "text": "stating",
+                        "location": [
+                            224,
+                            231
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "stating"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "spoke",
+                        "location": [
+                            218,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "spoke"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Odessa Police Chief Mike Gerke spoke stating he believes there is strong unity in the Odessa community.",
+                "score": 0.485938,
+                "arguments": [
+                    {
+                        "text": "community",
+                        "location": [
+                            280,
+                            289
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "community"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Odessa",
+                        "location": [
+                            273,
+                            279
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "ODESSA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Odessa Police Chief Mike Gerke",
+                "relevance": 0.74682,
+                "count": 1
+            },
+            {
+                "text": "Odessa Police",
+                "relevance": 0.741124,
+                "count": 1
+            },
+            {
+                "text": "ODESSA",
+                "relevance": 0.696458,
+                "count": 2
+            },
+            {
+                "text": "support",
+                "relevance": 0.581397,
+                "count": 1
+            },
+            {
+                "text": "Fox",
+                "relevance": 0.532697,
+                "count": 1
+            },
+            {
+                "text": "Odessa community",
+                "relevance": 0.526963,
+                "count": 1
+            },
+            {
+                "text": "prayer vigil",
+                "relevance": 0.498985,
+                "count": 1
+            },
+            {
+                "text": "Black Chamber of Commerce",
+                "relevance": 0.45897,
+                "count": 1
+            },
+            {
+                "text": "George Floyd's family",
+                "relevance": 0.454951,
+                "count": 1
+            },
+            {
+                "text": "strong unity",
+                "relevance": 0.416168,
+                "count": 1
+            },
+            {
+                "text": "Texas",
+                "relevance": 0.366806,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "ccbcfff5722b1f7d447073f6d641b83d7108705d",
+        "filename": "202005300000NEWSBANKNEWSPPRS279D0374F37ED934EBFB76B76F2D2B3.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-30T00:00:00-04:00",
+    "title": "Prayer Vigil for George Floyd's family",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.tx.odessa\">ODESSA, Texas</location> (Big 2/Fox 24) &#150; A prayer vigil for <person>George Floyd's</person> family in <location idsrc=\"xmltag.org\" value=\"LU/us.tx.odessa\">Odessa</location> hosted by the <org>Black Chamber of Commerce</org>.</p>\n<p>Many showed up to lend their support including <org>Odessa Police</org>.</p>\n\n<p><org>Odessa Police</org> Chief <person>Mike Gerke</person> spoke stating he believes there is strong unity in the <location idsrc=\"xmltag.org\" value=\"LU/us.tx.odessa\">Odessa</location> community.</p>",
+    "geoFocus": [
+        [
+            "GU/us.mo.lakuis",
+            "Lake Saint Louis"
+        ]
+    ]
+}

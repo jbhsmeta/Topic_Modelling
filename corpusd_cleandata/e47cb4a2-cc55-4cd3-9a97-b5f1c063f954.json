@@ -1,0 +1,897 @@
+{
+    "id": "e47cb4a2-cc55-4cd3-9a97-b5f1c063f954",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright Newsquest (Herald & Times) Ltd Jun 8, 2020",
+    "geoOrigin": "Glasgow, Scotland, United Kingdom",
+    "sourceType": "Newspaper",
+    "source": "Evening Times (Glasgow, Scotland)",
+    "corpus_document_id": "60668093906627766041",
+    "description": "Emergency services were called to Cairntoul Place around 4.50 pm on Saturday. The 21- year-old man is believed to have only suffered minor injuries but was taken to Queen Elizabeth University Hospital for treatment. A Police Scotland spokesperson said:\u201c We received a report of a disturbance on Cairntoul Place, Glasgow.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Northern Europe",
+            "code": "LB/neur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/neur",
+            "relevance_score": "9",
+            "description": "United Kingdom",
+            "code": "LC/gb#9#50#90",
+            "level": 2
+        },
+        {
+            "code": "LC/uk#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Health and Wellness",
+            "code": "IS/haw#6#50#61",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "6",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#6#50#61",
+            "level": 1
+        },
+        {
+            "parent": "IS/haw.disease",
+            "relevance_score": "6",
+            "description": "Injuries",
+            "code": "IS/haw.injury#6#61#50",
+            "level": 2
+        }
+    ],
+    "text": "A MAN was taken to hospital after a \"massive brawl\" in the Knightswood area of\nGlasgow.\n\nEmergency services were called to Cairntoul Place around 4.50pm on Saturday.\n\nEyewitnesses reported seeing a large group of people \"armed with sticks\".\n\nA large area was cordoned off throughout the afternoon.\n\nThe 21-year-old man is believed to have only suffered minor injuries but was\ntaken to Queen Elizabeth University Hospital for treatment.\n\nPolice Scotland said an investigation is ongoing.\n\nA Police Scotland spokesperson said: \"We received a report of a disturbance on\nCairntoul Place, Glasgow.\n\n\"A 21-year-old man has been taken to Queen Elizabeth University Hospital with\nwhat appears to be minor injuries. Enquiries are ongoing.\"\n\nCREDIT: Caroline Wilson",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Queen Elizabeth University Hospital"
+        ],
+        "location": [
+            "Glasgow",
+            "Cairntoul Place",
+            "Scotland"
+        ],
+        "person": [
+            "<p>CREDIT: <person>Caroline Wilson"
+        ],
+        "companies": [
+            "Queen Elizabeth University Hospital"
+        ]
+    },
+    "geoOrigin_code": "RU/gb.sco.glasgw",
+    "language": "English",
+    "filename": "202006080000PROQUESTNEWPAPER_2410040039.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.367206,
+                    "label": "negative"
+                },
+                "text": "Queen Elizabeth University Hospital for treatment",
+                "relevance": 0.953863,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.633105,
+                    "label": "negative"
+                },
+                "text": "Queen Elizabeth University Hospital",
+                "relevance": 0.867418,
+                "type": "Facility"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Cairntoul Place",
+                "relevance": 0.688431,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Glasgow",
+                "relevance": 0.68187,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "ScottishCouncilArea",
+                        "City"
+                    ],
+                    "name": "Glasgow",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Glasgow"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Scotland",
+                "relevance": 0.612929,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Caroline Wilson",
+                "relevance": 0.512263,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "BroadcastArtist",
+                        "TVActor"
+                    ],
+                    "name": "Caroline Wilson",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Caroline_Wilson"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Knightswood",
+                "relevance": 0.508133,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "21-year",
+                "relevance": 0.387826,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Emergency services"
+                },
+                "sentence": " Emergency services were called to Cairntoul Place around 4.50pm on Saturday.",
+                "object": {
+                    "text": "called to Cairntoul Place around 4.50pm on Saturday"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Emergency services"
+                },
+                "sentence": " Emergency services were called to Cairntoul Place around 4.50pm on Saturday.",
+                "object": {
+                    "text": "to Cairntoul Place around 4.50pm on Saturday"
+                },
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "past"
+                    },
+                    "text": "were called",
+                    "normalized": "be call"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Eyewitnesses"
+                },
+                "sentence": " Eyewitnesses reported seeing a large group of people \"armed with sticks\".",
+                "object": {
+                    "text": "seeing a large group of people \"armed with sticks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "past"
+                    },
+                    "text": "reported",
+                    "normalized": "report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Eyewitnesses"
+                },
+                "sentence": " Eyewitnesses reported seeing a large group of people \"armed with sticks\".",
+                "object": {
+                    "text": "a large group of people \"armed with sticks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "present"
+                    },
+                    "text": "reported seeing",
+                    "normalized": "report see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A large area"
+                },
+                "sentence": " A large area was cordoned off throughout the afternoon.",
+                "action": {
+                    "verb": {
+                        "text": "cordoned",
+                        "tense": "past"
+                    },
+                    "text": "was cordoned",
+                    "normalized": "be cordoned"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The 21-year-old man"
+                },
+                "sentence": " The 21-year-old man is believed to have only suffered minor injuries but was",
+                "object": {
+                    "text": "only suffered minor injuries"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "future"
+                    },
+                    "text": "is believed to have",
+                    "normalized": "be believe to have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Police Scotland"
+                },
+                "sentence": " Police Scotland said an investigation is ongoing.",
+                "object": {
+                    "text": "an investigation is ongoing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A Police Scotland spokesperson"
+                },
+                "sentence": " A Police Scotland spokesperson said: \"We received a report of a disturbance on",
+                "object": {
+                    "text": "We received a report of a disturbance on"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Enquiries"
+                },
+                "sentence": " Enquiries are ongoing.\"",
+                "object": {
+                    "text": "ongoing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.868796,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.73505,
+                "label": "/law, govt and politics/law enforcement"
+            },
+            {
+                "score": 0.685308,
+                "label": "/law, govt and politics/law enforcement/police"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "A MAN was taken to hospital after a \"massive brawl\" in the Knightswood area of Glasgow.",
+                "score": 0.852618,
+                "arguments": [
+                    {
+                        "text": "MAN",
+                        "location": [
+                            2,
+                            5
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "MAN"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hospital",
+                        "location": [
+                            19,
+                            27
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospital",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "\"A 21-year-old man has been taken to Queen Elizabeth University Hospital with what appears to be minor injuries.",
+                "score": 0.987187,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            609,
+                            612
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "MAN"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "21-year-old",
+                        "location": [
+                            597,
+                            608
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "21-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "educatedAt",
+                "sentence": "\"A 21-year-old man has been taken to Queen Elizabeth University Hospital with what appears to be minor injuries.",
+                "score": 0.376776,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            609,
+                            612
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "MAN"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Queen Elizabeth University Hospital",
+                        "location": [
+                            631,
+                            666
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Queen Elizabeth University Hospital"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "A MAN was taken to hospital after a \"massive brawl\" in the Knightswood area of Glasgow.",
+                "score": 0.734087,
+                "arguments": [
+                    {
+                        "text": "area",
+                        "location": [
+                            71,
+                            75
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Glasgow"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Knightswood",
+                        "location": [
+                            59,
+                            70
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Knightswood"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Eyewitnesses reported seeing a large group of people \"armed with sticks\".",
+                "score": 0.966682,
+                "arguments": [
+                    {
+                        "text": "Eyewitnesses",
+                        "location": [
+                            167,
+                            179
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Eyewitnesses"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            180,
+                            188
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "The 21-year-old man is believed to have only suffered minor injuries but was taken to Queen Elizabeth University Hospital for treatment.",
+                "score": 0.9873,
+                "arguments": [
+                    {
+                        "text": "man",
+                        "location": [
+                            315,
+                            318
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "MAN"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "21-year-old",
+                        "location": [
+                            303,
+                            314
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "21-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Police Scotland said an investigation is ongoing.",
+                "score": 0.64517,
+                "arguments": [
+                    {
+                        "text": "Scotland",
+                        "location": [
+                            444,
+                            452
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Scotland",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Police",
+                        "location": [
+                            437,
+                            443
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Police",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police Scotland said an investigation is ongoing.",
+                "score": 0.971274,
+                "arguments": [
+                    {
+                        "text": "Scotland",
+                        "location": [
+                            444,
+                            452
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Scotland",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            453,
+                            457
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "A Police Scotland spokesperson said: \"We received a report of a disturbance on Cairntoul Place, Glasgow.",
+                "score": 0.724317,
+                "arguments": [
+                    {
+                        "text": "spokesperson",
+                        "location": [
+                            506,
+                            518
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "spokesperson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Scotland",
+                        "location": [
+                            497,
+                            505
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Scotland",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "A Police Scotland spokesperson said: \"We received a report of a disturbance on Cairntoul Place, Glasgow.",
+                "score": 0.965071,
+                "arguments": [
+                    {
+                        "text": "spokesperson",
+                        "location": [
+                            506,
+                            518
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "spokesperson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            519,
+                            523
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "A Police Scotland spokesperson said: \"We received a report of a disturbance on Cairntoul Place, Glasgow.",
+                "score": 0.542229,
+                "arguments": [
+                    {
+                        "text": "Cairntoul Place",
+                        "location": [
+                            567,
+                            582
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Cairntoul Place"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Glasgow",
+                        "location": [
+                            584,
+                            591
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Glasgow"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "21-year-old man",
+                "relevance": 0.929209,
+                "count": 2
+            },
+            {
+                "text": "Police Scotland",
+                "relevance": 0.906801,
+                "count": 1
+            },
+            {
+                "text": "Emergency services",
+                "relevance": 0.841125,
+                "count": 1
+            },
+            {
+                "text": "Police Scotland spokesperson",
+                "relevance": 0.660586,
+                "count": 1
+            },
+            {
+                "text": "large area",
+                "relevance": 0.612718,
+                "count": 1
+            },
+            {
+                "text": "minor injuries",
+                "relevance": 0.597622,
+                "count": 2
+            },
+            {
+                "text": "report of a disturbance",
+                "relevance": 0.588966,
+                "count": 1
+            },
+            {
+                "text": "large group of people",
+                "relevance": 0.57972,
+                "count": 1
+            },
+            {
+                "text": "Queen Elizabeth University Hospital",
+                "relevance": 0.577829,
+                "count": 2
+            },
+            {
+                "text": "MAN",
+                "relevance": 0.574733,
+                "count": 1
+            },
+            {
+                "text": "Eyewitnesses",
+                "relevance": 0.551251,
+                "count": 1
+            },
+            {
+                "text": "hospital",
+                "relevance": 0.532603,
+                "count": 1
+            },
+            {
+                "text": "CREDIT",
+                "relevance": 0.532004,
+                "count": 1
+            },
+            {
+                "text": "Cairntoul Place",
+                "relevance": 0.528066,
+                "count": 2
+            },
+            {
+                "text": "investigation",
+                "relevance": 0.51422,
+                "count": 1
+            },
+            {
+                "text": "Enquiries",
+                "relevance": 0.51422,
+                "count": 1
+            },
+            {
+                "text": "afternoon",
+                "relevance": 0.512154,
+                "count": 1
+            },
+            {
+                "text": "treatment",
+                "relevance": 0.512154,
+                "count": 1
+            },
+            {
+                "text": "Glasgow",
+                "relevance": 0.512154,
+                "count": 2
+            },
+            {
+                "text": "sticks",
+                "relevance": 0.512154,
+                "count": 1
+            },
+            {
+                "text": "massive brawl",
+                "relevance": 0.487337,
+                "count": 1
+            },
+            {
+                "text": "Knightswood area",
+                "relevance": 0.472286,
+                "count": 1
+            },
+            {
+                "text": "Caroline Wilson",
+                "relevance": 0.441577,
+                "count": 1
+            },
+            {
+                "text": "Saturday",
+                "relevance": 0.352196,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-Sa",
+    "extracted_metadata": {
+        "sha1": "ad686470c1390fd1ea203a4e0241708d5f0a8f77",
+        "filename": "202006080000PROQUESTNEWPAPER_2410040039.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-08T00:00:00-04:00",
+    "title": "\u2018Massive brawl\u2019 sees one man taken to hospital",
+    "html": "<p>A MAN was taken to hospital after a &#8220;massive brawl&#8221; in the Knightswood area of <location idsrc=\"xmltag.org\" value=\"LU/gb.sco.glasgw\">Glasgow</location>.</p>\n<p>Emergency services were called to <location>Cairntoul Place</location> around <chron>4.50pm on Saturday</chron>.</p>\n<p>Eyewitnesses reported seeing a large group of people &#8220;armed with sticks&#8221;.</p>\n<p>A large area was cordoned off throughout the afternoon.</p>\n<p>The 21-year-old man is believed to have only suffered minor injuries but was taken to <org>Queen Elizabeth University Hospital</org> for treatment.</p>\n<p>Police <location idsrc=\"xmltag.org\" value=\"LS/gb.sco\">Scotland</location> said an investigation is ongoing.</p>\n<p>A Police Scotland spokesperson said: &#8220;We received a report of a disturbance on <location>Cairntoul Place</location>, <location idsrc=\"xmltag.org\" value=\"LU/gb.sco.glasgw\">Glasgow</location>.</p>\n<p>&#8220;A 21-year-old man has been taken to <org>Queen Elizabeth University Hospital</org> with what appears to be minor injuries. Enquiries are ongoing.&#8221;</p><p>CREDIT: <person>Caroline Wilson</person></p>",
+    "geoFocus": [
+        [
+            "GU/gb.sco.glasgw",
+            "Glasgow"
+        ]
+    ]
+}

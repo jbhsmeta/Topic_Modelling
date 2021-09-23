@@ -1,0 +1,341 @@
+{
+    "id": "eafc472d-ff8f-48ec-bbba-32376530a0bf",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "79870766966065883066",
+    "description": "Flooring work more info: Location: GERMANY BidDate: 6/ 10/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: KIS- Municipal Real Estate Service, Own Operation Tendering Authority Address: 14467 Potsdam Brandenburg Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Renovation daycare Lowenzahn - Maler- u. Flooring work more info : Location :\nGERMANY BidDate : 6/10/2020 Tender Country : GERMANY Tender Type : Tenders\nTendering Authority : KIS - Municipal Real Estate Service, Own Operation\nTendering Authority Address : 14467 Potsdam Brandenburg Financier : Self\nFunded Tearn Money : Not Specified",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Construction and Real Estate",
+            "code": "II/conre#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Services",
+            "code": "II/service#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "II/service",
+            "relevance_score": "7",
+            "description": "Construction and Real Estate Services",
+            "code": "II/service.conre#7#75#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Consumer Goods",
+            "code": "II/congood#5#50#58",
+            "level": 0
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_27115_176211055_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Potsdam Brandenburg Financier",
+                "relevance": 0.88208,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.432415,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.556022,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Own Operation"
+                },
+                "sentence": " Tendering Authority : KIS - Municipal Real Estate Service, Own Operation",
+                "object": {
+                    "text": "Authority"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Tendering",
+                        "tense": "present"
+                    },
+                    "text": "Tendering",
+                    "normalized": "Tendering"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.789136,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.708377,
+                "label": "/real estate"
+            },
+            {
+                "score": 0.620982,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Flooring work more info : Location : GERMANY BidDate : 6/10/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : KIS - Municipal Real Estate Service, Own Operation Tendering Authority Address : 14467 Potsdam Brandenburg Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.621514,
+                "arguments": [
+                    {
+                        "text": "6/10/2020 Tender",
+                        "location": [
+                            96,
+                            112
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/10/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders\nTendering Authority : KIS - Municipal Real Estate Service, Own Operation\nTendering Authority Address :",
+                        "location": [
+                            131,
+                            255
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders\nTendering Authority : KIS - Municipal Real Estate Service, Own Operation\nTendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Flooring work more info : Location : GERMANY BidDate : 6/10/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : KIS - Municipal Real Estate Service, Own Operation Tendering Authority Address : 14467 Potsdam Brandenburg Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.489404,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            282,
+                            291
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Potsdam Brandenburg",
+                        "location": [
+                            262,
+                            281
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Potsdam Brandenburg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.998195,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.991795,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.818951,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.664331,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.589712,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.557333,
+                "count": 1
+            },
+            {
+                "text": "work",
+                "relevance": 0.523572,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.512896,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.510637,
+                "count": 1
+            },
+            {
+                "text": "Renovation daycare Lowenzahn",
+                "relevance": 0.438274,
+                "count": 1
+            },
+            {
+                "text": "Municipal Real Estate Service",
+                "relevance": 0.389808,
+                "count": 1
+            },
+            {
+                "text": "Authority Address",
+                "relevance": 0.356143,
+                "count": 1
+            },
+            {
+                "text": "Tearn Money",
+                "relevance": 0.306025,
+                "count": 1
+            },
+            {
+                "text": "Potsdam Brandenburg Financier",
+                "relevance": 0.302331,
+                "count": 1
+            },
+            {
+                "text": "Own Operation",
+                "relevance": 0.276935,
+                "count": 1
+            },
+            {
+                "text": "KIS",
+                "relevance": 0.236211,
+                "count": 1
+            },
+            {
+                "text": "Maler",
+                "relevance": 0.223998,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "cfdf11917f0d4fb52cdb17e4a5db77107b1f571e",
+        "filename": "202006050210ALBA____ME_NA_NE_27115_176211055_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Renovation daycare Lowenzahn - Maler- u. Flooring work [TenderNews.com - Tenders (India)]",
+    "html": "<p>Renovation daycare Lowenzahn - Maler- u. Flooring work more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/10/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : KIS - Municipal Real Estate Service, Own Operation\nTendering Authority Address : 14467 Potsdam Brandenburg\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

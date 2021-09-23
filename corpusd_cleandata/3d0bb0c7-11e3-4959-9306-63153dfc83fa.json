@@ -1,0 +1,225 @@
+{
+    "id": "3d0bb0c7-11e3-4959-9306-63153dfc83fa",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "47640794149156978",
+    "description": "Brent crude futures were down 8 cents, or 0.2%, at $39.91 a barrel as of 0106 GMT and US WTI crude futures fell 15 cents, or 0.4%, to $37.26 a barrel",
+    "serviceName": "Business News",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Finance",
+            "code": "IS/fin#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/fin.crude",
+            "relevance_score": "9",
+            "description": "Brent Crude Oil",
+            "code": "IS/fin.brentoil#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/fin.invest",
+            "relevance_score": "9",
+            "description": "Commodities",
+            "code": "IS/fin.commod#9#50#99",
+            "level": 2
+        },
+        {
+            "parent": "IS/fin.encomm",
+            "relevance_score": "9",
+            "description": "Crude Oil Trading",
+            "code": "IS/fin.crude#9#75#99",
+            "level": 4
+        }
+    ],
+    "text": "Brent crude futures were down 8 cents, or 0.2%, at $39.91 a barrel as of 0106\nGMT and US WTI crude futures fell 15 cents, or 0.4%, to $37.26 a barrel",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Energy",
+            "code": "II/energy#9#50#95",
+            "level": 0
+        },
+        {
+            "parent": "II/energy",
+            "relevance_score": "9",
+            "description": "Oil and Gas",
+            "code": "II/energy.og#9#50#95",
+            "level": 1
+        },
+        {
+            "parent": "II/energy.ogprods",
+            "relevance_score": "9",
+            "description": "Crude Oil",
+            "code": "II/energy.ogcrude#9#95#50",
+            "level": 3
+        },
+        {
+            "parent": "II/energy.og",
+            "relevance_score": "9",
+            "description": "Oil and Gas Products",
+            "code": "II/energy.ogprods#9#78#95",
+            "level": 2
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050149AMSPIDERBUS_NEWS_NZDIZTU3_7D65847FD19F563227F8EC542A3A9633_21.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.517147,
+                    "label": "negative"
+                },
+                "text": "Brent",
+                "relevance": 0.950532,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$37.26",
+                "relevance": 0.950532,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$39.91",
+                "relevance": 0.950532,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "0.2%",
+                "relevance": 0.950532,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "0.4%",
+                "relevance": 0.950532,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Brent crude futures"
+                },
+                "sentence": "Brent crude futures were down 8 cents, or 0.2%, at $39.91 a barrel as of 0106",
+                "object": {
+                    "text": "down 8 cents, or 0.2%, at $39.91 a barrel as of 0106"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "GMT and US WTI crude futures"
+                },
+                "sentence": " GMT and US WTI crude futures fell 15 cents, or 0.4%, to $37.26 a barrel",
+                "object": {
+                    "text": "15 cents, or 0.4%, to $37.26 a barrel"
+                },
+                "action": {
+                    "verb": {
+                        "text": "fall",
+                        "tense": "past"
+                    },
+                    "text": "fell",
+                    "normalized": "fall"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.996025,
+                "label": "/business and industrial/energy/oil/oil and gas prices"
+            },
+            {
+                "score": 0.847285,
+                "label": "/finance/investing/futures trading"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "US WTI",
+                "relevance": 0.941078,
+                "count": 1
+            },
+            {
+                "text": "Brent crude futures",
+                "relevance": 0.930411,
+                "count": 1
+            },
+            {
+                "text": "cents",
+                "relevance": 0.591328,
+                "count": 2
+            },
+            {
+                "text": "barrel",
+                "relevance": 0.575592,
+                "count": 2
+            },
+            {
+                "text": "crude futures",
+                "relevance": 0.366449,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "4c74776491313731a6553f6e9ce404bdedbd4415",
+        "filename": "202006050149AMSPIDERBUS_NEWS_NZDIZTU3_7D65847FD19F563227F8EC542A3A9633_21.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T01:49:00-04:00",
+    "title": "OPEC+ to discuss output cut on Saturday as oil dips over uncertainty [Business Standard (India)]",
+    "html": "<p>Brent crude futures were down <money>8 cents</money>, or 0.2%, at <money>$39.91</money> a barrel as of <chron>0106 GMT</chron> and US WTI crude futures fell <money>15 cents</money>, or 0.4%, to <money>$37.26</money> a barrel</p>",
+    "geoFocus": []
+}

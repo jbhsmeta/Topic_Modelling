@@ -1,0 +1,988 @@
+{
+    "id": "addf3a82-d02a-4979-b606-09b3decb0b73",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 Latin Communications Group",
+    "geoOrigin": "New York City, New York",
+    "sourceType": "Newspaper",
+    "source": "El Diario La Prensa (New York, NY)",
+    "corpus_document_id": "38431943462775983906",
+    "description": "Un reporte publicado por el Departamento del Tesoro revel\u00f3 que el IRS hace poco por investigar a pleno los casos de evasi\u00f3n de impuestos de personas de altos ingresos. El informe del Inspector General de Tesoro para la Administraci\u00f3n de Impuestos encontr\u00f3 que el IRS dej\u00f3 de hacer seguimiento a 369,180 personas de altos ingresos que deben un aproximado...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "7",
+            "description": "North America",
+            "code": "LB/nam#7#49#70",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "7",
+            "description": "United States",
+            "code": "LC/us#7#50#70",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Americas",
+            "code": "LR/am#7#49#70",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#7#49#70",
+            "description": "",
+            "relevance_score": "7"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Un reporte publicado por el Departamento del Tesoro revelo que el IRS hace\npoco por investigar a pleno los casos de evasion de impuestos de personas de\naltos ingresos.\n\nEl informe del Inspector General de Tesoro para la Administracion de Impuestos\nencontro que el IRS dejo de hacer seguimiento a 369,180 personas de altos\ningresos que deben un aproximado de $20,800 millones de dolares.\n\nRelacionado: IRS acumula 5 millones de declaraciones de impuestos no\nprocesadas por falta de personal\n\nDe esos 369,180 casos, unos 42,601 fueron cerrados sin ser tocados. El reporte\ndice que hay un total de 879,415 personas de altos ingresos que no declaran.\nSe teme que muchos de estos casos no sean vistos debido a que el IRS ha ido\nperdiendo recursos para hacer auditorias.\n\nLas personas de altos ingresos que no declaran aportan en grande a la brecha\nfiscal de Estados Unidos. El pais ha dejado de recibir cerca de $500,000\nmillones de dolares en impuestos. El reporte se baso en los no declarantes\nentre 2014 y 2016, por lo que la brecha puede ser mayor.\n\nEl Inspector del Tesoro recomienda al gobierno entregar los recursos y\nseleccionar personal para tomar los casos de los no declarantes.\n\nRelacionado: El IRS permitira envio electronico de enmiendas de declaraciones\nde impuestos\n\nEl senador Ron Wyden (D-Oregon), miembro del Comite de Finanzas del Senado,\nculpo a los republicanos por la falta de recursos en el IRS.\n\n\"Como resultado del esfuerzo de los republicanos durante a\u00f1os para destripar\nal IRS y proteger a sus donantes del escrutinio, las trampas fiscales ricas\nrobaron casi $46 mil millones en solo tres a\u00f1os al negarse incluso a presentar\nsus impuestos\", dijo Wyden en un comunicado el lunes. \"Lo que es peor, el IRS\nhizo poco o nada para perseguir estas trampas fiscales. Las inversiones en\natencion medica, infraestructura y educacion se veran perpetuamente reducidas\nsi el pago de impuestos es esencialmente voluntario para los que estan en la\ncima\".",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "IRS",
+            "El IRS"
+        ],
+        "location": [
+            "Oregon"
+        ],
+        "person": [
+            "General de Tesoro",
+            "del Tesoro",
+            "Ron Wyden"
+        ],
+        "companies": [
+            "El IRS",
+            "IRS"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ny.nyc",
+    "language": "Spanish",
+    "filename": "202006010000NEWSBANKNEWSPPRS4645ACA5903ECCC8E2876912BE373C6.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 8,
+                "sentiment": {
+                    "score": 0.26329,
+                    "label": "positive"
+                },
+                "text": "IRS",
+                "relevance": 0.938595,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentAgency"
+                    ],
+                    "name": "Internal Revenue Service",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Internal_Revenue_Service"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "El reporte",
+                "relevance": 0.482959,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.361653,
+                    "label": "positive"
+                },
+                "text": "miembro del Comite de Finanzas del Senado",
+                "relevance": 0.43972,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0.551661,
+                    "label": "positive"
+                },
+                "text": "Administracion de Impuestos",
+                "relevance": 0.425408,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.119993,
+                    "label": "positive"
+                },
+                "text": "Ron Wyden",
+                "relevance": 0.278282,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Politician",
+                        "Senator",
+                        "U.S.Congressperson"
+                    ],
+                    "name": "Ron Wyden",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Ron_Wyden"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Relacionado",
+                "relevance": 0.267011,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.539249,
+                    "label": "positive"
+                },
+                "text": "fiscal de Estados Unidos",
+                "relevance": 0.261879,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.437745,
+                    "label": "positive"
+                },
+                "text": "sean vistos",
+                "relevance": 0.217597,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Como",
+                "relevance": 0.217355,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Como, Indiana",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Como,_Indiana"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "atencion",
+                "relevance": 0.214416,
+                "type": "Company"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "altos"
+                },
+                "sentence": " encontro que el IRS dejo de hacer seguimiento a 369,180 personas de altos",
+                "object": {
+                    "text": "encontro que el IRS dejo de hacer seguimiento a 369,180 personas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "ingresos"
+                },
+                "sentence": " ingresos que deben un aproximado de $20,800 millones de dolares.",
+                "object": {
+                    "text": "deben un aproximado de $20,800 millones de dolares"
+                },
+                "action": {
+                    "verb": {
+                        "text": "que",
+                        "tense": "present"
+                    },
+                    "text": "que",
+                    "normalized": "que"
+                }
+            },
+            {
+                "subject": {
+                    "text": "dolares"
+                },
+                "sentence": " ingresos que deben un aproximado de $20,800 millones de dolares.",
+                "object": {
+                    "text": "ingresos que deben un aproximado de $20,800 millones"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "declaraciones de impuestos"
+                },
+                "sentence": " Relacionado: IRS acumula 5 millones de declaraciones de impuestos no",
+                "object": {
+                    "text": "IRS acumula 5 millones"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "falta de personal"
+                },
+                "sentence": " procesadas por falta de personal",
+                "object": {
+                    "text": "procesadas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "por",
+                        "tense": "present"
+                    },
+                    "text": "por",
+                    "normalized": "por"
+                }
+            },
+            {
+                "subject": {
+                    "text": "unos 42,601 fueron cerrados"
+                },
+                "sentence": " De esos 369,180 casos, unos 42,601 fueron cerrados sin ser tocados.",
+                "object": {
+                    "text": "ser tocados"
+                },
+                "action": {
+                    "verb": {
+                        "text": "sin",
+                        "tense": "present"
+                    },
+                    "text": "sin",
+                    "normalized": "sin"
+                }
+            },
+            {
+                "subject": {
+                    "text": "hay un total de 879,415 personas"
+                },
+                "sentence": " dice que hay un total de 879,415 personas de altos ingresos que no declaran.",
+                "object": {
+                    "text": "dice"
+                },
+                "action": {
+                    "verb": {
+                        "text": "que",
+                        "tense": "present"
+                    },
+                    "text": "que",
+                    "normalized": "que"
+                }
+            },
+            {
+                "subject": {
+                    "text": "dice que hay un total de 879,415 personas de altos ingresos"
+                },
+                "sentence": " dice que hay un total de 879,415 personas de altos ingresos que no declaran.",
+                "object": {
+                    "text": "no declaran"
+                },
+                "action": {
+                    "verb": {
+                        "text": "que",
+                        "tense": "present"
+                    },
+                    "text": "que",
+                    "normalized": "que"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Las personas de altos ingresos"
+                },
+                "sentence": " Las personas de altos ingresos que no declaran aportan en grande a la brecha",
+                "object": {
+                    "text": "no declaran aportan en grande a la brecha"
+                },
+                "action": {
+                    "verb": {
+                        "text": "que",
+                        "tense": "present"
+                    },
+                    "text": "que",
+                    "normalized": "que"
+                }
+            },
+            {
+                "subject": {
+                    "text": "El"
+                },
+                "sentence": " El pais ha dejado de recibir cerca de $500,000",
+                "object": {
+                    "text": "ha dejado de recibir cerca de $500,000"
+                },
+                "action": {
+                    "verb": {
+                        "text": "pais",
+                        "tense": "present"
+                    },
+                    "text": "pais",
+                    "normalized": "pais"
+                }
+            },
+            {
+                "subject": {
+                    "text": "dolares"
+                },
+                "sentence": " millones de dolares en impuestos.",
+                "object": {
+                    "text": "millones"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Como resultado del esfuerzo de los republicanos"
+                },
+                "sentence": " \"Como resultado del esfuerzo de los republicanos durante a\u00f1os para destripar",
+                "object": {
+                    "text": "a\u00f1os para destripar"
+                },
+                "action": {
+                    "verb": {
+                        "text": "durante",
+                        "tense": "present"
+                    },
+                    "text": "durante",
+                    "normalized": "durante"
+                }
+            },
+            {
+                "subject": {
+                    "text": "robaron"
+                },
+                "sentence": " robaron casi $46 mil millones en solo tres a\u00f1os al negarse incluso a presentar",
+                "object": {
+                    "text": "$46 mil millones"
+                },
+                "action": {
+                    "verb": {
+                        "text": "casi",
+                        "tense": "past"
+                    },
+                    "text": "casi",
+                    "normalized": "casi"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Las"
+                },
+                "sentence": " Las inversiones en",
+                "object": {
+                    "text": "en"
+                },
+                "action": {
+                    "verb": {
+                        "text": "inversiones",
+                        "tense": "present"
+                    },
+                    "text": "inversiones",
+                    "normalized": "inversiones"
+                }
+            },
+            {
+                "subject": {
+                    "text": "si el pago de impuestos es"
+                },
+                "sentence": " si el pago de impuestos es esencialmente voluntario para los que estan en la",
+                "object": {
+                    "text": "voluntario"
+                },
+                "action": {
+                    "verb": {
+                        "text": "esencialmente",
+                        "tense": "present"
+                    },
+                    "text": "esencialmente",
+                    "normalized": "esencialmente"
+                }
+            },
+            {
+                "subject": {
+                    "text": "si el pago de impuestos es esencialmente voluntario para los"
+                },
+                "sentence": " si el pago de impuestos es esencialmente voluntario para los que estan en la",
+                "object": {
+                    "text": "estan"
+                },
+                "action": {
+                    "verb": {
+                        "text": "que",
+                        "tense": "present"
+                    },
+                    "text": "que",
+                    "normalized": "que"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.567946,
+                "label": "/law, govt and politics/government"
+            },
+            {
+                "score": 0.563631,
+                "label": "/art and entertainment/books and literature/poetry"
+            },
+            {
+                "score": 0.540546,
+                "label": "/law, govt and politics/government/executive branch"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Un reporte publicado por el Departamento del Tesoro revelo que el IRS hace poco por investigar a pleno los casos de evasion de impuestos de personas de altos ingresos.",
+                "score": 0.673533,
+                "arguments": [
+                    {
+                        "text": "Departamento del Tesoro revelo que el",
+                        "location": [
+                            28,
+                            65
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Departamento del Tesoro revelo que el"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "IRS",
+                        "location": [
+                            66,
+                            69
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "IRS",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "El informe del Inspector General de Tesoro para la Administracion de Impuestos encontro que el IRS dejo de hacer seguimiento a 369,180 personas de altos ingresos que deben un aproximado de $20,800 millones de dolares.",
+                "score": 0.494971,
+                "arguments": [
+                    {
+                        "text": "que el",
+                        "location": [
+                            257,
+                            263
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Departamento del Tesoro revelo que el"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "IRS",
+                        "location": [
+                            264,
+                            267
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "IRS",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Se teme que muchos de estos casos no sean vistos debido a que el IRS ha ido perdiendo recursos para hacer auditorias.",
+                "score": 0.906783,
+                "arguments": [
+                    {
+                        "text": "el",
+                        "location": [
+                            709,
+                            711
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "El reporte se baso"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "IRS",
+                        "location": [
+                            712,
+                            715
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "IRS",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Relacionado: El IRS permitira envio electronico de enmiendas de declaraciones de impuestos",
+                "score": 0.53628,
+                "arguments": [
+                    {
+                        "text": "El",
+                        "location": [
+                            1199,
+                            1201
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "El reporte se baso"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "IRS",
+                        "location": [
+                            1202,
+                            1205
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "IRS",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "El senador Ron Wyden (D-Oregon), miembro del Comite de Finanzas del Senado, culpo a los republicanos por la falta de recursos en el IRS.",
+                "score": 0.522105,
+                "arguments": [
+                    {
+                        "text": "el",
+                        "location": [
+                            1407,
+                            1409
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "El reporte se baso"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "IRS",
+                        "location": [
+                            1410,
+                            1413
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "IRS",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "\"Lo que es peor, el IRS hizo poco o nada para perseguir estas trampas fiscales.",
+                "score": 0.887627,
+                "arguments": [
+                    {
+                        "text": "el",
+                        "location": [
+                            1719,
+                            1721
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "El reporte se baso"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "IRS",
+                        "location": [
+                            1722,
+                            1725
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "IRS",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "El senador Ron Wyden (D-Oregon), miembro del Comite de Finanzas del Senado, culpo a los republicanos por la falta de recursos en el IRS.",
+                "score": 0.845731,
+                "arguments": [
+                    {
+                        "text": "El senador Ron Wyden",
+                        "location": [
+                            1278,
+                            1298
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "El senador Ron Wyden"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "D-Oregon",
+                        "location": [
+                            1300,
+                            1308
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "D-Oregon",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "al IRS y proteger",
+                "relevance": 0.674481,
+                "count": 1
+            },
+            {
+                "text": "Un reporte",
+                "relevance": 0.651946,
+                "count": 1
+            },
+            {
+                "text": "sus donantes del escrutinio",
+                "relevance": 0.603476,
+                "count": 1
+            },
+            {
+                "text": "dijo Wyden en",
+                "relevance": 0.585528,
+                "count": 1
+            },
+            {
+                "text": "de Impuestos",
+                "relevance": 0.582848,
+                "count": 1
+            },
+            {
+                "text": "Lo que es peor",
+                "relevance": 0.573455,
+                "count": 1
+            },
+            {
+                "text": "D-Oregon",
+                "relevance": 0.537975,
+                "count": 1
+            },
+            {
+                "text": "total de",
+                "relevance": 0.534825,
+                "count": 1
+            },
+            {
+                "text": "declaran aportan en grande",
+                "relevance": 0.53357,
+                "count": 1
+            },
+            {
+                "text": "El IRS",
+                "relevance": 0.526739,
+                "count": 1
+            },
+            {
+                "text": "altos ingresos",
+                "relevance": 0.526465,
+                "count": 3
+            },
+            {
+                "text": "Las personas",
+                "relevance": 0.525898,
+                "count": 1
+            },
+            {
+                "text": "comunicado el lunes",
+                "relevance": 0.523614,
+                "count": 1
+            },
+            {
+                "text": "perdiendo recursos para hacer auditorias",
+                "relevance": 0.523213,
+                "count": 1
+            },
+            {
+                "text": "fiscal de Estados Unidos",
+                "relevance": 0.518303,
+                "count": 1
+            },
+            {
+                "text": "personas",
+                "relevance": 0.514189,
+                "count": 2
+            },
+            {
+                "text": "sus impuestos",
+                "relevance": 0.512748,
+                "count": 1
+            },
+            {
+                "text": "publicado por el Departamento del Tesoro revelo que el IRS hace",
+                "relevance": 0.509982,
+                "count": 1
+            },
+            {
+                "text": "IRS acumula",
+                "relevance": 0.508887,
+                "count": 1
+            },
+            {
+                "text": "fueron cerrados sin ser tocados",
+                "relevance": 0.500855,
+                "count": 1
+            },
+            {
+                "text": "en impuestos",
+                "relevance": 0.497155,
+                "count": 1
+            },
+            {
+                "text": "la brecha",
+                "relevance": 0.482662,
+                "count": 1
+            },
+            {
+                "text": "El informe del Inspector General de Tesoro para la Administracion",
+                "relevance": 0.47908,
+                "count": 1
+            },
+            {
+                "text": "personal para",
+                "relevance": 0.47766,
+                "count": 1
+            },
+            {
+                "text": "mil millones",
+                "relevance": 0.472687,
+                "count": 1
+            },
+            {
+                "text": "El",
+                "relevance": 0.465331,
+                "count": 2
+            },
+            {
+                "text": "El Inspector del Tesoro recomienda al gobierno entregar los recursos",
+                "relevance": 0.464303,
+                "count": 1
+            },
+            {
+                "text": "por lo que la brecha puede ser mayor",
+                "relevance": 0.463608,
+                "count": 1
+            },
+            {
+                "text": "miembro del Comite de Finanzas del Senado",
+                "relevance": 0.459476,
+                "count": 1
+            },
+            {
+                "text": "infraestructura y educacion se veran perpetuamente reducidas",
+                "relevance": 0.457764,
+                "count": 1
+            },
+            {
+                "text": "Relacionado",
+                "relevance": 0.456074,
+                "count": 2
+            },
+            {
+                "text": "nada para perseguir estas trampas fiscales",
+                "relevance": 0.449698,
+                "count": 1
+            },
+            {
+                "text": "millones",
+                "relevance": 0.44964,
+                "count": 3
+            },
+            {
+                "text": "casos",
+                "relevance": 0.44843,
+                "count": 1
+            },
+            {
+                "text": "declaran",
+                "relevance": 0.446996,
+                "count": 1
+            },
+            {
+                "text": "unos",
+                "relevance": 0.446702,
+                "count": 1
+            },
+            {
+                "text": "Se",
+                "relevance": 0.445123,
+                "count": 1
+            },
+            {
+                "text": "dolares",
+                "relevance": 0.445016,
+                "count": 1
+            },
+            {
+                "text": "procesadas",
+                "relevance": 0.444683,
+                "count": 1
+            },
+            {
+                "text": "presentar",
+                "relevance": 0.442294,
+                "count": 1
+            },
+            {
+                "text": "declaraciones",
+                "relevance": 0.442294,
+                "count": 1
+            },
+            {
+                "text": "declarantes",
+                "relevance": 0.442294,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "1e999f719070caf534324158f21636b1ac28c660",
+        "filename": "202006010000NEWSBANKNEWSPPRS4645ACA5903ECCC8E2876912BE373C6.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "IRS ignora casos de personas de altos ingresos que deben millones de impuestos",
+    "html": "<p>Un reporte publicado por el Departamento del Tesoro revel&#243; que el <org>IRS</org> hace poco por investigar a pleno los casos de evasi&#243;n de impuestos de personas de altos ingresos.</p>\n<p>El informe del Inspector <person>General de Tesoro</person> para la Administraci&#243;n de Impuestos encontr&#243; que el <org>IRS</org> dej&#243; de hacer seguimiento a 369,180 personas de altos ingresos que deben un aproximado de <money>$20,800</money> millones de d&#243;lares.</p>\n\n<p>Relacionado: <org>IRS</org> acumula 5 millones de declaraciones de impuestos no procesadas por falta de personal</p>\n\n<p>De esos 369,180 casos, unos 42,601 fueron cerrados sin ser tocados. El reporte dice que hay un total de 879,415 personas de altos ingresos que no declaran. Se teme que muchos de estos casos no sean vistos debido a que el <org>IRS</org> ha ido perdiendo recursos para hacer auditor&#237;as.</p>\n\n<p>Las personas de altos ingresos que no declaran aportan en grande a la brecha fiscal de Estados Unidos. El pa&#237;s ha dejado de recibir cerca de <money>$500,000</money> millones de d&#243;lares en impuestos. El reporte se bas&#243; en los no declarantes entre 2014 y 2016, por lo que la brecha puede ser mayor.</p>\n\n<p>El Inspector <person>del Tesoro</person> recomienda al gobierno entregar los recursos y seleccionar personal para tomar los casos de los no declarantes.</p>\n\n<p>Relacionado: <org>El IRS</org> permitir&#225; env&#237;o electr&#243;nico de enmiendas de declaraciones de impuestos</p>\n\n<p>El senador <person>Ron Wyden</person> (D-<location idsrc=\"xmltag.org\" value=\"LS/us.or\">Oregon</location>), miembro del Comit&#233; de Finanzas del Senado, culp&#243; a los republicanos por la falta de recursos en el <org>IRS</org>.</p>\n\n<p>\"Como resultado del esfuerzo de los republicanos durante a&#241;os para destripar al <org>IRS</org> y proteger a sus donantes del escrutinio, las trampas fiscales ricas robaron casi <money>$46 mil</money> millones en solo tres a&#241;os al negarse incluso a presentar sus impuestos\", dijo Wyden en un comunicado el lunes. \"Lo que es peor, el <org>IRS</org> hizo poco o nada para perseguir estas trampas fiscales. Las inversiones en atenci&#243;n m&#233;dica, infraestructura y educaci&#243;n se ver&#225;n perpetuamente reducidas si el pago de impuestos es esencialmente voluntario para los que est&#225;n en la cima\".</p>",
+    "geoFocus": [
+        [
+            "GU/us.ny.nyc",
+            "New York City"
+        ]
+    ]
+}

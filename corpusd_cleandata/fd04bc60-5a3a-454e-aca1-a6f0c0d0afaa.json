@@ -1,0 +1,916 @@
+{
+    "id": "fd04bc60-5a3a-454e-aca1-a6f0c0d0afaa",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Kenosha News, All rights reserved.",
+    "geoOrigin": "Kenosha, Wisconsin",
+    "sourceType": "Newspaper",
+    "source": "Kenosha News (WI)",
+    "corpus_document_id": "10915366838892226083",
+    "description": "Have you ever put spicy mustard on a sandwich? If you inadvertently glob on too much of the good stuff, you'll swear you just snorted wasabi. When it comes to spices that are in your face, a little bit can go a long way.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Have you ever put spicy mustard on a sandwich? If you inadvertently glob on\ntoo much of the good stuff, you'll swear you just snorted wasabi.\n\nWhen it comes to spices that are in your face (literally and figuratively), a\nlittle bit can go a long way.\n\nIn the same way, hyphens and dashes-when sprinkled into sentences properly-add\njust the right punch. Not only will we learn how to youse the hyphen (-)\nproperly today, but we'll also learn how to use both the en (\u0096) and em (-)\ndashes.\n\nLet's start with hyphens. Hyphens are like glue for two words that are\nconnected. Use hyphens in compound adjectives, which are adjectives that\nprecede a noun they modify in order to connect them together. Examples of\ncompound adjectives include well-known, blue-haired, one-eyed, and ill-\nconceived. Hyphens are also used to separate numbers (three hundred sixty-\nfive) and to create a line break when syllables of the same word get\nseparated. We still see this sometimes in books and newspapers, but we see it\nless often now that text is not set by hand.\n\nEn dashes (\u0096) are all about range. Use an en dash in order to show a range of\nnumbers. Barack Obama was president from 2008\u00962016\\. The Thunder beat the Jazz\n120\u0096101\\. The store is open Monday\u0096Friday, 9:00 a.m.\u00965:00 p.m. The en dash is\nnamed as such because it is about the width of the letter \"n.\" To type an en\ndash on a PC, press ctrl+minus. For PC laptops without numeric keyboards, you\ncan type alt+0150 or insert-special characters in Word. On a Mac, press\noption+hyphen.\n\nThe em dash (-) is the length of the letter \"m.\" Generally use it as a more\ndramatic substitute for other punctuation, like commas, colons, semicolons or\nparentheses. Do not-I repeat-do not put spaces around the em dash; allow the\nwords to bump up right next to the em dash to show the immediacy and drama it\ninterjects. To type an em dash on a PC, press alt+ctrl+minus. For PC laptops\nwithout numeric keyboards, you can type alt+0151 or insert-special characters\nin Word. On a Mac, press option+shift+hyphen.\n\nDashes and hyphens are generally used incorrectly because, in order to use\nthem correctly, you have to know the right way to employ them. If you want to\nget a shiny gold star sticker on your grammar chart, learn the difference\nbetween hyphens, en dashes and em dashes.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Barack Obama"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.wi.kensha",
+    "language": "English",
+    "filename": "202005230000NEWSBANKNEWSPPRSD9A1C6FFA647803D0F84C6E4B93D60B.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mac",
+                "relevance": 0.772916,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Barack Obama",
+                "relevance": 0.629996,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Politician",
+                        "President",
+                        "Appointer",
+                        "AwardWinner",
+                        "Celebrity",
+                        "PoliticalAppointer",
+                        "U.S.Congressperson",
+                        "USPresident",
+                        "TVActor"
+                    ],
+                    "name": "Barack Obama",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Barack_Obama"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "president",
+                "relevance": 0.501172,
+                "type": "JobTitle"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": "Have you ever put spicy mustard on a sandwich?",
+                "object": {
+                    "text": "spicy mustard"
+                },
+                "action": {
+                    "verb": {
+                        "text": "put",
+                        "tense": "past"
+                    },
+                    "text": "put",
+                    "normalized": "put"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " too much of the good stuff, you'll swear you just snorted wasabi.",
+                "object": {
+                    "text": "you"
+                },
+                "action": {
+                    "verb": {
+                        "text": "swear",
+                        "tense": "future"
+                    },
+                    "text": "swear",
+                    "normalized": "swear"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " too much of the good stuff, you'll swear you just snorted wasabi.",
+                "object": {
+                    "text": "wasabi"
+                },
+                "action": {
+                    "verb": {
+                        "text": "snort",
+                        "tense": "future"
+                    },
+                    "text": "snorted",
+                    "normalized": "snort"
+                }
+            },
+            {
+                "subject": {
+                    "text": "spices"
+                },
+                "sentence": " When it comes to spices that are in your face (literally and figuratively), a",
+                "object": {
+                    "text": "in your face"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " Not only will we learn how to youse the hyphen (-)",
+                "object": {
+                    "text": "how to youse the hyphen (-)"
+                },
+                "action": {
+                    "verb": {
+                        "text": "learn",
+                        "tense": "future"
+                    },
+                    "text": "learn",
+                    "normalized": "learn"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " Not only will we learn how to youse the hyphen (-)",
+                "object": {
+                    "text": "the hyphen"
+                },
+                "action": {
+                    "verb": {
+                        "text": "youse",
+                        "tense": "future"
+                    },
+                    "text": "to youse",
+                    "normalized": "to youse"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " properly today, but we'll also learn how to use both the en (\u0096) and em (-)",
+                "object": {
+                    "text": "how to use both the en (\u0096) and em (-)"
+                },
+                "action": {
+                    "verb": {
+                        "text": "learn",
+                        "tense": "future"
+                    },
+                    "text": "also learn",
+                    "normalized": "also learn"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Hyphens"
+                },
+                "sentence": " Hyphens are like glue for two words that are",
+                "object": {
+                    "text": "like glue"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " precede a noun they modify in order to connect them together.",
+                "object": {
+                    "text": "a noun"
+                },
+                "action": {
+                    "verb": {
+                        "text": "modify",
+                        "tense": "present"
+                    },
+                    "text": "modify",
+                    "normalized": "modify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " precede a noun they modify in order to connect them together.",
+                "object": {
+                    "text": "them"
+                },
+                "action": {
+                    "verb": {
+                        "text": "connect",
+                        "tense": "future"
+                    },
+                    "text": "to connect",
+                    "normalized": "to connect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "well-known, blue-haired, one-eyed, and ill-"
+                },
+                "sentence": " compound adjectives include well-known, blue-haired, one-eyed, and ill-",
+                "object": {
+                    "text": "compound adjectives"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "include",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "conceived. Hyphens"
+                },
+                "sentence": " conceived. Hyphens are also used to separate numbers (three hundred sixty-",
+                "object": {
+                    "text": "to separate numbers (three hundred sixty-"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "past"
+                    },
+                    "text": "are also used",
+                    "normalized": "be also use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " separated. We still see this sometimes in books and newspapers, but we see it",
+                "object": {
+                    "text": "this"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "present"
+                    },
+                    "text": "see",
+                    "normalized": "see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " separated. We still see this sometimes in books and newspapers, but we see it",
+                "object": {
+                    "text": "it"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "present"
+                    },
+                    "text": "see",
+                    "normalized": "see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "that text"
+                },
+                "sentence": " less often now that text is not set by hand.",
+                "object": {
+                    "text": "not set by hand"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by hand"
+                },
+                "sentence": " less often now that text is not set by hand.",
+                "object": {
+                    "text": "that text"
+                },
+                "action": {
+                    "verb": {
+                        "text": "set",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "set",
+                    "normalized": "set"
+                }
+            },
+            {
+                "subject": {
+                    "text": "En dashes (\u0096)"
+                },
+                "sentence": " En dashes (\u0096) are all about range.",
+                "object": {
+                    "text": "all about range"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "numbers. Barack Obama"
+                },
+                "sentence": " numbers. Barack Obama was president from 2008\u00962016\\.",
+                "object": {
+                    "text": "president from 2008\u00962016\\"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Thunder"
+                },
+                "sentence": " The Thunder beat the Jazz",
+                "object": {
+                    "text": "the Jazz"
+                },
+                "action": {
+                    "verb": {
+                        "text": "beat",
+                        "tense": "past"
+                    },
+                    "text": "beat",
+                    "normalized": "beat"
+                }
+            },
+            {
+                "subject": {
+                    "text": "120\u0096101\\. The store"
+                },
+                "sentence": " 120\u0096101\\. The store is open Monday\u0096Friday, 9:00 a.m.\u00965:00 p.m.",
+                "object": {
+                    "text": "open Monday\u0096Friday"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " named as such because it is about the width of the letter \"n.\"",
+                "object": {
+                    "text": "about the width of the letter \"n"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "alt+0150 or insert-special characters"
+                },
+                "sentence": " can type alt+0150 or insert-special characters in Word.",
+                "action": {
+                    "verb": {
+                        "text": "type",
+                        "tense": "future"
+                    },
+                    "text": "can type",
+                    "normalized": "can type"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The em dash (-)"
+                },
+                "sentence": " The em dash (-) is the length of the letter \"m.\"",
+                "object": {
+                    "text": "the length of the letter"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " Generally use it as a more",
+                "object": {
+                    "text": "as a more"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "present"
+                    },
+                    "text": "use",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "parentheses."
+                },
+                "sentence": " parentheses. Do not-I repeat-do not put spaces around the em dash; allow the",
+                "object": {
+                    "text": "not-I repeat-do not put spaces"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Do",
+                        "tense": "present"
+                    },
+                    "text": "Do",
+                    "normalized": "Do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "not-I repeat-do"
+                },
+                "sentence": " parentheses. Do not-I repeat-do not put spaces around the em dash; allow the",
+                "object": {
+                    "text": "spaces"
+                },
+                "action": {
+                    "verb": {
+                        "text": "put",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "put",
+                    "normalized": "put"
+                }
+            },
+            {
+                "subject": {
+                    "text": "words"
+                },
+                "sentence": " words to bump up right next to the em dash to show the immediacy and drama it",
+                "object": {
+                    "text": "right next"
+                },
+                "action": {
+                    "verb": {
+                        "text": "bump",
+                        "tense": "future"
+                    },
+                    "text": "to bump",
+                    "normalized": "to bump"
+                }
+            },
+            {
+                "subject": {
+                    "text": "an em dash"
+                },
+                "sentence": " interjects. To type an em dash on a PC, press alt+ctrl+minus.",
+                "object": {
+                    "text": "on a PC, press alt+ctrl+minus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "type",
+                        "tense": "future"
+                    },
+                    "text": "To type",
+                    "normalized": "To type"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " without numeric keyboards, you can type alt+0151 or insert-special characters",
+                "object": {
+                    "text": "alt+0151 or insert-special characters"
+                },
+                "action": {
+                    "verb": {
+                        "text": "type",
+                        "tense": "future"
+                    },
+                    "text": "can type",
+                    "normalized": "can type"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " them correctly, you have to know the right way to employ them.",
+                "object": {
+                    "text": "to employ them"
+                },
+                "action": {
+                    "verb": {
+                        "text": "know",
+                        "tense": "future"
+                    },
+                    "text": "have to know",
+                    "normalized": "have to know"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " them correctly, you have to know the right way to employ them.",
+                "object": {
+                    "text": "them"
+                },
+                "action": {
+                    "verb": {
+                        "text": "employ",
+                        "tense": "future"
+                    },
+                    "text": "to employ",
+                    "normalized": "to employ"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " If you want to",
+                "object": {
+                    "text": "to"
+                },
+                "action": {
+                    "verb": {
+                        "text": "want",
+                        "tense": "present"
+                    },
+                    "text": "want",
+                    "normalized": "want"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a shiny gold star sticker"
+                },
+                "sentence": " get a shiny gold star sticker on your grammar chart, learn the difference",
+                "object": {
+                    "text": "on your grammar chart"
+                },
+                "action": {
+                    "verb": {
+                        "text": "get",
+                        "tense": "present"
+                    },
+                    "text": "get",
+                    "normalized": "get"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.932823,
+                "label": "/food and drink/cuisines/japanese cuisine"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "Use hyphens",
+                "relevance": 0.708767,
+                "count": 1
+            },
+            {
+                "text": "line break",
+                "relevance": 0.621718,
+                "count": 1
+            },
+            {
+                "text": "numeric keyboards",
+                "relevance": 0.616497,
+                "count": 2
+            },
+            {
+                "text": "shiny gold star sticker",
+                "relevance": 0.611185,
+                "count": 1
+            },
+            {
+                "text": "PC laptops",
+                "relevance": 0.594512,
+                "count": 2
+            },
+            {
+                "text": "Barack Obama",
+                "relevance": 0.591481,
+                "count": 1
+            },
+            {
+                "text": "open Monday",
+                "relevance": 0.584609,
+                "count": 1
+            },
+            {
+                "text": "dramatic substitute",
+                "relevance": 0.578382,
+                "count": 1
+            },
+            {
+                "text": "compound adjectives",
+                "relevance": 0.578259,
+                "count": 2
+            },
+            {
+                "text": "En dashes",
+                "relevance": 0.562763,
+                "count": 2
+            },
+            {
+                "text": "good stuff",
+                "relevance": 0.562571,
+                "count": 1
+            },
+            {
+                "text": "little bit",
+                "relevance": 0.558545,
+                "count": 1
+            },
+            {
+                "text": "hyphens",
+                "relevance": 0.551987,
+                "count": 6
+            },
+            {
+                "text": "em dash",
+                "relevance": 0.547076,
+                "count": 4
+            },
+            {
+                "text": "PC",
+                "relevance": 0.53899,
+                "count": 2
+            },
+            {
+                "text": "en dash",
+                "relevance": 0.535605,
+                "count": 2
+            },
+            {
+                "text": "em",
+                "relevance": 0.529512,
+                "count": 1
+            },
+            {
+                "text": "press option",
+                "relevance": 0.529406,
+                "count": 1
+            },
+            {
+                "text": "grammar chart",
+                "relevance": 0.52732,
+                "count": 1
+            },
+            {
+                "text": "hyphen",
+                "relevance": 0.526064,
+                "count": 3
+            },
+            {
+                "text": "long way",
+                "relevance": 0.525859,
+                "count": 1
+            },
+            {
+                "text": "insert-special characters",
+                "relevance": 0.52355,
+                "count": 2
+            },
+            {
+                "text": "store",
+                "relevance": 0.523277,
+                "count": 1
+            },
+            {
+                "text": "words",
+                "relevance": 0.522946,
+                "count": 1
+            },
+            {
+                "text": "books",
+                "relevance": 0.521412,
+                "count": 1
+            },
+            {
+                "text": "Mac",
+                "relevance": 0.518061,
+                "count": 2
+            },
+            {
+                "text": "syllables",
+                "relevance": 0.517081,
+                "count": 1
+            },
+            {
+                "text": "today",
+                "relevance": 0.51609,
+                "count": 1
+            },
+            {
+                "text": "press",
+                "relevance": 0.515877,
+                "count": 1
+            },
+            {
+                "text": "newspapers",
+                "relevance": 0.515035,
+                "count": 1
+            },
+            {
+                "text": "dashes",
+                "relevance": 0.51485,
+                "count": 3
+            },
+            {
+                "text": "word",
+                "relevance": 0.511479,
+                "count": 3
+            },
+            {
+                "text": "alt",
+                "relevance": 0.51118,
+                "count": 2
+            },
+            {
+                "text": "order",
+                "relevance": 0.510686,
+                "count": 3
+            },
+            {
+                "text": "right punch",
+                "relevance": 0.510334,
+                "count": 1
+            },
+            {
+                "text": "Thunder",
+                "relevance": 0.510096,
+                "count": 1
+            },
+            {
+                "text": "text",
+                "relevance": 0.510096,
+                "count": 1
+            },
+            {
+                "text": "press alt",
+                "relevance": 0.509177,
+                "count": 1
+            },
+            {
+                "text": "spaces",
+                "relevance": 0.508348,
+                "count": 1
+            },
+            {
+                "text": "noun",
+                "relevance": 0.508055,
+                "count": 1
+            },
+            {
+                "text": "adjectives",
+                "relevance": 0.507815,
+                "count": 1
+            },
+            {
+                "text": "shift",
+                "relevance": 0.507241,
+                "count": 1
+            },
+            {
+                "text": "punctuation",
+                "relevance": 0.506827,
+                "count": 1
+            },
+            {
+                "text": "president",
+                "relevance": 0.506174,
+                "count": 1
+            },
+            {
+                "text": "way",
+                "relevance": 0.506006,
+                "count": 1
+            },
+            {
+                "text": "glue",
+                "relevance": 0.505782,
+                "count": 1
+            },
+            {
+                "text": "commas",
+                "relevance": 0.505631,
+                "count": 1
+            },
+            {
+                "text": "spices",
+                "relevance": 0.505458,
+                "count": 1
+            },
+            {
+                "text": "immediacy",
+                "relevance": 0.504644,
+                "count": 1
+            },
+            {
+                "text": "sentences",
+                "relevance": 0.504644,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "dd41b14a56a781dc0102d2be593633a08c142569",
+        "filename": "202005230000NEWSBANKNEWSPPRSD9A1C6FFA647803D0F84C6E4B93D60B.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-23T00:00:00-04:00",
+    "title": "Grammar Guy: A dash of proper punctuation can go a long way",
+    "html": "<p>Have you ever put spicy mustard on a sandwich? If you inadvertently glob on too much of the good stuff, you'll swear you just snorted wasabi.</p>\n<p>When it comes to spices that are in your face (literally and figuratively), a little bit can go a long way.</p>\n\n<p>In the same way, hyphens and dashes-when sprinkled into sentences properly-add just the right punch. Not only will we learn how to youse the hyphen (-) properly today, but we'll also learn how to use both the en (&#150;) and em (-) dashes.</p>\n\n<p>Let's start with hyphens. Hyphens are like glue for two words that are connected. Use hyphens in compound adjectives, which are adjectives that precede a noun they modify in order to connect them together. Examples of compound adjectives include well-known, blue-haired, one-eyed, and ill-conceived. Hyphens are also used to separate numbers (three hundred sixty-five) and to create a line break when syllables of the same word get separated. We still see this sometimes in books and newspapers, but we see it less often now that text is not set by hand.</p>\n\n<p>En dashes (&#150;) are all about range. Use an en dash in order to show a range of numbers. <person>Barack Obama</person> was president from 2008&#150;2016. The Thunder beat the Jazz 120&#150;101. The store is open Monday&#150;Friday, 9:00 a.m.&#150;5:00 p.m. The en dash is named as such because it is about the width of the letter \"n.\" To type an en dash on a PC, press ctrl+minus. For PC laptops without numeric keyboards, you can type alt+0150 or insert-special characters in Word. On a Mac, press option+hyphen.</p>\n\n<p>The em dash (-) is the length of the letter \"m.\" Generally use it as a more dramatic substitute for other punctuation, like commas, colons, semicolons or parentheses. Do not-I repeat-do not put spaces around the em dash; allow the words to bump up right next to the em dash to show the immediacy and drama it interjects. To type an em dash on a PC, press alt+ctrl+minus. For PC laptops without numeric keyboards, you can type alt+0151 or insert-special characters in Word. On a Mac, press option+shift+hyphen.</p>\n\n<p>Dashes and hyphens are generally used incorrectly because, in order to use them correctly, you have to know the right way to employ them. If you want to get a shiny gold star sticker on your grammar chart, learn the difference between hyphens, en dashes and em dashes.</p>",
+    "geoFocus": [
+        [
+            "GU/us.wi.kensha",
+            "Kenosha"
+        ]
+    ]
+}

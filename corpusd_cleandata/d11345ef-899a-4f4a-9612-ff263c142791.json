@@ -1,0 +1,875 @@
+{
+    "id": "d11345ef-899a-4f4a-9612-ff263c142791",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright The Irish Times DAC Jun 5, 2020",
+    "geoOrigin": "Dublin, Ireland",
+    "sourceType": "Newspaper",
+    "source": "Irish Times (Ireland)",
+    "corpus_document_id": "32685430086553648417",
+    "description": "Sir,- Janette Tyrrell is correct that the wearing of masks will not be embraced by the general public until public figures wear them and it is mandatory for certain situations. However, there is more to it than that. At the beginning of June, the UK Royal Society published the Data Evaluation and Learning for Viral Epidemics report on the wearing of masks, which dealt...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "7",
+            "description": "Northern Europe",
+            "code": "LB/neur#7#49#70",
+            "level": 1
+        },
+        {
+            "parent": "LB/neur",
+            "relevance_score": "7",
+            "description": "Republic of Ireland",
+            "code": "LC/ie#7#50#70",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Europe",
+            "code": "LR/eur#7#49#70",
+            "level": 0
+        },
+        {
+            "code": "LS/ie#7#50#70",
+            "description": "",
+            "relevance_score": "7"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Sir, - Janette Tyrrell (Letters, June 3rd) is correct that the wearing of\nmasks will not be embraced by the general public until public figures wear\nthem and it is mandatory for certain situations.\n\nHowever, there is more to it than that. The fact is our public authorities\nhave been ambivalent about them until very recently and are still not\nencouraging people enough.\n\nInitially, it was because they feared a mask might lull people into a sense of\nfalse confidence and relax their guard. Also, and this was a reason we would\nall support, it might deprive healthcare workers of the masks they need.\n\nBut without actually doing something to corral the available masks for\nhealthcare workers, that remains a pious hope, as can be seen by anyone who\nhas tried to buy masks online since the beginning of this situation.\n\nSuch entreaties work about as well as asking people not to buy too much toilet\npaper.\n\nAt the beginning of June, the UK Royal Society published the Data Evaluation\nand Learning for Viral Epidemics report on the wearing of masks, which dealt\nwith these and other issues, and concluded that the use of masks was a good\nstrategy, especially where social distancing might be difficult. The report is\neasily available online.\n\nThere needs to be a much stronger focus on recommending the use of masks\nespecially as the lockdown continues to ease.\n\nOf course, there is a problem with people online selling sub-standard\nequipment and price-gougers, but simple and oft-repeated advice about these\nmatters and how masks should be worn should help with these problems.\n\nThe advice at the moment is better than it was but it is time for the\nauthorities to get off the fence with regard to masks. - Yours, etc,\n\nC CARROLL,\n\nDublin 2.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "<p class=\"LETTER\">At the beginning of June, the <org>UK Royal Society"
+        ],
+        "location": [
+            "<p class=\"LETTER\"><location idsrc=\"xmltag.org\" value=\"LU/ie..dublin\">Dublin"
+        ],
+        "person": [
+            "Janette Tyrrell"
+        ],
+        "companies": [
+            "<p class=\"LETTER\">At the beginning of June, the <org>UK Royal Society"
+        ]
+    },
+    "geoOrigin_code": "RU/ie..dublin",
+    "language": "English",
+    "filename": "202006050000PROQUESTNEWPAPER_2409415244.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.336007,
+                    "label": "positive"
+                },
+                "text": "Janette Tyrrell",
+                "relevance": 0.590085,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dublin",
+                "relevance": 0.439521,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "City"
+                    ],
+                    "name": "Dublin",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Dublin"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "UK Royal Society",
+                "relevance": 0.435719,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "C CARROLL",
+                "relevance": 0.408846,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "masks"
+                },
+                "sentence": " masks will not be embraced by the general public until public figures wear",
+                "object": {
+                    "text": "embraced by the general public"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the general public"
+                },
+                "sentence": " masks will not be embraced by the general public until public figures wear",
+                "object": {
+                    "text": "masks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "embrace",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "embraced",
+                    "normalized": "embrace"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " them and it is mandatory for certain situations.",
+                "object": {
+                    "text": "mandatory for certain situations"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The fact"
+                },
+                "sentence": " The fact is our public authorities",
+                "object": {
+                    "text": "our public authorities"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "been ambivalent about them"
+                },
+                "sentence": " have been ambivalent about them until very recently and are still not",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " Initially, it was because they feared a mask might lull people into a sense of",
+                "object": {
+                    "text": "a mask might lull people into a sense of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "fear",
+                        "tense": "past"
+                    },
+                    "text": "feared",
+                    "normalized": "fear"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " all support, it might deprive healthcare workers of the masks they need.",
+                "object": {
+                    "text": "healthcare workers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "deprive",
+                        "tense": "present"
+                    },
+                    "text": "might deprive",
+                    "normalized": "might deprive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " all support, it might deprive healthcare workers of the masks they need.",
+                "object": {
+                    "text": "the masks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "need",
+                        "tense": "present"
+                    },
+                    "text": "need",
+                    "normalized": "need"
+                }
+            },
+            {
+                "subject": {
+                    "text": "something"
+                },
+                "sentence": " But without actually doing something to corral the available masks for",
+                "object": {
+                    "text": "to corral the available masks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "doing",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "healthcare workers"
+                },
+                "sentence": " healthcare workers, that remains a pious hope, as can be seen by anyone who",
+                "object": {
+                    "text": "seen by anyone who"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "not to buy too much toilet"
+                },
+                "sentence": " Such entreaties work about as well as asking people not to buy too much toilet",
+                "object": {
+                    "text": "people"
+                },
+                "action": {
+                    "verb": {
+                        "text": "ask",
+                        "tense": "present"
+                    },
+                    "text": "asking",
+                    "normalized": "ask"
+                }
+            },
+            {
+                "subject": {
+                    "text": "people"
+                },
+                "sentence": " Such entreaties work about as well as asking people not to buy too much toilet",
+                "object": {
+                    "text": "too much toilet"
+                },
+                "action": {
+                    "verb": {
+                        "text": "buy",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "to buy",
+                    "normalized": "to buy"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the UK Royal Society"
+                },
+                "sentence": " At the beginning of June, the UK Royal Society published the Data Evaluation",
+                "object": {
+                    "text": "the Data Evaluation"
+                },
+                "action": {
+                    "verb": {
+                        "text": "publish",
+                        "tense": "past"
+                    },
+                    "text": "published",
+                    "normalized": "publish"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the use of masks"
+                },
+                "sentence": " with these and other issues, and concluded that the use of masks was a good",
+                "object": {
+                    "text": "a good"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "social distancing"
+                },
+                "sentence": " strategy, especially where social distancing might be difficult.",
+                "object": {
+                    "text": "difficult"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "might be",
+                    "normalized": "might be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "There"
+                },
+                "sentence": " There needs to be a much stronger focus on recommending the use of masks",
+                "object": {
+                    "text": "to be a much stronger focus on recommending the use of masks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "need",
+                        "tense": "present"
+                    },
+                    "text": "needs",
+                    "normalized": "need"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a problem"
+                },
+                "sentence": " Of course, there is a problem with people online selling sub-standard",
+                "object": {
+                    "text": "with people online selling sub-standard"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "matters and how masks"
+                },
+                "sentence": " matters and how masks should be worn should help with these problems.",
+                "object": {
+                    "text": "worn"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "matters and how masks should be worn"
+                },
+                "sentence": " matters and how masks should be worn should help with these problems.",
+                "object": {
+                    "text": "with these problems"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "should help",
+                    "normalized": "should help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The advice at the moment"
+                },
+                "sentence": " The advice at the moment is better than it was but it is time for the",
+                "object": {
+                    "text": "better than it"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "authorities"
+                },
+                "sentence": " authorities to get off the fence with regard to masks.",
+                "object": {
+                    "text": "off the fence"
+                },
+                "action": {
+                    "verb": {
+                        "text": "get",
+                        "tense": "future"
+                    },
+                    "text": "to get",
+                    "normalized": "to get"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.759098,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.703123,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.676716,
+                "label": "/family and parenting/children"
+            }
+        ],
+        "relations": [
+            {
+                "type": "affectedBy",
+                "sentence": "Such entreaties work about as well as asking people not to buy too much toilet paper.",
+                "score": 0.788529,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            864,
+                            870
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "asking",
+                        "location": [
+                            857,
+                            863
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "asking"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "At the beginning of June, the UK Royal Society published the Data Evaluation and Learning for Viral Epidemics report on the wearing of masks, which dealt with these and other issues, and concluded that the use of masks was a good strategy, especially where social distancing might be difficult.",
+                "score": 0.497881,
+                "arguments": [
+                    {
+                        "text": "Royal Society",
+                        "location": [
+                            939,
+                            952
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Royal Society"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "UK",
+                        "location": [
+                            936,
+                            938
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "UK",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Area"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "At the beginning of June, the UK Royal Society published the Data Evaluation and Learning for Viral Epidemics report on the wearing of masks, which dealt with these and other issues, and concluded that the use of masks was a good strategy, especially where social distancing might be difficult.",
+                "score": 0.978765,
+                "arguments": [
+                    {
+                        "text": "Royal Society",
+                        "location": [
+                            939,
+                            952
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Royal Society"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "published",
+                        "location": [
+                            953,
+                            962
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "published"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "At the beginning of June, the UK Royal Society published the Data Evaluation and Learning for Viral Epidemics report on the wearing of masks, which dealt with these and other issues, and concluded that the use of masks was a good strategy, especially where social distancing might be difficult.",
+                "score": 0.759449,
+                "arguments": [
+                    {
+                        "text": "Learning for Viral Epidemics",
+                        "location": [
+                            987,
+                            1015
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Learning for Viral Epidemics"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "report",
+                        "location": [
+                            1016,
+                            1022
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "report"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Such entreaties",
+                "relevance": 0.664358,
+                "count": 1
+            },
+            {
+                "text": "healthcare workers of the masks",
+                "relevance": 0.654956,
+                "count": 1
+            },
+            {
+                "text": "public authorities",
+                "relevance": 0.650152,
+                "count": 1
+            },
+            {
+                "text": "healthcare workers",
+                "relevance": 0.597083,
+                "count": 1
+            },
+            {
+                "text": "Janette Tyrrell",
+                "relevance": 0.589319,
+                "count": 1
+            },
+            {
+                "text": "public figures wear",
+                "relevance": 0.587425,
+                "count": 1
+            },
+            {
+                "text": "much stronger focus",
+                "relevance": 0.576893,
+                "count": 1
+            },
+            {
+                "text": "June 3rd",
+                "relevance": 0.572388,
+                "count": 1
+            },
+            {
+                "text": "price-gougers",
+                "relevance": 0.57033,
+                "count": 1
+            },
+            {
+                "text": "masks",
+                "relevance": 0.562532,
+                "count": 4
+            },
+            {
+                "text": "Viral Epidemics report",
+                "relevance": 0.561576,
+                "count": 1
+            },
+            {
+                "text": "beginning of this situation",
+                "relevance": 0.560535,
+                "count": 1
+            },
+            {
+                "text": "false confidence",
+                "relevance": 0.557312,
+                "count": 1
+            },
+            {
+                "text": "UK Royal Society",
+                "relevance": 0.555773,
+                "count": 1
+            },
+            {
+                "text": "support",
+                "relevance": 0.552888,
+                "count": 1
+            },
+            {
+                "text": "Sir",
+                "relevance": 0.543368,
+                "count": 1
+            },
+            {
+                "text": "available masks",
+                "relevance": 0.526067,
+                "count": 1
+            },
+            {
+                "text": "beginning of June",
+                "relevance": 0.525993,
+                "count": 1
+            },
+            {
+                "text": "fact",
+                "relevance": 0.520957,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.518748,
+                "count": 4
+            },
+            {
+                "text": "advice",
+                "relevance": 0.516933,
+                "count": 2
+            },
+            {
+                "text": "lockdown",
+                "relevance": 0.516469,
+                "count": 1
+            },
+            {
+                "text": "issues",
+                "relevance": 0.515302,
+                "count": 1
+            },
+            {
+                "text": "Letters",
+                "relevance": 0.515033,
+                "count": 1
+            },
+            {
+                "text": "matters",
+                "relevance": 0.513951,
+                "count": 1
+            },
+            {
+                "text": "authorities",
+                "relevance": 0.513913,
+                "count": 1
+            },
+            {
+                "text": "problem",
+                "relevance": 0.511317,
+                "count": 1
+            },
+            {
+                "text": "fence",
+                "relevance": 0.510558,
+                "count": 1
+            },
+            {
+                "text": "use of masks",
+                "relevance": 0.509733,
+                "count": 2
+            },
+            {
+                "text": "moment",
+                "relevance": 0.509155,
+                "count": 1
+            },
+            {
+                "text": "regard",
+                "relevance": 0.508228,
+                "count": 1
+            },
+            {
+                "text": "social distancing",
+                "relevance": 0.507204,
+                "count": 1
+            },
+            {
+                "text": "reason",
+                "relevance": 0.506249,
+                "count": 1
+            },
+            {
+                "text": "guard",
+                "relevance": 0.506249,
+                "count": 1
+            },
+            {
+                "text": "Dublin",
+                "relevance": 0.506249,
+                "count": 1
+            },
+            {
+                "text": "situations",
+                "relevance": 0.506249,
+                "count": 1
+            },
+            {
+                "text": "sense",
+                "relevance": 0.506249,
+                "count": 1
+            },
+            {
+                "text": "problems",
+                "relevance": 0.505659,
+                "count": 1
+            },
+            {
+                "text": "report",
+                "relevance": 0.505286,
+                "count": 1
+            },
+            {
+                "text": "C CARROLL",
+                "relevance": 0.503107,
+                "count": 1
+            },
+            {
+                "text": "pious hope",
+                "relevance": 0.496941,
+                "count": 1
+            },
+            {
+                "text": "wearing of masks",
+                "relevance": 0.49497,
+                "count": 1
+            },
+            {
+                "text": "Data Evaluation",
+                "relevance": 0.486509,
+                "count": 1
+            },
+            {
+                "text": "mask",
+                "relevance": 0.468866,
+                "count": 1
+            },
+            {
+                "text": "wearing",
+                "relevance": 0.447149,
+                "count": 1
+            },
+            {
+                "text": "time",
+                "relevance": 0.443882,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-Sa",
+    "extracted_metadata": {
+        "sha1": "c9b6108ec4ab8b2c1b27e975a5e2fc50875c1127",
+        "filename": "202006050000PROQUESTNEWPAPER_2409415244.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Face coverings and public health",
+    "html": "<p class=\"LETTER\">Sir, - <person>Janette Tyrrell</person> (Letters, <chron>June 3rd</chron>) is correct that the wearing of masks will not be embraced by the general public until public figures wear them and it is mandatory for certain situations.</p><p class=\"LETTER\">However, there is more to it than that. The fact is our public authorities have been ambivalent about them until very recently and are still not encouraging people enough. </p><p class=\"LETTER\">Initially, it was because they feared a mask might lull people into a sense of false confidence and relax their guard. Also, and this was a reason we would all support, it might deprive healthcare workers of the masks they need. </p><p class=\"LETTER\">But without actually doing something to corral the available masks for healthcare workers, that remains a pious hope, as can be seen by anyone who has tried to buy masks online since the beginning of this situation. </p><p class=\"LETTER\">Such entreaties work about as well as asking people not to buy too much toilet paper. </p><p class=\"LETTER\">At the beginning of June, the <org>UK Royal Society</org> published the Data Evaluation and Learning for Viral Epidemics report on the wearing of masks, which dealt with these and other issues, and concluded that the use of masks was a good strategy, especially where social distancing might be difficult. The report is easily available online. </p><p class=\"LETTER\">There needs to be a much stronger focus on recommending the use of masks especially as the lockdown continues to ease. </p><p class=\"LETTER\">Of course, there is a problem with people online selling sub-standard equipment and price-gougers, but simple and oft-repeated advice about these matters and how masks should be worn should help with these problems. </p><p class=\"LETTER\">The advice at the moment is better than it was but it is time for the authorities to get off the fence with regard to masks. - Yours, etc,</p><p class=\"LETTER\">C CARROLL,</p><p class=\"LETTER\"><location idsrc=\"xmltag.org\" value=\"LU/ie..dublin\">Dublin</location> 2.</p>",
+    "geoFocus": [
+        [
+            "GC/ie",
+            "Ireland"
+        ]
+    ]
+}

@@ -1,0 +1,648 @@
+{
+    "id": "e47273cf-73f1-4391-9428-db06aa918587",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c) Copyright: Arab News  2020 All rights reserved. Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "Riyadh, Saudi Arabia",
+    "sourceType": "Newspaper",
+    "source": "Arab News (Saudi Arabia)",
+    "corpus_document_id": "69560083613946664063",
+    "description": "The health ministry reiterated its advisory for people to follow social distancing and other preventive measures to avoid coronavirus transmission. DUBAI: The UAE has recorded 659 new coronavirus cases overnight after conducting additional 54,000 tests, raising the country\u2019 s caseload to 37,018, health ministry officials said. There were also three...",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Western Asia",
+            "code": "LB/was#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/was",
+            "relevance_score": "9",
+            "description": "United Arab Emirates",
+            "code": "LC/ae#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/mde#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#90#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "![](http://imgs.syndigate.info/7/9/88/159133506149.jpeg)\n\nThe health ministry reiterated its advisory for people to follow social\ndistancing and other preventive measures to avoid coronavirus transmission.\n(File/AFP)\n\nShort Url\n\nhttps://arab.news/ndhk3\n\nDUBAI: The UAE has recorded 659 new coronavirus cases overnight after\nconducting additional 54,000 tests, raising the country's caseload to 37,018,\nhealth ministry officials said.\n\nThere were also three fatalities overnight, putting the UAE death toll to 273,\nstate news agency WAM reported.\n\nAnother 419 people meanwhile were cleared of COVID-19 infections, bringing\npatient recoveries to 19,572.\n\nThe health ministry reiterated its advisory for people to follow social\ndistancing and other preventive measures to avoid coronavirus transmission.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "DUBAI",
+            "UAE"
+        ],
+        "person": [
+            "Short Url"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/sa..riyadh",
+    "language": "English",
+    "filename": "202006050131ALBA____ME_NA_NE_2194_176208041_138.14.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "UAE",
+                "relevance": 0.939405,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "United Arab Emirates",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_Arab_Emirates"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.441284,
+                    "label": "positive"
+                },
+                "text": "DUBAI",
+                "relevance": 0.524089,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "Kingdom",
+                        "PlaceWithNeighborhoods",
+                        "City"
+                    ],
+                    "name": "Dubai",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Dubai"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "WAM",
+                "relevance": 0.504143,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The health ministry"
+                },
+                "sentence": " The health ministry reiterated its advisory for people to follow social",
+                "object": {
+                    "text": "its advisory for people to follow social"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reiterate",
+                        "tense": "past"
+                    },
+                    "text": "reiterated",
+                    "normalized": "reiterate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "distancing and other preventive measures"
+                },
+                "sentence": " distancing and other preventive measures to avoid coronavirus transmission.",
+                "object": {
+                    "text": "coronavirus transmission"
+                },
+                "action": {
+                    "verb": {
+                        "text": "avoid",
+                        "tense": "future"
+                    },
+                    "text": "to avoid",
+                    "normalized": "to avoid"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The UAE"
+                },
+                "sentence": " DUBAI: The UAE has recorded 659 new coronavirus cases overnight after",
+                "object": {
+                    "text": "recorded 659 new coronavirus cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The UAE"
+                },
+                "sentence": " DUBAI: The UAE has recorded 659 new coronavirus cases overnight after",
+                "object": {
+                    "text": "659 new coronavirus cases"
+                },
+                "action": {
+                    "verb": {
+                        "text": "record",
+                        "tense": "past"
+                    },
+                    "text": "has recorded",
+                    "normalized": "have record"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the UAE death toll"
+                },
+                "sentence": " There were also three fatalities overnight, putting the UAE death toll to 273,",
+                "object": {
+                    "text": "to 273,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "put",
+                        "tense": "present"
+                    },
+                    "text": "putting",
+                    "normalized": "put"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Another 419 people"
+                },
+                "sentence": " Another 419 people meanwhile were cleared of COVID-19 infections, bringing",
+                "object": {
+                    "text": "cleared of COVID-19 infections"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Another 419 people"
+                },
+                "sentence": " Another 419 people meanwhile were cleared of COVID-19 infections, bringing",
+                "object": {
+                    "text": "of COVID-19 infections"
+                },
+                "action": {
+                    "verb": {
+                        "text": "clear",
+                        "tense": "past"
+                    },
+                    "text": "were cleared",
+                    "normalized": "be clear"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The health ministry"
+                },
+                "sentence": " The health ministry reiterated its advisory for people to follow social",
+                "object": {
+                    "text": "its advisory for people to follow social"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reiterate",
+                        "tense": "past"
+                    },
+                    "text": "reiterated",
+                    "normalized": "reiterate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "distancing and other preventive measures"
+                },
+                "sentence": " distancing and other preventive measures to avoid coronavirus transmission.",
+                "object": {
+                    "text": "coronavirus transmission"
+                },
+                "action": {
+                    "verb": {
+                        "text": "avoid",
+                        "tense": "future"
+                    },
+                    "text": "to avoid",
+                    "normalized": "to avoid"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.779057,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.679108,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.659288,
+                "label": "/health and fitness/men's health"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "The health ministry reiterated its advisory for people to follow social distancing and other preventive measures to avoid coronavirus transmission.",
+                "score": 0.980794,
+                "arguments": [
+                    {
+                        "text": "health ministry",
+                        "location": [
+                            62,
+                            77
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "health ministry",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reiterated",
+                        "location": [
+                            78,
+                            88
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reiterated"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The health ministry reiterated its advisory for people to follow social distancing and other preventive measures to avoid coronavirus transmission.",
+                "score": 0.980794,
+                "arguments": [
+                    {
+                        "text": "health ministry",
+                        "location": [
+                            657,
+                            672
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "health ministry",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reiterated",
+                        "location": [
+                            673,
+                            683
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reiterated"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "DUBAI: The UAE has recorded 659 new coronavirus cases overnight after conducting additional 54,000 tests, raising the country's caseload to 37,018, health ministry officials said.",
+                "score": 0.9283,
+                "arguments": [
+                    {
+                        "text": "officials",
+                        "location": [
+                            418,
+                            427
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officials"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "health ministry",
+                        "location": [
+                            402,
+                            417
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "health ministry",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "DUBAI: The UAE has recorded 659 new coronavirus cases overnight after conducting additional 54,000 tests, raising the country's caseload to 37,018, health ministry officials said.",
+                "score": 0.991601,
+                "arguments": [
+                    {
+                        "text": "officials",
+                        "location": [
+                            418,
+                            427
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officials"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            428,
+                            432
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "There were also three fatalities overnight, putting the UAE death toll to 273, state news agency WAM reported.",
+                "score": 0.972419,
+                "arguments": [
+                    {
+                        "text": "WAM",
+                        "location": [
+                            532,
+                            535
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "WAM"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            536,
+                            544
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Another 419 people meanwhile were cleared of COVID-19 infections, bringing patient recoveries to 19,572.",
+                "score": 0.861224,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            559,
+                            565
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "infections",
+                        "location": [
+                            601,
+                            611
+                        ],
+                        "entities": [
+                            {
+                                "type": "HealthCondition",
+                                "text": "infections"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "health ministry",
+                "relevance": 0.952591,
+                "count": 2
+            },
+            {
+                "text": "health ministry officials",
+                "relevance": 0.726429,
+                "count": 1
+            },
+            {
+                "text": "state news agency WAM",
+                "relevance": 0.707662,
+                "count": 1
+            },
+            {
+                "text": "preventive measures",
+                "relevance": 0.690024,
+                "count": 2
+            },
+            {
+                "text": "people",
+                "relevance": 0.565195,
+                "count": 3
+            },
+            {
+                "text": "fatalities",
+                "relevance": 0.542413,
+                "count": 1
+            },
+            {
+                "text": "UAE",
+                "relevance": 0.541094,
+                "count": 1
+            },
+            {
+                "text": "DUBAI",
+                "relevance": 0.540064,
+                "count": 1
+            },
+            {
+                "text": "tests",
+                "relevance": 0.52703,
+                "count": 1
+            },
+            {
+                "text": "File",
+                "relevance": 0.526505,
+                "count": 1
+            },
+            {
+                "text": "social",
+                "relevance": 0.514337,
+                "count": 2
+            },
+            {
+                "text": "AFP",
+                "relevance": 0.514337,
+                "count": 1
+            },
+            {
+                "text": "UAE death toll",
+                "relevance": 0.510625,
+                "count": 1
+            },
+            {
+                "text": "patient recoveries",
+                "relevance": 0.508764,
+                "count": 1
+            },
+            {
+                "text": "Short Url",
+                "relevance": 0.508764,
+                "count": 1
+            },
+            {
+                "text": "COVID-19 infections",
+                "relevance": 0.499422,
+                "count": 1
+            },
+            {
+                "text": "new coronavirus cases",
+                "relevance": 0.4869,
+                "count": 1
+            },
+            {
+                "text": "coronavirus transmission",
+                "relevance": 0.482808,
+                "count": 2
+            },
+            {
+                "text": "country's caseload",
+                "relevance": 0.470703,
+                "count": 1
+            },
+            {
+                "text": "advisory",
+                "relevance": 0.394595,
+                "count": 2
+            },
+            {
+                "text": "bringing",
+                "relevance": 0.375021,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "03bb82a090c6f9bf81a94b1d260bda5d45c0848c",
+        "filename": "202006050131ALBA____ME_NA_NE_2194_176208041_138.14.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T01:31:00-04:00",
+    "title": "UAE confirms 659 new coronavirus cases [Arab News (Saudi Arabia)]",
+    "html": "<p><img src=\"http://imgs.syndigate.info/7/9/88/159133506149.jpeg\" /></p>\n<p>The health ministry reiterated its advisory for people to follow social distancing and other preventive measures to avoid coronavirus transmission. (File/AFP)</p>\n<p><person>Short Url</person></p>\n<p>https://arab.news/ndhk3</p>\n<p><location idsrc=\"xmltag.org\" value=\"LU/ae..dubai\">DUBAI</location>: The <location idsrc=\"xmltag.org\" value=\"LC/ae\">UAE</location> has recorded 659 new coronavirus cases overnight after conducting additional 54,000 tests, raising the country&#8217;s caseload to 37,018, health ministry officials said.</p>\n<p>There were also three fatalities overnight, putting the <location idsrc=\"xmltag.org\" value=\"LC/ae\">UAE</location> death toll to 273, state news agency WAM reported.</p>\n<p>Another 419 people meanwhile were cleared of COVID-19 infections, bringing patient recoveries to 19,572.</p>\n<p>The health ministry reiterated its advisory for people to follow social distancing and other preventive measures to avoid coronavirus transmission.</p>",
+    "geoFocus": [
+        [
+            "GC/sa",
+            "Saudi Arabia"
+        ]
+    ]
+}

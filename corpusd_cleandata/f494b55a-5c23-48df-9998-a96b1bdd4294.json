@@ -1,0 +1,282 @@
+{
+    "id": "f494b55a-5c23-48df-9998-a96b1bdd4294",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "34798588257816450492",
+    "description": "SYDNEY\u2014 Australia's national news agency will continue with new owners, the board confirmed Friday, just weeks before it was due to be shut down.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/oc",
+            "relevance_score": "9",
+            "description": "Australia and New Zealand",
+            "code": "LB/anz#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/anz",
+            "relevance_score": "9",
+            "description": "Australia",
+            "code": "LC/au#9#90#90",
+            "level": 2
+        },
+        {
+            "code": "LR/anz#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Oceania",
+            "code": "LR/oc#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "SYDNEY (AP) -- Australia's national news agency will continue with new owners,\nthe board confirmed Friday, just weeks before it was due to be shut down.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "SYDNEY",
+            "Australia's"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050407AMSPIDERNEWS_____UTDLYHD2_B224C99704A9BA84E82CC855380823F4_1.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.381783,
+                    "label": "positive"
+                },
+                "text": "SYDNEY",
+                "relevance": 0.523414,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "OlympicBiddingCity",
+                        "OlympicHostCity",
+                        "TouristAttraction",
+                        "City"
+                    ],
+                    "name": "Sydney",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Sydney"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.422538,
+                    "label": "positive"
+                },
+                "text": "Australia",
+                "relevance": 0.424755,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Kingdom",
+                        "Country"
+                    ],
+                    "name": "Australia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Australia"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "the board"
+                },
+                "sentence": " the board confirmed Friday, just weeks before it was due to be shut down.",
+                "action": {
+                    "verb": {
+                        "text": "confirm",
+                        "tense": "past"
+                    },
+                    "text": "confirmed",
+                    "normalized": "confirm"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.717679,
+                "label": "/news/national news"
+            },
+            {
+                "score": 0.703177,
+                "label": "/sports/cricket"
+            },
+            {
+                "score": 0.672875,
+                "label": "/news/international news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "SYDNEY (AP) -- Australia's national news agency will continue with new owners, the board confirmed Friday, just weeks before it was due to be shut down.",
+                "score": 0.900912,
+                "arguments": [
+                    {
+                        "text": "news agency",
+                        "location": [
+                            36,
+                            47
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "news agency"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Australia",
+                        "location": [
+                            15,
+                            24
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Australia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "SYDNEY (AP) -- Australia's national news agency will continue with new owners, the board confirmed Friday, just weeks before it was due to be shut down.",
+                "score": 0.961261,
+                "arguments": [
+                    {
+                        "text": "board",
+                        "location": [
+                            83,
+                            88
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "board"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "confirmed",
+                        "location": [
+                            89,
+                            98
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "confirmed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "SYDNEY (AP) -- Australia's national news agency will continue with new owners, the board confirmed Friday, just weeks before it was due to be shut down.",
+                "score": 0.987685,
+                "arguments": [
+                    {
+                        "text": "Friday",
+                        "location": [
+                            99,
+                            105
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Friday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "confirmed",
+                        "location": [
+                            89,
+                            98
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "confirmed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Australia's national news agency",
+                "relevance": 0.950828,
+                "count": 1
+            },
+            {
+                "text": "SYDNEY",
+                "relevance": 0.764415,
+                "count": 1
+            },
+            {
+                "text": "board",
+                "relevance": 0.677333,
+                "count": 1
+            },
+            {
+                "text": "AP",
+                "relevance": 0.662231,
+                "count": 1
+            },
+            {
+                "text": "weeks",
+                "relevance": 0.554578,
+                "count": 1
+            },
+            {
+                "text": "new owners",
+                "relevance": 0.543578,
+                "count": 1
+            },
+            {
+                "text": "Friday",
+                "relevance": 0.275973,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "9a12c3ea6f72f59d1dc4537eed670dad2da233d7",
+        "filename": "202006050407AMSPIDERNEWS_____UTDLYHD2_B224C99704A9BA84E82CC855380823F4_1.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:07:00-04:00",
+    "title": "Australia's national news agency to survive with new owners [Daily Herald, The (Provo, UT)]",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/au..sydney\">SYDNEY</location> (AP) &#8212; <location idsrc=\"xmltag.org\" value=\"LC/au\">Australia's</location> national news agency will continue with new owners, the board confirmed Friday, just weeks before it was due to be shut down.</p>",
+    "geoFocus": []
+}

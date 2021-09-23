@@ -1,0 +1,277 @@
+{
+    "id": "af7d6de4-5dff-4c65-acdb-f913a5f26699",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "97329380125216986477",
+    "description": "Testing portable devices at the schools more info: Location: GERMANY BidDate: 6/ 9/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: District Office Wartburgkreis Tendering Authority Address: 36433 Bad Salzungen Thuringia Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Testing portable devices at the schools more info : Location : GERMANY BidDate\n: 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority\n: District Office Wartburgkreis Tendering Authority Address : 36433 Bad\nSalzungen Thuringia Financier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_32386_176212344_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "District Office Wartburgkreis Tendering Authority",
+                "relevance": 0.985539,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.926337,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Salzungen Thuringia Financier",
+                "relevance": 0.577652,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.450433,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.489683,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Tenders"
+                },
+                "sentence": " : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority",
+                "object": {
+                    "text": "Authority"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Tendering",
+                        "tense": "present"
+                    },
+                    "text": "Tendering",
+                    "normalized": "Tendering"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.817198,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.723759,
+                "label": "/education/special education"
+            },
+            {
+                "score": 0.615276,
+                "label": "/finance/grants, scholarships and financial aid/government grants"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Testing portable devices at the schools more info : Location : GERMANY BidDate : 6/9/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : District Office Wartburgkreis Tendering Authority Address : 36433 Bad Salzungen Thuringia Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.59893,
+                "arguments": [
+                    {
+                        "text": "6/9/2020 Tender",
+                        "location": [
+                            81,
+                            96
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/9/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority\n: District Office Wartburgkreis Tendering Authority Address :",
+                        "location": [
+                            115,
+                            218
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority\n: District Office Wartburgkreis Tendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.927976,
+                "count": 1
+            },
+            {
+                "text": "portable devices",
+                "relevance": 0.874348,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.717765,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.621953,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.572722,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.554323,
+                "count": 1
+            },
+            {
+                "text": "schools",
+                "relevance": 0.55345,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.539079,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.535089,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.532794,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.532252,
+                "count": 1
+            },
+            {
+                "text": "District Office Wartburgkreis Tendering Authority Address",
+                "relevance": 0.372374,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "c591be1b3ca3414d0a6195b9e8a2b254335fa46a",
+        "filename": "202006050210ALBA____ME_NA_NE_32386_176212344_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Testing portable devices at the schools [TenderNews.com - Tenders (India)]",
+    "html": "<p>Testing portable devices at the schools more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/9/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : District Office Wartburgkreis\nTendering Authority Address : 36433 Bad Salzungen Thuringia\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

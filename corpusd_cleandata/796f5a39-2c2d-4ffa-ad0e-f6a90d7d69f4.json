@@ -1,0 +1,445 @@
+{
+    "id": "796f5a39-2c2d-4ffa-ad0e-f6a90d7d69f4",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 Beloit Daily News, Hagadone Corporation. All rights reserved.",
+    "geoOrigin": "Beloit, Wisconsin",
+    "sourceType": "Newspaper",
+    "source": "Beloit Daily News (WI)",
+    "corpus_document_id": "78466246036312751016",
+    "description": "Inspirational author, blogger and speaker Keri Olson will give a virtual presentation, \" Thanksgiving Everyday\" at 2 p.m. on June 8. Participants can join Olson for a conversation about ways to add joy to life by adopting an attitude of gratitude. This presentation is hosted by the Rock County Council on Aging and the Aging and Disability Resource Center of Rock...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Inspirational author, blogger and speaker Keri Olson will give a virtual\npresentation, \"Thanksgiving Everyday\" at 2 p.m. on June 8. Participants can\njoin Olson for a conversation about ways to add joy to life by adopting an\nattitude of gratitude.\n\nThis presentation is offered at no cost. Pre-registration is required to get\ncodes to attend. Attendance can be online or by phone. To register, email\n[caregiving@co.rock.wi.us](mailto:caregiving@co.rock.wi.us) or call\n608-751-8689.\n\nThis presentation is hosted by the Rock County Council on Aging and the Aging\nand Disability Resource Center of Rock County.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Rock County Council on Aging",
+            "Disability Resource Center of Rock County"
+        ],
+        "location": [],
+        "person": [
+            "Keri Olson"
+        ],
+        "companies": [
+            "Disability Resource Center of Rock County",
+            "Rock County Council on Aging"
+        ]
+    },
+    "geoOrigin_code": "RU/us.wi.beloit",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRSC05AB985883D8635101FE836D5AB045.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.869908,
+                    "label": "positive"
+                },
+                "text": "Keri Olson",
+                "relevance": 0.868756,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.886057,
+                    "label": "negative"
+                },
+                "text": "Disability Resource Center of Rock County",
+                "relevance": 0.609313,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rock County Council",
+                "relevance": 0.509687,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "caregiving@co.rock.wi.us",
+                "relevance": 0.351863,
+                "type": "EmailAddress"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Inspirational author, blogger and speaker Keri Olson"
+                },
+                "sentence": "Inspirational author, blogger and speaker Keri Olson will give a virtual",
+                "object": {
+                    "text": "a virtual"
+                },
+                "action": {
+                    "verb": {
+                        "text": "give",
+                        "tense": "future"
+                    },
+                    "text": "will give",
+                    "normalized": "will give"
+                }
+            },
+            {
+                "subject": {
+                    "text": "joy"
+                },
+                "sentence": " join Olson for a conversation about ways to add joy to life by adopting an",
+                "object": {
+                    "text": "to life"
+                },
+                "action": {
+                    "verb": {
+                        "text": "add",
+                        "tense": "future"
+                    },
+                    "text": "to add",
+                    "normalized": "to add"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This presentation"
+                },
+                "sentence": " This presentation is offered at no cost.",
+                "object": {
+                    "text": "offered at no cost"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Attendance"
+                },
+                "sentence": " Attendance can be online or by phone.",
+                "object": {
+                    "text": "online or by phone"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "can be",
+                    "normalized": "can be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the Rock County Council"
+                },
+                "sentence": " This presentation is hosted by the Rock County Council on Aging and the Aging",
+                "object": {
+                    "text": "This presentation"
+                },
+                "action": {
+                    "verb": {
+                        "text": "host",
+                        "tense": "past"
+                    },
+                    "text": "is hosted",
+                    "normalized": "be host"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.99592,
+                "label": "/health and fitness/aging"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Inspirational author, blogger and speaker Keri Olson will give a virtual presentation, \"Thanksgiving Everyday\" at 2 p.m. on June 8.",
+                "score": 0.843204,
+                "arguments": [
+                    {
+                        "text": "2 p.m.",
+                        "location": [
+                            114,
+                            120
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "2 p.m."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Thanksgiving Everyday",
+                        "location": [
+                            88,
+                            109
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Thanksgiving Everyday"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Inspirational author, blogger and speaker Keri Olson will give a virtual presentation, \"Thanksgiving Everyday\" at 2 p.m. on June 8.",
+                "score": 0.841248,
+                "arguments": [
+                    {
+                        "text": "June 8",
+                        "location": [
+                            124,
+                            130
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "June 8"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Thanksgiving Everyday",
+                        "location": [
+                            88,
+                            109
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Thanksgiving Everyday"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "Participants can join Olson for a conversation about ways to add joy to life by adopting an attitude of gratitude.",
+                "score": 0.717133,
+                "arguments": [
+                    {
+                        "text": "Olson",
+                        "location": [
+                            154,
+                            159
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Keri Olson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "conversation",
+                        "location": [
+                            166,
+                            178
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "conversation"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "This presentation is hosted by the Rock County Council on Aging and the Aging and Disability Resource Center of Rock County.",
+                "score": 0.754716,
+                "arguments": [
+                    {
+                        "text": "Disability Resource Center of Rock County",
+                        "location": [
+                            564,
+                            605
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Disability Resource Center of Rock County"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rock County Council",
+                        "location": [
+                            517,
+                            536
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Rock County Council"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Inspirational author",
+                "relevance": 0.895991,
+                "count": 1
+            },
+            {
+                "text": "speaker Keri Olson",
+                "relevance": 0.762655,
+                "count": 1
+            },
+            {
+                "text": "Disability Resource Center of Rock County",
+                "relevance": 0.749442,
+                "count": 1
+            },
+            {
+                "text": "Pre-registration",
+                "relevance": 0.681443,
+                "count": 1
+            },
+            {
+                "text": "presentation",
+                "relevance": 0.616781,
+                "count": 2
+            },
+            {
+                "text": "Rock County Council",
+                "relevance": 0.596145,
+                "count": 1
+            },
+            {
+                "text": "Thanksgiving Everyday",
+                "relevance": 0.559913,
+                "count": 1
+            },
+            {
+                "text": "blogger",
+                "relevance": 0.549755,
+                "count": 1
+            },
+            {
+                "text": "attitude of gratitude",
+                "relevance": 0.54947,
+                "count": 1
+            },
+            {
+                "text": "Attendance",
+                "relevance": 0.542393,
+                "count": 1
+            },
+            {
+                "text": "conversation",
+                "relevance": 0.541193,
+                "count": 1
+            },
+            {
+                "text": "ways",
+                "relevance": 0.534784,
+                "count": 1
+            },
+            {
+                "text": "Olson",
+                "relevance": 0.531089,
+                "count": 1
+            },
+            {
+                "text": "codes",
+                "relevance": 0.529786,
+                "count": 1
+            },
+            {
+                "text": "joy",
+                "relevance": 0.523681,
+                "count": 1
+            },
+            {
+                "text": "life",
+                "relevance": 0.519535,
+                "count": 1
+            },
+            {
+                "text": "cost",
+                "relevance": 0.516114,
+                "count": 1
+            },
+            {
+                "text": "email",
+                "relevance": 0.516114,
+                "count": 1
+            },
+            {
+                "text": "phone",
+                "relevance": 0.516114,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.516114,
+                "count": 1
+            },
+            {
+                "text": "Participants",
+                "relevance": 0.516114,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.410919,
+                "count": 1
+            },
+            {
+                "text": "Aging",
+                "relevance": 0.399557,
+                "count": 2
+            },
+            {
+                "text": "call",
+                "relevance": 0.39772,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-Sa",
+    "extracted_metadata": {
+        "sha1": "a2708761066c0e62c15cc860d90cdb5e57f52ffa",
+        "filename": "202006010000NEWSBANKNEWSPPRSC05AB985883D8635101FE836D5AB045.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Virtual presentation Saturday by inspirational author",
+    "html": "<p>Inspirational author, blogger and speaker <person>Keri Olson</person> will give a virtual presentation, \"<chron>Thanksgiving</chron> Everyday\" at <chron>2 p.m.</chron> on <chron>June 8</chron>. Participants can join Olson for a conversation about ways to add joy to life by adopting an attitude of gratitude.</p>\n<p>This presentation is offered at no cost. Pre-registration is required to get codes to attend. Attendance can be online or by phone. To register, email <a href=\"mailto:caregiving@co.rock.wi.us\">caregiving@co.rock.wi.us</a> or call 608-751-8689.</p>\n\n<p>This presentation is hosted by the <org>Rock County Council on Aging</org> and the Aging and <org>Disability Resource Center of Rock County</org>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.wi.beloit",
+            "Beloit"
+        ]
+    ]
+}

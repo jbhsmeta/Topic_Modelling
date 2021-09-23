@@ -1,0 +1,427 @@
+{
+    "id": "8711f546-c429-4a63-b8ae-f57c792c6d2e",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright ImpreMedia Operating Company, LLC Dec 17, 2019",
+    "geoOrigin": "Los Angeles, California",
+    "sourceType": "Newspaper",
+    "source": "La Opinion (Los Angeles, CA) (Spanish)",
+    "corpus_document_id": "88840336185617353971",
+    "description": "Hasta el momento, se han registrado 29 v\u00edctimas tan solo en Nueva York a quienes, en total, les sacaron $15,000 d\u00f3lares. Es decir, que cada v\u00edctima perdi\u00f3 unos $520 d\u00f3lares en promedio, aunque hubo una persona a la que la llegaron a estafar con $2,395 d\u00f3lares. Hizo clic en un mensaje de texto y le robaron $6,000 de su cuenta bancaria.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Life and Society",
+    "subjectCode": [],
+    "text": "Los estafadores se estan aprovechando de la debilidad que muchas personas\ntienen por los cachorritos bonitos, ya que los estan utilizando para sacarles\ndinero a montones.\n\nHasta el momento, se han registrado 29 victimas tan solo en Nueva York a\nquienes, en total, **les sacaron $15,000 dolares**. Es decir, que cada victima\nperdio unos $520 dolares en promedio, aunque hubo una persona a la que la\nllegaron a estafar con $2,395 dolares.\n\nRecuerda que **nunca debes enviar dinero a personas o empresas que no\nconoces** , porque una vez que el dinero se ha enviado, es muy dificil\nrecuperarlo. Ademas, es recomendable siempre pagar con una tarjeta de credito,\nya que asi es mas facil reclamar si sufres algun fraude.\n\nPor eso, si algun vendedor te pide pagar con una tarjeta de regalo, por\nejemplo, es muy probable que te quieran estafar.\n\nFuente: [patch.com](http://patch.com)\n\n-Tambien te puede interesar: \u00a1Alerta de fraude! Hizo clic en un mensaje de texto y le robaron $6,000 de su cuenta bancaria\n\nCredito: Redaccion",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Nueva York"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ca.losang",
+    "language": "Spanish",
+    "filename": "201912170000PROQUESTNEWPAPER_2327671924.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Nueva York",
+                "relevance": 0.818325,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "GovernmentalJurisdiction",
+                        "PlaceWithNeighborhoods",
+                        "WineRegion",
+                        "FilmScreeningVenue",
+                        "City"
+                    ],
+                    "name": "New York City",
+                    "dbpedia_resource": "http://dbpedia.org/resource/New_York_City"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Credito",
+                "relevance": 0.709321,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Fuente",
+                "relevance": 0.707674,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "recuperarlo. Ademas",
+                "relevance": 0.658533,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$15,000",
+                "relevance": 0.658533,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$2,395",
+                "relevance": 0.658533,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$6,000",
+                "relevance": 0.658533,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$520",
+                "relevance": 0.658533,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "estan aprovechando de la debilidad que muchas personas"
+                },
+                "sentence": "Los estafadores se estan aprovechando de la debilidad que muchas personas",
+                "object": {
+                    "text": "Los estafadores"
+                },
+                "action": {
+                    "verb": {
+                        "text": "se",
+                        "tense": "present"
+                    },
+                    "text": "se",
+                    "normalized": "se"
+                }
+            },
+            {
+                "subject": {
+                    "text": "quienes"
+                },
+                "sentence": " quienes, en total, **les sacaron $15,000 dolares**.",
+                "object": {
+                    "text": "sacaron"
+                },
+                "action": {
+                    "verb": {
+                        "text": "**les",
+                        "tense": "present"
+                    },
+                    "text": "**les",
+                    "normalized": "**les"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Recuerda que **nunca debes"
+                },
+                "sentence": " Recuerda que **nunca debes enviar dinero a personas o empresas que no",
+                "object": {
+                    "text": "dinero"
+                },
+                "action": {
+                    "verb": {
+                        "text": "enviar",
+                        "tense": "present"
+                    },
+                    "text": "enviar",
+                    "normalized": "enviar"
+                }
+            },
+            {
+                "subject": {
+                    "text": "recomendable siempre pagar con una tarjeta de credito,"
+                },
+                "sentence": " recuperarlo. Ademas, es recomendable siempre pagar con una tarjeta de credito,",
+                "object": {
+                    "text": "recuperarlo. Ademas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "es",
+                        "tense": "present"
+                    },
+                    "text": "es",
+                    "normalized": "es"
+                }
+            },
+            {
+                "subject": {
+                    "text": "ya"
+                },
+                "sentence": " ya que asi es mas facil reclamar si sufres algun fraude.",
+                "object": {
+                    "text": "asi es mas facil reclamar si sufres algun fraude"
+                },
+                "action": {
+                    "verb": {
+                        "text": "que",
+                        "tense": "present"
+                    },
+                    "text": "que",
+                    "normalized": "que"
+                }
+            },
+            {
+                "subject": {
+                    "text": "ya que asi es mas"
+                },
+                "sentence": " ya que asi es mas facil reclamar si sufres algun fraude.",
+                "object": {
+                    "text": "reclamar si sufres algun fraude"
+                },
+                "action": {
+                    "verb": {
+                        "text": "facil",
+                        "tense": "present"
+                    },
+                    "text": "facil",
+                    "normalized": "facil"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.734506,
+                "label": "/sports/wrestling"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "tienen por los cachorritos bonitos",
+                "relevance": 0.805992,
+                "count": 1
+            },
+            {
+                "text": "Hasta el momento",
+                "relevance": 0.773408,
+                "count": 1
+            },
+            {
+                "text": "Tambien te puede interesar",
+                "relevance": 0.681749,
+                "count": 1
+            },
+            {
+                "text": "Es decir",
+                "relevance": 0.619823,
+                "count": 1
+            },
+            {
+                "text": "Por eso",
+                "relevance": 0.618272,
+                "count": 1
+            },
+            {
+                "text": "Recuerda que",
+                "relevance": 0.613864,
+                "count": 1
+            },
+            {
+                "text": "se han registrado",
+                "relevance": 0.595212,
+                "count": 1
+            },
+            {
+                "text": "tan solo en Nueva York",
+                "relevance": 0.574748,
+                "count": 1
+            },
+            {
+                "text": "nunca debes enviar dinero",
+                "relevance": 0.564474,
+                "count": 1
+            },
+            {
+                "text": "aunque hubo una persona",
+                "relevance": 0.541124,
+                "count": 1
+            },
+            {
+                "text": "por",
+                "relevance": 0.526474,
+                "count": 1
+            },
+            {
+                "text": "Los estafadores",
+                "relevance": 0.525748,
+                "count": 1
+            },
+            {
+                "text": "personas",
+                "relevance": 0.518155,
+                "count": 2
+            },
+            {
+                "text": "dolares en promedio",
+                "relevance": 0.5169,
+                "count": 1
+            },
+            {
+                "text": "empresas",
+                "relevance": 0.508601,
+                "count": 1
+            },
+            {
+                "text": "Fuente",
+                "relevance": 0.508601,
+                "count": 1
+            },
+            {
+                "text": "Alerta de fraude",
+                "relevance": 0.495718,
+                "count": 1
+            },
+            {
+                "text": "les sacaron",
+                "relevance": 0.463335,
+                "count": 1
+            },
+            {
+                "text": "recomendable siempre",
+                "relevance": 0.438442,
+                "count": 1
+            },
+            {
+                "text": "quienes",
+                "relevance": 0.408747,
+                "count": 1
+            },
+            {
+                "text": "Ademas",
+                "relevance": 0.405242,
+                "count": 1
+            },
+            {
+                "text": "conoces",
+                "relevance": 0.405242,
+                "count": 1
+            },
+            {
+                "text": "dolares",
+                "relevance": 0.395182,
+                "count": 2
+            },
+            {
+                "text": "es",
+                "relevance": 0.393568,
+                "count": 1
+            },
+            {
+                "text": "Hizo",
+                "relevance": 0.392486,
+                "count": 1
+            },
+            {
+                "text": "victimas",
+                "relevance": 0.391949,
+                "count": 1
+            },
+            {
+                "text": "Redaccion",
+                "relevance": 0.379193,
+                "count": 1
+            },
+            {
+                "text": "fraude",
+                "relevance": 0.379193,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "e570141c097cd478b63594fef85c8ef69cde9046",
+        "filename": "201912170000PROQUESTNEWPAPER_2327671924.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2019-12-17T00:00:00-05:00",
+    "title": "Estafadores de Nueva York ganan hasta $15,000 usando fotos de perritos adorables: A nivel nacional se han recibido m\u00e1s de 16,500 quejas relacionadas con estafas de cachorros",
+    "html": "<p>Los estafadores se est&#225;n aprovechando de la debilidad que muchas personas tienen por los cachorritos bonitos, ya que los est&#225;n utilizando para sacarles dinero a montones.</p>\n<p>Hasta el momento, se han registrado 29 v&#237;ctimas tan solo en <location idsrc=\"xmltag.org\" value=\"LS/us.ny\">Nueva York</location> a quienes, en total, <b>les sacaron <money>$15,000</money> d&#243;lares</b>. Es decir, que cada v&#237;ctima perdi&#243; unos <money>$520</money> d&#243;lares en promedio, aunque hubo una persona a la que la llegaron a estafar con <money>$2,395</money> d&#243;lares.</p>\n<p>Recuerda que <b>nunca debes enviar dinero a personas o empresas que no conoces</b>, porque una vez que el dinero se ha enviado, es muy dif&#237;cil recuperarlo. Adem&#225;s, es recomendable siempre pagar con una tarjeta de cr&#233;dito, ya que as&#237; es m&#225;s f&#225;cil reclamar si sufres alg&#250;n fraude.</p>\n<p>Por eso, si alg&#250;n vendedor te pide pagar con una tarjeta de regalo, por ejemplo, es muy probable que te quieran estafar.</p>\n<p>Fuente: <a href=\"http://patch.com\">patch.com</a></p>\n<p>&#8211;Tambi&#233;n te puede interesar: &#161;Alerta de fraude! Hizo clic en un mensaje de texto y le robaron <money>$6,000</money> de su cuenta bancaria</p>\n<p>Cr&#233;dito: Redacci&#243;n</p>",
+    "geoFocus": [
+        [
+            "GU/us.ca.losang",
+            "Los Angeles"
+        ]
+    ]
+}

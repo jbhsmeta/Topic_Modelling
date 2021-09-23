@@ -1,0 +1,913 @@
+{
+    "id": "d4504a8f-c2fb-420a-9e2b-f17996bb02c6",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 Charlotte Sun",
+    "geoOrigin": "Port Charlotte, Florida",
+    "sourceType": "Newspaper",
+    "source": "Charlotte Sun (Port Charlotte, FL)",
+    "corpus_document_id": "94404149293950963196",
+    "description": "During these trying times, the Federal Reserve has done three major moves to help big business. The Fed has poured multi-trillions into the coffers of big business. The Senate is crying foul.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Government Agencies (U.S.)",
+            "code": "IS/pol.agencies#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "IS/pol.agencies",
+            "relevance_score": "9",
+            "description": "Federal Reserve",
+            "code": "IS/pol.fed#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Legislature",
+            "code": "IS/pol.legislat#9#99#50",
+            "level": 1
+        }
+    ],
+    "text": "Editor:\n\nDuring these trying times, the Federal Reserve has done three major moves to\nhelp big business. Interest cuts, quantitative easing and buying treasuries\nfrom big banks.\n\nThese are all worthy programs and are supported in a bi-partisan way.\n\nThe Fed has poured multi-trillions into the coffers of big business. This is\non top of the three phases of stimulus.\n\nNow comes the HEROES Act, among other things, will makeup for local and state\nbudget shortfalls and give another round of checks to the people. Government\nis not big business. It is \"of the people\" (or should be).\n\nThe Senate is crying foul. They want to do even more for big business.\n\nThe President wants something in return before he even considers it.\n\nThese stances are against the interests \"of the people.\"\n\nIn the April 15 \"Our View\" our FL HD 75 Representative is paraphrased about\npotential budget shortfalls. He's \"hoping\" federal aid can pump extra Medicaid\nmoney into the state. He \"guesses\" some of the water projects will be in\ntrouble. He \"hopes\" the money he was able to get for septic to sewer\nconversion in Charlotte county will survive the cuts.\n\nOnce again Mr. Mike Grant I think you should \"demand\" Senators Rubio and Scott\nvote to pass the HEROES Act. It is time for you to stand up for your share \"of\nthe people.\"\n\nFairness and justice for all,\n\nDavid Jones\n\nEnglewood",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Financial Services and Banking",
+            "code": "II/finserv#9#50#92",
+            "level": 0
+        },
+        {
+            "parent": "II/finserv.lending",
+            "relevance_score": "9",
+            "description": "Banks and Banking",
+            "code": "II/finserv.banking#9#50#92",
+            "level": 2
+        },
+        {
+            "parent": "II/finserv.banking",
+            "relevance_score": "9",
+            "description": "Central Banks",
+            "code": "II/finserv.centbank#9#92#50",
+            "level": 3
+        },
+        {
+            "parent": "II/finserv",
+            "relevance_score": "9",
+            "description": "Lending",
+            "code": "II/finserv.lending#9#50#92",
+            "level": 1
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Federal Reserve",
+            "The Fed",
+            "Senate"
+        ],
+        "location": [],
+        "person": [
+            "Mike Grant",
+            "David Jones"
+        ],
+        "companies": [
+            "The Fed",
+            "Senate",
+            "Federal Reserve"
+        ]
+    },
+    "geoOrigin_code": "RU/us.fl.portte",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRS854C391B25A99FFC631402DF3295361.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.49212,
+                    "label": "negative"
+                },
+                "text": "Federal Reserve",
+                "relevance": 0.760214,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Federal Reserve System",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Federal_Reserve_System"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.456686,
+                    "label": "positive"
+                },
+                "text": "Editor",
+                "relevance": 0.448631,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.639079,
+                    "label": "positive"
+                },
+                "text": "Charlotte county",
+                "relevance": 0.448234,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "CityTown",
+                        "StateOrCounty"
+                    ],
+                    "name": "Charlotte County, New Brunswick",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Charlotte_County,_New_Brunswick"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "HEROES",
+                "relevance": 0.445301,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.672471,
+                    "label": "positive"
+                },
+                "text": "Mr. Mike Grant",
+                "relevance": 0.438832,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "HockeyPlayer"
+                    ],
+                    "name": "Mike Grant",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Mike_Grant"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Englewood",
+                "relevance": 0.432191,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.512338,
+                    "label": "positive"
+                },
+                "text": "David Jones",
+                "relevance": 0.427163,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.795915,
+                    "label": "negative"
+                },
+                "text": "Senate",
+                "relevance": 0.420728,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "President",
+                "relevance": 0.400407,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Representative",
+                "relevance": 0.398528,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rubio",
+                "relevance": 0.376443,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Scott",
+                "relevance": 0.322244,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "these"
+                },
+                "sentence": " During these trying times, the Federal Reserve has done three major moves to",
+                "object": {
+                    "text": "times"
+                },
+                "action": {
+                    "verb": {
+                        "text": "try",
+                        "tense": "present"
+                    },
+                    "text": "trying",
+                    "normalized": "try"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the Federal Reserve"
+                },
+                "sentence": " During these trying times, the Federal Reserve has done three major moves to",
+                "object": {
+                    "text": "done three major moves to"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the Federal Reserve"
+                },
+                "sentence": " During these trying times, the Federal Reserve has done three major moves to",
+                "object": {
+                    "text": "three major moves to"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "past"
+                    },
+                    "text": "has done",
+                    "normalized": "have do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Fed"
+                },
+                "sentence": " The Fed has poured multi-trillions into the coffers of big business.",
+                "object": {
+                    "text": "multi-trillions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "pour",
+                        "tense": "past"
+                    },
+                    "text": "has poured",
+                    "normalized": "have pour"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the HEROES Act"
+                },
+                "sentence": " Now comes the HEROES Act, among other things, will makeup for local and state",
+                "action": {
+                    "verb": {
+                        "text": "come",
+                        "tense": "present"
+                    },
+                    "text": "comes",
+                    "normalized": "come"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It is \"of the people\" (or should be).",
+                "object": {
+                    "text": "of the people\" (or should be)"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Senate"
+                },
+                "sentence": " The Senate is crying foul.",
+                "object": {
+                    "text": "crying foul"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Senate"
+                },
+                "sentence": " The Senate is crying foul.",
+                "object": {
+                    "text": "foul"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cry",
+                        "tense": "present"
+                    },
+                    "text": "is crying",
+                    "normalized": "be cry"
+                }
+            },
+            {
+                "subject": {
+                    "text": "They"
+                },
+                "sentence": " They want to do even more for big business.",
+                "object": {
+                    "text": "to do even more for big business"
+                },
+                "action": {
+                    "verb": {
+                        "text": "want",
+                        "tense": "present"
+                    },
+                    "text": "want",
+                    "normalized": "want"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The President"
+                },
+                "sentence": " The President wants something in return before he even considers it.",
+                "object": {
+                    "text": "something in return"
+                },
+                "action": {
+                    "verb": {
+                        "text": "want",
+                        "tense": "present"
+                    },
+                    "text": "wants",
+                    "normalized": "want"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " The President wants something in return before he even considers it.",
+                "object": {
+                    "text": "it"
+                },
+                "action": {
+                    "verb": {
+                        "text": "consider",
+                        "tense": "present"
+                    },
+                    "text": "considers",
+                    "normalized": "consider"
+                }
+            },
+            {
+                "subject": {
+                    "text": "In the April 15 \"Our View\" our FL HD 75 Representative"
+                },
+                "sentence": " In the April 15 \"Our View\" our FL HD 75 Representative is paraphrased about",
+                "object": {
+                    "text": "paraphrased about"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He's \"hoping\" federal aid can pump extra Medicaid",
+                "object": {
+                    "text": "federal aid can pump extra Medicaid"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He's \"hoping\" federal aid can pump extra Medicaid",
+                "object": {
+                    "text": "federal aid can pump extra Medicaid"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hope",
+                        "tense": "present"
+                    },
+                    "text": "hoping",
+                    "normalized": "hope"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " trouble. He \"hopes\" the money he was able to get for septic to sewer",
+                "object": {
+                    "text": "the money"
+                },
+                "action": {
+                    "verb": {
+                        "text": "get",
+                        "tense": "past"
+                    },
+                    "text": "to get",
+                    "normalized": "to get"
+                }
+            },
+            {
+                "subject": {
+                    "text": "conversion in Charlotte county"
+                },
+                "sentence": " conversion in Charlotte county will survive the cuts.",
+                "object": {
+                    "text": "the cuts"
+                },
+                "action": {
+                    "verb": {
+                        "text": "survive",
+                        "tense": "future"
+                    },
+                    "text": "will survive",
+                    "normalized": "will survive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mr. Mike Grant I"
+                },
+                "sentence": " Once again Mr. Mike Grant I think you should \"demand\" Senators Rubio and Scott",
+                "action": {
+                    "verb": {
+                        "text": "think",
+                        "tense": "present"
+                    },
+                    "text": "think",
+                    "normalized": "think"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " Once again Mr. Mike Grant I think you should \"demand\" Senators Rubio and Scott",
+                "object": {
+                    "text": "Senators Rubio and Scott"
+                },
+                "action": {
+                    "verb": {
+                        "text": "demand",
+                        "tense": "future"
+                    },
+                    "text": "demand",
+                    "normalized": "demand"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.97866,
+                "label": "/finance/bank"
+            },
+            {
+                "score": 0.850302,
+                "label": "/law, govt and politics/government"
+            },
+            {
+                "score": 0.770092,
+                "label": "/society/work/unemployment"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "In the April 15 \"Our View\" our FL HD 75 Representative is paraphrased about potential budget shortfalls.",
+                "score": 0.800316,
+                "arguments": [
+                    {
+                        "text": "April 15",
+                        "location": [
+                            790,
+                            798
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "April 15"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Our View",
+                        "location": [
+                            800,
+                            808
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Our View"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Once again Mr. Mike Grant I think you should \"demand\" Senators Rubio and Scott vote to pass the HEROES Act.",
+                "score": 0.90352,
+                "arguments": [
+                    {
+                        "text": "Rubio",
+                        "location": [
+                            1198,
+                            1203
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Rubio"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Senators",
+                        "location": [
+                            1189,
+                            1197
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Senators"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Once again Mr. Mike Grant I think you should \"demand\" Senators Rubio and Scott vote to pass the HEROES Act.",
+                "score": 0.72095,
+                "arguments": [
+                    {
+                        "text": "Scott",
+                        "location": [
+                            1208,
+                            1213
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Scott"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Senators",
+                        "location": [
+                            1189,
+                            1197
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Senators"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "trying times",
+                "relevance": 0.777424,
+                "count": 1
+            },
+            {
+                "text": "Mr. Mike Grant",
+                "relevance": 0.68779,
+                "count": 1
+            },
+            {
+                "text": "potential budget shortfalls",
+                "relevance": 0.670491,
+                "count": 1
+            },
+            {
+                "text": "Federal Reserve",
+                "relevance": 0.653606,
+                "count": 1
+            },
+            {
+                "text": "worthy programs",
+                "relevance": 0.628909,
+                "count": 1
+            },
+            {
+                "text": "Charlotte county",
+                "relevance": 0.613078,
+                "count": 1
+            },
+            {
+                "text": "quantitative easing",
+                "relevance": 0.583752,
+                "count": 1
+            },
+            {
+                "text": "Interest cuts",
+                "relevance": 0.58222,
+                "count": 1
+            },
+            {
+                "text": "HEROES Act",
+                "relevance": 0.579123,
+                "count": 2
+            },
+            {
+                "text": "water projects",
+                "relevance": 0.561228,
+                "count": 1
+            },
+            {
+                "text": "April",
+                "relevance": 0.537964,
+                "count": 1
+            },
+            {
+                "text": "federal aid",
+                "relevance": 0.536802,
+                "count": 1
+            },
+            {
+                "text": "President",
+                "relevance": 0.531441,
+                "count": 1
+            },
+            {
+                "text": "stances",
+                "relevance": 0.526525,
+                "count": 1
+            },
+            {
+                "text": "big business",
+                "relevance": 0.522684,
+                "count": 3
+            },
+            {
+                "text": "FL HD",
+                "relevance": 0.520257,
+                "count": 1
+            },
+            {
+                "text": "money",
+                "relevance": 0.520198,
+                "count": 1
+            },
+            {
+                "text": "guesses",
+                "relevance": 0.518629,
+                "count": 1
+            },
+            {
+                "text": "Senate",
+                "relevance": 0.518629,
+                "count": 1
+            },
+            {
+                "text": "View",
+                "relevance": 0.516167,
+                "count": 1
+            },
+            {
+                "text": "bi-partisan way",
+                "relevance": 0.514661,
+                "count": 1
+            },
+            {
+                "text": "Fairness",
+                "relevance": 0.513076,
+                "count": 1
+            },
+            {
+                "text": "things",
+                "relevance": 0.512158,
+                "count": 1
+            },
+            {
+                "text": "interests",
+                "relevance": 0.510867,
+                "count": 1
+            },
+            {
+                "text": "makeup",
+                "relevance": 0.510028,
+                "count": 1
+            },
+            {
+                "text": "cuts",
+                "relevance": 0.509503,
+                "count": 1
+            },
+            {
+                "text": "Representative",
+                "relevance": 0.508571,
+                "count": 1
+            },
+            {
+                "text": "Government",
+                "relevance": 0.507069,
+                "count": 1
+            },
+            {
+                "text": "justice",
+                "relevance": 0.507069,
+                "count": 1
+            },
+            {
+                "text": "share",
+                "relevance": 0.507069,
+                "count": 1
+            },
+            {
+                "text": "trouble",
+                "relevance": 0.507069,
+                "count": 1
+            },
+            {
+                "text": "state",
+                "relevance": 0.507069,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.507069,
+                "count": 4
+            },
+            {
+                "text": "treasuries",
+                "relevance": 0.507069,
+                "count": 1
+            },
+            {
+                "text": "Editor",
+                "relevance": 0.507069,
+                "count": 1
+            },
+            {
+                "text": "Senators Rubio",
+                "relevance": 0.505953,
+                "count": 1
+            },
+            {
+                "text": "round of checks",
+                "relevance": 0.502019,
+                "count": 1
+            },
+            {
+                "text": "phases of stimulus",
+                "relevance": 0.500129,
+                "count": 1
+            },
+            {
+                "text": "coffers of big business",
+                "relevance": 0.494207,
+                "count": 1
+            },
+            {
+                "text": "major moves",
+                "relevance": 0.494149,
+                "count": 1
+            },
+            {
+                "text": "hopes",
+                "relevance": 0.491894,
+                "count": 1
+            },
+            {
+                "text": "big banks",
+                "relevance": 0.490609,
+                "count": 1
+            },
+            {
+                "text": "Fed",
+                "relevance": 0.469339,
+                "count": 1
+            },
+            {
+                "text": "top",
+                "relevance": 0.457334,
+                "count": 1
+            },
+            {
+                "text": "time",
+                "relevance": 0.456295,
+                "count": 1
+            },
+            {
+                "text": "return",
+                "relevance": 0.447855,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "052ddf9e4eb8c2304a16d0d00fa86f8f493822f6",
+        "filename": "202005310000NEWSBANKNEWSPPRS854C391B25A99FFC631402DF3295361.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "LETTER: Grant should demand HEROES financial aid",
+    "html": "<p>Editor:</p>\n<p>During these trying times, the <org>Federal Reserve</org> has done three major moves to help big business. Interest cuts, quantitative easing and buying treasuries from big banks.</p>\n\n<p>These are all worthy programs and are supported in a bi-partisan way.</p>\n\n<p><org>The Fed</org> has poured multi-trillions into the coffers of big business. This is on top of the three phases of stimulus.</p>\n\n<p>Now comes the HEROES Act, among other things, will makeup for local and state budget shortfalls and give another round of checks to the people. Government is not big business. It is \"of the people\" (or should be).</p>\n\n<p>The <org>Senate</org> is crying foul. They want to do even more for big business.</p>\n\n<p>The President wants something in return before he even considers it.</p>\n\n<p>These stances are against the interests \"of the people.\"</p>\n\n<p>In the <chron>April 15</chron> \"Our View\" our FL HD 75 Representative is paraphrased about potential budget shortfalls. He's \"hoping\" federal aid can pump extra Medicaid money into the state. He \"guesses\" some of the water projects will be in trouble. He \"hopes\" the money he was able to get for septic to sewer conversion in Charlotte county will survive the cuts.</p>\n\n<p>Once again Mr. <person>Mike Grant</person> I think you should \"demand\" Senators Rubio and Scott vote to pass the HEROES Act. It is time for you to stand up for your share \"of the people.\"</p>\n\n<p>Fairness and justice for all,</p>\n\n<p><person>David Jones</person></p>\n\n<p>Englewood</p>",
+    "geoFocus": [
+        [
+            "GU/us.fl.portte",
+            "Port Charlotte"
+        ]
+    ]
+}

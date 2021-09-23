@@ -1,0 +1,2217 @@
+{
+    "id": "4da95d39-7646-4182-919f-0c26fada0a62",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 The Philadelphia Tribune, All rights reserved.",
+    "geoOrigin": "Philadelphia, Pennsylvania",
+    "sourceType": "Newspaper",
+    "source": "Philadelphia Tribune",
+    "corpus_document_id": "71739768970138681285",
+    "description": "Businesses in Philadelphia and Pittsburgh began to clean up Sunday after peaceful protests over George Floyd's death turned into a night of destruction in the two cities and in others around the country. In Philadelphia, business owners, workers and volunteers were sweeping up broken glass and boarding up broken windows in blocks near Philadelphia's City...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Culture, Entertainment and the Arts, General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Business and Commerce",
+            "code": "IS/biz#9#99#50",
+            "level": 0
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Politics and Government",
+            "code": "IS/pol#6#50#63",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "6",
+            "description": "Social and Political Protest",
+            "code": "IS/pol.protest#6#63#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#5#50#56",
+            "level": 0
+        }
+    ],
+    "text": "Businesses in Philadelphia and Pittsburgh began to clean up Sunday after\npeaceful protests over George Floyd's death turned into a night of destruction\nin the two cities and in others around the country.\n\nIn Philadelphia, business owners, workers and volunteers were sweeping up\nbroken glass and boarding up broken windows in blocks near Philadelphia's City\nHall even as people could still be seen emerging from broken-into stores\ncarrying bags.\n\nCrews were also cleaning up anti-police and other graffiti scrawled on the\nwalls of Philadelphia's City Hall.\n\nBoth cities implemented citywide curfews that were to be in effect Sunday\nnight as well. Gov. Tom Wolf signed a disaster emergency declaration\nauthorizing the adjutant general of the state National Guard and the\nPennsylvania State Police Commissioner to activate personnel to help cities.\n\nIn Philadelphia, police said 100 people had been arrested as of early Sunday,\nincluding 43 for burglary and one for assault on a police officer. Police said\n13 officers were injured, including a bike officer whose leg was broken when\nhe was run over by suspect fleeing in a vehicle with stolen items from a\nbusiness.\n\nIn Pittsburgh, the public safety department said 43 adults and one juvenile\nwere arrested during the Saturday mayhem. Four police officers were injured\nbut all had been discharged from local hospitals.\n\nIn Harrisburg, Mayor Eric Papenfuse said two Capital Police officers were in\nthe hospital and several patrol cars were \"badly damaged by bricks.\" Police\nused pepper spray to disperse a crowd of protesters in the downtown area and a\n9 p.m. curfew was imposed in the city.\n\nSimilar protests, many of which began peacefully and turned violent late\nSaturday, have been happening throughout the country in response to Floyd's\ndeath. Floyd, who was Black, died Monday after a white Minneapolis police\nofficer pressed his knee on his neck until he stopped breathing.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "National Guard",
+            "Pennsylvania State Police",
+            "Capital Police"
+        ],
+        "location": [
+            "Philadelphia",
+            "Pittsburgh",
+            "Philadelphia's",
+            "City Hall",
+            "Harrisburg",
+            "Minneapolis"
+        ],
+        "person": [
+            "George Floyd's",
+            "Tom Wolf",
+            "Eric Papenfuse"
+        ],
+        "companies": [
+            "Pennsylvania State Police",
+            "Capital Police",
+            "National Guard"
+        ]
+    },
+    "geoOrigin_code": "RU/us.pa.phldph",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRS1D94DEA0D671830D36BEE6BB27896DB.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": 0.128509,
+                    "label": "positive"
+                },
+                "text": "Philadelphia",
+                "relevance": 0.968473,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": -0.148456,
+                    "label": "negative"
+                },
+                "text": "George Floyd",
+                "relevance": 0.65882,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "FootballPlayer"
+                    ],
+                    "name": "George Floyd",
+                    "dbpedia_resource": "http://dbpedia.org/resource/George_Floyd"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Pennsylvania State Police",
+                "relevance": 0.605569,
+                "type": "Organization"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": -0.687072,
+                    "label": "negative"
+                },
+                "text": "officer",
+                "relevance": 0.560261,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.258641,
+                    "label": "negative"
+                },
+                "text": "Capital Police",
+                "relevance": 0.51455,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Pittsburgh",
+                "relevance": 0.494415,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Pittsburgh",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Pittsburgh"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.496004,
+                    "label": "negative"
+                },
+                "text": "Gov. Tom Wolf",
+                "relevance": 0.486375,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Writer",
+                        "AwardNominee",
+                        "AwardWinner",
+                        "FilmMusicContributor",
+                        "FilmWriter",
+                        "TVActor"
+                    ],
+                    "name": "Tom Wolfe",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Tom_Wolfe"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.478127,
+                    "label": "positive"
+                },
+                "text": "City Hall",
+                "relevance": 0.447824,
+                "type": "Facility",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "Building",
+                        "Skyscraper"
+                    ],
+                    "name": "Philadelphia City Hall",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Philadelphia_City_Hall"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hall",
+                "relevance": 0.370496,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "adjutant general",
+                "relevance": 0.36972,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "National Guard",
+                "relevance": 0.356109,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "ArmedForce",
+                        "MilitaryUnit"
+                    ],
+                    "name": "National Guard of the United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/National_Guard_of_the_United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.498334,
+                    "label": "negative"
+                },
+                "text": "Minneapolis",
+                "relevance": 0.337287,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Minneapolis",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Minneapolis"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Commissioner",
+                "relevance": 0.325564,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.875613,
+                    "label": "negative"
+                },
+                "text": "burglary",
+                "relevance": 0.323706,
+                "type": "Crime"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.258641,
+                    "label": "negative"
+                },
+                "text": "Eric Papenfuse",
+                "relevance": 0.314183,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Harrisburg",
+                "relevance": 0.312276,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.875613,
+                    "label": "negative"
+                },
+                "text": "assault",
+                "relevance": 0.284231,
+                "type": "Crime"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Businesses in Philadelphia and Pittsburgh"
+                },
+                "sentence": "Businesses in Philadelphia and Pittsburgh began to clean up Sunday after",
+                "action": {
+                    "verb": {
+                        "text": "clean",
+                        "tense": "past"
+                    },
+                    "text": "began to clean",
+                    "normalized": "begin to clean"
+                }
+            },
+            {
+                "subject": {
+                    "text": "business owners, workers and volunteers"
+                },
+                "sentence": " In Philadelphia, business owners, workers and volunteers were sweeping up",
+                "object": {
+                    "text": "sweeping up"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "business owners, workers and volunteers"
+                },
+                "sentence": " In Philadelphia, business owners, workers and volunteers were sweeping up",
+                "action": {
+                    "verb": {
+                        "text": "sweep",
+                        "tense": "past"
+                    },
+                    "text": "were sweeping",
+                    "normalized": "be sweep"
+                }
+            },
+            {
+                "subject": {
+                    "text": "up broken windows"
+                },
+                "sentence": " broken glass and boarding up broken windows in blocks near Philadelphia's City",
+                "action": {
+                    "verb": {
+                        "text": "board",
+                        "tense": "present"
+                    },
+                    "text": "boarding",
+                    "normalized": "board"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Hall even as people"
+                },
+                "sentence": " Hall even as people could still be seen emerging from broken-into stores",
+                "object": {
+                    "text": "seen emerging from broken-into stores"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "people"
+                },
+                "sentence": " Hall even as people could still be seen emerging from broken-into stores",
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "future"
+                    },
+                    "text": "seen",
+                    "normalized": "see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Both cities implemented citywide curfews"
+                },
+                "sentence": " Both cities implemented citywide curfews that were to be in effect Sunday",
+                "object": {
+                    "text": "in effect Sunday"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were to be",
+                    "normalized": "be to be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Gov. Tom Wolf"
+                },
+                "sentence": " Gov. Tom Wolf signed a disaster emergency declaration",
+                "object": {
+                    "text": "a disaster emergency declaration"
+                },
+                "action": {
+                    "verb": {
+                        "text": "sign",
+                        "tense": "past"
+                    },
+                    "text": "signed",
+                    "normalized": "sign"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Pennsylvania State Police Commissioner"
+                },
+                "sentence": " Pennsylvania State Police Commissioner to activate personnel to help cities.",
+                "object": {
+                    "text": "personnel"
+                },
+                "action": {
+                    "verb": {
+                        "text": "activate",
+                        "tense": "future"
+                    },
+                    "text": "to activate",
+                    "normalized": "to activate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "police"
+                },
+                "sentence": " In Philadelphia, police said 100 people had been arrested as of early Sunday,",
+                "object": {
+                    "text": "100 people had been arrested as of early Sunday,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "100 people"
+                },
+                "sentence": " In Philadelphia, police said 100 people had been arrested as of early Sunday,",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had been arrested",
+                    "normalized": "have be arrest"
+                }
+            },
+            {
+                "subject": {
+                    "text": "100 people"
+                },
+                "sentence": " In Philadelphia, police said 100 people had been arrested as of early Sunday,",
+                "object": {
+                    "text": "arrested"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "100 people"
+                },
+                "sentence": " In Philadelphia, police said 100 people had been arrested as of early Sunday,",
+                "action": {
+                    "verb": {
+                        "text": "arrest",
+                        "tense": "past"
+                    },
+                    "text": "had been arrested",
+                    "normalized": "have be arrest"
+                }
+            },
+            {
+                "subject": {
+                    "text": "13 officers"
+                },
+                "sentence": " 13 officers were injured, including a bike officer whose leg was broken when",
+                "object": {
+                    "text": "injured"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " he was run over by suspect fleeing in a vehicle with stolen items from a",
+                "action": {
+                    "verb": {
+                        "text": "flee",
+                        "tense": "past"
+                    },
+                    "text": "fleeing",
+                    "normalized": "flee"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the public safety department"
+                },
+                "sentence": " In Pittsburgh, the public safety department said 43 adults and one juvenile",
+                "object": {
+                    "text": "43 adults and one juvenile"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Four police officers"
+                },
+                "sentence": " Four police officers were injured",
+                "object": {
+                    "text": "injured"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "all"
+                },
+                "sentence": " but all had been discharged from local hospitals.",
+                "object": {
+                    "text": "discharged from local hospitals"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "all"
+                },
+                "sentence": " but all had been discharged from local hospitals.",
+                "object": {
+                    "text": "from local hospitals"
+                },
+                "action": {
+                    "verb": {
+                        "text": "discharge",
+                        "tense": "past"
+                    },
+                    "text": "had been discharged",
+                    "normalized": "have be discharge"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mayor Eric Papenfuse"
+                },
+                "sentence": " In Harrisburg, Mayor Eric Papenfuse said two Capital Police officers were in",
+                "object": {
+                    "text": "two Capital Police officers were in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the hospital and several patrol cars"
+                },
+                "sentence": " the hospital and several patrol cars were \"badly damaged by bricks.\"",
+                "object": {
+                    "text": "badly damaged by bricks"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "were",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by bricks"
+                },
+                "sentence": " the hospital and several patrol cars were \"badly damaged by bricks.\"",
+                "object": {
+                    "text": "the hospital and several patrol cars"
+                },
+                "action": {
+                    "verb": {
+                        "text": "damage",
+                        "tense": "past"
+                    },
+                    "text": "damaged",
+                    "normalized": "damage"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a crowd of protesters"
+                },
+                "sentence": " used pepper spray to disperse a crowd of protesters in the downtown area and a",
+                "action": {
+                    "verb": {
+                        "text": "disperse",
+                        "tense": "future"
+                    },
+                    "text": "to disperse",
+                    "normalized": "to disperse"
+                }
+            },
+            {
+                "subject": {
+                    "text": "9 p.m. curfew"
+                },
+                "sentence": " 9 p.m. curfew was imposed in the city.",
+                "object": {
+                    "text": "imposed in the city"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "9 p.m. curfew"
+                },
+                "sentence": " 9 p.m. curfew was imposed in the city.",
+                "action": {
+                    "verb": {
+                        "text": "impose",
+                        "tense": "past"
+                    },
+                    "text": "was imposed",
+                    "normalized": "be impose"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Similar protests"
+                },
+                "sentence": " Similar protests, many of which began peacefully and turned violent late",
+                "action": {
+                    "verb": {
+                        "text": "turn",
+                        "tense": "past"
+                    },
+                    "text": "turned",
+                    "normalized": "turn"
+                }
+            },
+            {
+                "subject": {
+                    "text": "death. Floyd"
+                },
+                "sentence": " death. Floyd, who was Black, died Monday after a white Minneapolis police",
+                "object": {
+                    "text": "Black"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "death. Floyd, who was Black,"
+                },
+                "sentence": " death. Floyd, who was Black, died Monday after a white Minneapolis police",
+                "action": {
+                    "verb": {
+                        "text": "die",
+                        "tense": "past"
+                    },
+                    "text": "died",
+                    "normalized": "die"
+                }
+            },
+            {
+                "subject": {
+                    "text": "officer"
+                },
+                "sentence": " officer pressed his knee on his neck until he stopped breathing.",
+                "object": {
+                    "text": "his knee"
+                },
+                "action": {
+                    "verb": {
+                        "text": "press",
+                        "tense": "past"
+                    },
+                    "text": "pressed",
+                    "normalized": "press"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " officer pressed his knee on his neck until he stopped breathing.",
+                "object": {
+                    "text": "breathing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "stop",
+                        "tense": "past"
+                    },
+                    "text": "stopped",
+                    "normalized": "stop"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.96346,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.929324,
+                "label": "/law, govt and politics/law enforcement"
+            },
+            {
+                "score": 0.889689,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "basedIn",
+                "sentence": "Businesses in Philadelphia and Pittsburgh began to clean up Sunday after peaceful protests over George Floyd's death turned into a night of destruction in the two cities and in others around the country.",
+                "score": 0.679557,
+                "arguments": [
+                    {
+                        "text": "Businesses",
+                        "location": [
+                            0,
+                            10
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Businesses",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Philadelphia",
+                        "location": [
+                            14,
+                            26
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Philadelphia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "In Philadelphia, police said 100 people had been arrested as of early Sunday, including 43 for burglary and one for assault on a police officer.",
+                "score": 0.523382,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            865,
+                            871
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "department",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Philadelphia",
+                        "location": [
+                            851,
+                            863
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Philadelphia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "In Philadelphia, police said 100 people had been arrested as of early Sunday, including 43 for burglary and one for assault on a police officer.",
+                "score": 0.99819,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            865,
+                            871
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "department",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            872,
+                            876
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "In Pittsburgh, the public safety department said 43 adults and one juvenile were arrested during the Saturday mayhem.",
+                "score": 0.962634,
+                "arguments": [
+                    {
+                        "text": "department",
+                        "location": [
+                            1199,
+                            1209
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "department",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            1210,
+                            1214
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "In Philadelphia, police said 100 people had been arrested as of early Sunday, including 43 for burglary and one for assault on a police officer.",
+                "score": 0.766162,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            881,
+                            887
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "arrested",
+                        "location": [
+                            897,
+                            905
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCustody",
+                                "text": "arrested"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "In Philadelphia, police said 100 people had been arrested as of early Sunday, including 43 for burglary and one for assault on a police officer.",
+                "score": 0.967638,
+                "arguments": [
+                    {
+                        "text": "Sunday",
+                        "location": [
+                            918,
+                            924
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Sunday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "arrested",
+                        "location": [
+                            897,
+                            905
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCustody",
+                                "text": "arrested"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "In Philadelphia, police said 100 people had been arrested as of early Sunday, including 43 for burglary and one for assault on a police officer.",
+                "score": 0.885453,
+                "arguments": [
+                    {
+                        "text": "officer",
+                        "location": [
+                            984,
+                            991
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "police",
+                        "location": [
+                            977,
+                            983
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "department",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Floyd, who was Black, died Monday after a white Minneapolis police officer pressed his knee on his neck until he stopped breathing.",
+                "score": 0.820373,
+                "arguments": [
+                    {
+                        "text": "officer",
+                        "location": [
+                            1864,
+                            1871
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "police",
+                        "location": [
+                            1857,
+                            1863
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "department",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police said 13 officers were injured, including a bike officer whose leg was broken when he was run over by suspect fleeing in a vehicle with stolen items from a business.",
+                "score": 0.858468,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            993,
+                            999
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Pennsylvania State Police"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            1000,
+                            1004
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Police said 13 officers were injured, including a bike officer whose leg was broken when he was run over by suspect fleeing in a vehicle with stolen items from a business.",
+                "score": 0.422294,
+                "arguments": [
+                    {
+                        "text": "officers",
+                        "location": [
+                            1008,
+                            1016
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Police",
+                        "location": [
+                            993,
+                            999
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Pennsylvania State Police"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "In Harrisburg, Mayor Eric Papenfuse said two Capital Police officers were in the hospital and several patrol cars were \"badly damaged by bricks.",
+                "score": 0.588868,
+                "arguments": [
+                    {
+                        "text": "officers",
+                        "location": [
+                            1429,
+                            1437
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Police",
+                        "location": [
+                            1422,
+                            1428
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Pennsylvania State Police"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Police said 13 officers were injured, including a bike officer whose leg was broken when he was run over by suspect fleeing in a vehicle with stolen items from a business.",
+                "score": 0.616722,
+                "arguments": [
+                    {
+                        "text": "officers",
+                        "location": [
+                            1008,
+                            1016
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            1000,
+                            1004
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Police said 13 officers were injured, including a bike officer whose leg was broken when he was run over by suspect fleeing in a vehicle with stolen items from a business.",
+                "score": 0.933703,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            1082,
+                            1084
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "vehicle",
+                        "location": [
+                            1122,
+                            1129
+                        ],
+                        "entities": [
+                            {
+                                "type": "Vehicle",
+                                "text": "vehicle"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Police said 13 officers were injured, including a bike officer whose leg was broken when he was run over by suspect fleeing in a vehicle with stolen items from a business.",
+                "score": 0.714262,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            1082,
+                            1084
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "stolen",
+                        "location": [
+                            1135,
+                            1141
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "stolen"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Businesses in Philadelphia and Pittsburgh began to clean up Sunday after peaceful protests over George Floyd's death turned into a night of destruction in the two cities and in others around the country.",
+                "score": 0.506159,
+                "arguments": [
+                    {
+                        "text": "others",
+                        "location": [
+                            177,
+                            183
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "others"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "country",
+                        "location": [
+                            195,
+                            202
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "country",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "In Pittsburgh, the public safety department said 43 adults and one juvenile were arrested during the Saturday mayhem.",
+                "score": 0.761925,
+                "arguments": [
+                    {
+                        "text": "department",
+                        "location": [
+                            1199,
+                            1209
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "department",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Pittsburgh",
+                        "location": [
+                            1169,
+                            1179
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Pittsburgh"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "In Pittsburgh, the public safety department said 43 adults and one juvenile were arrested during the Saturday mayhem.",
+                "score": 0.953928,
+                "arguments": [
+                    {
+                        "text": "Saturday",
+                        "location": [
+                            1267,
+                            1275
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Saturday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "arrested",
+                        "location": [
+                            1247,
+                            1255
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCustody",
+                                "text": "arrested"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Four police officers were injured but all had been discharged from local hospitals.",
+                "score": 0.952354,
+                "arguments": [
+                    {
+                        "text": "officers",
+                        "location": [
+                            1296,
+                            1304
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "police",
+                        "location": [
+                            1289,
+                            1295
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "department",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "In Harrisburg, Mayor Eric Papenfuse said two Capital Police officers were in the hospital and several patrol cars were \"badly damaged by bricks.",
+                "score": 0.447068,
+                "arguments": [
+                    {
+                        "text": "Mayor",
+                        "location": [
+                            1384,
+                            1389
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Eric Papenfuse"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Harrisburg",
+                        "location": [
+                            1372,
+                            1382
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Harrisburg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "In Harrisburg, Mayor Eric Papenfuse said two Capital Police officers were in the hospital and several patrol cars were \"badly damaged by bricks.",
+                "score": 0.997512,
+                "arguments": [
+                    {
+                        "text": "Eric Papenfuse",
+                        "location": [
+                            1390,
+                            1404
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Eric Papenfuse"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            1405,
+                            1409
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "In Harrisburg, Mayor Eric Papenfuse said two Capital Police officers were in the hospital and several patrol cars were \"badly damaged by bricks.",
+                "score": 0.961222,
+                "arguments": [
+                    {
+                        "text": "Police",
+                        "location": [
+                            1422,
+                            1428
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Pennsylvania State Police"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Capital",
+                        "location": [
+                            1414,
+                            1421
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Capital"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "In Harrisburg, Mayor Eric Papenfuse said two Capital Police officers were in the hospital and several patrol cars were \"badly damaged by bricks.",
+                "score": 0.551332,
+                "arguments": [
+                    {
+                        "text": "officers",
+                        "location": [
+                            1429,
+                            1437
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "hospital",
+                        "location": [
+                            1450,
+                            1458
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "hospital",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "\" Police used pepper spray to disperse a crowd of protesters in the downtown area and a 9 p.m. curfew was imposed in the city.",
+                "score": 0.535824,
+                "arguments": [
+                    {
+                        "text": "protesters",
+                        "location": [
+                            1563,
+                            1573
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "protesters"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "downtown area",
+                        "location": [
+                            1581,
+                            1594
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "downtown area"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Floyd, who was Black, died Monday after a white Minneapolis police officer pressed his knee on his neck until he stopped breathing.",
+                "score": 0.993622,
+                "arguments": [
+                    {
+                        "text": "police",
+                        "location": [
+                            1857,
+                            1863
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "department",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Minneapolis",
+                        "location": [
+                            1845,
+                            1856
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Minneapolis"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Floyd, who was Black, died Monday after a white Minneapolis police officer pressed his knee on his neck until he stopped breathing.",
+                "score": 0.99328,
+                "arguments": [
+                    {
+                        "text": "officer",
+                        "location": [
+                            1864,
+                            1871
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "officer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "pressed",
+                        "location": [
+                            1872,
+                            1879
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "pressed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "In Philadelphia, business owners, workers and volunteers were sweeping up broken glass and boarding up broken windows in blocks near Philadelphia's City Hall even as people could still be seen emerging from broken-into stores carrying bags.",
+                "score": 0.806701,
+                "arguments": [
+                    {
+                        "text": "City\nHall",
+                        "location": [
+                            353,
+                            362
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "City\nHall"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Philadelphia",
+                        "location": [
+                            338,
+                            350
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Philadelphia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "In Philadelphia, business owners, workers and volunteers were sweeping up broken glass and boarding up broken windows in blocks near Philadelphia's City Hall even as people could still be seen emerging from broken-into stores carrying bags.",
+                "score": 0.241676,
+                "arguments": [
+                    {
+                        "text": "people",
+                        "location": [
+                            371,
+                            377
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "people"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "City\nHall",
+                        "location": [
+                            353,
+                            362
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "City\nHall"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Crews were also cleaning up anti-police and other graffiti scrawled on the walls of Philadelphia's City Hall.",
+                "score": 0.881683,
+                "arguments": [
+                    {
+                        "text": "City Hall",
+                        "location": [
+                            546,
+                            555
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "City Hall"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Philadelphia",
+                        "location": [
+                            531,
+                            543
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Philadelphia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Gov. Tom Wolf signed a disaster emergency declaration authorizing the adjutant general of the state National Guard and the Pennsylvania State Police Commissioner to activate personnel to help cities.",
+                "score": 0.736441,
+                "arguments": [
+                    {
+                        "text": "Tom Wolf",
+                        "location": [
+                            652,
+                            660
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Tom Wolf"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "authorizing",
+                        "location": [
+                            701,
+                            712
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "authorizing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Gov. Tom Wolf signed a disaster emergency declaration authorizing the adjutant general of the state National Guard and the Pennsylvania State Police Commissioner to activate personnel to help cities.",
+                "score": 0.944393,
+                "arguments": [
+                    {
+                        "text": "National Guard",
+                        "location": [
+                            747,
+                            761
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "National Guard",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Military"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "state",
+                        "location": [
+                            741,
+                            746
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Pennsylvania State Police"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Gov. Tom Wolf signed a disaster emergency declaration authorizing the adjutant general of the state National Guard and the Pennsylvania State Police Commissioner to activate personnel to help cities.",
+                "score": 0.531328,
+                "arguments": [
+                    {
+                        "text": "Commissioner",
+                        "location": [
+                            796,
+                            808
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Tom Wolf"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Pennsylvania State Police",
+                        "location": [
+                            770,
+                            795
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Pennsylvania State Police"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Gov. Tom Wolf signed a disaster emergency declaration authorizing the adjutant general of the state National Guard and the Pennsylvania State Police Commissioner to activate personnel to help cities.",
+                "score": 0.389782,
+                "arguments": [
+                    {
+                        "text": "personnel",
+                        "location": [
+                            821,
+                            830
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "personnel"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cities",
+                        "location": [
+                            839,
+                            845
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "cities"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "police officer",
+                "relevance": 0.837684,
+                "count": 1
+            },
+            {
+                "text": "broken glass",
+                "relevance": 0.826625,
+                "count": 1
+            },
+            {
+                "text": "anti-police",
+                "relevance": 0.692591,
+                "count": 1
+            },
+            {
+                "text": "broken windows",
+                "relevance": 0.68986,
+                "count": 1
+            },
+            {
+                "text": "peaceful protests",
+                "relevance": 0.624614,
+                "count": 1
+            },
+            {
+                "text": "bike officer",
+                "relevance": 0.608686,
+                "count": 1
+            },
+            {
+                "text": "police officers",
+                "relevance": 0.608223,
+                "count": 1
+            },
+            {
+                "text": "Pennsylvania State Police Commissioner",
+                "relevance": 0.595268,
+                "count": 1
+            },
+            {
+                "text": "local hospitals",
+                "relevance": 0.589442,
+                "count": 1
+            },
+            {
+                "text": "City Hall",
+                "relevance": 0.585195,
+                "count": 1
+            },
+            {
+                "text": "George Floyd's death",
+                "relevance": 0.582724,
+                "count": 1
+            },
+            {
+                "text": "business owners",
+                "relevance": 0.582323,
+                "count": 1
+            },
+            {
+                "text": "Mayor Eric Papenfuse",
+                "relevance": 0.579586,
+                "count": 1
+            },
+            {
+                "text": "pepper spray",
+                "relevance": 0.567719,
+                "count": 1
+            },
+            {
+                "text": "Philadelphia",
+                "relevance": 0.566035,
+                "count": 4
+            },
+            {
+                "text": "walls of Philadelphia",
+                "relevance": 0.563744,
+                "count": 1
+            },
+            {
+                "text": "Capital Police officers",
+                "relevance": 0.547722,
+                "count": 1
+            },
+            {
+                "text": "Saturday mayhem",
+                "relevance": 0.542777,
+                "count": 1
+            },
+            {
+                "text": "officers",
+                "relevance": 0.540434,
+                "count": 1
+            },
+            {
+                "text": "patrol cars",
+                "relevance": 0.538269,
+                "count": 1
+            },
+            {
+                "text": "adjutant general of the state National Guard",
+                "relevance": 0.537201,
+                "count": 1
+            },
+            {
+                "text": "Businesses",
+                "relevance": 0.530912,
+                "count": 1
+            },
+            {
+                "text": "Tom Wolf",
+                "relevance": 0.530713,
+                "count": 1
+            },
+            {
+                "text": "Harrisburg",
+                "relevance": 0.530503,
+                "count": 1
+            },
+            {
+                "text": "Similar protests",
+                "relevance": 0.52974,
+                "count": 1
+            },
+            {
+                "text": "cities",
+                "relevance": 0.526474,
+                "count": 3
+            },
+            {
+                "text": "downtown area",
+                "relevance": 0.525175,
+                "count": 1
+            },
+            {
+                "text": "Pittsburgh",
+                "relevance": 0.523278,
+                "count": 2
+            },
+            {
+                "text": "public safety department",
+                "relevance": 0.520639,
+                "count": 1
+            },
+            {
+                "text": "police",
+                "relevance": 0.517098,
+                "count": 3
+            },
+            {
+                "text": "burglary",
+                "relevance": 0.515774,
+                "count": 1
+            },
+            {
+                "text": "blocks",
+                "relevance": 0.514488,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.514304,
+                "count": 2
+            },
+            {
+                "text": "Floyd",
+                "relevance": 0.513022,
+                "count": 2
+            },
+            {
+                "text": "citywide curfews",
+                "relevance": 0.512778,
+                "count": 1
+            },
+            {
+                "text": "Crews",
+                "relevance": 0.512378,
+                "count": 1
+            },
+            {
+                "text": "leg",
+                "relevance": 0.511923,
+                "count": 1
+            },
+            {
+                "text": "assault",
+                "relevance": 0.511071,
+                "count": 1
+            },
+            {
+                "text": "business",
+                "relevance": 0.510316,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.508173,
+                "count": 2
+            },
+            {
+                "text": "hospital",
+                "relevance": 0.507632,
+                "count": 1
+            },
+            {
+                "text": "others",
+                "relevance": 0.50645,
+                "count": 1
+            },
+            {
+                "text": "response",
+                "relevance": 0.506369,
+                "count": 1
+            },
+            {
+                "text": "personnel",
+                "relevance": 0.506163,
+                "count": 1
+            },
+            {
+                "text": "knee",
+                "relevance": 0.506049,
+                "count": 1
+            },
+            {
+                "text": "curfew",
+                "relevance": 0.505622,
+                "count": 1
+            },
+            {
+                "text": "city",
+                "relevance": 0.505299,
+                "count": 1
+            },
+            {
+                "text": "neck",
+                "relevance": 0.504714,
+                "count": 1
+            },
+            {
+                "text": "vehicle",
+                "relevance": 0.504714,
+                "count": 1
+            },
+            {
+                "text": "workers",
+                "relevance": 0.504714,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Three times a week",
+    "extracted_metadata": {
+        "sha1": "12ea8d2eae83fca8603a4e189731d8c4886aa1a8",
+        "filename": "202005310000NEWSBANKNEWSPPRS1D94DEA0D671830D36BEE6BB27896DB.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "Businesses begin cleanup after protests turn into disorder",
+    "html": "<p>Businesses in <location idsrc=\"xmltag.org\" value=\"LU/us.pa.phldph\">Philadelphia</location> and <location idsrc=\"xmltag.org\" value=\"LU/us.pa.pittbr\">Pittsburgh</location> began to clean up Sunday after peaceful protests over <person>George Floyd's</person> death turned into a night of destruction in the two cities and in others around the country.</p>\n<p>In <location idsrc=\"xmltag.org\" value=\"LU/us.pa.phldph\">Philadelphia</location>, business owners, workers and volunteers were sweeping up broken glass and boarding up broken windows in blocks near <location idsrc=\"xmltag.org\" value=\"LU/us.pa.phldph\">Philadelphia's</location> <location>City Hall</location> even as people could still be seen emerging from broken-into stores carrying bags.</p>\n\n<p>Crews were also cleaning up anti-police and other graffiti scrawled on the walls of <location idsrc=\"xmltag.org\" value=\"LU/us.pa.phldph\">Philadelphia's</location> <location>City Hall</location>.</p>\n\n<p>Both cities implemented citywide curfews that were to be in effect Sunday night as well. Gov. <person>Tom Wolf</person> signed a disaster emergency declaration authorizing the adjutant general of the state <org>National Guard</org> and the <org>Pennsylvania State Police</org> Commissioner to activate personnel to help cities.</p>\n\n<p>In <location idsrc=\"xmltag.org\" value=\"LU/us.pa.phldph\">Philadelphia</location>, police said 100 people had been arrested as of early Sunday, including 43 for burglary and one for assault on a police officer. Police said 13 officers were injured, including a bike officer whose leg was broken when he was run over by suspect fleeing in a vehicle with stolen items from a business.</p>\n\n<p>In <location idsrc=\"xmltag.org\" value=\"LU/us.pa.pittbr\">Pittsburgh</location>, the public safety department said 43 adults and one juvenile were arrested during the Saturday mayhem. Four police officers were injured but all had been discharged from local hospitals.</p>\n\n<p>In <location idsrc=\"xmltag.org\" value=\"LU/us.pa.hrsbrg\">Harrisburg</location>, Mayor <person>Eric Papenfuse</person> said two <org>Capital Police</org> officers were in the hospital and several patrol cars were \"badly damaged by bricks.\" Police used pepper spray to disperse a crowd of protesters in the downtown area and a <chron>9 p.m.</chron> curfew was imposed in the city.</p>\n\n<p>Similar protests, many of which began peacefully and turned violent late Saturday, have been happening throughout the country in response to Floyd's death. Floyd, who was Black, died Monday after a white <location idsrc=\"xmltag.org\" value=\"LU/us.mn.minnea\">Minneapolis</location> police officer pressed his knee on his neck until he stopped breathing.</p>",
+    "geoFocus": [
+        [
+            "GS/us.pa",
+            "Pennsylvania"
+        ]
+    ]
+}

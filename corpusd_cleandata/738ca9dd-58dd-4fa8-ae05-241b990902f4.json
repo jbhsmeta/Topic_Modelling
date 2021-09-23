@@ -1,0 +1,272 @@
+{
+    "id": "738ca9dd-58dd-4fa8-ae05-241b990902f4",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "10325237098148838135",
+    "description": "Three of the authors of an influential article that found hydroxychloroquine increased the risk of death in COVID-19 patients retracted the study on concerns about the quality of the data. MedWorm Message: If you are looking to buy something in the January Sales please visit T",
+    "serviceName": "Health Pharma News",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Northern Europe",
+            "code": "LB/neur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/neur",
+            "relevance_score": "9",
+            "description": "United Kingdom",
+            "code": "LC/gb#9#90#49",
+            "level": 2
+        },
+        {
+            "code": "LC/uk#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "Three of the authors of an influential article that found hydroxychloroquine\nincreased the risk of death in COVID-19 patients retracted the study on\nconcerns about the quality of the data. (Source: CBC | Health) MedWorm\nMessage: If you are looking to buy something in the January Sales please visit\n[TheJanuarySales.com](http://TheJanuarySales.com) for a directory of all the\nbest sales in the UK. Any income gained via affiliate links keeps MedWorm\nrunning.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "UK"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050126AMSPIDERHEPHNEWS_MEDWRM04_83B95BC97A135E58491D4709E7681298_57.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.357667,
+                    "label": "positive"
+                },
+                "text": "CBC",
+                "relevance": 0.923264,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [
+                        "Broadcast",
+                        "AwardWinner",
+                        "TVNetwork",
+                        "TVProducer"
+                    ],
+                    "name": "Canadian Broadcasting Corporation",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Canadian_Broadcasting_Corporation"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "hydroxychloroquine",
+                "relevance": 0.720557,
+                "type": "Drug"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.722769,
+                    "label": "positive"
+                },
+                "text": "UK",
+                "relevance": 0.633265,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "an influential article"
+                },
+                "sentence": "Three of the authors of an influential article that found hydroxychloroquine",
+                "object": {
+                    "text": "hydroxychloroquine"
+                },
+                "action": {
+                    "verb": {
+                        "text": "find",
+                        "tense": "past"
+                    },
+                    "text": "found",
+                    "normalized": "find"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " Message: If you are looking to buy something in the January Sales please visit",
+                "object": {
+                    "text": "to buy something in the January Sales please visit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "look",
+                        "tense": "present"
+                    },
+                    "text": "looking",
+                    "normalized": "look"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " Message: If you are looking to buy something in the January Sales please visit",
+                "object": {
+                    "text": "something"
+                },
+                "action": {
+                    "verb": {
+                        "text": "buy",
+                        "tense": "future"
+                    },
+                    "text": "are looking to buy",
+                    "normalized": "be look to buy"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.80535,
+                "label": "/health and fitness"
+            },
+            {
+                "score": 0.710461,
+                "label": "/health and fitness/men's health"
+            },
+            {
+                "score": 0.633791,
+                "label": "/automotive and vehicles/electric vehicles"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "authors of an influential article",
+                "relevance": 0.822174,
+                "count": 1
+            },
+            {
+                "text": "risk of death",
+                "relevance": 0.742169,
+                "count": 1
+            },
+            {
+                "text": "COVID-19 patients",
+                "relevance": 0.602114,
+                "count": 1
+            },
+            {
+                "text": "income",
+                "relevance": 0.593868,
+                "count": 1
+            },
+            {
+                "text": "January Sales",
+                "relevance": 0.592206,
+                "count": 1
+            },
+            {
+                "text": "affiliate links",
+                "relevance": 0.588862,
+                "count": 1
+            },
+            {
+                "text": "Source",
+                "relevance": 0.579543,
+                "count": 1
+            },
+            {
+                "text": "best sales",
+                "relevance": 0.558218,
+                "count": 1
+            },
+            {
+                "text": "concerns",
+                "relevance": 0.556269,
+                "count": 1
+            },
+            {
+                "text": "CBC",
+                "relevance": 0.543256,
+                "count": 1
+            },
+            {
+                "text": "quality of the data",
+                "relevance": 0.542407,
+                "count": 1
+            },
+            {
+                "text": "Health",
+                "relevance": 0.523695,
+                "count": 1
+            },
+            {
+                "text": "directory",
+                "relevance": 0.521423,
+                "count": 1
+            },
+            {
+                "text": "study",
+                "relevance": 0.521423,
+                "count": 1
+            },
+            {
+                "text": "MedWorm",
+                "relevance": 0.379763,
+                "count": 1
+            },
+            {
+                "text": "UK",
+                "relevance": 0.379763,
+                "count": 1
+            },
+            {
+                "text": "hydroxychloroquine",
+                "relevance": 0.379763,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "665a436d0eede0a17c505152dc244c9c751ffc28",
+        "filename": "202006050126AMSPIDERHEPHNEWS_MEDWRM04_83B95BC97A135E58491D4709E7681298_57.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T01:26:00-04:00",
+    "title": "Influential Lancet hydroxychloroquine study retracted by 3 authors [MedWorm News]",
+    "html": "<p>Three of the authors of an influential article that found hydroxychloroquine increased the risk of death in COVID-19 patients retracted the study on concerns about the quality of the data. (Source: CBC | Health) MedWorm Message: If you are looking to buy something in the January Sales please visit <a href=\"http://TheJanuarySales.com\">TheJanuarySales.com</a> for a directory of all the best sales in the <location idsrc=\"xmltag.org\" value=\"LC/gb\">UK</location>. Any income gained via affiliate links keeps MedWorm running.</p>",
+    "geoFocus": []
+}

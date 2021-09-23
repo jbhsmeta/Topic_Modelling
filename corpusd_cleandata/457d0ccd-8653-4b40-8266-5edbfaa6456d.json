@@ -1,0 +1,196 @@
+{
+    "id": "457d0ccd-8653-4b40-8266-5edbfaa6456d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "85758450595507152669",
+    "description": "Companies should wait for key precedents to be set in their country before entering in disputes with insurers",
+    "serviceName": "Financial Times",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "5",
+            "description": "Health and Wellness",
+            "code": "IS/haw#5#50#58",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "5",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#5#58#58",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "5",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#5#58#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "5",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#5#50#58",
+            "level": 1
+        }
+    ],
+    "text": "Companies should wait for key precedents to be set in their country before\nentering in disputes with insurers",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Insurance",
+            "code": "II/ins#9#99#50",
+            "level": 0
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050003AMSPIDERFINTIMES_FT_MARKT_82F86E12619E83A95184E4E41FAEAA6B_10.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Companies"
+                },
+                "sentence": "Companies should wait for key precedents to be set in their country before",
+                "object": {
+                    "text": "for key precedents to be set in their country before"
+                },
+                "action": {
+                    "verb": {
+                        "text": "wait",
+                        "tense": "future"
+                    },
+                    "text": "should wait",
+                    "normalized": "should wait"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Companies"
+                },
+                "sentence": "Companies should wait for key precedents to be set in their country before",
+                "object": {
+                    "text": "set in their country"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.667906,
+                "label": "/health and fitness/drugs"
+            },
+            {
+                "score": 0.658088,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.655702,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "Companies should wait for key precedents to be set in their country before entering in disputes with insurers",
+                "score": 0.493398,
+                "arguments": [
+                    {
+                        "text": "their",
+                        "location": [
+                            54,
+                            59
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "their"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "country",
+                        "location": [
+                            60,
+                            67
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "country",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "key precedents",
+                "relevance": 0.93287,
+                "count": 1
+            },
+            {
+                "text": "Companies",
+                "relevance": 0.82921,
+                "count": 1
+            },
+            {
+                "text": "disputes",
+                "relevance": 0.616066,
+                "count": 1
+            },
+            {
+                "text": "insurers",
+                "relevance": 0.582209,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.582209,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "0f8bcd13cf875b014d497d9e851a0ae954af7b9d",
+        "filename": "202006050003AMSPIDERFINTIMES_FT_MARKT_82F86E12619E83A95184E4E41FAEAA6B_10.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:03:00-04:00",
+    "title": "How to solve the Covid-19 business interruption mess with fewer lawyers [Financial Times (FT.com) (UK)]",
+    "html": "<p>Companies should wait for key precedents to be set in their country before entering in disputes with insurers</p>",
+    "geoFocus": []
+}

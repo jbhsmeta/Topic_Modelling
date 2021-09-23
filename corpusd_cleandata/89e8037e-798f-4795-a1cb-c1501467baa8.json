@@ -1,0 +1,743 @@
+{
+    "id": "89e8037e-798f-4795-a1cb-c1501467baa8",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright (c) 2020 Federal Information & News Dispatch, Inc.",
+    "geoOrigin": "Washington, District of Columbia",
+    "sourceType": "Government Document",
+    "source": "Washington Daybook (DC)",
+    "corpus_document_id": "13135596492154555648",
+    "description": "EVENT: The Center for American Progress holds a discussion via webcast, beginning at 11 a.m., on \"Reproductive Rights, the Trump Administration and the Supreme Court.\" PARTICIPANTS: Fatima Goss Graves, president and CEO of the National Women's Law Center; Imani Rupert-Gordon, executive director of the National Center for Lesbian Rights; Nancy Northup, president...",
+    "serviceName": "Washington Daybook",
+    "locationCode": [
+        {
+            "parent": "LB/nam",
+            "relevance_score": "7",
+            "description": "United States",
+            "code": "LC/US#7#75#50",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Politics and Government",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Judicial System",
+            "code": "IS/pol.judicial#9#99#50",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Structured Content",
+            "code": "IS/spec#8#50#87",
+            "level": 0
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "8",
+            "description": "Event Announcements",
+            "code": "IS/spec.events#8#87#50",
+            "level": 1
+        }
+    ],
+    "text": "TIME: Advisory\n\nEVENT: The Center for American Progress (CAP) holds a discussion via webcast,\nbeginning at 11 a.m., on \"Reproductive Rights, the Trump Administration and\nthe Supreme Court.\"\n\nPARTICIPANTS: Fatima Goss Graves, president and CEO of the National Women's\nLaw Center; Imani Rupert-Gordon, executive director of the National Center for\nLesbian Rights; Nancy Northup, president and CEO of the Center for\nReproductive Rights; and Winnie Stachelberg, executive vice president for\nexternal affairs at CAP\n\nDATE: June 10, 2020\n\nLOCATION: None given\n\nCONTACT: Tom Caiazza, 202-481-7141,\n[tcaiazza@americanprogress.org](mailto:tcaiazza@americanprogress.org); or\n202-682-1611 [Note: RSVP required. Information on the webcast is available at\n<https://www.americanprogress.org/events/2020/06/02/485808/reproductive-\nrights-trump-supreme-court/> ]",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "The Center for American Progress",
+            "National Women's Law Center",
+            "National Center for Lesbian Rights",
+            "Center for Reproductive Rights"
+        ],
+        "location": [
+            "Trump Administration"
+        ],
+        "person": [
+            "Fatima Goss Graves",
+            "Imani Rupert-Gordon",
+            "Nancy Northup",
+            "Winnie Stachelberg"
+        ],
+        "companies": [
+            "National Center for Lesbian Rights",
+            "National Women's Law Center",
+            "Center for Reproductive Rights",
+            "The Center for American Progress"
+        ]
+    },
+    "geoOrigin_code": "RU/us.dc.wash",
+    "language": "English",
+    "filename": "202006050001FIND____WASHBOOK_NE20200610GE009A.XML",
+    "providerName": "Federal Information & News Dispatch, Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "president and CEO",
+                "relevance": 0.874524,
+                "type": "JobTitle"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "National Center",
+                "relevance": 0.64972,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "executive vice president",
+                "relevance": 0.62674,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.399921,
+                    "label": "positive"
+                },
+                "text": "The Center for American Progress",
+                "relevance": 0.544306,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Website",
+                        "Blog"
+                    ],
+                    "name": "Center for American Progress",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Center_for_American_Progress"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Fatima Goss Graves",
+                "relevance": 0.507362,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Nancy Northup",
+                "relevance": 0.450579,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Nancy Northup",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Nancy_Northup"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.465108,
+                    "label": "positive"
+                },
+                "text": "Trump Administration",
+                "relevance": 0.403645,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.305231,
+                    "label": "positive"
+                },
+                "text": "Imani Rupert-Gordon",
+                "relevance": 0.39797,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "executive director",
+                "relevance": 0.394009,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.506638,
+                    "label": "positive"
+                },
+                "text": "Supreme Court",
+                "relevance": 0.373858,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Winnie Stachelberg",
+                "relevance": 0.372325,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "National Women",
+                "relevance": 0.331061,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tom Caiazza",
+                "relevance": 0.324722,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "tcaiazza@americanprogress.org",
+                "relevance": 0.324722,
+                "type": "EmailAddress"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The Center for American Progress (CAP)"
+                },
+                "sentence": " EVENT: The Center for American Progress (CAP) holds a discussion via webcast,",
+                "object": {
+                    "text": "a discussion"
+                },
+                "action": {
+                    "verb": {
+                        "text": "hold",
+                        "tense": "present"
+                    },
+                    "text": "holds",
+                    "normalized": "hold"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Information on the webcast"
+                },
+                "sentence": " Information on the webcast is available at",
+                "object": {
+                    "text": "available at"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.683455,
+                "label": "/health and fitness/women's health"
+            },
+            {
+                "score": 0.628764,
+                "label": "/society/gay life"
+            },
+            {
+                "score": 0.62661,
+                "label": "/society/sex"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "EVENT: The Center for American Progress (CAP) holds a discussion via webcast, beginning at 11 a.m., on \"Reproductive Rights, the Trump Administration and the Supreme Court.\"",
+                "score": 0.464839,
+                "arguments": [
+                    {
+                        "text": "CAP",
+                        "location": [
+                            57,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Center for American Progress"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "discussion",
+                        "location": [
+                            70,
+                            80
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "discussion"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "EVENT: The Center for American Progress (CAP) holds a discussion via webcast, beginning at 11 a.m., on \"Reproductive Rights, the Trump Administration and the Supreme Court.\"",
+                "score": 0.843063,
+                "arguments": [
+                    {
+                        "text": "11 a.m.",
+                        "location": [
+                            107,
+                            114
+                        ],
+                        "entities": [
+                            {
+                                "type": "Time",
+                                "text": "11 a.m."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "discussion",
+                        "location": [
+                            70,
+                            80
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventMeeting",
+                                "text": "discussion"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "EVENT: The Center for American Progress (CAP) holds a discussion via webcast, beginning at 11 a.m., on \"Reproductive Rights, the Trump Administration and the Supreme Court.\"",
+                "score": 0.904553,
+                "arguments": [
+                    {
+                        "text": "Trump",
+                        "location": [
+                            145,
+                            150
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Trump"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Administration",
+                        "location": [
+                            151,
+                            165
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Center for American Progress"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "PARTICIPANTS: Fatima Goss Graves, president and CEO of the National Women's Law Center; Imani Rupert-Gordon, executive director of the National Center for Lesbian Rights; Nancy Northup, president and CEO of the Center for Reproductive Rights; and Winnie Stachelberg, executive vice president for external affairs at CAP",
+                "score": 0.641917,
+                "arguments": [
+                    {
+                        "text": "president",
+                        "location": [
+                            225,
+                            234
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Fatima Goss Graves"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "National Women's\nLaw Center",
+                        "location": [
+                            250,
+                            277
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "National Women's\nLaw Center"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "PARTICIPANTS: Fatima Goss Graves, president and CEO of the National Women's Law Center; Imani Rupert-Gordon, executive director of the National Center for Lesbian Rights; Nancy Northup, president and CEO of the Center for Reproductive Rights; and Winnie Stachelberg, executive vice president for external affairs at CAP",
+                "score": 0.519118,
+                "arguments": [
+                    {
+                        "text": "CEO",
+                        "location": [
+                            239,
+                            242
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Fatima Goss Graves"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "National Women's\nLaw Center",
+                        "location": [
+                            250,
+                            277
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "National Women's\nLaw Center"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "PARTICIPANTS: Fatima Goss Graves, president and CEO of the National Women's Law Center; Imani Rupert-Gordon, executive director of the National Center for Lesbian Rights; Nancy Northup, president and CEO of the Center for Reproductive Rights; and Winnie Stachelberg, executive vice president for external affairs at CAP",
+                "score": 0.861647,
+                "arguments": [
+                    {
+                        "text": "executive director",
+                        "location": [
+                            300,
+                            318
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Imani Rupert-Gordon"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "National Center for\nLesbian Rights",
+                        "location": [
+                            326,
+                            360
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "National Center for\nLesbian Rights"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "PARTICIPANTS: Fatima Goss Graves, president and CEO of the National Women's Law Center; Imani Rupert-Gordon, executive director of the National Center for Lesbian Rights; Nancy Northup, president and CEO of the Center for Reproductive Rights; and Winnie Stachelberg, executive vice president for external affairs at CAP",
+                "score": 0.597836,
+                "arguments": [
+                    {
+                        "text": "CEO",
+                        "location": [
+                            391,
+                            394
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Fatima Goss Graves"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Center for\nReproductive Rights",
+                        "location": [
+                            402,
+                            432
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Center for\nReproductive Rights"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "PARTICIPANTS: Fatima Goss Graves, president and CEO of the National Women's Law Center; Imani Rupert-Gordon, executive director of the National Center for Lesbian Rights; Nancy Northup, president and CEO of the Center for Reproductive Rights; and Winnie Stachelberg, executive vice president for external affairs at CAP",
+                "score": 0.544565,
+                "arguments": [
+                    {
+                        "text": "executive vice president for\nexternal affairs",
+                        "location": [
+                            458,
+                            503
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Winnie Stachelberg"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "CAP",
+                        "location": [
+                            507,
+                            510
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Center for American Progress"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Reproductive Rights",
+                "relevance": 0.878454,
+                "count": 2
+            },
+            {
+                "text": "Lesbian Rights",
+                "relevance": 0.763278,
+                "count": 1
+            },
+            {
+                "text": "American Progress",
+                "relevance": 0.685523,
+                "count": 1
+            },
+            {
+                "text": "Law Center",
+                "relevance": 0.663218,
+                "count": 1
+            },
+            {
+                "text": "external affairs",
+                "relevance": 0.651274,
+                "count": 1
+            },
+            {
+                "text": "Imani Rupert-Gordon",
+                "relevance": 0.63389,
+                "count": 1
+            },
+            {
+                "text": "Trump Administration",
+                "relevance": 0.62905,
+                "count": 1
+            },
+            {
+                "text": "Fatima Goss Graves",
+                "relevance": 0.611045,
+                "count": 1
+            },
+            {
+                "text": "executive vice president",
+                "relevance": 0.606453,
+                "count": 1
+            },
+            {
+                "text": "executive director of the National Center",
+                "relevance": 0.601017,
+                "count": 1
+            },
+            {
+                "text": "Supreme Court",
+                "relevance": 0.600176,
+                "count": 1
+            },
+            {
+                "text": "Center",
+                "relevance": 0.568042,
+                "count": 1
+            },
+            {
+                "text": "Nancy Northup",
+                "relevance": 0.565492,
+                "count": 1
+            },
+            {
+                "text": "PARTICIPANTS",
+                "relevance": 0.556343,
+                "count": 1
+            },
+            {
+                "text": "CEO of the National Women",
+                "relevance": 0.548834,
+                "count": 1
+            },
+            {
+                "text": "Winnie Stachelberg",
+                "relevance": 0.547421,
+                "count": 1
+            },
+            {
+                "text": "CONTACT",
+                "relevance": 0.530717,
+                "count": 1
+            },
+            {
+                "text": "LOCATION",
+                "relevance": 0.530717,
+                "count": 1
+            },
+            {
+                "text": "president",
+                "relevance": 0.526755,
+                "count": 2
+            },
+            {
+                "text": "Information",
+                "relevance": 0.524941,
+                "count": 1
+            },
+            {
+                "text": "CAP",
+                "relevance": 0.522468,
+                "count": 1
+            },
+            {
+                "text": "webcast",
+                "relevance": 0.521322,
+                "count": 2
+            },
+            {
+                "text": "None",
+                "relevance": 0.516619,
+                "count": 1
+            },
+            {
+                "text": "discussion",
+                "relevance": 0.515289,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.511664,
+                "count": 1
+            },
+            {
+                "text": "rights-trump-supreme",
+                "relevance": 0.508575,
+                "count": 1
+            },
+            {
+                "text": "court",
+                "relevance": 0.505833,
+                "count": 1
+            },
+            {
+                "text": "CEO of the Center",
+                "relevance": 0.490955,
+                "count": 1
+            },
+            {
+                "text": "Tom Caiazza",
+                "relevance": 0.490654,
+                "count": 1
+            },
+            {
+                "text": "available at",
+                "relevance": 0.484013,
+                "count": 1
+            },
+            {
+                "text": "Note",
+                "relevance": 0.420539,
+                "count": 1
+            },
+            {
+                "text": "TIME",
+                "relevance": 0.411625,
+                "count": 1
+            },
+            {
+                "text": "RSVP",
+                "relevance": 0.40683,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.402053,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "b91fec1b9bdf01c7f714118c0e97995f69cfa3ba",
+        "filename": "202006050001FIND____WASHBOOK_NE20200610GE009A.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||The Center For Reproductive Rights Inc|extractor|DUNS:792420283;NECOID:5307477;ACORN:1805233582|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T00:01:00-04:00",
+    "title": "The Center for American Progress (CAP) - Discussion",
+    "html": "<p>TIME: Advisory </p>\n<p>EVENT: <org>The Center for American Progress</org> (CAP) holds a discussion via webcast, beginning at <chron>11 a.m.</chron>, on \"Reproductive Rights, the <location>Trump Administration</location> and the Supreme Court.\"</p>\n<p>PARTICIPANTS: <person>Fatima Goss Graves</person>, president and CEO of the <org>National Women's Law Center</org>; <person>Imani Rupert-Gordon</person>, executive director of the <org>National Center for Lesbian Rights</org>; <person>Nancy Northup</person>, president and CEO of the <org idsrc=\"xmltag.org\" value=\"ACORN:1805233582\">Center for Reproductive Rights</org>; and <person>Winnie Stachelberg</person>, executive vice president for external affairs at CAP</p>\n<p>DATE: <chron>June 10, 2020</chron></p>\n<p>LOCATION: None given</p>\n<p>CONTACT: Tom Caiazza, 202-481-7141, <a href=\"mailto:tcaiazza@americanprogress.org\">tcaiazza@americanprogress.org</a>; or 202-682-1611 [Note: RSVP required. Information on the webcast is available at <a href=\"https://www.americanprogress.org/events/2020/06/02/485808/reproductive-rights-trump-supreme-court/\">https://www.americanprogress.org/events/2020/06/02/485808/reproductive-rights-trump-supreme-court/</a> ]</p>",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ]
+    ]
+}

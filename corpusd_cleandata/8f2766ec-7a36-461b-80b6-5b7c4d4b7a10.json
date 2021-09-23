@@ -1,0 +1,719 @@
+{
+    "id": "8f2766ec-7a36-461b-80b6-5b7c4d4b7a10",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright Indo Asian News Service (IANS) Jun 5, 2020",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "Indo-Asian News Service",
+    "corpus_document_id": "46991147714213150251",
+    "description": "Los Angeles, June 5 Actress Gwyneth Paltrow, 47, drinks a \"superpowder\" twice a day to look as youthful as she did in the nineties. The actress generally goes make-up free when she is not working and she takes antioxidants every day via a glass of her GOOPGLOW superpowder, which she believes helps to keep her skin glowing, reports dailymail.co.uk.",
+    "serviceName": "Journals",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "Los Angeles, June 5 (IANS) Actress Gwyneth Paltrow, 47, drinks a \"superpowder\"\ntwice a day to look as youthful as she did in the nineties.\n\nThe actress generally goes make-up free when she is not working and she takes\nantioxidants every day via a glass of her GOOPGLOW superpowder, which she\nbelieves helps to keep her skin glowing, reports dailymail.co.uk.\n\n\"Every morning without fail, I take my GOOPGLOW. It's packed with Vitamin C\nand E and coenzyme Q10. I always have one in the morning and then one in my\nwater bottle when I'm working out,\" she said.\n\n\"I think it makes a serious difference in my skin all day. It's a power shot\nof vitamins for skin\u0097just as you need a moisturiser, you need antioxidants,\"\nshe added.\n\nMeanwhile, her make-up artist Lisa Aharon recently revealed the star is an\nextremely low-key client.\n\n\\--IANS\n\nnn/vnc",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Consumer Goods",
+            "code": "II/congood#7#50#70",
+            "level": 0
+        },
+        {
+            "parent": "II/congood.perscare",
+            "relevance_score": "7",
+            "description": "Cosmetics",
+            "code": "II/congood.cosmetic#7#70#50",
+            "level": 3
+        },
+        {
+            "parent": "II/congood.personal",
+            "relevance_score": "7",
+            "description": "Personal Care Products",
+            "code": "II/congood.perscare#7#50#70",
+            "level": 2
+        },
+        {
+            "parent": "II/congood",
+            "relevance_score": "7",
+            "description": "Personal Goods",
+            "code": "II/congood.personal#7#50#70",
+            "level": 1
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Los Angeles"
+        ],
+        "person": [
+            "Gwyneth Paltrow",
+            "Lisa Aharon"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050000PROQUESTJOURNALS_2409652189.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Gwyneth Paltrow",
+                "relevance": 0.916294,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Actor",
+                        "MusicalArtist",
+                        "AwardNominee",
+                        "AwardWinner",
+                        "Celebrity",
+                        "FilmActor",
+                        "MusicalGroupMember",
+                        "TheaterActor",
+                        "TVActor"
+                    ],
+                    "name": "Gwyneth Paltrow",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Gwyneth_Paltrow"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Lisa Aharon",
+                "relevance": 0.758204,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "IANS",
+                "relevance": 0.708091,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Los Angeles",
+                "relevance": 0.694327,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Los Angeles, June 5 (IANS) Actress Gwyneth Paltrow, 47,"
+                },
+                "sentence": "Los Angeles, June 5 (IANS) Actress Gwyneth Paltrow, 47, drinks a \"superpowder\"",
+                "object": {
+                    "text": "a \"superpowder\""
+                },
+                "action": {
+                    "verb": {
+                        "text": "drink",
+                        "tense": "present"
+                    },
+                    "text": "drinks",
+                    "normalized": "drink"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": " twice a day to look as youthful as she did in the nineties.",
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "past"
+                    },
+                    "text": "did",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The actress"
+                },
+                "sentence": " The actress generally goes make-up free when she is not working and she takes",
+                "action": {
+                    "verb": {
+                        "text": "go",
+                        "tense": "present"
+                    },
+                    "text": "goes",
+                    "normalized": "go"
+                }
+            },
+            {
+                "subject": {
+                    "text": "her skin"
+                },
+                "sentence": " believes helps to keep her skin glowing, reports dailymail.co.uk.",
+                "object": {
+                    "text": "glowing, reports dailymail.co.uk"
+                },
+                "action": {
+                    "verb": {
+                        "text": "keep",
+                        "tense": "future"
+                    },
+                    "text": "helps to keep",
+                    "normalized": "help to keep"
+                }
+            },
+            {
+                "subject": {
+                    "text": "helps to keep her skin"
+                },
+                "sentence": " believes helps to keep her skin glowing, reports dailymail.co.uk.",
+                "object": {
+                    "text": "dailymail.co.uk"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "present"
+                    },
+                    "text": "reports",
+                    "normalized": "report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " \"Every morning without fail, I take my GOOPGLOW.",
+                "object": {
+                    "text": "my GOOPGLOW"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "present"
+                    },
+                    "text": "take",
+                    "normalized": "take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It's packed with Vitamin C",
+                "object": {
+                    "text": "packed with Vitamin C"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It's packed with Vitamin C",
+                "object": {
+                    "text": "with Vitamin C"
+                },
+                "action": {
+                    "verb": {
+                        "text": "pack",
+                        "tense": "past"
+                    },
+                    "text": "packed",
+                    "normalized": "pack"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I always have one in the morning and then one in my",
+                "object": {
+                    "text": "one"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": " water bottle when I'm working out,\" she said.",
+                "object": {
+                    "text": "water bottle when I'm working out"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " \"I think it makes a serious difference in my skin all day.",
+                "object": {
+                    "text": "it makes a serious difference in my skin all day"
+                },
+                "action": {
+                    "verb": {
+                        "text": "think",
+                        "tense": "present"
+                    },
+                    "text": "think",
+                    "normalized": "think"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " It's a power shot",
+                "object": {
+                    "text": "a power shot"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " of vitamins for skin\u0097just as you need a moisturiser, you need antioxidants,\"",
+                "object": {
+                    "text": "a moisturiser"
+                },
+                "action": {
+                    "verb": {
+                        "text": "need",
+                        "tense": "present"
+                    },
+                    "text": "need",
+                    "normalized": "need"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " of vitamins for skin\u0097just as you need a moisturiser, you need antioxidants,\"",
+                "object": {
+                    "text": "antioxidants"
+                },
+                "action": {
+                    "verb": {
+                        "text": "need",
+                        "tense": "present"
+                    },
+                    "text": "need",
+                    "normalized": "need"
+                }
+            },
+            {
+                "subject": {
+                    "text": "her make-up artist Lisa Aharon"
+                },
+                "sentence": " Meanwhile, her make-up artist Lisa Aharon recently revealed the star is an",
+                "object": {
+                    "text": "the star"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reveal",
+                        "tense": "past"
+                    },
+                    "text": "revealed",
+                    "normalized": "reveal"
+                }
+            },
+            {
+                "subject": {
+                    "text": "her make-up artist Lisa Aharon recently revealed the star"
+                },
+                "sentence": " Meanwhile, her make-up artist Lisa Aharon recently revealed the star is an",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.763205,
+                "label": "/food and drink"
+            },
+            {
+                "score": 0.675419,
+                "label": "/health and fitness"
+            },
+            {
+                "score": 0.612724,
+                "label": "/health and fitness/disease"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "Los Angeles, June 5 (IANS) Actress Gwyneth Paltrow, 47, drinks a \"superpowder\" twice a day to look as youthful as she did in the nineties.",
+                "score": 0.984395,
+                "arguments": [
+                    {
+                        "text": "Gwyneth Paltrow",
+                        "location": [
+                            35,
+                            50
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Gwyneth Paltrow"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "47",
+                        "location": [
+                            52,
+                            54
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "47"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "I always have one in the morning and then one in my water bottle when I'm working out,\" she said.",
+                "score": 0.985453,
+                "arguments": [
+                    {
+                        "text": "she",
+                        "location": [
+                            547,
+                            550
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Gwyneth Paltrow"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            551,
+                            555
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "added"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "It's a power shot of vitamins for skin\u0097just as you need a moisturiser, you need antioxidants,\" she added.",
+                "score": 0.986282,
+                "arguments": [
+                    {
+                        "text": "she",
+                        "location": [
+                            712,
+                            715
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Gwyneth Paltrow"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "added",
+                        "location": [
+                            716,
+                            721
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "added"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Meanwhile, her make-up artist Lisa Aharon recently revealed the star is an extremely low-key client.",
+                "score": 0.988514,
+                "arguments": [
+                    {
+                        "text": "Lisa Aharon",
+                        "location": [
+                            754,
+                            765
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Lisa Aharon"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "revealed",
+                        "location": [
+                            775,
+                            783
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "revealed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Los Angeles",
+                "relevance": 0.876082,
+                "count": 1
+            },
+            {
+                "text": "Actress Gwyneth Paltrow",
+                "relevance": 0.775562,
+                "count": 1
+            },
+            {
+                "text": "Vitamin C",
+                "relevance": 0.679238,
+                "count": 1
+            },
+            {
+                "text": "water bottle",
+                "relevance": 0.644227,
+                "count": 1
+            },
+            {
+                "text": "make-up artist Lisa Aharon",
+                "relevance": 0.612543,
+                "count": 1
+            },
+            {
+                "text": "coenzyme Q10",
+                "relevance": 0.581819,
+                "count": 1
+            },
+            {
+                "text": "serious difference",
+                "relevance": 0.57998,
+                "count": 1
+            },
+            {
+                "text": "low-key client",
+                "relevance": 0.549122,
+                "count": 1
+            },
+            {
+                "text": "day",
+                "relevance": 0.54636,
+                "count": 3
+            },
+            {
+                "text": "skin",
+                "relevance": 0.545881,
+                "count": 3
+            },
+            {
+                "text": "June",
+                "relevance": 0.542097,
+                "count": 1
+            },
+            {
+                "text": "actress",
+                "relevance": 0.539734,
+                "count": 1
+            },
+            {
+                "text": "antioxidants",
+                "relevance": 0.524953,
+                "count": 2
+            },
+            {
+                "text": "vitamins",
+                "relevance": 0.518139,
+                "count": 1
+            },
+            {
+                "text": "star",
+                "relevance": 0.509484,
+                "count": 1
+            },
+            {
+                "text": "power shot",
+                "relevance": 0.49919,
+                "count": 1
+            },
+            {
+                "text": "glass of her GOOPGLOW superpowder",
+                "relevance": 0.482543,
+                "count": 1
+            },
+            {
+                "text": "reports dailymail.co.uk",
+                "relevance": 0.474016,
+                "count": 1
+            },
+            {
+                "text": "make-up",
+                "relevance": 0.451942,
+                "count": 1
+            },
+            {
+                "text": "IANS",
+                "relevance": 0.434453,
+                "count": 1
+            },
+            {
+                "text": "morning",
+                "relevance": 0.42324,
+                "count": 2
+            },
+            {
+                "text": "moisturiser",
+                "relevance": 0.418296,
+                "count": 1
+            },
+            {
+                "text": "fail",
+                "relevance": 0.412879,
+                "count": 1
+            },
+            {
+                "text": "vnc",
+                "relevance": 0.409934,
+                "count": 1
+            },
+            {
+                "text": "superpowder",
+                "relevance": 0.409934,
+                "count": 1
+            },
+            {
+                "text": "GOOPGLOW",
+                "relevance": 0.405839,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "eb6828a22edc355d31bc1303330ebd095d96ff57",
+        "filename": "202006050000PROQUESTJOURNALS_2409652189.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Gwyneth Paltrow drinks 'superpowder' for youthful looks",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.ca.losang\">Los Angeles</location>, <chron>June 5</chron> (IANS) Actress <person>Gwyneth Paltrow</person>, 47, drinks a \"superpowder\" twice a day to look as youthful as she did in the nineties.</p>\n<p>The actress generally goes make-up free when she is not working and she takes antioxidants every day via a glass of her GOOPGLOW superpowder, which she believes helps to keep her skin glowing, reports dailymail.co.uk.</p>\n<p>\"Every morning without fail, I take my GOOPGLOW. It's packed with Vitamin C and E and coenzyme Q10. I always have one in the morning and then one in my water bottle when I'm working out,\" she said. </p>\n<p>\"I think it makes a serious difference in my skin all day. It's a power shot of vitamins for skin&#151;just as you need a moisturiser, you need antioxidants,\" she added. </p>\n<p>Meanwhile, her make-up artist <person>Lisa Aharon</person> recently revealed the star is an extremely low-key client.</p>\n<p>--IANS</p>\n<p>nn/vnc</p>",
+    "geoFocus": [
+        [
+            "GB/sas",
+            "Southern Asia"
+        ]
+    ]
+}

@@ -1,0 +1,609 @@
+{
+    "id": "4810e691-0312-4d42-a85d-601efe997a21",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright, 2020, The Horry Independent, All Rights Reserved.",
+    "geoOrigin": "Conway, South Carolina",
+    "sourceType": "Newspaper",
+    "source": "Horry Independent, The (Conway, SC)",
+    "corpus_document_id": "59566804648848576643",
+    "description": "To the voters of Horry County,. Here in Horry County we have a great opportunity to make changes to our \"great\" Horry County Council. Here in District 9 our vote is for Terry Fowler.",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Local Government",
+            "code": "IS/pol.local#9#99#50",
+            "level": 1
+        }
+    ],
+    "text": "To the voters of Horry County,\n\nFor some time now, we have been wanting to \"Drain the Swamp.\" Well, the time\nis here. We need to start with town government right on up to the federal\ngovernment. Here in Horry County we have a great opportunity to make changes\nto our \"great\" Horry County Council. Several seats are up for grabs. Every\nmember needs to be replaced, including chairman Johnny Gardner (I am sorry I\nvoted for him). In some cases, we don't just need new members, we need new\nblood, if y'all get my drift. Here in District 9 our vote is for Terry Fowler.\n\nJohn Fischer\n\nLongs",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Horry County Council"
+        ],
+        "location": [
+            "Horry County",
+            "District 9"
+        ],
+        "person": [
+            "Johnny Gardner",
+            "Terry Fowler",
+            "John Fischer"
+        ],
+        "companies": [
+            "Horry County Council"
+        ]
+    },
+    "geoOrigin_code": "RU/us.sc.conway",
+    "language": "English",
+    "filename": "202005220000NEWSBANKNEWSPPRS87953A3A9606A85A4039D2AD71047DA.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.112477,
+                    "label": "positive"
+                },
+                "text": "Horry County",
+                "relevance": 0.881111,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Horry County, South Carolina",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Horry_County,_South_Carolina"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Horry County Council",
+                "relevance": 0.61335,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Johnny Gardner",
+                "relevance": 0.350013,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Johnny Gardner",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Johnny_Gardner"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.581035,
+                    "label": "positive"
+                },
+                "text": "Terry Fowler",
+                "relevance": 0.275039,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.462432,
+                    "label": "positive"
+                },
+                "text": "John Fischer",
+                "relevance": 0.24999,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "chairman",
+                "relevance": 0.228627,
+                "type": "JobTitle"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " For some time now, we have been wanting to \"Drain the Swamp.\"",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have been wanting to",
+                    "normalized": "have be want to"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " For some time now, we have been wanting to \"Drain the Swamp.\"",
+                "object": {
+                    "text": "wanting to \"Drain the Swamp"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " For some time now, we have been wanting to \"Drain the Swamp.\"",
+                "object": {
+                    "text": "to \"Drain the Swamp"
+                },
+                "action": {
+                    "verb": {
+                        "text": "want",
+                        "tense": "past"
+                    },
+                    "text": "wanting",
+                    "normalized": "want"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " For some time now, we have been wanting to \"Drain the Swamp.\"",
+                "object": {
+                    "text": "the Swamp"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Drain",
+                        "tense": "present"
+                    },
+                    "text": "Drain",
+                    "normalized": "Drain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " government. Here in Horry County we have a great opportunity to make changes",
+                "object": {
+                    "text": "a great opportunity to make changes"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " government. Here in Horry County we have a great opportunity to make changes",
+                "object": {
+                    "text": "changes"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "future"
+                    },
+                    "text": "to make",
+                    "normalized": "to make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "member"
+                },
+                "sentence": " member needs to be replaced, including chairman Johnny Gardner (I am sorry I",
+                "object": {
+                    "text": "to be replaced"
+                },
+                "action": {
+                    "verb": {
+                        "text": "need",
+                        "tense": "present"
+                    },
+                    "text": "needs",
+                    "normalized": "need"
+                }
+            },
+            {
+                "subject": {
+                    "text": "member"
+                },
+                "sentence": " member needs to be replaced, including chairman Johnny Gardner (I am sorry I",
+                "object": {
+                    "text": "replaced"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " member needs to be replaced, including chairman Johnny Gardner (I am sorry I",
+                "object": {
+                    "text": "sorry I"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "am",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " In some cases, we don't just need new members, we need new",
+                "object": {
+                    "text": "just need new members"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "do",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " In some cases, we don't just need new members, we need new",
+                "object": {
+                    "text": "new members"
+                },
+                "action": {
+                    "verb": {
+                        "text": "need",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "need",
+                    "normalized": "need"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " In some cases, we don't just need new members, we need new",
+                "object": {
+                    "text": "new"
+                },
+                "action": {
+                    "verb": {
+                        "text": "need",
+                        "tense": "present"
+                    },
+                    "text": "need",
+                    "normalized": "need"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Here in District 9 our vote"
+                },
+                "sentence": " Here in District 9 our vote is for Terry Fowler.",
+                "object": {
+                    "text": "for Terry Fowler"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.647719,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.601364,
+                "label": "/law, govt and politics/government"
+            },
+            {
+                "score": 0.568772,
+                "label": "/law, govt and politics/government/parliament"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "To the voters of Horry County,",
+                "score": 0.595943,
+                "arguments": [
+                    {
+                        "text": "voters",
+                        "location": [
+                            7,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "voters"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Horry County",
+                        "location": [
+                            17,
+                            29
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Horry County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Here in Horry County we have a great opportunity to make changes to our \"great\" Horry County Council.",
+                "score": 0.960246,
+                "arguments": [
+                    {
+                        "text": "Council",
+                        "location": [
+                            288,
+                            295
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Council",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Multigov"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Horry County",
+                        "location": [
+                            275,
+                            287
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Horry County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Every member needs to be replaced, including chairman Johnny Gardner (I am sorry I voted for him).",
+                "score": 0.570399,
+                "arguments": [
+                    {
+                        "text": "member",
+                        "location": [
+                            335,
+                            341
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "member"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "replaced",
+                        "location": [
+                            354,
+                            362
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPersonnel",
+                                "text": "replaced"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "voters of Horry County",
+                "relevance": 0.889143,
+                "count": 1
+            },
+            {
+                "text": "great opportunity",
+                "relevance": 0.839361,
+                "count": 1
+            },
+            {
+                "text": "new members",
+                "relevance": 0.768626,
+                "count": 1
+            },
+            {
+                "text": "Horry County",
+                "relevance": 0.634471,
+                "count": 1
+            },
+            {
+                "text": "town government",
+                "relevance": 0.627823,
+                "count": 1
+            },
+            {
+                "text": "cases",
+                "relevance": 0.599767,
+                "count": 1
+            },
+            {
+                "text": "member",
+                "relevance": 0.598952,
+                "count": 1
+            },
+            {
+                "text": "Horry County Council",
+                "relevance": 0.54969,
+                "count": 1
+            },
+            {
+                "text": "District",
+                "relevance": 0.544719,
+                "count": 1
+            },
+            {
+                "text": "vote",
+                "relevance": 0.524218,
+                "count": 1
+            },
+            {
+                "text": "seats",
+                "relevance": 0.518877,
+                "count": 1
+            },
+            {
+                "text": "chairman Johnny Gardner",
+                "relevance": 0.514313,
+                "count": 1
+            },
+            {
+                "text": "drift",
+                "relevance": 0.51325,
+                "count": 1
+            },
+            {
+                "text": "grabs",
+                "relevance": 0.51325,
+                "count": 1
+            },
+            {
+                "text": "changes",
+                "relevance": 0.51325,
+                "count": 1
+            },
+            {
+                "text": "Swamp",
+                "relevance": 0.51325,
+                "count": 1
+            },
+            {
+                "text": "Terry Fowler",
+                "relevance": 0.449386,
+                "count": 1
+            },
+            {
+                "text": "time",
+                "relevance": 0.388162,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "6f402260d42de59192d8c84c4f893b255f490d57",
+        "filename": "202005220000NEWSBANKNEWSPPRS87953A3A9606A85A4039D2AD71047DA.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-22T00:00:00-04:00",
+    "title": "Terry Fowler for District 9",
+    "html": "<p>To the voters of <location idsrc=\"xmltag.org\" value=\"LU/us.sc.horry\">Horry County</location>,</p>\n<p>For some time now, we have been wanting to \"Drain the Swamp.\" Well, the time is here. We need to start with town government right on up to the federal government. Here in <location idsrc=\"xmltag.org\" value=\"LU/us.sc.horry\">Horry County</location> we have a great opportunity to make changes to our \"great\" <org>Horry County Council</org>. Several seats are up for grabs. Every member needs to be replaced, including chairman <person>Johnny Gardner</person> (I am sorry I voted for him). In some cases, we don't just need new members, we need new blood, if y'all get my drift. Here in <location>District 9</location> our vote is for <person>Terry Fowler</person>.</p>\n\n<p><person>John Fischer</person></p>\n\n<p>Longs</p>",
+    "geoFocus": [
+        [
+            "GU/us.sc.conway",
+            "Conway"
+        ]
+    ]
+}

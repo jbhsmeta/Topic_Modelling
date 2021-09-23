@@ -1,0 +1,562 @@
+{
+    "id": "7595ffc3-80c6-4971-aad3-3eefc039862f",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 Networld Media. All rights reserved.",
+    "geoOrigin": "Louisville, Kansas",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Retail Customer Experience",
+    "corpus_document_id": "58757788881066122468",
+    "description": "Despite lockdown measures still in place in the U.K., traffic rose by 4% in the country in the week of April 20 to 26, according to data from Ada, Talon's OOH data management platform. Public transit also saw a 2% boost, according to a press release. Ada shows an uptick in mobility across the board for the week ending 26th April despite U.K. lockdown measures, \" Sophie...",
+    "serviceName": "Industry News",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Northern Europe",
+            "code": "LB/neur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/neur",
+            "relevance_score": "9",
+            "description": "United Kingdom",
+            "code": "LC/gb#9#90#90",
+            "level": 2
+        },
+        {
+            "code": "LC/uk#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "Retail",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#70#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "Despite lockdown measures still in place in the U.K., traffic rose by 4% in\nthe country in the week of April 20 to 26, according to data from Ada, Talon's\nOOH data management platform. Public transit also saw a 2% boost, according to\na press release.\n\nAda analyzes billions of anonymized data reports and delivers on population\nmovement and behaviors for OOH advertisers.\n\n\"The COVID-19 pandemic has brought about significant change to the way people\nlive their lives. Ada shows an uptick in mobility across the board for the\nweek ending 26th April despite U.K. lockdown measures,\" Sophie Pemberton,\nstrategy director, Talon, said in the release. \"This could be attributed to\nseveral factors including great weather, to the anticipated relaxing of\nrestrictions, plus there are a growing number of businesses that have resumed\ntrading.\"",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "U.K."
+        ],
+        "person": [
+            "Sophie Pemberton"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ks.louisv",
+    "language": "English",
+    "filename": "202005180600NETWORLDINDUNEWS_730060692B3EE128B53AEE9434F9F480.XML",
+    "providerName": "Networld Alliance",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": -0.50554,
+                    "label": "negative"
+                },
+                "text": "Ada",
+                "relevance": 0.859226,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.37052,
+                    "label": "positive"
+                },
+                "text": "Talon",
+                "relevance": 0.598972,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.43137,
+                    "label": "positive"
+                },
+                "text": "Sophie Pemberton",
+                "relevance": 0.456195,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "VisualArtist"
+                    ],
+                    "name": "Sophie Pemberton",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Sophie_Pemberton"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.K.",
+                "relevance": 0.394072,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "Kingdom",
+                        "MeteorologicalService",
+                        "Country"
+                    ],
+                    "name": "United Kingdom",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_Kingdom"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "director",
+                "relevance": 0.301558,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "2%",
+                "relevance": 0.301558,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "4%",
+                "relevance": 0.301558,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "traffic"
+                },
+                "sentence": "Despite lockdown measures still in place in the U.K., traffic rose by 4% in",
+                "object": {
+                    "text": "by 4% in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "rise",
+                        "tense": "past"
+                    },
+                    "text": "rose",
+                    "normalized": "rise"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the country in the week of April 20 to 26"
+                },
+                "sentence": " the country in the week of April 20 to 26, according to data from Ada, Talon's",
+                "object": {
+                    "text": "to data from Ada, Talon's"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Public transit"
+                },
+                "sentence": " Public transit also saw a 2% boost, according to",
+                "object": {
+                    "text": "a 2% boost"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "past"
+                    },
+                    "text": "saw",
+                    "normalized": "see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Ada"
+                },
+                "sentence": " Ada analyzes billions of anonymized data reports and delivers on population",
+                "object": {
+                    "text": "billions of anonymized data reports"
+                },
+                "action": {
+                    "verb": {
+                        "text": "analyze",
+                        "tense": "present"
+                    },
+                    "text": "analyzes",
+                    "normalized": "analyze"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The COVID-19 pandemic"
+                },
+                "sentence": " \"The COVID-19 pandemic has brought about significant change to the way people",
+                "object": {
+                    "text": "about significant change"
+                },
+                "action": {
+                    "verb": {
+                        "text": "bring",
+                        "tense": "past"
+                    },
+                    "text": "has brought",
+                    "normalized": "have bring"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Ada"
+                },
+                "sentence": " Ada shows an uptick in mobility across the board for the",
+                "object": {
+                    "text": "an uptick in mobility across the board"
+                },
+                "action": {
+                    "verb": {
+                        "text": "show",
+                        "tense": "present"
+                    },
+                    "text": "shows",
+                    "normalized": "show"
+                }
+            },
+            {
+                "subject": {
+                    "text": "strategy director, Talon,"
+                },
+                "sentence": " strategy director, Talon, said in the release.",
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "great weather"
+                },
+                "sentence": " several factors including great weather, to the anticipated relaxing of",
+                "object": {
+                    "text": "several factors"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.662172,
+                "label": "/technology and computing/internet technology/web search/people search"
+            },
+            {
+                "score": 0.65787,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.639638,
+                "label": "/business and industrial/advertising and marketing"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Ada shows an uptick in mobility across the board for the week ending 26th April despite U.K. lockdown measures,\" Sophie Pemberton, strategy director, Talon, said in the release.",
+                "score": 0.553917,
+                "arguments": [
+                    {
+                        "text": "Sophie Pemberton",
+                        "location": [
+                            582,
+                            598
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Sophie Pemberton"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            626,
+                            630
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "week of April",
+                "relevance": 0.861125,
+                "count": 1
+            },
+            {
+                "text": "Public transit",
+                "relevance": 0.72459,
+                "count": 1
+            },
+            {
+                "text": "lockdown measures",
+                "relevance": 0.616358,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.60429,
+                "count": 1
+            },
+            {
+                "text": "26th April",
+                "relevance": 0.600677,
+                "count": 1
+            },
+            {
+                "text": "significant change",
+                "relevance": 0.598935,
+                "count": 1
+            },
+            {
+                "text": "OOH data management platform",
+                "relevance": 0.58998,
+                "count": 1
+            },
+            {
+                "text": "Ada",
+                "relevance": 0.5821,
+                "count": 3
+            },
+            {
+                "text": "strategy director",
+                "relevance": 0.577908,
+                "count": 1
+            },
+            {
+                "text": "press release",
+                "relevance": 0.566389,
+                "count": 1
+            },
+            {
+                "text": "week",
+                "relevance": 0.547589,
+                "count": 1
+            },
+            {
+                "text": "data",
+                "relevance": 0.542014,
+                "count": 1
+            },
+            {
+                "text": "restrictions",
+                "relevance": 0.541225,
+                "count": 1
+            },
+            {
+                "text": "growing number of businesses",
+                "relevance": 0.53841,
+                "count": 1
+            },
+            {
+                "text": "factors",
+                "relevance": 0.52642,
+                "count": 1
+            },
+            {
+                "text": "great weather",
+                "relevance": 0.522372,
+                "count": 1
+            },
+            {
+                "text": "behaviors",
+                "relevance": 0.520605,
+                "count": 1
+            },
+            {
+                "text": "place",
+                "relevance": 0.518423,
+                "count": 1
+            },
+            {
+                "text": "data reports",
+                "relevance": 0.516969,
+                "count": 1
+            },
+            {
+                "text": "measures",
+                "relevance": 0.514247,
+                "count": 1
+            },
+            {
+                "text": "Talon",
+                "relevance": 0.513027,
+                "count": 2
+            },
+            {
+                "text": "traffic",
+                "relevance": 0.512755,
+                "count": 1
+            },
+            {
+                "text": "boost",
+                "relevance": 0.512575,
+                "count": 1
+            },
+            {
+                "text": "mobility",
+                "relevance": 0.510521,
+                "count": 1
+            },
+            {
+                "text": "trading",
+                "relevance": 0.508677,
+                "count": 1
+            },
+            {
+                "text": "board",
+                "relevance": 0.508677,
+                "count": 1
+            },
+            {
+                "text": "lives",
+                "relevance": 0.508677,
+                "count": 1
+            },
+            {
+                "text": "release",
+                "relevance": 0.504339,
+                "count": 1
+            },
+            {
+                "text": "OOH advertisers",
+                "relevance": 0.492788,
+                "count": 1
+            },
+            {
+                "text": "anticipated relaxing",
+                "relevance": 0.490326,
+                "count": 1
+            },
+            {
+                "text": "Sophie Pemberton",
+                "relevance": 0.490326,
+                "count": 1
+            },
+            {
+                "text": "way people",
+                "relevance": 0.490326,
+                "count": 1
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.468858,
+                "count": 1
+            },
+            {
+                "text": "U.K.",
+                "relevance": 0.446726,
+                "count": 2
+            },
+            {
+                "text": "uptick",
+                "relevance": 0.435986,
+                "count": 1
+            },
+            {
+                "text": "in",
+                "relevance": 0.431246,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "68675bda6de104329b156c3fbb1ff3c25a152e3b",
+        "filename": "202005180600NETWORLDINDUNEWS_730060692B3EE128B53AEE9434F9F480.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-18T06:00:00-04:00",
+    "title": "UK OOH impressions up despite coronavirus",
+    "html": "<p>Despite lockdown measures still in place in the <location idsrc=\"xmltag.org\" value=\"LC/gb\">U.K.</location>, traffic rose by 4% in the country in the week of <chron>April 20 to 26</chron>, according to data from Ada, Talon's OOH data management platform. Public transit also saw a 2% boost, according to a press release.</p>\n<p>Ada analyzes billions of anonymized data reports and delivers on population movement and behaviors for OOH advertisers.</p>\n<p>\"The COVID-19 pandemic has brought about significant change to the way people live their lives. Ada shows an uptick in mobility across the board for the week ending 26th April despite <location idsrc=\"xmltag.org\" value=\"LC/gb\">U.K.</location> lockdown measures,\" <person>Sophie Pemberton</person>, strategy director, Talon, said in the release. \"This could be attributed to several factors including great weather, to the anticipated relaxing of restrictions, plus there are a growing number of businesses that have resumed trading.\"</p>",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ]
+    ]
+}

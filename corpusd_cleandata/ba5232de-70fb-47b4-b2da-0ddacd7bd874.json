@@ -1,0 +1,2455 @@
+{
+    "id": "ba5232de-70fb-47b4-b2da-0ddacd7bd874",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, China Business Day",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "China Business Day",
+    "corpus_document_id": "92614353726838106930",
+    "description": "\u201cCompared with a conventional COF technique, a GOA technique may not only reduce manufacturing costs significantly but also be highly advantageous to improving product capacity for omitting manufacturing procedure of bonding of the COF at a Gate side, moreover, it may make the display panel be more suitable for manufacturing a narrow-frame or frameless...",
+    "serviceName": "Geographic Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Eastern Asia",
+            "code": "LB/eas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Southern Asia",
+            "code": "LB/sas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eas",
+            "relevance_score": "9",
+            "description": "People's Republic of China",
+            "code": "LC/cn#9#90#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business\nDay -- Shenzhen China Star Optoelectronics Technology Co. Ltd. (Shenzhen,\nGuangdong, People's Republic of China) has been issued patent number\n10,665,187, according to news reporting originating out of Alexandria,\nVirginia, by NewsRx editors.\n\nThe patent's inventor is Chen, Shuai (Shenzhen, China).\n\nThis patent was filed on September 13, 2018 and was published online on June\n8, 2020.\n\nFrom the background information supplied by the inventors, news correspondents\nobtained the following quote: \"With the evolution of photoelectricity and\nsemiconductor techniques, vigorous development is also brought to a display\npanel field. In the existing display field, commonly seen displays are a\nliquid crystal display, an organic light emitting diode display, and the like.\nIn current active display panels, a driving signal from a driving circuit\noutside a display panel is utilized to drive a chip on the display panel so as\nto display an image. Recently, in order to narrow a frame of a display panel,\nit gradually develops into directly manufacturing a driving circuit on the\ndisplay panel, such as, integrating a gate driving circuit on a substrate to\nform scanning of the display panel by using a Gate Drive on Array (GOA for\nshort).\n\n\"Compared with a conventional COF (Chip On Film) technique, a GOA technique\nmay not only reduce manufacturing costs significantly but also be highly\nadvantageous to improving product capacity for omitting manufacturing\nprocedure of bonding of the COF at a Gate side, moreover, it may make the\ndisplay panel be more suitable for manufacturing a narrow-frame or frameless\ndisplay products. Therefore, the GOA technique is a key technique in future\ndevelopment of display panels.\n\n\"FIG. 1 illustrates a schematic circuit diagram of a single-level GOA circuit\nin the prior art. A GOA circuit usually includes a plurality of single-level\nGOA circuits that are cascaded, and the GOA circuit of each level drives a\nhorizontal scanning line of a level correspondingly. As illustrated in FIG. 1,\na single-level GOA circuit 100 includes a pull-up control unit 110, a pull-up\nunit 120, a signal downward transmission unit 130, a pull-down unit 140, a\npull-down maintaining unit 150 and a bootstrap unit 160, wherein the pull-up\ncontrol unit 110 takes charge of pre-charging a first node Q(N), the pull-up\nunit 120 is mainly for increasing a potential of a scan signal output end G(N)\nso as to control the turning on of a transistor of the pull-down unit of an\nupper-level GOA circuit, the signal downward transmission unit 130 is mainly\nfor controlling transmission and cutoff of a scan signal in the pull-up\ncontrol unit 110 of a lower-level GOA circuit, the pull-down unit 140 takes\ncharge of pulling down a potential of the first node Q(N) and a potential of\nthe scan signal output end G(N) to a potential of a first voltage input end\nVSS at a first time, the pull-down maintaining unit 150 takes charge of\nmaintaining the potential of the first node Q(N) and the potential of the scan\nsignal output end G(N) to be the potential of the first voltage input end VSS\nunchanged, and the bootstrap unit 160 takes charge of increasing the potential\nof the first node Q(N); in this way, it is conducive to an output of the\npotential of the scan signal output end G(N) of the pull-up unit 120. The\npotential of the first voltage input end VSS may be a low potential, for\nexample, may be a ground voltage.\n\n\"An electronic element in the pull-down maintaining unit 150 illustrated in\nFIG. 1 is actually an inverter of a Darlington structure, and a specific\ncircuit thereof is as illustrated in FIG. 2. FIG. 2 illustrates a schematic\ncircuit diagram of an inverter of a Darlington structure in the prior art. In\nthe circuit diagram of the inverter of a Darlington structure, when a low\nlevel signal is input at the first voltage input end VSS, a high level signal\nis input at a pull-down signal input end LC. When a high level signal is input\nat an inverter input end Input, a low level signal is output at an inverter\noutput end Output. In contrary, when a low level signal is input at the\ninverter input end Input, a high level signal is output at the inverter output\nend Output.\n\n\"In the prior art, a single-level GOA circuit is basically to place the above\nseveral parts in a GOA circuit of a same level, thus, the single-level GOA\ncircuit in FIG. 1 may be converted into a single-level GOA circuit illustrated\nin FIG. 3. FIG. 3 illustrates another schematic circuit diagram of a single-\nlevel GOA circuit in the prior art. In FIG. 3, CK/XCK denotes a clock signal\ninput end, ST(N) denotes a level transmission signal output end, G(N) denotes\na scan signal output end, and Q(N) denotes a first node. A high level signal\nmay be input at the pull-down signal input end LC, a low level signal may be\ninput at the first voltage input end VSS, and a potential of the first node\nQ(N) may be an alternating current potential.\n\n\"When the potential of the first node Q(N) is a low potential, a second\ntransistor T52 and a fourth transistor T54 are turned off, a first transistor\nT51 is turned on, and then a third transistor T53 is turned on, and a\npotential of point B is a high potential. When the potential of the first node\nQ(N) is a high potential, the second transistor T52 is turned on, and the\nfirst transistor T51 is turned on, at this time, a potential of point A is in\na certain intermediate potential for being subject to mutual pulling between a\nhigh potential of the pull-down signal input end LC and a low potential of the\nfirst voltage input end VSS, the third transistor T53 is in a semi-turned-on\nstate, and the fourth transistor T54 is in a turned-on state. Therefore, a\npotential of point B is not possible to satisfy requirements of an absolute\nlow potential for also being subject to mutual pulling between a potential of\nthe pull-down signal input end LC and a potential of the first voltage input\nend VSS.\"\n\nSupplementing the background information on this patent, NewsRx reporters also\nobtained the inventor's summary information for this patent: \"Exemplary\nembodiments of the present invention lie in providing a new pull-down\nmaintaining unit applied to a GOA circuit, and in a single-level GOA circuit,\nthe same circuit function effect may be achieved in the case where the use of\nan inverter of a Darlington structure is avoided, which provides a new concept\nand thinking for GOA circuit designs, and saves a space occupied by the GOA\ncircuit to a large extend, thereby providing new possibilities for designs of\na narrow-frame display panel.\n\n\"In exemplary embodiments of the present invention, a GOA circuit is provided,\nthe GOA circuit is GOA circuits of multiple levels that are set by cascading,\nthe GOA circuit of each level includes a pull-up control unit, a pull-up unit,\na signal downward transmission unit, a pull-down unit, a pull-down maintaining\nunit, and a bootstrap unit, the GOA circuit of each level is disposed with a\nclock signal input end, a first node, a first voltage input end, a pull-down\nmaintaining signal output end and a scan signal output end outputting to a\nhorizontal scan line, the first node being on a connection line between the\npull-up control unit and the bootstrap unit, wherein the pull-down unit\nincludes a first pull-down maintaining transistor, a pull-down maintaining\ncapacitor and a second pull-down maintaining transistor, a gate of the first\npull-down maintaining transistor is connected to an output end of a lower-\nlevel signal downward transmission unit, a source and a drain are respectively\nconnected to a lower-level scan signal output end and a pull-down maintaining\nsignal output end, the pull-down maintaining capacitor is connected between\nthe drain of the first pull-down maintaining transistor and the first voltage\ninput end, a gate of the second pull-down maintaining transistor is connected\nto an upper-level first node, a source and a drain are respectively connected\nto the pull-down maintaining signal output end and the first voltage input\nend, and the pull-down unit pulls down a potential of the first node and a\npotential of the scan signal output end to a first voltage input to the first\nvoltage input end based on a pull-down maintaining signal output from the\npull-down maintaining signal output end.\n\n\"In exemplary embodiments of the present invention, a low level signal is\ninput at the first voltage input end, clock signals of GOA circuits of two\nadjacent levels input at the clock signal input end are complementary with\neach other.\n\n\"In exemplary embodiments of the present invention, the pull-down unit\nincludes a first pull-down transistor and a second pull-down transistor, a\ngate of the first pull-down transistor and a gate of the second pull-down\ntransistor are connected to the pull-down maintaining signal output end, a\nsource of the first pull-down transistor and a source of the second pull-down\ntransistor are respectively connected to the scan signal output end and the\nfirst node, and a drain of the first pull-down transistor and a drain of the\nsecond pull-down transistor are connected to the first voltage input end.\n\n\"In exemplary embodiments of the present invention, the pull-up control unit\nincludes a pull-up control transistor, a gate of the pull-up control\ntransistor is connected to an output end of an upper-level signal downward\ntransmission unit, a source is connected to an upper-level scan signal output\nend, and a drain is connected to the first node.\n\n\"In exemplary embodiments of the present invention, the pull-up unit includes\na pull-up transistor, a gate of the pull-up transistor is connected to the\nfirst node, a source is connected to the clock signal input end, and a drain\nis connected to the scan signal output end.\n\n\"In exemplary embodiments of the present invention, the signal downward\ntransmission unit includes a signal downward transmission transistor, a gate\nof the signal downward transmission transistor is connected to the first node,\na source is connected to the clock signal input end, and a drain is connected\nto the gate of the upper-level first pull-down maintaining transistor and the\ngate of the lower-level pull-up control transistor.\n\n\"In exemplary embodiments of the present invention, the bootstrap unit\nincludes a bootstrap capacitor, and two ends of the bootstrap capacitor are\nrespectively connected with the first node and the scan signal output end.\n\n\"In exemplary embodiments of the present invention, a display panel is\nprovided, and the display panel may include the GOA circuit as mentioned\nabove.\n\n\"In exemplary embodiments of the present invention, a display device is\nprovided, and the display device may include the display panel as mentioned\nabove.\n\n\"Other aspects and/or advantages in a general concept of the present invention\nwill be partially illustrated in the following description, and the rest will\nbe clarified through further description or may be learned through\nimplementation of the general concept of the present invention.\"\n\nThe claims supplied by the inventors are:\n\n\"What is claimed is:\n\n\"1\\. A GOA Circuit, the GOA circuit comprises GOA circuits of multiple levels\nthat set by cascading, the GOA circuit pull-up unit, a signal downward\ntransmission unit, a pull-down unit, a pull-down maintaining unit, and a\nbootstrap unit, the GOA circuit of each level is disposed with a clock signal\ninput end, a first node, a first voltage input end, a pull-down maintaining\nsignal output end and a scan signal output end outputting to a horizontal scan\nline, the first node being on a connection line between the pull-up control\nunit and the bootstrap unit, wherein the pull-down maintaining unit comprises\na first pull-down maintaining transistor, a pull-down maintaining capacitor\nand a second pull-down maintaining transistor, a gate of the first pull-down\nmaintaining transistor is connected to an output end of a lower-level signal\ndownward transmission unit, and a source and a drain are respectively\nconnected to a lower-level scan signal output end and a pull-down maintaining\nsignal output end, the pull-down maintaining capacitor is connected between a\ndrain of the first pull-down maintaining transistor and the first voltage\ninput end, a gate of the second pull-down maintaining transistor is connected\nto an upper-level first node, and a source and a drain are respectively\nconnected to the pull-down maintaining signal output end and the first voltage\ninput end, and the pull-down unit pulls down a potential of the first node and\na potential of the scan signal output end to a first voltage input to the\nfirst voltage input end based on a pull-down maintaining signal output from\nthe pull-down maintaining signal output end.\n\n\"2\\. The GOA circuit of claim 1, wherein a low level signal is input at the\nfirst voltage input end, clock signals of GOA circuits of two adjacent levels\ninput at a clock signal input end are complementary with each other.\n\n\"3\\. The GOA circuit of claim 1, wherein the pull-down unit comprises a first\npull-down transistor and a second pull-down transistor, a gate of the first\npull-down transistor and a gate of the second pull-down transistor are\nconnected to the pull-down maintaining signal output end, a source of the\nfirst pull-down transistor and a source of the second pull-down transistor are\nrespectively connected to the scan signal output end and the first node, and a\ndrain of the first pull-down transistor and a drain of the second pull-down\ntransistor are connected to the first voltage input end.\n\n\"4\\. The GOA circuit of claim 1, wherein the pull-up control unit comprises a\npull-up control transistor, a gate of the pull-up control transistor is\nconnected to an output end of an upper-level signal downward transmission\nunit, a source is connected to an upper-level scan signal output end, and a\ndrain is connected to the first node.\n\n\"5\\. The GOA circuit of claim 4, wherein the signal downward transmission unit\ncomprises a signal downward transmission transistor, a gate of the signal\ndownward transmission transistor is connected to the first node, a source is\nconnected to the clock signal input end, and a drain is connected to a gate of\nan upper-level first pull-down maintaining transistor and a gate of a lower-\nlevel pull-up control transistor.\n\n\"6\\. The GOA circuit of claim 1, wherein the pull-up unit comprises a pull-up\ntransistor, a gate of the pull-up transistor is connected to the first node, a\nsource is connected to the clock signal input end, and a drain is connected to\nthe scan signal output end.\n\n\"7\\. The GOA circuit of claim 1, wherein the bootstrap unit comprises a\nbootstrap capacitor, and two ends of the bootstrap capacitor are respectively\nconnected with the first node and the scan signal output end.\n\n\"8\\. A display panel comprising a GOA circuit, wherein the GOA circuit\ncomprises GOA circuits of multiple levels comprises a pull-up control unit, a\npull-up unit, a signal downward transmission unit, a pull-down unit, a pull-\ndown maintaining unit, and a bootstrap unit, the GOA circuit of each level is\ndisposed with a clock signal input end, a first node, a first voltage input\nend, a pull-down maintaining signal output end and a scan signal output end\noutputting to a horizontal scan line, the first node being on a connection\nline between the pull-up control unit and the bootstrap unit, wherein the\npull-down maintaining unit comprises a first pull-down maintaining transistor,\na pull-down maintaining capacitor and a second pull-down maintaining\ntransistor, a gate of the first pull-down maintaining transistor is connected\nto an output end of a lower-level signal downward transmission unit, and a\nsource and a drain are respectively connected to a lower-level scan signal\noutput end and a pull-down maintaining signal output end, the pull-down\nmaintaining capacitor is connected between the drain of the first pull-down\nmaintaining transistor and the first voltage input end, a gate of the second\npull-down maintaining transistor is connected to an upper-level first node,\nand a source and a drain are respectively connected to the pull-down\nmaintaining signal output end and the first voltage input end, and the pull-\ndown unit pulls down a potential of the first node and a potential of the scan\nsignal output end to a first voltage input to the first voltage input end\nbased on a pull-down maintaining signal output from the pull-down maintaining\nsignal output end.\n\n\"9\\. The display panel of claim 8, wherein a low level signal is input at the\nfirst voltage input end, clock signals of GOA circuits of two adjacent levels\ninput at a clock signal input end are complementary with each other.\n\n\"10\\. The display panel of claim 8, wherein the pull-down unit comprises a\nfirst pull-down transistor and a second pull-down transistor, a gate of the\nfirst pull-down transistor and a gate of the second pull-down transistor are\nconnected to the pull-down maintaining signal output end, a source of the\nfirst pull-down transistor and a source of the second pull-down transistor are\nrespectively connected to the scan signal output end and the first node, and a\ndrain of the first pull-down transistor and a drain of the second pull-down\ntransistor are connected to the first voltage input end.\n\n\"11\\. The display panel of claim 8, wherein the pull-up control unit comprises\na pull-up control transistor, a gate of the pull-up control transistor is\nconnected to an output end of an upper-level signal downward transmission\nunit, a source is connected to an upper-level scan signal output end, and a\ndrain is connected to the first node.\n\n\"12\\. The display panel of claim 11, wherein the signal downward transmission\nunit comprises a signal downward transmission transistor, a gate of the signal\ndownward transmission transistor is connected to the first node, a source is\nconnected to the clock signal input end, and a drain is connected to a gate of\nan upper-level first pull-down maintaining transistor and a gate of a lower-\nlevel pull-up control transistor.\n\n\"13\\. The display panel of claim 8, wherein the pull-up unit comprises a pull-\nup transistor, a gate of the pull-up transistor is connected to the first\nnode, a source is connected to the clock signal input end, and a drain is\nconnected to the scan signal output end.\n\n\"14\\. The display panel of claim 8, wherein the bootstrap unit comprises a\nbootstrap capacitor, and two ends of the bootstrap capacitor are respectively\nconnected with the first node and the scan signal output end.\n\n\"15\\. A display device comprising the display panel of claim 8.\"\n\nFor the URL and additional information on this patent, see: Chen, Shuai. GOA\nCircuit And Display Panel And Display Device Including The Same. U.S. Patent\nNumber 10,665,187, filed September 13, 2018, and published online on June 8,\n2020. Patent URL: [http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,665,187.PN.&OS=PN/10,665,187RS=PN/10,665,187](http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,665,187.PN.&OS=PN/10,665,187RS=PN/10,665,187)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Shenzhen China Star Optoelectronics Technology Co. Ltd."
+        ],
+        "location": [
+            "Shenzhen",
+            "Guangdong",
+            "Republic of China",
+            "Alexandria, Virginia",
+            "Shenzhen, China",
+            "Gate Drive",
+            "GOA",
+            "U.S."
+        ],
+        "person": [],
+        "companies": [
+            "Shenzhen China Star Optoelectronics Technology Co. Ltd.",
+            "News Reporter-Staff News"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_GEOG_BC3648C7076B13F2.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 31,
+                "sentiment": {
+                    "score": 0.444433,
+                    "label": "positive"
+                },
+                "text": "GOA",
+                "relevance": 0.883242,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "GOA",
+                "relevance": 0.251365,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "GOA",
+                "relevance": 0.240502,
+                "type": "Company"
+            },
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": -0.58667,
+                    "label": "negative"
+                },
+                "text": "Darlington",
+                "relevance": 0.208523,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.455091,
+                    "label": "positive"
+                },
+                "text": "Chen",
+                "relevance": 0.204676,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alexandria",
+                "relevance": 0.196978,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Alexandria",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Alexandria"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Republic of China",
+                "relevance": 0.193846,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "GeographicFeature",
+                        "Country",
+                        "Island"
+                    ],
+                    "name": "Taiwan",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Taiwan"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Shenzhen China Star Optoelectronics Technology Co. Ltd.",
+                "relevance": 0.189745,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Shuai",
+                "relevance": 0.188972,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Virginia",
+                "relevance": 0.188856,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.188174,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Shenzhen",
+                "relevance": 0.177594,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "China Business",
+                "relevance": 0.174839,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Shenzhen",
+                "relevance": 0.171312,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "City"
+                    ],
+                    "name": "Shenzhen",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Shenzhen"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Guangdong",
+                "relevance": 0.170712,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.168291,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.437699,
+                    "label": "positive"
+                },
+                "text": "China",
+                "relevance": 0.16826,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "People",
+                "relevance": 0.154739,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Guangdong, People's Republic of China)"
+                },
+                "sentence": " Guangdong, People's Republic of China) has been issued patent number",
+                "object": {
+                    "text": "been issued patent number"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "patent number"
+                },
+                "sentence": " Guangdong, People's Republic of China) has been issued patent number",
+                "object": {
+                    "text": "Guangdong, People's Republic of China)"
+                },
+                "action": {
+                    "verb": {
+                        "text": "issue",
+                        "tense": "past"
+                    },
+                    "text": "has been issued",
+                    "normalized": "have be issue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "10,665,187"
+                },
+                "sentence": " 10,665,187, according to news reporting originating out of Alexandria,",
+                "object": {
+                    "text": "to news reporting originating out of Alexandria,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The patent's inventor"
+                },
+                "sentence": " The patent's inventor is Chen, Shuai (Shenzhen, China).",
+                "object": {
+                    "text": "Chen, Shuai (Shenzhen, China)"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent"
+                },
+                "sentence": " This patent was filed on September 13, 2018 and was published online on June",
+                "action": {
+                    "verb": {
+                        "text": "file",
+                        "tense": "past"
+                    },
+                    "text": "was filed",
+                    "normalized": "be file"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This patent"
+                },
+                "sentence": " This patent was filed on September 13, 2018 and was published online on June",
+                "object": {
+                    "text": "published online"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the inventors, news correspondents"
+                },
+                "sentence": " From the background information supplied by the inventors, news correspondents",
+                "object": {
+                    "text": "the background information"
+                },
+                "action": {
+                    "verb": {
+                        "text": "supply",
+                        "tense": "past"
+                    },
+                    "text": "supplied",
+                    "normalized": "supply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "vigorous development"
+                },
+                "sentence": " semiconductor techniques, vigorous development is also brought to a display",
+                "object": {
+                    "text": "to a display"
+                },
+                "action": {
+                    "verb": {
+                        "text": "bring",
+                        "tense": "past"
+                    },
+                    "text": "is also brought",
+                    "normalized": "be also bring"
+                }
+            },
+            {
+                "subject": {
+                    "text": "displays"
+                },
+                "sentence": " In the existing display field, commonly seen displays are a",
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "past"
+                    },
+                    "text": "commonly seen",
+                    "normalized": "commonly see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "commonly seen displays"
+                },
+                "sentence": " In the existing display field, commonly seen displays are a",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "outside a display panel"
+                },
+                "sentence": " outside a display panel is utilized to drive a chip on the display panel so as",
+                "object": {
+                    "text": "to drive a chip"
+                },
+                "action": {
+                    "verb": {
+                        "text": "utilize",
+                        "tense": "past"
+                    },
+                    "text": "utilized",
+                    "normalized": "utilize"
+                }
+            },
+            {
+                "subject": {
+                    "text": "outside a display panel"
+                },
+                "sentence": " outside a display panel is utilized to drive a chip on the display panel so as",
+                "object": {
+                    "text": "a chip"
+                },
+                "action": {
+                    "verb": {
+                        "text": "drive",
+                        "tense": "future"
+                    },
+                    "text": "is utilized to drive",
+                    "normalized": "be utilize to drive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " it gradually develops into directly manufacturing a driving circuit on the",
+                "object": {
+                    "text": "a driving circuit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "manufacture",
+                        "tense": "present"
+                    },
+                    "text": "manufacturing",
+                    "normalized": "manufacture"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a gate driving circuit"
+                },
+                "sentence": " display panel, such as, integrating a gate driving circuit on a substrate to",
+                "object": {
+                    "text": "on a substrate to"
+                },
+                "action": {
+                    "verb": {
+                        "text": "integrate",
+                        "tense": "present"
+                    },
+                    "text": "integrating",
+                    "normalized": "integrate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a Gate Drive"
+                },
+                "sentence": " form scanning of the display panel by using a Gate Drive on Array (GOA for",
+                "object": {
+                    "text": "on Array (GOA"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "present"
+                    },
+                    "text": "using",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " procedure of bonding of the COF at a Gate side, moreover, it may make the",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "future"
+                    },
+                    "text": "may make",
+                    "normalized": "may make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "display panel"
+                },
+                "sentence": " display panel be more suitable for manufacturing a narrow-frame or frameless",
+                "object": {
+                    "text": "more suitable for manufacturing a narrow-frame or frameless"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the GOA technique"
+                },
+                "sentence": " Therefore, the GOA technique is a key technique in future",
+                "object": {
+                    "text": "a key technique"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "FIG. 1"
+                },
+                "sentence": " \"FIG. 1 illustrates a schematic circuit diagram of a single-level GOA circuit",
+                "object": {
+                    "text": "a schematic circuit diagram of a single-level GOA circuit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "illustrate",
+                        "tense": "present"
+                    },
+                    "text": "illustrates",
+                    "normalized": "illustrate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a plurality of single-level"
+                },
+                "sentence": " A GOA circuit usually includes a plurality of single-level",
+                "object": {
+                    "text": "A GOA circuit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a pull-up control unit 110, a pull-up"
+                },
+                "sentence": " a single-level GOA circuit 100 includes a pull-up control unit 110, a pull-up",
+                "object": {
+                    "text": "a single-level GOA circuit 100"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "pull-down"
+                },
+                "sentence": " pull-down maintaining unit 150 and a bootstrap unit 160, wherein the pull-up",
+                "object": {
+                    "text": "unit"
+                },
+                "action": {
+                    "verb": {
+                        "text": "maintain",
+                        "tense": "present"
+                    },
+                    "text": "maintaining",
+                    "normalized": "maintain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "control unit 110"
+                },
+                "sentence": " control unit 110 takes charge of pre-charging a first node Q(N), the pull-up",
+                "object": {
+                    "text": "charge of pre-charging a first node Q"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "present"
+                    },
+                    "text": "takes",
+                    "normalized": "take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the pull-up"
+                },
+                "sentence": " control unit 110 takes charge of pre-charging a first node Q(N), the pull-up",
+                "object": {
+                    "text": "a first node Q"
+                },
+                "action": {
+                    "verb": {
+                        "text": "pre-charging",
+                        "tense": "future"
+                    },
+                    "text": "pre-charging",
+                    "normalized": "pre-charging"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a potential"
+                },
+                "sentence": " charge of pulling down a potential of the first node Q(N) and a potential of",
+                "object": {
+                    "text": "down"
+                },
+                "action": {
+                    "verb": {
+                        "text": "pull",
+                        "tense": "future"
+                    },
+                    "text": "pulling",
+                    "normalized": "pull"
+                }
+            },
+            {
+                "subject": {
+                    "text": "signal output end G(N)"
+                },
+                "sentence": " signal output end G(N) to be the potential of the first voltage input end VSS",
+                "object": {
+                    "text": "the potential of the first voltage input end VSS"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "to be",
+                    "normalized": "to be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the bootstrap unit 160"
+                },
+                "sentence": " unchanged, and the bootstrap unit 160 takes charge of increasing the potential",
+                "object": {
+                    "text": "charge of increasing the potential"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "present"
+                    },
+                    "text": "takes",
+                    "normalized": "take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "potential of the first voltage input end VSS"
+                },
+                "sentence": " potential of the first voltage input end VSS may be a low potential, for",
+                "object": {
+                    "text": "a low potential"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "may be",
+                    "normalized": "may be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "unit"
+                },
+                "sentence": " \"An electronic element in the pull-down maintaining unit 150 illustrated in",
+                "object": {
+                    "text": "150 illustrated in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "maintain",
+                        "tense": "present"
+                    },
+                    "text": "maintaining",
+                    "normalized": "maintain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "FIG. 1"
+                },
+                "sentence": " FIG. 1 is actually an inverter of a Darlington structure, and a specific",
+                "object": {
+                    "text": "an inverter of a Darlington structure"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "circuit"
+                },
+                "sentence": " circuit thereof is as illustrated in FIG. 2.",
+                "object": {
+                    "text": "as illustrated in FIG. 2"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "circuit"
+                },
+                "sentence": " circuit thereof is as illustrated in FIG. 2.",
+                "action": {
+                    "verb": {
+                        "text": "illustrate",
+                        "tense": "past"
+                    },
+                    "text": "illustrated",
+                    "normalized": "illustrate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "FIG. 2"
+                },
+                "sentence": " FIG. 2 illustrates a schematic",
+                "object": {
+                    "text": "a schematic"
+                },
+                "action": {
+                    "verb": {
+                        "text": "illustrate",
+                        "tense": "present"
+                    },
+                    "text": "illustrates",
+                    "normalized": "illustrate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "level signal"
+                },
+                "sentence": " level signal is input at the first voltage input end VSS, a high level signal",
+                "object": {
+                    "text": "input at the first voltage input end VSS"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a high level signal"
+                },
+                "sentence": " When a high level signal is input",
+                "object": {
+                    "text": "input"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a low level signal"
+                },
+                "sentence": " In contrary, when a low level signal is input at the",
+                "object": {
+                    "text": "input"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a single-level GOA circuit"
+                },
+                "sentence": " \"In the prior art, a single-level GOA circuit is basically to place the above",
+                "object": {
+                    "text": "the above"
+                },
+                "action": {
+                    "verb": {
+                        "text": "place",
+                        "tense": "future"
+                    },
+                    "text": "to place",
+                    "normalized": "to place"
+                }
+            },
+            {
+                "subject": {
+                    "text": "circuit in FIG. 1"
+                },
+                "sentence": " circuit in FIG. 1 may be converted into a single-level GOA circuit illustrated",
+                "object": {
+                    "text": "converted into a single-level GOA circuit illustrated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "circuit in FIG. 1"
+                },
+                "sentence": " circuit in FIG. 1 may be converted into a single-level GOA circuit illustrated",
+                "object": {
+                    "text": "into a single-level GOA circuit illustrated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "convert",
+                        "tense": "future"
+                    },
+                    "text": "may be converted",
+                    "normalized": "may be convert"
+                }
+            },
+            {
+                "subject": {
+                    "text": "FIG. 3"
+                },
+                "sentence": " FIG. 3 illustrates another schematic circuit diagram of a single-",
+                "object": {
+                    "text": "another schematic circuit diagram of a single-"
+                },
+                "action": {
+                    "verb": {
+                        "text": "illustrate",
+                        "tense": "present"
+                    },
+                    "text": "illustrates",
+                    "normalized": "illustrate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "CK/XCK"
+                },
+                "sentence": " In FIG. 3, CK/XCK denotes a clock signal",
+                "object": {
+                    "text": "a clock signal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "denote",
+                        "tense": "present"
+                    },
+                    "text": "denotes",
+                    "normalized": "denote"
+                }
+            },
+            {
+                "subject": {
+                    "text": "ST(N)"
+                },
+                "sentence": " input end, ST(N) denotes a level transmission signal output end, G(N) denotes",
+                "object": {
+                    "text": "a level transmission signal output end"
+                },
+                "action": {
+                    "verb": {
+                        "text": "denote",
+                        "tense": "present"
+                    },
+                    "text": "denotes",
+                    "normalized": "denote"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Q(N)"
+                },
+                "sentence": " a scan signal output end, and Q(N) denotes a first node.",
+                "object": {
+                    "text": "a first node"
+                },
+                "action": {
+                    "verb": {
+                        "text": "denote",
+                        "tense": "present"
+                    },
+                    "text": "denotes",
+                    "normalized": "denote"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Q(N)"
+                },
+                "sentence": " Q(N) may be an alternating current potential.",
+                "object": {
+                    "text": "an alternating current potential"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "may be",
+                    "normalized": "may be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the potential of the first node Q(N)"
+                },
+                "sentence": " \"When the potential of the first node Q(N) is a low potential, a second",
+                "object": {
+                    "text": "a low potential"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "T51"
+                },
+                "sentence": " T51 is turned on, and then a third transistor T53 is turned on, and a",
+                "object": {
+                    "text": "turned on"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "potential of point B"
+                },
+                "sentence": " potential of point B is a high potential.",
+                "object": {
+                    "text": "a high potential"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Q(N)"
+                },
+                "sentence": " Q(N) is a high potential, the second transistor T52 is turned on, and the",
+                "object": {
+                    "text": "a high potential"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "first transistor T51"
+                },
+                "sentence": " first transistor T51 is turned on, at this time, a potential of point A is in",
+                "object": {
+                    "text": "turned on"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "first transistor T51"
+                },
+                "sentence": " first transistor T51 is turned on, at this time, a potential of point A is in",
+                "action": {
+                    "verb": {
+                        "text": "turn",
+                        "tense": "past"
+                    },
+                    "text": "is turned",
+                    "normalized": "be turn"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.868294,
+                "label": "/technology and computing/hardware/computer components"
+            },
+            {
+                "score": 0.718863,
+                "label": "/technology and computing/electronic components"
+            },
+            {
+                "score": 0.698014,
+                "label": "/technology and computing/consumer electronics/tv and video equipment/televisions/lcd tvs"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- Shenzhen China Star Optoelectronics Technology Co. Ltd. (Shenzhen, Guangdong, People's Republic of China) has been issued patent number 10,665,187, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.546396,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "This patent was filed on September 13, 2018 and was published online on June 8, 2020.",
+                "score": 0.941107,
+                "arguments": [
+                    {
+                        "text": "September 13, 2018",
+                        "location": [
+                            405,
+                            423
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "September 13, 2018"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            396,
+                            401
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "and a potential of the scan signal output end G(N) to a potential of a first voltage input end VSS at a first time, the pull-down maintaining unit 150 takes charge of maintaining the potential of the first node Q(N) and the potential of the scan signal output end G(N) to be the potential of the first voltage input end VSS unchanged, and the bootstrap unit 160 takes charge of increasing the potential of the first node Q(N); in this way, it is conducive to an output of the potential of the scan signal output end G(N) of the pull-up unit 120.",
+                "score": 0.15571,
+                "arguments": [
+                    {
+                        "text": "150",
+                        "location": [
+                            2994,
+                            2997
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "150"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "unit",
+                        "location": [
+                            2989,
+                            2993
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "GOA\nCircuit And Display Panel And Display Device Including The Same"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "populationOf",
+                "sentence": "and a potential of the scan signal output end G(N) to a potential of a first voltage input end VSS at a first time, the pull-down maintaining unit 150 takes charge of maintaining the potential of the first node Q(N) and the potential of the scan signal output end G(N) to be the potential of the first voltage input end VSS unchanged, and the bootstrap unit 160 takes charge of increasing the potential of the first node Q(N); in this way, it is conducive to an output of the potential of the scan signal output end G(N) of the pull-up unit 120.",
+                "score": 0.176832,
+                "arguments": [
+                    {
+                        "text": "160",
+                        "location": [
+                            3205,
+                            3208
+                        ],
+                        "entities": [
+                            {
+                                "type": "Cardinal",
+                                "text": "160"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "unit",
+                        "location": [
+                            3200,
+                            3204
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "GOA\nCircuit And Display Panel And Display Device Including The Same"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "\"In the prior art, a single-level GOA circuit is basically to place the above several parts in a GOA circuit of a same level, thus, the single-level GOA circuit in FIG.",
+                "score": 0.549895,
+                "arguments": [
+                    {
+                        "text": "single-level GOA\ncircuit",
+                        "location": [
+                            4415,
+                            4439
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "single-level GOA\ncircuit"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "FIG",
+                        "location": [
+                            4443,
+                            4446
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "FIG"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "1 may be converted into a single-level GOA circuit illustrated in FIG.",
+                "score": 0.718439,
+                "arguments": [
+                    {
+                        "text": "single-level GOA circuit illustrated",
+                        "location": [
+                            4474,
+                            4510
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "single-level GOA circuit illustrated"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "FIG",
+                        "location": [
+                            4514,
+                            4517
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "FIG"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Supplementing the background information on this patent, NewsRx reporters also obtained the inventor's summary information for this patent: \"Exemplary embodiments of the present invention lie in providing a new pull-down maintaining unit applied to a GOA circuit, and in a single-level GOA circuit, the same circuit function effect may be achieved in the case where the use of an inverter of a Darlington structure is avoided, which provides a new concept and thinking for GOA circuit designs, and saves a space occupied by the GOA circuit to a large extend, thereby providing new possibilities for designs of a narrow-frame display panel.",
+                "score": 0.38661,
+                "arguments": [
+                    {
+                        "text": "circuit",
+                        "location": [
+                            6331,
+                            6338
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "GOA\nCircuit And Display Panel And Display Device Including The Same"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "case",
+                        "location": [
+                            6378,
+                            6382
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "case"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The GOA circuit of claim 1, wherein the pull-down unit comprises a first pull-down transistor and a second pull-down transistor, a gate of the first pull-down transistor and a gate of the second pull-down transistor are connected to the pull-down maintaining signal output end, a source of the first pull-down transistor and a source of the second pull-down transistor are respectively connected to the scan signal output end and the first node, and a drain of the first pull-down transistor and a drain of the second pull-down transistor are connected to the first voltage input end.",
+                "score": 0.623047,
+                "arguments": [
+                    {
+                        "text": "GOA circuit",
+                        "location": [
+                            13055,
+                            13066
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "GOA\nCircuit And Display Panel And Display Device Including The Same"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            13070,
+                            13075
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The GOA circuit of claim 1, wherein the pull-up control unit comprises a pull-up control transistor, a gate of the pull-up control transistor is connected to an output end of an upper-level signal downward transmission unit, a source is connected to an upper-level scan signal output end, and a drain is connected to the first node.",
+                "score": 0.551236,
+                "arguments": [
+                    {
+                        "text": "GOA circuit",
+                        "location": [
+                            13646,
+                            13657
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "GOA\nCircuit And Display Panel And Display Device Including The Same"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            13661,
+                            13666
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The GOA circuit of claim 4, wherein the signal downward transmission unit comprises a signal downward transmission transistor, a gate of the signal downward transmission transistor is connected to the first node, a source is connected to the clock signal input end, and a drain is connected to a gate of an upper-level first pull-down maintaining transistor and a gate of a lower- level pull-up control transistor.",
+                "score": 0.537121,
+                "arguments": [
+                    {
+                        "text": "GOA circuit",
+                        "location": [
+                            13985,
+                            13996
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "GOA\nCircuit And Display Panel And Display Device Including The Same"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            14000,
+                            14005
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The GOA circuit of claim 1, wherein the pull-up unit comprises a pull-up transistor, a gate of the pull-up transistor is connected to the first node, a source is connected to the clock signal input end, and a drain is connected to the scan signal output end.",
+                "score": 0.623047,
+                "arguments": [
+                    {
+                        "text": "GOA circuit",
+                        "location": [
+                            14406,
+                            14417
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "GOA\nCircuit And Display Panel And Display Device Including The Same"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            14421,
+                            14426
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The GOA circuit of claim 1, wherein the bootstrap unit comprises a bootstrap capacitor, and two ends of the bootstrap capacitor are respectively connected with the first node and the scan signal output end.",
+                "score": 0.623047,
+                "arguments": [
+                    {
+                        "text": "GOA circuit",
+                        "location": [
+                            14671,
+                            14682
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "GOA\nCircuit And Display Panel And Display Device Including The Same"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            14686,
+                            14691
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The display panel of claim 8, wherein a low level signal is input at the first voltage input end, clock signals of GOA circuits of two adjacent levels input at a clock signal input end are complementary with each other.",
+                "score": 0.852862,
+                "arguments": [
+                    {
+                        "text": "panel",
+                        "location": [
+                            16571,
+                            16576
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "panel",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            16580,
+                            16585
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The display panel of claim 8, wherein the pull-down unit comprises a first pull-down transistor and a second pull-down transistor, a gate of the first pull-down transistor and a gate of the second pull-down transistor are connected to the pull-down maintaining signal output end, a source of the first pull-down transistor and a source of the second pull-down transistor are respectively connected to the scan signal output end and the first node, and a drain of the first pull-down transistor and a drain of the second pull-down transistor are connected to the first voltage input end.",
+                "score": 0.865917,
+                "arguments": [
+                    {
+                        "text": "panel",
+                        "location": [
+                            16798,
+                            16803
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "panel",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            16807,
+                            16812
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The display panel of claim 8, wherein the pull-up control unit comprises a pull-up control transistor, a gate of the pull-up control transistor is connected to an output end of an upper-level signal downward transmission unit, a source is connected to an upper-level scan signal output end, and a drain is connected to the first node.",
+                "score": 0.854673,
+                "arguments": [
+                    {
+                        "text": "panel",
+                        "location": [
+                            17392,
+                            17397
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "panel",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            17401,
+                            17406
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The display panel of claim 11, wherein the signal downward transmission unit comprises a signal downward transmission transistor, a gate of the signal downward transmission transistor is connected to the first node, a source is connected to the clock signal input end, and a drain is connected to a gate of an upper-level first pull-down maintaining transistor and a gate of a lower- level pull-up control transistor.",
+                "score": 0.901001,
+                "arguments": [
+                    {
+                        "text": "panel",
+                        "location": [
+                            17734,
+                            17739
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "panel",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            17743,
+                            17748
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The display panel of claim 8, wherein the pull-up unit comprises a pull- up transistor, a gate of the pull-up transistor is connected to the first node, a source is connected to the clock signal input end, and a drain is connected to the scan signal output end.",
+                "score": 0.865917,
+                "arguments": [
+                    {
+                        "text": "panel",
+                        "location": [
+                            18159,
+                            18164
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "panel",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            18168,
+                            18173
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The display panel of claim 8, wherein the bootstrap unit comprises a bootstrap capacitor, and two ends of the bootstrap capacitor are respectively connected with the first node and the scan signal output end.",
+                "score": 0.865917,
+                "arguments": [
+                    {
+                        "text": "panel",
+                        "location": [
+                            18428,
+                            18433
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "panel",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            18437,
+                            18442
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "A display device comprising the display panel of claim 8.\"",
+                "score": 0.867144,
+                "arguments": [
+                    {
+                        "text": "panel",
+                        "location": [
+                            18672,
+                            18677
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "panel",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claim",
+                        "location": [
+                            18681,
+                            18686
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claim"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "U.S. Patent Number 10,665,187, filed September 13, 2018, and published online on June 8, 2020.",
+                "score": 0.977861,
+                "arguments": [
+                    {
+                        "text": "September 13, 2018",
+                        "location": [
+                            18871,
+                            18889
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "September 13, 2018"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            18865,
+                            18870
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- Shenzhen China Star Optoelectronics Technology Co. Ltd. (Shenzhen, Guangdong, People's Republic of China) has been issued patent number 10,665,187, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.501578,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Business\nDay",
+                        "location": [
+                            70,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Business\nDay",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- Shenzhen China Star Optoelectronics Technology Co. Ltd. (Shenzhen, Guangdong, People's Republic of China) has been issued patent number 10,665,187, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.976572,
+                "arguments": [
+                    {
+                        "text": "Business\nDay",
+                        "location": [
+                            70,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Business\nDay",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "China",
+                        "location": [
+                            64,
+                            69
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- Shenzhen China Star Optoelectronics Technology Co. Ltd. (Shenzhen, Guangdong, People's Republic of China) has been issued patent number 10,665,187, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.391766,
+                "arguments": [
+                    {
+                        "text": "Shenzhen China Star Optoelectronics Technology Co. Ltd.",
+                        "location": [
+                            86,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Shenzhen China Star Optoelectronics Technology Co. Ltd.",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Shenzhen",
+                        "location": [
+                            143,
+                            151
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Shenzhen"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- Shenzhen China Star Optoelectronics Technology Co. Ltd. (Shenzhen, Guangdong, People's Republic of China) has been issued patent number 10,665,187, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.823657,
+                "arguments": [
+                    {
+                        "text": "Shenzhen",
+                        "location": [
+                            143,
+                            151
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Shenzhen"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Guangdong",
+                        "location": [
+                            153,
+                            162
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Guangdong"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at China Business Day -- Shenzhen China Star Optoelectronics Technology Co. Ltd. (Shenzhen, Guangdong, People's Republic of China) has been issued patent number 10,665,187, according to news reporting originating out of Alexandria, Virginia, by NewsRx editors.",
+                "score": 0.984416,
+                "arguments": [
+                    {
+                        "text": "Alexandria",
+                        "location": [
+                            281,
+                            291
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alexandria"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Virginia",
+                        "location": [
+                            293,
+                            301
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Virginia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The patent's inventor is Chen, Shuai (Shenzhen, China).",
+                "score": 0.870572,
+                "arguments": [
+                    {
+                        "text": "Shuai",
+                        "location": [
+                            354,
+                            359
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Shuai"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Shenzhen",
+                        "location": [
+                            361,
+                            369
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Shenzhen"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "The patent's inventor is Chen, Shuai (Shenzhen, China).",
+                "score": 0.511791,
+                "arguments": [
+                    {
+                        "text": "Shuai",
+                        "location": [
+                            354,
+                            359
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Shuai"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "China",
+                        "location": [
+                            371,
+                            376
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The patent's inventor is Chen, Shuai (Shenzhen, China).",
+                "score": 0.970517,
+                "arguments": [
+                    {
+                        "text": "Shenzhen",
+                        "location": [
+                            361,
+                            369
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Shenzhen"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "China",
+                        "location": [
+                            371,
+                            376
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "China",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "driving circuit",
+                "relevance": 0.689152,
+                "count": 2
+            },
+            {
+                "text": "first node Q",
+                "relevance": 0.667136,
+                "count": 2
+            },
+            {
+                "text": "driving signal",
+                "relevance": 0.663592,
+                "count": 1
+            },
+            {
+                "text": "existing display field",
+                "relevance": 0.650173,
+                "count": 1
+            },
+            {
+                "text": "control unit",
+                "relevance": 0.646291,
+                "count": 10
+            },
+            {
+                "text": "transistor of the pull-down unit",
+                "relevance": 0.625738,
+                "count": 1
+            },
+            {
+                "text": "signal downward transmission unit",
+                "relevance": 0.598918,
+                "count": 6
+            },
+            {
+                "text": "patent number",
+                "relevance": 0.597773,
+                "count": 1
+            },
+            {
+                "text": "signal output end G",
+                "relevance": 0.589057,
+                "count": 3
+            },
+            {
+                "text": "current active display panels",
+                "relevance": 0.586681,
+                "count": 1
+            },
+            {
+                "text": "background information",
+                "relevance": 0.58645,
+                "count": 2
+            },
+            {
+                "text": "exemplary embodiments of the present invention",
+                "relevance": 0.582692,
+                "count": 9
+            },
+            {
+                "text": "potential of the first node Q",
+                "relevance": 0.582471,
+                "count": 3
+            },
+            {
+                "text": "pull-down unit",
+                "relevance": 0.582105,
+                "count": 11
+            },
+            {
+                "text": "GOA technique",
+                "relevance": 0.565593,
+                "count": 2
+            },
+            {
+                "text": "fourth transistor T54",
+                "relevance": 0.558431,
+                "count": 2
+            },
+            {
+                "text": "horizontal scanning line of a level",
+                "relevance": 0.557381,
+                "count": 1
+            },
+            {
+                "text": "patent's inventor",
+                "relevance": 0.556178,
+                "count": 1
+            },
+            {
+                "text": "GOA circuit of each level",
+                "relevance": 0.555432,
+                "count": 5
+            },
+            {
+                "text": "crystal display",
+                "relevance": 0.537467,
+                "count": 1
+            },
+            {
+                "text": "first time",
+                "relevance": 0.537336,
+                "count": 1
+            },
+            {
+                "text": "present invention lie",
+                "relevance": 0.53647,
+                "count": 1
+            },
+            {
+                "text": "GOA",
+                "relevance": 0.53642,
+                "count": 2
+            },
+            {
+                "text": "upper-level GOA circuit",
+                "relevance": 0.53465,
+                "count": 1
+            },
+            {
+                "text": "lower-level GOA circuit",
+                "relevance": 0.534009,
+                "count": 1
+            },
+            {
+                "text": "display panel",
+                "relevance": 0.533867,
+                "count": 9
+            },
+            {
+                "text": "second transistor T52",
+                "relevance": 0.529691,
+                "count": 1
+            },
+            {
+                "text": "additional information",
+                "relevance": 0.529314,
+                "count": 1
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.528997,
+                "count": 1
+            },
+            {
+                "text": "single-level GOA circuit",
+                "relevance": 0.528566,
+                "count": 4
+            },
+            {
+                "text": "third transistor T53",
+                "relevance": 0.528531,
+                "count": 2
+            },
+            {
+                "text": "display device",
+                "relevance": 0.52753,
+                "count": 4
+            },
+            {
+                "text": "first voltage input end VSS",
+                "relevance": 0.526579,
+                "count": 3
+            },
+            {
+                "text": "GOA circuit",
+                "relevance": 0.526211,
+                "count": 10
+            },
+            {
+                "text": "clock signals of GOA circuits",
+                "relevance": 0.525481,
+                "count": 3
+            },
+            {
+                "text": "bootstrap unit",
+                "relevance": 0.52475,
+                "count": 11
+            },
+            {
+                "text": "inventor's summary information",
+                "relevance": 0.524391,
+                "count": 1
+            },
+            {
+                "text": "pull",
+                "relevance": 0.523142,
+                "count": 51
+            },
+            {
+                "text": "inverter of a Darlington structure",
+                "relevance": 0.522341,
+                "count": 3
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.521587,
+                "count": 1
+            },
+            {
+                "text": "diode display",
+                "relevance": 0.520221,
+                "count": 1
+            },
+            {
+                "text": "cutoff of a scan signal",
+                "relevance": 0.519381,
+                "count": 1
+            },
+            {
+                "text": "displays",
+                "relevance": 0.517975,
+                "count": 1
+            },
+            {
+                "text": "semiconductor techniques",
+                "relevance": 0.517856,
+                "count": 1
+            },
+            {
+                "text": "circuit",
+                "relevance": 0.514998,
+                "count": 1
+            },
+            {
+                "text": "signal input end LC",
+                "relevance": 0.514655,
+                "count": 4
+            },
+            {
+                "text": "unit",
+                "relevance": 0.514141,
+                "count": 18
+            },
+            {
+                "text": "following description",
+                "relevance": 0.51411,
+                "count": 1
+            },
+            {
+                "text": "frame of a display panel",
+                "relevance": 0.513339,
+                "count": 1
+            },
+            {
+                "text": "gate",
+                "relevance": 0.512131,
+                "count": 12
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "816f8ed584d1fd6e5bbc49483c0d45d7334a3ca8",
+        "filename": "202006050000NEWSRX__VRT_GEOG_BC3648C7076B13F2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "Shenzhen|0001|ISIN:CNE000001GL8|TCL Corporation|extractor|DUNS:654291301;NECOID:920443013;ACORN:3045926644|SIGNIFICANT||PARENT||XSHE|REFERENCE",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Patent Issued for GOA Circuit And Display Panel And Display Device Including The Same (USPTO 10,665,187): Shenzhen China Star Optoelectronics Technology Co. Ltd.",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at China Business Day -- <org idsrc=\"xmltag.org\" value=\"ACORN:1695926911\">Shenzhen China Star Optoelectronics Technology Co. Ltd.</org> (<location idsrc=\"xmltag.org\" value=\"LU/cn..shnzhn\">Shenzhen</location>, <location idsrc=\"xmltag.org\" value=\"LU/cn..gngdng\">Guangdong</location>, People&#8217;s <location idsrc=\"xmltag.org\" value=\"LC/cn\">Republic of China</location>) has been issued patent number 10,665,187, according to news reporting originating out of <location idsrc=\"xmltag.org\" value=\"LU/us.va.alxdra\">Alexandria, Virginia</location>, by NewsRx editors.</p>\n<p>The patent&#8217;s inventor is Chen, Shuai (<location idsrc=\"xmltag.org\" value=\"LU/cn..shnzhn\">Shenzhen, China</location>).</p>\n<p>This patent was filed on <chron>September 13, 2018</chron> and was published online on <chron>June 8, 2020</chron>.</p>\n<p>From the background information supplied by the inventors, news correspondents obtained the following quote: &#8220;With the evolution of photoelectricity and semiconductor techniques, vigorous development is also brought to a display panel field. In the existing display field, commonly seen displays are a liquid crystal display, an organic light emitting diode display, and the like. In current active display panels, a driving signal from a driving circuit outside a display panel is utilized to drive a chip on the display panel so as to display an image. Recently, in order to narrow a frame of a display panel, it gradually develops into directly manufacturing a driving circuit on the display panel, such as, integrating a gate driving circuit on a substrate to form scanning of the display panel by using a <location>Gate Drive</location> on Array (<location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> for short).</p>\n<p>&#8220;Compared with a conventional COF (Chip On Film) technique, a <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> technique may not only reduce manufacturing costs significantly but also be highly advantageous to improving product capacity for omitting manufacturing procedure of bonding of the COF at a Gate side, moreover, it may make the display panel be more suitable for manufacturing a narrow-frame or frameless display products. Therefore, the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> technique is a key technique in future development of display panels.</p>\n<p>&#8220;FIG. 1 illustrates a schematic circuit diagram of a single-level <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit in the prior art. A <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit usually includes a plurality of single-level <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuits that are cascaded, and the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of each level drives a horizontal scanning line of a level correspondingly. As illustrated in FIG. 1, a single-level <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit 100 includes a pull-up control unit 110, a pull-up unit 120, a signal downward transmission unit 130, a pull-down unit 140, a pull-down maintaining unit 150 and a bootstrap unit 160, wherein the pull-up control unit 110 takes charge of pre-charging a first node Q(N), the pull-up unit 120 is mainly for increasing a potential of a scan signal output end G(N) so as to control the turning on of a transistor of the pull-down unit of an upper-level <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit, the signal downward transmission unit 130 is mainly for controlling transmission and cutoff of a scan signal in the pull-up control unit 110 of a lower-level <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit, the pull-down unit 140 takes charge of pulling down a potential of the first node Q(N) and a potential of the scan signal output end G(N) to a potential of a first voltage input end VSS at a first time, the pull-down maintaining unit 150 takes charge of maintaining the potential of the first node Q(N) and the potential of the scan signal output end G(N) to be the potential of the first voltage input end VSS unchanged, and the bootstrap unit 160 takes charge of increasing the potential of the first node Q(N); in this way, it is conducive to an output of the potential of the scan signal output end G(N) of the pull-up unit 120. The potential of the first voltage input end VSS may be a low potential, for example, may be a ground voltage.</p>\n<p>&#8220;An electronic element in the pull-down maintaining unit 150 illustrated in FIG. 1 is actually an inverter of a Darlington structure, and a specific circuit thereof is as illustrated in FIG. 2. FIG. 2 illustrates a schematic circuit diagram of an inverter of a Darlington structure in the prior art. In the circuit diagram of the inverter of a Darlington structure, when a low level signal is input at the first voltage input end VSS, a high level signal is input at a pull-down signal input end LC. When a high level signal is input at an inverter input end Input, a low level signal is output at an inverter output end Output. In contrary, when a low level signal is input at the inverter input end Input, a high level signal is output at the inverter output end Output.</p>\n<p>&#8220;In the prior art, a single-level <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit is basically to place the above several parts in a <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of a same level, thus, the single-level <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit in FIG. 1 may be converted into a single-level <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit illustrated in FIG. 3. FIG. 3 illustrates another schematic circuit diagram of a single-level <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit in the prior art. In FIG. 3, CK/XCK denotes a clock signal input end, ST(N) denotes a level transmission signal output end, G(N) denotes a scan signal output end, and Q(N) denotes a first node. A high level signal may be input at the pull-down signal input end LC, a low level signal may be input at the first voltage input end VSS, and a potential of the first node Q(N) may be an alternating current potential.</p>\n<p>&#8220;When the potential of the first node Q(N) is a low potential, a second transistor T52 and a fourth transistor T54 are turned off, a first transistor T51 is turned on, and then a third transistor T53 is turned on, and a potential of point B is a high potential. When the potential of the first node Q(N) is a high potential, the second transistor T52 is turned on, and the first transistor T51 is turned on, at this time, a potential of point A is in a certain intermediate potential for being subject to mutual pulling between a high potential of the pull-down signal input end LC and a low potential of the first voltage input end VSS, the third transistor T53 is in a semi-turned-on state, and the fourth transistor T54 is in a turned-on state. Therefore, a potential of point B is not possible to satisfy requirements of an absolute low potential for also being subject to mutual pulling between a potential of the pull-down signal input end LC and a potential of the first voltage input end VSS.&#8221;</p>\n<p>Supplementing the background information on this patent, NewsRx reporters also obtained the inventor&#8217;s summary information for this patent: &#8220;Exemplary embodiments of the present invention lie in providing a new pull-down maintaining unit applied to a <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit, and in a single-level <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit, the same circuit function effect may be achieved in the case where the use of an inverter of a Darlington structure is avoided, which provides a new concept and thinking for <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit designs, and saves a space occupied by the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit to a large extend, thereby providing new possibilities for designs of a narrow-frame display panel.</p>\n<p>&#8220;In exemplary embodiments of the present invention, a <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit is provided, the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit is <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuits of multiple levels that are set by cascading, the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of each level includes a pull-up control unit, a pull-up unit, a signal downward transmission unit, a pull-down unit, a pull-down maintaining unit, and a bootstrap unit, the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of each level is disposed with a clock signal input end, a first node, a first voltage input end, a pull-down maintaining signal output end and a scan signal output end outputting to a horizontal scan line, the first node being on a connection line between the pull-up control unit and the bootstrap unit, wherein the pull-down unit includes a first pull-down maintaining transistor, a pull-down maintaining capacitor and a second pull-down maintaining transistor, a gate of the first pull-down maintaining transistor is connected to an output end of a lower-level signal downward transmission unit, a source and a drain are respectively connected to a lower-level scan signal output end and a pull-down maintaining signal output end, the pull-down maintaining capacitor is connected between the drain of the first pull-down maintaining transistor and the first voltage input end, a gate of the second pull-down maintaining transistor is connected to an upper-level first node, a source and a drain are respectively connected to the pull-down maintaining signal output end and the first voltage input end, and the pull-down unit pulls down a potential of the first node and a potential of the scan signal output end to a first voltage input to the first voltage input end based on a pull-down maintaining signal output from the pull-down maintaining signal output end.</p>\n<p>&#8220;In exemplary embodiments of the present invention, a low level signal is input at the first voltage input end, clock signals of <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuits of two adjacent levels input at the clock signal input end are complementary with each other.</p>\n<p>&#8220;In exemplary embodiments of the present invention, the pull-down unit includes a first pull-down transistor and a second pull-down transistor, a gate of the first pull-down transistor and a gate of the second pull-down transistor are connected to the pull-down maintaining signal output end, a source of the first pull-down transistor and a source of the second pull-down transistor are respectively connected to the scan signal output end and the first node, and a drain of the first pull-down transistor and a drain of the second pull-down transistor are connected to the first voltage input end.</p>\n<p>&#8220;In exemplary embodiments of the present invention, the pull-up control unit includes a pull-up control transistor, a gate of the pull-up control transistor is connected to an output end of an upper-level signal downward transmission unit, a source is connected to an upper-level scan signal output end, and a drain is connected to the first node.</p>\n<p>&#8220;In exemplary embodiments of the present invention, the pull-up unit includes a pull-up transistor, a gate of the pull-up transistor is connected to the first node, a source is connected to the clock signal input end, and a drain is connected to the scan signal output end.</p>\n<p>&#8220;In exemplary embodiments of the present invention, the signal downward transmission unit includes a signal downward transmission transistor, a gate of the signal downward transmission transistor is connected to the first node, a source is connected to the clock signal input end, and a drain is connected to the gate of the upper-level first pull-down maintaining transistor and the gate of the lower-level pull-up control transistor.</p>\n<p>&#8220;In exemplary embodiments of the present invention, the bootstrap unit includes a bootstrap capacitor, and two ends of the bootstrap capacitor are respectively connected with the first node and the scan signal output end.</p>\n<p>&#8220;In exemplary embodiments of the present invention, a display panel is provided, and the display panel may include the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit as mentioned above.</p>\n<p>&#8220;In exemplary embodiments of the present invention, a display device is provided, and the display device may include the display panel as mentioned above.</p>\n<p>&#8220;Other aspects and/or advantages in a general concept of the present invention will be partially illustrated in the following description, and the rest will be clarified through further description or may be learned through implementation of the general concept of the present invention.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;What is claimed is:</p>\n<p>&#8220;1. A <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> Circuit, the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit comprises <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuits of multiple levels that set by cascading, the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit pull-up unit, a signal downward transmission unit, a pull-down unit, a pull-down maintaining unit, and a bootstrap unit, the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of each level is disposed with a clock signal input end, a first node, a first voltage input end, a pull-down maintaining signal output end and a scan signal output end outputting to a horizontal scan line, the first node being on a connection line between the pull-up control unit and the bootstrap unit, wherein the pull-down maintaining unit comprises a first pull-down maintaining transistor, a pull-down maintaining capacitor and a second pull-down maintaining transistor, a gate of the first pull-down maintaining transistor is connected to an output end of a lower-level signal downward transmission unit, and a source and a drain are respectively connected to a lower-level scan signal output end and a pull-down maintaining signal output end, the pull-down maintaining capacitor is connected between a drain of the first pull-down maintaining transistor and the first voltage input end, a gate of the second pull-down maintaining transistor is connected to an upper-level first node, and a source and a drain are respectively connected to the pull-down maintaining signal output end and the first voltage input end, and the pull-down unit pulls down a potential of the first node and a potential of the scan signal output end to a first voltage input to the first voltage input end based on a pull-down maintaining signal output from the pull-down maintaining signal output end.</p>\n<p>&#8220;2. The <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of claim 1, wherein a low level signal is input at the first voltage input end, clock signals of <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuits of two adjacent levels input at a clock signal input end are complementary with each other.</p>\n<p>&#8220;3. The <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of claim 1, wherein the pull-down unit comprises a first pull-down transistor and a second pull-down transistor, a gate of the first pull-down transistor and a gate of the second pull-down transistor are connected to the pull-down maintaining signal output end, a source of the first pull-down transistor and a source of the second pull-down transistor are respectively connected to the scan signal output end and the first node, and a drain of the first pull-down transistor and a drain of the second pull-down transistor are connected to the first voltage input end.</p>\n<p>&#8220;4. The <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of claim 1, wherein the pull-up control unit comprises a pull-up control transistor, a gate of the pull-up control transistor is connected to an output end of an upper-level signal downward transmission unit, a source is connected to an upper-level scan signal output end, and a drain is connected to the first node.</p>\n<p>&#8220;5. The <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of claim 4, wherein the signal downward transmission unit comprises a signal downward transmission transistor, a gate of the signal downward transmission transistor is connected to the first node, a source is connected to the clock signal input end, and a drain is connected to a gate of an upper-level first pull-down maintaining transistor and a gate of a lower-level pull-up control transistor.</p>\n<p>&#8220;6. The <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of claim 1, wherein the pull-up unit comprises a pull-up transistor, a gate of the pull-up transistor is connected to the first node, a source is connected to the clock signal input end, and a drain is connected to the scan signal output end.</p>\n<p>&#8220;7. The <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of claim 1, wherein the bootstrap unit comprises a bootstrap capacitor, and two ends of the bootstrap capacitor are respectively connected with the first node and the scan signal output end.</p>\n<p>&#8220;8. A display panel comprising a <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit, wherein the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit comprises <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuits of multiple levels comprises a pull-up control unit, a pull-up unit, a signal downward transmission unit, a pull-down unit, a pull-down maintaining unit, and a bootstrap unit, the <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuit of each level is disposed with a clock signal input end, a first node, a first voltage input end, a pull-down maintaining signal output end and a scan signal output end outputting to a horizontal scan line, the first node being on a connection line between the pull-up control unit and the bootstrap unit, wherein the pull-down maintaining unit comprises a first pull-down maintaining transistor, a pull-down maintaining capacitor and a second pull-down maintaining transistor, a gate of the first pull-down maintaining transistor is connected to an output end of a lower-level signal downward transmission unit, and a source and a drain are respectively connected to a lower-level scan signal output end and a pull-down maintaining signal output end, the pull-down maintaining capacitor is connected between the drain of the first pull-down maintaining transistor and the first voltage input end, a gate of the second pull-down maintaining transistor is connected to an upper-level first node, and a source and a drain are respectively connected to the pull-down maintaining signal output end and the first voltage input end, and the pull-down unit pulls down a potential of the first node and a potential of the scan signal output end to a first voltage input to the first voltage input end based on a pull-down maintaining signal output from the pull-down maintaining signal output end.</p>\n<p>&#8220;9. The display panel of claim 8, wherein a low level signal is input at the first voltage input end, clock signals of <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> circuits of two adjacent levels input at a clock signal input end are complementary with each other.</p>\n<p>&#8220;10. The display panel of claim 8, wherein the pull-down unit comprises a first pull-down transistor and a second pull-down transistor, a gate of the first pull-down transistor and a gate of the second pull-down transistor are connected to the pull-down maintaining signal output end, a source of the first pull-down transistor and a source of the second pull-down transistor are respectively connected to the scan signal output end and the first node, and a drain of the first pull-down transistor and a drain of the second pull-down transistor are connected to the first voltage input end.</p>\n<p>&#8220;11. The display panel of claim 8, wherein the pull-up control unit comprises a pull-up control transistor, a gate of the pull-up control transistor is connected to an output end of an upper-level signal downward transmission unit, a source is connected to an upper-level scan signal output end, and a drain is connected to the first node.</p>\n<p>&#8220;12. The display panel of claim 11, wherein the signal downward transmission unit comprises a signal downward transmission transistor, a gate of the signal downward transmission transistor is connected to the first node, a source is connected to the clock signal input end, and a drain is connected to a gate of an upper-level first pull-down maintaining transistor and a gate of a lower-level pull-up control transistor.</p>\n<p>&#8220;13. The display panel of claim 8, wherein the pull-up unit comprises a pull-up transistor, a gate of the pull-up transistor is connected to the first node, a source is connected to the clock signal input end, and a drain is connected to the scan signal output end.</p>\n<p>&#8220;14. The display panel of claim 8, wherein the bootstrap unit comprises a bootstrap capacitor, and two ends of the bootstrap capacitor are respectively connected with the first node and the scan signal output end.</p>\n<p>&#8220;15. A display device comprising the display panel of claim 8.&#8221;</p>\n<p>For the URL and additional information on this patent, see: Chen, Shuai. <location idsrc=\"xmltag.org\" value=\"LU/in..goa\">GOA</location> Circuit And Display Panel And Display Device Including The Same. <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> Patent Number 10,665,187, filed <chron>September 13, 2018</chron>, and published online on <chron>June 8, 2020</chron>. Patent URL: <a href=\"http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,665,187.PN.&amp;OS=PN/10,665,187RS=PN/10,665,187\" target=\"_blank\">http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,665,187.PN.&amp;OS=PN/10,665,187RS=PN/10,665,187</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GC/cn",
+            "China"
+        ]
+    ]
+}

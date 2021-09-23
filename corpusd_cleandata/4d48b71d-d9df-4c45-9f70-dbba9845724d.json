@@ -1,0 +1,279 @@
+{
+    "id": "4d48b71d-d9df-4c45-9f70-dbba9845724d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020 Al Bawaba (Albawaba.com)  Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "Amman, Jordan",
+    "sourceType": "Business & Financial Newswire",
+    "source": "Al Bawaba Business",
+    "corpus_document_id": "54506169158268033872",
+    "description": "Product service code: 1680- miscellaneous aircraft accessories and components Contractor name: TRANSDIGM INC, PAINESVILLE, OH 44077-2918 Implementing agency: Dept Of Defense Philadelphia, Pa 19111-5098 Contact: Dylan T. Kendra Email: Dylan.Kendra@Dla.Mil Phone Number: Phone Number Phone 737-4766 Country: United States.",
+    "serviceName": "Mena Report",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [],
+    "text": "Award notice: 16--valve cooling aircr\n\nProduct service code: 1680 - miscellaneous aircraft accessories and components\nContractor name : TRANSDIGM INC, PAINESVILLE, OH 44077-2918 Implementing\nagency : Dept Of Defense Philadelphia , Pa 19111-5098 Contact: Dylan T. Kendra\nEmail: [Dylan.Kendra@Dla.Mil](mailto:Dylan.Kendra@Dla.Mil) Phone Number: Phone\nNumber Phone (215)737-4766 Country :United States",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "TRANSDIGM INC"
+        ],
+        "location": [
+            "PAINESVILLE, OH",
+            "United States"
+        ],
+        "person": [
+            "Dylan T. Kendra"
+        ],
+        "companies": [
+            "TRANSDIGM INC"
+        ]
+    },
+    "geoOrigin_code": "RU/jo..amman",
+    "language": "English",
+    "filename": "202006050258ALBA____MENAREPO_24042_176217311_138.2.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dept Of Defense Philadelphia",
+                "relevance": 0.859802,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dylan T. Kendra",
+                "relevance": 0.66837,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "PAINESVILLE",
+                "relevance": 0.547833,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Painesville, Ohio",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Painesville,_Ohio"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "TRANSDIGM INC",
+                "relevance": 0.434077,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Pa",
+                "relevance": 0.394755,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "United States",
+                "relevance": 0.375672,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Dylan.Kendra@Dla.Mil",
+                "relevance": 0.375672,
+                "type": "EmailAddress"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.836314,
+                "label": "/technology and computing/internet technology/email"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Product service code: 1680 - miscellaneous aircraft accessories and components Contractor name : TRANSDIGM INC, PAINESVILLE, OH 44077-2918 Implementing agency : Dept Of Defense Philadelphia , Pa 19111-5098 Contact: Dylan T. Kendra Email: [Dylan.Kendra@Dla.Mil](mailto:Dylan.Kendra@Dla.Mil) Phone Number: Phone Number Phone (215)737-4766 Country :United States",
+                "score": 0.81895,
+                "arguments": [
+                    {
+                        "text": "Philadelphia",
+                        "location": [
+                            216,
+                            228
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Philadelphia"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Pa",
+                        "location": [
+                            231,
+                            233
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "PAINESVILLE"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Phone Number",
+                "relevance": 0.850566,
+                "count": 1
+            },
+            {
+                "text": "Dept Of Defense Philadelphia",
+                "relevance": 0.774784,
+                "count": 1
+            },
+            {
+                "text": "Award notice",
+                "relevance": 0.733434,
+                "count": 1
+            },
+            {
+                "text": "United States",
+                "relevance": 0.642373,
+                "count": 1
+            },
+            {
+                "text": "miscellaneous aircraft accessories",
+                "relevance": 0.561403,
+                "count": 1
+            },
+            {
+                "text": "TRANSDIGM INC",
+                "relevance": 0.541352,
+                "count": 1
+            },
+            {
+                "text": "Contact",
+                "relevance": 0.533164,
+                "count": 1
+            },
+            {
+                "text": "Country",
+                "relevance": 0.52896,
+                "count": 1
+            },
+            {
+                "text": "valve",
+                "relevance": 0.52896,
+                "count": 1
+            },
+            {
+                "text": "mailto",
+                "relevance": 0.372256,
+                "count": 1
+            },
+            {
+                "text": "Pa",
+                "relevance": 0.36252,
+                "count": 1
+            },
+            {
+                "text": "PAINESVILLE",
+                "relevance": 0.346341,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "7ad1f94f48ba7ed275cabf99d78c9c9b43c584ec",
+        "filename": "202006050258ALBA____MENAREPO_24042_176217311_138.2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NYSE|TDG|CUSIP:893641100;ISIN:US8936411003|TransDigm Group Incorporated|extractor|DUNS:135472285;NECOID:507227;ACORN:1163392312|SIGNIFICANT||PARENT||XNYS|REFERENCE",
+    "publicationTime": "2020-06-05T02:58:00-04:00",
+    "title": "16--valve Cooling Aircr [Al Bawaba Business]",
+    "html": "<p>Award notice: 16--valve cooling aircr</p>\n<p>Product service code: 1680 - miscellaneous aircraft accessories and components\nContractor name : <org idsrc=\"xmltag.org\" value=\"ACORN:1117750912\">TRANSDIGM INC</org>, <location idsrc=\"xmltag.org\" value=\"LU/us.oh.paille\">PAINESVILLE, OH</location> 44077-2918\nImplementing agency : Dept Of Defense Philadelphia , Pa 19111-5098 Contact: <person>Dylan T. Kendra</person> Email: <a href=\"mailto:Dylan.Kendra@Dla.Mil\">Dylan.Kendra@Dla.Mil</a> Phone Number: Phone Number Phone (215)737-4766\nCountry :<location idsrc=\"xmltag.org\" value=\"LC/us\">United States</location></p>",
+    "geoFocus": [
+        [
+            "GB/nafr",
+            "Northern Africa"
+        ],
+        [
+            "GB/was",
+            "Western Asia"
+        ]
+    ]
+}

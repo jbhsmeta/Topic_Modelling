@@ -1,0 +1,625 @@
+{
+    "id": "2808e261-3603-4305-a9de-63ea174d6b45",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020 The Enterprise. All Rights Reserved.",
+    "geoOrigin": "Brockton, Massachusetts",
+    "sourceType": "Newspaper",
+    "source": "Enterprise, The (Brockton, MA)",
+    "corpus_document_id": "30139928537244256070",
+    "description": "Ralph Northam said Thursday that racing will be allowed to resume in the state without spectators. The governor said that NASCAR will race at Martinsville Speedway on June 10 and that other forms of auto racing and horse racing also are cleared to resume.  \"These events will not be open to the public and no spectators will be allowed, among other restrictions,\" he...",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": "IS/sports",
+            "relevance_score": "9",
+            "description": "Professional Sports",
+            "code": "IS/lifesoc.prosport#9#50#94",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Sports",
+            "code": "IS/sports#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/sports",
+            "relevance_score": "9",
+            "description": "Auto Racing",
+            "code": "IS/sports.autorace#9#99#94",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.prosport",
+            "relevance_score": "9",
+            "description": "NASCAR",
+            "code": "IS/sports.nascar#9#94#50",
+            "level": 2
+        }
+    ],
+    "text": "Source: [jayski.com](http://jayski.com)\n\nMAY 28, 2020\n\nVirginia Gov. Ralph Northam said Thursday that racing will be allowed to\nresume in the state without spectators.\n\nThe governor said that NASCAR will race at Martinsville Speedway on June 10\nand that other forms of auto racing and horse racing also are cleared to\nresume.\n\n\"These events will not be open to the public and no spectators will be\nallowed, among other restrictions,\" he said.\n\nSource: Associated Press / ESPN \"",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Sports and Recreation",
+            "code": "II/sports#7#50#76",
+            "level": 0
+        },
+        {
+            "parent": "II/sports.pro",
+            "relevance_score": "7",
+            "description": "Professional Auto Racing",
+            "code": "II/sports.auto#7#76#50",
+            "level": 3
+        },
+        {
+            "parent": "II/sports.spectate",
+            "relevance_score": "7",
+            "description": "Professional Sports",
+            "code": "II/sports.pro#7#50#76",
+            "level": 2
+        },
+        {
+            "parent": "II/sports",
+            "relevance_score": "7",
+            "description": "Spectator Sports",
+            "code": "II/sports.spectate#7#50#76",
+            "level": 1
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "NASCAR",
+            "Martinsville Speedway",
+            "Associated Press",
+            "ESPN"
+        ],
+        "location": [
+            "Virginia"
+        ],
+        "person": [
+            "Ralph Northam"
+        ],
+        "companies": [
+            "ESPN",
+            "NASCAR",
+            "Associated Press",
+            "Martinsville Speedway"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ma.broton",
+    "language": "English",
+    "filename": "202005300000NEWSBANKNEWSPPRS360CCCC40B2806B9C8834F667E8A3BC.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Gov. Ralph Northam",
+                "relevance": 0.88699,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Politician",
+                        "OfficeHolder"
+                    ],
+                    "name": "Ralph Northam",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Ralph_Northam"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.486526,
+                    "label": "negative"
+                },
+                "text": "Martinsville Speedway",
+                "relevance": 0.765654,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Associated Press",
+                "relevance": 0.608198,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [
+                        "AwardPresentingOrganization",
+                        "AwardWinner"
+                    ],
+                    "name": "Associated Press",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Associated_Press"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.486526,
+                    "label": "negative"
+                },
+                "text": "NASCAR",
+                "relevance": 0.556373,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "NASCAR",
+                    "dbpedia_resource": "http://dbpedia.org/resource/NASCAR"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "ESPN",
+                "relevance": 0.532795,
+                "type": "Broadcaster",
+                "disambiguation": {
+                    "subtype": [
+                        "TelevisionStation"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Virginia",
+                "relevance": 0.489675,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Virginia"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Virginia Gov. Ralph Northam"
+                },
+                "sentence": " Virginia Gov. Ralph Northam said Thursday that racing will be allowed to",
+                "object": {
+                    "text": "that racing will be allowed to"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The governor"
+                },
+                "sentence": " The governor said that NASCAR will race at Martinsville Speedway on June 10",
+                "object": {
+                    "text": "that NASCAR will race at Martinsville Speedway on June 10"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "other forms of auto racing and horse racing"
+                },
+                "sentence": " and that other forms of auto racing and horse racing also are cleared to",
+                "object": {
+                    "text": "cleared to"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "These events"
+                },
+                "sentence": " \"These events will not be open to the public and no spectators will be",
+                "object": {
+                    "text": "open to the public"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " allowed, among other restrictions,\" he said.",
+                "object": {
+                    "text": "allowed, among other restrictions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.999995,
+                "label": "/sports/auto racing/nascar"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "Virginia Gov. Ralph Northam said Thursday that racing will be allowed to resume in the state without spectators.",
+                "score": 0.640982,
+                "arguments": [
+                    {
+                        "text": "Gov.",
+                        "location": [
+                            64,
+                            68
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Ralph Northam"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Virginia",
+                        "location": [
+                            55,
+                            63
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Virginia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Virginia Gov. Ralph Northam said Thursday that racing will be allowed to resume in the state without spectators.",
+                "score": 0.98939,
+                "arguments": [
+                    {
+                        "text": "Ralph Northam",
+                        "location": [
+                            69,
+                            82
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Ralph Northam"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            83,
+                            87
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The governor said that NASCAR will race at Martinsville Speedway on June 10 and that other forms of auto racing and horse racing also are cleared to resume.",
+                "score": 0.967447,
+                "arguments": [
+                    {
+                        "text": "governor",
+                        "location": [
+                            173,
+                            181
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Ralph Northam"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            182,
+                            186
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"These events will not be open to the public and no spectators will be allowed, among other restrictions,\" he said.",
+                "score": 0.983906,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            434,
+                            436
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Ralph Northam"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            437,
+                            441
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Virginia Gov. Ralph Northam said Thursday that racing will be allowed to resume in the state without spectators.",
+                "score": 0.989497,
+                "arguments": [
+                    {
+                        "text": "Thursday",
+                        "location": [
+                            88,
+                            96
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Thursday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            83,
+                            87
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "basedIn",
+                "sentence": "The governor said that NASCAR will race at Martinsville Speedway on June 10 and that other forms of auto racing and horse racing also are cleared to resume.",
+                "score": 0.495431,
+                "arguments": [
+                    {
+                        "text": "NASCAR",
+                        "location": [
+                            192,
+                            198
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NASCAR"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Martinsville Speedway",
+                        "location": [
+                            212,
+                            233
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Martinsville Speedway"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Virginia Gov. Ralph Northam",
+                "relevance": 0.969414,
+                "count": 1
+            },
+            {
+                "text": "forms of auto racing",
+                "relevance": 0.706166,
+                "count": 1
+            },
+            {
+                "text": "horse racing",
+                "relevance": 0.664034,
+                "count": 1
+            },
+            {
+                "text": "Martinsville Speedway",
+                "relevance": 0.663409,
+                "count": 1
+            },
+            {
+                "text": "Source",
+                "relevance": 0.559941,
+                "count": 2
+            },
+            {
+                "text": "governor",
+                "relevance": 0.559805,
+                "count": 1
+            },
+            {
+                "text": "events",
+                "relevance": 0.554692,
+                "count": 1
+            },
+            {
+                "text": "NASCAR",
+                "relevance": 0.540637,
+                "count": 1
+            },
+            {
+                "text": "restrictions",
+                "relevance": 0.5282,
+                "count": 1
+            },
+            {
+                "text": "Press",
+                "relevance": 0.522831,
+                "count": 1
+            },
+            {
+                "text": "state",
+                "relevance": 0.520817,
+                "count": 1
+            },
+            {
+                "text": "ESPN",
+                "relevance": 0.517795,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.517795,
+                "count": 1
+            },
+            {
+                "text": "spectators",
+                "relevance": 0.517795,
+                "count": 2
+            },
+            {
+                "text": "racing",
+                "relevance": 0.436559,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.423612,
+                "count": 1
+            },
+            {
+                "text": "resume",
+                "relevance": 0.411608,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "e9698c2d4737b842dad1711acba6639638715b55",
+        "filename": "202005300000NEWSBANKNEWSPPRS360CCCC40B2806B9C8834F667E8A3BC.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-30T00:00:00-04:00",
+    "title": "Virginia Governor says NASCAR can run at Martinsville without fans",
+    "html": "<p>Source: <a href=\"http://jayski.com\">jayski.com</a></p>\n<p><chron>MAY 28, 2020</chron></p>\n\n<p><location idsrc=\"xmltag.org\" value=\"LS/us.va\">Virginia</location> Gov. <person>Ralph Northam</person> said Thursday that racing will be allowed to resume in the state without spectators.</p>\n\n<p>The governor said that <org>NASCAR</org> will race at <org>Martinsville Speedway</org> on <chron>June 10</chron> and that other forms of auto racing and horse racing also are cleared to resume.</p>\n\n<p>\"These events will not be open to the public and no spectators will be allowed, among other restrictions,\" he said.</p>\n\n<p>Source: <org>Associated Press</org> / <org>ESPN</org> \"</p>",
+    "geoFocus": [
+        [
+            "GU/us.ma.broton",
+            "Brockton"
+        ]
+    ]
+}

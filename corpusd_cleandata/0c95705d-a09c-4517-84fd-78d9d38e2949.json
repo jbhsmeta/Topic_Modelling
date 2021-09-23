@@ -1,0 +1,262 @@
+{
+    "id": "0c95705d-a09c-4517-84fd-78d9d38e2949",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Local TV LLC, All rights reserved.",
+    "geoOrigin": "Greensboro, North Carolina",
+    "sourceType": "Broadcast Transcript",
+    "source": "WGHP-TV (Greensboro, NC)",
+    "corpus_document_id": "42851684984017934097",
+    "description": "Wisdom Talley will be graduating from the North Carolina School of Science and Mathematics.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Science and Technology",
+            "code": "IS/appsci#6#50#61",
+            "level": 0
+        },
+        {
+            "parent": "IS/appsci",
+            "relevance_score": "6",
+            "description": "Mathematics",
+            "code": "IS/appsci.math#6#61#50",
+            "level": 1
+        }
+    ],
+    "text": "Wisdom Talley will be graduating from the North Carolina School of Science and\nMathematics.\n\nShe will be attending Howard University to become a Neonatologist.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "North Carolina School of Science and Mathematics",
+            "Howard University"
+        ],
+        "location": [],
+        "person": [
+            "Wisdom Talley"
+        ],
+        "companies": [
+            "North Carolina School of Science and Mathematics",
+            "Howard University"
+        ]
+    },
+    "geoOrigin_code": "RU/us.nc.grnsbo",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRS2808CEFA6FC3F19D0A0F4471D291E0E.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "North Carolina School of Science",
+                "relevance": 0.990978,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Talley",
+                "relevance": 0.888289,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Howard University",
+                "relevance": 0.567161,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Neonatologist",
+                "relevance": 0.233827,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Wisdom Talley"
+                },
+                "sentence": "Wisdom Talley will be graduating from the North Carolina School of Science and",
+                "object": {
+                    "text": "graduating"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Wisdom Talley"
+                },
+                "sentence": "Wisdom Talley will be graduating from the North Carolina School of Science and",
+                "object": {
+                    "text": "from the North Carolina School of Science"
+                },
+                "action": {
+                    "verb": {
+                        "text": "graduate",
+                        "tense": "future"
+                    },
+                    "text": "will be graduating",
+                    "normalized": "will be graduate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "She"
+                },
+                "sentence": " She will be attending Howard University to become a Neonatologist.",
+                "object": {
+                    "text": "attending Howard University to become a Neonatologist"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "She"
+                },
+                "sentence": " She will be attending Howard University to become a Neonatologist.",
+                "object": {
+                    "text": "Howard University"
+                },
+                "action": {
+                    "verb": {
+                        "text": "attend",
+                        "tense": "future"
+                    },
+                    "text": "will be attending",
+                    "normalized": "will be attend"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.795347,
+                "label": "/education/school"
+            },
+            {
+                "score": 0.632461,
+                "label": "/education/teaching and classroom resources/school supplies"
+            },
+            {
+                "score": 0.600517,
+                "label": "/science/mathematics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Wisdom Talley will be graduating from the North Carolina School of Science and Mathematics.",
+                "score": 0.690493,
+                "arguments": [
+                    {
+                        "text": "Wisdom Talley",
+                        "location": [
+                            0,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Wisdom Talley"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "graduating",
+                        "location": [
+                            22,
+                            32
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventEducation",
+                                "text": "graduating"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Wisdom Talley",
+                "relevance": 0.984374,
+                "count": 1
+            },
+            {
+                "text": "Howard University",
+                "relevance": 0.951674,
+                "count": 1
+            },
+            {
+                "text": "North Carolina School of Science",
+                "relevance": 0.602279,
+                "count": 1
+            },
+            {
+                "text": "Mathematics",
+                "relevance": 0.554788,
+                "count": 1
+            },
+            {
+                "text": "Neonatologist",
+                "relevance": 0.080216,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "3c0c781b2c588857fce9ef4f946614a162db1891",
+        "filename": "202005310000NEWSBANKNEWSPPRS2808CEFA6FC3F19D0A0F4471D291E0E.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "FOX8 Senior Sendoff: Wisdom Talley, North Carolina School of Science and Mathematics",
+    "html": "<p><person>Wisdom Talley</person> will be graduating from the <org>North Carolina School of Science and Mathematics</org>.</p>\n<p>She will be attending <org>Howard University</org> to become a Neonatologist.</p>",
+    "geoFocus": [
+        [
+            "GU/us.nc.grnsbo",
+            "Greensboro"
+        ]
+    ]
+}

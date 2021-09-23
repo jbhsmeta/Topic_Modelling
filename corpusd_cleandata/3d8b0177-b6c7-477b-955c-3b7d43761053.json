@@ -1,0 +1,320 @@
+{
+    "id": "3d8b0177-b6c7-477b-955c-3b7d43761053",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright Telegraph Herald May 24, 2020",
+    "geoOrigin": "Dubuque, Iowa",
+    "sourceType": "Newspaper",
+    "source": "Telegraph-Herald (Dubuque, IA)",
+    "corpus_document_id": "66931819505435297043",
+    "description": "The Cincinnati Reds' Curt Casali is among 10 current or retired Major League Baseball players who have helped developed an outdoor, interactive game called CupCheck.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Sports",
+            "code": "IS/sports#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/sports.team",
+            "relevance_score": "9",
+            "description": "Baseball",
+            "code": "IS/sports.baseball#9#99#85",
+            "level": 2
+        },
+        {
+            "parent": "IS/sports",
+            "relevance_score": "9",
+            "description": "Team Sports",
+            "code": "IS/sports.team#9#87#99",
+            "level": 1
+        },
+        {
+            "parent": "IS/sports",
+            "relevance_score": "8",
+            "description": "Professional Sports",
+            "code": "IS/lifesoc.prosport#8#50#85",
+            "level": 1
+        }
+    ],
+    "text": "John Minchillo The AP\n\nThe Cincinnati Reds' Curt Casali is among 10 current or retired Major League\nBaseball players who have helped developed an outdoor, interactive game called\nCupCheck.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "The Cincinnati Reds'",
+            "League Baseball"
+        ],
+        "location": [],
+        "person": [
+            "Curt Casali"
+        ],
+        "companies": [
+            "The Cincinnati Reds'",
+            "League Baseball"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ia.dubque",
+    "language": "English",
+    "filename": "202005240000PROQUESTNEWPAPER_2406718658.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Curt Casali",
+                "relevance": 0.972405,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Cincinnati Reds",
+                "relevance": 0.801616,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "SportsTeam",
+                        "ProfessionalSportsTeam"
+                    ],
+                    "name": "Cincinnati Reds",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Cincinnati_Reds"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Major League",
+                "relevance": 0.605696,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "AwardPresentingOrganization",
+                        "SportsAssociation"
+                    ],
+                    "name": "Major League Baseball",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Major_League_Baseball"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "John Minchillo",
+                "relevance": 0.527934,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Baseball",
+                "relevance": 0.479363,
+                "type": "Sport",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Baseball",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Baseball"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The Cincinnati Reds' Curt Casali"
+                },
+                "sentence": " The Cincinnati Reds' Curt Casali is among 10 current or retired Major League",
+                "object": {
+                    "text": "among 10 current or retired Major League"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Baseball players"
+                },
+                "sentence": " Baseball players who have helped developed an outdoor, interactive game called",
+                "object": {
+                    "text": "developed an outdoor"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "past"
+                    },
+                    "text": "helped",
+                    "normalized": "help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Baseball players"
+                },
+                "sentence": " Baseball players who have helped developed an outdoor, interactive game called",
+                "object": {
+                    "text": "an outdoor"
+                },
+                "action": {
+                    "verb": {
+                        "text": "develop",
+                        "tense": "past"
+                    },
+                    "text": "have helped developed",
+                    "normalized": "have help develop"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.999748,
+                "label": "/sports/baseball"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "John Minchillo The AP",
+                "score": 0.664435,
+                "arguments": [
+                    {
+                        "text": "John Minchillo",
+                        "location": [
+                            0,
+                            14
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "John Minchillo"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "AP",
+                        "location": [
+                            19,
+                            21
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "AP",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The Cincinnati Reds' Curt Casali is among 10 current or retired Major League Baseball players who have helped developed an outdoor, interactive game called CupCheck.",
+                "score": 0.785641,
+                "arguments": [
+                    {
+                        "text": "Curt Casali",
+                        "location": [
+                            44,
+                            55
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Curt Casali"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Cincinnati Reds",
+                        "location": [
+                            27,
+                            42
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Cincinnati Reds",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Cincinnati Reds' Curt Casali",
+                "relevance": 0.966239,
+                "count": 1
+            },
+            {
+                "text": "John Minchillo",
+                "relevance": 0.567571,
+                "count": 1
+            },
+            {
+                "text": "AP",
+                "relevance": 0.533176,
+                "count": 1
+            },
+            {
+                "text": "interactive game",
+                "relevance": 0.388629,
+                "count": 1
+            },
+            {
+                "text": "CupCheck",
+                "relevance": 0.169879,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "415a8092622ae65b68bd356c97436aba74818322",
+        "filename": "202005240000PROQUESTNEWPAPER_2406718658.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||The Cincinnati Reds LLC|extractor|DUNS:071281620;NECOID:5264852;ACORN:1487890187|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-05-24T00:00:00-04:00",
+    "title": "CupCheck10 major leaguers market game",
+    "html": "<p>John Minchillo  The AP</p>\n<p><org idsrc=\"xmltag.org\" value=\"ACORN:1487890187\">The Cincinnati Reds'</org> <person>Curt Casali</person> is among 10 current or retired Major <org>League Baseball</org> players who have helped developed an outdoor, interactive game called CupCheck.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ia.dubque",
+            "Dubuque"
+        ]
+    ]
+}

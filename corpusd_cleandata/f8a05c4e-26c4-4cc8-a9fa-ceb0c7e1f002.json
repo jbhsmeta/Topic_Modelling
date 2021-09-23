@@ -1,0 +1,1153 @@
+{
+    "id": "f8a05c4e-26c4-4cc8-a9fa-ceb0c7e1f002",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright Dennis Publishing Ltd. Apr 29-May 12, 2020",
+    "geoOrigin": "London, England, United Kingdom",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Web User",
+    "corpus_document_id": "36169796555915209113",
+    "description": "Microsoft has issued another update for Windows 10, and yet again it has a bug. The automatic update, which included new antivirus definitions for identifying malware, contained a flaw that stopped Windows Defender working. Users reported that when they tried to run a full-system scan, the built-in security software would crash and show a series of error...",
+    "serviceName": "Magazines",
+    "locationCode": [],
+    "sourceClass": "The Internet",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Science and Technology",
+            "code": "IS/appsci#7#50#78",
+            "level": 0
+        },
+        {
+            "parent": "IS/appsci.tech",
+            "relevance_score": "7",
+            "description": "Information Technology",
+            "code": "IS/appsci.it#7#50#78",
+            "level": 2
+        },
+        {
+            "parent": "IS/appsci.it",
+            "relevance_score": "7",
+            "description": "Malware",
+            "code": "IS/appsci.malware#7#78#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/appsci",
+            "relevance_score": "7",
+            "description": "Technology",
+            "code": "IS/appsci.tech#7#50#78",
+            "level": 1
+        }
+    ],
+    "text": "What happened?\n\nMicrosoft has issued another update for Windows 10, and yet again it has a\nbug. The automatic update, which included new antivirus definitions for\nidentifying malware, contained a flaw that stopped Windows Defender working.\nUsers reported that when they tried to run a full-system scan, the built-in\nsecurity software would crash and show a series of error messages.\n\nThe flaw had a simple cause: a file in the updated code had two dots between\nits name and extension type, rather than one. That was enough to wreak havoc\nfor Windows users, who reported a stream of messages that demanded the PC be\nrestarted or told the user to try the scan again. The error messages were\nconfusing, but more worrying was the inability to run scans, which could leave\nvirus infections undetected and put users who depend on Defender for security\nat risk.\n\nHow will it affect you?\n\nIf you've experienced this problem after installing the update, the good news\nis that there's already a fix. Microsoft quickly pushed out a new update that\nfixes the problem, so if you have automatic updates running (which you\nshould), the issue should rectify itself. If you're still receiving Windows\nDefender error messages and the software crashes during full scans, head to\nthe Windows Security app and click 'Check for updates'. That will tell you\nwhether or not your version is up to date, and let you install a bug fix.\n\nWhat do we think?\n\nMicrosoft issues a constant stream of updates, so it's no wonder some go awry,\nbut this seems to be happening much too often lately. Continued problems of\nthis sort could lead people to postpone updates, leaving them unprotected. We\nshouldn't have to make such tradeoffs. Microsoft needs to boost its quality\ncontrol. Mistakes happen, but they're happening too often at the moment.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Safety and Security",
+            "code": "II/safety#9#50#97",
+            "level": 0
+        },
+        {
+            "parent": "II/safety",
+            "relevance_score": "9",
+            "description": "Safety and Security Equipment",
+            "code": "II/safety.equip#9#50#97",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Technology",
+            "code": "II/tech#9#50#97",
+            "level": 0
+        },
+        {
+            "parent": "II/tech.syssoft",
+            "relevance_score": "9",
+            "description": "Security Software",
+            "code": "II/tech.secsoft#9#97#50",
+            "level": 3
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/gb.eng.london",
+    "language": "English",
+    "filename": "202004290000PROQUESTMAGAZINE_2410494690.XML",
+    "providerName": "ProQuest Information & Learning",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": 0.656223,
+                    "label": "positive"
+                },
+                "text": "Microsoft",
+                "relevance": 0.843727,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [
+                        "OperatingSystemDeveloper",
+                        "ProcessorManufacturer",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany",
+                        "VideoGameDeveloper",
+                        "VideoGamePublisher",
+                        "ProgrammingLanguageDesigner"
+                    ],
+                    "name": "Microsoft",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Microsoft"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Microsoft"
+                },
+                "sentence": " Microsoft has issued another update for Windows 10, and yet again it has a",
+                "object": {
+                    "text": "issued another update for Windows 10"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Microsoft"
+                },
+                "sentence": " Microsoft has issued another update for Windows 10, and yet again it has a",
+                "object": {
+                    "text": "another update for Windows 10"
+                },
+                "action": {
+                    "verb": {
+                        "text": "issue",
+                        "tense": "past"
+                    },
+                    "text": "has issued",
+                    "normalized": "have issue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " Microsoft has issued another update for Windows 10, and yet again it has a",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "new antivirus definitions for"
+                },
+                "sentence": " bug. The automatic update, which included new antivirus definitions for",
+                "object": {
+                    "text": "bug. The automatic update"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "past"
+                    },
+                    "text": "included",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a flaw"
+                },
+                "sentence": " identifying malware, contained a flaw that stopped Windows Defender working.",
+                "object": {
+                    "text": "Windows Defender"
+                },
+                "action": {
+                    "verb": {
+                        "text": "stop",
+                        "tense": "past"
+                    },
+                    "text": "stopped",
+                    "normalized": "stop"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Users"
+                },
+                "sentence": " Users reported that when they tried to run a full-system scan, the built-in",
+                "object": {
+                    "text": "that"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "past"
+                    },
+                    "text": "reported",
+                    "normalized": "report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " Users reported that when they tried to run a full-system scan, the built-in",
+                "object": {
+                    "text": "to run a full-system scan"
+                },
+                "action": {
+                    "verb": {
+                        "text": "try",
+                        "tense": "past"
+                    },
+                    "text": "tried",
+                    "normalized": "try"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " Users reported that when they tried to run a full-system scan, the built-in",
+                "object": {
+                    "text": "a full-system scan"
+                },
+                "action": {
+                    "verb": {
+                        "text": "run",
+                        "tense": "future"
+                    },
+                    "text": "tried to run",
+                    "normalized": "try to run"
+                }
+            },
+            {
+                "subject": {
+                    "text": "security software"
+                },
+                "sentence": " security software would crash and show a series of error messages.",
+                "object": {
+                    "text": "a series of error messages"
+                },
+                "action": {
+                    "verb": {
+                        "text": "show",
+                        "tense": "future"
+                    },
+                    "text": "would crash and show",
+                    "normalized": "would crash and show"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The flaw"
+                },
+                "sentence": " The flaw had a simple cause: a file in the updated code had two dots between",
+                "object": {
+                    "text": "a simple cause"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a file in the updated code"
+                },
+                "sentence": " The flaw had a simple cause: a file in the updated code had two dots between",
+                "object": {
+                    "text": "two dots"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "That"
+                },
+                "sentence": " That was enough to wreak havoc",
+                "object": {
+                    "text": "enough to wreak havoc"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Windows users"
+                },
+                "sentence": " for Windows users, who reported a stream of messages that demanded the PC be",
+                "object": {
+                    "text": "a stream of messages that demanded the PC be"
+                },
+                "action": {
+                    "verb": {
+                        "text": "report",
+                        "tense": "past"
+                    },
+                    "text": "reported",
+                    "normalized": "report"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a stream of messages"
+                },
+                "sentence": " for Windows users, who reported a stream of messages that demanded the PC be",
+                "object": {
+                    "text": "the PC"
+                },
+                "action": {
+                    "verb": {
+                        "text": "demand",
+                        "tense": "past"
+                    },
+                    "text": "demanded",
+                    "normalized": "demand"
+                }
+            },
+            {
+                "subject": {
+                    "text": "to try the scan again"
+                },
+                "sentence": " restarted or told the user to try the scan again.",
+                "object": {
+                    "text": "the user"
+                },
+                "action": {
+                    "verb": {
+                        "text": "tell",
+                        "tense": "past"
+                    },
+                    "text": "restarted or told",
+                    "normalized": "restart or tell"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the scan"
+                },
+                "sentence": " restarted or told the user to try the scan again.",
+                "action": {
+                    "verb": {
+                        "text": "try",
+                        "tense": "future"
+                    },
+                    "text": "to try",
+                    "normalized": "to try"
+                }
+            },
+            {
+                "subject": {
+                    "text": "virus infections undetected and put users"
+                },
+                "sentence": " virus infections undetected and put users who depend on Defender for security",
+                "object": {
+                    "text": "on Defender"
+                },
+                "action": {
+                    "verb": {
+                        "text": "depend",
+                        "tense": "present"
+                    },
+                    "text": "depend",
+                    "normalized": "depend"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " How will it affect you?",
+                "object": {
+                    "text": "you"
+                },
+                "action": {
+                    "verb": {
+                        "text": "affect",
+                        "tense": "future"
+                    },
+                    "text": "affect",
+                    "normalized": "affect"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " If you've experienced this problem after installing the update, the good news",
+                "object": {
+                    "text": "experienced this problem"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " If you've experienced this problem after installing the update, the good news",
+                "object": {
+                    "text": "this problem"
+                },
+                "action": {
+                    "verb": {
+                        "text": "experience",
+                        "tense": "past"
+                    },
+                    "text": "experienced",
+                    "normalized": "experience"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " If you've experienced this problem after installing the update, the good news",
+                "object": {
+                    "text": "the update"
+                },
+                "action": {
+                    "verb": {
+                        "text": "instal install",
+                        "tense": "present"
+                    },
+                    "text": "installing",
+                    "normalized": "instal install"
+                }
+            },
+            {
+                "subject": {
+                    "text": "there"
+                },
+                "sentence": " is that there's already a fix.",
+                "object": {
+                    "text": "a fix"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " fixes the problem, so if you have automatic updates running (which you",
+                "object": {
+                    "text": "automatic updates running"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " fixes the problem, so if you have automatic updates running (which you",
+                "object": {
+                    "text": "automatic updates"
+                },
+                "action": {
+                    "verb": {
+                        "text": "run",
+                        "tense": "present"
+                    },
+                    "text": "running",
+                    "normalized": "run"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the issue"
+                },
+                "sentence": " should), the issue should rectify itself.",
+                "object": {
+                    "text": "itself"
+                },
+                "action": {
+                    "verb": {
+                        "text": "rectify",
+                        "tense": "future"
+                    },
+                    "text": "should rectify",
+                    "normalized": "should rectify"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " If you're still receiving Windows",
+                "object": {
+                    "text": "Windows"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "present"
+                    },
+                    "text": "receiving",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "whether or not your version"
+                },
+                "sentence": " whether or not your version is up to date, and let you install a bug fix.",
+                "object": {
+                    "text": "up to date"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " whether or not your version is up to date, and let you install a bug fix.",
+                "object": {
+                    "text": "a bug fix"
+                },
+                "action": {
+                    "verb": {
+                        "text": "install",
+                        "tense": "present"
+                    },
+                    "text": "install",
+                    "normalized": "install"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " Microsoft issues a constant stream of updates, so it's no wonder some go awry,",
+                "object": {
+                    "text": "no wonder some go awry"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this"
+                },
+                "sentence": " but this seems to be happening much too often lately.",
+                "object": {
+                    "text": "happening much"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this"
+                },
+                "sentence": " but this seems to be happening much too often lately.",
+                "action": {
+                    "verb": {
+                        "text": "happen",
+                        "tense": "present"
+                    },
+                    "text": "seems to be happening",
+                    "normalized": "seem to be happen"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this sort"
+                },
+                "sentence": " this sort could lead people to postpone updates, leaving them unprotected.",
+                "object": {
+                    "text": "people"
+                },
+                "action": {
+                    "verb": {
+                        "text": "lead",
+                        "tense": "future"
+                    },
+                    "text": "could lead",
+                    "normalized": "could lead"
+                }
+            },
+            {
+                "subject": {
+                    "text": "people"
+                },
+                "sentence": " this sort could lead people to postpone updates, leaving them unprotected.",
+                "object": {
+                    "text": "updates"
+                },
+                "action": {
+                    "verb": {
+                        "text": "postpone",
+                        "tense": "future"
+                    },
+                    "text": "to postpone",
+                    "normalized": "to postpone"
+                }
+            },
+            {
+                "subject": {
+                    "text": "them"
+                },
+                "sentence": " this sort could lead people to postpone updates, leaving them unprotected.",
+                "object": {
+                    "text": "unprotected"
+                },
+                "action": {
+                    "verb": {
+                        "text": "leave",
+                        "tense": "present"
+                    },
+                    "text": "leaving",
+                    "normalized": "leave"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Microsoft"
+                },
+                "sentence": " Microsoft needs to boost its quality",
+                "object": {
+                    "text": "its quality"
+                },
+                "action": {
+                    "verb": {
+                        "text": "boost",
+                        "tense": "future"
+                    },
+                    "text": "needs to boost",
+                    "normalized": "need to boost"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " control. Mistakes happen, but they're happening too often at the moment.",
+                "object": {
+                    "text": "happening"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "they"
+                },
+                "sentence": " control. Mistakes happen, but they're happening too often at the moment.",
+                "action": {
+                    "verb": {
+                        "text": "happen",
+                        "tense": "present"
+                    },
+                    "text": "happening",
+                    "normalized": "happen"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.999909,
+                "label": "/technology and computing/computer security/antivirus and malware"
+            },
+            {
+                "score": 0.992987,
+                "label": "/technology and computing/operating systems"
+            },
+            {
+                "score": 0.973698,
+                "label": "/technology and computing/software"
+            }
+        ],
+        "relations": [
+            {
+                "type": "productOf",
+                "sentence": "Microsoft has issued another update for Windows 10, and yet again it has a bug.",
+                "score": 0.847135,
+                "arguments": [
+                    {
+                        "text": "Windows",
+                        "location": [
+                            56,
+                            63
+                        ],
+                        "entities": [
+                            {
+                                "type": "Product",
+                                "text": "Windows Security app"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Microsoft",
+                        "location": [
+                            16,
+                            25
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Microsoft",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Users reported that when they tried to run a full-system scan, the built-in security software would crash and show a series of error messages.",
+                "score": 0.952915,
+                "arguments": [
+                    {
+                        "text": "Users",
+                        "location": [
+                            240,
+                            245
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Users"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            246,
+                            254
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "That was enough to wreak havoc for Windows users, who reported a stream of messages that demanded the PC be restarted or told the user to try the scan again.",
+                "score": 0.984477,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            557,
+                            560
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Users"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "reported",
+                        "location": [
+                            561,
+                            569
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "That was enough to wreak havoc for Windows users, who reported a stream of messages that demanded the PC be restarted or told the user to try the scan again.",
+                "score": 0.810188,
+                "arguments": [
+                    {
+                        "text": "user",
+                        "location": [
+                            637,
+                            641
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "user"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "told",
+                        "location": [
+                            628,
+                            632
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "told"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "virus infections",
+                "relevance": 0.707778,
+                "count": 1
+            },
+            {
+                "text": "Windows users",
+                "relevance": 0.60578,
+                "count": 1
+            },
+            {
+                "text": "Windows Defender",
+                "relevance": 0.599526,
+                "count": 1
+            },
+            {
+                "text": "software crashes",
+                "relevance": 0.596069,
+                "count": 1
+            },
+            {
+                "text": "series of error messages",
+                "relevance": 0.586556,
+                "count": 1
+            },
+            {
+                "text": "Microsoft needs",
+                "relevance": 0.574717,
+                "count": 1
+            },
+            {
+                "text": "automatic update",
+                "relevance": 0.569935,
+                "count": 1
+            },
+            {
+                "text": "Microsoft",
+                "relevance": 0.565452,
+                "count": 2
+            },
+            {
+                "text": "simple cause",
+                "relevance": 0.558958,
+                "count": 1
+            },
+            {
+                "text": "Windows Security app",
+                "relevance": 0.550286,
+                "count": 1
+            },
+            {
+                "text": "full-system scan",
+                "relevance": 0.542972,
+                "count": 1
+            },
+            {
+                "text": "good news",
+                "relevance": 0.542435,
+                "count": 1
+            },
+            {
+                "text": "Windows",
+                "relevance": 0.536589,
+                "count": 1
+            },
+            {
+                "text": "Users",
+                "relevance": 0.535275,
+                "count": 2
+            },
+            {
+                "text": "update",
+                "relevance": 0.534563,
+                "count": 2
+            },
+            {
+                "text": "flaw",
+                "relevance": 0.531865,
+                "count": 2
+            },
+            {
+                "text": "stream of messages",
+                "relevance": 0.531803,
+                "count": 1
+            },
+            {
+                "text": "malware",
+                "relevance": 0.531032,
+                "count": 1
+            },
+            {
+                "text": "updated code",
+                "relevance": 0.530092,
+                "count": 1
+            },
+            {
+                "text": "version",
+                "relevance": 0.529447,
+                "count": 1
+            },
+            {
+                "text": "security",
+                "relevance": 0.526889,
+                "count": 1
+            },
+            {
+                "text": "issue",
+                "relevance": 0.526797,
+                "count": 1
+            },
+            {
+                "text": "constant stream of updates",
+                "relevance": 0.521296,
+                "count": 1
+            },
+            {
+                "text": "problem",
+                "relevance": 0.520588,
+                "count": 2
+            },
+            {
+                "text": "fix",
+                "relevance": 0.519673,
+                "count": 1
+            },
+            {
+                "text": "date",
+                "relevance": 0.517436,
+                "count": 1
+            },
+            {
+                "text": "new antivirus definitions",
+                "relevance": 0.516735,
+                "count": 1
+            },
+            {
+                "text": "name",
+                "relevance": 0.514266,
+                "count": 1
+            },
+            {
+                "text": "file",
+                "relevance": 0.512712,
+                "count": 1
+            },
+            {
+                "text": "user",
+                "relevance": 0.511776,
+                "count": 1
+            },
+            {
+                "text": "Mistakes",
+                "relevance": 0.511522,
+                "count": 1
+            },
+            {
+                "text": "Defender",
+                "relevance": 0.511358,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.510619,
+                "count": 1
+            },
+            {
+                "text": "bug fix",
+                "relevance": 0.508227,
+                "count": 1
+            },
+            {
+                "text": "bug",
+                "relevance": 0.508201,
+                "count": 1
+            },
+            {
+                "text": "error messages",
+                "relevance": 0.50777,
+                "count": 1
+            },
+            {
+                "text": "inability",
+                "relevance": 0.507529,
+                "count": 1
+            },
+            {
+                "text": "problems",
+                "relevance": 0.506866,
+                "count": 1
+            },
+            {
+                "text": "dots",
+                "relevance": 0.505413,
+                "count": 1
+            },
+            {
+                "text": "PC",
+                "relevance": 0.505413,
+                "count": 1
+            },
+            {
+                "text": "moment",
+                "relevance": 0.505413,
+                "count": 1
+            },
+            {
+                "text": "head",
+                "relevance": 0.505413,
+                "count": 1
+            },
+            {
+                "text": "risk",
+                "relevance": 0.505413,
+                "count": 1
+            },
+            {
+                "text": "havoc",
+                "relevance": 0.505413,
+                "count": 1
+            },
+            {
+                "text": "scans",
+                "relevance": 0.503269,
+                "count": 1
+            },
+            {
+                "text": "automatic updates",
+                "relevance": 0.502809,
+                "count": 1
+            },
+            {
+                "text": "extension type",
+                "relevance": 0.502034,
+                "count": 1
+            },
+            {
+                "text": "such tradeoffs",
+                "relevance": 0.498951,
+                "count": 1
+            },
+            {
+                "text": "new update",
+                "relevance": 0.496168,
+                "count": 1
+            },
+            {
+                "text": "full scans",
+                "relevance": 0.487217,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Monthly",
+    "extracted_metadata": {
+        "sha1": "f56724d5f7300560c0f3917b4d5ea39b65ed759b",
+        "filename": "202004290000PROQUESTMAGAZINE_2410494690.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-04-29T00:00:00-04:00",
+    "title": "Windows 10 suffers yet another update bug",
+    "html": "<p>What happened?</p>\n<p>Microsoft has issued another update for Windows 10, and yet again it has a bug. The automatic update, which included new antivirus definitions for identifying malware, contained a flaw that stopped Windows Defender working. Users reported that when they tried to run a full-system scan, the built-in security software would crash and show a series of error messages.</p>\n<p>The flaw had a simple cause: a file in the updated code had two dots between its name and extension type, rather than one. That was enough to wreak havoc for Windows users, who reported a stream of messages that demanded the PC be restarted or told the user to try the scan again. The error messages were confusing, but more worrying was the inability to run scans, which could leave virus infections undetected and put users who depend on Defender for security at risk.</p>\n<p>How will it affect you?</p>\n<p>If you've experienced this problem after installing the update, the good news is that there's already a fix. Microsoft quickly pushed out a new update that fixes the problem, so if you have automatic updates running (which you should), the issue should rectify itself. If you're still receiving Windows Defender error messages and the software crashes during full scans, head to the Windows Security app and click 'Check for updates'. That will tell you whether or not your version is up to date, and let you install a bug fix.</p>\n<p>What do we think?</p>\n<p>Microsoft issues a constant stream of updates, so it's no wonder some go awry, but this seems to be happening much too often lately. Continued problems of this sort could lead people to postpone updates, leaving them unprotected. We shouldn't have to make such tradeoffs. Microsoft needs to boost its quality control. Mistakes happen, but they're happening too often at the moment.</p>",
+    "geoFocus": [
+        [
+            "GR/glb",
+            "Global"
+        ]
+    ]
+}

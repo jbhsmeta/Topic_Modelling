@@ -1,0 +1,368 @@
+{
+    "id": "27246098-29a6-4496-94c9-341f4a97b8c6",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "29200392525280711538",
+    "description": "Simon Property Group Inc. sued Gap Inc. claiming the retailer failed to pay $65.9 million in rent for March through June.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "Simon Property Group Inc. sued Gap Inc. claiming the retailer failed to pay\n$65.9 million in rent for March through June.",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Retail and Wholesale",
+            "code": "II/sales#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "II/sales",
+            "relevance_score": "9",
+            "description": "Retail",
+            "code": "II/sales.retail#9#99#50",
+            "level": 1
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "Simon Property Group Inc.",
+            "Gap Inc."
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "Simon Property Group Inc.",
+            "Gap Inc."
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050428AMSPIDERNEWS_____NWSONL04_40DE74A64CA68B4F2F5E94A945DCA023_11.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.353128,
+                    "label": "negative"
+                },
+                "text": "Simon Property Group Inc.",
+                "relevance": 0.912767,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Simon Property Group",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Simon_Property_Group"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.353128,
+                    "label": "negative"
+                },
+                "text": "Gap Inc.",
+                "relevance": 0.499612,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$65.9 million",
+                "relevance": 0.499612,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Simon Property Group Inc."
+                },
+                "sentence": "Simon Property Group Inc. sued Gap Inc. claiming the retailer failed to pay",
+                "object": {
+                    "text": "Gap Inc."
+                },
+                "action": {
+                    "verb": {
+                        "text": "sue",
+                        "tense": "past"
+                    },
+                    "text": "sued",
+                    "normalized": "sue"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Simon Property Group Inc. sued Gap Inc."
+                },
+                "sentence": "Simon Property Group Inc. sued Gap Inc. claiming the retailer failed to pay",
+                "object": {
+                    "text": "the retailer failed to pay"
+                },
+                "action": {
+                    "verb": {
+                        "text": "claim",
+                        "tense": "present"
+                    },
+                    "text": "claiming",
+                    "normalized": "claim"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.824729,
+                "label": "/shopping/retail/outlet stores"
+            },
+            {
+                "score": 0.670923,
+                "label": "/business and industrial/company"
+            },
+            {
+                "score": 0.642609,
+                "label": "/real estate/buying and selling homes"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Simon Property Group Inc. sued Gap Inc. claiming the retailer failed to pay $65.9 million in rent for March through June.",
+                "score": 0.978604,
+                "arguments": [
+                    {
+                        "text": "Simon Property Group Inc.",
+                        "location": [
+                            0,
+                            25
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Simon Property Group Inc."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "sued",
+                        "location": [
+                            26,
+                            30
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "sued"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Simon Property Group Inc. sued Gap Inc. claiming the retailer failed to pay $65.9 million in rent for March through June.",
+                "score": 0.603711,
+                "arguments": [
+                    {
+                        "text": "Simon Property Group Inc.",
+                        "location": [
+                            0,
+                            25
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Simon Property Group Inc."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claiming",
+                        "location": [
+                            40,
+                            48
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claiming"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Simon Property Group Inc. sued Gap Inc. claiming the retailer failed to pay $65.9 million in rent for March through June.",
+                "score": 0.752621,
+                "arguments": [
+                    {
+                        "text": "Gap Inc.",
+                        "location": [
+                            31,
+                            39
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Gap Inc.",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "claiming",
+                        "location": [
+                            40,
+                            48
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "claiming"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Simon Property Group Inc. sued Gap Inc. claiming the retailer failed to pay $65.9 million in rent for March through June.",
+                "score": 0.758559,
+                "arguments": [
+                    {
+                        "text": "Gap Inc.",
+                        "location": [
+                            31,
+                            39
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Gap Inc.",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "$65.9 million",
+                        "location": [
+                            76,
+                            89
+                        ],
+                        "entities": [
+                            {
+                                "type": "Money",
+                                "text": "$65.9 million",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Gainloss"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Simon Property Group Inc. sued Gap Inc. claiming the retailer failed to pay $65.9 million in rent for March through June.",
+                "score": 0.688062,
+                "arguments": [
+                    {
+                        "text": "retailer",
+                        "location": [
+                            53,
+                            61
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Simon Property Group Inc."
+                            }
+                        ]
+                    },
+                    {
+                        "text": "$65.9 million",
+                        "location": [
+                            76,
+                            89
+                        ],
+                        "entities": [
+                            {
+                                "type": "Money",
+                                "text": "$65.9 million",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Gainloss"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Simon Property Group Inc.",
+                "relevance": 0.998145,
+                "count": 1
+            },
+            {
+                "text": "Gap Inc.",
+                "relevance": 0.690397,
+                "count": 1
+            },
+            {
+                "text": "rent",
+                "relevance": 0.615603,
+                "count": 1
+            },
+            {
+                "text": "retailer",
+                "relevance": 0.56528,
+                "count": 1
+            },
+            {
+                "text": "March",
+                "relevance": 0.563297,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.54454,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "b2c33876bb3b4061a1d310f8bb57a442978071fa",
+        "filename": "202006050428AMSPIDERNEWS_____NWSONL04_40DE74A64CA68B4F2F5E94A945DCA023_11.json",
+        "file_type": "json"
+    },
+    "companyRecord": "NYSE|GPS|CUSIP:364760108;ISIN:US3647601083|The Gap Inc.|extractor|DUNS:048626915;NECOID:10464;ACORN:0834989977|SIGNIFICANT||||XNYS|REFERENCE",
+    "publicationTime": "2020-06-05T04:28:00-04:00",
+    "title": "Gap faces rent suit from Simon group [NWAonline (Little Rock, AR)]",
+    "html": "<p><org idsrc=\"xmltag.org\" value=\"NYSE:SPG\">Simon Property Group Inc.</org> sued <org idsrc=\"xmltag.org\" value=\"NYSE:GPS\">Gap Inc.</org> claiming the retailer failed to pay <money>$65.9 million</money> in rent for March through June.</p>",
+    "geoFocus": []
+}

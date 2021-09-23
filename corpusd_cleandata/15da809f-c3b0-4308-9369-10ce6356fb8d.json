@@ -1,0 +1,203 @@
+{
+    "id": "15da809f-c3b0-4308-9369-10ce6356fb8d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "29167573591735562916",
+    "description": "Levy replaces outgoing director-general Moshe Bar Siman Tov, who held the post since 2015.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "In his announcement of the selection, Edelstein thanked Bar Siman Tov for his\n\"strenuous and important work.\"",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Siman Tov"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050313AMSPIDERNEWS_____JEPOEN03_84441DA72BFAF956B0DBD0464C10FCC5_24.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.487961,
+                    "label": "positive"
+                },
+                "text": "Bar Siman Tov",
+                "relevance": 0.943734,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.487961,
+                    "label": "positive"
+                },
+                "text": "Edelstein",
+                "relevance": 0.503195,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.524982,
+                "label": "/society/dating"
+            },
+            {
+                "score": 0.524923,
+                "label": "/health and fitness/exercise"
+            },
+            {
+                "score": 0.517988,
+                "label": "/family and parenting/babies and toddlers"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "In his announcement of the selection, Edelstein thanked Bar Siman Tov for his \"strenuous and important work.\"",
+                "score": 0.996021,
+                "arguments": [
+                    {
+                        "text": "his",
+                        "location": [
+                            3,
+                            6
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "his"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announcement",
+                        "location": [
+                            7,
+                            19
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announcement"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "In his announcement of the selection, Edelstein thanked Bar Siman Tov for his \"strenuous and important work.\"",
+                "score": 0.995438,
+                "arguments": [
+                    {
+                        "text": "Edelstein",
+                        "location": [
+                            38,
+                            47
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Edelstein"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "thanked",
+                        "location": [
+                            48,
+                            55
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "thanked"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "In his announcement of the selection, Edelstein thanked Bar Siman Tov for his \"strenuous and important work.\"",
+                "score": 0.518567,
+                "arguments": [
+                    {
+                        "text": "Edelstein",
+                        "location": [
+                            38,
+                            47
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Edelstein"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Bar",
+                        "location": [
+                            56,
+                            59
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Bar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "announcement of the selection",
+                "relevance": 0.993395,
+                "count": 1
+            },
+            {
+                "text": "important work",
+                "relevance": 0.921195,
+                "count": 1
+            },
+            {
+                "text": "Edelstein",
+                "relevance": 0.656149,
+                "count": 1
+            },
+            {
+                "text": "Bar Siman Tov",
+                "relevance": 0.336318,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "b720ac8b7023ba18c703936cc0b18724118ebdf0",
+        "filename": "202006050313AMSPIDERNEWS_____JEPOEN03_84441DA72BFAF956B0DBD0464C10FCC5_24.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:13:00-04:00",
+    "title": "Chezy Levy's appointment as D-G of Health Ministry approved [Jerusalem Post (Israel)]",
+    "html": "<p>In his announcement of the selection, Edelstein thanked Bar <person>Siman Tov</person> for his &#8220;strenuous and important work.&#8221;</p>",
+    "geoFocus": []
+}

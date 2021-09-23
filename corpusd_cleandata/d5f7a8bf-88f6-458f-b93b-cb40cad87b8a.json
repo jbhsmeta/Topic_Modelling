@@ -1,0 +1,289 @@
+{
+    "id": "d5f7a8bf-88f6-458f-b93b-cb40cad87b8a",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Globe Gazette, All rights reserved.",
+    "geoOrigin": "Mason City, Iowa",
+    "sourceType": "Newspaper",
+    "source": "Globe Gazette (Mason City, IA)",
+    "corpus_document_id": "51983288504107870509",
+    "description": "OCCUPATION: RN, Rehabilitation Center of Belmond. HOME: Forest City, Wright County. QUOTE: \"She has the biggest and kindest heart of anyone I know.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "NAME: Kimberly Mason\n\nOCCUPATION: RN, Rehabilitation Center of Belmond\n\nHOME: Forest City, Wright County\n\nQUOTE: \"She has the biggest and kindest heart of anyone I know. She steps up\nand helps out everyone and our residents and staff are very fortunate to have\nher. I only hope that she realizes the impact she has on everyone.\" -\nRehabilitation Center of Belmond.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "NAME",
+            "Rehabilitation Center of Belmond"
+        ],
+        "location": [],
+        "person": [
+            "Kimberly Mason"
+        ],
+        "companies": [
+            "NAME",
+            "Rehabilitation Center of Belmond"
+        ]
+    },
+    "geoOrigin_code": "RU/us.ia.masity",
+    "language": "English",
+    "filename": "202005310000NEWSBANKNEWSPPRS7C73BEEF6BDAB7B8C84D922179C3DCB.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.692608,
+                    "label": "positive"
+                },
+                "text": "Rehabilitation Center of Belmond",
+                "relevance": 0.972579,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.720124,
+                    "label": "positive"
+                },
+                "text": "Rehabilitation Center of Belmond",
+                "relevance": 0.899386,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kimberly Mason",
+                "relevance": 0.440765,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Kimberly Mason",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Kimberly_Mason"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.499996,
+                    "label": "positive"
+                },
+                "text": "Wright County",
+                "relevance": 0.32989,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Wright County, Iowa",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Wright_County,_Iowa"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "She"
+                },
+                "sentence": " QUOTE: \"She has the biggest and kindest heart of anyone I know.",
+                "object": {
+                    "text": "the biggest and kindest heart of anyone I know"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " QUOTE: \"She has the biggest and kindest heart of anyone I know.",
+                "object": {
+                    "text": "anyone"
+                },
+                "action": {
+                    "verb": {
+                        "text": "know",
+                        "tense": "present"
+                    },
+                    "text": "know",
+                    "normalized": "know"
+                }
+            },
+            {
+                "subject": {
+                    "text": "everyone and our residents and staff"
+                },
+                "sentence": " and helps out everyone and our residents and staff are very fortunate to have",
+                "object": {
+                    "text": "very fortunate to have"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": " her. I only hope that she realizes the impact she has on everyone.\" -",
+                "object": {
+                    "text": "the impact"
+                },
+                "action": {
+                    "verb": {
+                        "text": "realize",
+                        "tense": "present"
+                    },
+                    "text": "realizes",
+                    "normalized": "realize"
+                }
+            },
+            {
+                "subject": {
+                    "text": "she"
+                },
+                "sentence": " her. I only hope that she realizes the impact she has on everyone.\" -",
+                "object": {
+                    "text": "the impact"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.651927,
+                "label": "/food and drink/dining out"
+            },
+            {
+                "score": 0.624438,
+                "label": "/travel/transports/train travel"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "HOME: Forest City, Wright County",
+                "score": 0.989468,
+                "arguments": [
+                    {
+                        "text": "Forest City",
+                        "location": [
+                            78,
+                            89
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Forest City"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Wright County",
+                        "location": [
+                            91,
+                            104
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Wright County"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Forest City",
+                "relevance": 0.819677,
+                "count": 1
+            },
+            {
+                "text": "Rehabilitation Center",
+                "relevance": 0.777092,
+                "count": 1
+            },
+            {
+                "text": "kindest heart",
+                "relevance": 0.603746,
+                "count": 1
+            },
+            {
+                "text": "NAME",
+                "relevance": 0.573149,
+                "count": 1
+            },
+            {
+                "text": "residents",
+                "relevance": 0.565335,
+                "count": 1
+            },
+            {
+                "text": "Rehabilitation Center of Belmond",
+                "relevance": 0.548334,
+                "count": 1
+            },
+            {
+                "text": "staff",
+                "relevance": 0.545983,
+                "count": 1
+            },
+            {
+                "text": "impact",
+                "relevance": 0.535871,
+                "count": 1
+            },
+            {
+                "text": "RN",
+                "relevance": 0.401528,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "33bade0a4bbf5533f7632eb398fe77c83a10c785",
+        "filename": "202005310000NEWSBANKNEWSPPRS7C73BEEF6BDAB7B8C84D922179C3DCB.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-31T00:00:00-04:00",
+    "title": "Everyday heroes: Kimberly Mason",
+    "html": "<p><org>NAME</org>: <person>Kimberly Mason</person></p>\n<p>OCCUPATION: RN, <org>Rehabilitation Center of Belmond</org></p>\n\n<p>HOME: Forest City, Wright County</p>\n\n<p>QUOTE: \"She has the biggest and kindest heart of anyone I know. She steps up and helps out everyone and our residents and staff are very fortunate to have her. I only hope that she realizes the impact she has on everyone.\" - <org>Rehabilitation Center of Belmond</org>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ia.masity",
+            "Mason City"
+        ]
+    ]
+}

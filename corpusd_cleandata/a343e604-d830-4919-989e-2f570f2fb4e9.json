@@ -1,0 +1,302 @@
+{
+    "id": "a343e604-d830-4919-989e-2f570f2fb4e9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "75805622515133732472",
+    "description": "Electrical work FFWDGH Schursdorf more info: Location: GERMANY BidDate: 6/ 11/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Municipality of Scharbeutz Tendering Authority Address: 23684 Schursdorf Schleswig-Holstein Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Electrical work FFWDGH Schursdorf more info : Location : GERMANY BidDate :\n6/11/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority :\nMunicipality of Scharbeutz Tendering Authority Address : 23684 Schursdorf\nSchleswig-Holstein Financier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_4962_176211771_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.980571,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Scharbeutz Tendering Authority",
+                "relevance": 0.884026,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.450433,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.495829,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Schleswig-Holstein",
+                "relevance": 0.368212,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "FFWDGH Schursdorf",
+                "relevance": 0.332978,
+                "type": "Company"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.866943,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.661588,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.536334,
+                "label": "/law, govt and politics/politics"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Electrical work FFWDGH Schursdorf more info : Location : GERMANY BidDate : 6/11/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Municipality of Scharbeutz Tendering Authority Address : 23684 Schursdorf Schleswig-Holstein Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.588297,
+                "arguments": [
+                    {
+                        "text": "6/11/2020 Tender",
+                        "location": [
+                            75,
+                            91
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/11/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority :\nMunicipality of Scharbeutz Tendering Authority Address :",
+                        "location": [
+                            110,
+                            210
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority :\nMunicipality of Scharbeutz Tendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Electrical work FFWDGH Schursdorf more info : Location : GERMANY BidDate : 6/11/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Municipality of Scharbeutz Tendering Authority Address : 23684 Schursdorf Schleswig-Holstein Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.470575,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            247,
+                            256
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Schursdorf\nSchleswig-Holstein",
+                        "location": [
+                            217,
+                            246
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Schursdorf\nSchleswig-Holstein"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.924432,
+                "count": 1
+            },
+            {
+                "text": "Electrical work FFWDGH Schursdorf",
+                "relevance": 0.852561,
+                "count": 1
+            },
+            {
+                "text": "Municipality of Scharbeutz Tendering Authority Address",
+                "relevance": 0.749979,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.66841,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.560545,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.546356,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.541777,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.53881,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.538457,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.534481,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.479048,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "a9bd2383dcbce3d6077f10dbcaa6016ea0a990b8",
+        "filename": "202006050210ALBA____ME_NA_NE_4962_176211771_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Electrical work FFWDGH Schursdorf [TenderNews.com - Tenders (India)]",
+    "html": "<p>Electrical work FFWDGH Schursdorf more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/11/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Municipality of Scharbeutz\nTendering Authority Address : 23684 Schursdorf Schleswig-Holstein\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

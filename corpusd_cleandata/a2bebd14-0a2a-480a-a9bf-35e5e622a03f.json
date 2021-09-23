@@ -1,0 +1,429 @@
+{
+    "id": "a2bebd14-0a2a-480a-a9bf-35e5e622a03f",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020 Al Bawaba (Albawaba.com)  Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "Amman, Jordan",
+    "sourceType": "Business & Financial Newswire",
+    "source": "Al Bawaba Business",
+    "corpus_document_id": "49679922497630576328",
+    "description": "Contract awarded for Production and delivery of concert costumes for ikkile municipality groups. Contract price offered: 2542.62 currency: eur total contract price for the contract: 2542.62 currency: eur section v. Environmental requirements are included in the procurement documents yes no if yes, please provide information on the following requirements:...",
+    "serviceName": "Mena Report",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Northern Europe",
+            "code": "LB/neur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/neur",
+            "relevance_score": "9",
+            "description": "Latvia",
+            "code": "LC/lv#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/lv#9#90#49",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Business and Commerce",
+            "code": "IS/biz#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/biz",
+            "relevance_score": "9",
+            "description": "Business Impact",
+            "code": "IS/biz.impact#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": "IS/impact.ops",
+            "relevance_score": "9",
+            "description": "Sales and Contract Wins",
+            "code": "IS/biz.saleswin#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Trading Impact (ICE Codes) Important Corporate Events",
+            "code": "IS/impact#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Contract awarded for Production and delivery of concert costumes for ikkile\nmunicipality groups\n\nContract price offered (excluding vat): 2542.62 currency: eur total contract\nprice for the contract (including all applicable taxes, except vat): 2542.62\ncurrency: eur section v. Additional information v.1. The contract relates to a\nproject and / or program financed by european union funds yes no if yes,\nreference to the project (s) and / or program (s): v.2. Environmental\nrequirements are included in the procurement documents yes no if yes, please\nprovide information on the following requirements: green group Contractor name\n: SABIEDRIBA AR IEROBEZOTU ATBILDIBU \"ANVI AM\" Contractor address : Peldu Iela\n22 Pilseta / Novads: Riga Country :Latvia",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Latvia"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/jo..amman",
+    "language": "English",
+    "filename": "202006050258ALBA____MENAREPO_59219_176218439_138.2.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "green group Contractor",
+                "relevance": 0.856473,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Peldu Iela",
+                "relevance": 0.804192,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "european union",
+                "relevance": 0.647335,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "Country",
+                        "GovernmentalJurisdiction",
+                        "MembershipOrganization",
+                        "AwardWinner"
+                    ],
+                    "name": "European Union",
+                    "dbpedia_resource": "http://dbpedia.org/resource/European_Union"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Latvia",
+                "relevance": 0.487682,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Latvia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Latvia"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Contract"
+                },
+                "sentence": "Contract awarded for Production and delivery of concert costumes for ikkile",
+                "object": {
+                    "text": "for Production and delivery of concert costumes for ikkile"
+                },
+                "action": {
+                    "verb": {
+                        "text": "award",
+                        "tense": "past"
+                    },
+                    "text": "awarded",
+                    "normalized": "award"
+                }
+            },
+            {
+                "subject": {
+                    "text": "all applicable taxes"
+                },
+                "sentence": " price for the contract (including all applicable taxes, except vat): 2542.62",
+                "object": {
+                    "text": "the contract"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The contract"
+                },
+                "sentence": " The contract relates to a",
+                "object": {
+                    "text": "to a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "relate",
+                        "tense": "present"
+                    },
+                    "text": "relates",
+                    "normalized": "relate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by european union funds"
+                },
+                "sentence": " project and / or program financed by european union funds yes no if yes,",
+                "object": {
+                    "text": "project and / or program"
+                },
+                "action": {
+                    "verb": {
+                        "text": "finance",
+                        "tense": "past"
+                    },
+                    "text": "financed",
+                    "normalized": "finance"
+                }
+            },
+            {
+                "subject": {
+                    "text": "information"
+                },
+                "sentence": " provide information on the following requirements: green group Contractor name",
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "present"
+                    },
+                    "text": "provide",
+                    "normalized": "provide"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.840107,
+                "label": "/finance/investing/funds"
+            },
+            {
+                "score": 0.809679,
+                "label": "/real estate/buying and selling homes"
+            },
+            {
+                "score": 0.738763,
+                "label": "/finance/financial news"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "Contract awarded for Production and delivery of concert costumes for ikkile municipality groups",
+                "score": 0.337226,
+                "arguments": [
+                    {
+                        "text": "awarded",
+                        "location": [
+                            9,
+                            16
+                        ],
+                        "entities": [
+                            {
+                                "type": "EntertainmentAward",
+                                "text": "awarded"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "concert",
+                        "location": [
+                            48,
+                            55
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventPerformance",
+                                "text": "concert"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Contract",
+                "relevance": 0.71707,
+                "count": 3
+            },
+            {
+                "text": "SABIEDRIBA AR IEROBEZOTU ATBILDIBU",
+                "relevance": 0.701512,
+                "count": 1
+            },
+            {
+                "text": "following requirements",
+                "relevance": 0.67296,
+                "count": 1
+            },
+            {
+                "text": "Additional information v",
+                "relevance": 0.595847,
+                "count": 1
+            },
+            {
+                "text": "vat",
+                "relevance": 0.58371,
+                "count": 2
+            },
+            {
+                "text": "currency",
+                "relevance": 0.581505,
+                "count": 2
+            },
+            {
+                "text": "eur section v",
+                "relevance": 0.575549,
+                "count": 1
+            },
+            {
+                "text": "eur",
+                "relevance": 0.561066,
+                "count": 1
+            },
+            {
+                "text": "applicable taxes",
+                "relevance": 0.539822,
+                "count": 1
+            },
+            {
+                "text": "reference",
+                "relevance": 0.536873,
+                "count": 1
+            },
+            {
+                "text": "project",
+                "relevance": 0.528593,
+                "count": 2
+            },
+            {
+                "text": "green group Contractor name",
+                "relevance": 0.525038,
+                "count": 1
+            },
+            {
+                "text": "ANVI AM",
+                "relevance": 0.519521,
+                "count": 1
+            },
+            {
+                "text": "program",
+                "relevance": 0.519231,
+                "count": 2
+            },
+            {
+                "text": "Production",
+                "relevance": 0.516366,
+                "count": 1
+            },
+            {
+                "text": "information",
+                "relevance": 0.514958,
+                "count": 1
+            },
+            {
+                "text": "procurement",
+                "relevance": 0.509183,
+                "count": 1
+            },
+            {
+                "text": "Latvia",
+                "relevance": 0.507156,
+                "count": 1
+            },
+            {
+                "text": "delivery of concert costumes",
+                "relevance": 0.506487,
+                "count": 1
+            },
+            {
+                "text": "european union funds",
+                "relevance": 0.490124,
+                "count": 1
+            },
+            {
+                "text": "Riga Country",
+                "relevance": 0.483708,
+                "count": 1
+            },
+            {
+                "text": "Contractor address",
+                "relevance": 0.476705,
+                "count": 1
+            },
+            {
+                "text": "Peldu Iela",
+                "relevance": 0.469392,
+                "count": 1
+            },
+            {
+                "text": "Pilseta",
+                "relevance": 0.442726,
+                "count": 1
+            },
+            {
+                "text": "Novads",
+                "relevance": 0.429458,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "8e19aec845138ad6c7e81740bf37b673e71f9a65",
+        "filename": "202006050258ALBA____MENAREPO_59219_176218439_138.2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:58:00-04:00",
+    "title": "Production And Delivery Of Concert Costumes For Ikkile Municipality Groups [Al Bawaba Business]",
+    "html": "<p>Contract awarded for Production and delivery of concert costumes for ikkile municipality groups</p>\n<p>Contract price offered (excluding vat): 2542.62 currency: eur total contract price for the contract (including all applicable taxes, except vat): 2542.62 currency: eur section v. Additional information v.1. The contract relates to a project and / or program financed by european union funds yes no if yes, reference to the project (s) and / or program (s): v.2. Environmental requirements are included in the procurement documents yes no if yes, please provide information on the following requirements: green group\nContractor name : SABIEDRIBA AR IEROBEZOTU ATBILDIBU \"ANVI AM\"\nContractor address : Peldu Iela 22 Pilseta / Novads: Riga\nCountry :<location idsrc=\"xmltag.org\" value=\"LC/lv\">Latvia</location></p>",
+    "geoFocus": [
+        [
+            "GB/nafr",
+            "Northern Africa"
+        ],
+        [
+            "GB/was",
+            "Western Asia"
+        ]
+    ]
+}

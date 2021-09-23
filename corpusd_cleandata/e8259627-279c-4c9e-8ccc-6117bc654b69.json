@@ -1,0 +1,566 @@
+{
+    "id": "e8259627-279c-4c9e-8ccc-6117bc654b69",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 Daily Gate City, Brehm Communications Inc., All rights reserved.",
+    "geoOrigin": "Keokuk County, Iowa",
+    "sourceType": "Newspaper",
+    "source": "Daily Gate City (Keokuk, IA)",
+    "corpus_document_id": "7362580613059253011",
+    "description": "MORGAN Kayson Edward Morgan was born Thursday, May 28, 2020, at the FMCH BirthPlace, to Jeri Ann Morgan of Keokuk. Kayson joins siblings Bailey Hansen, Colt Dye, and Lane Dye. Grandparent is Laura Mesner or Keokuk.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [],
+    "text": "MORGAN \u0096 Kayson Edward Morgan was born Thursday, May 28, 2020, at the FMCH\nBirthPlace, to Jeri Ann Morgan of Keokuk. Kayson joins siblings Bailey Hansen,\nColt Dye, and Lane Dye.\n\nGrandparent is Laura Mesner or Keokuk.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Kayson Edward Morgan",
+            "Jeri Ann Morgan",
+            "Bailey Hansen",
+            "Colt Dye",
+            "Lane Dye",
+            "Laura Mesner"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ia.keokuk",
+    "language": "English",
+    "filename": "202006010000NEWSBANKNEWSPPRS4B610307ADEF90FFD8EAFBE94DA304C.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jeri Ann Morgan",
+                "relevance": 0.985366,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Edward Morgan",
+                "relevance": 0.809788,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Keokuk",
+                "relevance": 0.774941,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.464303,
+                    "label": "positive"
+                },
+                "text": "Colt Dye",
+                "relevance": 0.657518,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kayson",
+                "relevance": 0.644323,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.485632,
+                    "label": "positive"
+                },
+                "text": "Lane Dye",
+                "relevance": 0.613277,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Laura Mesner",
+                "relevance": 0.411761,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Bailey Hansen",
+                "relevance": 0.385601,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "FMCH",
+                "relevance": 0.232904,
+                "type": "Organization"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "MORGAN \u0096 Kayson Edward Morgan"
+                },
+                "sentence": "MORGAN \u0096 Kayson Edward Morgan was born Thursday, May 28, 2020, at the FMCH",
+                "action": {
+                    "verb": {
+                        "text": "bear",
+                        "tense": "past"
+                    },
+                    "text": "was born",
+                    "normalized": "be bear"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Kayson"
+                },
+                "sentence": " Kayson joins siblings Bailey Hansen,",
+                "object": {
+                    "text": "siblings Bailey Hansen,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "join",
+                        "tense": "present"
+                    },
+                    "text": "joins",
+                    "normalized": "join"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Grandparent"
+                },
+                "sentence": " Grandparent is Laura Mesner or Keokuk.",
+                "object": {
+                    "text": "Laura Mesner or Keokuk"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.62521,
+                "label": "/society/social institution/divorce"
+            },
+            {
+                "score": 0.559347,
+                "label": "/family and parenting/children"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "MORGAN \u0096 Kayson Edward Morgan was born Thursday, May 28, 2020, at the FMCH BirthPlace, to Jeri Ann Morgan of Keokuk.",
+                "score": 0.540684,
+                "arguments": [
+                    {
+                        "text": "\u0096 Kayson Edward Morgan",
+                        "location": [
+                            7,
+                            29
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "\u0096 Kayson Edward Morgan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "MORGAN",
+                        "location": [
+                            0,
+                            6
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "MORGAN"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "MORGAN \u0096 Kayson Edward Morgan was born Thursday, May 28, 2020, at the FMCH BirthPlace, to Jeri Ann Morgan of Keokuk.",
+                "score": 0.846773,
+                "arguments": [
+                    {
+                        "text": "FMCH\nBirthPlace",
+                        "location": [
+                            70,
+                            85
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "FMCH\nBirthPlace"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Keokuk",
+                        "location": [
+                            109,
+                            115
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Keokuk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "MORGAN \u0096 Kayson Edward Morgan was born Thursday, May 28, 2020, at the FMCH BirthPlace, to Jeri Ann Morgan of Keokuk.",
+                "score": 0.953407,
+                "arguments": [
+                    {
+                        "text": "Jeri Ann Morgan",
+                        "location": [
+                            90,
+                            105
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jeri Ann Morgan"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Keokuk",
+                        "location": [
+                            109,
+                            115
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Keokuk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Kayson joins siblings Bailey Hansen, Colt Dye, and Lane Dye.",
+                "score": 0.464596,
+                "arguments": [
+                    {
+                        "text": "Kayson",
+                        "location": [
+                            117,
+                            123
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Kayson"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "siblings",
+                        "location": [
+                            130,
+                            138
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "siblings"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Kayson joins siblings Bailey Hansen, Colt Dye, and Lane Dye.",
+                "score": 0.915017,
+                "arguments": [
+                    {
+                        "text": "Bailey Hansen",
+                        "location": [
+                            139,
+                            152
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Bailey Hansen"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "siblings",
+                        "location": [
+                            130,
+                            138
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "siblings"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Kayson joins siblings Bailey Hansen, Colt Dye, and Lane Dye.",
+                "score": 0.933153,
+                "arguments": [
+                    {
+                        "text": "Colt Dye",
+                        "location": [
+                            154,
+                            162
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Colt Dye"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "siblings",
+                        "location": [
+                            130,
+                            138
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "siblings"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Kayson joins siblings Bailey Hansen, Colt Dye, and Lane Dye.",
+                "score": 0.718863,
+                "arguments": [
+                    {
+                        "text": "Lane Dye",
+                        "location": [
+                            168,
+                            176
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Lane Dye"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "siblings",
+                        "location": [
+                            130,
+                            138
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "siblings"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Grandparent is Laura Mesner or Keokuk.",
+                "score": 0.406046,
+                "arguments": [
+                    {
+                        "text": "Grandparent",
+                        "location": [
+                            179,
+                            190
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Grandparent"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Keokuk",
+                        "location": [
+                            210,
+                            216
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Keokuk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Grandparent is Laura Mesner or Keokuk.",
+                "score": 0.59529,
+                "arguments": [
+                    {
+                        "text": "Laura Mesner",
+                        "location": [
+                            194,
+                            206
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Laura Mesner"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Keokuk",
+                        "location": [
+                            210,
+                            216
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Keokuk"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Kayson Edward Morgan",
+                "relevance": 0.966627,
+                "count": 1
+            },
+            {
+                "text": "Jeri Ann Morgan of Keokuk",
+                "relevance": 0.839742,
+                "count": 1
+            },
+            {
+                "text": "MORGAN",
+                "relevance": 0.772214,
+                "count": 1
+            },
+            {
+                "text": "Kayson joins siblings Bailey Hansen",
+                "relevance": 0.679295,
+                "count": 1
+            },
+            {
+                "text": "Grandparent",
+                "relevance": 0.560949,
+                "count": 1
+            },
+            {
+                "text": "Keokuk",
+                "relevance": 0.510358,
+                "count": 1
+            },
+            {
+                "text": "Colt Dye",
+                "relevance": 0.508649,
+                "count": 1
+            },
+            {
+                "text": "Laura Mesner",
+                "relevance": 0.380465,
+                "count": 1
+            },
+            {
+                "text": "Lane Dye",
+                "relevance": 0.361985,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.236003,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.232175,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-F",
+    "extracted_metadata": {
+        "sha1": "6b2d21989c884f8e9c01889c3eb6939d1201a540",
+        "filename": "202006010000NEWSBANKNEWSPPRS4B610307ADEF90FFD8EAFBE94DA304C.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-01T00:00:00-04:00",
+    "title": "Morgan",
+    "html": "<p>MORGAN &#150; <person>Kayson Edward Morgan</person> was born <chron>Thursday, May 28, 2020</chron>, at the FMCH BirthPlace, to <person>Jeri Ann Morgan</person> of Keokuk. Kayson joins siblings <person>Bailey Hansen</person>, <person>Colt Dye</person>, and <person>Lane Dye</person>.</p>\n<p>Grandparent is <person>Laura Mesner</person> or Keokuk.</p>",
+    "geoFocus": [
+        [
+            "GU/us.ia.keokuk",
+            "Keokuk County"
+        ]
+    ]
+}

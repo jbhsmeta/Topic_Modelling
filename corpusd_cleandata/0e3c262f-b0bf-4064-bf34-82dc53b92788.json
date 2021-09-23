@@ -1,0 +1,289 @@
+{
+    "id": "0e3c262f-b0bf-4064-bf34-82dc53b92788",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "65649802205488397294",
+    "description": "supply and delivery of dispensary drugs and medical appliances more info: Location: KENYA BidDate: 6/ 23/ 2020 Tender Country: KENYA Tender Type: Tenders Tendering Authority: MATHENGE TECHNICAL TRAINING INSTITUTE Tendering Authority Address: principal, p. o. box 665- 10106, othaya.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/afr",
+            "relevance_score": "9",
+            "description": "Eastern Africa",
+            "code": "LB/eafr#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/eafr",
+            "relevance_score": "9",
+            "description": "Kenya",
+            "code": "LC/ke#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Africa",
+            "code": "LR/afr#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/eafr.any#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "supply and delivery of dispensary drugs and medical appliances more info :\nLocation : KENYA BidDate : 6/23/2020 Tender Country : KENYA Tender Type :\nTenders Tendering Authority : MATHENGE TECHNICAL TRAINING INSTITUTE Tendering\nAuthority Address : principal,  \np. o. box 665 - 10106,othaya. Financier : Self Funded",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "KENYA"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_61210_176208817_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tendering Authority",
+                "relevance": 0.995222,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.477989,
+                    "label": "positive"
+                },
+                "text": "KENYA",
+                "relevance": 0.738421,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "BoardMember",
+                        "Country"
+                    ],
+                    "name": "Kenya",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Kenya"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "principal",
+                "relevance": 0.341182,
+                "type": "JobTitle"
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.839088,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.649986,
+                "label": "/health and fitness"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "supply and delivery of dispensary drugs and medical appliances more info : Location : KENYA BidDate : 6/23/2020 Tender Country : KENYA Tender Type : Tenders Tendering Authority : MATHENGE TECHNICAL TRAINING INSTITUTE Tendering Authority Address : principal,   p.",
+                "score": 0.588417,
+                "arguments": [
+                    {
+                        "text": "6/23/2020 Tender",
+                        "location": [
+                            102,
+                            118
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/23/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type :\nTenders Tendering Authority : MATHENGE TECHNICAL TRAINING INSTITUTE Tendering\nAuthority Address :",
+                        "location": [
+                            135,
+                            246
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type :\nTenders Tendering Authority : MATHENGE TECHNICAL TRAINING INSTITUTE Tendering\nAuthority Address :"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "authorOf",
+                "sentence": "supply and delivery of dispensary drugs and medical appliances more info : Location : KENYA BidDate : 6/23/2020 Tender Country : KENYA Tender Type : Tenders Tendering Authority : MATHENGE TECHNICAL TRAINING INSTITUTE Tendering Authority Address : principal,   p.",
+                "score": 0.595351,
+                "arguments": [
+                    {
+                        "text": "principal",
+                        "location": [
+                            247,
+                            256
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "principal"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type :\nTenders Tendering Authority : MATHENGE TECHNICAL TRAINING INSTITUTE Tendering\nAuthority Address :",
+                        "location": [
+                            135,
+                            246
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type :\nTenders Tendering Authority : MATHENGE TECHNICAL TRAINING INSTITUTE Tendering\nAuthority Address :"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.975127,
+                "count": 1
+            },
+            {
+                "text": "KENYA BidDate",
+                "relevance": 0.941068,
+                "count": 1
+            },
+            {
+                "text": "KENYA Tender Type",
+                "relevance": 0.841292,
+                "count": 1
+            },
+            {
+                "text": "delivery of dispensary drugs",
+                "relevance": 0.650896,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.631391,
+                "count": 1
+            },
+            {
+                "text": "supply",
+                "relevance": 0.610942,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.578758,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.576257,
+                "count": 1
+            },
+            {
+                "text": "Financier",
+                "relevance": 0.534946,
+                "count": 1
+            },
+            {
+                "text": "box",
+                "relevance": 0.534946,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.518912,
+                "count": 1
+            },
+            {
+                "text": "medical appliances",
+                "relevance": 0.423834,
+                "count": 1
+            },
+            {
+                "text": "MATHENGE",
+                "relevance": 0.265448,
+                "count": 1
+            },
+            {
+                "text": "othaya",
+                "relevance": 0.248667,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "0e9af551f238df3e9acfaf2f5dd7f56700a46f4d",
+        "filename": "202006050210ALBA____ME_NA_NE_61210_176208817_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "supply and delivery of dispensary drugs and medical appliances [TenderNews.com - Tenders (India)]",
+    "html": "<p>supply and delivery of dispensary drugs and medical appliances more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/ke\">KENYA</location>\nBidDate : <chron>6/23/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/ke\">KENYA</location>\nTender Type : <org>Tenders\nTendering Authority</org> : MATHENGE TECHNICAL TRAINING INSTITUTE\nTendering Authority Address : principal,<br />p. o. box 665 - 10106,othaya.\nFinancier : Self Funded</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

@@ -1,0 +1,2314 @@
+{
+    "id": "44c1ef24-c0e7-4113-93bc-e5887577b787",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "COPYRIGHT 2020 Plus Media Solutions",
+    "geoOrigin": "Lahore, Pakistan",
+    "sourceType": "Government Document",
+    "source": "US Official News",
+    "corpus_document_id": "47305825160153833896",
+    "description": "Sacramento: California Institute of Technology, The State of California has issued the following news release:. Now, Caltech researchers have combined tools from machine learning and neuroscience to discover that the brain uses a mathematical system to organize visual objects according to their principal components. The research was conducted in the...",
+    "serviceName": "Gale All",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Government Agencies (U.S.), Government Policy, Local Government, National Government",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Science and Technology",
+            "code": "IS/appsci#6#50#63",
+            "level": 0
+        },
+        {
+            "parent": "IS/appsci",
+            "relevance_score": "6",
+            "description": "Scientific Research",
+            "code": "IS/appsci.research#6#50#63",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Health and Wellness",
+            "code": "IS/haw#6#50#63",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "6",
+            "description": "Health Sciences",
+            "code": "IS/haw.healthsc#6#50#63",
+            "level": 1
+        }
+    ],
+    "text": "Sacramento: California Institute of Technology,The State of California has\nissued the following news release:\n\nWhen Plato set out to define what made a human a human, he settled on two\nprimary characteristics: We do not have feathers, and we are bipedal (walking\nupright on two legs). Plato's characterization may not encompass all of what\nidentifies a human, but his reduction of an object to its fundamental\ncharacteristics provides an example of a technique known as principal\ncomponent analysis.\n\nNow, Caltech researchers have combined tools from machine learning and\nneuroscience to discover that the brain uses a mathematical system to organize\nvisual objects according to their principal components. The work shows that\nthe brain contains a two-dimensional map of cells representing different\nobjects. The location of each cell in this map is determined by the principal\ncomponents (or features) of its preferred objects; for example, cells that\nrespond to round, curvy objects like faces and apples are grouped together,\nwhile cells that respond to spiky objects like helicopters or chairs form\nanother group.\n\nThe research was conducted in the laboratory of Doris Tsao (BS '96), professor\nof biology, director of the Tianqiao and Chrissy Chen Center for Systems\nNeuroscience and holder of its leadership chair, and Howard Hughes Medical\nInstitute Investigator. A paper describing the study appears in the journal\nNature on June 3.\n\n\"For the past 15 years, our lab has been studying a peculiar network in the\nprimate brain's temporal lobe that is specialized for processing faces. We\ncalled this network the 'face patch network.' From the very beginning, there\nwas a question of whether understanding this face network would teach us\nanything about the general problem of how we recognize objects. I always\ndreamed it would, and now this has been vindicated in a startling way. It\nturns out that the face patch network has multiple siblings, which together\nform an orderly map of object space. So, face patches are one piece of a much\nbigger puzzle, and we can now begin to see how the entire puzzle is put\ntogether,\" says Tsao.\n\nThe brain's inferotemporal (IT) cortex is a critical center for the\nrecognition of objects. Different regions or \"patches\" within the IT cortex\nencode for the recognition of different things. In 2003, Tsao and her\ncollaborators discovered that there are six face patches; there are also\npatches that encode for bodies, scenes, and colors. But these well-studied\nislands only make up some of IT cortex, and the functions of the brain cells\nlocated in between them have not been well understood.\n\nPinglei Bao, a postdoctoral scholar in the Tsao laboratory, wanted to\nunderstand these unknown regions of the IT cortex. Working with nonhuman\nprimates, Bao first stimulated a region of IT cortex that did not belong to\nany of the previously defined patches and measured how other parts of IT\nresponded to stimulation using functional magnetic resonance imaging (fMRI).\nIn doing so, he discovered a new network: three regions of the IT cortex that\nwere driven by the stimulation. He called this network the \"no man's land\nnetwork,\" since it belonged to an uncharted region of IT cortex.\n\nTo determine what kind of objects the new network responded to, Bao showed the\nprimates images of thousands of different objects while he measured neurons'\nactivity in the new network. He found that the neurons responded strongly to a\ngroup of objects that seemingly had nothing in common, except for one curious\nfeature: they all contained thin \"protrusions.\" That is, spiky objects such as\nspiders, helicopters, and chairs triggered the activity of the cells of the\nnew network. Round, smooth objects like faces triggered almost no activity in\nthis network.\n\nBao set out to mathematically describe what these objects all had in common.\nWhile a person can qualitatively describe the fundamental visible\ncharacteristics that make the shape of a chair distinct from a face, they\ncannot break those characteristics down to their mathematical parameters. To\ndo that, Bao used a type of machine learning program called a deep network,\nwhich is trained to classify images of objects.\n\nBao took the set of thousands of images he had shown the primates and passed\nthem through a deep network. He then examined the activations of units found\nin the eight different layers of the deep network. Because there are thousands\nof units in each layer, it was difficult to discern any patterns to their\nfiring. Bao decided to use principal component analysis to determine the\nfundamental parameters driving activity changes in each layer of the network.\nIn one of the layers, Bao noticed something oddly familiar: one of the\nprincipal components was strongly activated by spiky objects, such as spiders\nand helicopters, and was suppressed by faces. This precisely matched the\nobject preferences of the cells Bao had recorded from earlier in the no man's\nland network.\n\nWhat could account for this coincidence? One idea was that IT cortex might\nactually be organized as a map of object space, with x- and y-dimensions\ndetermined by the top two principal components computed from the deep network.\nThis idea would predict the existence of face, body, and no man's land\nregions, since their preferred objects each fall neatly into different\nquadrants of the object space computed from the deep network. But one quadrant\nhad no known counterpart in the brain: stubby objects, like radios or cups.\n\nFour quadrants of different objects\n\nA schematic plot showing the map of objects generated by the first two\nprincipal components of object space. Credit: Bao et al., Nature 2020\n\nBao decided to show primates images of objects belonging to this \"missing\"\nquadrant as he monitored the activity of their IT cortexes. Astonishingly, he\nfound a network of cortical regions that did respond only to stubby objects,\nas predicted by the model. This means the deep network had successfully\npredicted the existence of a previously unknown set of brain regions.\n\nWhy was each quadrant represented by a network of multiple regions? Earlier,\nTsao's lab had found that different face patches throughout IT cortex encode\nan increasingly abstract representation of faces. Bao found that the two\nnetworks he had discovered showed this same property: cells in more anterior\nregions of the brain responded to objects across different angles, while cells\nin more posterior regions responded to objects only at specific angles. This\nshows that the temporal lobe contains multiple copies of the map of object\nspace, each more abstract than the preceding.\n\nFinally, the team was curious how complete the map was. They measured the\nbrain activity from each of the four networks comprising the map as the\nprimates viewed images of objects and then decoded the brain signals to\ndetermine what the primates had been looking at. The model was able to\naccurately reconstruct the images viewed by the primates.\n\n\"We now know which features are important for object recognition,\" says Bao.\n\"The similarity between the important features observed in both biological\nvisual systems and deep networks suggests the two systems might share a\nsimilar computational mechanism for object recognition. Indeed, this is the\nfirst time, to my knowledge, that a deep network has made a prediction about a\nfeature of the brain that was not known before and turned out to be true. I\nthink we are very close to figuring out the how the primate brain solves the\nobject recognition problem.\"\n\nThe paper is titled \"A map of object space in primate inferotemporal cortex.\"\nIn addition to Bao and Tsao, co-authors are postdoctoral scholar Liang She and\ngraduate student Mason McGill. The work was funded by the National Institutes\nof Health, the Howard Hughes Medical Institute, and the Tianqiao and Chrissy\nChen Institute for Neuroscience at Caltech.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "California Institute of Technology",
+            "Caltech",
+            "National Institutes of Health",
+            " at <org>Caltech"
+        ],
+        "location": [
+            "Sacramento"
+        ],
+        "person": [
+            "Doris Tsao",
+            "Liang She",
+            "Mason McGill"
+        ],
+        "companies": [
+            " at <org>Caltech",
+            "Caltech",
+            "California Institute of Technology",
+            "National Institutes of Health"
+        ]
+    },
+    "geoOrigin_code": "RU/pk..lahore",
+    "language": "English",
+    "filename": "202006060000GALE____PUB_ALL_626361885.XML",
+    "providerName": "Gale Group",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 14,
+                "sentiment": {
+                    "score": -0.374632,
+                    "label": "negative"
+                },
+                "text": "Pinglei Bao",
+                "relevance": 0.845916,
+                "type": "Person"
+            },
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Doris Tsao",
+                "relevance": 0.457459,
+                "type": "Person"
+            },
+            {
+                "count": 7,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "principal",
+                "relevance": 0.412423,
+                "type": "JobTitle"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "temporal lobe",
+                "relevance": 0.266451,
+                "type": "Anatomy"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Caltech",
+                "relevance": 0.259323,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "Company",
+                        "AcademicInstitution",
+                        "CollegeUniversity",
+                        "University"
+                    ],
+                    "name": "California Institute of Technology",
+                    "dbpedia_resource": "http://dbpedia.org/resource/California_Institute_of_Technology"
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.727458,
+                    "label": "negative"
+                },
+                "text": "Plato",
+                "relevance": 0.255388,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Plato",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Plato"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.415394,
+                    "label": "positive"
+                },
+                "text": "Sacramento",
+                "relevance": 0.239124,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "PlaceWithNeighborhoods",
+                        "City"
+                    ],
+                    "name": "Sacramento, California",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Sacramento,_California"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tsao laboratory",
+                "relevance": 0.238405,
+                "type": "Company"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "postdoctoral scholar",
+                "relevance": 0.235955,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "California",
+                "relevance": 0.229347,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "Appellation",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "WineRegion",
+                        "StateOrCounty"
+                    ],
+                    "name": "California",
+                    "dbpedia_resource": "http://dbpedia.org/resource/California"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Howard Hughes Medical",
+                "relevance": 0.224318,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Howard Hughes Medical Institute",
+                "relevance": 0.222119,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Non-ProfitOrganisation"
+                    ],
+                    "name": "Howard Hughes Medical Institute",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Howard_Hughes_Medical_Institute"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "California Institute of Technology,The State",
+                "relevance": 0.219254,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.398925,
+                    "label": "positive"
+                },
+                "text": "Chrissy Chen Center for Systems",
+                "relevance": 0.217407,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Institute Investigator",
+                "relevance": 0.208805,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.398925,
+                    "label": "positive"
+                },
+                "text": "director",
+                "relevance": 0.194752,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Chen Institute",
+                "relevance": 0.188832,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.370163,
+                    "label": "negative"
+                },
+                "text": "National Institutes",
+                "relevance": 0.188326,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "professor",
+                "relevance": 0.186685,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "graduate student",
+                "relevance": 0.185081,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mason McGill",
+                "relevance": 0.180392,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Liang She",
+                "relevance": 0.177499,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tianqiao",
+                "relevance": 0.169368,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Chrissy",
+                "relevance": 0.166058,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "15 years",
+                "relevance": 0.166058,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Plato"
+                },
+                "sentence": " When Plato set out to define what made a human a human, he settled on two",
+                "object": {
+                    "text": "what made a human a human"
+                },
+                "action": {
+                    "verb": {
+                        "text": "define",
+                        "tense": "future"
+                    },
+                    "text": "to define",
+                    "normalized": "to define"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " primary characteristics: We do not have feathers, and we are bipedal (walking",
+                "object": {
+                    "text": "not have feathers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "do",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "We"
+                },
+                "sentence": " primary characteristics: We do not have feathers, and we are bipedal (walking",
+                "object": {
+                    "text": "feathers"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Plato's characterization"
+                },
+                "sentence": " Plato's characterization may not encompass all of what",
+                "object": {
+                    "text": "all of what"
+                },
+                "action": {
+                    "verb": {
+                        "text": "encompass",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "encompass",
+                    "normalized": "encompass"
+                }
+            },
+            {
+                "subject": {
+                    "text": "characteristics"
+                },
+                "sentence": " characteristics provides an example of a technique known as principal",
+                "object": {
+                    "text": "an example of a technique known as principal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "present"
+                    },
+                    "text": "provides",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Caltech researchers"
+                },
+                "sentence": " Now, Caltech researchers have combined tools from machine learning and",
+                "object": {
+                    "text": "combined tools from machine"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Caltech researchers"
+                },
+                "sentence": " Now, Caltech researchers have combined tools from machine learning and",
+                "object": {
+                    "text": "tools"
+                },
+                "action": {
+                    "verb": {
+                        "text": "combine",
+                        "tense": "past"
+                    },
+                    "text": "have combined",
+                    "normalized": "have combine"
+                }
+            },
+            {
+                "subject": {
+                    "text": "neuroscience"
+                },
+                "sentence": " neuroscience to discover that the brain uses a mathematical system to organize",
+                "object": {
+                    "text": "that the brain uses a mathematical system to organize"
+                },
+                "action": {
+                    "verb": {
+                        "text": "discover",
+                        "tense": "future"
+                    },
+                    "text": "to discover",
+                    "normalized": "to discover"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the brain"
+                },
+                "sentence": " neuroscience to discover that the brain uses a mathematical system to organize",
+                "object": {
+                    "text": "a mathematical system"
+                },
+                "action": {
+                    "verb": {
+                        "text": "organize",
+                        "tense": "future"
+                    },
+                    "text": "to organize",
+                    "normalized": "to organize"
+                }
+            },
+            {
+                "subject": {
+                    "text": "visual objects"
+                },
+                "sentence": " visual objects according to their principal components.",
+                "object": {
+                    "text": "to their principal components"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The work"
+                },
+                "sentence": " The work shows that",
+                "object": {
+                    "text": "that"
+                },
+                "action": {
+                    "verb": {
+                        "text": "show",
+                        "tense": "present"
+                    },
+                    "text": "shows",
+                    "normalized": "show"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the brain"
+                },
+                "sentence": " the brain contains a two-dimensional map of cells representing different",
+                "object": {
+                    "text": "a two-dimensional map of cells representing different"
+                },
+                "action": {
+                    "verb": {
+                        "text": "contain",
+                        "tense": "present"
+                    },
+                    "text": "contains",
+                    "normalized": "contain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "objects. The location of each cell in this map"
+                },
+                "sentence": " objects. The location of each cell in this map is determined by the principal",
+                "object": {
+                    "text": "determined by the principal"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the principal"
+                },
+                "sentence": " objects. The location of each cell in this map is determined by the principal",
+                "object": {
+                    "text": "objects. The location of each cell in this map"
+                },
+                "action": {
+                    "verb": {
+                        "text": "determine",
+                        "tense": "past"
+                    },
+                    "text": "is determined",
+                    "normalized": "be determine"
+                }
+            },
+            {
+                "subject": {
+                    "text": "apples"
+                },
+                "sentence": " respond to round, curvy objects like faces and apples are grouped together,",
+                "object": {
+                    "text": "together"
+                },
+                "action": {
+                    "verb": {
+                        "text": "group",
+                        "tense": "past"
+                    },
+                    "text": "are grouped",
+                    "normalized": "be group"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cells"
+                },
+                "sentence": " while cells that respond to spiky objects like helicopters or chairs form",
+                "object": {
+                    "text": "to spiky objects like helicopters or chairs form"
+                },
+                "action": {
+                    "verb": {
+                        "text": "respond",
+                        "tense": "present"
+                    },
+                    "text": "respond",
+                    "normalized": "respond"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cells"
+                },
+                "sentence": " while cells that respond to spiky objects like helicopters or chairs form",
+                "object": {
+                    "text": "objects"
+                },
+                "action": {
+                    "verb": {
+                        "text": "spiky",
+                        "tense": "future"
+                    },
+                    "text": "respond to spiky",
+                    "normalized": "respond to spiky"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The research"
+                },
+                "sentence": " The research was conducted in the laboratory of Doris Tsao (BS '96), professor",
+                "object": {
+                    "text": "conducted in the laboratory of Doris Tsao (BS '96), professor"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The research"
+                },
+                "sentence": " The research was conducted in the laboratory of Doris Tsao (BS '96), professor",
+                "action": {
+                    "verb": {
+                        "text": "conduct",
+                        "tense": "past"
+                    },
+                    "text": "was conducted",
+                    "normalized": "be conduct"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A paper"
+                },
+                "sentence": " A paper describing the study appears in the journal",
+                "object": {
+                    "text": "the study appears"
+                },
+                "action": {
+                    "verb": {
+                        "text": "describe",
+                        "tense": "present"
+                    },
+                    "text": "describing",
+                    "normalized": "describe"
+                }
+            },
+            {
+                "subject": {
+                    "text": "A paper describing the study"
+                },
+                "sentence": " A paper describing the study appears in the journal",
+                "action": {
+                    "verb": {
+                        "text": "appear",
+                        "tense": "present"
+                    },
+                    "text": "appears",
+                    "normalized": "appear"
+                }
+            },
+            {
+                "subject": {
+                    "text": "our lab"
+                },
+                "sentence": " \"For the past 15 years, our lab has been studying a peculiar network in the",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has been studying",
+                    "normalized": "have be study"
+                }
+            },
+            {
+                "subject": {
+                    "text": "our lab"
+                },
+                "sentence": " \"For the past 15 years, our lab has been studying a peculiar network in the",
+                "object": {
+                    "text": "studying a peculiar network"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "our lab"
+                },
+                "sentence": " \"For the past 15 years, our lab has been studying a peculiar network in the",
+                "object": {
+                    "text": "a peculiar network"
+                },
+                "action": {
+                    "verb": {
+                        "text": "study",
+                        "tense": "past"
+                    },
+                    "text": "has been studying",
+                    "normalized": "have be study"
+                }
+            },
+            {
+                "subject": {
+                    "text": "primate brain's temporal lobe"
+                },
+                "sentence": " primate brain's temporal lobe that is specialized for processing faces.",
+                "object": {
+                    "text": "specialized for processing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the 'face patch network"
+                },
+                "sentence": " called this network the 'face patch network.'",
+                "object": {
+                    "text": "this network"
+                },
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "past"
+                    },
+                    "text": "called",
+                    "normalized": "call"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " anything about the general problem of how we recognize objects.",
+                "object": {
+                    "text": "objects"
+                },
+                "action": {
+                    "verb": {
+                        "text": "recognize",
+                        "tense": "present"
+                    },
+                    "text": "recognize",
+                    "normalized": "recognize"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this"
+                },
+                "sentence": " dreamed it would, and now this has been vindicated in a startling way.",
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "future"
+                    },
+                    "text": "has been vindicated",
+                    "normalized": "have be vindicate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this"
+                },
+                "sentence": " dreamed it would, and now this has been vindicated in a startling way.",
+                "object": {
+                    "text": "vindicated"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "been",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "this"
+                },
+                "sentence": " dreamed it would, and now this has been vindicated in a startling way.",
+                "action": {
+                    "verb": {
+                        "text": "vindicate",
+                        "tense": "past"
+                    },
+                    "text": "has been vindicated",
+                    "normalized": "have be vindicate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the face patch network"
+                },
+                "sentence": " turns out that the face patch network has multiple siblings, which together",
+                "object": {
+                    "text": "multiple siblings, which together"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "face patches"
+                },
+                "sentence": " So, face patches are one piece of a much",
+                "object": {
+                    "text": "one piece of a much"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " bigger puzzle, and we can now begin to see how the entire puzzle is put",
+                "action": {
+                    "verb": {
+                        "text": "begin",
+                        "tense": "future"
+                    },
+                    "text": "begin",
+                    "normalized": "begin"
+                }
+            },
+            {
+                "subject": {
+                    "text": "we"
+                },
+                "sentence": " bigger puzzle, and we can now begin to see how the entire puzzle is put",
+                "object": {
+                    "text": "how the entire puzzle is put"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "future"
+                    },
+                    "text": "can now begin to see",
+                    "normalized": "can now begin to see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The brain's inferotemporal (IT) cortex"
+                },
+                "sentence": " The brain's inferotemporal (IT) cortex is a critical center for the",
+                "object": {
+                    "text": "a critical center"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "collaborators"
+                },
+                "sentence": " collaborators discovered that there are six face patches; there are also",
+                "object": {
+                    "text": "that there are six face patches"
+                },
+                "action": {
+                    "verb": {
+                        "text": "discover",
+                        "tense": "past"
+                    },
+                    "text": "discovered",
+                    "normalized": "discover"
+                }
+            },
+            {
+                "subject": {
+                    "text": "islands"
+                },
+                "sentence": " islands only make up some of IT cortex, and the functions of the brain cells",
+                "object": {
+                    "text": "some of IT cortex"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "present"
+                    },
+                    "text": "make",
+                    "normalized": "make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "located in between them"
+                },
+                "sentence": " located in between them have not been well understood.",
+                "object": {
+                    "text": "not been well understood"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Bao"
+                },
+                "sentence": " primates, Bao first stimulated a region of IT cortex that did not belong to",
+                "object": {
+                    "text": "a region of IT cortex that did not belong to"
+                },
+                "action": {
+                    "verb": {
+                        "text": "stimulate",
+                        "tense": "past"
+                    },
+                    "text": "stimulated",
+                    "normalized": "stimulate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a region of IT cortex"
+                },
+                "sentence": " primates, Bao first stimulated a region of IT cortex that did not belong to",
+                "object": {
+                    "text": "not belong to"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "past"
+                    },
+                    "text": "did",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a region of IT cortex"
+                },
+                "sentence": " primates, Bao first stimulated a region of IT cortex that did not belong to",
+                "object": {
+                    "text": "to"
+                },
+                "action": {
+                    "verb": {
+                        "text": "belong",
+                        "tense": "past",
+                        "negated": true
+                    },
+                    "text": "belong",
+                    "normalized": "belong"
+                }
+            },
+            {
+                "subject": {
+                    "text": "patches"
+                },
+                "sentence": " any of the previously defined patches and measured how other parts of IT",
+                "action": {
+                    "verb": {
+                        "text": "define",
+                        "tense": "past"
+                    },
+                    "text": "defined",
+                    "normalized": "define"
+                }
+            },
+            {
+                "subject": {
+                    "text": "stimulation"
+                },
+                "sentence": " responded to stimulation using functional magnetic resonance imaging (fMRI).",
+                "object": {
+                    "text": "functional magnetic resonance imaging"
+                },
+                "action": {
+                    "verb": {
+                        "text": "use",
+                        "tense": "present"
+                    },
+                    "text": "using",
+                    "normalized": "use"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " In doing so, he discovered a new network: three regions of the IT cortex that",
+                "object": {
+                    "text": "so"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "doing",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " In doing so, he discovered a new network: three regions of the IT cortex that",
+                "object": {
+                    "text": "a new network: three regions of the IT cortex that"
+                },
+                "action": {
+                    "verb": {
+                        "text": "discover",
+                        "tense": "past"
+                    },
+                    "text": "discovered",
+                    "normalized": "discover"
+                }
+            },
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He called this network the \"no man's land",
+                "object": {
+                    "text": "this network"
+                },
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "past"
+                    },
+                    "text": "called",
+                    "normalized": "call"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " network,\" since it belonged to an uncharted region of IT cortex.",
+                "object": {
+                    "text": "to an uncharted region of IT cortex"
+                },
+                "action": {
+                    "verb": {
+                        "text": "belong",
+                        "tense": "past"
+                    },
+                    "text": "belonged",
+                    "normalized": "belong"
+                }
+            },
+            {
+                "subject": {
+                    "text": "he"
+                },
+                "sentence": " primates images of thousands of different objects while he measured neurons'",
+                "object": {
+                    "text": "neurons"
+                },
+                "action": {
+                    "verb": {
+                        "text": "measure",
+                        "tense": "past"
+                    },
+                    "text": "measured",
+                    "normalized": "measure"
+                }
+            },
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He found that the neurons responded strongly to a",
+                "object": {
+                    "text": "that the neurons responded strongly to a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "find",
+                        "tense": "past"
+                    },
+                    "text": "found",
+                    "normalized": "find"
+                }
+            },
+            {
+                "subject": {
+                    "text": "objects"
+                },
+                "sentence": " group of objects that seemingly had nothing in common, except for one curious",
+                "object": {
+                    "text": "nothing"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "past"
+                    },
+                    "text": "had",
+                    "normalized": "have"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.681973,
+                "label": "/health and fitness/disorders"
+            },
+            {
+                "score": 0.654241,
+                "label": "/science"
+            },
+            {
+                "score": 0.604787,
+                "label": "/science/physics/electromagnetism"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Sacramento: California Institute of Technology,The State of California has issued the following news release:",
+                "score": 0.667734,
+                "arguments": [
+                    {
+                        "text": "The State of California",
+                        "location": [
+                            47,
+                            70
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "The State of California"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "issued",
+                        "location": [
+                            75,
+                            81
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "issued"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "So, face patches are one piece of a much bigger puzzle, and we can now begin to see how the entire puzzle is put together,\" says Tsao.",
+                "score": 0.97573,
+                "arguments": [
+                    {
+                        "text": "Tsao",
+                        "location": [
+                            2131,
+                            2135
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Doris Tsao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "says",
+                        "location": [
+                            2126,
+                            2130
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "says"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Pinglei Bao, a postdoctoral scholar in the Tsao laboratory, wanted to understand these unknown regions of the IT cortex.",
+                "score": 0.875633,
+                "arguments": [
+                    {
+                        "text": "scholar",
+                        "location": [
+                            2661,
+                            2668
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Pinglei Bao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "laboratory",
+                        "location": [
+                            2681,
+                            2691
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "laboratory"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Bao found that the two networks he had discovered showed this same property: cells in more anterior regions of the brain responded to objects across different angles, while cells in more posterior regions responded to objects only at specific angles.",
+                "score": 0.507655,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            6286,
+                            6288
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Pinglei Bao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "property",
+                        "location": [
+                            6321,
+                            6329
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "laboratory"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "He called this network the \"no man's land network,\" since it belonged to an uncharted region of IT cortex.",
+                "score": 0.995229,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            3112,
+                            3114
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Pinglei Bao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "called",
+                        "location": [
+                            3115,
+                            3121
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "called"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "He found that the neurons responded strongly to a group of objects that seemingly had nothing in common, except for one curious feature: they all contained thin \"protrusions.",
+                "score": 0.987925,
+                "arguments": [
+                    {
+                        "text": "neurons",
+                        "location": [
+                            3423,
+                            3430
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "neurons"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "responded",
+                        "location": [
+                            3431,
+                            3440
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "responded"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "While a person can qualitatively describe the fundamental visible characteristics that make the shape of a chair distinct from a face, they cannot break those characteristics down to their mathematical parameters.",
+                "score": 0.810519,
+                "arguments": [
+                    {
+                        "text": "person",
+                        "location": [
+                            3866,
+                            3872
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "person"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "describe",
+                        "location": [
+                            3891,
+                            3899
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "describe"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "Earlier, Tsao's lab had found that different face patches throughout IT cortex encode an increasingly abstract representation of faces.",
+                "score": 0.414897,
+                "arguments": [
+                    {
+                        "text": "Tsao",
+                        "location": [
+                            6127,
+                            6131
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Doris Tsao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "lab",
+                        "location": [
+                            6134,
+                            6137
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "paper",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Bao found that the two networks he had discovered showed this same property: cells in more anterior regions of the brain responded to objects across different angles, while cells in more posterior regions responded to objects only at specific angles.",
+                "score": 0.467116,
+                "arguments": [
+                    {
+                        "text": "he",
+                        "location": [
+                            6286,
+                            6288
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Pinglei Bao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "regions",
+                        "location": [
+                            6354,
+                            6361
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "regions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Bao found that the two networks he had discovered showed this same property: cells in more anterior regions of the brain responded to objects across different angles, while cells in more posterior regions responded to objects only at specific angles.",
+                "score": 0.810361,
+                "arguments": [
+                    {
+                        "text": "property",
+                        "location": [
+                            6321,
+                            6329
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "laboratory"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "regions",
+                        "location": [
+                            6354,
+                            6361
+                        ],
+                        "entities": [
+                            {
+                                "type": "Location",
+                                "text": "regions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\"We now know which features are important for object recognition,\" says Bao.",
+                "score": 0.976451,
+                "arguments": [
+                    {
+                        "text": "Bao",
+                        "location": [
+                            7052,
+                            7055
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Pinglei Bao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "says",
+                        "location": [
+                            7047,
+                            7051
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "says"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "The work was funded by the National Institutes of Health, the Howard Hughes Medical Institute, and the Tianqiao and Chrissy Chen Institute for Neuroscience at Caltech.",
+                "score": 0.601123,
+                "arguments": [
+                    {
+                        "text": "Howard Hughes",
+                        "location": [
+                            7792,
+                            7805
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Howard Hughes"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Medical Institute",
+                        "location": [
+                            7806,
+                            7823
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Medical Institute"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "When Plato set out to define what made a human a human, he settled on two primary characteristics: We do not have feathers, and we are bipedal (walking upright on two legs).",
+                "score": 0.788354,
+                "arguments": [
+                    {
+                        "text": "Plato",
+                        "location": [
+                            116,
+                            121
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Plato"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "we",
+                        "location": [
+                            239,
+                            241
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "we"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The work was funded by the National Institutes of Health, the Howard Hughes Medical Institute, and the Tianqiao and Chrissy Chen Institute for Neuroscience at Caltech.",
+                "score": 0.807796,
+                "arguments": [
+                    {
+                        "text": "Tianqiao",
+                        "location": [
+                            7833,
+                            7841
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Tianqiao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Caltech",
+                        "location": [
+                            7889,
+                            7896
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Caltech"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The location of each cell in this map is determined by the principal components (or features) of its preferred objects; for example, cells that respond to round, curvy objects like faces and apples are grouped together, while cells that respond to spiky objects like helicopters or chairs form another group.",
+                "score": 0.573194,
+                "arguments": [
+                    {
+                        "text": "principal",
+                        "location": [
+                            868,
+                            877
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "principal\ncomponent"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "its",
+                        "location": [
+                            906,
+                            909
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "The State of California"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The research was conducted in the laboratory of Doris Tsao (BS '96), professor of biology, director of the Tianqiao and Chrissy Chen Center for Systems Neuroscience and holder of its leadership chair, and Howard Hughes Medical Institute Investigator.",
+                "score": 0.524026,
+                "arguments": [
+                    {
+                        "text": "chair",
+                        "location": [
+                            1313,
+                            1318
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "principal\ncomponent"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "its",
+                        "location": [
+                            1298,
+                            1301
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "The State of California"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "The research was conducted in the laboratory of Doris Tsao (BS '96), professor of biology, director of the Tianqiao and Chrissy Chen Center for Systems Neuroscience and holder of its leadership chair, and Howard Hughes Medical Institute Investigator.",
+                "score": 0.271155,
+                "arguments": [
+                    {
+                        "text": "Doris Tsao",
+                        "location": [
+                            1167,
+                            1177
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Doris Tsao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "laboratory",
+                        "location": [
+                            1153,
+                            1163
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "laboratory"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "Pinglei Bao, a postdoctoral scholar in the Tsao laboratory, wanted to understand these unknown regions of the IT cortex.",
+                "score": 0.605683,
+                "arguments": [
+                    {
+                        "text": "Tsao",
+                        "location": [
+                            2676,
+                            2680
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Doris Tsao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "laboratory",
+                        "location": [
+                            2681,
+                            2691
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "laboratory"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The research was conducted in the laboratory of Doris Tsao (BS '96), professor of biology, director of the Tianqiao and Chrissy Chen Center for Systems Neuroscience and holder of its leadership chair, and Howard Hughes Medical Institute Investigator.",
+                "score": 0.426445,
+                "arguments": [
+                    {
+                        "text": "professor\nof biology",
+                        "location": [
+                            1188,
+                            1208
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Doris Tsao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tianqiao",
+                        "location": [
+                            1226,
+                            1234
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Tianqiao"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The research was conducted in the laboratory of Doris Tsao (BS '96), professor of biology, director of the Tianqiao and Chrissy Chen Center for Systems Neuroscience and holder of its leadership chair, and Howard Hughes Medical Institute Investigator.",
+                "score": 0.483687,
+                "arguments": [
+                    {
+                        "text": "director",
+                        "location": [
+                            1210,
+                            1218
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "director"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tianqiao",
+                        "location": [
+                            1226,
+                            1234
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Tianqiao"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The research was conducted in the laboratory of Doris Tsao (BS '96), professor of biology, director of the Tianqiao and Chrissy Chen Center for Systems Neuroscience and holder of its leadership chair, and Howard Hughes Medical Institute Investigator.",
+                "score": 0.230558,
+                "arguments": [
+                    {
+                        "text": "Howard Hughes",
+                        "location": [
+                            1324,
+                            1337
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Howard Hughes"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Medical\nInstitute",
+                        "location": [
+                            1338,
+                            1355
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Medical\nInstitute"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "The research was conducted in the laboratory of Doris Tsao (BS '96), professor of biology, director of the Tianqiao and Chrissy Chen Center for Systems Neuroscience and holder of its leadership chair, and Howard Hughes Medical Institute Investigator.",
+                "score": 0.518137,
+                "arguments": [
+                    {
+                        "text": "Investigator",
+                        "location": [
+                            1356,
+                            1368
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Howard Hughes"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Medical\nInstitute",
+                        "location": [
+                            1338,
+                            1355
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Medical\nInstitute"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "We called this network the 'face patch network.",
+                "score": 0.946966,
+                "arguments": [
+                    {
+                        "text": "We",
+                        "location": [
+                            1589,
+                            1591
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "The State of California"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "called",
+                        "location": [
+                            1592,
+                            1598
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "called"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "So, face patches are one piece of a much bigger puzzle, and we can now begin to see how the entire puzzle is put together,\" says Tsao.",
+                "score": 0.496224,
+                "arguments": [
+                    {
+                        "text": "Tsao",
+                        "location": [
+                            2131,
+                            2135
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Doris Tsao"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "we",
+                        "location": [
+                            2062,
+                            2064
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "them"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "reduction of an object",
+                "relevance": 0.700713,
+                "count": 1
+            },
+            {
+                "text": "Pinglei Bao",
+                "relevance": 0.678464,
+                "count": 1
+            },
+            {
+                "text": "visual objects",
+                "relevance": 0.597408,
+                "count": 1
+            },
+            {
+                "text": "peculiar network",
+                "relevance": 0.591629,
+                "count": 1
+            },
+            {
+                "text": "primate brain's temporal lobe",
+                "relevance": 0.587151,
+                "count": 1
+            },
+            {
+                "text": "work shows",
+                "relevance": 0.586834,
+                "count": 1
+            },
+            {
+                "text": "primary characteristics",
+                "relevance": 0.579525,
+                "count": 1
+            },
+            {
+                "text": "Different regions",
+                "relevance": 0.578564,
+                "count": 1
+            },
+            {
+                "text": "two-dimensional map of cells",
+                "relevance": 0.569189,
+                "count": 1
+            },
+            {
+                "text": "California Institute of Technology",
+                "relevance": 0.564498,
+                "count": 1
+            },
+            {
+                "text": "component analysis",
+                "relevance": 0.560909,
+                "count": 1
+            },
+            {
+                "text": "important features",
+                "relevance": 0.55874,
+                "count": 1
+            },
+            {
+                "text": "known counterpart",
+                "relevance": 0.558078,
+                "count": 1
+            },
+            {
+                "text": "preferred objects",
+                "relevance": 0.557799,
+                "count": 2
+            },
+            {
+                "text": "principal components",
+                "relevance": 0.555721,
+                "count": 3
+            },
+            {
+                "text": "Howard Hughes Medical Institute",
+                "relevance": 0.554497,
+                "count": 1
+            },
+            {
+                "text": "primates images",
+                "relevance": 0.553372,
+                "count": 1
+            },
+            {
+                "text": "Chrissy Chen Center",
+                "relevance": 0.545719,
+                "count": 1
+            },
+            {
+                "text": "National Institutes",
+                "relevance": 0.543834,
+                "count": 1
+            },
+            {
+                "text": "face patch network",
+                "relevance": 0.541887,
+                "count": 2
+            },
+            {
+                "text": "principal component analysis",
+                "relevance": 0.538191,
+                "count": 1
+            },
+            {
+                "text": "curvy objects",
+                "relevance": 0.537354,
+                "count": 1
+            },
+            {
+                "text": "spiky objects",
+                "relevance": 0.535577,
+                "count": 3
+            },
+            {
+                "text": "orderly map of object space",
+                "relevance": 0.53455,
+                "count": 1
+            },
+            {
+                "text": "different objects",
+                "relevance": 0.527444,
+                "count": 1
+            },
+            {
+                "text": "functional magnetic resonance",
+                "relevance": 0.526342,
+                "count": 1
+            },
+            {
+                "text": "laboratory of Doris Tsao",
+                "relevance": 0.52583,
+                "count": 1
+            },
+            {
+                "text": "machine learning",
+                "relevance": 0.523796,
+                "count": 1
+            },
+            {
+                "text": "general problem",
+                "relevance": 0.523384,
+                "count": 1
+            },
+            {
+                "text": "brain",
+                "relevance": 0.52336,
+                "count": 5
+            },
+            {
+                "text": "temporal lobe",
+                "relevance": 0.521133,
+                "count": 1
+            },
+            {
+                "text": "Caltech researchers",
+                "relevance": 0.52106,
+                "count": 1
+            },
+            {
+                "text": "Bao",
+                "relevance": 0.520885,
+                "count": 11
+            },
+            {
+                "text": "recognition of objects",
+                "relevance": 0.52086,
+                "count": 1
+            },
+            {
+                "text": "chairs form",
+                "relevance": 0.520138,
+                "count": 1
+            },
+            {
+                "text": "new network",
+                "relevance": 0.519345,
+                "count": 4
+            },
+            {
+                "text": "unknown regions of the IT cortex",
+                "relevance": 0.519042,
+                "count": 1
+            },
+            {
+                "text": "different layers of the deep network",
+                "relevance": 0.518752,
+                "count": 1
+            },
+            {
+                "text": "director of the Tianqiao",
+                "relevance": 0.517777,
+                "count": 1
+            },
+            {
+                "text": "neuroscience",
+                "relevance": 0.517371,
+                "count": 2
+            },
+            {
+                "text": "similar computational mechanism",
+                "relevance": 0.51691,
+                "count": 1
+            },
+            {
+                "text": "first time",
+                "relevance": 0.516855,
+                "count": 1
+            },
+            {
+                "text": "location of each cell",
+                "relevance": 0.51649,
+                "count": 1
+            },
+            {
+                "text": "holder of its leadership chair",
+                "relevance": 0.516276,
+                "count": 1
+            },
+            {
+                "text": "idea",
+                "relevance": 0.515566,
+                "count": 2
+            },
+            {
+                "text": "example of a technique",
+                "relevance": 0.51504,
+                "count": 1
+            },
+            {
+                "text": "principal",
+                "relevance": 0.514883,
+                "count": 1
+            },
+            {
+                "text": "schematic plot",
+                "relevance": 0.514766,
+                "count": 1
+            },
+            {
+                "text": "fundamental parameters",
+                "relevance": 0.514685,
+                "count": 1
+            },
+            {
+                "text": "brain activity",
+                "relevance": 0.514255,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "5485f2e77ee164f8ac642530c2e4d80fa507a14c",
+        "filename": "202006060000GALE____PUB_ALL_626361885.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Howard Hughes Medical Institute Inc|extractor|DUNS:073862773;NECOID:5337743;ACORN:3848410533|MENTION||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-06T00:00:00-04:00",
+    "title": "Faces, Bodies, Spiders, and Radios: How the Brain Represents Visual Objects.",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.ca.sacmto\">Sacramento</location>: <org>California Institute of Technology</org>,The State of\nCalifornia has issued the following news release:</p>\n\n<p>When Plato set out to define what made a human a human, he settled\non two primary characteristics: We do not have feathers, and we are\nbipedal (walking upright on two legs). Plato's characterization may\nnot encompass all of what identifies a human, but his reduction of an\nobject to its fundamental characteristics provides an example of a\ntechnique known as principal component analysis.</p>\n\n<p>Now, <org>Caltech</org> researchers have combined tools from machine learning\nand neuroscience to discover that the brain uses a mathematical system\nto organize visual objects according to their principal components. The\nwork shows that the brain contains a two-dimensional map of cells\nrepresenting different objects. The location of each cell in this map is\ndetermined by the principal components (or features) of its preferred\nobjects; for example, cells that respond to round, curvy objects like\nfaces and apples are grouped together, while cells that respond to spiky\nobjects like helicopters or chairs form another group.</p>\n\n<p>The research was conducted in the laboratory of <person>Doris Tsao</person> (BS\n'96), professor of biology, director of the Tianqiao and <org>Chrissy\nChen Center for Systems Neuroscience</org> and holder of its leadership chair,\nand Howard Hughes Medical Institute Investigator. A paper describing the\nstudy appears in the journal Nature on <chron>June 3</chron>.</p>\n\n<p>\"For the past 15 years, our lab has been studying a peculiar\nnetwork in the primate brain's temporal lobe that is specialized\nfor processing faces. We called this network the 'face patch\nnetwork.' From the very beginning, there was a question of whether\nunderstanding this face network would teach us anything about the\ngeneral problem of how we recognize objects. I always dreamed it would,\nand now this has been vindicated in a startling way. It turns out that\nthe face patch network has multiple siblings, which together form an\norderly map of object space. So, face patches are one piece of a much\nbigger puzzle, and we can now begin to see how the entire puzzle is put\ntogether,\" says Tsao.</p>\n\n<p>The brain's inferotemporal (IT) cortex is a critical center\nfor the recognition of objects. Different regions or \"patches\"\nwithin the IT cortex encode for the recognition of different things. In\n2003, Tsao and her collaborators discovered that there are six face\npatches; there are also patches that encode for bodies, scenes, and\ncolors. But these well-studied islands only make up some of IT cortex,\nand the functions of the brain cells located in between them have not\nbeen well understood.</p>\n\n<p>Pinglei Bao, a postdoctoral scholar in the Tsao laboratory, wanted\nto understand these unknown regions of the IT cortex. Working with\nnonhuman primates, Bao first stimulated a region of IT cortex that did\nnot belong to any of the previously defined patches and measured how\nother parts of IT responded to stimulation using functional magnetic\nresonance imaging (fMRI). In doing so, he discovered a new network:\nthree regions of the IT cortex that were driven by the stimulation. He\ncalled this network the \"no man's land network,\" since it\nbelonged to an uncharted region of IT cortex.</p>\n\n<p>To determine what kind of objects the new network responded to, Bao\nshowed the primates images of thousands of different objects while he\nmeasured neurons' activity in the new network. He found that the\nneurons responded strongly to a group of objects that seemingly had\nnothing in common, except for one curious feature: they all contained\nthin \"protrusions.\" That is, spiky objects such as spiders,\nhelicopters, and chairs triggered the activity of the cells of the new\nnetwork. Round, smooth objects like faces triggered almost no activity\nin this network.</p>\n\n<p>Bao set out to mathematically describe what these objects all had\nin common. While a person can qualitatively describe the fundamental\nvisible characteristics that make the shape of a chair distinct from a\nface, they cannot break those characteristics down to their mathematical\nparameters. To do that, Bao used a type of machine learning program\ncalled a deep network, which is trained to classify images of objects.</p>\n\n<p>Bao took the set of thousands of images he had shown the primates\nand passed them through a deep network. He then examined the activations\nof units found in the eight different layers of the deep network.\nBecause there are thousands of units in each layer, it was difficult to\ndiscern any patterns to their firing. Bao decided to use principal\ncomponent analysis to determine the fundamental parameters driving\nactivity changes in each layer of the network. In one of the layers, Bao\nnoticed something oddly familiar: one of the principal components was\nstrongly activated by spiky objects, such as spiders and helicopters,\nand was suppressed by faces. This precisely matched the object\npreferences of the cells Bao had recorded from earlier in the no\nman's land network.</p>\n\n<p>What could account for this coincidence? One idea was that IT\ncortex might actually be organized as a map of object space, with x- and\ny-dimensions determined by the top two principal components computed\nfrom the deep network. This idea would predict the existence of face,\nbody, and no man's land regions, since their preferred objects each\nfall neatly into different quadrants of the object space computed from\nthe deep network. But one quadrant had no known counterpart in the\nbrain: stubby objects, like radios or cups.</p>\n\n<p>Four quadrants of different objects</p>\n\n<p>A schematic plot showing the map of objects generated by the first\ntwo principal components of object space. Credit: Bao et al., Nature\n2020</p>\n\n<p>Bao decided to show primates images of objects belonging to this\n\"missing\" quadrant as he monitored the activity of their IT\ncortexes. Astonishingly, he found a network of cortical regions that did\nrespond only to stubby objects, as predicted by the model. This means\nthe deep network had successfully predicted the existence of a\npreviously unknown set of brain regions.</p>\n\n<p>Why was each quadrant represented by a network of multiple regions?\nEarlier, Tsao's lab had found that different face patches\nthroughout IT cortex encode an increasingly abstract representation of\nfaces. Bao found that the two networks he had discovered showed this\nsame property: cells in more anterior regions of the brain responded to\nobjects across different angles, while cells in more posterior regions\nresponded to objects only at specific angles. This shows that the\ntemporal lobe contains multiple copies of the map of object space, each\nmore abstract than the preceding.</p>\n\n<p>Finally, the team was curious how complete the map was. They\nmeasured the brain activity from each of the four networks comprising\nthe map as the primates viewed images of objects and then decoded the\nbrain signals to determine what the primates had been looking at. The\nmodel was able to accurately reconstruct the images viewed by the\nprimates.</p>\n\n<p>\"We now know which features are important for object\nrecognition,\" says Bao. \"The similarity between the important\nfeatures observed in both biological visual systems and deep networks\nsuggests the two systems might share a similar computational mechanism\nfor object recognition. Indeed, this is the first time, to my knowledge,\nthat a deep network has made a prediction about a feature of the brain\nthat was not known before and turned out to be true. I think we are very\nclose to figuring out the how the primate brain solves the object\nrecognition problem.\"</p>\n\n<p>The paper is titled \"A map of object space in primate\ninferotemporal cortex.\" In addition to Bao and Tsao, co-authors are\npostdoctoral scholar <person>Liang She</person> and graduate student <person>Mason McGill</person>. The\nwork was funded by the <org idsrc=\"xmltag.org\" value=\"ACORN:1965594450\">National Institutes of Health</org>, the <org idsrc=\"xmltag.org\" value=\"ACORN:3848410533\">Howard Hughes\nMedical Institute</org>, and the <org>Tianqiao and Chrissy Chen Institute for\nNeuroscience</org> at <org>Caltech</org>.</p>",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ]
+    ]
+}

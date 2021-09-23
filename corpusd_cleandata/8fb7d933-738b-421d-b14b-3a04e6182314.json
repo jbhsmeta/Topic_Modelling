@@ -1,0 +1,314 @@
+{
+    "id": "8fb7d933-738b-421d-b14b-3a04e6182314",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020, Feast, All Rights Reserved.",
+    "geoOrigin": "Town And Country, Missouri",
+    "sourceType": "Newspaper",
+    "source": "Feast (Town and Country, MO)",
+    "corpus_document_id": "86926086755199597993",
+    "description": "Where: Learn virtually on Zoom! When: Wednesday, June 24, 6 to 9 pmCost: $45 Tickets: nourish.schnucks.com/web-ext/cooking-school. Join Schnucks Cooking School director Gay DeMichele on Zoom at 6 pm on Wed., June 24 to learn how to make the dishes on this month's menu.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "Cooking",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#7#50#78",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.fooddine",
+            "relevance_score": "7",
+            "description": "Cooking",
+            "code": "IS/lifesoc.cooking#7#78#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "7",
+            "description": "Food and Dining",
+            "code": "IS/lifesoc.fooddine#7#50#78",
+            "level": 1
+        }
+    ],
+    "text": "Where: Learn virtually on Zoom!When: Wednesday, June 24, 6 to 9pmCost:\n$45Tickets: [nourish.schnucks.com/web-ext/cooking-\nschool](http://nourish.schnucks.com/web-ext/cooking-school)\n\nJoin Schnucks Cooking School director Gay DeMichele on Zoom at 6pm on Wed.,\nJune 24 to learn how to make the dishes on this month's menu. In this class,\nyou'll learn which cuts of beef require more time to cook, and why, as well as\nhow drying meat before cooking it affects the end result. Also, discover the\nreal difference between creme fraiche and sour cream.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Schnucks Cooking School"
+        ],
+        "location": [],
+        "person": [
+            "Gay DeMichele"
+        ],
+        "companies": [
+            "Schnucks Cooking School"
+        ]
+    },
+    "geoOrigin_code": "RU/us.mo.towtry",
+    "language": "English",
+    "filename": "202005220000NEWSBANKNEWSPPRS57321CB5087AF1485EB4CBE8904CB19.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Schnucks Cooking School",
+                "relevance": 0.875744,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "director",
+                "relevance": 0.384836,
+                "type": "JobTitle"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Schnucks Cooking School director Gay DeMichele on Zoom"
+                },
+                "sentence": " Join Schnucks Cooking School director Gay DeMichele on Zoom at 6pm on Wed.,",
+                "action": {
+                    "verb": {
+                        "text": "Join",
+                        "tense": "present"
+                    },
+                    "text": "Join",
+                    "normalized": "Join"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the dishes"
+                },
+                "sentence": " June 24 to learn how to make the dishes on this month's menu.",
+                "object": {
+                    "text": "on this month's menu"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "future"
+                    },
+                    "text": "to make",
+                    "normalized": "to make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "you"
+                },
+                "sentence": " you'll learn which cuts of beef require more time to cook, and why, as well as",
+                "object": {
+                    "text": "which cuts of beef require more time to cook"
+                },
+                "action": {
+                    "verb": {
+                        "text": "learn",
+                        "tense": "future"
+                    },
+                    "text": "learn",
+                    "normalized": "learn"
+                }
+            },
+            {
+                "subject": {
+                    "text": "how drying meat before cooking it"
+                },
+                "sentence": " how drying meat before cooking it affects the end result.",
+                "object": {
+                    "text": "the end result"
+                },
+                "action": {
+                    "verb": {
+                        "text": "affect",
+                        "tense": "present"
+                    },
+                    "text": "affects",
+                    "normalized": "affect"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.996701,
+                "label": "/food and drink/cuisines"
+            },
+            {
+                "score": 0.985119,
+                "label": "/food and drink/food"
+            },
+            {
+                "score": 0.90957,
+                "label": "/food and drink/desserts and baking"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Join Schnucks Cooking School director Gay DeMichele on Zoom at 6pm on Wed., June 24 to learn how to make the dishes on this month's menu.",
+                "score": 0.86982,
+                "arguments": [
+                    {
+                        "text": "Gay DeMichele",
+                        "location": [
+                            221,
+                            234
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Gay DeMichele"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Zoom",
+                        "location": [
+                            238,
+                            242
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Zoom",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "real difference",
+                "relevance": 0.775177,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.673107,
+                "count": 2
+            },
+            {
+                "text": "drying meat",
+                "relevance": 0.641803,
+                "count": 1
+            },
+            {
+                "text": "sour cream",
+                "relevance": 0.588016,
+                "count": 1
+            },
+            {
+                "text": "school",
+                "relevance": 0.553254,
+                "count": 1
+            },
+            {
+                "text": "creme fraiche",
+                "relevance": 0.545793,
+                "count": 1
+            },
+            {
+                "text": "web-ext",
+                "relevance": 0.526611,
+                "count": 1
+            },
+            {
+                "text": "Join Schnucks Cooking School director Gay DeMichele",
+                "relevance": 0.52597,
+                "count": 1
+            },
+            {
+                "text": "beef",
+                "relevance": 0.525138,
+                "count": 1
+            },
+            {
+                "text": "dishes",
+                "relevance": 0.516633,
+                "count": 1
+            },
+            {
+                "text": "class",
+                "relevance": 0.511316,
+                "count": 1
+            },
+            {
+                "text": "Zoom",
+                "relevance": 0.508341,
+                "count": 2
+            },
+            {
+                "text": "end result",
+                "relevance": 0.499505,
+                "count": 1
+            },
+            {
+                "text": "month's menu",
+                "relevance": 0.499505,
+                "count": 1
+            },
+            {
+                "text": "Wednesday",
+                "relevance": 0.475466,
+                "count": 1
+            },
+            {
+                "text": "45Tickets",
+                "relevance": 0.445931,
+                "count": 1
+            },
+            {
+                "text": "time",
+                "relevance": 0.424481,
+                "count": 1
+            },
+            {
+                "text": "Wed.",
+                "relevance": 0.422511,
+                "count": 1
+            },
+            {
+                "text": "9pmCost",
+                "relevance": 0.422511,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Monthly",
+    "extracted_metadata": {
+        "sha1": "16b807ec33307a2896d88a7288f4ac61fce47e56",
+        "filename": "202005220000NEWSBANKNEWSPPRS57321CB5087AF1485EB4CBE8904CB19.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-05-22T00:00:00-04:00",
+    "title": "Schnucks Virtual Cooking Class: Beef Stroganoff",
+    "html": "<p>Where: Learn virtually on Zoom!When: <chron>Wednesday, June 24</chron>, 6 to 9pmCost: $45Tickets: <a href=\"http://nourish.schnucks.com/web-ext/cooking-school\">nourish.schnucks.com/web-ext/cooking-school</a></p>\n<p>Join <org>Schnucks Cooking School</org> director <person>Gay DeMichele</person> on Zoom at <chron>6pm</chron> on <chron>Wed., June 24</chron> to learn how to make the dishes on this month's menu. In this class, you'll learn which cuts of beef require more time to cook, and why, as well as how drying meat before cooking it affects the end result. Also, discover the real difference between cr&#232;me fra&#238;che and sour cream.</p>",
+    "geoFocus": [
+        [
+            "GU/us.mo.towtry",
+            "Town And Country"
+        ]
+    ]
+}

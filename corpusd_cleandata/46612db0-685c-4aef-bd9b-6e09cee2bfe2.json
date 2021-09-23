@@ -1,0 +1,675 @@
+{
+    "id": "46612db0-685c-4aef-bd9b-6e09cee2bfe2",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "Norwich, England, United Kingdom",
+    "sourceType": "Newspaper",
+    "source": "Eastern Daily Press (UK)",
+    "corpus_document_id": "41189027842380182981",
+    "description": "Can I send out an appeal to fellow readers to put aside coronavirus and Cummings et al for a few minutes every day to help our garden wildlife?\u00a8The continuing",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "7",
+            "description": "Animals",
+            "code": "IS/lifesoc.animals#7#75#50",
+            "level": 1
+        }
+    ],
+    "text": "Can I send out an appeal to fellow readers to put aside coronavirus and\nCummings et al for a few minutes every day to help our garden wildlife?\u00a8The\ncontinuing hot weather is causing the ground to be rock hard with little water\nand food around for wildbirds and hedgehogs. Please help them survive by\nputting water out daily in a flat container (like a plastic flowerpot holder\nor old dinner plate or roasting dish) for drinking and bathing.\u00a8Also kitchen\nscraps, seed, breadcrumbs and so on will be gratefully received by birds\nstruggling to feed themselves and nestlings. Hanging feeders containing\nsunflower hearts and suet fat balls will attract goldfinches, sparrows,\nstarlings and more.\u00a8If you are lucky enough to have visiting hedgehogs, a\nlittle dog or cat food will be welcome in addition to water.\u00a8Please help our\nwildlife survive this dry spell.\u00a8On a happy note, it's wonderful to see swifts\nreturning to our skies, cuckoos calling in Broadland and even a lone heron\nfeeding with swans on Wroxham bridge -- must be the lack of holidaymakers in\nthese current troubled times. Even waterbirds need a helping hand with bread\nand seed on occasion!\n\nJillian Hollis-Graves,\n\nCuttons Corner, Hemblington.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [
+            "Jillian Hollis-Graves"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/gb.eng.norwch",
+    "language": "English",
+    "filename": "202006050000ARCHANT_NEWS____86428654.XML",
+    "providerName": "Archant Limited",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jillian Hollis-Graves",
+                "relevance": 0.840854,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Wroxham bridge",
+                "relevance": 0.828871,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.514964,
+                    "label": "positive"
+                },
+                "text": "Cummings",
+                "relevance": 0.806694,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Broadland",
+                "relevance": 0.759057,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Cuttons Corner",
+                "relevance": 0.754879,
+                "type": "Facility"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Hemblington",
+                "relevance": 0.688968,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Hemblington",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Hemblington"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "fellow readers"
+                },
+                "sentence": "Can I send out an appeal to fellow readers to put aside coronavirus and",
+                "object": {
+                    "text": "coronavirus"
+                },
+                "action": {
+                    "verb": {
+                        "text": "put",
+                        "tense": "future"
+                    },
+                    "text": "to put",
+                    "normalized": "to put"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Cummings et al for a few minutes"
+                },
+                "sentence": " Cummings et al for a few minutes every day to help our garden wildlife?\u00a8The",
+                "object": {
+                    "text": "our garden wildlife"
+                },
+                "action": {
+                    "verb": {
+                        "text": "help",
+                        "tense": "future"
+                    },
+                    "text": "to help",
+                    "normalized": "to help"
+                }
+            },
+            {
+                "subject": {
+                    "text": "continuing hot weather"
+                },
+                "sentence": " continuing hot weather is causing the ground to be rock hard with little water",
+                "object": {
+                    "text": "causing the ground"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "continuing hot weather"
+                },
+                "sentence": " continuing hot weather is causing the ground to be rock hard with little water",
+                "object": {
+                    "text": "the ground"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cause",
+                        "tense": "present"
+                    },
+                    "text": "is causing",
+                    "normalized": "be cause"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the ground"
+                },
+                "sentence": " continuing hot weather is causing the ground to be rock hard with little water",
+                "object": {
+                    "text": "rock"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "to be",
+                    "normalized": "to be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "sunflower hearts and suet fat balls"
+                },
+                "sentence": " sunflower hearts and suet fat balls will attract goldfinches, sparrows,",
+                "object": {
+                    "text": "goldfinches, sparrows,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "attract",
+                        "tense": "future"
+                    },
+                    "text": "will attract",
+                    "normalized": "will attract"
+                }
+            },
+            {
+                "subject": {
+                    "text": "starlings and more.\u00a8If you"
+                },
+                "sentence": " starlings and more.\u00a8If you are lucky enough to have visiting hedgehogs, a",
+                "object": {
+                    "text": "lucky enough"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "starlings and more.\u00a8If you"
+                },
+                "sentence": " starlings and more.\u00a8If you are lucky enough to have visiting hedgehogs, a",
+                "object": {
+                    "text": "visiting hedgehogs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "future"
+                    },
+                    "text": "have",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "starlings and more.\u00a8If you"
+                },
+                "sentence": " starlings and more.\u00a8If you are lucky enough to have visiting hedgehogs, a",
+                "object": {
+                    "text": "hedgehogs"
+                },
+                "action": {
+                    "verb": {
+                        "text": "visit",
+                        "tense": "present"
+                    },
+                    "text": "to have visiting",
+                    "normalized": "to have visit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "wildlife"
+                },
+                "sentence": " wildlife survive this dry spell.\u00a8On a happy note, it's wonderful to see swifts",
+                "object": {
+                    "text": "this dry spell.\u00a8On a happy note"
+                },
+                "action": {
+                    "verb": {
+                        "text": "survive",
+                        "tense": "present"
+                    },
+                    "text": "survive",
+                    "normalized": "survive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " wildlife survive this dry spell.\u00a8On a happy note, it's wonderful to see swifts",
+                "object": {
+                    "text": "wonderful to see swifts"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " wildlife survive this dry spell.\u00a8On a happy note, it's wonderful to see swifts",
+                "object": {
+                    "text": "swifts"
+                },
+                "action": {
+                    "verb": {
+                        "text": "see",
+                        "tense": "future"
+                    },
+                    "text": "to see",
+                    "normalized": "to see"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cuckoos"
+                },
+                "sentence": " returning to our skies, cuckoos calling in Broadland and even a lone heron",
+                "action": {
+                    "verb": {
+                        "text": "call",
+                        "tense": "present"
+                    },
+                    "text": "calling",
+                    "normalized": "call"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Even waterbirds"
+                },
+                "sentence": " Even waterbirds need a helping hand with bread",
+                "object": {
+                    "text": "a helping hand"
+                },
+                "action": {
+                    "verb": {
+                        "text": "need",
+                        "tense": "present"
+                    },
+                    "text": "need",
+                    "normalized": "need"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.986252,
+                "label": "/pets/birds"
+            },
+            {
+                "score": 0.867195,
+                "label": "/food and drink/food"
+            },
+            {
+                "score": 0.733511,
+                "label": "/food and drink/cuisines"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "Cuttons Corner, Hemblington.",
+                "score": 0.941777,
+                "arguments": [
+                    {
+                        "text": "Cuttons Corner",
+                        "location": [
+                            1177,
+                            1191
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Cuttons Corner"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Hemblington",
+                        "location": [
+                            1193,
+                            1204
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Hemblington"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "little water",
+                "relevance": 0.719833,
+                "count": 1
+            },
+            {
+                "text": "Cummings et al",
+                "relevance": 0.716364,
+                "count": 1
+            },
+            {
+                "text": "hot weather",
+                "relevance": 0.653935,
+                "count": 1
+            },
+            {
+                "text": "old dinner plate",
+                "relevance": 0.642964,
+                "count": 1
+            },
+            {
+                "text": "sunflower hearts",
+                "relevance": 0.631141,
+                "count": 1
+            },
+            {
+                "text": "little dog",
+                "relevance": 0.602317,
+                "count": 1
+            },
+            {
+                "text": "garden wildlife",
+                "relevance": 0.591134,
+                "count": 1
+            },
+            {
+                "text": "happy note",
+                "relevance": 0.576823,
+                "count": 1
+            },
+            {
+                "text": "helping hand",
+                "relevance": 0.554309,
+                "count": 1
+            },
+            {
+                "text": "suet fat balls",
+                "relevance": 0.549416,
+                "count": 1
+            },
+            {
+                "text": "dry spell",
+                "relevance": 0.547284,
+                "count": 1
+            },
+            {
+                "text": "cat food",
+                "relevance": 0.546795,
+                "count": 1
+            },
+            {
+                "text": "Jillian Hollis-Graves",
+                "relevance": 0.531935,
+                "count": 1
+            },
+            {
+                "text": "current troubled times",
+                "relevance": 0.531935,
+                "count": 1
+            },
+            {
+                "text": "fellow readers",
+                "relevance": 0.530971,
+                "count": 1
+            },
+            {
+                "text": "Cuttons Corner",
+                "relevance": 0.527461,
+                "count": 1
+            },
+            {
+                "text": "flat container",
+                "relevance": 0.524798,
+                "count": 1
+            },
+            {
+                "text": "ground",
+                "relevance": 0.524235,
+                "count": 1
+            },
+            {
+                "text": "waterbirds",
+                "relevance": 0.522661,
+                "count": 1
+            },
+            {
+                "text": "starlings",
+                "relevance": 0.521339,
+                "count": 1
+            },
+            {
+                "text": "food",
+                "relevance": 0.520443,
+                "count": 1
+            },
+            {
+                "text": "rock",
+                "relevance": 0.519993,
+                "count": 1
+            },
+            {
+                "text": "minutes",
+                "relevance": 0.519522,
+                "count": 1
+            },
+            {
+                "text": "appeal",
+                "relevance": 0.519403,
+                "count": 1
+            },
+            {
+                "text": "seed",
+                "relevance": 0.51695,
+                "count": 2
+            },
+            {
+                "text": "skies",
+                "relevance": 0.51684,
+                "count": 1
+            },
+            {
+                "text": "day",
+                "relevance": 0.516104,
+                "count": 1
+            },
+            {
+                "text": "swans",
+                "relevance": 0.514858,
+                "count": 1
+            },
+            {
+                "text": "wildlife",
+                "relevance": 0.513619,
+                "count": 1
+            },
+            {
+                "text": "cuckoos",
+                "relevance": 0.512643,
+                "count": 1
+            },
+            {
+                "text": "Wroxham bridge",
+                "relevance": 0.510767,
+                "count": 1
+            },
+            {
+                "text": "dish",
+                "relevance": 0.509853,
+                "count": 1
+            },
+            {
+                "text": "addition",
+                "relevance": 0.509731,
+                "count": 1
+            },
+            {
+                "text": "water",
+                "relevance": 0.509616,
+                "count": 2
+            },
+            {
+                "text": "feeders",
+                "relevance": 0.507877,
+                "count": 1
+            },
+            {
+                "text": "sparrows",
+                "relevance": 0.505528,
+                "count": 1
+            },
+            {
+                "text": "nestlings",
+                "relevance": 0.505528,
+                "count": 1
+            },
+            {
+                "text": "occasion",
+                "relevance": 0.505528,
+                "count": 1
+            },
+            {
+                "text": "bread",
+                "relevance": 0.505528,
+                "count": 1
+            },
+            {
+                "text": "swifts",
+                "relevance": 0.505528,
+                "count": 1
+            },
+            {
+                "text": "hedgehogs",
+                "relevance": 0.505528,
+                "count": 2
+            },
+            {
+                "text": "birds",
+                "relevance": 0.505528,
+                "count": 1
+            },
+            {
+                "text": "plastic flowerpot holder",
+                "relevance": 0.504141,
+                "count": 1
+            },
+            {
+                "text": "lone heron",
+                "relevance": 0.488101,
+                "count": 1
+            },
+            {
+                "text": "lack of holidaymakers",
+                "relevance": 0.488101,
+                "count": 1
+            },
+            {
+                "text": "breadcrumbs",
+                "relevance": 0.453396,
+                "count": 1
+            },
+            {
+                "text": "Broadland",
+                "relevance": 0.452925,
+                "count": 1
+            },
+            {
+                "text": "drinking",
+                "relevance": 0.452925,
+                "count": 1
+            },
+            {
+                "text": "goldfinches",
+                "relevance": 0.451514,
+                "count": 1
+            },
+            {
+                "text": "wildbirds",
+                "relevance": 0.451126,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "M-Sa",
+    "extracted_metadata": {
+        "sha1": "492cddea21f9e2dff17d27d29c63cbfeeac0d7fd",
+        "filename": "202006050000ARCHANT_NEWS____86428654.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Help wildlife survive",
+    "html": "<p>Can I send out an appeal to fellow readers to put aside coronavirus and Cummings et al for a few minutes every day to help our garden wildlife?&#168;The continuing hot weather is causing the ground to be rock hard with little water and food around for wildbirds and hedgehogs. Please help them survive by putting water out daily in a flat container (like a plastic flowerpot holder or old dinner plate or roasting dish) for drinking and bathing.&#168;Also kitchen scraps, seed, breadcrumbs and so on will be gratefully received by birds struggling to feed themselves and nestlings. Hanging feeders containing sunflower hearts and suet fat balls will attract goldfinches, sparrows, starlings and more.&#168;If you are lucky enough to have visiting hedgehogs, a little dog or cat food will be welcome in addition to water.&#168;Please help our wildlife survive this dry spell.&#168;On a happy note, it&#8217;s wonderful to see swifts returning to our skies, cuckoos calling in Broadland and even a lone heron feeding with swans on Wroxham bridge &#8212; must be the lack of holidaymakers in these current troubled times. Even waterbirds need a helping hand with bread and seed on occasion!</p>\n<p><person>Jillian Hollis-Graves</person>,</p>\n<p>Cuttons Corner, Hemblington.</p>",
+    "geoFocus": [
+        [
+            "GU/gb.eng.nfk",
+            "Norfolk"
+        ]
+    ]
+}

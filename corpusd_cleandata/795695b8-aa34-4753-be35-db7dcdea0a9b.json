@@ -1,0 +1,361 @@
+{
+    "id": "795695b8-aa34-4753-be35-db7dcdea0a9b",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020 Al Bawaba (Albawaba.com)  Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "Amman, Jordan",
+    "sourceType": "Business & Financial Newswire",
+    "source": "Al Bawaba Business",
+    "corpus_document_id": "79046716741795614199",
+    "description": "Bidder Name Dc power systems Jai info systems Kush info systems Powerflow systems Contractor name: UDYOG VIKAS Implementing agency: Indian Oil Corporation Limited Indianoil, Pipelines, Wrpl Sendra, Materials Country: India.",
+    "serviceName": "Mena Report",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Southern Asia",
+            "code": "LB/sas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/sas",
+            "relevance_score": "9",
+            "description": "India",
+            "code": "LC/in#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Business and Commerce",
+            "code": "IS/biz#7#50#74",
+            "level": 0
+        },
+        {
+            "parent": "IS/biz.saleswin",
+            "relevance_score": "7",
+            "description": "Government Contract Wins",
+            "code": "IS/biz.govcon#7#74#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/biz",
+            "relevance_score": "7",
+            "description": "Business Impact",
+            "code": "IS/biz.impact#7#50#74",
+            "level": 1
+        },
+        {
+            "parent": "IS/impact.ops",
+            "relevance_score": "7",
+            "description": "Sales and Contract Wins",
+            "code": "IS/biz.saleswin#7#50#74",
+            "level": 2
+        }
+    ],
+    "text": "Contract awarded for supply and installation of battery bank\n\nBidder Name Dc power systems Jai info systems Kush info systems Powerflow\nsystems Contractor name : UDYOG VIKAS Implementing agency : Indian Oil\nCorporation Limited Indianoil, Pipelines, Wrpl Sendra, Materials Country\n:India",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "India"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/jo..amman",
+    "language": "English",
+    "filename": "202006050258ALBA____MENAREPO_8414_176218297_138.2.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "systems Contractor",
+                "relevance": 0.897595,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Wrpl Sendra",
+                "relevance": 0.697256,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Corporation Limited Indianoil",
+                "relevance": 0.597023,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Indian Oil",
+                "relevance": 0.530108,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Indian Oil Corporation",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Indian_Oil_Corporation"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Materials Country",
+                "relevance": 0.472496,
+                "type": "Company"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Contract"
+                },
+                "sentence": "Contract awarded for supply and installation of battery bank",
+                "object": {
+                    "text": "for supply and installation of battery bank"
+                },
+                "action": {
+                    "verb": {
+                        "text": "award",
+                        "tense": "past"
+                    },
+                    "text": "awarded",
+                    "normalized": "award"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.633138,
+                "label": "/business and industrial/energy/natural gas"
+            },
+            {
+                "score": 0.610287,
+                "label": "/automotive and vehicles/electric vehicles"
+            },
+            {
+                "score": 0.600442,
+                "label": "/business and industrial/energy/electricity"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOf",
+                "sentence": "Bidder Name Dc power systems Jai info systems Kush info systems Powerflow systems Contractor name : UDYOG VIKAS Implementing agency : Indian Oil Corporation Limited Indianoil, Pipelines, Wrpl Sendra, Materials Country :India",
+                "score": 0.972442,
+                "arguments": [
+                    {
+                        "text": "Oil\nCorporation Limited Indianoil",
+                        "location": [
+                            203,
+                            236
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Oil\nCorporation Limited Indianoil"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Indian",
+                        "location": [
+                            196,
+                            202
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Indian",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Bidder Name Dc power systems Jai info systems Kush info systems Powerflow systems Contractor name : UDYOG VIKAS Implementing agency : Indian Oil Corporation Limited Indianoil, Pipelines, Wrpl Sendra, Materials Country :India",
+                "score": 0.421867,
+                "arguments": [
+                    {
+                        "text": "Oil\nCorporation Limited Indianoil",
+                        "location": [
+                            203,
+                            236
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Oil\nCorporation Limited Indianoil"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Materials Country\n:India",
+                        "location": [
+                            262,
+                            286
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Materials Country\n:India",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Bidder Name Dc power systems Jai info systems Kush info systems Powerflow systems Contractor name : UDYOG VIKAS Implementing agency : Indian Oil Corporation Limited Indianoil, Pipelines, Wrpl Sendra, Materials Country :India",
+                "score": 0.501614,
+                "arguments": [
+                    {
+                        "text": "Wrpl Sendra",
+                        "location": [
+                            249,
+                            260
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Wrpl Sendra"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Materials Country\n:India",
+                        "location": [
+                            262,
+                            286
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Materials Country\n:India",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "UDYOG VIKAS",
+                "relevance": 0.658523,
+                "count": 1
+            },
+            {
+                "text": "Wrpl Sendra",
+                "relevance": 0.592816,
+                "count": 1
+            },
+            {
+                "text": "Contract",
+                "relevance": 0.571827,
+                "count": 1
+            },
+            {
+                "text": "Materials Country",
+                "relevance": 0.537709,
+                "count": 1
+            },
+            {
+                "text": "Pipelines",
+                "relevance": 0.532785,
+                "count": 1
+            },
+            {
+                "text": "supply",
+                "relevance": 0.528628,
+                "count": 1
+            },
+            {
+                "text": "agency",
+                "relevance": 0.522317,
+                "count": 1
+            },
+            {
+                "text": "installation",
+                "relevance": 0.522317,
+                "count": 1
+            },
+            {
+                "text": "India",
+                "relevance": 0.515186,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "858bae1f9e9deafff65d81c696c84cef61802059",
+        "filename": "202006050258ALBA____MENAREPO_8414_176218297_138.2.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:58:00-04:00",
+    "title": "Supply And Installation Of Battery Bank [Al Bawaba Business]",
+    "html": "<p>Contract awarded for supply and installation of battery bank</p>\n<p>Bidder Name Dc power systems Jai info systems Kush info systems Powerflow systems\nContractor name : UDYOG VIKAS\nImplementing agency : Indian Oil Corporation Limited Indianoil, Pipelines, Wrpl Sendra, Materials\nCountry :<location idsrc=\"xmltag.org\" value=\"LC/in\">India</location></p>",
+    "geoFocus": [
+        [
+            "GB/nafr",
+            "Northern Africa"
+        ],
+        [
+            "GB/was",
+            "Western Asia"
+        ]
+    ]
+}

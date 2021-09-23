@@ -1,0 +1,335 @@
+{
+    "id": "fd590ae0-7909-422a-83c3-e6089d98d3f9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "90009806206025020000",
+    "description": "The Federal Government has sternly warned Australians not to attend large anti-racism protests slated for this weekend, saying the progress Australia has made in suppressing COVID-19 is at risk.",
+    "serviceName": "Broadcast News",
+    "locationCode": [
+        {
+            "parent": "LR/oc",
+            "relevance_score": "9",
+            "description": "Australia and New Zealand",
+            "code": "LB/anz#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/anz",
+            "relevance_score": "9",
+            "description": "Australia",
+            "code": "LC/au#9#90#49",
+            "level": 2
+        },
+        {
+            "code": "LR/anz#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Oceania",
+            "code": "LR/oc#9#49#90",
+            "level": 0
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "The Federal Government has sternly warned Australians not to attend large\nanti-racism protests slated for this weekend, saying the progress Australia\nhas made in suppressing COVID-19 is at risk.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Australia"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050351AMSPIDERBRDCAST__N2IWYZLM_C07CA2BB12647263C9CAFE3DABC73867_10.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.748923,
+                    "label": "negative"
+                },
+                "text": "Federal Government",
+                "relevance": 0.8839,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Federal government of the United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Federal_government_of_the_United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.39749,
+                    "label": "positive"
+                },
+                "text": "Australia",
+                "relevance": 0.48645,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Kingdom",
+                        "Country"
+                    ],
+                    "name": "Australia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Australia"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The Federal Government"
+                },
+                "sentence": "The Federal Government has sternly warned Australians not to attend large",
+                "object": {
+                    "text": "warned Australians not to attend large"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Federal Government"
+                },
+                "sentence": "The Federal Government has sternly warned Australians not to attend large",
+                "object": {
+                    "text": "Australians not to attend large"
+                },
+                "action": {
+                    "verb": {
+                        "text": "warn",
+                        "tense": "past"
+                    },
+                    "text": "warned",
+                    "normalized": "warn"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Australians"
+                },
+                "sentence": "The Federal Government has sternly warned Australians not to attend large",
+                "object": {
+                    "text": "large"
+                },
+                "action": {
+                    "verb": {
+                        "text": "attend",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "to attend",
+                    "normalized": "to attend"
+                }
+            },
+            {
+                "subject": {
+                    "text": "anti-racism protests"
+                },
+                "sentence": " anti-racism protests slated for this weekend, saying the progress Australia",
+                "object": {
+                    "text": "for this weekend"
+                },
+                "action": {
+                    "verb": {
+                        "text": "slate",
+                        "tense": "past"
+                    },
+                    "text": "slated",
+                    "normalized": "slate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "anti-racism protests"
+                },
+                "sentence": " anti-racism protests slated for this weekend, saying the progress Australia",
+                "object": {
+                    "text": "the progress Australia"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "present"
+                    },
+                    "text": "saying",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "COVID-19"
+                },
+                "sentence": " has made in suppressing COVID-19 is at risk.",
+                "object": {
+                    "text": "at risk"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.850335,
+                "label": "/society/racism"
+            },
+            {
+                "score": 0.780195,
+                "label": "/sports/cricket"
+            },
+            {
+                "score": 0.745646,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "The Federal Government has sternly warned Australians not to attend large anti-racism protests slated for this weekend, saying the progress Australia has made in suppressing COVID-19 is at risk.",
+                "score": 0.84453,
+                "arguments": [
+                    {
+                        "text": "Federal Government",
+                        "location": [
+                            4,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Federal Government",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "warned",
+                        "location": [
+                            35,
+                            41
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "warned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "The Federal Government has sternly warned Australians not to attend large anti-racism protests slated for this weekend, saying the progress Australia has made in suppressing COVID-19 is at risk.",
+                "score": 0.942066,
+                "arguments": [
+                    {
+                        "text": "Australians",
+                        "location": [
+                            42,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Australians",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "warned",
+                        "location": [
+                            35,
+                            41
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "warned"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Federal Government",
+                "relevance": 0.983618,
+                "count": 1
+            },
+            {
+                "text": "weekend",
+                "relevance": 0.566357,
+                "count": 1
+            },
+            {
+                "text": "Australians",
+                "relevance": 0.55483,
+                "count": 1
+            },
+            {
+                "text": "progress Australia",
+                "relevance": 0.539957,
+                "count": 1
+            },
+            {
+                "text": "risk",
+                "relevance": 0.537376,
+                "count": 1
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.304774,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "6dde909278da7f225108579228d8db85a332770b",
+        "filename": "202006050351AMSPIDERBRDCAST__N2IWYZLM_C07CA2BB12647263C9CAFE3DABC73867_10.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:51:00-04:00",
+    "title": "'Let's find a better way': PM pleads with Australians not to attend Black Lives Matter protests [Australian Broadcast Corporation (ABC) News]",
+    "html": "<p>The Federal Government has sternly warned Australians not to attend large anti-racism protests slated for this weekend, saying the progress <location idsrc=\"xmltag.org\" value=\"LC/au\">Australia</location> has made in suppressing COVID-19 is at risk.</p>",
+    "geoFocus": []
+}

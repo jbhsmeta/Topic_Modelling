@@ -1,0 +1,742 @@
+{
+    "id": "422cfe8f-86d4-466b-8bb3-9d10c74ed0ab",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "7936612091278087933",
+    "description": "The Finance Ministry prefers encouraging employment, rather than paying the unemployed. Chairman of the Histadrut stated that a solution must be found: \"people need an income.\"",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Economics",
+            "code": "IS/econ#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.laboremp",
+            "relevance_score": "9",
+            "description": "Labor and Employment Data",
+            "code": "IS/econ.labor#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Labor and Employment",
+            "code": "IS/lifesoc.laboremp#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "The Finance Ministry has decided that it will not extend the eligibility\nperiod for unemployment benefits, meaning that some 292,000 people will not\nreceive the benefits, together with unemployed people over the age of 67 who\nare not eligible for the benefits,WallaThe Finance Ministry's decision not to\nextend the eligibility period for June means that hundreds of thousands of\ncurrently unemployed people will not receive unemployment benefits for June.\nEligibility periods last between 50-175 days and are determined according to\nage. Due to the coronavirus pandemic, the Finance Ministry extended the period\nof eligibility up until now, but has apparently decided to stop doing\nso.Israel's National Insurance Institute has also stated that unemployed\npeople over the age of 67, who were eligible for unemployment benefits between\nMarch and May, will probably not receive any benefits for June.While many\nbusinesseshave recently reopenedIn the letter, Bar David also states that \"a\ncreative solution is needed, one that will combine both temporary, limited\nemployment with unemployment benefits in the private sector.\" He added that\n\"such a model has been very successful in OECD countries, and the European\nUnion has formed a policy of granting significant loans to member states that\nwill adapt such models.\"The Histadrut has sent similar letters to the Finance\nMinistry in the past, attempting to extend the eligibility period but were\nignored.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "The Finance Ministry",
+            "WallaThe Finance Ministry's",
+            "Finance Ministry",
+            "National Insurance Institute",
+            "OECD",
+            "European Union"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "National Insurance Institute",
+            "Finance Ministry",
+            "WallaThe Finance Ministry's",
+            "OECD",
+            "European Union",
+            "The Finance Ministry"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050313AMSPIDERNEWS_____JEPOEN03_665C707C76CEA58D4A2FAA78F6B3A451_5.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": -0.637518,
+                    "label": "negative"
+                },
+                "text": "Finance Ministry",
+                "relevance": 0.833193,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.773607,
+                    "label": "negative"
+                },
+                "text": "benefits,WallaThe Finance Ministry",
+                "relevance": 0.528256,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.345559,
+                    "label": "negative"
+                },
+                "text": "David",
+                "relevance": 0.32134,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.527553,
+                    "label": "negative"
+                },
+                "text": "National Insurance Institute",
+                "relevance": 0.285951,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "National Insurance Institute",
+                    "dbpedia_resource": "http://dbpedia.org/resource/National_Insurance_Institute"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "OECD",
+                "relevance": 0.274278,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Organisation for Economic Co-operation and Development",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Organisation_for_Economic_Co-operation_and_Development"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Union",
+                "relevance": 0.243233,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Trade union",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Trade_union"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "175 days",
+                "relevance": 0.243233,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The Finance Ministry"
+                },
+                "sentence": "The Finance Ministry has decided that it will not extend the eligibility",
+                "object": {
+                    "text": "that it will not extend the eligibility"
+                },
+                "action": {
+                    "verb": {
+                        "text": "decide",
+                        "tense": "past"
+                    },
+                    "text": "has decided",
+                    "normalized": "have decide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": "The Finance Ministry has decided that it will not extend the eligibility",
+                "object": {
+                    "text": "the eligibility"
+                },
+                "action": {
+                    "verb": {
+                        "text": "extend",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "extend",
+                    "normalized": "extend"
+                }
+            },
+            {
+                "subject": {
+                    "text": "unemployed people"
+                },
+                "sentence": " currently unemployed people will not receive unemployment benefits for June.",
+                "object": {
+                    "text": "unemployment benefits"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "receive",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the Finance Ministry"
+                },
+                "sentence": " age. Due to the coronavirus pandemic, the Finance Ministry extended the period",
+                "object": {
+                    "text": "the period"
+                },
+                "action": {
+                    "verb": {
+                        "text": "extend",
+                        "tense": "past"
+                    },
+                    "text": "extended",
+                    "normalized": "extend"
+                }
+            },
+            {
+                "subject": {
+                    "text": "so.Israel's National Insurance Institute"
+                },
+                "sentence": " so.Israel's National Insurance Institute has also stated that unemployed",
+                "object": {
+                    "text": "that unemployed"
+                },
+                "action": {
+                    "verb": {
+                        "text": "state",
+                        "tense": "past"
+                    },
+                    "text": "has also stated",
+                    "normalized": "have also state"
+                }
+            },
+            {
+                "subject": {
+                    "text": "any benefits"
+                },
+                "sentence": " March and May, will probably not receive any benefits for June.While many",
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "receive",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "businesseshave"
+                },
+                "sentence": " businesseshave recently reopenedIn the letter, Bar David also states that \"a",
+                "object": {
+                    "text": "the letter, Bar David"
+                },
+                "action": {
+                    "verb": {
+                        "text": "reopenedIn",
+                        "tense": "present"
+                    },
+                    "text": "reopenedIn",
+                    "normalized": "reopenedIn"
+                }
+            },
+            {
+                "subject": {
+                    "text": "businesseshave recently reopenedIn the letter, Bar David"
+                },
+                "sentence": " businesseshave recently reopenedIn the letter, Bar David also states that \"a",
+                "object": {
+                    "text": "that \"a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "state",
+                        "tense": "present"
+                    },
+                    "text": "states",
+                    "normalized": "state"
+                }
+            },
+            {
+                "subject": {
+                    "text": "He"
+                },
+                "sentence": " He added that",
+                "object": {
+                    "text": "that"
+                },
+                "action": {
+                    "verb": {
+                        "text": "add",
+                        "tense": "past"
+                    },
+                    "text": "added",
+                    "normalized": "add"
+                }
+            },
+            {
+                "subject": {
+                    "text": "such a model"
+                },
+                "sentence": " \"such a model has been very successful in OECD countries, and the European",
+                "object": {
+                    "text": "very successful in OECD countries"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "has been",
+                    "normalized": "have be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Union"
+                },
+                "sentence": " Union has formed a policy of granting significant loans to member states that",
+                "object": {
+                    "text": "a policy of granting significant loans to member states that"
+                },
+                "action": {
+                    "verb": {
+                        "text": "form",
+                        "tense": "past"
+                    },
+                    "text": "has formed",
+                    "normalized": "have form"
+                }
+            },
+            {
+                "subject": {
+                    "text": "significant loans"
+                },
+                "sentence": " Union has formed a policy of granting significant loans to member states that",
+                "object": {
+                    "text": "to member states that"
+                },
+                "action": {
+                    "verb": {
+                        "text": "grant",
+                        "tense": "future"
+                    },
+                    "text": "granting",
+                    "normalized": "grant"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Histadrut"
+                },
+                "sentence": " will adapt such models.\"The Histadrut has sent similar letters to the Finance",
+                "object": {
+                    "text": "similar letters"
+                },
+                "action": {
+                    "verb": {
+                        "text": "send",
+                        "tense": "past"
+                    },
+                    "text": "has sent",
+                    "normalized": "have send"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.97706,
+                "label": "/society/work/unemployment"
+            },
+            {
+                "score": 0.799552,
+                "label": "/society/welfare/healthcare"
+            },
+            {
+                "score": 0.670884,
+                "label": "/finance/investing/funds"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Due to the coronavirus pandemic, the Finance Ministry extended the period of eligibility up until now, but has apparently decided to stop doing so.Israel's National Insurance Institute has also stated that unemployed people over the age of 67, who were eligible for unemployment benefits between March and May, will probably not receive any benefits for June.While many businesseshave recently reopenedIn the letter, Bar David also states that \"a creative solution is needed, one that will combine both temporary, limited employment with unemployment benefits in the private sector.",
+                "score": 0.454112,
+                "arguments": [
+                    {
+                        "text": "National Insurance Institute",
+                        "location": [
+                            694,
+                            722
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "National Insurance Institute"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "stated",
+                        "location": [
+                            732,
+                            738
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "stated"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Due to the coronavirus pandemic, the Finance Ministry extended the period of eligibility up until now, but has apparently decided to stop doing so.Israel's National Insurance Institute has also stated that unemployed people over the age of 67, who were eligible for unemployment benefits between March and May, will probably not receive any benefits for June.While many businesseshave recently reopenedIn the letter, Bar David also states that \"a creative solution is needed, one that will combine both temporary, limited employment with unemployment benefits in the private sector.",
+                "score": 0.99271,
+                "arguments": [
+                    {
+                        "text": "David",
+                        "location": [
+                            959,
+                            964
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "David"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "states",
+                        "location": [
+                            970,
+                            976
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "states"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\" He added that \"such a model has been very successful in OECD countries, and the European Union has formed a policy of granting significant loans to member states that will adapt such models.",
+                "score": 0.986394,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            1122,
+                            1124
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "David"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "added",
+                        "location": [
+                            1125,
+                            1130
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "stated"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "\" He added that \"such a model has been very successful in OECD countries, and the European Union has formed a policy of granting significant loans to member states that will adapt such models.",
+                "score": 0.877501,
+                "arguments": [
+                    {
+                        "text": "countries",
+                        "location": [
+                            1183,
+                            1192
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "countries",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "OECD",
+                        "location": [
+                            1178,
+                            1182
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "OECD"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "\" He added that \"such a model has been very successful in OECD countries, and the European Union has formed a policy of granting significant loans to member states that will adapt such models.",
+                "score": 0.970139,
+                "arguments": [
+                    {
+                        "text": "member",
+                        "location": [
+                            1270,
+                            1276
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "member"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "states",
+                        "location": [
+                            1277,
+                            1283
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "states"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Finance Ministry",
+                "relevance": 0.824917,
+                "count": 2
+            },
+            {
+                "text": "unemployment benefits",
+                "relevance": 0.799324,
+                "count": 4
+            },
+            {
+                "text": "unemployed people",
+                "relevance": 0.722498,
+                "count": 2
+            },
+            {
+                "text": "eligibility period",
+                "relevance": 0.691694,
+                "count": 2
+            },
+            {
+                "text": "so.Israel's National Insurance Institute",
+                "relevance": 0.659238,
+                "count": 1
+            },
+            {
+                "text": "WallaThe Finance Ministry's decision",
+                "relevance": 0.621992,
+                "count": 1
+            },
+            {
+                "text": "creative solution",
+                "relevance": 0.597403,
+                "count": 1
+            },
+            {
+                "text": "member states",
+                "relevance": 0.574181,
+                "count": 1
+            },
+            {
+                "text": "OECD countries",
+                "relevance": 0.569597,
+                "count": 1
+            },
+            {
+                "text": "private sector",
+                "relevance": 0.555581,
+                "count": 1
+            },
+            {
+                "text": "people",
+                "relevance": 0.555211,
+                "count": 1
+            },
+            {
+                "text": "Eligibility periods",
+                "relevance": 0.553058,
+                "count": 1
+            },
+            {
+                "text": "March",
+                "relevance": 0.539435,
+                "count": 1
+            },
+            {
+                "text": "Histadrut",
+                "relevance": 0.537831,
+                "count": 1
+            },
+            {
+                "text": "benefits",
+                "relevance": 0.530423,
+                "count": 3
+            },
+            {
+                "text": "model",
+                "relevance": 0.5291,
+                "count": 1
+            },
+            {
+                "text": "age",
+                "relevance": 0.52887,
+                "count": 3
+            },
+            {
+                "text": "such models",
+                "relevance": 0.526109,
+                "count": 1
+            },
+            {
+                "text": "policy",
+                "relevance": 0.517392,
+                "count": 1
+            },
+            {
+                "text": "letter",
+                "relevance": 0.516848,
+                "count": 1
+            },
+            {
+                "text": "eligibility",
+                "relevance": 0.514585,
+                "count": 1
+            },
+            {
+                "text": "period",
+                "relevance": 0.513434,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.512422,
+                "count": 2
+            },
+            {
+                "text": "days",
+                "relevance": 0.51044,
+                "count": 1
+            },
+            {
+                "text": "similar letters",
+                "relevance": 0.487836,
+                "count": 1
+            },
+            {
+                "text": "significant loans",
+                "relevance": 0.480709,
+                "count": 1
+            },
+            {
+                "text": "Bar David",
+                "relevance": 0.467392,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.445907,
+                "count": 1
+            },
+            {
+                "text": "past",
+                "relevance": 0.429346,
+                "count": 1
+            },
+            {
+                "text": "May",
+                "relevance": 0.4272,
+                "count": 1
+            },
+            {
+                "text": "reopenedIn",
+                "relevance": 0.420493,
+                "count": 1
+            },
+            {
+                "text": "June.While",
+                "relevance": 0.413979,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "3b4bd4027ad1b2efd6cb6d71d9b37854bd9d01d4",
+        "filename": "202006050313AMSPIDERNEWS_____JEPOEN03_665C707C76CEA58D4A2FAA78F6B3A451_5.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T03:13:00-04:00",
+    "title": "Hundreds of thousands will not receive unemployment benefits for June [Jerusalem Post (Israel)]",
+    "html": "<p><org>The Finance Ministry</org> has decided that it will not extend the eligibility period for unemployment benefits, meaning that some 292,000 people will not receive the benefits, together with unemployed people over the age of 67 who are not eligible for the benefits,<org>WallaThe Finance Ministry's</org> decision not to extend the eligibility period for June means that hundreds of thousands of currently unemployed people will not receive unemployment benefits for June. Eligibility periods last between 50-175 days and are determined according to age. Due to the coronavirus pandemic, the <org>Finance Ministry</org> extended the period of eligibility up until now, but has apparently decided to stop doing so.Israel's <org>National Insurance Institute</org> has also stated that unemployed people over the age of 67, who were eligible for unemployment benefits between March and May, will probably not receive any benefits for June.While many businesseshave recently reopenedIn the letter, Bar David also states that \"a creative solution is needed, one that will combine both temporary, limited employment with unemployment benefits in the private sector.\" He added that \"such a model has been very successful in <org>OECD</org> countries, and the <org>European Union</org> has formed a policy of granting significant loans to member states that will adapt such models.\"The Histadrut has sent similar letters to the <org>Finance Ministry</org> in the past, attempting to extend the eligibility period but were ignored.</p>",
+    "geoFocus": []
+}

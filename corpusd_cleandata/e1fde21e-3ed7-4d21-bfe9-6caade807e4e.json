@@ -1,0 +1,302 @@
+{
+    "id": "e1fde21e-3ed7-4d21-bfe9-6caade807e4e",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "5017349362256477683",
+    "description": "Replacement new primary school in Ramsharde, tile work more info: Location: GERMANY BidDate: 6/ 17/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: State enterprise Saxon real estate and Tendering Authority Address: 24939 Flensburg Schleswig-Holstein Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Replacement new primary school in Ramsharde, tile work more info : Location :\nGERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender Type : Tenders\nTendering Authority : State enterprise Saxon real estate and Tendering\nAuthority Address : 24939 Flensburg Schleswig-Holstein Financier : Self Funded\nTearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_11660_176210776_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.432415,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.910141,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ramsharde",
+                "relevance": 0.473715,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.838679,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.66784,
+                "label": "/real estate"
+            },
+            {
+                "score": 0.625054,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Replacement new primary school in Ramsharde, tile work more info : Location : GERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State enterprise Saxon real estate and Tendering Authority Address : 24939 Flensburg Schleswig-Holstein Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.543756,
+                "arguments": [
+                    {
+                        "text": "6/17/2020 Tender",
+                        "location": [
+                            96,
+                            112
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/17/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders\nTendering Authority : State",
+                        "location": [
+                            131,
+                            180
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders\nTendering Authority : State"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Replacement new primary school in Ramsharde, tile work more info : Location : GERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State enterprise Saxon real estate and Tendering Authority Address : 24939 Flensburg Schleswig-Holstein Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.489404,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            279,
+                            288
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Flensburg Schleswig-Holstein",
+                        "location": [
+                            250,
+                            278
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Flensburg Schleswig-Holstein"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.997238,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.98914,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.803895,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.654681,
+                "count": 1
+            },
+            {
+                "text": "real estate",
+                "relevance": 0.589158,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.585041,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.578377,
+                "count": 1
+            },
+            {
+                "text": "Self Funded",
+                "relevance": 0.573784,
+                "count": 1
+            },
+            {
+                "text": "Replacement",
+                "relevance": 0.566043,
+                "count": 1
+            },
+            {
+                "text": "Money",
+                "relevance": 0.513475,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.511466,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.509457,
+                "count": 1
+            },
+            {
+                "text": "new primary school",
+                "relevance": 0.46192,
+                "count": 1
+            },
+            {
+                "text": "Flensburg Schleswig-Holstein Financier",
+                "relevance": 0.384467,
+                "count": 1
+            },
+            {
+                "text": "State enterprise Saxon",
+                "relevance": 0.372244,
+                "count": 1
+            },
+            {
+                "text": "tile work",
+                "relevance": 0.329445,
+                "count": 1
+            },
+            {
+                "text": "Ramsharde",
+                "relevance": 0.240569,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "e0a5d7b1ddde80d09373152dacdd8a98581de894",
+        "filename": "202006050210ALBA____ME_NA_NE_11660_176210776_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Replacement new primary school in Ramsharde, tile work [TenderNews.com - Tenders (India)]",
+    "html": "<p>Replacement new primary school in Ramsharde, tile work more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/17/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : State enterprise Saxon real estate and\nTendering Authority Address : 24939 Flensburg Schleswig-Holstein\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

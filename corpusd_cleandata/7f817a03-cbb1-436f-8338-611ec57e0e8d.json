@@ -1,0 +1,331 @@
+{
+    "id": "7f817a03-cbb1-436f-8338-611ec57e0e8d",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "92246383549064060632",
+    "description": ":School heads and teachers on Thursday requested the state government to allow only students of Class VIII-X to attend school for the new academic year in batches and by observing social distancing.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Politics and Government",
+            "code": "IS/pol#6#50#66",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "6",
+            "description": "State and Provincial Government",
+            "code": "IS/pol.stateloc#6#66#50",
+            "level": 1
+        }
+    ],
+    "text": ": School heads and teachers on Thursday requested the state government to\nallow only students of Class VIII-X to attend school for the new academic year\nin batches and by observing social distancing.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006042007AMSPIDERNEWS_____FTYBZKFJ_CE050140698A5177F2F8B99D11A0CD55_5.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "School heads and teachers"
+                },
+                "sentence": ": School heads and teachers on Thursday requested the state government to",
+                "object": {
+                    "text": "the state government"
+                },
+                "action": {
+                    "verb": {
+                        "text": "request",
+                        "tense": "past"
+                    },
+                    "text": "requested",
+                    "normalized": "request"
+                }
+            },
+            {
+                "subject": {
+                    "text": "students of Class VIII-X"
+                },
+                "sentence": " allow only students of Class VIII-X to attend school for the new academic year",
+                "object": {
+                    "text": "school for the new academic year"
+                },
+                "action": {
+                    "verb": {
+                        "text": "attend",
+                        "tense": "future"
+                    },
+                    "text": "to attend",
+                    "normalized": "to attend"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.988082,
+                "label": "/education/school"
+            },
+            {
+                "score": 0.945827,
+                "label": "/education/special education"
+            },
+            {
+                "score": 0.936866,
+                "label": "/education/teaching and classroom resources"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": ": School heads and teachers on Thursday requested the state government to allow only students of Class VIII-X to attend school for the new academic year in batches and by observing social distancing.",
+                "score": 0.719596,
+                "arguments": [
+                    {
+                        "text": "teachers",
+                        "location": [
+                            19,
+                            27
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "teachers"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "requested",
+                        "location": [
+                            40,
+                            49
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "requested"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": ": School heads and teachers on Thursday requested the state government to allow only students of Class VIII-X to attend school for the new academic year in batches and by observing social distancing.",
+                "score": 0.973796,
+                "arguments": [
+                    {
+                        "text": "Thursday",
+                        "location": [
+                            31,
+                            39
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Thursday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "requested",
+                        "location": [
+                            40,
+                            49
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "requested"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": ": School heads and teachers on Thursday requested the state government to allow only students of Class VIII-X to attend school for the new academic year in batches and by observing social distancing.",
+                "score": 0.889732,
+                "arguments": [
+                    {
+                        "text": "government",
+                        "location": [
+                            60,
+                            70
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "government",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "requested",
+                        "location": [
+                            40,
+                            49
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "requested"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": ": School heads and teachers on Thursday requested the state government to allow only students of Class VIII-X to attend school for the new academic year in batches and by observing social distancing.",
+                "score": 0.577172,
+                "arguments": [
+                    {
+                        "text": "government",
+                        "location": [
+                            60,
+                            70
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "government",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "state",
+                        "location": [
+                            54,
+                            59
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "state"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "awardedTo",
+                "sentence": ": School heads and teachers on Thursday requested the state government to allow only students of Class VIII-X to attend school for the new academic year in batches and by observing social distancing.",
+                "score": 0.649359,
+                "arguments": [
+                    {
+                        "text": "Class VIII-X",
+                        "location": [
+                            97,
+                            109
+                        ],
+                        "entities": [
+                            {
+                                "type": "EntertainmentAward",
+                                "text": "Class VIII-X"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "students",
+                        "location": [
+                            85,
+                            93
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "students of Class VIII-X",
+                "relevance": 0.965446,
+                "count": 1
+            },
+            {
+                "text": "School heads",
+                "relevance": 0.897343,
+                "count": 1
+            },
+            {
+                "text": "state government",
+                "relevance": 0.689769,
+                "count": 1
+            },
+            {
+                "text": "batches",
+                "relevance": 0.585162,
+                "count": 1
+            },
+            {
+                "text": "school",
+                "relevance": 0.57769,
+                "count": 1
+            },
+            {
+                "text": "teachers",
+                "relevance": 0.557891,
+                "count": 1
+            },
+            {
+                "text": "new academic year",
+                "relevance": 0.442023,
+                "count": 1
+            },
+            {
+                "text": "social distancing",
+                "relevance": 0.377554,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.241252,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "e867f459087495b4a37e16d55cbdec0dac6ac868",
+        "filename": "202006042007AMSPIDERNEWS_____FTYBZKFJ_CE050140698A5177F2F8B99D11A0CD55_5.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-04T20:07:00-04:00",
+    "title": "Goa: Allow Class VIII-X students to attend school in batches, schools tell government [Times of India, The (English)]",
+    "html": "<p>: School heads and teachers on Thursday requested the state government to allow only students of Class VIII-X to attend school for the new academic year in batches and by observing social distancing.</p>",
+    "geoFocus": []
+}

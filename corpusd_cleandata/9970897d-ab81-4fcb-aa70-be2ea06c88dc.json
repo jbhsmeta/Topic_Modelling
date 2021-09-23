@@ -1,0 +1,313 @@
+{
+    "id": "9970897d-ab81-4fcb-aa70-be2ea06c88dc",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2000 - 2020 Al Bawaba. All Rights Reserved. Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "Dubai, United Arab Emirates",
+    "sourceType": "General Newswire",
+    "source": "Tenders Monitor Africa-Asia",
+    "corpus_document_id": "46511844699843809501",
+    "description": "Description: Tenders are invited for Security Services 2020 Bid Security Amount: 5,500,000 VND Duration of Contract: 12 Month.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "South-Eastern Asia",
+            "code": "LB/seas#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/seas",
+            "relevance_score": "9",
+            "description": "Vietnam",
+            "code": "LC/vn#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Asia",
+            "code": "LR/as#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/asp#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "6",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#6#66#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "6",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#6#50#66",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Structured Content",
+            "code": "IS/spec#6#50#66",
+            "level": 0
+        }
+    ],
+    "text": "Company : DISTRICT 8 HOSPITAL\n\nAddress : (08)8506131 - 0913120036\n\nCountry : Vietnam\n\nLocation : Vietnam\n\nTender_No : 20200613644-00\n\nValue : VND 528000000\n\nDead line : 2020-06-12\n\nLocal International : International\n\nFunding Agency : No\n\nDescription : Tenders are invited for Security Services 2020 Bid Security\nAmount: 5,500,000 VND Duration of Contract: 12 Month [Disclaimer: The above\ntext is machine translated. For accurate information kindly refer the original\ndocument.]\n\nDocument : [\nhttp://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20740565.html](http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20740565.html)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Vietnam"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/ae..dubai",
+    "language": "English",
+    "filename": "202006050058ALBA____ME_NA_NE_37204_176206435_138.930.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.458686,
+                    "label": "positive"
+                },
+                "text": "Vietnam",
+                "relevance": 0.82557,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Vietnam",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Vietnam"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "12 Month",
+                "relevance": 0.490884,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Tenders"
+                },
+                "sentence": " Description : Tenders are invited for Security Services 2020 Bid Security",
+                "object": {
+                    "text": "for Security Services 2020 Bid Security"
+                },
+                "action": {
+                    "verb": {
+                        "text": "invite",
+                        "tense": "past"
+                    },
+                    "text": "are invited",
+                    "normalized": "be invite"
+                }
+            },
+            {
+                "subject": {
+                    "text": "accurate information"
+                },
+                "sentence": " For accurate information kindly refer the original",
+                "object": {
+                    "text": "the original"
+                },
+                "action": {
+                    "verb": {
+                        "text": "refer",
+                        "tense": "present"
+                    },
+                    "text": "refer",
+                    "normalized": "refer"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.816595,
+                "label": "/education/special education"
+            },
+            {
+                "score": 0.711808,
+                "label": "/finance/grants, scholarships and financial aid/government grants"
+            },
+            {
+                "score": 0.647877,
+                "label": "/education/high school"
+            }
+        ],
+        "relations": [
+            {
+                "type": "partOfMany",
+                "sentence": "Country : Vietnam",
+                "score": 0.149385,
+                "arguments": [
+                    {
+                        "text": "Country",
+                        "location": [
+                            67,
+                            74
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Country"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Vietnam",
+                        "location": [
+                            77,
+                            84
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Vietnam",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "accurate information",
+                "relevance": 0.852153,
+                "count": 1
+            },
+            {
+                "text": "Security Services",
+                "relevance": 0.742028,
+                "count": 1
+            },
+            {
+                "text": "VND Duration of Contract",
+                "relevance": 0.73273,
+                "count": 1
+            },
+            {
+                "text": "Local International",
+                "relevance": 0.634226,
+                "count": 1
+            },
+            {
+                "text": "Description",
+                "relevance": 0.619533,
+                "count": 1
+            },
+            {
+                "text": "Dead line",
+                "relevance": 0.616387,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.57887,
+                "count": 1
+            },
+            {
+                "text": "Company",
+                "relevance": 0.559747,
+                "count": 1
+            },
+            {
+                "text": "Value",
+                "relevance": 0.552076,
+                "count": 1
+            },
+            {
+                "text": "DISTRICT",
+                "relevance": 0.532405,
+                "count": 1
+            },
+            {
+                "text": "machine",
+                "relevance": 0.532405,
+                "count": 1
+            },
+            {
+                "text": "Country",
+                "relevance": 0.532405,
+                "count": 1
+            },
+            {
+                "text": "Disclaimer",
+                "relevance": 0.527584,
+                "count": 1
+            },
+            {
+                "text": "Document",
+                "relevance": 0.522757,
+                "count": 1
+            },
+            {
+                "text": "Agency",
+                "relevance": 0.522757,
+                "count": 1
+            },
+            {
+                "text": "VND",
+                "relevance": 0.44869,
+                "count": 1
+            },
+            {
+                "text": "Month",
+                "relevance": 0.413471,
+                "count": 1
+            },
+            {
+                "text": "International",
+                "relevance": 0.396517,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "9242e6617f4c0649005114648f2cac0acdbf3ef3",
+        "filename": "202006050058ALBA____ME_NA_NE_37204_176206435_138.930.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:58:00-04:00",
+    "title": "Security Services 2020",
+    "html": "<p>Company : DISTRICT 8 HOSPITAL</p>\n<p>Address : (08)8506131 - 0913120036</p>\n<p>Country : <location idsrc=\"xmltag.org\" value=\"LC/vn\">Vietnam</location></p>\n<p>Location : <location idsrc=\"xmltag.org\" value=\"LC/vn\">Vietnam</location></p>\n<p>Tender_No : 20200613644-00</p>\n<p>Value : <money>VND 528000000</money></p>\n<p>Dead line : 2020-06-12</p>\n<p>Local International : International</p>\n<p>Funding Agency : No</p>\n<p>Description : Tenders are invited for Security Services 2020 Bid Security Amount: <money>5,500,000 VND</money> Duration of Contract: 12 Month [Disclaimer: The above text is machine translated. For accurate information kindly refer the original document.]</p>\n<p>Document : <a href=\"http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20740565.html\"> http://www.bidsinfo.com/adminexe/documents/-VN3~20200605-20740565.html</a></p>",
+    "geoFocus": [
+        [
+            "GR/afr",
+            "Africa"
+        ],
+        [
+            "GR/as",
+            "Asia"
+        ]
+    ]
+}

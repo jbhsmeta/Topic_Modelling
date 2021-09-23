@@ -1,0 +1,470 @@
+{
+    "id": "6d20cb2c-5083-438c-8eac-95bbe0377d43",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "43096782962955202702",
+    "description": "RICHMOND, Va.\u2014 A towering statue of Confederate Gen. Robert E. Lee will be removed as soon as possible from Richmond's Monument Avenue, Virginia Gov. Ralph Northam said Thursday, pledging the state will no longer\u201c preach a false version\u2026",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [],
+    "text": "RICHMOND, Va. (AP) -- A towering statue of Confederate Gen. Robert E. Lee will\nbe removed as soon as possible from Richmond's Monument Avenue, Virginia Gov.\nRalph Northam said Thursday, pledging the state will no longer \"preach a false\nversion\u2026",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "RICHMOND, Va.",
+            "Richmond's",
+            "Monument Avenue",
+            "Virginia"
+        ],
+        "person": [
+            "Robert E. Lee",
+            "Ralph Northam"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050231AMSPIDERNEWS_____FREDNP01_B3DF641E4022A9AF187422F4431BC476_8.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "RICHMOND",
+                "relevance": 0.854169,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Richmond, Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Richmond,_Virginia"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.259306,
+                    "label": "positive"
+                },
+                "text": "Ralph Northam",
+                "relevance": 0.770917,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Politician",
+                        "OfficeHolder"
+                    ],
+                    "name": "Ralph Northam",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Ralph_Northam"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.620294,
+                    "label": "positive"
+                },
+                "text": "Gen. Robert E. Lee",
+                "relevance": 0.554207,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "MilitaryCommander",
+                        "MilitaryPerson",
+                        "OperaCharacter",
+                        "FilmWriter"
+                    ],
+                    "name": "Robert E. Lee",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Robert_E._Lee"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Virginia",
+                "relevance": 0.353433,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Virginia"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Va.",
+                "relevance": 0.221806,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Ralph Northam"
+                },
+                "sentence": " Ralph Northam said Thursday, pledging the state will no longer \"preach a false",
+                "object": {
+                    "text": "Thursday, pledging the state will no longer \"preach a falseversion\u2026"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "pledging the state"
+                },
+                "sentence": " Ralph Northam said Thursday, pledging the state will no longer \"preach a false",
+                "object": {
+                    "text": "a falseversion\u2026"
+                },
+                "action": {
+                    "verb": {
+                        "text": "preach",
+                        "tense": "future"
+                    },
+                    "text": "will no longer ``preach",
+                    "normalized": "will no longer ``preach"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.731572,
+                "label": "/education/teaching and classroom resources/school supplies"
+            },
+            {
+                "score": 0.562472,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "RICHMOND, Va. (AP) -- A towering statue of Confederate Gen. Robert E. Lee will be removed as soon as possible from Richmond's Monument Avenue, Virginia Gov. Ralph Northam said Thursday, pledging the state will no longer \"preach a false version\u2026",
+                "score": 0.978701,
+                "arguments": [
+                    {
+                        "text": "RICHMOND",
+                        "location": [
+                            0,
+                            8
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "RICHMOND"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Va.",
+                        "location": [
+                            10,
+                            13
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Va."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "RICHMOND, Va. (AP) -- A towering statue of Confederate Gen. Robert E. Lee will be removed as soon as possible from Richmond's Monument Avenue, Virginia Gov. Ralph Northam said Thursday, pledging the state will no longer \"preach a false version\u2026",
+                "score": 0.790426,
+                "arguments": [
+                    {
+                        "text": "Robert E. Lee",
+                        "location": [
+                            60,
+                            73
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Robert E. Lee"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Monument Avenue",
+                        "location": [
+                            126,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Monument Avenue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "ownerOf",
+                "sentence": "RICHMOND, Va. (AP) -- A towering statue of Confederate Gen. Robert E. Lee will be removed as soon as possible from Richmond's Monument Avenue, Virginia Gov. Ralph Northam said Thursday, pledging the state will no longer \"preach a false version\u2026",
+                "score": 0.597985,
+                "arguments": [
+                    {
+                        "text": "Richmond",
+                        "location": [
+                            115,
+                            123
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Richmond",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Sports"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Monument Avenue",
+                        "location": [
+                            126,
+                            141
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Monument Avenue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "managerOf",
+                "sentence": "RICHMOND, Va. (AP) -- A towering statue of Confederate Gen. Robert E. Lee will be removed as soon as possible from Richmond's Monument Avenue, Virginia Gov. Ralph Northam said Thursday, pledging the state will no longer \"preach a false version\u2026",
+                "score": 0.611581,
+                "arguments": [
+                    {
+                        "text": "Gov.",
+                        "location": [
+                            152,
+                            156
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Ralph Northam"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Virginia",
+                        "location": [
+                            143,
+                            151
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Virginia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "RICHMOND, Va. (AP) -- A towering statue of Confederate Gen. Robert E. Lee will be removed as soon as possible from Richmond's Monument Avenue, Virginia Gov. Ralph Northam said Thursday, pledging the state will no longer \"preach a false version\u2026",
+                "score": 0.984646,
+                "arguments": [
+                    {
+                        "text": "Ralph Northam",
+                        "location": [
+                            157,
+                            170
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Ralph Northam"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            171,
+                            175
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "RICHMOND, Va. (AP) -- A towering statue of Confederate Gen. Robert E. Lee will be removed as soon as possible from Richmond's Monument Avenue, Virginia Gov. Ralph Northam said Thursday, pledging the state will no longer \"preach a false version\u2026",
+                "score": 0.975571,
+                "arguments": [
+                    {
+                        "text": "Thursday",
+                        "location": [
+                            176,
+                            184
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Thursday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            171,
+                            175
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Ralph Northam",
+                "relevance": 0.948357,
+                "count": 1
+            },
+            {
+                "text": "AP",
+                "relevance": 0.654544,
+                "count": 1
+            },
+            {
+                "text": "Richmond's Monument Avenue",
+                "relevance": 0.620418,
+                "count": 1
+            },
+            {
+                "text": "RICHMOND",
+                "relevance": 0.572802,
+                "count": 1
+            },
+            {
+                "text": "state",
+                "relevance": 0.539308,
+                "count": 1
+            },
+            {
+                "text": "Virginia",
+                "relevance": 0.526767,
+                "count": 1
+            },
+            {
+                "text": "towering statue of Confederate Gen. Robert E. Lee",
+                "relevance": 0.415149,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.369543,
+                "count": 1
+            },
+            {
+                "text": "Va",
+                "relevance": 0.341045,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "40dde61bbaf75768d9655ba4a6608e08e47bdd55",
+        "filename": "202006050231AMSPIDERNEWS_____FREDNP01_B3DF641E4022A9AF187422F4431BC476_8.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:31:00-04:00",
+    "title": "After protests, iconic Lee statue in Virginia to be removed [Frederick News-Post, The (MD)]",
+    "html": "<p><location idsrc=\"xmltag.org\" value=\"LU/us.va.rchmnd\">RICHMOND, Va.</location> (AP) &#8212; A towering statue of Confederate Gen. <person>Robert E. Lee</person> will be removed as soon as possible from <location idsrc=\"xmltag.org\" value=\"LU/us.va.rchmnd\">Richmond's</location> <location>Monument Avenue</location>, <location idsrc=\"xmltag.org\" value=\"LS/us.va\">Virginia</location> Gov. <person>Ralph Northam</person> said Thursday, pledging the state will no longer &#8220;preach a false version&#8230;</p>",
+    "geoFocus": []
+}

@@ -1,0 +1,449 @@
+{
+    "id": "fecc34f6-71c2-4235-923a-a1278aea1dc4",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "91554568996138090224",
+    "description": "The Digital Group was pleased to announce that Digital HRMS, the integrated modular HR software platform developed by TDG, has been awarded the Best Value Software 2020 by SoftwareSuggest, a renowned and trusted business software recommendation and discovery platform. Digital HRMS has been cho",
+    "serviceName": "Press Release",
+    "locationCode": [],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Business and Commerce",
+            "code": "IS/biz#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.awards",
+            "relevance_score": "7",
+            "description": "Business Awards",
+            "code": "IS/biz.awards#7#75#50",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#7#50#75",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "7",
+            "description": "Awards and Honors",
+            "code": "IS/lifesoc.awards#7#50#75",
+            "level": 1
+        }
+    ],
+    "text": "The Digital Group (TDG) was pleased to announce that Digital HRMS, the\nintegrated modular HR software platform developed by TDG, has been awarded the\nBest Value Software 2020 by SoftwareSuggest, a renowned and trusted business\nsoftware recommendation and discovery platform. Digital HRMS has been chosen\nfor the honour because of the commitment of the team towards the customers and\nthe exceptional service provided to them. [[PR.com](http://PR.com)]",
+    "industryCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Technology",
+            "code": "II/tech#9#99#99",
+            "level": 0
+        },
+        {
+            "parent": "II/tech",
+            "relevance_score": "9",
+            "description": "Software",
+            "code": "II/tech.software#9#99#87",
+            "level": 1
+        },
+        {
+            "parent": "II/tech.software",
+            "relevance_score": "8",
+            "description": "Business Software",
+            "code": "II/tech.bizsoft#8#50#87",
+            "level": 2
+        },
+        {
+            "parent": "II/tech.bizsoft",
+            "relevance_score": "8",
+            "description": "Human Resources (HR) Software",
+            "code": "II/tech.hrsoft#8#87#50",
+            "level": 3
+        }
+    ],
+    "naviga_enrichment": {
+        "org": [
+            "The Digital Group"
+        ],
+        "location": [],
+        "person": [],
+        "companies": [
+            "The Digital Group"
+        ]
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050428AMSPIDERDOWJONES_ZDK1NJHM_19E5039ECAC4AB4FDDFC48CCE53EA89B_31.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Digital Group",
+                "relevance": 0.921939,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "SoftwareSuggest",
+                "relevance": 0.303194,
+                "type": "Company"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "The Digital Group (TDG)"
+                },
+                "sentence": "The Digital Group (TDG) was pleased to announce that Digital HRMS, the",
+                "object": {
+                    "text": "that Digital HRMS"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "past"
+                    },
+                    "text": "to announce",
+                    "normalized": "to announce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by TDG"
+                },
+                "sentence": " integrated modular HR software platform developed by TDG, has been awarded the",
+                "object": {
+                    "text": "HR software platform"
+                },
+                "action": {
+                    "verb": {
+                        "text": "develop",
+                        "tense": "past"
+                    },
+                    "text": "developed",
+                    "normalized": "develop"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the exceptional service"
+                },
+                "sentence": " the exceptional service provided to them.",
+                "object": {
+                    "text": "to them"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "past"
+                    },
+                    "text": "provided",
+                    "normalized": "provide"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 1,
+                "label": "/technology and computing/software"
+            },
+            {
+                "score": 0.99998,
+                "label": "/business and industrial/business software"
+            },
+            {
+                "score": 0.999905,
+                "label": "/technology and computing/computer certification"
+            }
+        ],
+        "relations": [
+            {
+                "type": "hasAttribute",
+                "sentence": "The Digital Group (TDG) was pleased to announce that Digital HRMS, the integrated modular HR software platform developed by TDG, has been awarded the Best Value Software 2020 by SoftwareSuggest, a renowned and trusted business software recommendation and discovery platform.",
+                "score": 0.966226,
+                "arguments": [
+                    {
+                        "text": "Digital Group",
+                        "location": [
+                            4,
+                            17
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Digital Group",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "TDG",
+                        "location": [
+                            19,
+                            22
+                        ],
+                        "entities": [
+                            {
+                                "type": "Ticker",
+                                "text": "TDG"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "productOf",
+                "sentence": "The Digital Group (TDG) was pleased to announce that Digital HRMS, the integrated modular HR software platform developed by TDG, has been awarded the Best Value Software 2020 by SoftwareSuggest, a renowned and trusted business software recommendation and discovery platform.",
+                "score": 0.491835,
+                "arguments": [
+                    {
+                        "text": "software platform",
+                        "location": [
+                            93,
+                            110
+                        ],
+                        "entities": [
+                            {
+                                "type": "Product",
+                                "text": "software platform"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Digital HRMS",
+                        "location": [
+                            53,
+                            65
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Digital HRMS"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The Digital Group (TDG) was pleased to announce that Digital HRMS, the integrated modular HR software platform developed by TDG, has been awarded the Best Value Software 2020 by SoftwareSuggest, a renowned and trusted business software recommendation and discovery platform.",
+                "score": 0.594344,
+                "arguments": [
+                    {
+                        "text": "Digital HRMS",
+                        "location": [
+                            53,
+                            65
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Digital HRMS"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "awarded",
+                        "location": [
+                            138,
+                            145
+                        ],
+                        "entities": [
+                            {
+                                "type": "EntertainmentAward",
+                                "text": "awarded"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "awardedTo",
+                "sentence": "The Digital Group (TDG) was pleased to announce that Digital HRMS, the integrated modular HR software platform developed by TDG, has been awarded the Best Value Software 2020 by SoftwareSuggest, a renowned and trusted business software recommendation and discovery platform.",
+                "score": 0.483341,
+                "arguments": [
+                    {
+                        "text": "Best Value Software",
+                        "location": [
+                            150,
+                            169
+                        ],
+                        "entities": [
+                            {
+                                "type": "EntertainmentAward",
+                                "text": "Best Value Software"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Digital HRMS",
+                        "location": [
+                            53,
+                            65
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Digital HRMS"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "The Digital Group (TDG) was pleased to announce that Digital HRMS, the integrated modular HR software platform developed by TDG, has been awarded the Best Value Software 2020 by SoftwareSuggest, a renowned and trusted business software recommendation and discovery platform.",
+                "score": 0.635481,
+                "arguments": [
+                    {
+                        "text": "2020",
+                        "location": [
+                            170,
+                            174
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "2020"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "awarded",
+                        "location": [
+                            138,
+                            145
+                        ],
+                        "entities": [
+                            {
+                                "type": "EntertainmentAward",
+                                "text": "awarded"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "awardedBy",
+                "sentence": "The Digital Group (TDG) was pleased to announce that Digital HRMS, the integrated modular HR software platform developed by TDG, has been awarded the Best Value Software 2020 by SoftwareSuggest, a renowned and trusted business software recommendation and discovery platform.",
+                "score": 0.597644,
+                "arguments": [
+                    {
+                        "text": "Best Value Software",
+                        "location": [
+                            150,
+                            169
+                        ],
+                        "entities": [
+                            {
+                                "type": "EntertainmentAward",
+                                "text": "Best Value Software"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "SoftwareSuggest",
+                        "location": [
+                            178,
+                            193
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "SoftwareSuggest"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Digital Group",
+                "relevance": 0.905998,
+                "count": 1
+            },
+            {
+                "text": "modular HR software platform",
+                "relevance": 0.839428,
+                "count": 1
+            },
+            {
+                "text": "Best Value Software",
+                "relevance": 0.751194,
+                "count": 1
+            },
+            {
+                "text": "exceptional service",
+                "relevance": 0.74121,
+                "count": 1
+            },
+            {
+                "text": "Digital HRMS",
+                "relevance": 0.562224,
+                "count": 2
+            },
+            {
+                "text": "honour",
+                "relevance": 0.559121,
+                "count": 1
+            },
+            {
+                "text": "customers",
+                "relevance": 0.517549,
+                "count": 1
+            },
+            {
+                "text": "commitment of the team",
+                "relevance": 0.351224,
+                "count": 1
+            },
+            {
+                "text": "discovery platform",
+                "relevance": 0.312783,
+                "count": 1
+            },
+            {
+                "text": "TDG",
+                "relevance": 0.261197,
+                "count": 2
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "404c9beee39774f7184871d9b0201ccf795e8e26",
+        "filename": "202006050428AMSPIDERDOWJONES_ZDK1NJHM_19E5039ECAC4AB4FDDFC48CCE53EA89B_31.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:28:00-04:00",
+    "title": "The Digital Group Announces Best Value Software 2020 Award for Digital HRMS [PR.com]",
+    "html": "<p><org>The Digital Group</org> (TDG) was pleased to announce that Digital HRMS, the integrated modular HR software platform developed by TDG, has been awarded the Best Value Software 2020 by SoftwareSuggest, a renowned and trusted business software recommendation and discovery platform. Digital HRMS has been chosen for the honour because of the commitment of the team towards the customers and the exceptional service provided to them. [<a href=\"http://PR.com\">PR.com</a>]</p>",
+    "geoFocus": []
+}

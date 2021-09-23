@@ -1,0 +1,814 @@
+{
+    "id": "bd740e7e-c12c-426c-bfdd-0478f2759a96",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright (c) 2020 Latin Communications Group",
+    "geoOrigin": "New York City, New York",
+    "sourceType": "Newspaper",
+    "source": "El Diario La Prensa (New York, NY)",
+    "corpus_document_id": "83506598168207864040",
+    "description": "El alcalde de Los \u00c1ngeles Eric Garcetti pidi\u00f3 a los participantes en las protestas por la muerte de George Floyd que se hagan la prueba del coronavirus. Las protestas en Los \u00c1ngeles y en todo el pa\u00eds, han movilizado a cientos de miles de personas indignadas por el abuso policial, el racismo y la discriminaci\u00f3n que cobraron la vida del afroamericano George...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#75#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "El alcalde de Los \u00c1ngeles Eric Garcetti pidio a los participantes en las\nprotestas por la muerte de George Floyd que se hagan la prueba del\ncoronavirus. Y que no dejen de usar mascarillas.\n\nTonight, I'm talking about how we can come together as a city and as a country\nto demand justice. <https://t.co/UggnlLgMZ3>\n\n\\- MayorOfLA (@MayorOfLA) June 3, 2020\n\nLas protestas en Los \u00c1ngeles y en todo el pais, han movilizado a cientos de\nmiles de personas indignadas por el abuso policial, el racismo y la\ndiscriminacion que cobraron la vida del afroamericano George Floyd..\n\nY aunque muchas personas participan en las protestas cubriendose el rostro,\nlas medidas de prevencion de lavarse las manos frecuentemente y mantener el\ndistanciamiento social para prevenir la propagacion de la pandemia, se han\ndejado de lado ante la ira por la injusticia y la desobediencia civil.\n\nEl condado de Los \u00c1ngeles informo el miercoles 1,155 nuevos casos de\ncoronavirus y 46 muertes mas, lo que eleva el total a 58,234 casos y 2,489\nmuertes.\n\nHorarios de los centros de pruebas de coronavirus en SoCal\n\nLos centros de pruebas de COVID-19 en Los \u00c1ngeles han modificado sus horarios\ny muchos han cerrado debido al toque de queda que se ha ordenado por las\nautoridades.\n\nEl toque de queda comienza a las 9:00 p.m. el 3 de junio de 2020:\n\nEl toque de queda en todo el condado comienza a las 9 p.m. Los departamentos\nde policia pueden enforzar a su discrecion. Las ciudades tambien pueden\nimplementar y hacer cumplir toques de queda mas estrictos.\n[pic.twitter.com/NPYtUnpbgv](http://pic.twitter.com/NPYtUnpbgv)\n\n\\- Los Angeles County (@CountyofLA) June 3, 2020\n\nPara conocer los sitios de pruebas de COVID-19 que estan abiertos cada dia,\ncon los horarios modificados por el toque de queda en Los \u00c1ngeles, Long Beach\ny Santa Monica, visite <https://covid19.lacounty.gov/testing/>",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Long Beach"
+        ],
+        "person": [
+            "Eric Garcetti",
+            "George Floyd"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/us.ny.nyc",
+    "language": "Spanish",
+    "filename": "202006040000NEWSBANKNEWSPPRSF7A6AFDE0730FE64611440A5431BB10.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": -0.765889,
+                    "label": "negative"
+                },
+                "text": "Los \u00c1ngeles",
+                "relevance": 0.916111,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Los \u00c1ngeles",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Los_\u00c1ngeles"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Los Angeles County",
+                "relevance": 0.467175,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USCounty",
+                        "StateOrCounty"
+                    ],
+                    "name": "Los Angeles County, California",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Los_Angeles_County,_California"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.552848,
+                    "label": "negative"
+                },
+                "text": "Los \u00c1ngeles",
+                "relevance": 0.466859,
+                "type": "GeographicFeature"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Las ciudades tambien pueden",
+                "relevance": 0.404114,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.667945,
+                    "label": "negative"
+                },
+                "text": "Los departamentos",
+                "relevance": 0.393572,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.645043,
+                    "label": "positive"
+                },
+                "text": "George Floyd",
+                "relevance": 0.393007,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Athlete",
+                        "FootballPlayer"
+                    ],
+                    "name": "George Floyd",
+                    "dbpedia_resource": "http://dbpedia.org/resource/George_Floyd"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.913109,
+                    "label": "negative"
+                },
+                "text": "Eric Garcetti",
+                "relevance": 0.297842,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "Politician"
+                    ],
+                    "name": "Eric Garcetti",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Eric_Garcetti"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.676488,
+                    "label": "negative"
+                },
+                "text": "Horarios",
+                "relevance": 0.235371,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.676488,
+                    "label": "negative"
+                },
+                "text": "SoCal",
+                "relevance": 0.213582,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Long Beach",
+                "relevance": 0.211119,
+                "type": "GeographicFeature"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "la muerte de George Floyd que se hagan la prueba del"
+                },
+                "sentence": " protestas por la muerte de George Floyd que se hagan la prueba del",
+                "object": {
+                    "text": "protestas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "por",
+                        "tense": "present"
+                    },
+                    "text": "por",
+                    "normalized": "por"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " Tonight, I'm talking about how we can come together as a city and as a country",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "am",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " Tonight, I'm talking about how we can come together as a city and as a country",
+                "object": {
+                    "text": "about how we can come together as a city and as a country"
+                },
+                "action": {
+                    "verb": {
+                        "text": "talk",
+                        "tense": "present"
+                    },
+                    "text": "talking",
+                    "normalized": "talk"
+                }
+            },
+            {
+                "subject": {
+                    "text": "personas"
+                },
+                "sentence": " miles de personas indignadas por el abuso policial, el racismo y la",
+                "object": {
+                    "text": "indignadas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "prevencion de lavarse las manos frecuentemente y mantener el"
+                },
+                "sentence": " las medidas de prevencion de lavarse las manos frecuentemente y mantener el",
+                "object": {
+                    "text": "las medidas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "coronavirus y 46 muertes mas, lo que eleva el"
+                },
+                "sentence": " coronavirus y 46 muertes mas, lo que eleva el total a 58,234 casos y 2,489",
+                "object": {
+                    "text": "a 58,234 casos y 2,489"
+                },
+                "action": {
+                    "verb": {
+                        "text": "total",
+                        "tense": "present"
+                    },
+                    "text": "total",
+                    "normalized": "total"
+                }
+            },
+            {
+                "subject": {
+                    "text": "los centros de pruebas de coronavirus en SoCal"
+                },
+                "sentence": " Horarios de los centros de pruebas de coronavirus en SoCal",
+                "object": {
+                    "text": "Horarios"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "coronavirus"
+                },
+                "sentence": " Horarios de los centros de pruebas de coronavirus en SoCal",
+                "object": {
+                    "text": "Horarios de los centros de pruebas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "pruebas de COVID-19 en Los \u00c1ngeles han modificado sus horarios"
+                },
+                "sentence": " Los centros de pruebas de COVID-19 en Los \u00c1ngeles han modificado sus horarios",
+                "object": {
+                    "text": "Los centros"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Las ciudades"
+                },
+                "sentence": " Las ciudades tambien pueden",
+                "object": {
+                    "text": "pueden"
+                },
+                "action": {
+                    "verb": {
+                        "text": "tambien",
+                        "tense": "present"
+                    },
+                    "text": "tambien",
+                    "normalized": "tambien"
+                }
+            },
+            {
+                "subject": {
+                    "text": "queda mas estrictos"
+                },
+                "sentence": " implementar y hacer cumplir toques de queda mas estrictos.",
+                "object": {
+                    "text": "implementar y hacer cumplir toques"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "COVID-19 que estan abiertos cada dia,"
+                },
+                "sentence": " Para conocer los sitios de pruebas de COVID-19 que estan abiertos cada dia,",
+                "object": {
+                    "text": "Para conocer los sitios de pruebas"
+                },
+                "action": {
+                    "verb": {
+                        "text": "de",
+                        "tense": "present"
+                    },
+                    "text": "de",
+                    "normalized": "de"
+                }
+            },
+            {
+                "subject": {
+                    "text": "el toque de queda en Los \u00c1ngeles, Long Beach"
+                },
+                "sentence": " con los horarios modificados por el toque de queda en Los \u00c1ngeles, Long Beach",
+                "object": {
+                    "text": "con los horarios modificados"
+                },
+                "action": {
+                    "verb": {
+                        "text": "por",
+                        "tense": "present"
+                    },
+                    "text": "por",
+                    "normalized": "por"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.60063,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.544872,
+                "label": "/health and fitness/disease/cold and flu"
+            },
+            {
+                "score": 0.544771,
+                "label": "/travel/specialty travel/ecotourism"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Tonight, I'm talking about how we can come together as a city and as a country to demand justice. <https://t.co/UggnlLgMZ3>",
+                "score": 0.923154,
+                "arguments": [
+                    {
+                        "text": "I",
+                        "location": [
+                            199,
+                            200
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "I"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "talking",
+                        "location": [
+                            203,
+                            210
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "talking"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Para conocer los sitios de pruebas de COVID-19 que estan abiertos cada dia, con los horarios modificados por el toque de queda en Los \u00c1ngeles, Long Beach y Santa Monica, visite <https://covid19.lacounty.gov/testing/>",
+                "score": 0.802787,
+                "arguments": [
+                    {
+                        "text": "Beach\ny",
+                        "location": [
+                            1785,
+                            1792
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Beach\ny"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Los",
+                        "location": [
+                            1767,
+                            1770
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Los Angeles County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Para conocer los sitios de pruebas de COVID-19 que estan abiertos cada dia, con los horarios modificados por el toque de queda en Los \u00c1ngeles, Long Beach y Santa Monica, visite <https://covid19.lacounty.gov/testing/>",
+                "score": 0.526516,
+                "arguments": [
+                    {
+                        "text": "Los",
+                        "location": [
+                            1767,
+                            1770
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Los Angeles County"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Santa Monica",
+                        "location": [
+                            1793,
+                            1805
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Santa Monica"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Para conocer los sitios de pruebas de COVID-19 que estan abiertos cada dia, con los horarios modificados por el toque de queda en Los \u00c1ngeles, Long Beach y Santa Monica, visite <https://covid19.lacounty.gov/testing/>",
+                "score": 0.984749,
+                "arguments": [
+                    {
+                        "text": "Beach\ny",
+                        "location": [
+                            1785,
+                            1792
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Beach\ny"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Santa Monica",
+                        "location": [
+                            1793,
+                            1805
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Santa Monica"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Y que",
+                "relevance": 0.84094,
+                "count": 1
+            },
+            {
+                "text": "Las protestas en Los \u00c1ngeles",
+                "relevance": 0.822053,
+                "count": 1
+            },
+            {
+                "text": "la injusticia y la desobediencia",
+                "relevance": 0.682576,
+                "count": 1
+            },
+            {
+                "text": "dejen de usar mascarillas",
+                "relevance": 0.649481,
+                "count": 1
+            },
+            {
+                "text": "aunque muchas personas",
+                "relevance": 0.606985,
+                "count": 1
+            },
+            {
+                "text": "coronavirus y",
+                "relevance": 0.592327,
+                "count": 1
+            },
+            {
+                "text": "muertes mas",
+                "relevance": 0.550849,
+                "count": 1
+            },
+            {
+                "text": "El alcalde de Los \u00c1ngeles Eric Garcetti",
+                "relevance": 0.548699,
+                "count": 1
+            },
+            {
+                "text": "casos y",
+                "relevance": 0.543214,
+                "count": 1
+            },
+            {
+                "text": "El toque",
+                "relevance": 0.541415,
+                "count": 2
+            },
+            {
+                "text": "miles",
+                "relevance": 0.529424,
+                "count": 1
+            },
+            {
+                "text": "las",
+                "relevance": 0.516699,
+                "count": 1
+            },
+            {
+                "text": "Tonight",
+                "relevance": 0.515647,
+                "count": 1
+            },
+            {
+                "text": "Los departamentos",
+                "relevance": 0.510426,
+                "count": 1
+            },
+            {
+                "text": "de policia pueden",
+                "relevance": 0.507055,
+                "count": 1
+            },
+            {
+                "text": "Los Angeles County",
+                "relevance": 0.506336,
+                "count": 1
+            },
+            {
+                "text": "city",
+                "relevance": 0.504627,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.503816,
+                "count": 2
+            },
+            {
+                "text": "justice",
+                "relevance": 0.503816,
+                "count": 1
+            },
+            {
+                "text": "country",
+                "relevance": 0.503816,
+                "count": 1
+            },
+            {
+                "text": "Las ciudades tambien pueden",
+                "relevance": 0.500911,
+                "count": 1
+            },
+            {
+                "text": "Los \u00c1ngeles",
+                "relevance": 0.500307,
+                "count": 1
+            },
+            {
+                "text": "nuevos casos",
+                "relevance": 0.486533,
+                "count": 1
+            },
+            {
+                "text": "han movilizado",
+                "relevance": 0.471186,
+                "count": 1
+            },
+            {
+                "text": "participan en las protestas cubriendose el rostro",
+                "relevance": 0.469386,
+                "count": 1
+            },
+            {
+                "text": "social para prevenir la propagacion de la pandemia",
+                "relevance": 0.466994,
+                "count": 1
+            },
+            {
+                "text": "afroamericano George Floyd",
+                "relevance": 0.46347,
+                "count": 1
+            },
+            {
+                "text": "El condado de Los \u00c1ngeles informo el miercoles",
+                "relevance": 0.463207,
+                "count": 1
+            },
+            {
+                "text": "modificado sus horarios",
+                "relevance": 0.460019,
+                "count": 1
+            },
+            {
+                "text": "distanciamiento",
+                "relevance": 0.45824,
+                "count": 1
+            },
+            {
+                "text": "Los centros de pruebas de COVID-19 en Los \u00c1ngeles",
+                "relevance": 0.456964,
+                "count": 1
+            },
+            {
+                "text": "se han",
+                "relevance": 0.453323,
+                "count": 1
+            },
+            {
+                "text": "su discrecion",
+                "relevance": 0.452475,
+                "count": 1
+            },
+            {
+                "text": "coronavirus",
+                "relevance": 0.450184,
+                "count": 1
+            },
+            {
+                "text": "COVID-19 que estan abiertos cada dia",
+                "relevance": 0.442231,
+                "count": 1
+            },
+            {
+                "text": "muertes",
+                "relevance": 0.432902,
+                "count": 1
+            },
+            {
+                "text": "MayorOfLA",
+                "relevance": 0.427487,
+                "count": 1
+            },
+            {
+                "text": "visite",
+                "relevance": 0.426693,
+                "count": 1
+            },
+            {
+                "text": "NPYtUnpbgv",
+                "relevance": 0.426693,
+                "count": 1
+            },
+            {
+                "text": "estrictos",
+                "relevance": 0.426693,
+                "count": 1
+            },
+            {
+                "text": "autoridades",
+                "relevance": 0.426693,
+                "count": 1
+            },
+            {
+                "text": "Horarios",
+                "relevance": 0.426693,
+                "count": 1
+            },
+            {
+                "text": "cientos",
+                "relevance": 0.426693,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "928ebce3565ac0c0961a1c161f8de87aef149e69",
+        "filename": "202006040000NEWSBANKNEWSPPRSF7A6AFDE0730FE64611440A5431BB10.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-04T00:00:00-04:00",
+    "title": "Garcetti pide a manifestantes por George Floyd que se hagan la prueba del coronavirus",
+    "html": "<p>El alcalde de Los &#193;ngeles <person>Eric Garcetti</person> pidi&#243; a los participantes en las protestas por la muerte de <person>George Floyd</person> que se hagan la prueba del coronavirus. Y que no dejen de usar mascarillas.</p>\n<p>Tonight, I'm talking about how we can come together as a city and as a country to demand justice. <a href=\"https://t.co/UggnlLgMZ3\">https://t.co/UggnlLgMZ3</a></p>\n\n<p>- MayorOfLA (@MayorOfLA) <chron>June 3, 2020</chron></p>\n\n<p>Las protestas en Los &#193;ngeles y en todo el pa&#237;s, han movilizado a cientos de miles de personas indignadas por el abuso policial, el racismo y la discriminaci&#243;n que cobraron la vida del afroamericano <person>George Floyd</person>..</p>\n\n<p>Y aunque muchas personas participan en las protestas cubri&#233;ndose el rostro, las medidas de prevenci&#243;n de lavarse las manos frecuentemente y mantener el distanciamiento social para prevenir la propagaci&#243;n de la pandemia, se han dejado de lado ante la ira por la injusticia y la desobediencia civil.</p>\n\n<p>El condado de Los &#193;ngeles inform&#243; el mi&#233;rcoles 1,155 nuevos casos de coronavirus y 46 muertes m&#225;s, lo que eleva el total a 58,234 casos y 2,489 muertes.</p>\n\n<p>Horarios de los centros de pruebas de coronavirus en SoCal</p>\n\n<p>Los centros de pruebas de COVID-19 en Los &#193;ngeles han modificado sus horarios y muchos han cerrado debido al toque de queda que se ha ordenado por las autoridades.</p>\n\n<p>El toque de queda comienza a las <chron>9:00 p.m.</chron> el 3 de junio de 2020:</p>\n\n<p>El toque de queda en todo el condado comienza a las <chron>9 p.m.</chron> Los departamentos de polic&#237;a pueden enforzar a su discreci&#243;n. Las ciudades tambi&#233;n pueden implementar y hacer cumplir toques de queda m&#225;s estrictos. <a href=\"http://pic.twitter.com/NPYtUnpbgv\">pic.twitter.com/NPYtUnpbgv</a></p>\n\n<p>- Los Angeles County (@CountyofLA) <chron>June 3, 2020</chron></p>\n\n<p>Para conocer los sitios de pruebas de COVID-19 que est&#225;n abiertos cada d&#237;a, con los horarios modificados por el toque de queda en Los &#193;ngeles, <location>Long Beach</location> y Santa Monica, visite <a href=\"https://covid19.lacounty.gov/testing/\">https://covid19.lacounty.gov/testing/</a></p>",
+    "geoFocus": [
+        [
+            "GU/us.ny.nyc",
+            "New York City"
+        ]
+    ]
+}

@@ -1,0 +1,267 @@
+{
+    "id": "d0e1fcdd-78c8-49fd-b5e0-53767ddca24a",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "67578620256379927569",
+    "description": "Event technology and personnel services more info: Location: GERMANY BidDate: 6/ 29/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: City of Ludwigsfelde Tendering Authority Address: 14974 Ludwigsfelde Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Event technology and personnel services more info : Location : GERMANY BidDate\n: 6/29/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority\n: City of Ludwigsfelde Tendering Authority Address : 14974 Ludwigsfelde\nFinancier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_55342_176209990_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.896067,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ludwigsfelde Tendering Authority",
+                "relevance": 0.832505,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.450433,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.470469,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "East Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/East_Germany"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Tenders"
+                },
+                "sentence": " : 6/29/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority",
+                "object": {
+                    "text": "Authority"
+                },
+                "action": {
+                    "verb": {
+                        "text": "Tendering",
+                        "tense": "present"
+                    },
+                    "text": "Tendering",
+                    "normalized": "Tendering"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.880017,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.659398,
+                "label": "/society/unrest and war"
+            },
+            {
+                "score": 0.575156,
+                "label": "/technology and computing/internet technology"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Event technology and personnel services more info : Location : GERMANY BidDate : 6/29/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Ludwigsfelde Tendering Authority Address : 14974 Ludwigsfelde Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.660303,
+                "arguments": [
+                    {
+                        "text": "6/29/2020 Tender",
+                        "location": [
+                            81,
+                            97
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/29/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority\n: City of Ludwigsfelde Tendering Authority Address :",
+                        "location": [
+                            116,
+                            210
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority\n: City of Ludwigsfelde Tendering Authority Address :"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.937864,
+                "count": 1
+            },
+            {
+                "text": "Event technology",
+                "relevance": 0.877871,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.681021,
+                "count": 1
+            },
+            {
+                "text": "City of Ludwigsfelde Tendering Authority Address",
+                "relevance": 0.680189,
+                "count": 1
+            },
+            {
+                "text": "personnel services",
+                "relevance": 0.569611,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.565739,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.545827,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.54563,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.54441,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.541415,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.536657,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.50897,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "e200fb9e93ddf8582a73f90e3ef75524ba2bea9b",
+        "filename": "202006050210ALBA____ME_NA_NE_55342_176209990_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Event technology and personnel services [TenderNews.com - Tenders (India)]",
+    "html": "<p>Event technology and personnel services more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/29/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : City of Ludwigsfelde\nTendering Authority Address : 14974 Ludwigsfelde\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

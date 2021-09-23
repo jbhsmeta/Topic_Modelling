@@ -1,0 +1,789 @@
+{
+    "id": "4ecd9822-bec7-4cce-80a7-bdfeaa77d920",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright 2020 Observer-Reporter. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.",
+    "geoOrigin": "Washington County, Pennsylvania",
+    "sourceType": "Newspaper",
+    "source": "Observer-Reporter (Washington, PA)",
+    "corpus_document_id": "18808262533086158393",
+    "description": "Washington& Jefferson College student Caitlyn Hall was selected to receive the 2020 Jonathan Flickinger Giving Heart recognition. Hall donated $500 to Crabtree-Kovacicek Veterans House of the Washington City Mission. Honorable recognitions went to Nate Tang and Katelyn Prevenslik who donated each of their $250 to Compassion International and...",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "8",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#8#50#82",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc.cluborgs",
+            "relevance_score": "8",
+            "description": "Charitable Organizations",
+            "code": "IS/lifesoc.charity#8#82#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "8",
+            "description": "Clubs and Associations",
+            "code": "IS/lifesoc.cluborgs#8#50#82",
+            "level": 1
+        },
+        {
+            "parent": "IS/lifesoc.edu",
+            "relevance_score": "6",
+            "description": "Academic Levels",
+            "code": "IS/lifesoc.edlevels#6#50#68",
+            "level": 2
+        }
+    ],
+    "text": "Washington & Jefferson College student Caitlyn Hall was selected to receive\nthe 2020 Jonathan Flickinger Giving Heart recognition.\n\nThe Jonathan Flickinger Giving Heart Recognition, which was established in\n2018 after Flickinger's death Dec. 28, 2017, recognizes W&J students that\nemulate the \"giving heart of Flickinger,\" according to a news release.\n\nThe Flickinger family makes its selection from the nominations submitted and\noffers gifts totaling $1,000 each year and those students contribute their\nrecognition monetary gift to the charity of their choice, the release said.\n\nHall donated $500 to Crabtree-Kovacicek Veterans House of the Washington City\nMission. Honorable recognitions went to Nate Tang and Katelyn Prevenslik who\ndonated each of their $250 to Compassion International and America's Dentists\nCare, respectively.\n\nThe Jonathan Flickinger Giving Heart Recognition is associated with Washington\nCounty Community Foundation.\n\nContributions can be submitted at <https://www.wccf.net/for-donors/list-of-\nfunds/jonathan-flickinger-giving-heart-fund>.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Washington &amp; Jefferson College",
+            "Washington City Mission",
+            "Compassion International",
+            "Washington County Community Foundation"
+        ],
+        "location": [],
+        "person": [
+            "Caitlyn Hall",
+            "Nate Tang",
+            "Katelyn Prevenslik"
+        ],
+        "companies": [
+            "Washington County Community Foundation",
+            "Compassion International",
+            "Washington &amp; Jefferson College",
+            "Washington City Mission"
+        ]
+    },
+    "geoOrigin_code": "RU/us.pa.wash",
+    "language": "English",
+    "filename": "202006050000NEWSBANKNEWSPPRSC33FF6352003B974A9E69C0342744E0.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 4,
+                "sentiment": {
+                    "score": 0.421524,
+                    "label": "positive"
+                },
+                "text": "Jonathan Flickinger",
+                "relevance": 0.942005,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.544182,
+                    "label": "positive"
+                },
+                "text": "Flickinger",
+                "relevance": 0.412807,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Caitlyn Hall",
+                "relevance": 0.243248,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.595564,
+                    "label": "positive"
+                },
+                "text": "Washington",
+                "relevance": 0.210648,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Blandford-Blenheim",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Blandford-Blenheim"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Washington City",
+                "relevance": 0.161118,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "MilitaryPost",
+                        "PlaceWithNeighborhoods",
+                        "USCounty",
+                        "City"
+                    ],
+                    "name": "Washington, D.C.",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Washington,_D.C."
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Compassion International",
+                "relevance": 0.146898,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [
+                        "Non-ProfitOrganisation"
+                    ],
+                    "name": "Compassion International",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Compassion_International"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.933136,
+                    "label": "positive"
+                },
+                "text": "Nate Tang",
+                "relevance": 0.146854,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Jefferson College",
+                "relevance": 0.146262,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "County Community Foundation",
+                "relevance": 0.136702,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.933136,
+                    "label": "positive"
+                },
+                "text": "Katelyn Prevenslik",
+                "relevance": 0.133542,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "America",
+                "relevance": 0.108421,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Continent"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$1,000",
+                "relevance": 0.108421,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$250",
+                "relevance": 0.108421,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "$500",
+                "relevance": 0.108421,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Washington & Jefferson College student Caitlyn Hall"
+                },
+                "sentence": "Washington & Jefferson College student Caitlyn Hall was selected to receive",
+                "object": {
+                    "text": "selected to receive"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Jonathan Flickinger Giving Heart Recognition"
+                },
+                "sentence": " The Jonathan Flickinger Giving Heart Recognition, which was established in",
+                "object": {
+                    "text": "established in"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "2018 after Flickinger's death Dec. 28, 2017,"
+                },
+                "sentence": " 2018 after Flickinger's death Dec. 28, 2017, recognizes W&J students that",
+                "object": {
+                    "text": "W&J students"
+                },
+                "action": {
+                    "verb": {
+                        "text": "recognize",
+                        "tense": "present"
+                    },
+                    "text": "recognizes",
+                    "normalized": "recognize"
+                }
+            },
+            {
+                "subject": {
+                    "text": "heart"
+                },
+                "sentence": " emulate the \"giving heart of Flickinger,\" according to a news release.",
+                "object": {
+                    "text": "of Flickinger"
+                },
+                "action": {
+                    "verb": {
+                        "text": "give",
+                        "tense": "present"
+                    },
+                    "text": "giving",
+                    "normalized": "give"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the \"giving heart of Flickinger"
+                },
+                "sentence": " emulate the \"giving heart of Flickinger,\" according to a news release.",
+                "object": {
+                    "text": "to a news release"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accord",
+                        "tense": "present"
+                    },
+                    "text": "according",
+                    "normalized": "accord"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Flickinger family"
+                },
+                "sentence": " The Flickinger family makes its selection from the nominations submitted and",
+                "object": {
+                    "text": "its selection"
+                },
+                "action": {
+                    "verb": {
+                        "text": "make",
+                        "tense": "present"
+                    },
+                    "text": "makes",
+                    "normalized": "make"
+                }
+            },
+            {
+                "subject": {
+                    "text": "offers gifts"
+                },
+                "sentence": " offers gifts totaling $1,000 each year and those students contribute their",
+                "object": {
+                    "text": "$1,000 each year"
+                },
+                "action": {
+                    "verb": {
+                        "text": "total",
+                        "tense": "present"
+                    },
+                    "text": "totaling",
+                    "normalized": "total"
+                }
+            },
+            {
+                "subject": {
+                    "text": "those students"
+                },
+                "sentence": " offers gifts totaling $1,000 each year and those students contribute their",
+                "object": {
+                    "text": "their"
+                },
+                "action": {
+                    "verb": {
+                        "text": "contribute",
+                        "tense": "present"
+                    },
+                    "text": "contribute",
+                    "normalized": "contribute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the release"
+                },
+                "sentence": " recognition monetary gift to the charity of their choice, the release said.",
+                "object": {
+                    "text": "recognition monetary gift to the charity of their choice"
+                },
+                "action": {
+                    "verb": {
+                        "text": "say",
+                        "tense": "past"
+                    },
+                    "text": "said",
+                    "normalized": "say"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Hall"
+                },
+                "sentence": " Hall donated $500 to Crabtree-Kovacicek Veterans House of the Washington City",
+                "object": {
+                    "text": "$500"
+                },
+                "action": {
+                    "verb": {
+                        "text": "donate",
+                        "tense": "past"
+                    },
+                    "text": "donated",
+                    "normalized": "donate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mission. Honorable recognitions"
+                },
+                "sentence": " Mission. Honorable recognitions went to Nate Tang and Katelyn Prevenslik who",
+                "object": {
+                    "text": "to Nate Tang"
+                },
+                "action": {
+                    "verb": {
+                        "text": "go",
+                        "tense": "past"
+                    },
+                    "text": "went",
+                    "normalized": "go"
+                }
+            },
+            {
+                "subject": {
+                    "text": "each of their $250"
+                },
+                "sentence": " donated each of their $250 to Compassion International and America's Dentists",
+                "object": {
+                    "text": "to Compassion International and America's Dentists"
+                },
+                "action": {
+                    "verb": {
+                        "text": "donate",
+                        "tense": "past"
+                    },
+                    "text": "donated",
+                    "normalized": "donate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Jonathan Flickinger Giving Heart Recognition"
+                },
+                "sentence": " The Jonathan Flickinger Giving Heart Recognition is associated with Washington",
+                "object": {
+                    "text": "associated with Washington"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The Jonathan Flickinger Giving Heart Recognition"
+                },
+                "sentence": " The Jonathan Flickinger Giving Heart Recognition is associated with Washington",
+                "object": {
+                    "text": "with Washington"
+                },
+                "action": {
+                    "verb": {
+                        "text": "associate",
+                        "tense": "past"
+                    },
+                    "text": "is associated",
+                    "normalized": "be associate"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.73276,
+                "label": "/education/alumni and reunions"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "Washington & Jefferson College student Caitlyn Hall was selected to receive the 2020 Jonathan Flickinger Giving Heart recognition.",
+                "score": 0.603302,
+                "arguments": [
+                    {
+                        "text": "student",
+                        "location": [
+                            31,
+                            38
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Caitlyn Hall"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Washington & Jefferson College",
+                        "location": [
+                            0,
+                            30
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Washington & Jefferson College",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Honorable recognitions went to Nate Tang and Katelyn Prevenslik who donated each of their $250 to Compassion International and America's Dentists Care, respectively.",
+                "score": 0.604876,
+                "arguments": [
+                    {
+                        "text": "Nate Tang",
+                        "location": [
+                            700,
+                            709
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Nate Tang"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "their",
+                        "location": [
+                            753,
+                            758
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "Honorable recognitions went to Nate Tang and Katelyn Prevenslik who donated each of their $250 to Compassion International and America's Dentists Care, respectively.",
+                "score": 0.58062,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            733,
+                            736
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Katelyn Prevenslik"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "their",
+                        "location": [
+                            753,
+                            758
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "students"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Honorable recognitions went to Nate Tang and Katelyn Prevenslik who donated each of their $250 to Compassion International and America's Dentists Care, respectively.",
+                "score": 0.877947,
+                "arguments": [
+                    {
+                        "text": "Dentists\nCare",
+                        "location": [
+                            806,
+                            819
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Community Foundation"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Compassion International and America",
+                        "location": [
+                            767,
+                            803
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Compassion International and America"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Jonathan Flickinger Giving Heart recognition",
+                "relevance": 0.985988,
+                "count": 3
+            },
+            {
+                "text": "heart-fund",
+                "relevance": 0.776163,
+                "count": 1
+            },
+            {
+                "text": "Jefferson College student Caitlyn Hall",
+                "relevance": 0.734667,
+                "count": 1
+            },
+            {
+                "text": "funds",
+                "relevance": 0.672496,
+                "count": 1
+            },
+            {
+                "text": "Flickinger's death Dec.",
+                "relevance": 0.625444,
+                "count": 1
+            },
+            {
+                "text": "jonathan-flickinger",
+                "relevance": 0.584511,
+                "count": 1
+            },
+            {
+                "text": "heart of Flickinger",
+                "relevance": 0.583942,
+                "count": 1
+            },
+            {
+                "text": "Washington",
+                "relevance": 0.552621,
+                "count": 1
+            },
+            {
+                "text": "news release",
+                "relevance": 0.542573,
+                "count": 1
+            },
+            {
+                "text": "Hall",
+                "relevance": 0.529571,
+                "count": 1
+            },
+            {
+                "text": "gifts",
+                "relevance": 0.520623,
+                "count": 1
+            },
+            {
+                "text": "Crabtree-Kovacicek Veterans House",
+                "relevance": 0.520324,
+                "count": 1
+            },
+            {
+                "text": "Flickinger family",
+                "relevance": 0.520118,
+                "count": 1
+            },
+            {
+                "text": "Honorable recognitions",
+                "relevance": 0.513453,
+                "count": 1
+            },
+            {
+                "text": "recognition",
+                "relevance": 0.512336,
+                "count": 1
+            },
+            {
+                "text": "Contributions",
+                "relevance": 0.50953,
+                "count": 1
+            },
+            {
+                "text": "students",
+                "relevance": 0.508512,
+                "count": 1
+            },
+            {
+                "text": "year",
+                "relevance": 0.50822,
+                "count": 1
+            },
+            {
+                "text": "selection",
+                "relevance": 0.507574,
+                "count": 1
+            },
+            {
+                "text": "America",
+                "relevance": 0.506247,
+                "count": 1
+            },
+            {
+                "text": "nominations",
+                "relevance": 0.506247,
+                "count": 1
+            },
+            {
+                "text": "release",
+                "relevance": 0.503123,
+                "count": 1
+            },
+            {
+                "text": "monetary gift",
+                "relevance": 0.447493,
+                "count": 1
+            },
+            {
+                "text": "W&J students",
+                "relevance": 0.4394,
+                "count": 1
+            },
+            {
+                "text": "Compassion International",
+                "relevance": 0.424541,
+                "count": 1
+            },
+            {
+                "text": "Nate Tang",
+                "relevance": 0.414548,
+                "count": 1
+            },
+            {
+                "text": "charity of their choice",
+                "relevance": 0.409493,
+                "count": 1
+            },
+            {
+                "text": "Katelyn Prevenslik",
+                "relevance": 0.396197,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "1f6dcfcc85b829a0878b135a433aff6199f9b23d",
+        "filename": "202006050000NEWSBANKNEWSPPRSC33FF6352003B974A9E69C0342744E0.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Washington & Jefferson College|extractor|DUNS:074964016;NECOID:5697820;ACORN:2532943686|MENTION||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "W&J student awarded 2020 Jonathan Flickinger Giving Heart recognition",
+    "html": "<p><org idsrc=\"xmltag.org\" value=\"ACORN:2532943686\">Washington &amp; Jefferson College</org> student <person>Caitlyn Hall</person> was selected to receive the 2020 Jonathan Flickinger Giving Heart recognition.</p>\n<p>The Jonathan Flickinger Giving Heart Recognition, which was established in 2018 after Flickinger's death <chron>Dec. 28, 2017</chron>, recognizes W&amp;J students that emulate the \"giving heart of Flickinger,\" according to a news release.</p>\n\n<p>The Flickinger family makes its selection from the nominations submitted and offers gifts totaling <money>$1,000</money> each year and those students contribute their recognition monetary gift to the charity of their choice, the release said.</p>\n\n<p>Hall donated <money>$500</money> to Crabtree-Kovacicek Veterans House of the <org>Washington City Mission</org>. Honorable recognitions went to <person>Nate Tang</person> and <person>Katelyn Prevenslik</person> who donated each of their <money>$250</money> to <org>Compassion International</org> and America's Dentists Care, respectively.</p>\n\n<p>The Jonathan Flickinger Giving Heart Recognition is associated with <org>Washington County Community Foundation</org>.</p>\n\n<p>Contributions can be submitted at <a href=\"https://www.wccf.net/for-donors/list-of-funds/jonathan-flickinger-giving-heart-fund\">https://www.wccf.net/for-donors/list-of-funds/jonathan-flickinger-giving-heart-fund</a>.</p>",
+    "geoFocus": [
+        [
+            "GU/us.pa.wash",
+            "Washington County"
+        ]
+    ]
+}

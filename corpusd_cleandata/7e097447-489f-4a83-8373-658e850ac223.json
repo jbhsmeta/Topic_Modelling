@@ -1,0 +1,643 @@
+{
+    "id": "7e097447-489f-4a83-8373-658e850ac223",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "\u00a9 Copyright \u00a9 2020 Kenosha News, All rights reserved.",
+    "geoOrigin": "Kenosha, Wisconsin",
+    "sourceType": "Newspaper",
+    "source": "Kenosha News (WI)",
+    "corpus_document_id": "35534086126610273280",
+    "description": "Former University of Wisconsin forward Jon Leuer announced his retirement.  \"I love the game of basketball. He was drafted by the Milwaukee Bucks with the 40th selection in the 2011 draft.",
+    "serviceName": "Newspapers",
+    "locationCode": [],
+    "sourceClass": "General News",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Sports",
+            "code": "IS/sports#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/sports.team",
+            "relevance_score": "9",
+            "description": "Basketball",
+            "code": "IS/sports.basket#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/sports",
+            "relevance_score": "9",
+            "description": "Team Sports",
+            "code": "IS/sports.team#9#83#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "6",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#6#50#69",
+            "level": 0
+        }
+    ],
+    "text": "Former University of Wisconsin forward Jon Leuer announced his retirement.\n\n\"I love the game of basketball. I still want to play, but I know deep down\nit's not the right decision for my health anymore,\" the 31-year-old posted on\nInstagram. \"The past (three) years I've dealt with a number of injuries,\nincluding (two) that kept me out this whole season.\n\n\"It's taken me a while to come to grips with this, but I'm truly at peace with\nmy decision to officially retire.\"\n\nLeuer averaged 6.4 points and 3.8 rebounds in just under 16 minutes per game\nfrom 2011 to 2019. He was drafted by the Milwaukee Bucks with the 40th\nselection in the 2011 draft.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "University of Wisconsin",
+            "Milwaukee Bucks"
+        ],
+        "location": [],
+        "person": [
+            "Jon Leuer"
+        ],
+        "companies": [
+            "Milwaukee Bucks",
+            "University of Wisconsin"
+        ]
+    },
+    "geoOrigin_code": "RU/us.wi.kensha",
+    "language": "English",
+    "filename": "202005260000NEWSBANKNEWSPPRS5ED451B54F54927D41EAE59C957BC01.XML",
+    "providerName": "NewsBank",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 5,
+                "sentiment": {
+                    "score": 0.528618,
+                    "label": "positive"
+                },
+                "text": "Jon Leuer",
+                "relevance": 0.923358,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Jon Leuer",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Jon_Leuer"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Milwaukee Bucks",
+                "relevance": 0.427928,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "SportsTeam",
+                        "BasketballTeam",
+                        "ProfessionalSportsTeam"
+                    ],
+                    "name": "Milwaukee Bucks",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Milwaukee_Bucks"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "University of Wisconsin",
+                "relevance": 0.399806,
+                "type": "Organization",
+                "disambiguation": {
+                    "subtype": [
+                        "Location",
+                        "GovernmentAgency",
+                        "AcademicInstitution",
+                        "CollegeUniversity"
+                    ],
+                    "name": "University of Wisconsin\u2013Madison",
+                    "dbpedia_resource": "http://dbpedia.org/resource/University_of_Wisconsin\u2013Madison"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.651097,
+                    "label": "positive"
+                },
+                "text": "basketball",
+                "relevance": 0.374883,
+                "type": "Sport",
+                "disambiguation": {
+                    "subtype": [
+                        "Invention",
+                        "FieldOfStudy",
+                        "AwardDiscipline",
+                        "OlympicEventCompetition"
+                    ],
+                    "name": "Basketball",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Basketball"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.523725,
+                    "label": "positive"
+                },
+                "text": "Instagram.",
+                "relevance": 0.256061,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "16 minutes",
+                "relevance": 0.256061,
+                "type": "Quantity"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "31-year",
+                "relevance": 0.256061,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Former University of Wisconsin forward Jon Leuer"
+                },
+                "sentence": "Former University of Wisconsin forward Jon Leuer announced his retirement.",
+                "object": {
+                    "text": "his retirement"
+                },
+                "action": {
+                    "verb": {
+                        "text": "announce",
+                        "tense": "past"
+                    },
+                    "text": "announced",
+                    "normalized": "announce"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " \"I love the game of basketball.",
+                "object": {
+                    "text": "the game of basketball"
+                },
+                "action": {
+                    "verb": {
+                        "text": "love",
+                        "tense": "present"
+                    },
+                    "text": "love",
+                    "normalized": "love"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " I still want to play, but I know deep down",
+                "object": {
+                    "text": "to play"
+                },
+                "action": {
+                    "verb": {
+                        "text": "want",
+                        "tense": "present"
+                    },
+                    "text": "want",
+                    "normalized": "want"
+                }
+            },
+            {
+                "subject": {
+                    "text": "it"
+                },
+                "sentence": " it's not the right decision for my health anymore,\" the 31-year-old posted on",
+                "object": {
+                    "text": "not the right decision for my health anymore"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " Instagram. \"The past (three) years I've dealt with a number of injuries,",
+                "action": {
+                    "verb": {
+                        "text": "deal",
+                        "tense": "past"
+                    },
+                    "text": "dealt",
+                    "normalized": "deal"
+                }
+            },
+            {
+                "subject": {
+                    "text": "It"
+                },
+                "sentence": " \"It's taken me a while to come to grips with this, but I'm truly at peace with",
+                "object": {
+                    "text": "taken me"
+                },
+                "action": {
+                    "verb": {
+                        "text": "has",
+                        "tense": "present"
+                    },
+                    "text": "has",
+                    "normalized": "has"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a while to come to grips with this"
+                },
+                "sentence": " \"It's taken me a while to come to grips with this, but I'm truly at peace with",
+                "object": {
+                    "text": "me"
+                },
+                "action": {
+                    "verb": {
+                        "text": "take",
+                        "tense": "past"
+                    },
+                    "text": "taken",
+                    "normalized": "take"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I"
+                },
+                "sentence": " \"It's taken me a while to come to grips with this, but I'm truly at peace with",
+                "object": {
+                    "text": "truly at peace with"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "am",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Leuer"
+                },
+                "sentence": " Leuer averaged 6.4 points and 3.8 rebounds in just under 16 minutes per game",
+                "object": {
+                    "text": "6.4 points and 3.8 rebounds"
+                },
+                "action": {
+                    "verb": {
+                        "text": "average",
+                        "tense": "past"
+                    },
+                    "text": "averaged",
+                    "normalized": "average"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the Milwaukee Bucks"
+                },
+                "sentence": " He was drafted by the Milwaukee Bucks with the 40th",
+                "object": {
+                    "text": "He"
+                },
+                "action": {
+                    "verb": {
+                        "text": "draft",
+                        "tense": "past"
+                    },
+                    "text": "was drafted",
+                    "normalized": "be draft"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.981945,
+                "label": "/sports/basketball"
+            }
+        ],
+        "relations": [
+            {
+                "type": "agentOf",
+                "sentence": "Former University of Wisconsin forward Jon Leuer announced his retirement.",
+                "score": 0.982157,
+                "arguments": [
+                    {
+                        "text": "Jon Leuer",
+                        "location": [
+                            39,
+                            48
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jon Leuer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "announced",
+                        "location": [
+                            49,
+                            58
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "announced"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "\"I love the game of basketball.",
+                "score": 0.532224,
+                "arguments": [
+                    {
+                        "text": "I",
+                        "location": [
+                            77,
+                            78
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jon Leuer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "game",
+                        "location": [
+                            88,
+                            92
+                        ],
+                        "entities": [
+                            {
+                                "type": "SportingEvent",
+                                "text": "game"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "participantIn",
+                "sentence": "Leuer averaged 6.4 points and 3.8 rebounds in just under 16 minutes per game from 2011 to 2019.",
+                "score": 0.784118,
+                "arguments": [
+                    {
+                        "text": "Leuer averaged",
+                        "location": [
+                            470,
+                            484
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Leuer averaged"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "game",
+                        "location": [
+                            542,
+                            546
+                        ],
+                        "entities": [
+                            {
+                                "type": "SportingEvent",
+                                "text": "game"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Leuer averaged 6.4 points and 3.8 rebounds in just under 16 minutes per game from 2011 to 2019.",
+                "score": 0.877217,
+                "arguments": [
+                    {
+                        "text": "2011 to 2019",
+                        "location": [
+                            552,
+                            564
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "2011 to 2019"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "game",
+                        "location": [
+                            542,
+                            546
+                        ],
+                        "entities": [
+                            {
+                                "type": "SportingEvent",
+                                "text": "game"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "He was drafted by the Milwaukee Bucks with the 40th selection in the 2011 draft.",
+                "score": 0.495777,
+                "arguments": [
+                    {
+                        "text": "He",
+                        "location": [
+                            566,
+                            568
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Jon Leuer"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Milwaukee Bucks",
+                        "location": [
+                            588,
+                            603
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Milwaukee Bucks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "right decision",
+                "relevance": 0.877336,
+                "count": 1
+            },
+            {
+                "text": "Milwaukee Bucks",
+                "relevance": 0.65226,
+                "count": 1
+            },
+            {
+                "text": "31-year-old",
+                "relevance": 0.623606,
+                "count": 1
+            },
+            {
+                "text": "Former University of Wisconsin forward Jon Leuer",
+                "relevance": 0.566323,
+                "count": 1
+            },
+            {
+                "text": "draft",
+                "relevance": 0.547481,
+                "count": 1
+            },
+            {
+                "text": "game of basketball",
+                "relevance": 0.541138,
+                "count": 1
+            },
+            {
+                "text": "whole season",
+                "relevance": 0.533164,
+                "count": 1
+            },
+            {
+                "text": "number of injuries",
+                "relevance": 0.529289,
+                "count": 1
+            },
+            {
+                "text": "deep down",
+                "relevance": 0.529289,
+                "count": 1
+            },
+            {
+                "text": "health",
+                "relevance": 0.528703,
+                "count": 1
+            },
+            {
+                "text": "points",
+                "relevance": 0.527184,
+                "count": 1
+            },
+            {
+                "text": "decision",
+                "relevance": 0.526431,
+                "count": 1
+            },
+            {
+                "text": "rebounds",
+                "relevance": 0.52119,
+                "count": 1
+            },
+            {
+                "text": "minutes",
+                "relevance": 0.51748,
+                "count": 1
+            },
+            {
+                "text": "grips",
+                "relevance": 0.517062,
+                "count": 1
+            },
+            {
+                "text": "peace",
+                "relevance": 0.514073,
+                "count": 1
+            },
+            {
+                "text": "Instagram",
+                "relevance": 0.514073,
+                "count": 1
+            },
+            {
+                "text": "retirement",
+                "relevance": 0.514073,
+                "count": 1
+            },
+            {
+                "text": "game",
+                "relevance": 0.510028,
+                "count": 1
+            },
+            {
+                "text": "Leuer",
+                "relevance": 0.456284,
+                "count": 1
+            },
+            {
+                "text": "while",
+                "relevance": 0.450082,
+                "count": 1
+            },
+            {
+                "text": "years",
+                "relevance": 0.437939,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "405ed2ce4f98095e8f2581a3cf072920b331df6d",
+        "filename": "202005260000NEWSBANKNEWSPPRS5ED451B54F54927D41EAE59C957BC01.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Milwaukee Bucks|extractor|NECOID:6131360;ACORN:6001131360|SIGNIFICANT|||||REFERENCE",
+    "publicationTime": "2020-05-26T00:00:00-04:00",
+    "title": "Former Badgers star Jon Leuer announces retirement",
+    "html": "<p>Former <org>University of Wisconsin</org> forward <person>Jon Leuer</person> announced his retirement.</p>\n<p>\"I love the game of basketball. I still want to play, but I know deep down it's not the right decision for my health anymore,\" the 31-year-old posted on Instagram. \"The past (three) years I've dealt with a number of injuries, including (two) that kept me out this whole season.</p>\n\n<p>\"It's taken me a while to come to grips with this, but I'm truly at peace with my decision to officially retire.\"</p>\n\n<p>Leuer averaged 6.4 points and 3.8 rebounds in just under 16 minutes per game from 2011 to 2019. He was drafted by the <org idsrc=\"xmltag.org\" value=\"ACORN:6001131360\">Milwaukee Bucks</org> with the 40th selection in the 2011 draft.</p>",
+    "geoFocus": [
+        [
+            "GU/us.wi.kensha",
+            "Kenosha"
+        ]
+    ]
+}

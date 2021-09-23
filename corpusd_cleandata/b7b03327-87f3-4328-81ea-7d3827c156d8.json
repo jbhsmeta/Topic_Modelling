@@ -1,0 +1,283 @@
+{
+    "id": "b7b03327-87f3-4328-81ea-7d3827c156d8",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "London, England, United Kingdom",
+    "sourceType": "Regulatory Filing",
+    "source": "PR Newswire (UK Disclosure)",
+    "corpus_document_id": "90188786839722649622",
+    "description": "Aberforth Split Level Income Trust plc. The Net Asset Values for the above company as at the close of business on 4 June 2020 were:-. For and on behalf of Aberforth Partners LLP, Secretaries.",
+    "serviceName": "UK Disclosure",
+    "locationCode": [],
+    "sourceClass": "Financial Regulatory Services",
+    "subjectCode": [
+        {
+            "parent": "IS/biz.spec",
+            "relevance_score": "7",
+            "description": "Corporate Communications",
+            "code": "IS/biz.corpcomm#7#50#75",
+            "level": 2
+        },
+        {
+            "parent": "IS/biz.corpcomm",
+            "relevance_score": "7",
+            "description": "Company Regulatory Filings",
+            "code": "IS/biz.filings#7#75#50",
+            "level": 3
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "7",
+            "description": "Structured Business and Commerce Content",
+            "code": "IS/biz.spec#7#50#75",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "7",
+            "description": "Structured Content",
+            "code": "IS/spec#7#50#75",
+            "level": 0
+        }
+    ],
+    "text": "Aberforth Split Level Income Trust plc (\"ASLIT\")\n\nThe Net Asset Values (\"NAVs\") for the above company as at the close of\nbusiness on 4 June 2020 were:-\n\nOrdinary Share (excluding current year revenue) = 55.48p\n\nOrdinary Share (including current year revenue) = 57.33p\n\nZero Dividend Preference Share (Accounts basis*) = 110.21p\n\nZero Dividend Preference Share (Articles basis) = 110.61p\n\n* for accounting purposes in accordance with the AIC SORP, issue costs in relation to the Zero Dividend Preference Shares are capitalised and amortised over their expected term.\n\nContact:\n\nMichael Campbell\n\nFor and on behalf of Aberforth Partners LLP, Secretaries\n\nTelephone: 0131 220 0733\n\n5 June 2020\n\n![](https://rt.prnewswire.com/rt.gif?NewsItemId=0031&Transmission_Id=202006050413PR_NEWS_UKDISCLO_0031&DateId=20200605)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "Aberforth Split Level Income Trust plc",
+            "Aberforth Partners LLP"
+        ],
+        "location": [],
+        "person": [
+            "Michael Campbell"
+        ],
+        "companies": [
+            "Aberforth Partners LLP",
+            "Aberforth Split Level Income Trust plc"
+        ]
+    },
+    "geoOrigin_code": "RU/gb.eng.london",
+    "language": "English",
+    "filename": "202006050413PR_NEWS_PRUKDSCL_0031.XML",
+    "providerName": "PR Newswire",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Aberforth Partners LLP",
+                "relevance": 0.771577,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0.677392,
+                    "label": "positive"
+                },
+                "text": "Michael Campbell",
+                "relevance": 0.68834,
+                "type": "Person",
+                "disambiguation": {
+                    "subtype": [
+                        "SportsTeam",
+                        "Golfer"
+                    ],
+                    "name": "Michael Campbell",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Michael_Campbell"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "current year revenue) = 57.33p"
+                },
+                "sentence": " Ordinary Share (including current year revenue) = 57.33p",
+                "object": {
+                    "text": "Ordinary Share"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "issue costs in relation to the Zero Dividend Preference Shares"
+                },
+                "sentence": " * for accounting purposes in accordance with the AIC SORP, issue costs in relation to the Zero Dividend Preference Shares are capitalised and amortised over their expected term.",
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "are capitalised and amortised",
+                    "normalized": "be capitalise and amortise"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.93136,
+                "label": "/finance/investing/funds/mutual funds"
+            },
+            {
+                "score": 0.888863,
+                "label": "/finance/investing/beginning investing"
+            },
+            {
+                "score": 0.888164,
+                "label": "/business and industrial/company/earnings"
+            }
+        ],
+        "relations": [],
+        "keywords": [
+            {
+                "text": "accounting purposes",
+                "relevance": 0.899285,
+                "count": 1
+            },
+            {
+                "text": "Zero Dividend Preference Shares",
+                "relevance": 0.78343,
+                "count": 1
+            },
+            {
+                "text": "behalf of Aberforth Partners LLP",
+                "relevance": 0.773131,
+                "count": 1
+            },
+            {
+                "text": "AIC SORP",
+                "relevance": 0.700354,
+                "count": 1
+            },
+            {
+                "text": "Net Asset Values",
+                "relevance": 0.683718,
+                "count": 1
+            },
+            {
+                "text": "Ordinary Share",
+                "relevance": 0.680366,
+                "count": 2
+            },
+            {
+                "text": "issue costs",
+                "relevance": 0.672271,
+                "count": 1
+            },
+            {
+                "text": "accordance",
+                "relevance": 0.556871,
+                "count": 1
+            },
+            {
+                "text": "relation",
+                "relevance": 0.540665,
+                "count": 1
+            },
+            {
+                "text": "business",
+                "relevance": 0.519801,
+                "count": 1
+            },
+            {
+                "text": "Contact",
+                "relevance": 0.510707,
+                "count": 1
+            },
+            {
+                "text": "June",
+                "relevance": 0.510707,
+                "count": 2
+            },
+            {
+                "text": "term",
+                "relevance": 0.510707,
+                "count": 1
+            },
+            {
+                "text": "current year revenue",
+                "relevance": 0.467248,
+                "count": 2
+            },
+            {
+                "text": "Michael Campbell",
+                "relevance": 0.452471,
+                "count": 1
+            },
+            {
+                "text": "above company",
+                "relevance": 0.442024,
+                "count": 1
+            },
+            {
+                "text": "Accounts basis",
+                "relevance": 0.426503,
+                "count": 1
+            },
+            {
+                "text": "Aberforth Split Level Income Trust plc",
+                "relevance": 0.412502,
+                "count": 1
+            },
+            {
+                "text": "Articles basis",
+                "relevance": 0.410042,
+                "count": 1
+            },
+            {
+                "text": "NAVs",
+                "relevance": 0.362451,
+                "count": 1
+            },
+            {
+                "text": "55.48p",
+                "relevance": 0.354741,
+                "count": 1
+            },
+            {
+                "text": "close",
+                "relevance": 0.354741,
+                "count": 1
+            },
+            {
+                "text": "ASLIT",
+                "relevance": 0.354741,
+                "count": 1
+            },
+            {
+                "text": "110.61p",
+                "relevance": 0.349854,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Continuous feed",
+    "extracted_metadata": {
+        "sha1": "e3a19c57cbe37afb1fd5022884a34926e4ec5e21",
+        "filename": "202006050413PR_NEWS_PRUKDSCL_0031.json",
+        "file_type": "json"
+    },
+    "companyRecord": "|||Aberforth Partners LLP|source|DUNS:346538601;NECOID:1194899389;ACORN:3320383020|SIGNIFICANT||||XXXX|REFERENCE",
+    "publicationTime": "2020-06-05T04:13:00-04:00",
+    "title": "Aberforth Split Level Income Trust Plc - Net Asset Value(s)",
+    "html": "<div class=\"xn-content\">\n\n<p><org idsrc=\"xmltag.org\" value=\"LSE:ASIT\">Aberforth Split Level Income Trust plc</org> (&#8220;ASLIT&#8221;)</p>\n\n<p>The Net Asset Values (&#8220;NAVs&#8221;) for the above company as at the close of business on <chron>4 June 2020</chron> were:-</p>\n\n<p>Ordinary Share (excluding current year revenue) = 55.48p</p>\n\n<p>Ordinary Share (including current year revenue) = 57.33p</p>\n\n<p>Zero Dividend Preference Share (Accounts basis*) =&#160; 110.21p</p>\n\n<p>Zero Dividend Preference Share (Articles basis) =&#160; 110.61p</p>\n\n<p>* for accounting purposes in accordance with the AIC SORP, issue costs in relation to the Zero Dividend Preference Shares are capitalised and amortised over their expected term.</p>\n\n<p>Contact:&#160;</p>\n\n<p><person>Michael Campbell</person></p>\n\n<p>For and on behalf of <org idsrc=\"xmltag.org\" value=\"ACORN:3320383020\">Aberforth Partners LLP</org>, Secretaries</p>\n\n<p>Telephone: 0131 220 0733</p>\n\n<p><chron>5 June 2020</chron></p>\n</div>\n<img alt=\"\" src=\"https://rt.prnewswire.com/rt.gif?NewsItemId=0031&amp;Transmission_Id=202006050413PR_NEWS_UKDISCLO_0031&amp;DateId=20200605\" style=\"border:0px; width:1px; height:1px;\" />",
+    "geoFocus": [
+        [
+            "GC/gb",
+            "United Kingdom"
+        ]
+    ]
+}

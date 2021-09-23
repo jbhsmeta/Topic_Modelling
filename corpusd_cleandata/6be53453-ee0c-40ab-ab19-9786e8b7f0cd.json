@@ -1,0 +1,324 @@
+{
+    "id": "6be53453-ee0c-40ab-ab19-9786e8b7f0cd",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "60512812847525333767",
+    "description": "20 E0134 METAL-GLASS INTERIOR DOORS more info: Location: GERMANY BidDate: 6/ 16/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: Provincial real estate and construction support, Tendering Authority Address: 55131 Mainz a Rhein Rhineland-Palatinate Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "20E0134 (LBB NL Mainz) METAL-GLASS INTERIOR DOORS more info : Location :\nGERMANY BidDate : 6/16/2020 Tender Country : GERMANY Tender Type : Tenders\nTendering Authority : Provincial real estate and construction support,\nTendering Authority Address : 55131 Mainz a Rhein Rhineland-Palatinate\nFinancier : Self Funded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "LBB NL"
+        ],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": [
+            "LBB NL"
+        ]
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_57713_176211307_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.432415,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.89741,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Germany"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mainz",
+                "relevance": 0.894173,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GermanUrbanDistrict",
+                        "City"
+                    ],
+                    "name": "Mainz",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Mainz"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Rhein Rhineland-Palatinate",
+                "relevance": 0.824963,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.808106,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.727443,
+                "label": "/business and industrial/construction"
+            },
+            {
+                "score": 0.659981,
+                "label": "/real estate"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "20E0134 (LBB NL Mainz) METAL-GLASS INTERIOR DOORS more info : Location : GERMANY BidDate : 6/16/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Provincial real estate and construction support, Tendering Authority Address : 55131 Mainz a Rhein Rhineland-Palatinate Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.813939,
+                "arguments": [
+                    {
+                        "text": "Mainz",
+                        "location": [
+                            255,
+                            260
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Mainz"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rhein Rhineland-Palatinate",
+                        "location": [
+                            263,
+                            289
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Rhein Rhineland-Palatinate"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "20E0134 (LBB NL Mainz) METAL-GLASS INTERIOR DOORS more info : Location : GERMANY BidDate : 6/16/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : Provincial real estate and construction support, Tendering Authority Address : 55131 Mainz a Rhein Rhineland-Palatinate Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.478785,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            290,
+                            299
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rhein Rhineland-Palatinate",
+                        "location": [
+                            263,
+                            289
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Rhein Rhineland-Palatinate"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.996726,
+                "count": 1
+            },
+            {
+                "text": "Tender Country",
+                "relevance": 0.986476,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.783119,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.651923,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.582039,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.551606,
+                "count": 1
+            },
+            {
+                "text": "Mainz",
+                "relevance": 0.518689,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.512258,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.510111,
+                "count": 1
+            },
+            {
+                "text": "LBB NL Mainz",
+                "relevance": 0.493543,
+                "count": 1
+            },
+            {
+                "text": "Self Funded Tearn Money",
+                "relevance": 0.375427,
+                "count": 1
+            },
+            {
+                "text": "METAL-GLASS",
+                "relevance": 0.36564,
+                "count": 1
+            },
+            {
+                "text": "Authority Address",
+                "relevance": 0.358939,
+                "count": 1
+            },
+            {
+                "text": "Provincial real estate",
+                "relevance": 0.34992,
+                "count": 1
+            },
+            {
+                "text": "INTERIOR DOORS",
+                "relevance": 0.329516,
+                "count": 1
+            },
+            {
+                "text": "construction support",
+                "relevance": 0.277054,
+                "count": 1
+            },
+            {
+                "text": "20E0134",
+                "relevance": 0.267828,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "ccfe8bf15dcdd060785742e9596be55665ac9192",
+        "filename": "202006050210ALBA____ME_NA_NE_57713_176211307_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "20E0134 (LBB NL Mainz) METAL-GLASS INTERIOR DOORS [TenderNews.com - Tenders (India)]",
+    "html": "<p>20E0134 (<org>LBB NL</org> Mainz) METAL-GLASS INTERIOR DOORS more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/16/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : Provincial real estate and construction support,\nTendering Authority Address : 55131 Mainz a Rhein Rhineland-Palatinate\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

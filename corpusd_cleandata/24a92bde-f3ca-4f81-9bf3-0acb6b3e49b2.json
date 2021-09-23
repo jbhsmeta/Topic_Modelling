@@ -1,0 +1,2019 @@
+{
+    "id": "24a92bde-f3ca-4f81-9bf3-0acb6b3e49b2",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "Copyright \u00a9 2020 NewsRx LLC, Engineering Business Daily",
+    "geoOrigin": "Atlanta, Georgia",
+    "sourceType": "Professional, Business, or Trade Journal",
+    "source": "Engineering Business Daily",
+    "corpus_document_id": "97398021069900025881",
+    "description": "2020 JUN 05-- By a News Reporter-Staff News Editor at Engineering Business Daily-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv; Mann, Omri; Oshri, Ofer, filed on December 10, 2018, was published online on June 8, 2020. The assignee for this patent, patent number 10,664,191, is Excelero...",
+    "serviceName": "Science Newsletters",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LR/as",
+            "relevance_score": "9",
+            "description": "Western Asia",
+            "code": "LB/was#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/was",
+            "relevance_score": "9",
+            "description": "Israel",
+            "code": "LC/il#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#70#90",
+            "level": 2
+        }
+    ],
+    "sourceClass": "Engineering, Business and Commerce",
+    "subjectCode": [],
+    "text": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering\nBusiness Daily \\-- According to news reporting originating from Alexandria,\nVirginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv\n(Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL),\nfiled on December 10, 2018, was published online on June 8, 2020.\n\nThe assignee for this patent, patent number 10,664,191, is Excelero Storage\nLtd. (Tel Aviv, Israel).\n\nReporters obtained the following quote from the background information\nsupplied by the inventors: \"Input/output (I/O) determinism involves utilizing\ninformation related to reading and writing of I/O instructions to more\nefficiently implement such instructions. To provide I/O determinism, a server\nmay require knowledge of the particular architecture of a storage device. For\nexample, the server may require an estimated amount of time for a particular\nI/O instruction to be executed on a storage device. If the instruction will\ntake too long to execute on the storage device, it may be faster to send the\ninstruction to another storage device.\n\n\"Although I/O determinism may increase efficiency of executing I/O\ninstructions, the process requires access to information related to the\nstorage for which I/O instructions are to be executed. This information may\ninclude information that the manufacturer of the storage may not desire to\nshare. Thus, implementation of I/O determinism may not always be practical.\n\n\"It would therefore be advantageous to provide a solution that would overcome\nthe challenges noted above.\"\n\nIn addition to obtaining background information on this patent, NewsRx editors\nalso obtained the inventors' summary information for this patent: \"A summary\nof several example embodiments of the disclosure follows. This summary is\nprovided for the convenience of the reader to provide a basic understanding of\nsuch embodiments and does not wholly define the breadth of the disclosure.\nThis summary is not an extensive overview of all contemplated embodiments, and\nis intended to neither identify key or critical elements of all embodiments\nnor to delineate the scope of any or all aspects. Its sole purpose is to\npresent some concepts of one or more embodiments in a simplified form as a\nprelude to the more detailed description that is presented later. For\nconvenience, the term 'some embodiments' or 'certain embodiments' may be used\nherein to refer to a single embodiment or multiple embodiments of the\ndisclosure.\n\n\"Certain embodiments disclosed herein include a method for providing\ninput/output (I/O) determinism for a server hosting at least a remotely\naccessible storage. The method comprises receiving an I/O instruction and at\nleast one service level indicator from a client device, wherein the at least\none service level indicator includes a required time for executing the I/O\ninstruction; determining whether the I/O instruction can be executed on the\nstorage within the required time; and sending, to the client device, a\nnotification, when it is not determined that the I/O instruction can be\nexecuted on the storage within the required time.\n\n\"Certain embodiments disclosed herein also include a system for providing\ninput/output (I/O) determinism. The system comprises: a storage; a processing\ncircuitry; and a memory, the memory containing instructions that, when\nexecuted by the processing circuitry, configure the system to: receive an I/O\ninstruction and at least one service level indicator from a client device,\nwherein the at least one service level indicator includes a required time for\nexecuting the I/O instruction; determine whether the I/O instruction can be\nexecuted on the storage within the required time; and send, to the client\ndevice, a notification, when it is not determined that the I/O instruction can\nbe executed on the storage within the required time.\n\n\"Certain embodiments disclosed herein also include a method for providing\ninput/output (I/O) determinism for a server hosting at least a storage, the\nserver including a processing circuitry. The method comprises: sending, by the\nprocessing circuitry to the storage, an I/O instruction and at least one\nservice level indicator, wherein the at least one service level indicator\nincludes a required time for executing the I/O instruction; determining, by\nthe storage, whether the I/O instruction can be executed on the storage within\nthe required time; and sending, to the processing circuitry by the storage, a\nnotification, when it is not determined that the I/O instruction can be\nexecuted on the storage within the required time.\n\n\"Certain embodiments disclosed herein also include a system for providing\ninput/output (I/O) determinism. The system comprises: a storage; a processing\ncircuitry; and a memory, the memory containing instructions that, when\nexecuted by the processing circuitry, configure the system to: sending, by the\nprocessing circuitry to the storage, an I/O instruction and at least one\nservice level indicator, wherein the at least one service level indicator\nincludes a required time for executing the I/O instruction; determining, by\nthe storage, whether the I/O instruction can be executed on the storage within\nthe required time; and sending, to the processing circuitry by the storage, a\nnotification, when it is not determined that the I/O instruction can be\nexecuted on the storage within the required time.\"\n\nThe claims supplied by the inventors are:\n\n\"What is claimed is:\n\n\"1\\. A method for providing input/output (I/O) determinism for a server\nhosting at least a remotely accessible storage, comprising: receiving an I/O\ninstruction and at least one service level indicator from a client device,\nwherein the at least one service level indicator includes a required time for\nexecuting the I/O instruction; determining whether the I/O instruction can be\nexecuted on the storage within the required time; and sending, to the client\ndevice, a notification, when it is not determined that the I/O instruction can\nbe executed on the storage within the required time.\n\n\"2\\. The method of claim 1, further comprising: executing the I/O instruction\non the storage when it is determined that the I/O instruction can be executed\non the storage within the required time.\n\n\"3\\. A non-transitory computer readable medium having stored thereon\ninstructions for causing a processing circuitry to execute the method\naccording to claim 1.\n\n\"4\\. A system for providing input/output (I/O) determinism, comprising: a\nstorage; a processing circuitry; and a memory, the memory containing\ninstructions that, when executed by the processing circuitry, configure the\nsystem to: receive an I/O instruction and at least one service level indicator\nfrom a client device, wherein the at least one service level indicator\nincludes a required time for executing the I/O instruction; determine whether\nthe I/O instruction can be executed on the storage within the required time;\nand send, to the client device, a notification, when it is not determined that\nthe I/O instruction can be executed on the storage within the required time.\n\n\"5\\. The system of claim 4, wherein the system is further configured to:\nexecute the I/O instruction on the storage when it is determined that the I/O\ninstruction can be executed on the storage within the required time.\n\n\"6\\. A method for providing input/output (I/O) determinism for a server\nhosting at least a storage, the server including a processing circuitry,\ncomprising: sending, by the processing circuitry to the storage, an I/O\ninstruction and at least one service level indicator, wherein the at least one\nservice level indicator includes a required time for executing the I/O\ninstruction; determining, by the storage, whether the I/O instruction can be\nexecuted on the storage within the required time; and sending, to the\nprocessing circuitry by the storage, a notification, when it is not determined\nthat the I/O instruction can be executed on the storage within the required\ntime.\n\n\"7\\. The method of claim 6, further comprising: executing the I/O instruction\non the storage, when it is determined that the I/O instruction can be executed\non the storage within the required time.\n\n\"8\\. The method of claim 6, further comprising: determining a first execution\ntime for executing the I/O instruction on the storage; determining a second\nexecution time for executing the I/O instruction on another storage hosted by\nthe server; and executing the I/O instruction on the storage having the lowest\nexecution time among the first execution time and the second execution time.\n\n\"9\\. A non-transitory computer readable medium having stored thereon\ninstructions for causing a processing circuitry to execute the method\naccording to claim 6.\n\n\"10\\. A system for providing input/output (I/O) determinism, comprising: a\nstorage; a processing circuitry; and a memory, the memory containing\ninstructions that, when executed by the processing circuitry, configure the\nsystem to: sending, by the processing circuitry to the storage, an I/O\ninstruction and at least one service level indicator, wherein the at least one\nservice level indicator includes a required time for executing the I/O\ninstruction; determining, by the storage, whether the I/O instruction can be\nexecuted on the storage within the required time; and sending, to the\nprocessing circuitry by the storage, a notification, when it is not determined\nthat the I/O instruction can be executed on the storage within the required\ntime.\n\n\"11\\. The system of claim 10, wherein the system is further configured to:\nexecute the I/O instruction on the storage, when it is determined that the I/O\ninstruction can be executed on the storage within the required time.\n\n\"12\\. The system of claim 10, wherein the system is further configured to:\ndetermine a first execution time for executing the I/O instruction on the\nstorage; determine a second execution time for executing the I/O instruction\non another storage hosted by the server; and execute the I/O instruction on\nthe storage having the lowest execution time among the first execution time\nand the second execution time.\"\n\nFor more information, see this patent: Romem, Yaniv; Mann, Omri; Oshri, Ofer.\nSystem And Method For Providing Input/Output Determinism Based On Required\nExecution Time. U.S. Patent Number 10,664,191, filed December 10, 2018, and\npublished online on June 8, 2020. Patent URL:\n[http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,664,191.PN.&OS=PN/10,664,191RS=PN/10,664,191](http://patft.uspto.gov/netacgi/nph-\nParser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,664,191.PN.&OS=PN/10,664,191RS=PN/10,664,191)\n\n(Our reports deliver fact-based news of research and discoveries from around\nthe world.)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [
+            "News Reporter-Staff News",
+            "Engineering Business Daily",
+            "Excelero Storage Ltd."
+        ],
+        "location": [
+            "Alexandria, Virginia",
+            "Jerusalem",
+            "Tel Aviv, Israel",
+            "U.S."
+        ],
+        "person": [],
+        "companies": [
+            "News Reporter-Staff News",
+            "Engineering Business Daily",
+            "Excelero Storage Ltd."
+        ]
+    },
+    "geoOrigin_code": "RU/us.ga.atlnta",
+    "language": "English",
+    "filename": "202006050000NEWSRX__VRT_SCNC_7C679DD6487A70F0.XML",
+    "providerName": "NewsRx.com",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Excelero Storage",
+                "relevance": 0.577331,
+                "type": "Company"
+            },
+            {
+                "count": 3,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "IL",
+                "relevance": 0.295089,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "StateOrCounty"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Yaniv",
+                "relevance": 0.294823,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.307816,
+                    "label": "positive"
+                },
+                "text": "Jerusalem",
+                "relevance": 0.280175,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "AdministrativeDivision",
+                        "City"
+                    ],
+                    "name": "Jerusalem",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Jerusalem"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Virginia",
+                "relevance": 0.253482,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "PoliticalDistrict",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "USState",
+                        "StateOrCounty"
+                    ],
+                    "name": "Virginia",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Virginia"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "News Editor",
+                "relevance": 0.25106,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Israel",
+                "relevance": 0.245447,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "FilmArtDirector",
+                        "Country"
+                    ],
+                    "name": "Israel",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Israel"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Alexandria",
+                "relevance": 0.242556,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ltd.",
+                "relevance": 0.23482,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Mann",
+                "relevance": 0.228022,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.224168,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Oshri",
+                "relevance": 0.219822,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Kfar Saba",
+                "relevance": 0.213293,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Ofer",
+                "relevance": 0.206634,
+                "type": "Person"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Business Daily \\--"
+                },
+                "sentence": " Business Daily \\-- According to news reporting originating from Alexandria,",
+                "object": {
+                    "text": "to news reporting originating from Alexandria,"
+                },
+                "action": {
+                    "verb": {
+                        "text": "According",
+                        "tense": "present"
+                    },
+                    "text": "According",
+                    "normalized": "According"
+                }
+            },
+            {
+                "subject": {
+                    "text": "December 10, 2018,"
+                },
+                "sentence": " filed on December 10, 2018, was published online on June 8, 2020.",
+                "object": {
+                    "text": "published online on June 8, 2020"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "past"
+                    },
+                    "text": "was",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The assignee for this patent, patent number 10,664,191,"
+                },
+                "sentence": " The assignee for this patent, patent number 10,664,191, is Excelero Storage",
+                "object": {
+                    "text": "Excelero Storage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Reporters"
+                },
+                "sentence": " Reporters obtained the following quote from the background information",
+                "object": {
+                    "text": "the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "past"
+                    },
+                    "text": "obtained",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "information"
+                },
+                "sentence": " information related to reading and writing of I/O instructions to more",
+                "object": {
+                    "text": "to reading"
+                },
+                "action": {
+                    "verb": {
+                        "text": "relate",
+                        "tense": "past"
+                    },
+                    "text": "related",
+                    "normalized": "relate"
+                }
+            },
+            {
+                "subject": {
+                    "text": "of I/O instructions"
+                },
+                "sentence": " information related to reading and writing of I/O instructions to more",
+                "object": {
+                    "text": "to more"
+                },
+                "action": {
+                    "verb": {
+                        "text": "write",
+                        "tense": "present"
+                    },
+                    "text": "writing",
+                    "normalized": "write"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a server"
+                },
+                "sentence": " To provide I/O determinism, a server",
+                "object": {
+                    "text": "I/O determinism"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "future"
+                    },
+                    "text": "To provide",
+                    "normalized": "To provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the server"
+                },
+                "sentence": " example, the server may require an estimated amount of time for a particular",
+                "object": {
+                    "text": "an estimated amount of time for a particular"
+                },
+                "action": {
+                    "verb": {
+                        "text": "require",
+                        "tense": "future"
+                    },
+                    "text": "may require",
+                    "normalized": "may require"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I/O instruction"
+                },
+                "sentence": " I/O instruction to be executed on a storage device.",
+                "object": {
+                    "text": "executed on a storage device"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I/O instruction"
+                },
+                "sentence": " I/O instruction to be executed on a storage device.",
+                "object": {
+                    "text": "on a storage device"
+                },
+                "action": {
+                    "verb": {
+                        "text": "execute",
+                        "tense": "past"
+                    },
+                    "text": "to be executed",
+                    "normalized": "to be execute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I/O determinism"
+                },
+                "sentence": " \"Although I/O determinism may increase efficiency of executing I/O",
+                "object": {
+                    "text": "efficiency"
+                },
+                "action": {
+                    "verb": {
+                        "text": "increase",
+                        "tense": "future"
+                    },
+                    "text": "may increase",
+                    "normalized": "may increase"
+                }
+            },
+            {
+                "subject": {
+                    "text": "I/O determinism"
+                },
+                "sentence": " \"Although I/O determinism may increase efficiency of executing I/O",
+                "object": {
+                    "text": "I/O"
+                },
+                "action": {
+                    "verb": {
+                        "text": "execute",
+                        "tense": "future"
+                    },
+                    "text": "executing",
+                    "normalized": "execute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the process"
+                },
+                "sentence": " instructions, the process requires access to information related to the",
+                "object": {
+                    "text": "access to information related to the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "require",
+                        "tense": "present"
+                    },
+                    "text": "requires",
+                    "normalized": "require"
+                }
+            },
+            {
+                "subject": {
+                    "text": "share. Thus, implementation of I/O determinism"
+                },
+                "sentence": " share. Thus, implementation of I/O determinism may not always be practical.",
+                "object": {
+                    "text": "practical"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future",
+                        "negated": true
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "NewsRx editors"
+                },
+                "sentence": " In addition to obtaining background information on this patent, NewsRx editors",
+                "object": {
+                    "text": "background information on this patent"
+                },
+                "action": {
+                    "verb": {
+                        "text": "obtain",
+                        "tense": "future"
+                    },
+                    "text": "obtaining",
+                    "normalized": "obtain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "to provide a basic understanding of"
+                },
+                "sentence": " provided for the convenience of the reader to provide a basic understanding of",
+                "object": {
+                    "text": "for the convenience of the reader"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "past"
+                    },
+                    "text": "provided",
+                    "normalized": "provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the reader"
+                },
+                "sentence": " provided for the convenience of the reader to provide a basic understanding of",
+                "object": {
+                    "text": "a basic understanding of"
+                },
+                "action": {
+                    "verb": {
+                        "text": "provide",
+                        "tense": "future"
+                    },
+                    "text": "to provide",
+                    "normalized": "to provide"
+                }
+            },
+            {
+                "subject": {
+                    "text": "such embodiments"
+                },
+                "sentence": " such embodiments and does not wholly define the breadth of the disclosure.",
+                "object": {
+                    "text": "not wholly define the breadth of the disclosure"
+                },
+                "action": {
+                    "verb": {
+                        "text": "do",
+                        "tense": "present"
+                    },
+                    "text": "does",
+                    "normalized": "do"
+                }
+            },
+            {
+                "subject": {
+                    "text": "such embodiments"
+                },
+                "sentence": " such embodiments and does not wholly define the breadth of the disclosure.",
+                "object": {
+                    "text": "the breadth of the disclosure"
+                },
+                "action": {
+                    "verb": {
+                        "text": "define",
+                        "tense": "present",
+                        "negated": true
+                    },
+                    "text": "define",
+                    "normalized": "define"
+                }
+            },
+            {
+                "subject": {
+                    "text": "This summary"
+                },
+                "sentence": " This summary is not an extensive overview of all contemplated embodiments, and",
+                "object": {
+                    "text": "not an extensive overview of all contemplated embodiments"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the more detailed description"
+                },
+                "sentence": " prelude to the more detailed description that is presented later.",
+                "object": {
+                    "text": "presented later"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the more detailed description"
+                },
+                "sentence": " prelude to the more detailed description that is presented later.",
+                "action": {
+                    "verb": {
+                        "text": "present",
+                        "tense": "past"
+                    },
+                    "text": "is presented",
+                    "normalized": "be present"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a method"
+                },
+                "sentence": " \"Certain embodiments disclosed herein include a method for providing",
+                "object": {
+                    "text": "Certain embodiments disclosed herein"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "include",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "The method"
+                },
+                "sentence": " The method comprises receiving an I/O instruction and at",
+                "object": {
+                    "text": "an I/O instruction"
+                },
+                "action": {
+                    "verb": {
+                        "text": "comprise",
+                        "tense": "present"
+                    },
+                    "text": "comprises receiving",
+                    "normalized": "comprise receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a required time for executing the I/O"
+                },
+                "sentence": " one service level indicator includes a required time for executing the I/O",
+                "object": {
+                    "text": "one service level indicator"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the I/O instruction"
+                },
+                "sentence": " instruction; determining whether the I/O instruction can be executed on the",
+                "object": {
+                    "text": "executed on the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the I/O instruction"
+                },
+                "sentence": " instruction; determining whether the I/O instruction can be executed on the",
+                "object": {
+                    "text": "on the"
+                },
+                "action": {
+                    "verb": {
+                        "text": "execute",
+                        "tense": "future"
+                    },
+                    "text": "can be executed",
+                    "normalized": "can be execute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a system"
+                },
+                "sentence": " \"Certain embodiments disclosed herein also include a system for providing",
+                "object": {
+                    "text": "Certain embodiments disclosed herein"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "include",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the memory"
+                },
+                "sentence": " circuitry; and a memory, the memory containing instructions that, when",
+                "object": {
+                    "text": "instructions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "contain",
+                        "tense": "present"
+                    },
+                    "text": "containing",
+                    "normalized": "contain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a required time"
+                },
+                "sentence": " wherein the at least one service level indicator includes a required time for",
+                "object": {
+                    "text": "wherein the at least one service level indicator"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "that the I/O instruction can"
+                },
+                "sentence": " device, a notification, when it is not determined that the I/O instruction can",
+                "object": {
+                    "text": "not determined"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a method"
+                },
+                "sentence": " \"Certain embodiments disclosed herein also include a method for providing",
+                "object": {
+                    "text": "Certain embodiments disclosed herein"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "include",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a server"
+                },
+                "sentence": " input/output (I/O) determinism for a server hosting at least a storage, the",
+                "action": {
+                    "verb": {
+                        "text": "host",
+                        "tense": "present"
+                    },
+                    "text": "hosting",
+                    "normalized": "host"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a processing circuitry"
+                },
+                "sentence": " server including a processing circuitry.",
+                "object": {
+                    "text": "server"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "including",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the I/O instruction"
+                },
+                "sentence": " the storage, whether the I/O instruction can be executed on the storage within",
+                "object": {
+                    "text": "executed on the storage within"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the I/O instruction"
+                },
+                "sentence": " the storage, whether the I/O instruction can be executed on the storage within",
+                "object": {
+                    "text": "on the storage within"
+                },
+                "action": {
+                    "verb": {
+                        "text": "execute",
+                        "tense": "future"
+                    },
+                    "text": "can be executed",
+                    "normalized": "can be execute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a system"
+                },
+                "sentence": " \"Certain embodiments disclosed herein also include a system for providing",
+                "object": {
+                    "text": "Certain embodiments disclosed herein"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "include",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the memory"
+                },
+                "sentence": " circuitry; and a memory, the memory containing instructions that, when",
+                "object": {
+                    "text": "instructions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "contain",
+                        "tense": "present"
+                    },
+                    "text": "containing",
+                    "normalized": "contain"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the I/O instruction"
+                },
+                "sentence": " the storage, whether the I/O instruction can be executed on the storage within",
+                "object": {
+                    "text": "executed on the storage within"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the I/O instruction"
+                },
+                "sentence": " the storage, whether the I/O instruction can be executed on the storage within",
+                "object": {
+                    "text": "on the storage within"
+                },
+                "action": {
+                    "verb": {
+                        "text": "execute",
+                        "tense": "future"
+                    },
+                    "text": "can be executed",
+                    "normalized": "can be execute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the inventors"
+                },
+                "sentence": " The claims supplied by the inventors are:",
+                "object": {
+                    "text": "The claims"
+                },
+                "action": {
+                    "verb": {
+                        "text": "supply",
+                        "tense": "past"
+                    },
+                    "text": "supplied",
+                    "normalized": "supply"
+                }
+            },
+            {
+                "subject": {
+                    "text": "hosting at least a remotely accessible storage"
+                },
+                "sentence": " hosting at least a remotely accessible storage, comprising: receiving an I/O",
+                "object": {
+                    "text": "an I/O"
+                },
+                "action": {
+                    "verb": {
+                        "text": "receive",
+                        "tense": "present"
+                    },
+                    "text": "receiving",
+                    "normalized": "receive"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a required time"
+                },
+                "sentence": " wherein the at least one service level indicator includes a required time for",
+                "object": {
+                    "text": "wherein the at least one service level indicator"
+                },
+                "action": {
+                    "verb": {
+                        "text": "include",
+                        "tense": "present"
+                    },
+                    "text": "includes",
+                    "normalized": "include"
+                }
+            },
+            {
+                "subject": {
+                    "text": "that the I/O instruction can"
+                },
+                "sentence": " device, a notification, when it is not determined that the I/O instruction can",
+                "object": {
+                    "text": "not determined"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "3\\. A non-transitory computer readable medium"
+                },
+                "sentence": " \"3\\. A non-transitory computer readable medium having stored thereon",
+                "object": {
+                    "text": "stored thereon"
+                },
+                "action": {
+                    "verb": {
+                        "text": "have",
+                        "tense": "present"
+                    },
+                    "text": "having",
+                    "normalized": "have"
+                }
+            },
+            {
+                "subject": {
+                    "text": "instructions"
+                },
+                "sentence": " instructions for causing a processing circuitry to execute the method",
+                "object": {
+                    "text": "a processing circuitry"
+                },
+                "action": {
+                    "verb": {
+                        "text": "cause",
+                        "tense": "present"
+                    },
+                    "text": "causing",
+                    "normalized": "cause"
+                }
+            },
+            {
+                "subject": {
+                    "text": "a processing circuitry"
+                },
+                "sentence": " instructions for causing a processing circuitry to execute the method",
+                "object": {
+                    "text": "the method"
+                },
+                "action": {
+                    "verb": {
+                        "text": "execute",
+                        "tense": "future"
+                    },
+                    "text": "to execute",
+                    "normalized": "to execute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "by the processing circuitry"
+                },
+                "sentence": " instructions that, when executed by the processing circuitry, configure the",
+                "object": {
+                    "text": "instructions"
+                },
+                "action": {
+                    "verb": {
+                        "text": "execute",
+                        "tense": "past"
+                    },
+                    "text": "executed",
+                    "normalized": "execute"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the I/O instruction"
+                },
+                "sentence": " the I/O instruction can be executed on the storage within the required time;",
+                "object": {
+                    "text": "executed on the storage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "future"
+                    },
+                    "text": "be",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "the I/O instruction"
+                },
+                "sentence": " the I/O instruction can be executed on the storage within the required time;",
+                "object": {
+                    "text": "on the storage"
+                },
+                "action": {
+                    "verb": {
+                        "text": "execute",
+                        "tense": "future"
+                    },
+                    "text": "can be executed",
+                    "normalized": "can be execute"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.978325,
+                "label": "/technology and computing/hardware/computer peripherals"
+            },
+            {
+                "score": 0.978208,
+                "label": "/technology and computing/operating systems"
+            },
+            {
+                "score": 0.974003,
+                "label": "/technology and computing/hardware/computer"
+            }
+        ],
+        "relations": [
+            {
+                "type": "managerOf",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering Business Daily \\-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv (Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL), filed on December 10, 2018, was published online on June 8, 2020.",
+                "score": 0.499015,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Staff News",
+                        "location": [
+                            43,
+                            53
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Staff News",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "The assignee for this patent, patent number 10,664,191, is Excelero Storage Ltd. (Tel Aviv, Israel).",
+                "score": 0.98916,
+                "arguments": [
+                    {
+                        "text": "Tel Aviv",
+                        "location": [
+                            447,
+                            455
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Tel Aviv"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Israel",
+                        "location": [
+                            457,
+                            463
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Israel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Reporters obtained the following quote from the background information supplied by the inventors: \"Input/output (I/O) determinism involves utilizing information related to reading and writing of I/O instructions to more efficiently implement such instructions.",
+                "score": 0.457712,
+                "arguments": [
+                    {
+                        "text": "Reporters",
+                        "location": [
+                            467,
+                            476
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporters"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "quote",
+                        "location": [
+                            500,
+                            505
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "quote"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "In addition to obtaining background information on this patent, NewsRx editors also obtained the inventors' summary information for this patent: \"A summary of several example embodiments of the disclosure follows.",
+                "score": 0.839796,
+                "arguments": [
+                    {
+                        "text": "editors",
+                        "location": [
+                            1659,
+                            1666
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "editors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            1652,
+                            1658
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The method of claim 1, further comprising: executing the I/O instruction on the storage when it is determined that the I/O instruction can be executed on the storage within the required time.",
+                "score": 0.479845,
+                "arguments": [
+                    {
+                        "text": "I/O",
+                        "location": [
+                            6200,
+                            6203
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "I/O"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "executed",
+                        "location": [
+                            6223,
+                            6231
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "execution"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The system of claim 4, wherein the system is further configured to: execute the I/O instruction on the storage when it is determined that the I/O instruction can be executed on the storage within the required time.",
+                "score": 0.479845,
+                "arguments": [
+                    {
+                        "text": "I/O",
+                        "location": [
+                            7264,
+                            7267
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "I/O"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "executed",
+                        "location": [
+                            7287,
+                            7295
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "execution"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The method of claim 6, further comprising: executing the I/O instruction on the storage, when it is determined that the I/O instruction can be executed on the storage within the required time.",
+                "score": 0.479845,
+                "arguments": [
+                    {
+                        "text": "I/O",
+                        "location": [
+                            8139,
+                            8142
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "I/O"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "executed",
+                        "location": [
+                            8162,
+                            8170
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "execution"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "The system of claim 10, wherein the system is further configured to: execute the I/O instruction on the storage, when it is determined that the I/O instruction can be executed on the storage within the required time.",
+                "score": 0.479845,
+                "arguments": [
+                    {
+                        "text": "I/O",
+                        "location": [
+                            9664,
+                            9667
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "I/O"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "executed",
+                        "location": [
+                            9687,
+                            9695
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "execution"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "U.S. Patent Number 10,664,191, filed December 10, 2018, and published online on June 8, 2020.",
+                "score": 0.983032,
+                "arguments": [
+                    {
+                        "text": "December 10, 2018",
+                        "location": [
+                            10355,
+                            10372
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "December 10, 2018"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "filed",
+                        "location": [
+                            10349,
+                            10354
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "filed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering Business Daily \\-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv (Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL), filed on December 10, 2018, was published online on June 8, 2020.",
+                "score": 0.730781,
+                "arguments": [
+                    {
+                        "text": "Editor",
+                        "location": [
+                            54,
+                            60
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reporter"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Engineering\nBusiness Daily \\",
+                        "location": [
+                            64,
+                            92
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Engineering\nBusiness Daily \\",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering Business Daily \\-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv (Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL), filed on December 10, 2018, was published online on June 8, 2020.",
+                "score": 0.985948,
+                "arguments": [
+                    {
+                        "text": "Alexandria",
+                        "location": [
+                            140,
+                            150
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Alexandria"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Virginia",
+                        "location": [
+                            152,
+                            160
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Virginia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering Business Daily \\-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv (Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL), filed on December 10, 2018, was published online on June 8, 2020.",
+                "score": 0.777769,
+                "arguments": [
+                    {
+                        "text": "journalists",
+                        "location": [
+                            172,
+                            183
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "journalists"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "NewsRx",
+                        "location": [
+                            165,
+                            171
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "NewsRx",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Commercial"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering Business Daily \\-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv (Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL), filed on December 10, 2018, was published online on June 8, 2020.",
+                "score": 0.870385,
+                "arguments": [
+                    {
+                        "text": "Yaniv",
+                        "location": [
+                            218,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Yaniv"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "inventors",
+                        "location": [
+                            201,
+                            210
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inventors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOfMany",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering Business Daily \\-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv (Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL), filed on December 10, 2018, was published online on June 8, 2020.",
+                "score": 0.631647,
+                "arguments": [
+                    {
+                        "text": "Mann",
+                        "location": [
+                            241,
+                            245
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Mann"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "inventors",
+                        "location": [
+                            201,
+                            210
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "inventors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering Business Daily \\-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv (Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL), filed on December 10, 2018, was published online on June 8, 2020.",
+                "score": 0.651425,
+                "arguments": [
+                    {
+                        "text": "Yaniv",
+                        "location": [
+                            218,
+                            223
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Yaniv"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jerusalem",
+                        "location": [
+                            225,
+                            234
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jerusalem"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering Business Daily \\-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv (Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL), filed on December 10, 2018, was published online on June 8, 2020.",
+                "score": 0.887124,
+                "arguments": [
+                    {
+                        "text": "Jerusalem",
+                        "location": [
+                            225,
+                            234
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jerusalem"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "IL",
+                        "location": [
+                            236,
+                            238
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "IL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering Business Daily \\-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv (Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL), filed on December 10, 2018, was published online on June 8, 2020.",
+                "score": 0.780684,
+                "arguments": [
+                    {
+                        "text": "Jerusalem",
+                        "location": [
+                            253,
+                            262
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jerusalem"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "IL",
+                        "location": [
+                            264,
+                            266
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "IL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "2020 JUN 05 (NewsRx) -- By a News Reporter-Staff News Editor at Engineering Business Daily \\-- According to news reporting originating from Alexandria, Virginia, by NewsRx journalists, a patent by the inventors Romem, Yaniv (Jerusalem, IL); Mann, Omri (Jerusalem, IL); Oshri, Ofer (Kfar Saba, IL), filed on December 10, 2018, was published online on June 8, 2020.",
+                "score": 0.751784,
+                "arguments": [
+                    {
+                        "text": "Omri",
+                        "location": [
+                            247,
+                            251
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Omri"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Jerusalem",
+                        "location": [
+                            253,
+                            262
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Jerusalem"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Excelero Storage",
+                "relevance": 0.661042,
+                "count": 1
+            },
+            {
+                "text": "required time",
+                "relevance": 0.651737,
+                "count": 26
+            },
+            {
+                "text": "service level indicator",
+                "relevance": 0.632392,
+                "count": 16
+            },
+            {
+                "text": "example embodiments of the disclosure",
+                "relevance": 0.613994,
+                "count": 1
+            },
+            {
+                "text": "background information",
+                "relevance": 0.606955,
+                "count": 2
+            },
+            {
+                "text": "convenience of the reader",
+                "relevance": 0.606836,
+                "count": 1
+            },
+            {
+                "text": "such instructions",
+                "relevance": 0.605791,
+                "count": 1
+            },
+            {
+                "text": "processing circuitry",
+                "relevance": 0.597358,
+                "count": 18
+            },
+            {
+                "text": "estimated amount of time",
+                "relevance": 0.588983,
+                "count": 1
+            },
+            {
+                "text": "knowledge of the particular architecture of a storage device",
+                "relevance": 0.579951,
+                "count": 1
+            },
+            {
+                "text": "News Reporter-Staff News Editor",
+                "relevance": 0.574489,
+                "count": 1
+            },
+            {
+                "text": "storage device",
+                "relevance": 0.568593,
+                "count": 3
+            },
+            {
+                "text": "instructions",
+                "relevance": 0.553768,
+                "count": 6
+            },
+            {
+                "text": "such embodiments",
+                "relevance": 0.543273,
+                "count": 1
+            },
+            {
+                "text": "inventors' summary information",
+                "relevance": 0.54321,
+                "count": 1
+            },
+            {
+                "text": "patent number",
+                "relevance": 0.542668,
+                "count": 1
+            },
+            {
+                "text": "detailed description",
+                "relevance": 0.540261,
+                "count": 1
+            },
+            {
+                "text": "following quote",
+                "relevance": 0.534265,
+                "count": 1
+            },
+            {
+                "text": "inventors Romem",
+                "relevance": 0.53413,
+                "count": 1
+            },
+            {
+                "text": "Tel Aviv",
+                "relevance": 0.531033,
+                "count": 1
+            },
+            {
+                "text": "extensive overview of all contemplated embodiments",
+                "relevance": 0.529454,
+                "count": 1
+            },
+            {
+                "text": "method",
+                "relevance": 0.52854,
+                "count": 9
+            },
+            {
+                "text": "sole purpose",
+                "relevance": 0.527343,
+                "count": 1
+            },
+            {
+                "text": "transitory computer",
+                "relevance": 0.527096,
+                "count": 2
+            },
+            {
+                "text": "first execution time",
+                "relevance": 0.525776,
+                "count": 3
+            },
+            {
+                "text": "Kfar Saba",
+                "relevance": 0.523361,
+                "count": 1
+            },
+            {
+                "text": "patent",
+                "relevance": 0.520883,
+                "count": 5
+            },
+            {
+                "text": "method of claim",
+                "relevance": 0.520365,
+                "count": 3
+            },
+            {
+                "text": "instruction",
+                "relevance": 0.517985,
+                "count": 40
+            },
+            {
+                "text": "claims",
+                "relevance": 0.517937,
+                "count": 1
+            },
+            {
+                "text": "simplified form",
+                "relevance": 0.51629,
+                "count": 1
+            },
+            {
+                "text": "basic understanding",
+                "relevance": 0.51629,
+                "count": 1
+            },
+            {
+                "text": "Input",
+                "relevance": 0.515531,
+                "count": 5
+            },
+            {
+                "text": "Parser",
+                "relevance": 0.514528,
+                "count": 2
+            },
+            {
+                "text": "NewsRx journalists",
+                "relevance": 0.514106,
+                "count": 1
+            },
+            {
+                "text": "determinism",
+                "relevance": 0.514004,
+                "count": 12
+            },
+            {
+                "text": "convenience",
+                "relevance": 0.513313,
+                "count": 1
+            },
+            {
+                "text": "critical elements of all embodiments",
+                "relevance": 0.512361,
+                "count": 1
+            },
+            {
+                "text": "addition",
+                "relevance": 0.512245,
+                "count": 1
+            },
+            {
+                "text": "prelude",
+                "relevance": 0.512219,
+                "count": 1
+            },
+            {
+                "text": "process",
+                "relevance": 0.512203,
+                "count": 1
+            },
+            {
+                "text": "output",
+                "relevance": 0.51157,
+                "count": 9
+            },
+            {
+                "text": "reports",
+                "relevance": 0.511284,
+                "count": 1
+            },
+            {
+                "text": "server",
+                "relevance": 0.511031,
+                "count": 10
+            },
+            {
+                "text": "information",
+                "relevance": 0.510196,
+                "count": 4
+            },
+            {
+                "text": "Jerusalem",
+                "relevance": 0.509807,
+                "count": 2
+            },
+            {
+                "text": "JUN",
+                "relevance": 0.509804,
+                "count": 1
+            },
+            {
+                "text": "term",
+                "relevance": 0.509656,
+                "count": 1
+            },
+            {
+                "text": "IL",
+                "relevance": 0.509538,
+                "count": 3
+            },
+            {
+                "text": "Virginia",
+                "relevance": 0.5086,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Weekly",
+    "extracted_metadata": {
+        "sha1": "574bc629b3ab65f8f6fec78565882631dff29294",
+        "filename": "202006050000NEWSRX__VRT_SCNC_7C679DD6487A70F0.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T00:00:00-04:00",
+    "title": "Patent Issued for System And Method For Providing Input/Output Determinism Based On Required Execution Time (USPTO 10,664,191): Excelero Storage Ltd.",
+    "html": "<p>2020 JUN 05 (NewsRx) -- By a <org>News Reporter-Staff News</org> Editor at <org>Engineering Business Daily</org> -- According to news reporting originating from <location idsrc=\"xmltag.org\" value=\"LU/us.va.alxdra\">Alexandria, Virginia</location>, by NewsRx journalists, a patent by the inventors Romem, Yaniv (<location idsrc=\"xmltag.org\" value=\"LU/il..jerusl\">Jerusalem</location>, IL); Mann, Omri (<location idsrc=\"xmltag.org\" value=\"LU/il..jerusl\">Jerusalem</location>, IL); Oshri, Ofer (Kfar Saba, IL), filed on <chron>December 10, 2018</chron>, was published online on <chron>June 8, 2020</chron>.</p>\n<p>The assignee for this patent, patent number 10,664,191, is <org>Excelero Storage Ltd.</org> (<location idsrc=\"xmltag.org\" value=\"LU/il..telavv\">Tel Aviv, Israel</location>).</p>\n<p>Reporters obtained the following quote from the background information supplied by the inventors: &#8220;Input/output (I/O) determinism involves utilizing information related to reading and writing of I/O instructions to more efficiently implement such instructions. To provide I/O determinism, a server may require knowledge of the particular architecture of a storage device. For example, the server may require an estimated amount of time for a particular I/O instruction to be executed on a storage device. If the instruction will take too long to execute on the storage device, it may be faster to send the instruction to another storage device.</p>\n<p>&#8220;Although I/O determinism may increase efficiency of executing I/O instructions, the process requires access to information related to the storage for which I/O instructions are to be executed. This information may include information that the manufacturer of the storage may not desire to share. Thus, implementation of I/O determinism may not always be practical.</p>\n<p>&#8220;It would therefore be advantageous to provide a solution that would overcome the challenges noted above.&#8221;</p>\n<p>In addition to obtaining background information on this patent, NewsRx editors also obtained the inventors&#8217; summary information for this patent: &#8220;A summary of several example embodiments of the disclosure follows. This summary is provided for the convenience of the reader to provide a basic understanding of such embodiments and does not wholly define the breadth of the disclosure. This summary is not an extensive overview of all contemplated embodiments, and is intended to neither identify key or critical elements of all embodiments nor to delineate the scope of any or all aspects. Its sole purpose is to present some concepts of one or more embodiments in a simplified form as a prelude to the more detailed description that is presented later. For convenience, the term &#8216;some embodiments&#8217; or &#8216;certain embodiments&#8217; may be used herein to refer to a single embodiment or multiple embodiments of the disclosure.</p>\n<p>&#8220;Certain embodiments disclosed herein include a method for providing input/output (I/O) determinism for a server hosting at least a remotely accessible storage. The method comprises receiving an I/O instruction and at least one service level indicator from a client device, wherein the at least one service level indicator includes a required time for executing the I/O instruction; determining whether the I/O instruction can be executed on the storage within the required time; and sending, to the client device, a notification, when it is not determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;Certain embodiments disclosed herein also include a system for providing input/output (I/O) determinism. The system comprises: a storage; a processing circuitry; and a memory, the memory containing instructions that, when executed by the processing circuitry, configure the system to: receive an I/O instruction and at least one service level indicator from a client device, wherein the at least one service level indicator includes a required time for executing the I/O instruction; determine whether the I/O instruction can be executed on the storage within the required time; and send, to the client device, a notification, when it is not determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;Certain embodiments disclosed herein also include a method for providing input/output (I/O) determinism for a server hosting at least a storage, the server including a processing circuitry. The method comprises: sending, by the processing circuitry to the storage, an I/O instruction and at least one service level indicator, wherein the at least one service level indicator includes a required time for executing the I/O instruction; determining, by the storage, whether the I/O instruction can be executed on the storage within the required time; and sending, to the processing circuitry by the storage, a notification, when it is not determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;Certain embodiments disclosed herein also include a system for providing input/output (I/O) determinism. The system comprises: a storage; a processing circuitry; and a memory, the memory containing instructions that, when executed by the processing circuitry, configure the system to: sending, by the processing circuitry to the storage, an I/O instruction and at least one service level indicator, wherein the at least one service level indicator includes a required time for executing the I/O instruction; determining, by the storage, whether the I/O instruction can be executed on the storage within the required time; and sending, to the processing circuitry by the storage, a notification, when it is not determined that the I/O instruction can be executed on the storage within the required time.&#8221;</p>\n<p>The claims supplied by the inventors are:</p>\n<p>&#8220;What is claimed is:</p>\n<p>&#8220;1. A method for providing input/output (I/O) determinism for a server hosting at least a remotely accessible storage, comprising: receiving an I/O instruction and at least one service level indicator from a client device, wherein the at least one service level indicator includes a required time for executing the I/O instruction; determining whether the I/O instruction can be executed on the storage within the required time; and sending, to the client device, a notification, when it is not determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;2. The method of claim 1, further comprising: executing the I/O instruction on the storage when it is determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;3. A non-transitory computer readable medium having stored thereon instructions for causing a processing circuitry to execute the method according to claim 1.</p>\n<p>&#8220;4. A system for providing input/output (I/O) determinism, comprising: a storage; a processing circuitry; and a memory, the memory containing instructions that, when executed by the processing circuitry, configure the system to: receive an I/O instruction and at least one service level indicator from a client device, wherein the at least one service level indicator includes a required time for executing the I/O instruction; determine whether the I/O instruction can be executed on the storage within the required time; and send, to the client device, a notification, when it is not determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;5. The system of claim 4, wherein the system is further configured to: execute the I/O instruction on the storage when it is determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;6. A method for providing input/output (I/O) determinism for a server hosting at least a storage, the server including a processing circuitry, comprising: sending, by the processing circuitry to the storage, an I/O instruction and at least one service level indicator, wherein the at least one service level indicator includes a required time for executing the I/O instruction; determining, by the storage, whether the I/O instruction can be executed on the storage within the required time; and sending, to the processing circuitry by the storage, a notification, when it is not determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;7. The method of claim 6, further comprising: executing the I/O instruction on the storage, when it is determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;8. The method of claim 6, further comprising: determining a first execution time for executing the I/O instruction on the storage; determining a second execution time for executing the I/O instruction on another storage hosted by the server; and executing the I/O instruction on the storage having the lowest execution time among the first execution time and the second execution time.</p>\n<p>&#8220;9. A non-transitory computer readable medium having stored thereon instructions for causing a processing circuitry to execute the method according to claim 6.</p>\n<p>&#8220;10. A system for providing input/output (I/O) determinism, comprising: a storage; a processing circuitry; and a memory, the memory containing instructions that, when executed by the processing circuitry, configure the system to: sending, by the processing circuitry to the storage, an I/O instruction and at least one service level indicator, wherein the at least one service level indicator includes a required time for executing the I/O instruction; determining, by the storage, whether the I/O instruction can be executed on the storage within the required time; and sending, to the processing circuitry by the storage, a notification, when it is not determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;11. The system of claim 10, wherein the system is further configured to: execute the I/O instruction on the storage, when it is determined that the I/O instruction can be executed on the storage within the required time.</p>\n<p>&#8220;12. The system of claim 10, wherein the system is further configured to: determine a first execution time for executing the I/O instruction on the storage; determine a second execution time for executing the I/O instruction on another storage hosted by the server; and execute the I/O instruction on the storage having the lowest execution time among the first execution time and the second execution time.&#8221;</p>\n<p>For more information, see this patent: Romem, Yaniv; Mann, Omri; Oshri, Ofer. System And Method For Providing Input/Output Determinism Based On Required Execution Time. <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> Patent Number 10,664,191, filed <chron>December 10, 2018</chron>, and published online on <chron>June 8, 2020</chron>. Patent URL: <a href=\"http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,664,191.PN.&amp;OS=PN/10,664,191RS=PN/10,664,191\" target=\"_blank\">http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,664,191.PN.&amp;OS=PN/10,664,191RS=PN/10,664,191</a></p>\n<p />\n<p class=\"shirttail\">(Our reports deliver fact-based news of research and discoveries from around the world.)</p>\n<p />",
+    "geoFocus": [
+        [
+            "GC/us",
+            "United States"
+        ]
+    ]
+}

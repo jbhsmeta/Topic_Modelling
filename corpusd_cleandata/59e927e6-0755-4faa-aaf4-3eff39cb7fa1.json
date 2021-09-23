@@ -1,0 +1,360 @@
+{
+    "id": "59e927e6-0755-4faa-aaf4-3eff39cb7fa1",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "12990376468828438552",
+    "description": "Pergolas in the Schonau/ Los City Park- demolition and replacement more info: Location: GERMANY BidDate: 6/ 18/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: City of Chemnitz, legal office, central registry Tendering Authority Address: 09028 Chemnitz Saxony Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Pergolas in the Schonau / Los City Park \\- demolition and replacement more\ninfo : Location : GERMANY BidDate : 6/18/2020 Tender Country : GERMANY Tender\nType : Tenders Tendering Authority : City of Chemnitz, legal office, central\nregistry Tendering Authority Address : 09028 Chemnitz Saxony Financier : Self\nFunded Tearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Los City Park",
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_29638_176210524_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.901336,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Chemnitz Saxony Financier",
+                "relevance": 0.88464,
+                "type": "Company"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Chemnitz",
+                "relevance": 0.539879,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GermanUrbanDistrict",
+                        "City"
+                    ],
+                    "name": "Chemnitz",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Chemnitz"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": -0.681099,
+                    "label": "negative"
+                },
+                "text": "Los City Park",
+                "relevance": 0.517863,
+                "type": "Facility"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.370718,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.504441,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "GovernmentalJurisdiction",
+                        "Country"
+                    ],
+                    "name": "East Germany",
+                    "dbpedia_resource": "http://dbpedia.org/resource/East_Germany"
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.831452,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.614596,
+                "label": "/society/unrest and war"
+            }
+        ],
+        "relations": [
+            {
+                "type": "locatedAt",
+                "sentence": "Pergolas in the Schonau / Los City Park \\- demolition and replacement more info : Location : GERMANY BidDate : 6/18/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Chemnitz, legal office, central registry Tendering Authority Address : 09028 Chemnitz Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.800196,
+                "arguments": [
+                    {
+                        "text": "Schonau",
+                        "location": [
+                            16,
+                            23
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Schonau"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Los City Park",
+                        "location": [
+                            26,
+                            39
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Los City Park"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Pergolas in the Schonau / Los City Park \\- demolition and replacement more info : Location : GERMANY BidDate : 6/18/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Chemnitz, legal office, central registry Tendering Authority Address : 09028 Chemnitz Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.591602,
+                "arguments": [
+                    {
+                        "text": "6/18/2020 Tender",
+                        "location": [
+                            111,
+                            127
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/18/2020 Tender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender\nType : Tenders Tendering Authority : City of Chemnitz",
+                        "location": [
+                            146,
+                            206
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender\nType : Tenders Tendering Authority : City of Chemnitz"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Pergolas in the Schonau / Los City Park \\- demolition and replacement more info : Location : GERMANY BidDate : 6/18/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : City of Chemnitz, legal office, central registry Tendering Authority Address : 09028 Chemnitz Saxony Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.524835,
+                "arguments": [
+                    {
+                        "text": "Financier",
+                        "location": [
+                            291,
+                            300
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Financier"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Chemnitz Saxony",
+                        "location": [
+                            275,
+                            290
+                        ],
+                        "entities": [
+                            {
+                                "type": "Facility",
+                                "text": "Chemnitz Saxony"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.909403,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.765971,
+                "count": 1
+            },
+            {
+                "text": "Los City Park",
+                "relevance": 0.719053,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.619124,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.576068,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.570754,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.570174,
+                "count": 1
+            },
+            {
+                "text": "City of Chemnitz",
+                "relevance": 0.569165,
+                "count": 1
+            },
+            {
+                "text": "Authority Address",
+                "relevance": 0.532691,
+                "count": 1
+            },
+            {
+                "text": "demolition",
+                "relevance": 0.530854,
+                "count": 1
+            },
+            {
+                "text": "replacement",
+                "relevance": 0.525457,
+                "count": 1
+            },
+            {
+                "text": "Tearn Money",
+                "relevance": 0.514537,
+                "count": 1
+            },
+            {
+                "text": "Chemnitz Saxony Financier",
+                "relevance": 0.482975,
+                "count": 1
+            },
+            {
+                "text": "legal office",
+                "relevance": 0.480041,
+                "count": 1
+            },
+            {
+                "text": "Pergolas",
+                "relevance": 0.394224,
+                "count": 1
+            },
+            {
+                "text": "Schonau",
+                "relevance": 0.34917,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "9e9946be9cce3c6e5364bdd653c4c04f7769b461",
+        "filename": "202006050210ALBA____ME_NA_NE_29638_176210524_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Pergolas in the Schonau / Los City Park - demolition and replacement [TenderNews.com - Tenders (India)]",
+    "html": "<p>Pergolas in the Schonau / <location>Los City Park</location> - demolition and replacement more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/18/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : City of Chemnitz, legal office, central registry\nTendering Authority Address : 09028 Chemnitz Saxony\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

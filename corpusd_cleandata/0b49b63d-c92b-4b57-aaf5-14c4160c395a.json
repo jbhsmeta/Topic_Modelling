@@ -1,0 +1,284 @@
+{
+    "id": "0b49b63d-c92b-4b57-aaf5-14c4160c395a",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "(c)  2020, TenderNews.com Provided by SyndiGate Media Inc. (Syndigate.info).",
+    "geoOrigin": "New Delhi, India",
+    "sourceType": "General Newswire",
+    "source": "TenderNews.com - Tenders (India)",
+    "corpus_document_id": "27444674442877309899",
+    "description": "Repair of a discharge route more info: Location: GERMANY BidDate: 6/ 17/ 2020 Tender Country: GERMANY Tender Type: Tenders Tendering Authority: State enterprise Sachsenforst- forest district Chemnitz Tendering Authority Address: Chemnitz Forest DistrictRevier Rossau09648 Mittweida Financier: Self Funded Tearn Money: Not Specified.",
+    "serviceName": "Middle East & North African Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/eur",
+            "relevance_score": "9",
+            "description": "Western Europe",
+            "code": "LB/weur#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/weur",
+            "relevance_score": "9",
+            "description": "Germany",
+            "code": "LC/de#9#90#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Europe",
+            "code": "LR/eur#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LU/de#9#90#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "Business and Commerce",
+    "subjectCode": [
+        {
+            "parent": "IS/pol.spec",
+            "relevance_score": "9",
+            "description": "Government Contract Solicitations",
+            "code": "IS/pol.govrfp#9#99#50",
+            "level": 2
+        },
+        {
+            "parent": "IS/spec",
+            "relevance_score": "9",
+            "description": "Structured Politics and Government Content",
+            "code": "IS/pol.spec#9#50#99",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Structured Content",
+            "code": "IS/spec#9#50#99",
+            "level": 0
+        }
+    ],
+    "text": "Repair of a discharge route more info : Location : GERMANY BidDate : 6/17/2020\nTender Country : GERMANY Tender Type : Tenders Tendering Authority : State\nenterprise Sachsenforst - forest district Chemnitz Tendering Authority Address\n: Chemnitz Forest DistrictRevier Rossau09648 Mittweida Financier : Self Funded\nTearn Money : Not Specified",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "GERMANY"
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "RU/in..newdel",
+    "language": "English",
+    "filename": "202006050210ALBA____ME_NA_NE_34206_176210803_138.151.XML",
+    "providerName": "SyndiGate Media Inc.",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Chemnitz Tendering Authority",
+                "relevance": 0.888956,
+                "type": "Organization"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Tenders Tendering Authority",
+                "relevance": 0.770938,
+                "type": "Organization"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": 0.436663,
+                    "label": "positive"
+                },
+                "text": "GERMANY",
+                "relevance": 0.400871,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Country"
+                    ]
+                }
+            }
+        ],
+        "semantic_roles": [],
+        "categories": [
+            {
+                "score": 0.80791,
+                "label": "/law, govt and politics/government/government contracting and procurement"
+            },
+            {
+                "score": 0.699862,
+                "label": "/business and industrial/agriculture and forestry/forestry"
+            },
+            {
+                "score": 0.695028,
+                "label": "/technology and computing/enterprise technology"
+            }
+        ],
+        "relations": [
+            {
+                "type": "timeOf",
+                "sentence": "Repair of a discharge route more info : Location : GERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State enterprise Sachsenforst - forest district Chemnitz Tendering Authority Address : Chemnitz Forest DistrictRevier Rossau09648 Mittweida Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.606879,
+                "arguments": [
+                    {
+                        "text": "6/17/2020\nTender",
+                        "location": [
+                            69,
+                            85
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "6/17/2020\nTender"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Tender Type : Tenders Tendering Authority : State",
+                        "location": [
+                            104,
+                            153
+                        ],
+                        "entities": [
+                            {
+                                "type": "TitleWork",
+                                "text": "Tender Type : Tenders Tendering Authority : State"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "locatedAt",
+                "sentence": "Repair of a discharge route more info : Location : GERMANY BidDate : 6/17/2020 Tender Country : GERMANY Tender Type : Tenders Tendering Authority : State enterprise Sachsenforst - forest district Chemnitz Tendering Authority Address : Chemnitz Forest DistrictRevier Rossau09648 Mittweida Financier : Self Funded Tearn Money : Not Specified",
+                "score": 0.548214,
+                "arguments": [
+                    {
+                        "text": "Chemnitz Tendering Authority Address",
+                        "location": [
+                            196,
+                            232
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "Chemnitz Tendering Authority Address"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Chemnitz Forest",
+                        "location": [
+                            235,
+                            250
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Chemnitz Forest"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "Tender Country",
+                "relevance": 0.933039,
+                "count": 1
+            },
+            {
+                "text": "Repair of a discharge route",
+                "relevance": 0.875169,
+                "count": 1
+            },
+            {
+                "text": "Tender Type",
+                "relevance": 0.732713,
+                "count": 1
+            },
+            {
+                "text": "Self Funded",
+                "relevance": 0.628164,
+                "count": 1
+            },
+            {
+                "text": "GERMANY BidDate",
+                "relevance": 0.623857,
+                "count": 1
+            },
+            {
+                "text": "Tenders",
+                "relevance": 0.555135,
+                "count": 1
+            },
+            {
+                "text": "info",
+                "relevance": 0.536314,
+                "count": 1
+            },
+            {
+                "text": "GERMANY",
+                "relevance": 0.534452,
+                "count": 1
+            },
+            {
+                "text": "Location",
+                "relevance": 0.529966,
+                "count": 1
+            },
+            {
+                "text": "Money",
+                "relevance": 0.523753,
+                "count": 1
+            },
+            {
+                "text": "Authority",
+                "relevance": 0.523753,
+                "count": 1
+            },
+            {
+                "text": "forest district Chemnitz Tendering Authority Address",
+                "relevance": 0.392162,
+                "count": 1
+            },
+            {
+                "text": "Chemnitz Forest DistrictRevier Rossau09648 Mittweida Financier",
+                "relevance": 0.35455,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "Daily",
+    "extracted_metadata": {
+        "sha1": "bfad9339c3085a0ccc02bfc5e7edeec236783af7",
+        "filename": "202006050210ALBA____ME_NA_NE_34206_176210803_138.151.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T02:10:00-04:00",
+    "title": "Repair of a discharge route [TenderNews.com - Tenders (India)]",
+    "html": "<p>Repair of a discharge route more info :  Location : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nBidDate : <chron>6/17/2020</chron>\nTender Country : <location idsrc=\"xmltag.org\" value=\"LC/de\">GERMANY</location>\nTender Type : <org>Tenders\nTendering Authority</org> : State enterprise Sachsenforst - forest district Chemnitz\nTendering Authority Address : Chemnitz Forest DistrictRevier Rossau09648 Mittweida\nFinancier : Self Funded\n<person>Tearn Money</person> : Not Specified</p>",
+    "geoFocus": [
+        [
+            "GC/in",
+            "India"
+        ]
+    ]
+}

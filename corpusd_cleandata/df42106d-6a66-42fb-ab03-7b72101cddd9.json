@@ -1,0 +1,663 @@
+{
+    "id": "df42106d-6a66-42fb-ab03-7b72101cddd9",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "87991754875745873534",
+    "description": "County prosecutors are seeking to prohibit Reynaldo Mercado from claiming to a jury that the brutal death of Fred Boote was the result of self-defense. Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration with his 15- year-old girlfriend, Louisa Reyes, who is being tried as an",
+    "serviceName": "Newspapers",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#50#90",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Life and Society",
+            "code": "IS/lifesoc#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/lifesoc",
+            "relevance_score": "9",
+            "description": "Crime",
+            "code": "IS/lifesoc.crime#9#99#61",
+            "level": 1
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Politics and Government",
+            "code": "IS/pol#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/pol",
+            "relevance_score": "9",
+            "description": "Judicial System",
+            "code": "IS/pol.judicial#9#99#50",
+            "level": 1
+        }
+    ],
+    "text": "County prosecutors are seeking to prohibit Reynaldo Mercado from claiming to a\njury that the brutal death of Fred Boote was the result of self-defense.\nMercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration\nwith his 15-year-old girlfriend, Louisa Reyes, who is being tried as an adult\nin the case.",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "Wilkes-Barre"
+        ],
+        "person": [
+            "Reynaldo Mercado",
+            "Fred Boote",
+            "Louisa Reyes"
+        ],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050422AMSPIDERNEWS_____CITVOI01_7F760ACDED72E2D12A1BE2427D4B5FD9_3.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.548777,
+                    "label": "negative"
+                },
+                "text": "Reynaldo Mercado",
+                "relevance": 0.869096,
+                "type": "Person"
+            },
+            {
+                "count": 2,
+                "sentiment": {
+                    "score": -0.483082,
+                    "label": "negative"
+                },
+                "text": "Fred Boote",
+                "relevance": 0.791113,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Louisa Reyes",
+                "relevance": 0.387274,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Wilkes-Barre",
+                "relevance": 0.258011,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "City"
+                    ],
+                    "name": "Wilkes-Barre, Pennsylvania",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Wilkes-Barre,_Pennsylvania"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "15-year",
+                "relevance": 0.258011,
+                "type": "Quantity"
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "County prosecutors"
+                },
+                "sentence": "County prosecutors are seeking to prohibit Reynaldo Mercado from claiming to a",
+                "object": {
+                    "text": "to prohibit Reynaldo Mercado"
+                },
+                "action": {
+                    "verb": {
+                        "text": "seek",
+                        "tense": "present"
+                    },
+                    "text": "seeking",
+                    "normalized": "seek"
+                }
+            },
+            {
+                "subject": {
+                    "text": "County prosecutors"
+                },
+                "sentence": "County prosecutors are seeking to prohibit Reynaldo Mercado from claiming to a",
+                "object": {
+                    "text": "Reynaldo Mercado"
+                },
+                "action": {
+                    "verb": {
+                        "text": "prohibit",
+                        "tense": "future"
+                    },
+                    "text": "are seeking to prohibit",
+                    "normalized": "be seek to prohibit"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Reynaldo Mercado"
+                },
+                "sentence": "County prosecutors are seeking to prohibit Reynaldo Mercado from claiming to a",
+                "object": {
+                    "text": "to a"
+                },
+                "action": {
+                    "verb": {
+                        "text": "claim",
+                        "tense": "present"
+                    },
+                    "text": "claiming",
+                    "normalized": "claim"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mercado, 33, of Wilkes-Barre,"
+                },
+                "sentence": " Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration",
+                "object": {
+                    "text": "accused of murdering Boote in collaboration"
+                },
+                "action": {
+                    "verb": {
+                        "text": "be",
+                        "tense": "present"
+                    },
+                    "text": "is",
+                    "normalized": "be"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mercado, 33, of Wilkes-Barre,"
+                },
+                "sentence": " Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration",
+                "object": {
+                    "text": "of murdering Boote in collaboration"
+                },
+                "action": {
+                    "verb": {
+                        "text": "accuse",
+                        "tense": "past"
+                    },
+                    "text": "is accused",
+                    "normalized": "be accuse"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Mercado, 33, of Wilkes-Barre,"
+                },
+                "sentence": " Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration",
+                "object": {
+                    "text": "in collaboration"
+                },
+                "action": {
+                    "verb": {
+                        "text": "murder",
+                        "tense": "future"
+                    },
+                    "text": "murdering",
+                    "normalized": "murder"
+                }
+            },
+            {
+                "subject": {
+                    "text": "Louisa Reyes"
+                },
+                "sentence": " with his 15-year-old girlfriend, Louisa Reyes, who is being tried as an adult",
+                "object": {
+                    "text": "as an adult"
+                },
+                "action": {
+                    "verb": {
+                        "text": "try",
+                        "tense": "past"
+                    },
+                    "text": "is being tried",
+                    "normalized": "be be try"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.801032,
+                "label": "/society/crime/personal offense/homicide"
+            },
+            {
+                "score": 0.624865,
+                "label": "/law, govt and politics"
+            },
+            {
+                "score": 0.58645,
+                "label": "/society/crime/sexual offence/rape"
+            }
+        ],
+        "relations": [
+            {
+                "type": "employedBy",
+                "sentence": "County prosecutors are seeking to prohibit Reynaldo Mercado from claiming to a jury that the brutal death of Fred Boote was the result of self-defense.",
+                "score": 0.936134,
+                "arguments": [
+                    {
+                        "text": "prosecutors",
+                        "location": [
+                            7,
+                            18
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "prosecutors"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "County",
+                        "location": [
+                            0,
+                            6
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "County"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration with his 15-year-old girlfriend, Louisa Reyes, who is being tried as an adult in the case.",
+                "score": 0.989887,
+                "arguments": [
+                    {
+                        "text": "Mercado",
+                        "location": [
+                            152,
+                            159
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reynaldo Mercado"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "33",
+                        "location": [
+                            161,
+                            163
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "33"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "residesIn",
+                "sentence": "Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration with his 15-year-old girlfriend, Louisa Reyes, who is being tried as an adult in the case.",
+                "score": 0.95709,
+                "arguments": [
+                    {
+                        "text": "Mercado",
+                        "location": [
+                            152,
+                            159
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reynaldo Mercado"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Wilkes-Barre",
+                        "location": [
+                            168,
+                            180
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "Wilkes-Barre"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration with his 15-year-old girlfriend, Louisa Reyes, who is being tried as an adult in the case.",
+                "score": 0.65468,
+                "arguments": [
+                    {
+                        "text": "Mercado",
+                        "location": [
+                            152,
+                            159
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reynaldo Mercado"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "accused",
+                        "location": [
+                            185,
+                            192
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "accused"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration with his 15-year-old girlfriend, Louisa Reyes, who is being tried as an adult in the case.",
+                "score": 0.96154,
+                "arguments": [
+                    {
+                        "text": "Mercado",
+                        "location": [
+                            152,
+                            159
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Reynaldo Mercado"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "murdering",
+                        "location": [
+                            196,
+                            205
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "murdering"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "diedOf",
+                "sentence": "Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration with his 15-year-old girlfriend, Louisa Reyes, who is being tried as an adult in the case.",
+                "score": 0.388431,
+                "arguments": [
+                    {
+                        "text": "Boote",
+                        "location": [
+                            206,
+                            211
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Fred Boote"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "murdering",
+                        "location": [
+                            196,
+                            205
+                        ],
+                        "entities": [
+                            {
+                                "type": "Crime",
+                                "text": "murdering"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration with his 15-year-old girlfriend, Louisa Reyes, who is being tried as an adult in the case.",
+                "score": 0.426079,
+                "arguments": [
+                    {
+                        "text": "Boote",
+                        "location": [
+                            206,
+                            211
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Fred Boote"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "case",
+                        "location": [
+                            314,
+                            318
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "case"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "hasAttribute",
+                "sentence": "Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration with his 15-year-old girlfriend, Louisa Reyes, who is being tried as an adult in the case.",
+                "score": 0.913166,
+                "arguments": [
+                    {
+                        "text": "girlfriend",
+                        "location": [
+                            250,
+                            260
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Louisa Reyes"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "15-year-old",
+                        "location": [
+                            238,
+                            249
+                        ],
+                        "entities": [
+                            {
+                                "type": "Age",
+                                "text": "15-year-old"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "affectedBy",
+                "sentence": "Mercado, 33, of Wilkes-Barre, is accused of murdering Boote in collaboration with his 15-year-old girlfriend, Louisa Reyes, who is being tried as an adult in the case.",
+                "score": 0.720142,
+                "arguments": [
+                    {
+                        "text": "who",
+                        "location": [
+                            276,
+                            279
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Louisa Reyes"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "case",
+                        "location": [
+                            314,
+                            318
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventLegal",
+                                "text": "case"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "County prosecutors",
+                "relevance": 0.939282,
+                "count": 1
+            },
+            {
+                "text": "15-year-old girlfriend",
+                "relevance": 0.819214,
+                "count": 1
+            },
+            {
+                "text": "Wilkes-Barre",
+                "relevance": 0.817979,
+                "count": 1
+            },
+            {
+                "text": "Reynaldo Mercado",
+                "relevance": 0.776714,
+                "count": 1
+            },
+            {
+                "text": "brutal death of Fred Boote",
+                "relevance": 0.685368,
+                "count": 1
+            },
+            {
+                "text": "jury",
+                "relevance": 0.608279,
+                "count": 1
+            },
+            {
+                "text": "Mercado",
+                "relevance": 0.555315,
+                "count": 1
+            },
+            {
+                "text": "case",
+                "relevance": 0.520368,
+                "count": 1
+            },
+            {
+                "text": "adult",
+                "relevance": 0.520368,
+                "count": 1
+            },
+            {
+                "text": "collaboration",
+                "relevance": 0.520368,
+                "count": 1
+            },
+            {
+                "text": "Louisa Reyes",
+                "relevance": 0.44169,
+                "count": 1
+            },
+            {
+                "text": "result of self-defense",
+                "relevance": 0.425822,
+                "count": 1
+            },
+            {
+                "text": "Boote",
+                "relevance": 0.250719,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "7c2a568405b20a913b8d2011cec3feb0203084b3",
+        "filename": "202006050422AMSPIDERNEWS_____CITVOI01_7F760ACDED72E2D12A1BE2427D4B5FD9_3.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T04:22:00-04:00",
+    "title": "Prosecutors want self-defense claim blocked in Wilkes-Barre murder case [Citizens' Voice, The (Wilkes-Barre, PA)]",
+    "html": "<p>County prosecutors are seeking to prohibit <person>Reynaldo Mercado</person> from claiming to a jury that the brutal death of <person>Fred Boote</person> was the result of self-defense. Mercado, 33, of <location idsrc=\"xmltag.org\" value=\"LU/us.pa.wilrre\">Wilkes-Barre</location>, is accused of murdering Boote in collaboration with his 15-year-old girlfriend, <person>Louisa Reyes</person>, who is being tried as an adult in the case.</p>",
+    "geoFocus": []
+}

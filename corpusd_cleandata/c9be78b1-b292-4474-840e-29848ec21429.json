@@ -1,0 +1,472 @@
+{
+    "id": "c9be78b1-b292-4474-840e-29848ec21429",
+    "result_metadata": {
+        "score": 1
+    },
+    "copyright": "",
+    "geoOrigin": "",
+    "sourceType": "",
+    "source": "",
+    "corpus_document_id": "2295089587615009892",
+    "description": "Protesters particularly in cities that have struggled to control the novel coronavirus should \"highly consider\" getting tested for COVID-19, the illness caused by the virus, a top U.S. health official said on Thursday.",
+    "serviceName": "Health Pharma News",
+    "locationCode": [
+        {
+            "parent": "LR/am",
+            "relevance_score": "9",
+            "description": "North America",
+            "code": "LB/nam#9#49#90",
+            "level": 1
+        },
+        {
+            "parent": "LB/nam",
+            "relevance_score": "9",
+            "description": "United States",
+            "code": "LC/us#9#90#49",
+            "level": 2
+        },
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Americas",
+            "code": "LR/am#9#49#90",
+            "level": 0
+        },
+        {
+            "code": "LR/nam#9#49#90",
+            "description": "",
+            "relevance_score": "9"
+        }
+    ],
+    "sourceClass": "",
+    "subjectCode": [
+        {
+            "parent": null,
+            "relevance_score": "9",
+            "description": "Health and Wellness",
+            "code": "IS/haw#9#50#99",
+            "level": 0
+        },
+        {
+            "parent": "IS/haw.virology",
+            "relevance_score": "9",
+            "description": "Coronavirus Diseases",
+            "code": "IS/haw.coronavi#9#99#99",
+            "level": 4
+        },
+        {
+            "parent": "IS/haw.coronavi",
+            "relevance_score": "9",
+            "description": "COVID-19 Novel Coronavirus",
+            "code": "IS/haw.covid19#9#99#50",
+            "level": 5
+        },
+        {
+            "parent": "IS/haw",
+            "relevance_score": "9",
+            "description": "Medical Disorders and Diseases",
+            "code": "IS/haw.disease#9#50#99",
+            "level": 1
+        }
+    ],
+    "text": "Protesters particularly in cities that have struggled to control the novel\ncoronavirus should \"highly consider\" getting tested for COVID-19, the illness\ncaused by the virus, a top U.S. health official said on Thursday. (Source:\nReuters: Health)",
+    "industryCode": [],
+    "naviga_enrichment": {
+        "org": [],
+        "location": [
+            "U.S."
+        ],
+        "person": [],
+        "companies": []
+    },
+    "geoOrigin_code": "",
+    "language": "en",
+    "filename": "202006050126AMSPIDERHEPHNEWS_MEDWRM04_57F44C64A5604EFE768B5E02A9018873_82.XML",
+    "providerName": "Acquire Media Spider",
+    "enriched_text": {
+        "entities": [
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "coronavirus",
+                "relevance": 0.887791,
+                "type": "Person"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "Reuters",
+                "relevance": 0.736835,
+                "type": "Company",
+                "disambiguation": {
+                    "subtype": [],
+                    "name": "Reuters",
+                    "dbpedia_resource": "http://dbpedia.org/resource/Reuters"
+                }
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "official",
+                "relevance": 0.412957,
+                "type": "JobTitle"
+            },
+            {
+                "count": 1,
+                "sentiment": {
+                    "score": 0,
+                    "label": "neutral"
+                },
+                "text": "U.S.",
+                "relevance": 0.298813,
+                "type": "Location",
+                "disambiguation": {
+                    "subtype": [
+                        "Region",
+                        "AdministrativeDivision",
+                        "GovernmentalJurisdiction",
+                        "FilmEditor",
+                        "Country"
+                    ],
+                    "name": "United States",
+                    "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+                }
+            }
+        ],
+        "semantic_roles": [
+            {
+                "subject": {
+                    "text": "Protesters particularly in cities"
+                },
+                "sentence": "Protesters particularly in cities that have struggled to control the novel",
+                "object": {
+                    "text": "to control the novel"
+                },
+                "action": {
+                    "verb": {
+                        "text": "struggle",
+                        "tense": "past"
+                    },
+                    "text": "struggled",
+                    "normalized": "struggle"
+                }
+            },
+            {
+                "subject": {
+                    "text": "cities"
+                },
+                "sentence": "Protesters particularly in cities that have struggled to control the novel",
+                "object": {
+                    "text": "the novel"
+                },
+                "action": {
+                    "verb": {
+                        "text": "control",
+                        "tense": "future"
+                    },
+                    "text": "have struggled to control",
+                    "normalized": "have struggle to control"
+                }
+            },
+            {
+                "subject": {
+                    "text": "coronavirus"
+                },
+                "sentence": " coronavirus should \"highly consider\" getting tested for COVID-19, the illness",
+                "object": {
+                    "text": "getting tested for COVID-19, the illness"
+                },
+                "action": {
+                    "verb": {
+                        "text": "consider",
+                        "tense": "future"
+                    },
+                    "text": "consider",
+                    "normalized": "consider"
+                }
+            },
+            {
+                "subject": {
+                    "text": "coronavirus"
+                },
+                "sentence": " coronavirus should \"highly consider\" getting tested for COVID-19, the illness",
+                "action": {
+                    "verb": {
+                        "text": "test",
+                        "tense": "past"
+                    },
+                    "text": "getting tested",
+                    "normalized": "get test"
+                }
+            }
+        ],
+        "categories": [
+            {
+                "score": 0.927431,
+                "label": "/health and fitness/men's health"
+            },
+            {
+                "score": 0.78953,
+                "label": "/health and fitness/disease/epidemic"
+            },
+            {
+                "score": 0.764754,
+                "label": "/health and fitness/disease/cold and flu"
+            }
+        ],
+        "relations": [
+            {
+                "type": "residesIn",
+                "sentence": "Protesters particularly in cities that have struggled to control the novel coronavirus should \"highly consider\" getting tested for COVID-19, the illness caused by the virus, a top U.S. health official said on Thursday.",
+                "score": 0.784047,
+                "arguments": [
+                    {
+                        "text": "Protesters",
+                        "location": [
+                            0,
+                            10
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "Protesters"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "cities",
+                        "location": [
+                            27,
+                            33
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "cities"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "partOf",
+                "sentence": "Protesters particularly in cities that have struggled to control the novel coronavirus should \"highly consider\" getting tested for COVID-19, the illness caused by the virus, a top U.S. health official said on Thursday.",
+                "score": 0.981877,
+                "arguments": [
+                    {
+                        "text": "health",
+                        "location": [
+                            185,
+                            191
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "health",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "text": "U.S.",
+                        "location": [
+                            180,
+                            184
+                        ],
+                        "entities": [
+                            {
+                                "type": "GeopoliticalEntity",
+                                "text": "U.S.",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Country"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "employedBy",
+                "sentence": "Protesters particularly in cities that have struggled to control the novel coronavirus should \"highly consider\" getting tested for COVID-19, the illness caused by the virus, a top U.S. health official said on Thursday.",
+                "score": 0.81858,
+                "arguments": [
+                    {
+                        "text": "official",
+                        "location": [
+                            192,
+                            200
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "official"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "health",
+                        "location": [
+                            185,
+                            191
+                        ],
+                        "entities": [
+                            {
+                                "type": "Organization",
+                                "text": "health",
+                                "disambiguation": {
+                                    "subtype": [
+                                        "Government"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "agentOf",
+                "sentence": "Protesters particularly in cities that have struggled to control the novel coronavirus should \"highly consider\" getting tested for COVID-19, the illness caused by the virus, a top U.S. health official said on Thursday.",
+                "score": 0.949109,
+                "arguments": [
+                    {
+                        "text": "official",
+                        "location": [
+                            192,
+                            200
+                        ],
+                        "entities": [
+                            {
+                                "type": "Person",
+                                "text": "official"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            201,
+                            205
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "timeOf",
+                "sentence": "Protesters particularly in cities that have struggled to control the novel coronavirus should \"highly consider\" getting tested for COVID-19, the illness caused by the virus, a top U.S. health official said on Thursday.",
+                "score": 0.98643,
+                "arguments": [
+                    {
+                        "text": "Thursday",
+                        "location": [
+                            209,
+                            217
+                        ],
+                        "entities": [
+                            {
+                                "type": "Date",
+                                "text": "Thursday"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "said",
+                        "location": [
+                            201,
+                            205
+                        ],
+                        "entities": [
+                            {
+                                "type": "EventCommunication",
+                                "text": "said"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "text": "top U.S. health official",
+                "relevance": 0.900151,
+                "count": 1
+            },
+            {
+                "text": "Protesters",
+                "relevance": 0.635184,
+                "count": 1
+            },
+            {
+                "text": "virus",
+                "relevance": 0.608215,
+                "count": 1
+            },
+            {
+                "text": "cities",
+                "relevance": 0.57438,
+                "count": 1
+            },
+            {
+                "text": "Reuters",
+                "relevance": 0.543922,
+                "count": 1
+            },
+            {
+                "text": "Source",
+                "relevance": 0.533743,
+                "count": 1
+            },
+            {
+                "text": "illness",
+                "relevance": 0.533743,
+                "count": 1
+            },
+            {
+                "text": "Health",
+                "relevance": 0.530085,
+                "count": 1
+            },
+            {
+                "text": "COVID-19",
+                "relevance": 0.42057,
+                "count": 1
+            },
+            {
+                "text": "Thursday",
+                "relevance": 0.413586,
+                "count": 1
+            }
+        ]
+    },
+    "freqeuncy": "",
+    "extracted_metadata": {
+        "sha1": "1c3792d8d5be35571709d954f5747db3c886e64f",
+        "filename": "202006050126AMSPIDERHEPHNEWS_MEDWRM04_57F44C64A5604EFE768B5E02A9018873_82.json",
+        "file_type": "json"
+    },
+    "companyRecord": "",
+    "publicationTime": "2020-06-05T01:26:00-04:00",
+    "title": "Protesters should 'highly consider' getting COVID-19 tests, U.S. official says [MedWorm News]",
+    "html": "<p>Protesters particularly in cities that have struggled to control the novel coronavirus should \"highly consider\" getting tested for COVID-19, the illness caused by the virus, a top <location idsrc=\"xmltag.org\" value=\"LC/us\">U.S.</location> health official said on Thursday. (Source: Reuters: Health)</p>",
+    "geoFocus": []
+}
